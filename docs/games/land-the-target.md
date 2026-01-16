@@ -1,9 +1,26 @@
-# Land the Target (DRAFT)
-
-!!! warning "DRAFT - PENDING REVIEW"
-    This game is under development and needs review before publishing.
-
 ---
+title: Land the Target
+environment: open-space
+domain: striking
+focus: offensive
+difficulty: intermediate
+duration: medium
+min_players: 2
+equipment: gloves
+prerequisites:
+  concepts:
+    - three-zones
+    - confidence-rating
+  games: []
+tags:
+  - striking
+  - offense
+  - combinations
+  - target-selection
+  - misdirection
+---
+
+# Land the Target
 
 !!! info "Game Identity"
     - **Problem:** Learning to identify openings, construct combinations, and land predetermined targets
@@ -209,17 +226,27 @@ This mirrors real MMA: if you keep kicking someone's legs, they figure it out an
 
 ```mermaid
 flowchart LR
-    A[Defensive Skill Isolation] --> B[Close-Range Defense]
-    B --> C[Land the Target]
-    C --> D[Touch and Don't Get Touched]
+    subgraph Defensive["Defensive Track"]
+        A[Skill Isolation] --> B[Close-Range Defense]
+    end
+
+    subgraph Offensive["Offensive Track"]
+        C[Land the Target]
+    end
+
+    B --> D[Touch and Don't Get Touched]
+    C --> D
 
     style C fill:#FF5722,color:#fff
 ```
 
-- **Prerequisite games:** Close-Range Defense (defensive foundation)
-- **Prerequisite concepts:** Three Zones of Attack, Confidence Rating
-- **Follow-on games:** Touch and Don't Get Touched (adds counter-threat)
-- **Related concepts:** Three Zones, Confidence Rating, Misdirection Principle
+**Prerequisite concepts:** Three Zones of Attack (required), Confidence Rating (recommended)
+
+**Recommended experience:** Defensive skill isolation games (helps when playing defender role)
+
+**Follow-on games:** Touch and Don't Get Touched (adds counter-threat, combines offensive and defensive skills)
+
+**Related concepts:** Three Zones, Confidence Rating, Misdirection Principle
 
 ---
 

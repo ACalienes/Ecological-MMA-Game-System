@@ -1,196 +1,252 @@
 # System Map
 
-This page provides visual navigation of the entire game system.
+This page provides visual navigation of the entire game system, organized by Environment → Domain → Focus.
 
 ---
 
-## Complete Flowchart
+## Master Flowchart
 
 ```mermaid
 flowchart TD
-    subgraph SKILL_ISOLATION["SKILL ISOLATION"]
-        P[Parry the Straight<br/>Stage: Access]
-        TB[Tight Block<br/>Stage: Access]
-        SS[Slip the Straight<br/>Stage: Access]
-        EP[Evade the Punch<br/>Stage: Access]
+    subgraph SKILL_ISO["SKILL ISOLATION"]
+        subgraph SI_DEF["Defensive"]
+            P[Parry the Straight]
+            TB[Tight Block]
+            SS[Slip the Straight]
+            EP[Evade the Punch]
+        end
+        subgraph SI_OFF["Offensive"]
+            SIO[Coming Soon]
+        end
     end
 
-    subgraph STRIKING["OPEN SPACE - STRIKING"]
-        CRD[Close-Range Defense<br/>Stage: Access / Counter]
-        A[Touch and Don't Get Touched<br/>Stage: Access]
-        B[Winning the Circle<br/>Stage: Access]
-        PTT[Pressure to Takedown<br/>Stage: Access to Exploit]
+    subgraph OPEN_STRIKING["OPEN SPACE - STRIKING"]
+        subgraph OS_DEF["Defensive"]
+            CRD[Close-Range Defense]
+        end
+        subgraph OS_OFF["Offensive"]
+            LT[Land the Target]
+        end
+        subgraph OS_COM["Combined"]
+            TG[Touch Game]
+        end
     end
 
-    subgraph TRANSITION["TRANSITION"]
-        C[Boundary Trigger<br/>Stage: Access to Transition]
+    subgraph OPEN_WRESTLING["OPEN SPACE - WRESTLING"]
+        subgraph OW_OFF["Offensive"]
+            PTT[Pressure to Takedown]
+        end
+        subgraph OW_COM["Combined"]
+            WC[Winning the Circle]
+            BT[Boundary Trigger]
+            OST[Open Space Takedown]
+        end
     end
 
-    subgraph WALL["WALL ENVIRONMENT"]
-        D[Wall Control<br/>Stage: Stabilize]
-        E[Wall Escape<br/>Stage: Counter]
-        F[Wall to Ground<br/>Stage: Stabilize to Exploit]
-        G[Stand-Up Loop<br/>Stage: Counter and Stabilize]
+    subgraph WALL["WALL"]
+        subgraph W_OFF["Offensive"]
+            WCon[Wall Control]
+            WG[Wall to Ground]
+        end
+        subgraph W_DEF["Defensive"]
+            WE[Wall Escape]
+        end
+        subgraph W_COM["Combined"]
+            SUL[Stand-Up Loop]
+        end
     end
 
-    subgraph OPEN_GRAPPLING["OPEN SPACE - GRAPPLING"]
-        H[Open Space Takedown<br/>Stage: Stabilize to Exploit]
+    subgraph GROUND["GROUND"]
+        GRD[Coming Soon]
     end
 
-    subgraph CONCEPTS["CROSS-CUTTING CONCEPTS"]
-        DNS[DNS]
-        TKO[TKO Pin]
-        HC[Hand Controls]
-    end
-
+    %% Skill Isolation flows
     P --> CRD
     TB --> CRD
     SS --> EP
     EP --> CRD
-    CRD --> A
+
+    %% Offensive/Defensive convergence
+    CRD --> TG
+    LT --> TG
+
+    %% Open Space progression
+    TG --> WC
+    WC --> BT
+
+    %% Wrestling progression
+    BT --> WCon
+    BT --> OST
     CRD --> PTT
-    A --> B
-    B --> C
-    C --> D
-    C --> H
-    PTT --> D
-    PTT --> H
-    D --> E
-    D --> F
-    F --> G
+    WC --> PTT
+    PTT --> WCon
+    PTT --> OST
 
-    HC -.-> A
-    HC -.-> B
-    HC -.-> C
+    %% Wall progression
+    WCon --> WE
+    WCon --> WG
+    WG --> SUL
 
-    DNS -.-> D
-    DNS -.-> F
-    DNS -.-> H
+    %% To Ground
+    OST --> GRD
+    SUL --> GRD
 
-    TKO -.-> F
-    TKO -.-> G
-
-    click P "/games/parry-the-straight/"
-    click TB "/games/tight-block/"
-    click SS "/games/slip-the-straight/"
-    click EP "/games/evade-the-punch/"
-    click CRD "/games/close-range-defense/"
-    click A "/games/touch-game/"
-    click B "/games/winning-circle/"
-    click PTT "/games/pressure-to-takedown/"
-    click C "/games/boundary-trigger/"
-    click D "/games/wall-control/"
-    click E "/games/wall-escape/"
-    click F "/games/wall-to-ground/"
-    click G "/games/standup-loop/"
-    click H "/games/open-space-takedown/"
-    click HC "/concepts/hand-controls/"
-    click TKO "/concepts/tko-pin/"
-    click DNS "/concepts/tko-pin/"
-
-    style P fill:#8BC34A,color:#fff
-    style TB fill:#8BC34A,color:#fff
-    style SS fill:#8BC34A,color:#fff
-    style EP fill:#8BC34A,color:#fff
+    %% Styling by focus
+    style P fill:#4CAF50,color:#fff
+    style TB fill:#4CAF50,color:#fff
+    style SS fill:#4CAF50,color:#fff
+    style EP fill:#4CAF50,color:#fff
     style CRD fill:#4CAF50,color:#fff
-    style A fill:#4CAF50,color:#fff
+    style WE fill:#4CAF50,color:#fff
+
+    style LT fill:#FF5722,color:#fff
+    style PTT fill:#FF5722,color:#fff
+    style WCon fill:#FF5722,color:#fff
+    style WG fill:#FF5722,color:#fff
+
+    style TG fill:#9C27B0,color:#fff
+    style WC fill:#9C27B0,color:#fff
+    style BT fill:#9C27B0,color:#fff
+    style OST fill:#9C27B0,color:#fff
+    style SUL fill:#9C27B0,color:#fff
+
+    style SIO fill:#757575,color:#fff
+    style GRD fill:#757575,color:#fff
+```
+
+**Legend:**
+- Green = Defensive Focus
+- Orange = Offensive Focus
+- Purple = Combined Focus
+- Gray = Coming Soon
+
+---
+
+## Offensive/Defensive Convergence
+
+The system is built around the principle that offensive and defensive skills converge in combined games:
+
+```mermaid
+flowchart LR
+    subgraph Defensive["Defensive Track"]
+        A[Skill Isolation] --> B[Close-Range Defense]
+    end
+
+    subgraph Offensive["Offensive Track"]
+        C[Land the Target]
+    end
+
+    B --> D[Touch and Don't Get Touched]
+    C --> D
+    D --> E[Full Integration]
+
     style B fill:#4CAF50,color:#fff
-    style PTT fill:#9C27B0,color:#fff
-    style C fill:#FF9800,color:#fff
-    style D fill:#2196F3,color:#fff
-    style E fill:#2196F3,color:#fff
-    style F fill:#2196F3,color:#fff
-    style G fill:#2196F3,color:#fff
-    style H fill:#9C27B0,color:#fff
+    style C fill:#FF5722,color:#fff
+    style D fill:#9C27B0,color:#fff
 ```
 
 ---
 
-## Progression Pathways
+## Environment Pathways
 
-### Wall Pathway (Primary)
+### Striking Pathway
 
 ```mermaid
 flowchart LR
-    A[Touch] --> B[Circle] --> C[Boundary] --> D[Wall Control]
-    D --> E[Wall Escape]
-    D --> F[Wall→Ground] --> G[Stand-Up Loop]
+    A[Skill Isolation<br/>Parry, Block, Slip, Evade] --> B[Close-Range Defense]
+    C[Land the Target] --> D[Touch Game]
+    B --> D
+    D --> E[Winning the Circle]
 
     style A fill:#4CAF50,color:#fff
-    style D fill:#2196F3,color:#fff
-    style F fill:#2196F3,color:#fff
+    style B fill:#4CAF50,color:#fff
+    style C fill:#FF5722,color:#fff
+    style D fill:#9C27B0,color:#fff
 ```
 
-### Open Space Pathway
+### Wall Pathway
 
 ```mermaid
 flowchart LR
-    A[Touch] --> B[Circle] --> C[Boundary] --> D[Open Takedown]
-    D --> E[Ground games - pending]
+    A[Boundary Trigger] --> B[Wall Control]
+    B --> C[Wall Escape]
+    B --> D[Wall→Ground]
+    D --> E[Stand-Up Loop]
 
-    style A fill:#4CAF50,color:#fff
-    style D fill:#9C27B0,color:#fff
-    style E fill:#757575,color:#fff
+    style B fill:#FF5722,color:#fff
+    style C fill:#4CAF50,color:#fff
+    style D fill:#FF5722,color:#fff
+    style E fill:#9C27B0,color:#fff
+```
+
+### Open Space Wrestling Pathway
+
+```mermaid
+flowchart LR
+    A[Winning the Circle] --> B[Boundary Trigger]
+    B --> C[Open Space Takedown]
+    C --> D[Ground games]
+
+    style A fill:#9C27B0,color:#fff
+    style B fill:#9C27B0,color:#fff
+    style C fill:#9C27B0,color:#fff
+    style D fill:#757575,color:#fff
 ```
 
 ---
 
 ## Game Inventory
 
-| # | Game | Environment | Stage |
-|---|------|-------------|-------|
-| 1 | [Parry the Straight](../games/parry-the-straight.md) | Open Space | Access (Skill Isolation) |
-| 2 | [Tight Block](../games/tight-block.md) | Open Space | Access (Skill Isolation) |
-| 3 | [Slip the Straight](../games/slip-the-straight.md) | Open Space | Access (Skill Isolation) |
-| 4 | [Evade the Punch](../games/evade-the-punch.md) | Open Space | Access (Skill Integration) |
-| 5 | [Close-Range Defense](../games/close-range-defense.md) | Open Space | Access / Counter |
-| 6 | [Touch and Don't Get Touched](../games/touch-game.md) | Open Space | Access |
-| 7 | [Winning the Circle](../games/winning-circle.md) | Open Space | Access |
-| 8 | [Pressure to Takedown](../games/pressure-to-takedown.md) | Open Space | Access → Stabilize → Exploit |
-| 9 | [Boundary Trigger](../games/boundary-trigger.md) | Transition | Access → Transition |
-| 10 | [Wall Control](../games/wall-control.md) | Wall | Stabilize |
-| 11 | [Wall Escape](../games/wall-escape.md) | Wall | Counter |
-| 12 | [Wall → Ground](../games/wall-to-ground.md) | Wall → Ground | Stabilize → Exploit |
-| 13 | [Stand-Up Loop](../games/standup-loop.md) | Wall / Ground | Counter ↔ Stabilize |
-| 14 | [Open Space Takedown](../games/open-space-takedown.md) | Open Space | Stabilize → Exploit |
+### By Environment and Focus
+
+| # | Game | Environment | Domain | Focus | Difficulty |
+|---|------|-------------|--------|-------|------------|
+| 1 | [Parry the Straight](../games/parry-the-straight.md) | Skill Isolation | Striking | Defensive | Beginner |
+| 2 | [Tight Block](../games/tight-block.md) | Skill Isolation | Striking | Defensive | Beginner |
+| 3 | [Slip the Straight](../games/slip-the-straight.md) | Skill Isolation | Striking | Defensive | Beginner |
+| 4 | [Evade the Punch](../games/evade-the-punch.md) | Skill Isolation | Striking | Defensive | Intermediate |
+| 5 | [Close-Range Defense](../games/close-range-defense.md) | Open Space | Striking | Defensive | Intermediate |
+| 6 | [Land the Target](../games/land-the-target.md) | Open Space | Striking | Offensive | Intermediate |
+| 7 | [Touch and Don't Get Touched](../games/touch-game.md) | Open Space | Striking | Combined | Beginner |
+| 8 | [Winning the Circle](../games/winning-circle.md) | Open Space | Wrestling | Combined | Beginner |
+| 9 | [Boundary Trigger](../games/boundary-trigger.md) | Open Space | Wrestling | Combined | Intermediate |
+| 10 | [Pressure to Takedown](../games/pressure-to-takedown.md) | Open Space | Wrestling | Offensive | Advanced |
+| 11 | [Open Space Takedown](../games/open-space-takedown.md) | Open Space | Wrestling | Combined | Intermediate |
+| 12 | [Wall Control](../games/wall-control.md) | Wall | Wrestling | Offensive | Intermediate |
+| 13 | [Wall Escape](../games/wall-escape.md) | Wall | Wrestling | Defensive | Intermediate |
+| 14 | [Wall Pin to Ground](../games/wall-to-ground.md) | Wall | Wrestling | Offensive | Intermediate |
+| 15 | [Stand-Up Loop](../games/standup-loop.md) | Wall | Wrestling | Combined | Advanced |
 
 ---
 
-## Decision State Coverage
+## Focus Distribution
 
-=== "Access"
-    Games that teach engagement and connection:
+=== "Defensive"
+    Games where the defender is the primary learner:
 
-    - Parry the Straight (Skill Isolation)
-    - Tight Block (Skill Isolation)
-    - Slip the Straight (Skill Isolation)
-    - Evade the Punch (Skill Integration)
+    - Parry the Straight
+    - Tight Block
+    - Slip the Straight
+    - Evade the Punch
     - Close-Range Defense
+    - Wall Escape
+
+=== "Offensive"
+    Games where the attacker is the primary learner:
+
+    - Land the Target
+    - Pressure to Takedown
+    - Wall Control
+    - Wall Pin to Ground
+
+=== "Combined"
+    Games where both sides have active learning objectives:
+
     - Touch and Don't Get Touched
     - Winning the Circle
-    - Pressure to Takedown
     - Boundary Trigger
-
-=== "Stabilize"
-    Games that teach control establishment:
-
-    - Wall Control — Establish Pin
-    - Wall Pin → Ground Control
     - Open Space Takedown
-
-=== "Exploit"
-    Games where TKO Pin or damage becomes available:
-
-    - Wall → Ground (Level 3)
-    - Stand-Up Loop (TKO access)
-    - Open Space Takedown (Level 3)
-
-=== "Counter"
-    Games that teach defensive response:
-
-    - Close-Range Defense (Level 4-5)
-    - Wall Escape — Anti-Pin
-    - Stand-Up & Re-Pin Loop
+    - Stand-Up Loop
 
 ---
 
@@ -198,20 +254,28 @@ flowchart LR
 
 | Concept | Where It Appears | Function |
 |---------|------------------|----------|
-| [Hand Controls](../concepts/hand-controls.md) | Touch, Circle, Boundary | Bridges striking and clinch |
-| [DNS](../concepts/tko-pin.md) | Wall Control, Wall→Ground, Open Takedown | Punishes poor posture |
-| [TKO Pin](../concepts/tko-pin.md) | Wall→Ground, Stand-Up Loop | Exploitation endpoint |
+| [Three Zones](../concepts/three-zones.md) | Land the Target | Offensive target selection |
+| [Confidence Rating](../concepts/confidence-rating.md) | Land the Target, Skill Isolation | Commitment timing |
+| [Defensive Solutions](../concepts/defensive-solutions.md) | All skill isolation, Close-Range Defense | Defense selection |
+| [Hand Controls](../concepts/hand-controls.md) | Touch, Circle, Boundary, Pressure | Bridges striking and clinch |
+| [TKO Pin](../concepts/tko-pin.md) | Wall→Ground, Stand-Up Loop, Ground games | Exploitation endpoint |
 
 ---
 
-## Gaps (Future Development)
+## Development Roadmap
 
-!!! warning "Missing Components"
+| Area | Status | Priority |
+|------|--------|----------|
+| Offensive Skill Isolation | Planned | Medium |
+| Defensive Wrestling (Open Space) | Planned | Medium |
+| Ground - Offensive | Planned | High |
+| Ground - Defensive | Planned | High |
+| Ground - Combined | Planned | High |
+| Transitions | Planned | Medium |
 
-    | Gap | Priority |
-    |-----|----------|
-    | Ground-only games (start on ground) | High |
-    | Ground Escape game | High |
-    | TKO Pin dedicated game | Medium |
-    | Submission games | Medium |
-    | Shot entry game (takedown from distance) | Lower |
+See placeholder pages for conceptual frameworks.
+
+---
+
+!!! abstract "System Evolution Notice"
+    This map will be updated as new games are added to the system.

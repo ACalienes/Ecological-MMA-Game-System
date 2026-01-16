@@ -1,3 +1,24 @@
+---
+title: Open Space Takedown
+environment: open-space
+domain: wrestling
+focus: combined
+difficulty: intermediate
+duration: medium
+min_players: 2
+equipment: mats
+prerequisites:
+  concepts:
+    - tko-pin
+  games:
+    - boundary-trigger
+tags:
+  - takedowns
+  - clinch
+  - dns
+  - scrambles
+---
+
 # Open Space Control → Takedown
 
 !!! info "Game Identity"

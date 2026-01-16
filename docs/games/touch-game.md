@@ -1,3 +1,22 @@
+---
+title: Touch and Don't Get Touched
+environment: open-space
+domain: striking
+focus: combined
+difficulty: beginner
+duration: short
+min_players: 2
+equipment: none
+prerequisites:
+  concepts: []
+  games: []
+tags:
+  - range
+  - timing
+  - counter-striking
+  - foundational
+---
+
 # Touch and Don't Get Touched
 
 !!! info "Game Identity"

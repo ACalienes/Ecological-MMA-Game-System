@@ -1,3 +1,23 @@
+---
+title: Slip the Straight
+environment: skill-isolation
+domain: striking
+focus: defensive
+difficulty: beginner
+duration: short
+min_players: 2
+equipment: gloves
+prerequisites:
+  concepts:
+    - defensive-solutions
+  games: []
+tags:
+  - slipping
+  - head-movement
+  - evasion
+  - skill-isolation
+---
+
 # Slip the Straight
 
 !!! info "Game Identity"

@@ -1,3 +1,25 @@
+---
+title: Boundary Trigger
+environment: open-space
+domain: wrestling
+focus: combined
+difficulty: intermediate
+duration: short
+min_players: 2
+equipment:
+  - boundary-markers
+  - wall
+prerequisites:
+  concepts: []
+  games:
+    - winning-circle
+tags:
+  - clinch
+  - transition
+  - boundary-recognition
+  - space-control
+---
+
 # Winning the Circle — Boundary Trigger
 
 !!! info "Game Identity"

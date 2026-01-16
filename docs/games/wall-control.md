@@ -1,3 +1,26 @@
+---
+title: Wall Control - Establish Pin
+environment: wall
+domain: wrestling
+focus: offensive
+difficulty: intermediate
+duration: medium
+min_players: 2
+equipment:
+  - wall
+  - mats
+prerequisites:
+  concepts:
+    - tko-pin
+  games:
+    - boundary-trigger
+tags:
+  - wall
+  - pinning
+  - control
+  - grappling
+---
+
 # Wall Control — Establish the Pin
 
 !!! info "Game Identity"

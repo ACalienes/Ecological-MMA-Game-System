@@ -63,22 +63,41 @@ nav:
   - Games Library:
     - All Games: games/index.md
     - Skill Isolation:
-      - Parry the Straight: games/parry-the-straight.md
-      - Tight Block: games/tight-block.md
-      - Slip the Straight: games/slip-the-straight.md
-      - Evade the Punch: games/evade-the-punch.md
+      - Defensive:
+        - Parry the Straight: games/parry-the-straight.md
+        - Tight Block: games/tight-block.md
+        - Slip the Straight: games/slip-the-straight.md
+        - Evade the Punch: games/evade-the-punch.md
+      - Offensive: games/skill-isolation-offensive.md
     - Open Space:
-      - Close-Range Defense: games/close-range-defense.md
-      - Touch and Don't Get Touched: games/touch-game.md
-      - Winning the Circle: games/winning-circle.md
-      - Pressure to Takedown: games/pressure-to-takedown.md
-      - Boundary Trigger: games/boundary-trigger.md
-      - Open Space Takedown: games/open-space-takedown.md
+      - Striking:
+        - Defensive:
+          - Close-Range Defense: games/close-range-defense.md
+        - Offensive:
+          - Land the Target: games/land-the-target.md
+        - Combined:
+          - Touch and Don't Get Touched: games/touch-game.md
+      - Wrestling:
+        - Defensive: games/open-space-wrestling-defensive.md
+        - Offensive:
+          - Pressure to Takedown: games/pressure-to-takedown.md
+        - Combined:
+          - Winning the Circle: games/winning-circle.md
+          - Boundary Trigger: games/boundary-trigger.md
+          - Open Space Takedown: games/open-space-takedown.md
     - Wall:
-      - Wall Control - Establish Pin: games/wall-control.md
-      - Wall Escape - Anti-Pin: games/wall-escape.md
-      - Wall Pin to Ground: games/wall-to-ground.md
-      - Stand-Up & Re-Pin Loop: games/standup-loop.md
+      - Offensive:
+        - Wall Control - Establish Pin: games/wall-control.md
+        - Wall Pin to Ground: games/wall-to-ground.md
+      - Defensive:
+        - Wall Escape - Anti-Pin: games/wall-escape.md
+      - Combined:
+        - Stand-Up & Re-Pin Loop: games/standup-loop.md
+    - Ground:
+      - Offensive: games/ground-offensive.md
+      - Defensive: games/ground-defensive.md
+      - Combined: games/ground-combined.md
+    - Transitions: games/transitions.md
   - Concepts:
     - Confidence Rating: concepts/confidence-rating.md
     - Three Zones of Attack: concepts/three-zones.md
@@ -90,7 +109,11 @@ nav:
   - Coach Tools:
     - Safety & Intensity: tools/safety.md
     - Assessment Rubrics: tools/assessment.md
+    - Session Planning: tools/session-planning.md
     - Game Template: tools/template.md
+  - Reference:
+    - Prerequisite Map: reference/prerequisites.md
+    - FAQ & Troubleshooting: reference/faq.md
   - About:
     - Project Context: about/context.md
     - Design Rules: about/levels-vs-games.md

@@ -1,3 +1,25 @@
+---
+title: Stand-Up and Re-Pin Loop
+environment: wall
+domain: wrestling
+focus: combined
+difficulty: advanced
+duration: medium
+min_players: 2
+equipment:
+  - wall
+  - mats
+prerequisites:
+  concepts: []
+  games:
+    - wall-to-ground
+tags:
+  - wall
+  - stand-up
+  - cycles
+  - scrambles
+---
+
 # Wall Stand-Up & Re-Pin Loop
 
 !!! info "Game Identity"

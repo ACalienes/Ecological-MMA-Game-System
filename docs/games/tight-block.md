@@ -1,3 +1,23 @@
+---
+title: Tight Block
+environment: skill-isolation
+domain: striking
+focus: defensive
+difficulty: beginner
+duration: short
+min_players: 2
+equipment: gloves
+prerequisites:
+  concepts:
+    - defensive-solutions
+  games: []
+tags:
+  - blocking
+  - tight-guard
+  - shell-defense
+  - skill-isolation
+---
+
 # Tight Block
 
 !!! info "Game Identity"

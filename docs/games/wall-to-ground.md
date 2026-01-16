@@ -1,3 +1,26 @@
+---
+title: Wall Pin to Ground
+environment: wall
+domain: wrestling
+focus: offensive
+difficulty: intermediate
+duration: medium
+min_players: 2
+equipment:
+  - wall
+  - mats
+prerequisites:
+  concepts:
+    - tko-pin
+  games:
+    - wall-control
+tags:
+  - wall
+  - ground
+  - transition
+  - takedown
+---
+
 # Wall Pin → Ground Control
 
 !!! info "Game Identity"

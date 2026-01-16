@@ -1,3 +1,25 @@
+---
+title: Wall Escape - Anti-Pin
+environment: wall
+domain: wrestling
+focus: defensive
+difficulty: intermediate
+duration: medium
+min_players: 2
+equipment:
+  - wall
+  - mats
+prerequisites:
+  concepts: []
+  games:
+    - wall-control
+tags:
+  - wall
+  - escape
+  - frames
+  - defense
+---
+
 # Wall Escape — Anti-Pin
 
 !!! info "Game Identity"

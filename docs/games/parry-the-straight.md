@@ -1,3 +1,23 @@
+---
+title: Parry the Straight
+environment: skill-isolation
+domain: striking
+focus: defensive
+difficulty: beginner
+duration: short
+min_players: 2
+equipment: gloves
+prerequisites:
+  concepts:
+    - defensive-solutions
+  games: []
+tags:
+  - parrying
+  - straight-punches
+  - hand-defense
+  - skill-isolation
+---
+
 # Parry the Straight
 
 !!! info "Game Identity"

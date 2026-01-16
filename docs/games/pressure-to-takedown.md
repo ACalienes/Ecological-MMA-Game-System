@@ -1,3 +1,29 @@
+---
+title: Pressure to Takedown
+environment: open-space
+domain: wrestling
+focus: offensive
+difficulty: advanced
+duration: medium
+min_players: 2
+equipment:
+  - gloves
+  - shin-guards
+  - mats
+prerequisites:
+  concepts:
+    - tko-pin
+    - hand-controls
+  games:
+    - close-range-defense
+    - winning-circle
+tags:
+  - takedowns
+  - pressure
+  - distance-closure
+  - striking-to-grappling
+---
+
 # Pressure to Takedown
 
 !!! info "Game Identity"

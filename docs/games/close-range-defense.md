@@ -1,3 +1,25 @@
+---
+title: Close-Range Defense
+environment: open-space
+domain: striking
+focus: defensive
+difficulty: intermediate
+duration: medium
+min_players: 2
+equipment: gloves
+prerequisites:
+  concepts:
+    - defensive-solutions
+    - hand-controls
+  games:
+    - parry-the-straight
+tags:
+  - defense
+  - close-range
+  - multiple-solutions
+  - integration
+---
+
 # Close-Range Defense
 
 !!! info "Game Identity"

@@ -1,3 +1,23 @@
+---
+title: Winning the Circle
+environment: open-space
+domain: wrestling
+focus: combined
+difficulty: beginner
+duration: short
+min_players: 2
+equipment: boundary-markers
+prerequisites:
+  concepts: []
+  games:
+    - touch-game
+tags:
+  - footwork
+  - pressure
+  - space-control
+  - movement
+---
+
 # Winning the Circle
 
 !!! info "Game Identity"

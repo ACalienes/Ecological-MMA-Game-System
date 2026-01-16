@@ -1,3 +1,24 @@
+---
+title: Evade the Punch
+environment: skill-isolation
+domain: striking
+focus: defensive
+difficulty: intermediate
+duration: short
+min_players: 2
+equipment: gloves
+prerequisites:
+  concepts:
+    - defensive-solutions
+  games:
+    - slip-the-straight
+tags:
+  - evasion
+  - head-movement
+  - punch-recognition
+  - skill-isolation
+---
+
 # Evade the Punch
 
 !!! info "Game Identity"
