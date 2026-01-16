@@ -89,7 +89,7 @@ Every game **has** a Full MMA Expression level documented, but not every session
 1. **Check skill levels** — Mismatch may require intensity adjustment
 2. **Review constraints** — Are invariants being followed?
 3. **Adjust levels** — Drop to an easier level
-4. **Coach one side** — Give the losing side tactical cues
+4. **Add constraints** — Give the struggling side an advantage (e.g., attacker must pause between strikes)
 
 ### "Athletes are gaming the rules instead of developing skills"
 
