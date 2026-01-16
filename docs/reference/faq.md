@@ -99,7 +99,7 @@ Every game **has** a Full MMA Expression level documented, but not every session
 
 1. **Address mindset** — Reference the Training Mindset principle
 2. **Close the loophole** — Add or clarify invariants
-3. **Change the game** — Some games may not suit all athletes
+3. **Adjust the level** — The current level may be too easy or too hard
 4. **Discuss with athlete** — They may not realize what they're doing
 
 ### "Athletes get frustrated when they can't 'win'"
