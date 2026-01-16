@@ -135,6 +135,13 @@ Unlike wall scrambles, there is no structural assistance. Pure body mechanics de
     - Success = sustained hip/shoulder control (3+ seconds)
     - TKO pin threat becomes available
 
+=== "Level 4 — Full MMA Expression"
+    - Light strikes permitted during clinch and ground phases
+    - Attacker can use strikes to set up takedowns
+    - Defender can use strikes to create scramble opportunities
+    - Focus: Takedowns and control under realistic striking threat
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)

@@ -138,6 +138,14 @@ Success is evaluated by:
     - Creates angle for counter-attack or escape
     - Focus: Defensive footwork integration
 
+=== "Level 6 — Full MMA Expression"
+    - Attacker can throw strikes AND shoot or establish clinch
+    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
+    - Defender must defend strikes AND deny grappling entry
+    - Focus: Full defensive toolkit under realistic MMA pressure
+    - Shelling up without posture awareness creates takedown opportunities
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)

@@ -157,7 +157,13 @@ The objective is **skill development**, not competition.
 === "Level 5 — Counter After Slip"
     - After successful slip, defender can throw one counter punch
     - Teaches slip as setup for offense
-    - Attacker must respect the counter
+
+=== "Level 6 — Full MMA Expression"
+    - Attacker can throw straights AND shoot or establish clinch
+    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
+    - Defender must slip effectively AND deny grappling entry
+    - Focus: Slipping while remaining aware of all threats
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
 
 ---
 

@@ -126,6 +126,14 @@ Multiple win conditions reflect the cyclical nature of the position.
     - Reversal = defender now has attacker pinned
     - Highest difficulty — requires reading attacker's balance
 
+=== "Level 4 — Full MMA Expression"
+    - Light strikes permitted for both players
+    - Attacker uses strikes to discourage stand-up and re-establish control
+    - Defender uses strikes to create stand-up opportunities
+    - Ground-and-pound threat makes positional cycling more urgent
+    - Focus: Wall stand-up dynamics under realistic striking pressure
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)

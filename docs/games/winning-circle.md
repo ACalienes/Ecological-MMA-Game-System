@@ -142,6 +142,14 @@ Typical round length: 60–90 seconds.
     - Stance switches and level changes permitted
     - Attacker learns to create false reads
 
+=== "Level 4 — Full MMA Expression"
+    - Moderate strike contact permitted (not just touch)
+    - Counter-striking fully allowed
+    - Attacker must manage space while respecting counter threat
+    - Defender can counter-attack to regain space
+    - Focus: Space control under realistic striking pressure
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)

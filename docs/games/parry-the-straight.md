@@ -143,6 +143,13 @@ The objective is **skill development**, not competition.
     - After successful parry, defender can throw one counter punch
     - Teaches parry as setup, not just survival
 
+=== "Level 6 — Full MMA Expression"
+    - Attacker can throw straights AND shoot or establish clinch
+    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
+    - Defender must parry effectively AND deny grappling entry
+    - Focus: Parrying while remaining aware of all threats
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Safety

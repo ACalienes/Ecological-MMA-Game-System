@@ -192,6 +192,18 @@ This mirrors real MMA: if you keep kicking someone's legs, they figure it out an
     - Focus: Creating openings despite defender knowing your intention
     - This is the advanced challenge
 
+=== "Level 3 — Defender Counter Strikes"
+    - Defender can throw counter strikes after successful defense
+    - Attacker must respect counter threat while pursuing target
+    - Focus: Landing target while managing counter risk
+
+=== "Level 4 — Full MMA Expression"
+    - Defender can counter-strike AND use clinch as defensive response
+    - Defender can clinch to deny attacker's offense
+    - Attacker must land target while respecting counters and clinch denial
+    - Focus: Offensive striking under realistic MMA pressure
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Coach Notes

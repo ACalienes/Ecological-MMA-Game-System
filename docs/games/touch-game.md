@@ -154,6 +154,13 @@ Success is evaluated by:
     - Hands-connected clinch, level change, or leg connection counts as denial
     - Once denial is achieved, the exchange ends
 
+=== "Level 6 — Full MMA Expression"
+    - Takedown entry allowed as denial response (level change, shot)
+    - If clinch is established, brief continuation permitted
+    - Full MMA denial options: counter-touch, clinch, or takedown threat
+    - Focus: Complete denial toolkit under MMA reality
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)

@@ -127,6 +127,14 @@ The attacker's primary task is **denying rotation** while maintaining their own 
     - Pin must be re-established after strike threat
     - Introduces trade-off between control and damage
 
+=== "Level 4 — Full MMA Expression"
+    - Light strikes permitted for both players
+    - Attacker can use strikes to soften resistance and maintain pin
+    - Defender can use strikes to create escape opportunities
+    - Knee strikes available for attacker from control
+    - Focus: Wall control under realistic striking pressure
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)

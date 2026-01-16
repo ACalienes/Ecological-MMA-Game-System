@@ -156,6 +156,13 @@ The objective is **skill integration** — matching the defensive solution to th
     - May mix straights and hooks in same combo
     - Focus: Chaining evasions together
 
+=== "Level 6 — Full MMA Expression"
+    - Attacker can throw straights/hooks AND shoot or establish clinch
+    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
+    - Defender must evade effectively AND deny grappling entry
+    - Focus: Evasion while remaining aware of all threats
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)

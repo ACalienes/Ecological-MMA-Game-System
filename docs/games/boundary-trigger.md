@@ -112,6 +112,14 @@ Typical round length: 60–90 seconds.
     - Attacker must maintain clinch control
     - Defender may attempt immediate escape or reversal
 
+=== "Level 4 — Full MMA Expression"
+    - Moderate strike contact during pressure phase
+    - Once clinch is established, takedown attempts permitted
+    - Attacker wins by: boundary violation, clean clinch, OR takedown
+    - Defender can counter-strike during pressure phase
+    - Focus: Full transition sequence under realistic MMA pressure
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)

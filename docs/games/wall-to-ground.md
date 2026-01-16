@@ -123,6 +123,13 @@ Ground control is established when:
     - Strike threats become available
     - Introduces the exploitation layer
 
+=== "Level 4 — Full MMA Expression"
+    - Light strikes permitted throughout transition
+    - Attacker can use strikes to set up takedown and maintain control
+    - Defender can use strikes during scramble window
+    - Focus: Wall-to-ground transition under realistic striking pressure
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)

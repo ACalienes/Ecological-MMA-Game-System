@@ -129,6 +129,14 @@ Longer hold requirement reflects the disadvantaged starting position for defende
     - Reversal = defender now has attacker against wall
     - Highest difficulty — requires reading attacker's balance
 
+=== "Level 4 — Full MMA Expression"
+    - Light strikes permitted for both players
+    - Attacker can use strikes to maintain pin pressure
+    - Defender can use strikes to create escape opportunities
+    - Escape becomes more urgent under strike threat
+    - Focus: Wall escape under realistic striking pressure
+    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+
 ---
 
 ## Advanced Expressions (Coach Context)
