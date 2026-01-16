@@ -1,0 +1,105 @@
+site_name: Ecological MMA Games System
+site_description: A constraints-led, game-based training framework for MMA
+site_author: Ecological MMA
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - tables
+  - attr_list
+  - def_list
+  - md_in_html
+
+plugins:
+  - search
+  - tags
+
+nav:
+  - Home: index.md
+  - System Overview:
+    - Overview: system/overview.md
+    - System Map: system/map.md
+    - Glossary: system/glossary.md
+    - Tags & Taxonomy: system/taxonomy.md
+  - Games Library:
+    - All Games: games/index.md
+    - Skill Isolation:
+      - Parry the Straight: games/parry-the-straight.md
+      - Tight Block: games/tight-block.md
+      - Slip the Straight: games/slip-the-straight.md
+      - Evade the Punch: games/evade-the-punch.md
+    - Open Space:
+      - Close-Range Defense: games/close-range-defense.md
+      - Touch and Don't Get Touched: games/touch-game.md
+      - Winning the Circle: games/winning-circle.md
+      - Pressure to Takedown: games/pressure-to-takedown.md
+      - Boundary Trigger: games/boundary-trigger.md
+      - Open Space Takedown: games/open-space-takedown.md
+    - Wall:
+      - Wall Control - Establish Pin: games/wall-control.md
+      - Wall Escape - Anti-Pin: games/wall-escape.md
+      - Wall Pin to Ground: games/wall-to-ground.md
+      - Stand-Up & Re-Pin Loop: games/standup-loop.md
+  - Concepts:
+    - Confidence Rating: concepts/confidence-rating.md
+    - Three Zones of Attack: concepts/three-zones.md
+    - TKO Pin: concepts/tko-pin.md
+    - Defensive Solutions: concepts/defensive-solutions.md
+    - Hand Controls: concepts/hand-controls.md
+  - Principles:
+    - Training Mindset: principles/training-mindset.md
+  - Coach Tools:
+    - Safety & Intensity: tools/safety.md
+    - Assessment Rubrics: tools/assessment.md
+    - Game Template: tools/template.md
+  - About:
+    - Project Context: about/context.md
+    - Design Rules: about/levels-vs-games.md
+    - Change Log: about/changelog.md
+
+extra_javascript:
+  - javascripts/mermaid-init.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/
