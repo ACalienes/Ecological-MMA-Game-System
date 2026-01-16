@@ -12,7 +12,7 @@ The output is:
 
 - A structured **knowledge base** written in Markdown
 - Rendered as a navigable documentation site
-- Organized to scale into a **sellable product or curriculum**
+- Organized for **practical use in real training environments**
 
 !!! note "Key Distinction"
     The system is **game-based**, not technique-based. We are not cataloging moves. We are organizing **repeating MMA problems** and the environments that shape them.
@@ -86,7 +86,7 @@ The long-term goal is:
 - [x] Comprehensive ecological MMA curriculum
 - [x] Navigable via visual map
 - [x] Usable by coaches as reference and planning tool
-- [ ] Extensible into a commercial product
+- [ ] Complete coverage of all MMA environments and decision states
 
 ---
 
