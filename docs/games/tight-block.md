@@ -46,7 +46,7 @@ The objective is **skill development**, not competition.
 
 - Both players start in neutral standing position
 - Close quarters distance (striking range)
-- Roles are assigned; switch after 4 minutes
+- Roles are assigned; defender earns role switch through successful defense
 - Reset to neutral after each exchange
 
 ---
@@ -106,18 +106,23 @@ The objective is **skill development**, not competition.
 
 ## Win Conditions
 
-!!! warning "FLAGGED FOR REVIEW"
-    Win conditions for blocking games require different logic than parrying/slipping games. Blocking is survival-oriented rather than opportunity-creating.
+| Role | Win Condition |
+|------|---------------|
+| **Defender** | Absorb the attack sequence on guard (no clean contact to exposed targets) |
+| **Attacker** | Land a clean strike to head or body (not absorbed on arms/gloves) |
 
-    **Possible approaches:**
+**On defender win:** Roles switch — defender becomes attacker.
 
-    - Time-based: 4 minutes defensive, then switch roles (8 minute round)
-    - Combination-based: Absorb X combinations without getting hit clean
-    - Accumulation: First to land Y clean strikes wins
+**On attacker win:** Reset to neutral, same roles, attacker continues.
 
-    Needs further development to determine best gamification approach.
+The defender must **earn** the offensive position by proving they can block effectively.
 
-**Current structure:** 4 minutes per role, then switch. Success evaluated by percentage of strikes absorbed on guard.
+!!! tip "The Strategic Insight"
+    You don't need to perfectly block every strike. You can take some contact while reading the attacker's rhythm and adjusting your guard. When you successfully absorb a complete attack sequence without getting hit clean — that's the skill demonstration.
+
+    At higher levels (combinations), this means surviving the entire combination on your guard. One clean defensive success earns the role switch.
+
+**Duration:** Play until natural stopping point or time limit. Role switches keep both players engaged.
 
 ---
 
@@ -138,15 +143,18 @@ The objective is **skill development**, not competition.
     - No fixed reset requirement
     - Defender must stay ready
 
-=== "Level 4 — Two-Punch Combinations"
-    - Attacker throws 2-punch combos
+=== "Level 4 — Combinations"
+    - Attacker throws 2-4 punch combinations
     - Mix of straights and hooks
-    - Defender absorbs combinations
+    - Defender absorbs full combinations on guard
+    - Focus: Maintaining structure through sustained pressure
 
-=== "Level 5 — Longer Combinations"
-    - Attacker throws 3-4 punch combinations
-    - Defender maintains guard through extended pressure
-    - Focus: Composure under sustained fire
+=== "Level 5 — Full MMA Expression"
+    - Attacker throws combinations AND can shoot or establish clinch
+    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
+    - Defender must block effectively AND deny grappling entry
+    - Focus: Blocking while remaining aware of all threats
+    - This is the MMA reality: shelling up without posture creates takedown opportunities
 
 ---
 
