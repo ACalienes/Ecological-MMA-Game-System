@@ -68,36 +68,51 @@ nav:
         - Tight Block: games/tight-block.md
         - Slip the Straight: games/slip-the-straight.md
         - Evade the Punch: games/evade-the-punch.md
-      - Offensive: games/skill-isolation-offensive.md
+      - Offensive:
+        - Lead Hand Offense: games/lead-hand-offense.md
+        - Rear Hand Offense: games/rear-hand-offense.md
+        - Lead Leg Offense: games/lead-leg-offense.md
+        - Rear Leg Offense: games/rear-leg-offense.md
     - Open Space:
       - Striking:
         - Defensive:
           - Close-Range Defense: games/close-range-defense.md
         - Offensive:
           - Land the Target: games/land-the-target.md
+          - Sustained Offense: games/sustained-offense.md
         - Combined:
           - Touch and Don't Get Touched: games/touch-game.md
       - Wrestling:
-        - Defensive: games/open-space-wrestling-defensive.md
+        - Defensive:
+          - Takedown Defense: games/takedown-defense.md
+          - Clinch Denial: games/clinch-denial.md
         - Offensive:
           - Pressure to Takedown: games/pressure-to-takedown.md
+          - Pressure to Wall: games/pressure-to-wall.md
         - Combined:
           - Winning the Circle: games/winning-circle.md
           - Boundary Trigger: games/boundary-trigger.md
           - Open Space Takedown: games/open-space-takedown.md
     - Wall:
       - Offensive:
-        - Wall Control - Establish Pin: games/wall-control.md
-        - Wall Pin to Ground: games/wall-to-ground.md
+        - Wall Control: games/wall-control.md
+        - Wall to Ground: games/wall-to-ground.md
+        - Wall Grinding: games/wall-grinding.md
       - Defensive:
-        - Wall Escape - Anti-Pin: games/wall-escape.md
+        - Wall Escape: games/wall-escape.md
       - Combined:
-        - Stand-Up & Re-Pin Loop: games/standup-loop.md
+        - Stand-Up Loop: games/standup-loop.md
     - Ground:
-      - Offensive: games/ground-offensive.md
-      - Defensive: games/ground-defensive.md
-      - Combined: games/ground-combined.md
-    - Transitions: games/transitions.md
+      - Offensive:
+        - Ground Access: games/ground-access.md
+        - Ground Control: games/ground-control.md
+        - Ground Finish: games/ground-finish.md
+      - Defensive:
+        - Ground Escape: games/ground-escape.md
+        - Guard Recovery: games/guard-recovery.md
+        - Ground to Standing: games/ground-to-standing.md
+      - Combined:
+        - Positional Battle: games/positional-battle.md
   - Concepts:
     - Confidence Rating: concepts/confidence-rating.md
     - Three Zones of Attack: concepts/three-zones.md
