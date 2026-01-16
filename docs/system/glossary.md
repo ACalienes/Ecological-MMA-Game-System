@@ -65,6 +65,16 @@ DNS is allowed in most grappling games as a defensive tool, not as a primary obj
 
 ## Design Concepts
 
+### Full MMA Expression
+The highest level of any game where **cross-domain threats are added** while maintaining the game's core focus:
+
+- Striking games add grappling threats (shoot, clinch)
+- Wrestling games add striking threats
+
+This ensures skills are tested under realistic MMA pressure without overwhelming beginners with complexity.
+
+See: [Full MMA Expression Concept](../concepts/full-mma-expression.md)
+
 ### Representative Design
 Training that mimics the decision-making context of competition. The environment creates the learning, not verbal instruction.
 
@@ -141,6 +151,7 @@ Using bodyweight or momentum to force an opponent down without proper control. U
 
 | Term | Primary Document |
 |------|------------------|
+| Full MMA Expression | [Concept: Full MMA Expression](../concepts/full-mma-expression.md) |
 | TKO Pin | [Concept: TKO Pin](../concepts/tko-pin.md) |
 | DNS | [Concept: TKO Pin](../concepts/tko-pin.md) |
 | Hand Controls | [Concept: Hand Controls](../concepts/hand-controls.md) |

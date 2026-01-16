@@ -1,6 +1,19 @@
 # Games Library
 
-This is the complete catalog of training games in the Ecological MMA System.
+The complete catalog of training games in the Ecological MMA System.
+
+---
+
+## Quick Reference
+
+!!! tip "15 Games Across 4 Environments"
+
+    | Environment | Games | Focus |
+    |-------------|-------|-------|
+    | Skill Isolation | 4 | Single-skill development |
+    | Open Space | 7 | Standing engagement |
+    | Wall | 4 | Vertical constraint |
+    | Ground | Coming Soon | Horizontal constraint |
 
 ---
 
@@ -8,66 +21,91 @@ This is the complete catalog of training games in the Ecological MMA System.
 
 ```mermaid
 flowchart TD
-    subgraph SKILL_ISOLATION["🎯 SKILL ISOLATION"]
-        P[Parry the Straight<br/>Stage: Access]
-        TB[Tight Block<br/>Stage: Access]
-        SS[Slip the Straight<br/>Stage: Access]
-        EP[Evade the Punch<br/>Stage: Access]
+    subgraph SKILL_ISO["SKILL ISOLATION"]
+        P[Parry the Straight]
+        TB[Tight Block]
+        SS[Slip the Straight]
+        EP[Evade the Punch]
     end
 
-    subgraph STRIKING["🥊 OPEN SPACE — STRIKING"]
-        CRD[Close-Range Defense<br/>Stage: Access / Counter]
-        A[Touch and Don't Get Touched<br/>Stage: Access]
-        B[Winning the Circle<br/>Stage: Access]
-        PTT[Pressure to Takedown<br/>Stage: Access → Exploit]
+    subgraph OPEN_STRIKING["OPEN SPACE — STRIKING"]
+        CRD[Close-Range Defense]
+        LT[Land the Target]
+        TG[Touch Game]
     end
 
-    subgraph TRANSITION["🔄 TRANSITION"]
-        C[Boundary Trigger<br/>Stage: Access → Transition]
+    subgraph OPEN_WRESTLING["OPEN SPACE — WRESTLING"]
+        WC[Winning the Circle]
+        BT[Boundary Trigger]
+        PTT[Pressure to Takedown]
+        OST[Open Space Takedown]
     end
 
-    subgraph WALL["🧱 WALL ENVIRONMENT"]
-        D[Wall Control — Establish Pin<br/>Stage: Stabilize]
-        E[Wall Escape — Anti-Pin<br/>Stage: Counter]
-        F[Wall Pin → Ground<br/>Stage: Stabilize → Exploit]
-        G[Stand-Up & Re-Pin Loop<br/>Stage: Counter ↔ Stabilize]
+    subgraph WALL["WALL"]
+        WCon[Wall Control]
+        WE[Wall Escape]
+        WG[Wall to Ground]
+        SUL[Stand-Up Loop]
     end
 
-    subgraph OPEN_GRAPPLING["🤼 OPEN SPACE — GRAPPLING"]
-        H[Open Space Takedown<br/>Stage: Stabilize → Exploit]
+    subgraph GROUND["GROUND"]
+        GRD[Coming Soon]
     end
 
+    %% Skill Isolation flows
     P --> CRD
     TB --> CRD
     SS --> EP
     EP --> CRD
-    CRD --> A
-    CRD --> PTT
-    A --> B
-    B --> C
-    C --> D
-    C --> H
-    PTT --> D
-    PTT --> H
-    D --> E
-    D --> F
-    F --> G
 
-    style P fill:#8BC34A,color:#fff
-    style TB fill:#8BC34A,color:#fff
-    style SS fill:#8BC34A,color:#fff
-    style EP fill:#8BC34A,color:#fff
+    %% Offensive/Defensive convergence
+    CRD --> TG
+    LT --> TG
+
+    %% Open Space progression
+    TG --> WC
+    WC --> BT
+
+    %% Wrestling progression
+    BT --> WCon
+    BT --> OST
+    CRD --> PTT
+    WC --> PTT
+    PTT --> WCon
+    PTT --> OST
+
+    %% Wall progression
+    WCon --> WE
+    WCon --> WG
+    WG --> SUL
+
+    %% To Ground
+    OST --> GRD
+    SUL --> GRD
+
+    %% Styling by focus
+    style P fill:#4CAF50,color:#fff
+    style TB fill:#4CAF50,color:#fff
+    style SS fill:#4CAF50,color:#fff
+    style EP fill:#4CAF50,color:#fff
     style CRD fill:#4CAF50,color:#fff
-    style A fill:#4CAF50,color:#fff
-    style B fill:#4CAF50,color:#fff
-    style PTT fill:#9C27B0,color:#fff
-    style C fill:#FF9800,color:#fff
-    style D fill:#2196F3,color:#fff
-    style E fill:#2196F3,color:#fff
-    style F fill:#2196F3,color:#fff
-    style G fill:#2196F3,color:#fff
-    style H fill:#9C27B0,color:#fff
+    style WE fill:#4CAF50,color:#fff
+
+    style LT fill:#FF5722,color:#fff
+    style PTT fill:#FF5722,color:#fff
+    style WCon fill:#FF5722,color:#fff
+    style WG fill:#FF5722,color:#fff
+
+    style TG fill:#9C27B0,color:#fff
+    style WC fill:#9C27B0,color:#fff
+    style BT fill:#9C27B0,color:#fff
+    style OST fill:#9C27B0,color:#fff
+    style SUL fill:#9C27B0,color:#fff
+
+    style GRD fill:#757575,color:#fff
 ```
+
+**Legend:** Green = Defensive | Orange = Offensive | Purple = Combined | Gray = Coming Soon
 
 ---
 
@@ -75,102 +113,172 @@ flowchart TD
 
 ### Skill Isolation
 
-| Game | Stage | Core Problem |
-|------|-------|--------------|
-| [Parry the Straight](parry-the-straight.md) | Access | Learning to parry straight punches |
-| [Tight Block](tight-block.md) | Access | Learning to absorb strikes using tight guard |
-| [Slip the Straight](slip-the-straight.md) | Access | Learning to evade straight punches with head movement |
-| [Evade the Punch](evade-the-punch.md) | Access | Learning to match evasion type to punch type |
+Constrained games that develop single defensive skills in isolation.
 
-### Open Space (Striking)
+| Game | Focus | Difficulty | Core Problem |
+|------|-------|------------|--------------|
+| [Parry the Straight](parry-the-straight.md) | Defensive | Beginner | Deflect straight punches with hands |
+| [Tight Block](tight-block.md) | Defensive | Beginner | Absorb strikes using tight guard |
+| [Slip the Straight](slip-the-straight.md) | Defensive | Beginner | Evade straight punches with head movement |
+| [Evade the Punch](evade-the-punch.md) | Defensive | Intermediate | Match evasion type to punch type |
 
-| Game | Stage | Core Problem |
-|------|-------|--------------|
-| [Close-Range Defense](close-range-defense.md) | Access / Counter | Defending strikes at close range using multiple defensive solutions |
-| [Touch and Don't Get Touched](touch-game.md) | Access | Engagement literacy and range awareness |
-| [Winning the Circle](winning-circle.md) | Access | Space domination and pressure |
-| [Pressure to Takedown](pressure-to-takedown.md) | Access → Stabilize → Exploit | Closing distance with strikes to establish control and execute takedown |
+### Open Space — Striking
 
-### Transition
+Standing games focused on striking offense and defense.
 
-| Game | Stage | Core Problem |
-|------|-------|--------------|
-| [Boundary Trigger](boundary-trigger.md) | Access → Transition | Clinch permission recognition |
+| Game | Focus | Difficulty | Core Problem |
+|------|-------|------------|--------------|
+| [Close-Range Defense](close-range-defense.md) | Defensive | Intermediate | Layer multiple defensive solutions |
+| [Land the Target](land-the-target.md) | Offensive | Intermediate | Read defense, setup, land predetermined target |
+| [Touch and Don't Get Touched](touch-game.md) | Combined | Beginner | Range awareness and timing literacy |
+
+### Open Space — Wrestling
+
+Standing games focused on space control and takedowns.
+
+| Game | Focus | Difficulty | Core Problem |
+|------|-------|------------|--------------|
+| [Winning the Circle](winning-circle.md) | Combined | Beginner | Space domination through pressure |
+| [Boundary Trigger](boundary-trigger.md) | Combined | Intermediate | Recognize clinch opportunity at boundary |
+| [Pressure to Takedown](pressure-to-takedown.md) | Offensive | Advanced | Chain strikes to clinch to takedown |
+| [Open Space Takedown](open-space-takedown.md) | Combined | Intermediate | Execute takedowns without wall assistance |
 
 ### Wall
 
-| Game | Stage | Core Problem |
-|------|-------|--------------|
-| [Wall Control — Establish Pin](wall-control.md) | Stabilize | Vertical immobilization |
-| [Wall Escape — Anti-Pin](wall-escape.md) | Counter | Breaking wall control |
-| [Wall Pin → Ground](wall-to-ground.md) | Stabilize → Exploit | Vertical to horizontal transition |
-| [Stand-Up & Re-Pin Loop](standup-loop.md) | Counter ↔ Stabilize | Cyclical control/escape |
+Games where the wall is the dominant constraint.
 
-### Open Space (Grappling)
+| Game | Focus | Difficulty | Core Problem |
+|------|-------|------------|--------------|
+| [Wall Control](wall-control.md) | Offensive | Intermediate | Establish and maintain vertical pin |
+| [Wall Escape](wall-escape.md) | Defensive | Intermediate | Break pin and create space |
+| [Wall Pin to Ground](wall-to-ground.md) | Offensive | Intermediate | Transition from wall to ground control |
+| [Stand-Up Loop](standup-loop.md) | Combined | Advanced | Manage cyclical stand-up and re-pin dynamics |
 
-| Game | Stage | Core Problem |
-|------|-------|--------------|
-| [Open Space Takedown](open-space-takedown.md) | Stabilize → Exploit | Takedown from clinch without wall |
+### Ground
+
+*Coming Soon* — Ground-only games are in development.
+
+---
+
+## Games by Focus
+
+=== "Defensive"
+    Games where the defender is the primary learner:
+
+    | Game | Environment | What You Learn |
+    |------|-------------|----------------|
+    | [Parry the Straight](parry-the-straight.md) | Skill Isolation | Parrying mechanics and timing |
+    | [Tight Block](tight-block.md) | Skill Isolation | Absorbing strikes on guard |
+    | [Slip the Straight](slip-the-straight.md) | Skill Isolation | Head movement for straights |
+    | [Evade the Punch](evade-the-punch.md) | Skill Isolation | Punch recognition and evasion selection |
+    | [Close-Range Defense](close-range-defense.md) | Open Space | Layering defensive solutions |
+    | [Wall Escape](wall-escape.md) | Wall | Breaking pins and creating space |
+
+=== "Offensive"
+    Games where the attacker is the primary learner:
+
+    | Game | Environment | What You Learn |
+    |------|-------------|----------------|
+    | [Land the Target](land-the-target.md) | Open Space | Reading defense, setup, target selection |
+    | [Pressure to Takedown](pressure-to-takedown.md) | Open Space | Chaining strikes to takedowns |
+    | [Wall Control](wall-control.md) | Wall | Establishing and maintaining pins |
+    | [Wall Pin to Ground](wall-to-ground.md) | Wall | Controlled transitions to ground |
+
+=== "Combined"
+    Games where both sides have active learning objectives:
+
+    | Game | Environment | What You Learn |
+    |------|-------------|----------------|
+    | [Touch and Don't Get Touched](touch-game.md) | Open Space | Engagement literacy, counter-touching |
+    | [Winning the Circle](winning-circle.md) | Open Space | Pressure vs. evasion |
+    | [Boundary Trigger](boundary-trigger.md) | Transition | Recognizing domain change moments |
+    | [Open Space Takedown](open-space-takedown.md) | Open Space | Takedowns and scrambles |
+    | [Stand-Up Loop](standup-loop.md) | Wall | Positional cycling near the wall |
 
 ---
 
 ## Games by Decision State
 
 === "Access"
+    Games focused on connection and engagement:
 
-    - [Parry the Straight](parry-the-straight.md)
-    - [Tight Block](tight-block.md)
-    - [Slip the Straight](slip-the-straight.md)
-    - [Evade the Punch](evade-the-punch.md)
-    - [Close-Range Defense](close-range-defense.md)
+    - All Skill Isolation games
     - [Touch and Don't Get Touched](touch-game.md)
     - [Winning the Circle](winning-circle.md)
     - [Boundary Trigger](boundary-trigger.md)
-    - [Pressure to Takedown](pressure-to-takedown.md)
 
 === "Stabilize"
+    Games focused on control establishment:
 
-    - [Wall Control — Establish Pin](wall-control.md)
-    - [Wall Pin → Ground](wall-to-ground.md)
+    - [Wall Control](wall-control.md)
+    - [Wall Pin to Ground](wall-to-ground.md)
     - [Open Space Takedown](open-space-takedown.md)
 
 === "Exploit"
+    Games that progress to damage or advancement:
 
-    - [Wall Pin → Ground](wall-to-ground.md) (Level 3)
-    - [Stand-Up & Re-Pin Loop](standup-loop.md) (TKO Pin)
-    - [Open Space Takedown](open-space-takedown.md) (Level 3)
+    - Wall Pin to Ground (Level 3+)
+    - Stand-Up Loop (TKO Pin access)
+    - Open Space Takedown (Level 3+)
 
 === "Counter"
+    Games focused on defensive response:
 
-    - [Close-Range Defense](close-range-defense.md) (Level 4-5)
-    - [Wall Escape — Anti-Pin](wall-escape.md)
-    - [Stand-Up & Re-Pin Loop](standup-loop.md)
+    - [Close-Range Defense](close-range-defense.md) (Levels 4-6)
+    - [Wall Escape](wall-escape.md)
+    - [Stand-Up Loop](standup-loop.md)
+
+---
+
+## Full MMA Expression
+
+Every game has a highest level called **Full MMA Expression** where cross-domain threats are added:
+
+| Game Type | MMA Complication Added |
+|-----------|----------------------|
+| Striking games | Grappling threats (shoot, clinch) |
+| Wrestling games | Striking threats |
+
+This ensures skills are tested under realistic MMA pressure. See [Full MMA Expression](../concepts/full-mma-expression.md) for details.
 
 ---
 
 ## Progression Pathways
 
-### Path 1: Wall Pathway
+### Striking Track
 ```
-Touch Game → Circle → Boundary Trigger → Wall Control → Wall Escape
-                                              ↓
-                                        Wall → Ground → Stand-Up Loop
+Skill Isolation → Close-Range Defense → Land the Target → Touch Game
 ```
 
-### Path 2: Open Space Pathway
+### Space Control Track
 ```
-Touch Game → Circle → Boundary Trigger → Open Space Takedown → (Ground games pending)
+Touch Game → Winning the Circle → Boundary Trigger → Wall/Takedown games
+```
+
+### Wall Track
+```
+Boundary Trigger → Wall Control → Wall Escape
+                              → Wall to Ground → Stand-Up Loop
+```
+
+### Integration Track
+```
+Close-Range Defense + Winning the Circle → Pressure to Takedown
 ```
 
 ---
 
-## Coming Soon
+## Development Roadmap
 
-!!! warning "Gaps in Current System"
+| Area | Status | Priority |
+|------|--------|----------|
+| Offensive Skill Isolation | Planned | Medium |
+| Defensive Wrestling (Open Space) | Planned | Medium |
+| Ground - Offensive | Planned | High |
+| Ground - Defensive | Planned | High |
+| Ground - Combined | Planned | High |
 
-    | Gap | Description |
-    |-----|-------------|
-    | Ground-only games | No games currently start on ground |
-    | Ground Escape | Defensive counter to ground control |
-    | TKO Pin game | Dedicated exploitation game |
-    | Submission games | Submission-focused layer |
+---
+
+!!! abstract "System Evolution Notice"
+    This library will expand as new games are developed and tested.
