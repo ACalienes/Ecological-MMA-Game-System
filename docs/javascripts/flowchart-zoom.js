@@ -13,56 +13,79 @@ function initPanZoom() {
     return true;
   }
 
-  // Find all SVGs and analyze them
-  const allSvgs = document.querySelectorAll('svg');
-  let targetSvg = null;
+  // Debug: Look for mermaid elements and see what's inside them
+  const mermaidElements = document.querySelectorAll('.mermaid, pre.mermaid, div.mermaid, [class*="mermaid"]');
+  console.log('Pan-zoom: Found ' + mermaidElements.length + ' mermaid elements');
 
-  console.log('Pan-zoom: Found ' + allSvgs.length + ' SVGs on page');
+  mermaidElements.forEach(function(el, index) {
+    console.log('Mermaid #' + index + ': tagName=' + el.tagName + ', class=' + el.className);
+    const svg = el.querySelector('svg');
+    if (svg) {
+      const viewBox = svg.getAttribute('viewBox') || 'none';
+      console.log('  -> Has SVG inside! viewBox=' + viewBox);
+    } else {
+      console.log('  -> No SVG inside. innerHTML length=' + (el.innerHTML || '').length);
+    }
+  });
 
-  // Debug: log info about each SVG
-  allSvgs.forEach(function(svg, index) {
-    const width = svg.getAttribute('width') || svg.style.width || 'auto';
-    const height = svg.getAttribute('height') || svg.style.height || 'auto';
-    const viewBox = svg.getAttribute('viewBox') || 'none';
-    const childCount = svg.children.length;
-    const htmlSnippet = (svg.innerHTML || '').substring(0, 200);
+  // Also check for SVGs that might be siblings of mermaid elements
+  const allPreElements = document.querySelectorAll('pre');
+  console.log('Pan-zoom: Found ' + allPreElements.length + ' pre elements');
 
-    console.log('SVG #' + index + ': ' + width + 'x' + height + ', viewBox=' + viewBox + ', children=' + childCount);
+  // Look specifically for the master flowchart - it should be near our container
+  // Walk through siblings after the container
+  let sibling = container.nextElementSibling;
+  let searchCount = 0;
+  while (sibling && searchCount < 20) {
+    console.log('Sibling #' + searchCount + ': tagName=' + sibling.tagName + ', class=' + sibling.className);
 
-    // Look for the largest SVG by viewBox dimensions or child count
-    // The master flowchart should be significantly larger than icons
-    if (viewBox !== 'none') {
-      const parts = viewBox.split(' ');
-      if (parts.length === 4) {
-        const vbWidth = parseFloat(parts[2]);
-        const vbHeight = parseFloat(parts[3]);
-        // Master flowchart is very wide (>1000) due to LR layout
-        if (vbWidth > 500 && vbHeight > 200) {
-          console.log('Pan-zoom: SVG #' + index + ' looks like a large diagram (viewBox: ' + vbWidth + 'x' + vbHeight + ')');
-          if (!targetSvg) {
-            targetSvg = svg;
+    // Check if this sibling has an SVG
+    const svg = sibling.querySelector('svg');
+    if (svg) {
+      const viewBox = svg.getAttribute('viewBox') || 'none';
+      console.log('  -> Found SVG! viewBox=' + viewBox);
+
+      // Check if this is a large diagram (not an icon)
+      if (viewBox !== 'none') {
+        const parts = viewBox.split(' ');
+        if (parts.length === 4) {
+          const vbWidth = parseFloat(parts[2]);
+          const vbHeight = parseFloat(parts[3]);
+          if (vbWidth > 100 || vbHeight > 100) {
+            console.log('Pan-zoom: Found flowchart SVG in sibling!');
+            return setupPanZoom(container, svg, sibling);
           }
         }
       }
     }
-  });
 
-  if (!targetSvg) {
-    console.log('Pan-zoom: No large SVG found yet');
-    return false;
+    // Check if the sibling itself is an SVG
+    if (sibling.tagName === 'SVG' || sibling.tagName === 'svg') {
+      console.log('Pan-zoom: Sibling IS an SVG');
+      const viewBox = sibling.getAttribute('viewBox') || 'none';
+      if (viewBox !== 'none') {
+        const parts = viewBox.split(' ');
+        if (parts.length === 4 && parseFloat(parts[2]) > 100) {
+          return setupPanZoom(container, sibling, sibling.parentElement);
+        }
+      }
+    }
+
+    sibling = sibling.nextElementSibling;
+    searchCount++;
   }
 
-  console.log('Pan-zoom: Selected target SVG');
+  console.log('Pan-zoom: No flowchart found in siblings');
+  return false;
+}
 
-  // Get the parent element to hide it after we clone
-  const originalParent = targetSvg.parentElement;
-
+function setupPanZoom(container, svg, originalParent) {
   // Clone the SVG and append to container
-  const svgClone = targetSvg.cloneNode(true);
+  const svgClone = svg.cloneNode(true);
   container.appendChild(svgClone);
 
   // Hide the original diagram
-  if (originalParent) {
+  if (originalParent && originalParent !== container) {
     originalParent.style.display = 'none';
   }
 
@@ -98,44 +121,27 @@ function initPanZoom() {
     console.log('Pan-zoom: Initialized successfully');
 
     // Zoom controls
-    const zoomIn = document.getElementById('zoom-in');
-    const zoomOut = document.getElementById('zoom-out');
-    const zoomReset = document.getElementById('zoom-reset');
-    const zoomFit = document.getElementById('zoom-fit');
+    document.getElementById('zoom-in')?.addEventListener('click', function(e) {
+      e.preventDefault();
+      panZoomInstance.zoomIn();
+    });
 
-    if (zoomIn) {
-      zoomIn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        panZoomInstance.zoomIn();
-      });
-    }
+    document.getElementById('zoom-out')?.addEventListener('click', function(e) {
+      e.preventDefault();
+      panZoomInstance.zoomOut();
+    });
 
-    if (zoomOut) {
-      zoomOut.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        panZoomInstance.zoomOut();
-      });
-    }
+    document.getElementById('zoom-reset')?.addEventListener('click', function(e) {
+      e.preventDefault();
+      panZoomInstance.resetZoom();
+      panZoomInstance.center();
+    });
 
-    if (zoomReset) {
-      zoomReset.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        panZoomInstance.resetZoom();
-        panZoomInstance.center();
-      });
-    }
-
-    if (zoomFit) {
-      zoomFit.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        panZoomInstance.fit();
-        panZoomInstance.center();
-      });
-    }
+    document.getElementById('zoom-fit')?.addEventListener('click', function(e) {
+      e.preventDefault();
+      panZoomInstance.fit();
+      panZoomInstance.center();
+    });
 
     // Handle window resize
     let resizeTimeout;
@@ -173,13 +179,13 @@ function tryInitPanZoom(attempts, delay) {
 // Start trying after DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
   console.log('Pan-zoom: DOMContentLoaded fired');
-  tryInitPanZoom(20, 300);
+  tryInitPanZoom(30, 500); // Try up to 30 times, every 500ms (15 seconds total)
 });
 
 // Also try on full window load
 window.addEventListener('load', function() {
   console.log('Pan-zoom: window load fired');
   setTimeout(function() {
-    tryInitPanZoom(10, 500);
-  }, 500);
+    tryInitPanZoom(20, 500);
+  }, 1000);
 });
