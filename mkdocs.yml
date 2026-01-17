@@ -150,7 +150,6 @@ extra_css:
   - stylesheets/flowchart.css
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js
   - javascripts/mermaid-init.js
   - javascripts/flowchart-zoom.js
 

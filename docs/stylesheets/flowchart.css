@@ -1,81 +1,51 @@
-/* Pan/Zoom Flowchart Styles */
+/* Scrollable Flowchart Container */
 
 .flowchart-container {
     width: 100%;
-    height: 600px;
+    height: 500px;
     border: 1px solid var(--md-default-fg-color--lightest);
     border-radius: 8px;
-    overflow: hidden;
+    overflow: auto;
     background: var(--md-code-bg-color);
     position: relative;
     margin: 1rem 0;
+    padding: 1rem;
 }
 
+/* Make the SVG inside not constrained */
 .flowchart-container svg {
-    cursor: grab;
+    max-width: none !important;
+    height: auto !important;
+    min-width: 100%;
 }
 
-.flowchart-container svg:active {
-    cursor: grabbing;
+.flowchart-container .mermaid {
+    min-width: max-content;
 }
 
-.flowchart-controls {
+/* Scroll hint */
+.flowchart-hint {
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    margin-bottom: 0.5rem;
-    flex-wrap: wrap;
 }
 
-.flowchart-controls button {
-    width: 36px;
-    height: 36px;
-    border: 1px solid var(--md-default-fg-color--lightest);
-    border-radius: 4px;
-    background: var(--md-code-bg-color);
-    color: var(--md-default-fg-color);
+.flowchart-hint::before {
+    content: "↔";
     font-size: 1.2rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease;
-}
-
-.flowchart-controls button:hover {
-    background: var(--md-accent-fg-color);
-    color: var(--md-accent-bg-color);
-    border-color: var(--md-accent-fg-color);
-}
-
-.flowchart-controls button:active {
-    transform: scale(0.95);
-}
-
-.controls-hint {
-    font-size: 0.75rem;
-    color: var(--md-default-fg-color--light);
-    margin-left: 0.5rem;
 }
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     .flowchart-container {
-        height: 400px;
-    }
-
-    .controls-hint {
-        display: none;
+        height: 350px;
     }
 }
 
-/* Ensure Mermaid diagrams are visible */
-.flowchart-container .mermaid {
-    width: 100%;
-    height: 100%;
-}
-
-.flowchart-container .mermaid svg {
-    max-width: none !important;
-    height: 100% !important;
+/* Remove the old zoom controls styling - no longer needed */
+.flowchart-controls {
+    display: none;
 }

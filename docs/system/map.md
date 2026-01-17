@@ -6,13 +6,7 @@ This page provides visual navigation of the entire game system. All paths lead t
 
 ## Master Flowchart
 
-<div class="flowchart-controls">
-    <button id="zoom-in" title="Zoom In">+</button>
-    <button id="zoom-out" title="Zoom Out">−</button>
-    <button id="zoom-reset" title="Reset">⟲</button>
-    <button id="zoom-fit" title="Fit to View">⊡</button>
-    <span class="controls-hint">Scroll to zoom • Drag to pan • Double-click to zoom in</span>
-</div>
+<div class="flowchart-hint">Scroll inside the box to explore the full diagram</div>
 
 <div id="master-flowchart" class="flowchart-container"></div>
 
