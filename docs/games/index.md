@@ -53,6 +53,7 @@ Standing games focused on striking offense and defense.
 |------|-------|------------|--------------|
 | [Close-Range Defense](close-range-defense.md) | Defensive | Intermediate | Layer multiple defensive solutions |
 | [Evasive Movement](evasive-movement.md) | Defensive | Intermediate | Create distance through footwork |
+| [Counter-Striking](counter-striking.md) | Defensive | Intermediate | Punish initiation with strikes |
 | [Land the Target](land-the-target.md) | Offensive | Intermediate | Read defense, setup, land predetermined target |
 | [Sustained Offense](sustained-offense.md) | Offensive | Intermediate | Maintain rhythm through defensive attempts |
 | [Touch and Don't Get Touched](touch-game.md) | Combined | Beginner | Range awareness and timing literacy |
@@ -67,7 +68,6 @@ Games at the seam between striking and wrestling — handling domain changes.
 | Game | Focus | Difficulty | Core Problem |
 |------|-------|------------|--------------|
 | [Clinch Denial](clinch-denial.md) | Defensive | Intermediate | Prevent clinch establishment |
-| [Counter-Striking](counter-striking.md) | Defensive | Intermediate | Punish initiation with strikes |
 | [Counter-Wrestling](counter-wrestling.md) | Defensive | Intermediate | Use wrestling to stop striking pressure |
 | [Boundary Trigger](boundary-trigger.md) | Combined | Intermediate | Recognize clinch opportunity at boundary |
 

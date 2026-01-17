@@ -6,6 +6,16 @@ This page provides visual navigation of the entire game system. All paths lead t
 
 ## Master Flowchart
 
+<div class="flowchart-controls">
+    <button id="zoom-in" title="Zoom In">+</button>
+    <button id="zoom-out" title="Zoom Out">−</button>
+    <button id="zoom-reset" title="Reset">⟲</button>
+    <button id="zoom-fit" title="Fit to View">⊡</button>
+    <span class="controls-hint">Scroll to zoom • Drag to pan • Double-click to zoom in</span>
+</div>
+
+<div id="master-flowchart" class="flowchart-container" markdown="1">
+
 ```mermaid
 flowchart LR
     subgraph SKILL["SKILL ISOLATION"]
@@ -27,6 +37,7 @@ flowchart LR
         subgraph STR_DEF["Defensive"]
             CRD[Close-Range Defense]
             EM[Evasive Movement]
+            CS[Counter-Striking]
         end
         subgraph STR_OFF["Offensive"]
             LT[Land the Target]
@@ -41,7 +52,6 @@ flowchart LR
     subgraph TRANSITION["TRANSITION ZONE"]
         subgraph TR_DEF["Defensive"]
             CD[Clinch Denial]
-            CS[Counter-Striking]
             CW[Counter-Wrestling]
         end
         subgraph TR_COM["Combined"]
@@ -212,6 +222,8 @@ flowchart LR
     style TKO fill:#D32F2F,color:#fff
     style SUB fill:#D32F2F,color:#fff
 ```
+
+</div>
 
 **Legend:**
 

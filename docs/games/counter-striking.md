@@ -1,6 +1,6 @@
 ---
 title: Counter-Striking
-environment: transition
+environment: open-space
 domain: striking
 focus: defensive
 difficulty: intermediate
