@@ -10,7 +10,7 @@ This is a **complete training system** built on one insight: **MMA is a decision
 
 Instead of drilling techniques in isolation, athletes solve problems through structured games. The environment does the teaching. Correct behavior emerges from constraints, not coaching cues.
 
-**15 games. 4 environments. Infinite combinations.**
+**35 games. 5 environments. All paths lead to finish.**
 
 ---
 
@@ -25,12 +25,13 @@ Instead of drilling techniques in isolation, athletes solve problems through str
     | If you want to work on... | Start here |
     |---------------------------|------------|
     | Striking defense | [Parry the Straight](games/parry-the-straight.md) or [Slip the Straight](games/slip-the-straight.md) |
-    | Striking offense | [Land the Target](games/land-the-target.md) |
+    | Striking offense | [Lead Hand Offense](games/lead-hand-offense.md) or [Land the Target](games/land-the-target.md) |
     | Range and timing | [Touch and Don't Get Touched](games/touch-game.md) |
     | Space control | [Winning the Circle](games/winning-circle.md) |
     | Wall work | [Wall Control](games/wall-control.md) |
+    | Ground work | [Ground Escape](games/ground-escape.md) or [Ground Access](games/ground-access.md) |
 
-    **Step 3:** Use the [Game Finder](#find-your-game) below to discover more.
+    **Step 3:** Check the [Prerequisite Map](reference/prerequisites.md) for progression pathways.
 
 ---
 
@@ -45,114 +46,23 @@ Instead of drilling techniques in isolation, athletes solve problems through str
 | "Do it like this" | "Solve this problem" |
 | Isolated from context | Representative of real fighting |
 
-### The Four Decision States
+### The Fight Philosophy
 
-Every MMA interaction maps to one of four states:
+**Finish the fight while taking as little damage as possible.**
 
-```mermaid
-flowchart LR
-    A[ACCESS] --> B[STABILIZE]
-    B --> C[EXPLOIT]
-    C --> D[COUNTER]
-    D --> A
+Every game in this system ultimately leads to one of three endings:
 
-    style A fill:#4CAF50,color:#fff
-    style B fill:#2196F3,color:#fff
-    style C fill:#FF5722,color:#fff
-    style D fill:#9C27B0,color:#fff
-```
+| End State | How It Happens |
+|-----------|----------------|
+| **Knockout (KO)** | Striking → Sustained Offense → Finish |
+| **TKO** | Control → Wall Grinding or Ground Control → Damage accumulation |
+| **Submission** | Control → Ground Control or Defensive Submission → Tap |
 
-| State | The Question | Example |
-|-------|--------------|---------|
-| **Access** | Can I connect? | Closing distance, entering clinch |
-| **Stabilize** | Can I control? | Establishing pin, controlling hips |
-| **Exploit** | Can I damage? | Strikes from control, submissions |
-| **Counter** | Can I escape or reverse? | Escapes, scrambles, reversals |
-
-### Control Before Damage
-
-Across all environments: **control precedes striking**. Stability before exploitation. This is non-negotiable.
+See: [Fight Philosophy](concepts/fight-philosophy.md)
 
 ### Full MMA Expression
 
-Every game has a pathway to [Full MMA Expression](concepts/full-mma-expression.md) — the highest level where cross-domain threats are added. Striking games add grappling threats. Grappling games add striking threats. Lower levels build skill; highest levels test it under MMA reality.
-
----
-
-## Find Your Game
-
-=== "By Environment"
-
-    **Skill Isolation** — Single-skill focus, constrained options
-
-    - [Parry the Straight](games/parry-the-straight.md) — Deflect straight punches
-    - [Tight Block](games/tight-block.md) — Absorb strikes on guard
-    - [Slip the Straight](games/slip-the-straight.md) — Evade with head movement
-    - [Evade the Punch](games/evade-the-punch.md) — Match evasion to punch type
-
-    **Open Space** — Standing, unrestricted movement
-
-    - [Touch and Don't Get Touched](games/touch-game.md) — Range and timing literacy
-    - [Close-Range Defense](games/close-range-defense.md) — Layered defensive solutions
-    - [Land the Target](games/land-the-target.md) — Offensive target selection
-    - [Winning the Circle](games/winning-circle.md) — Space domination
-    - [Boundary Trigger](games/boundary-trigger.md) — Clinch recognition
-    - [Pressure to Takedown](games/pressure-to-takedown.md) — Strike-to-takedown chains
-    - [Open Space Takedown](games/open-space-takedown.md) — Takedowns without wall
-
-    **Wall** — Vertical constraint, limited retreat
-
-    - [Wall Control](games/wall-control.md) — Establish the pin
-    - [Wall Escape](games/wall-escape.md) — Break the pin
-    - [Wall Pin to Ground](games/wall-to-ground.md) — Transition to ground
-    - [Stand-Up Loop](games/standup-loop.md) — Cyclical position battles
-
-=== "By Focus"
-
-    **Defensive** — Defender is primary learner
-
-    - Parry the Straight, Tight Block, Slip the Straight, Evade the Punch
-    - Close-Range Defense, Wall Escape
-
-    **Offensive** — Attacker is primary learner
-
-    - Land the Target, Pressure to Takedown
-    - Wall Control, Wall Pin to Ground
-
-    **Combined** — Both sides learning simultaneously
-
-    - Touch Game, Winning the Circle, Boundary Trigger
-    - Open Space Takedown, Stand-Up Loop
-
-=== "By Difficulty"
-
-    **Beginner** — Start here
-
-    - Parry the Straight, Tight Block, Slip the Straight
-    - Touch Game, Winning the Circle
-
-    **Intermediate** — Build on foundations
-
-    - Evade the Punch, Close-Range Defense, Land the Target
-    - Boundary Trigger, Open Space Takedown
-    - Wall Control, Wall Escape, Wall Pin to Ground
-
-    **Advanced** — Full integration
-
-    - Pressure to Takedown, Stand-Up Loop
-
----
-
-## System Navigation
-
-| Section | What You'll Find |
-|---------|------------------|
-| [System Map](system/map.md) | Visual overview of all games and connections |
-| [Games Library](games/index.md) | Complete catalog with filters |
-| [Concepts](concepts/defensive-solutions.md) | Key ideas that span multiple games |
-| [Coach Tools](tools/safety.md) | Safety, assessment, session planning |
-| [Prerequisites](reference/prerequisites.md) | Game progression pathways |
-| [FAQ](reference/faq.md) | Common questions and troubleshooting |
+Every game has a highest level called [Full MMA Expression](concepts/full-mma-expression.md) where cross-domain threats are added. Striking games add grappling threats. Grappling games add striking threats. Lower levels build skill; highest levels test it under MMA reality.
 
 ---
 
@@ -160,60 +70,205 @@ Every game has a pathway to [Full MMA Expression](concepts/full-mma-expression.m
 
 ```mermaid
 flowchart TD
-    subgraph FOUNDATIONS["FOUNDATIONS"]
-        SI[Skill Isolation<br/>4 games]
-        TG[Touch Game]
+    subgraph SKILL["SKILL ISOLATION (8)"]
+        DEF[Defensive: Parry, Block, Slip, Evade]
+        OFF[Offensive: Lead Hand, Rear Hand, Lead Leg, Rear Leg]
     end
 
-    subgraph DEVELOPMENT["DEVELOPMENT"]
+    subgraph STRIKING["OPEN SPACE STRIKING (7)"]
+        TG[Touch Game]
         CRD[Close-Range Defense]
         LT[Land the Target]
         WC[Winning the Circle]
     end
 
-    subgraph INTEGRATION["INTEGRATION"]
+    subgraph TRANSITION["TRANSITION ZONE (3)"]
+        CD[Clinch Denial]
+        CS[Counter-Striking]
+        CW[Counter-Wrestling]
         BT[Boundary Trigger]
+    end
+
+    subgraph WRESTLING["OPEN SPACE WRESTLING (4)"]
+        TDD[Takedown Defense]
         PTT[Pressure to Takedown]
-    end
-
-    subgraph ENVIRONMENTS["ENVIRONMENT GAMES"]
-        WALL[Wall Games<br/>4 games]
         OST[Open Space Takedown]
-        GRD[Ground Games<br/>Coming Soon]
     end
 
-    SI --> CRD
-    TG --> WC
-    CRD --> LT
-    LT --> TG
-    WC --> BT
-    CRD --> PTT
-    WC --> PTT
-    BT --> WALL
-    BT --> OST
-    PTT --> WALL
-    PTT --> OST
-    WALL --> GRD
-    OST --> GRD
+    subgraph WALL["WALL (6)"]
+        WCON[Wall Control]
+        WE[Wall Escape]
+        WG[Wall to Ground]
+    end
 
-    style SI fill:#8BC34A,color:#fff
-    style TG fill:#4CAF50,color:#fff
+    subgraph GROUND["GROUND (7)"]
+        GA[Ground Access]
+        GC[Ground Control]
+        GE[Ground Escape]
+        PB[Positional Battle]
+    end
+
+    subgraph FINISH["END STATES"]
+        KO((KO))
+        TKO((TKO))
+        SUB((Submission))
+    end
+
+    DEF --> CRD
+    OFF --> LT
+    CRD --> TG
+    LT --> TG
+    TG --> WC
+    WC --> BT
+    CRD --> CS
+    CRD --> CW
+
+    BT --> PTT
+    BT --> TDD
+    CS --> TDD
+    CW --> OST
+
+    PTT --> WCON
+    PTT --> OST
+    OST --> GA
+    OST --> GE
+
+    WCON --> WE
+    WCON --> WG
+    WG --> GC
+
+    GA --> GC
+    GE --> PB
+    PB --> GC
+    PB --> GE
+
+    GC --> TKO
+    GC --> SUB
+    WCON --> TKO
+
+    style DEF fill:#4CAF50,color:#fff
+    style OFF fill:#FF5722,color:#fff
+    style TG fill:#9C27B0,color:#fff
     style CRD fill:#4CAF50,color:#fff
     style LT fill:#FF5722,color:#fff
     style WC fill:#9C27B0,color:#fff
-    style BT fill:#FF9800,color:#fff
-    style PTT fill:#9C27B0,color:#fff
-    style WALL fill:#2196F3,color:#fff
-    style OST fill:#9C27B0,color:#fff
-    style GRD fill:#757575,color:#fff
+    style BT fill:#9C27B0,color:#fff
+    style KO fill:#D32F2F,color:#fff
+    style TKO fill:#D32F2F,color:#fff
+    style SUB fill:#D32F2F,color:#fff
 ```
+
+**Legend:** 🟢 Defensive | 🟠 Offensive | 🟣 Combined | 🔴 Finish
+
+For the complete map with all 35 games, see [System Map](system/map.md).
+
+---
+
+## Find Your Game
+
+=== "By Environment"
+
+    **Skill Isolation (8 games)** — Single-skill focus
+
+    - Defensive: [Parry](games/parry-the-straight.md), [Block](games/tight-block.md), [Slip](games/slip-the-straight.md), [Evade](games/evade-the-punch.md)
+    - Offensive: [Lead Hand](games/lead-hand-offense.md), [Rear Hand](games/rear-hand-offense.md), [Lead Leg](games/lead-leg-offense.md), [Rear Leg](games/rear-leg-offense.md)
+
+    **Open Space — Striking (7 games)**
+
+    - [Touch Game](games/touch-game.md), [Winning the Circle](games/winning-circle.md)
+    - [Close-Range Defense](games/close-range-defense.md), [Evasive Movement](games/evasive-movement.md), [Counter-Striking](games/counter-striking.md)
+    - [Land the Target](games/land-the-target.md), [Sustained Offense](games/sustained-offense.md)
+
+    **Transition Zone (3 games)**
+
+    - [Clinch Denial](games/clinch-denial.md), [Counter-Wrestling](games/counter-wrestling.md), [Boundary Trigger](games/boundary-trigger.md)
+
+    **Open Space — Wrestling (4 games)**
+
+    - [Takedown Defense](games/takedown-defense.md), [Pressure to Takedown](games/pressure-to-takedown.md)
+    - [Pressure to Wall](games/pressure-to-wall.md), [Open Space Takedown](games/open-space-takedown.md)
+
+    **Wall (6 games)**
+
+    - [Wall Control](games/wall-control.md), [Wall Escape](games/wall-escape.md), [Wall Defensive Submission](games/wall-defensive-submission.md)
+    - [Wall to Ground](games/wall-to-ground.md), [Wall Grinding](games/wall-grinding.md), [Stand-Up Loop](games/standup-loop.md)
+
+    **Ground (7 games)**
+
+    - [Ground Access](games/ground-access.md), [Ground Control](games/ground-control.md)
+    - [Ground Escape](games/ground-escape.md), [Leg Reclaim](games/leg-reclaim.md), [Ground to Standing](games/ground-to-standing.md), [Ground Defensive Submission](games/ground-defensive-submission.md)
+    - [Positional Battle](games/positional-battle.md)
+
+=== "By Focus"
+
+    **Defensive (17 games)** — Defender is primary learner
+
+    - Skill Isolation: Parry, Block, Slip, Evade
+    - Striking: Close-Range Defense, Evasive Movement, Counter-Striking
+    - Transition: Clinch Denial, Counter-Wrestling
+    - Wrestling: Takedown Defense
+    - Wall: Wall Escape, Wall Defensive Submission
+    - Ground: Ground Escape, Leg Reclaim, Ground to Standing, Ground Defensive Submission
+
+    **Offensive (12 games)** — Attacker is primary learner
+
+    - Skill Isolation: Lead Hand, Rear Hand, Lead Leg, Rear Leg
+    - Striking: Land the Target, Sustained Offense
+    - Wrestling: Pressure to Takedown, Pressure to Wall
+    - Wall: Wall Control, Wall to Ground, Wall Grinding
+    - Ground: Ground Access, Ground Control
+
+    **Combined (6 games)** — Both sides have distinct objectives
+
+    - Striking: Touch Game, Winning the Circle
+    - Transition: Boundary Trigger
+    - Wrestling: Open Space Takedown
+    - Wall: Stand-Up Loop
+    - Ground: Positional Battle
+
+=== "By Difficulty"
+
+    **Beginner** — Start here
+
+    - Parry the Straight, Tight Block, Slip the Straight
+    - Lead Hand Offense, Rear Hand Offense
+    - Touch Game, Winning the Circle
+
+    **Intermediate** — Build on foundations
+
+    - Evade the Punch, Close-Range Defense, Land the Target
+    - Evasive Movement, Counter-Striking, Sustained Offense
+    - Clinch Denial, Counter-Wrestling, Boundary Trigger
+    - Takedown Defense, Open Space Takedown
+    - Wall Control, Wall Escape, Wall to Ground, Wall Grinding
+    - Ground Access, Ground Control, Ground Escape, Leg Reclaim, Ground to Standing, Positional Battle
+
+    **Advanced** — Full integration
+
+    - Lead Leg Offense, Rear Leg Offense
+    - Pressure to Takedown, Pressure to Wall
+    - Wall Defensive Submission, Stand-Up Loop
+    - Ground Defensive Submission
+
+---
+
+## System Navigation
+
+| Section | What You'll Find |
+|---------|------------------|
+| [System Map](system/map.md) | Visual overview of all 35 games and connections |
+| [Games Library](games/index.md) | Complete catalog with filters |
+| [Concepts](concepts/fight-philosophy.md) | Key ideas: Fight Philosophy, Decision States, TKO Pin |
+| [Coach Tools](tools/safety.md) | Safety, assessment, session planning |
+| [Prerequisites](reference/prerequisites.md) | Game progression pathways |
+| [FAQ](reference/faq.md) | Common questions and troubleshooting |
 
 ---
 
 ## Guiding Principles
 
 1. **The environment teaches** — Design constraints, not techniques
-2. **Control before damage** — Stability precedes exploitation
+2. **Finish while minimizing damage** — The fight philosophy
 3. **Offense needs defense** — Every attack has a counter
 4. **Struggle is learning** — Difficulty is the point
 5. **Games are academic** — Learning matters more than winning
@@ -221,4 +276,4 @@ flowchart TD
 ---
 
 !!! abstract "System Evolution"
-    This framework is intentionally non-dogmatic. Concepts refine, definitions update, games reorganize. The requirements: ecological validity, internal consistency, safety, and clarity.
+    This framework is intentionally non-dogmatic. Concepts refine, definitions update, games reorganize. See the [Change Log](reference/changelog.md) for version history.
