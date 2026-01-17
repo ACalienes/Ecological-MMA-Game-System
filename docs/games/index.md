@@ -11,8 +11,8 @@ The complete catalog of training games in the Ecological MMA System.
     | Environment | Games | Focus |
     |-------------|-------|-------|
     | Skill Isolation | 8 | Single-skill development |
-    | Open Space - Striking | 6 | Striking engagement |
-    | Transition Zone | 4 | Domain change moments |
+    | Open Space - Striking | 7 | Striking engagement |
+    | Transition Zone | 3 | Domain change moments |
     | Open Space - Wrestling | 4 | Takedowns and pressure |
     | Wall | 6 | Vertical constraint |
     | Ground | 7 | Horizontal grappling |
@@ -119,17 +119,17 @@ Games focused on horizontal grappling positions.
 
 ## Games by Focus
 
-=== "Defensive (14 games)"
+=== "Defensive (16 games)"
     Games where the defender is the primary learner:
 
     **Skill Isolation:**
     - Parry the Straight, Tight Block, Slip the Straight, Evade the Punch
 
     **Open Space Striking:**
-    - Close-Range Defense, Evasive Movement
+    - Close-Range Defense, Evasive Movement, Counter-Striking
 
     **Transition Zone:**
-    - Clinch Denial, Counter-Striking, Counter-Wrestling
+    - Clinch Denial, Counter-Wrestling
 
     **Open Space Wrestling:**
     - Takedown Defense
@@ -140,7 +140,7 @@ Games focused on horizontal grappling positions.
     **Ground:**
     - Ground Escape, Leg Reclaim, Ground to Standing, Ground Defensive Submission
 
-=== "Offensive (12 games)"
+=== "Offensive (13 games)"
     Games where the attacker is the primary learner:
 
     **Skill Isolation:**
