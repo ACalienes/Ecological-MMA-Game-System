@@ -585,7 +585,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#master-flowchart_1" class="md-nav__link">
+  <a href="#master-flowchart" class="md-nav__link">
     <span class="md-ellipsis">
       
         Master Flowchart
@@ -4175,7 +4175,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#master-flowchart_1" class="md-nav__link">
+  <a href="#master-flowchart" class="md-nav__link">
     <span class="md-ellipsis">
       
         Master Flowchart
@@ -4360,7 +4360,7 @@
 <h1 id="system-map">System Map</h1>
 <p>This page provides visual navigation of the entire game system. All paths lead toward <strong>three fight-ending outcomes</strong>: Knockout, TKO, or Submission.</p>
 <hr />
-<h2 id="master-flowchart_1">Master Flowchart</h2>
+<h2 id="master-flowchart">Master Flowchart</h2>
 <div class="flowchart-controls">
     <button id="zoom-in" title="Zoom In">+</button>
     <button id="zoom-out" title="Zoom Out">−</button>
@@ -4369,7 +4369,8 @@
     <span class="controls-hint">Scroll to zoom • Drag to pan • Double-click to zoom in</span>
 </div>
 
-<div class="flowchart-container" id="master-flowchart">
+<div id="master-flowchart" class="flowchart-container"></div>
+
 <pre class="mermaid"><code>flowchart LR
     subgraph SKILL["SKILL ISOLATION"]
         subgraph SK_DEF["Defensive"]
@@ -4574,7 +4575,6 @@
     style KO fill:#D32F2F,color:#fff
     style TKO fill:#D32F2F,color:#fff
     style SUB fill:#D32F2F,color:#fff</code></pre>
-</div>
 <p><strong>Legend:</strong></p>
 <ul>
 <li>🟢 Green = Defensive Focus</li>
@@ -4689,19 +4689,19 @@
 <h3 id="transition-zone">Transition Zone</h3>
 <p>The Transition Zone sits between Striking and Wrestling, handling the critical moment when domains shift:</p>
 <pre class="mermaid"><code>flowchart LR
-    subgraph FROM_STRIKING["From Striking"]
+    subgraph STRIKING["Open Space Striking"]
         WC[Winning the Circle]
         CRD[Close-Range Defense]
+        CS[Counter-Striking]
     end
 
     subgraph TRANSITION["Transition Zone"]
         CD[Clinch Denial]
-        CS[Counter-Striking]
         CW[Counter-Wrestling]
         BT[Boundary Trigger]
     end
 
-    subgraph TO_WRESTLING["To Wrestling"]
+    subgraph WRESTLING["Open Space Wrestling"]
         PTT[Pressure to Takedown]
         PTW[Pressure to Wall]
         TDD[Takedown Defense]
@@ -4720,8 +4720,8 @@
 
     style WC fill:#9C27B0,color:#fff
     style CRD fill:#4CAF50,color:#fff
-    style CD fill:#4CAF50,color:#fff
     style CS fill:#4CAF50,color:#fff
+    style CD fill:#4CAF50,color:#fff
     style CW fill:#4CAF50,color:#fff
     style BT fill:#9C27B0,color:#fff
     style PTT fill:#FF5722,color:#fff
@@ -4988,7 +4988,7 @@
 <tr>
 <td>15</td>
 <td><a href="../../games/counter-striking/">Counter-Striking</a></td>
-<td>Transition</td>
+<td>Open Space</td>
 <td>Striking</td>
 <td>Defensive</td>
 <td>Intermediate</td>
@@ -5168,9 +5168,9 @@
 - Evade the Punch</p>
 <p><strong>Open Space Striking:</strong>
 - Close-Range Defense
-- Evasive Movement</p>
+- Evasive Movement
+- Counter-Striking</p>
 <p><strong>Transition:</strong>
-- Counter-Striking
 - Counter-Wrestling
 - Clinch Denial</p>
 <p><strong>Open Space Wrestling:</strong>
