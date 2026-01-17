@@ -53,6 +53,8 @@
       
     
     
+      <link rel="stylesheet" href="../../stylesheets/flowchart.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -583,7 +585,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#master-flowchart" class="md-nav__link">
+  <a href="#master-flowchart_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         Master Flowchart
@@ -1476,6 +1478,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../games/counter-striking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Counter-Striking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1851,34 +1881,6 @@
     
   
     Clinch Denial
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../games/counter-striking/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Counter-Striking
   
 
     
@@ -4173,7 +4175,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#master-flowchart" class="md-nav__link">
+  <a href="#master-flowchart_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         Master Flowchart
@@ -4358,7 +4360,16 @@
 <h1 id="system-map">System Map</h1>
 <p>This page provides visual navigation of the entire game system. All paths lead toward <strong>three fight-ending outcomes</strong>: Knockout, TKO, or Submission.</p>
 <hr />
-<h2 id="master-flowchart">Master Flowchart</h2>
+<h2 id="master-flowchart_1">Master Flowchart</h2>
+<div class="flowchart-controls">
+    <button id="zoom-in" title="Zoom In">+</button>
+    <button id="zoom-out" title="Zoom Out">−</button>
+    <button id="zoom-reset" title="Reset">⟲</button>
+    <button id="zoom-fit" title="Fit to View">⊡</button>
+    <span class="controls-hint">Scroll to zoom • Drag to pan • Double-click to zoom in</span>
+</div>
+
+<div class="flowchart-container" id="master-flowchart">
 <pre class="mermaid"><code>flowchart LR
     subgraph SKILL["SKILL ISOLATION"]
         subgraph SK_DEF["Defensive"]
@@ -4379,6 +4390,7 @@
         subgraph STR_DEF["Defensive"]
             CRD[Close-Range Defense]
             EM[Evasive Movement]
+            CS[Counter-Striking]
         end
         subgraph STR_OFF["Offensive"]
             LT[Land the Target]
@@ -4393,7 +4405,6 @@
     subgraph TRANSITION["TRANSITION ZONE"]
         subgraph TR_DEF["Defensive"]
             CD[Clinch Denial]
-            CS[Counter-Striking]
             CW[Counter-Wrestling]
         end
         subgraph TR_COM["Combined"]
@@ -4563,6 +4574,7 @@
     style KO fill:#D32F2F,color:#fff
     style TKO fill:#D32F2F,color:#fff
     style SUB fill:#D32F2F,color:#fff</code></pre>
+</div>
 <p><strong>Legend:</strong></p>
 <ul>
 <li>🟢 Green = Defensive Focus</li>
@@ -5394,7 +5406,11 @@ See <a href="../../reference/changelog/">Change Log</a> for version history.</p>
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
+        <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+      
         <script src="../../javascripts/mermaid-init.js"></script>
+      
+        <script src="../../javascripts/flowchart-zoom.js"></script>
       
     
   </body>
