@@ -1,6 +1,6 @@
 ---
 title: Boundary Trigger
-environment: open-space
+environment: transition
 domain: wrestling
 focus: combined
 difficulty: intermediate

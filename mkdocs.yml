@@ -73,26 +73,31 @@ nav:
         - Rear Hand Offense: games/rear-hand-offense.md
         - Lead Leg Offense: games/lead-leg-offense.md
         - Rear Leg Offense: games/rear-leg-offense.md
-    - Open Space:
-      - Striking:
-        - Defensive:
-          - Close-Range Defense: games/close-range-defense.md
-        - Offensive:
-          - Land the Target: games/land-the-target.md
-          - Sustained Offense: games/sustained-offense.md
-        - Combined:
-          - Touch and Don't Get Touched: games/touch-game.md
-      - Wrestling:
-        - Defensive:
-          - Takedown Defense: games/takedown-defense.md
-          - Clinch Denial: games/clinch-denial.md
-        - Offensive:
-          - Pressure to Takedown: games/pressure-to-takedown.md
-          - Pressure to Wall: games/pressure-to-wall.md
-        - Combined:
-          - Winning the Circle: games/winning-circle.md
-          - Boundary Trigger: games/boundary-trigger.md
-          - Open Space Takedown: games/open-space-takedown.md
+    - Open Space - Striking:
+      - Defensive:
+        - Close-Range Defense: games/close-range-defense.md
+        - Evasive Movement: games/evasive-movement.md
+      - Offensive:
+        - Land the Target: games/land-the-target.md
+        - Sustained Offense: games/sustained-offense.md
+      - Combined:
+        - Touch and Don't Get Touched: games/touch-game.md
+        - Winning the Circle: games/winning-circle.md
+    - Transition Zone:
+      - Defensive:
+        - Clinch Denial: games/clinch-denial.md
+        - Counter-Striking: games/counter-striking.md
+        - Counter-Wrestling: games/counter-wrestling.md
+      - Combined:
+        - Boundary Trigger: games/boundary-trigger.md
+    - Open Space - Wrestling:
+      - Defensive:
+        - Takedown Defense: games/takedown-defense.md
+      - Offensive:
+        - Pressure to Takedown: games/pressure-to-takedown.md
+        - Pressure to Wall: games/pressure-to-wall.md
+      - Combined:
+        - Open Space Takedown: games/open-space-takedown.md
     - Wall:
       - Offensive:
         - Wall Control: games/wall-control.md
@@ -100,23 +105,26 @@ nav:
         - Wall Grinding: games/wall-grinding.md
       - Defensive:
         - Wall Escape: games/wall-escape.md
+        - Wall Defensive Submission: games/wall-defensive-submission.md
       - Combined:
         - Stand-Up Loop: games/standup-loop.md
     - Ground:
       - Offensive:
         - Ground Access: games/ground-access.md
         - Ground Control: games/ground-control.md
-        - Ground Finish: games/ground-finish.md
       - Defensive:
         - Ground Escape: games/ground-escape.md
-        - Guard Recovery: games/guard-recovery.md
+        - Leg Reclaim: games/leg-reclaim.md
         - Ground to Standing: games/ground-to-standing.md
+        - Ground Defensive Submission: games/ground-defensive-submission.md
       - Combined:
         - Positional Battle: games/positional-battle.md
   - Concepts:
+    - Fight Philosophy: concepts/fight-philosophy.md
     - Confidence Rating: concepts/confidence-rating.md
     - Three Zones of Attack: concepts/three-zones.md
     - Full MMA Expression: concepts/full-mma-expression.md
+    - Decision States: concepts/decision-states.md
     - TKO Pin: concepts/tko-pin.md
     - Defensive Solutions: concepts/defensive-solutions.md
     - Hand Controls: concepts/hand-controls.md
@@ -126,15 +134,17 @@ nav:
     - Safety & Intensity: tools/safety.md
     - Assessment Rubrics: tools/assessment.md
     - Session Planning: tools/session-planning.md
+    - Lesson Plan Generator: tools/lesson-generator.md
     - Game Template: tools/template.md
   - Reference:
     - Game Finder: reference/game-finder.md
     - Prerequisite Map: reference/prerequisites.md
     - FAQ & Troubleshooting: reference/faq.md
+    - Change Log: reference/changelog.md
   - About:
     - Project Context: about/context.md
     - Design Rules: about/levels-vs-games.md
-    - Change Log: about/changelog.md
+    - Disclaimer: about/disclaimer.md
 
 extra_javascript:
   - javascripts/mermaid-init.js

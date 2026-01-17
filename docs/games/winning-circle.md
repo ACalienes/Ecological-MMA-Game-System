@@ -1,7 +1,7 @@
 ---
 title: Winning the Circle
 environment: open-space
-domain: wrestling
+domain: striking
 focus: combined
 difficulty: beginner
 duration: short

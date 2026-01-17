@@ -1,150 +1,191 @@
 # System Map
 
-This page provides visual navigation of the entire game system, organized by Environment → Domain → Focus.
+This page provides visual navigation of the entire game system. All paths lead toward **three fight-ending outcomes**: Knockout, TKO, or Submission.
 
 ---
 
 ## Master Flowchart
 
 ```mermaid
-flowchart TD
-    subgraph SKILL_ISO["SKILL ISOLATION"]
-        subgraph SI_DEF["Defensive"]
+flowchart LR
+    subgraph SKILL["SKILL ISOLATION"]
+        subgraph SK_DEF["Defensive"]
             P[Parry the Straight]
             TB[Tight Block]
             SS[Slip the Straight]
             EP[Evade the Punch]
         end
-        subgraph SI_OFF["Offensive"]
-            LHO[Lead Hand Offense]
-            RHO[Rear Hand Offense]
-            LLO[Lead Leg Offense]
-            RLO[Rear Leg Offense]
+        subgraph SK_OFF["Offensive"]
+            LHO[Lead Hand]
+            RHO[Rear Hand]
+            LLO[Lead Leg]
+            RLO[Rear Leg]
         end
     end
 
-    subgraph OPEN_STRIKING["OPEN SPACE - STRIKING"]
-        subgraph OS_DEF["Defensive"]
+    subgraph STRIKING["OPEN SPACE: STRIKING"]
+        subgraph STR_DEF["Defensive"]
             CRD[Close-Range Defense]
+            EM[Evasive Movement]
         end
-        subgraph OS_OFF["Offensive"]
+        subgraph STR_OFF["Offensive"]
             LT[Land the Target]
             SO[Sustained Offense]
         end
-        subgraph OS_COM["Combined"]
+        subgraph STR_COM["Combined"]
             TG[Touch Game]
+            WC[Winning the Circle]
         end
     end
 
-    subgraph OPEN_WRESTLING["OPEN SPACE - WRESTLING"]
-        subgraph OW_OFF["Offensive"]
+    subgraph TRANSITION["TRANSITION ZONE"]
+        subgraph TR_DEF["Defensive"]
+            CD[Clinch Denial]
+            CS[Counter-Striking]
+            CW[Counter-Wrestling]
+        end
+        subgraph TR_COM["Combined"]
+            BT[Boundary Trigger]
+        end
+    end
+
+    subgraph WRESTLING["OPEN SPACE: WRESTLING"]
+        subgraph WR_DEF["Defensive"]
+            TDD[Takedown Defense]
+        end
+        subgraph WR_OFF["Offensive"]
             PTT[Pressure to Takedown]
             PTW[Pressure to Wall]
         end
-        subgraph OW_DEF["Defensive"]
-            TDD[Takedown Defense]
-            CD[Clinch Denial]
-        end
-        subgraph OW_COM["Combined"]
-            WC[Winning the Circle]
-            BT[Boundary Trigger]
+        subgraph WR_COM["Combined"]
             OST[Open Space Takedown]
         end
     end
 
     subgraph WALL["WALL"]
-        subgraph W_OFF["Offensive"]
+        subgraph WL_DEF["Defensive"]
+            WE[Wall Escape]
+            WDS[Wall Def. Submission]
+        end
+        subgraph WL_OFF["Offensive"]
             WCon[Wall Control]
             WG[Wall to Ground]
             WGr[Wall Grinding]
         end
-        subgraph W_DEF["Defensive"]
-            WE[Wall Escape]
-        end
-        subgraph W_COM["Combined"]
+        subgraph WL_COM["Combined"]
             SUL[Stand-Up Loop]
         end
     end
 
     subgraph GROUND["GROUND"]
-        subgraph G_OFF["Offensive"]
+        subgraph GR_DEF["Defensive"]
+            GE[Ground Escape]
+            LR[Leg Reclaim]
+            GTS[Ground to Standing]
+            GDS[Ground Def. Submission]
+        end
+        subgraph GR_OFF["Offensive"]
             GA[Ground Access]
             GC[Ground Control]
-            GF[Ground Finish]
         end
-        subgraph G_DEF["Defensive"]
-            GE[Ground Escape]
-            GR[Guard Recovery]
-            GTS[Ground to Standing]
-        end
-        subgraph G_COM["Combined"]
+        subgraph GR_COM["Combined"]
             PB[Positional Battle]
         end
     end
 
-    %% Skill Isolation flows
-    P --> CRD
-    TB --> CRD
-    SS --> EP
-    EP --> CRD
-    LHO --> LT
-    RHO --> LT
-    LLO --> LT
-    RLO --> LT
+    subgraph FINISH["END STATES"]
+        KO((KO))
+        TKO((TKO))
+        SUB((Submission))
+    end
 
-    %% Offensive/Defensive convergence
+    %% Skill Isolation → Striking
+    SK_DEF --> CRD
+    SK_OFF --> LT
+
+    %% Striking internal
     CRD --> TG
+    CRD --> EM
+    CRD --> CS
+    CRD --> CW
     LT --> TG
     LT --> SO
-
-    %% Open Space progression
     TG --> WC
+
+    %% Striking → Finish
+    SO --> KO
+    SO --> TKO
+
+    %% Striking → Transition
     WC --> BT
     WC --> CD
-    WC --> TDD
+    EM --> BT
 
-    %% Wrestling offensive paths
-    SO --> PTT
-    SO --> PTW
+    %% Transition → Wrestling
     BT --> PTT
     BT --> PTW
+    BT --> TDD
+    CS --> TDD
+    CW --> OST
+
+    %% Wrestling paths
     PTT --> OST
     PTW --> WCon
-    PTW --> WGr
+    TDD --> OST
 
-    %% Wall progression
+    %% Wall paths
     WCon --> WE
     WCon --> WG
     WCon --> WGr
+    WE --> BT
+    WDS --> SUB
     WG --> SUL
-
-    %% To Ground
-    OST --> GA
-    OST --> GE
+    WG --> GC
+    WGr --> TKO
+    SUL --> WCon
     SUL --> GA
     SUL --> GE
 
-    %% Ground progression
-    GA --> GC
-    GC --> GF
-    GE --> GR
-    GE --> GTS
-    GR --> PB
-    GA --> PB
-    PB --> GC
+    %% Takedown paths
+    OST --> GA
+    OST --> GE
+    OST --> SUL
 
-    %% Styling by focus
+    %% Ground paths
+    GA --> GC
+    GA --> PB
+    GC --> TKO
+    GC --> SUB
+    GE --> LR
+    GE --> GTS
+    GE --> GDS
+    LR --> PB
+    LR --> GTS
+    GTS --> BT
+    GDS --> SUB
+    PB --> GC
+    PB --> GE
+
+    %% Role reversal indicator
+    GE -.->|role switch| GA
+
+    %% Styling
     style P fill:#4CAF50,color:#fff
     style TB fill:#4CAF50,color:#fff
     style SS fill:#4CAF50,color:#fff
     style EP fill:#4CAF50,color:#fff
     style CRD fill:#4CAF50,color:#fff
-    style WE fill:#4CAF50,color:#fff
-    style TDD fill:#4CAF50,color:#fff
+    style EM fill:#4CAF50,color:#fff
     style CD fill:#4CAF50,color:#fff
+    style CS fill:#4CAF50,color:#fff
+    style CW fill:#4CAF50,color:#fff
+    style TDD fill:#4CAF50,color:#fff
+    style WE fill:#4CAF50,color:#fff
+    style WDS fill:#4CAF50,color:#fff
     style GE fill:#4CAF50,color:#fff
-    style GR fill:#4CAF50,color:#fff
+    style LR fill:#4CAF50,color:#fff
     style GTS fill:#4CAF50,color:#fff
+    style GDS fill:#4CAF50,color:#fff
 
     style LHO fill:#FF5722,color:#fff
     style RHO fill:#FF5722,color:#fff
@@ -159,7 +200,6 @@ flowchart TD
     style WGr fill:#FF5722,color:#fff
     style GA fill:#FF5722,color:#fff
     style GC fill:#FF5722,color:#fff
-    style GF fill:#FF5722,color:#fff
 
     style TG fill:#9C27B0,color:#fff
     style WC fill:#9C27B0,color:#fff
@@ -167,123 +207,306 @@ flowchart TD
     style OST fill:#9C27B0,color:#fff
     style SUL fill:#9C27B0,color:#fff
     style PB fill:#9C27B0,color:#fff
+
+    style KO fill:#D32F2F,color:#fff
+    style TKO fill:#D32F2F,color:#fff
+    style SUB fill:#D32F2F,color:#fff
 ```
 
 **Legend:**
-- Green = Defensive Focus
-- Orange = Offensive Focus
-- Purple = Combined Focus
+
+- 🟢 Green = Defensive Focus
+- 🟠 Orange = Offensive Focus
+- 🟣 Purple = Combined Focus
+- 🔴 Red = Fight-Ending States
+
+---
+
+## The Three End States
+
+Every pathway in this system ultimately leads to one of three fight-ending outcomes:
+
+| End State | Definition | Primary Paths |
+|-----------|------------|---------------|
+| **Knockout (KO)** | Single strike renders opponent unconscious | Sustained Offense → finishing strike |
+| **TKO** | Accumulated damage until opponent cannot defend | Wall Grinding, Ground Control → strikes |
+| **Submission** | Choke or joint lock forces tap/unconsciousness | Ground Control, Defensive Submissions |
 
 ---
 
 ## Offensive/Defensive Convergence
 
-The system is built around the principle that offensive and defensive skills converge in combined games:
+The system establishes this rule: **Every offensive/defensive pair must have a combined game connecting them.**
 
 ```mermaid
 flowchart LR
-    subgraph Defensive["Defensive Track"]
-        A[Skill Isolation] --> B[Close-Range Defense]
+    subgraph DEF["Defensive Track"]
+        D1[Defensive Game]
     end
 
-    subgraph Offensive["Offensive Track"]
-        C[Weapon Isolation] --> D[Land the Target]
+    subgraph COM["Combined"]
+        C1[Combined Game<br/>A vs B Roles]
     end
 
-    B --> E[Touch and Don't Get Touched]
-    D --> E
-    E --> F[Full Integration]
+    subgraph OFF["Offensive Track"]
+        O1[Offensive Game]
+    end
 
-    style B fill:#4CAF50,color:#fff
-    style D fill:#FF5722,color:#fff
-    style E fill:#9C27B0,color:#fff
+    D1 --> C1
+    O1 --> C1
+    C1 -->|role switch| D1
+    C1 -->|role switch| O1
+
+    style D1 fill:#4CAF50,color:#fff
+    style O1 fill:#FF5722,color:#fff
+    style C1 fill:#9C27B0,color:#fff
 ```
+
+**Combined Game Roles:** Combined games have distinct A and B roles — not necessarily mirrored objectives. One player may focus on Goal A while the other focuses on Goal B.
 
 ---
 
 ## Environment Pathways
 
-### Striking Pathway
+### Striking Pathway (with End States)
 
 ```mermaid
 flowchart LR
-    A[Defensive Skill Isolation<br/>Parry, Block, Slip, Evade] --> B[Close-Range Defense]
-    C[Offensive Skill Isolation<br/>Lead Hand, Rear Hand, Legs] --> D[Land the Target]
-    D --> E[Sustained Offense]
-    B --> F[Touch Game]
-    D --> F
-    F --> G[Winning the Circle]
+    subgraph SKILL["Skill Isolation"]
+        DEF_SK[Defensive:<br/>Parry, Block, Slip, Evade]
+        OFF_SK[Offensive:<br/>Lead Hand, Rear Hand, Legs]
+    end
 
-    style A fill:#4CAF50,color:#fff
-    style B fill:#4CAF50,color:#fff
-    style C fill:#FF5722,color:#fff
-    style D fill:#FF5722,color:#fff
-    style E fill:#FF5722,color:#fff
-    style F fill:#9C27B0,color:#fff
+    subgraph STRIKING["Open Space Striking"]
+        CRD[Close-Range Defense]
+        EM[Evasive Movement]
+        LT[Land the Target]
+        SO[Sustained Offense]
+        TG[Touch Game]
+        WC[Winning the Circle]
+    end
+
+    subgraph COUNTER["Counter Options"]
+        CS[Counter-Striking]
+        CW[Counter-Wrestling]
+    end
+
+    subgraph FINISH["End States"]
+        KO((KO))
+        TKO((TKO))
+    end
+
+    DEF_SK --> CRD
+    OFF_SK --> LT
+    CRD --> TG
+    CRD --> EM
+    CRD --> CS
+    CRD --> CW
+    LT --> TG
+    LT --> SO
+    TG --> WC
+    SO --> KO
+    SO --> TKO
+
+    style CRD fill:#4CAF50,color:#fff
+    style EM fill:#4CAF50,color:#fff
+    style CS fill:#4CAF50,color:#fff
+    style CW fill:#4CAF50,color:#fff
+    style LT fill:#FF5722,color:#fff
+    style SO fill:#FF5722,color:#fff
+    style TG fill:#9C27B0,color:#fff
+    style WC fill:#9C27B0,color:#fff
+    style KO fill:#D32F2F,color:#fff
+    style TKO fill:#D32F2F,color:#fff
 ```
 
-### Wall Pathways
+### Transition Zone
 
-Three distinct pathways to/through the wall:
+The Transition Zone sits between Striking and Wrestling, handling the critical moment when domains shift:
 
 ```mermaid
 flowchart LR
-    subgraph Path1["Open Space Takedown Path"]
-        A1[Pressure to Takedown] --> B1[Open Space Takedown]
-        B1 --> C1[Ground]
+    subgraph FROM_STRIKING["From Striking"]
+        WC[Winning the Circle]
+        CRD[Close-Range Defense]
     end
 
-    subgraph Path2["Wall to Ground Path"]
-        A2[Pressure to Wall] --> B2[Wall Control]
-        B2 --> C2[Wall to Ground]
-        C2 --> D2[Stand-Up Loop]
+    subgraph TRANSITION["Transition Zone"]
+        CD[Clinch Denial]
+        CS[Counter-Striking]
+        CW[Counter-Wrestling]
+        BT[Boundary Trigger]
     end
 
-    subgraph Path3["Wall Grinding Path"]
-        A3[Pressure to Wall] --> B3[Wall Control]
-        B3 --> C3[Wall Grinding]
+    subgraph TO_WRESTLING["To Wrestling"]
+        PTT[Pressure to Takedown]
+        PTW[Pressure to Wall]
+        TDD[Takedown Defense]
+        OST[Open Space Takedown]
     end
 
-    style A1 fill:#FF5722,color:#fff
-    style B1 fill:#9C27B0,color:#fff
-    style A2 fill:#FF5722,color:#fff
-    style B2 fill:#FF5722,color:#fff
-    style C2 fill:#FF5722,color:#fff
-    style D2 fill:#9C27B0,color:#fff
-    style A3 fill:#FF5722,color:#fff
-    style B3 fill:#FF5722,color:#fff
-    style C3 fill:#FF5722,color:#fff
+    WC --> BT
+    WC --> CD
+    CRD --> CS
+    CRD --> CW
+    BT --> PTT
+    BT --> PTW
+    BT --> TDD
+    CS --> TDD
+    CW --> OST
+
+    style WC fill:#9C27B0,color:#fff
+    style CRD fill:#4CAF50,color:#fff
+    style CD fill:#4CAF50,color:#fff
+    style CS fill:#4CAF50,color:#fff
+    style CW fill:#4CAF50,color:#fff
+    style BT fill:#9C27B0,color:#fff
+    style PTT fill:#FF5722,color:#fff
+    style PTW fill:#FF5722,color:#fff
+    style TDD fill:#4CAF50,color:#fff
+    style OST fill:#9C27B0,color:#fff
 ```
 
-### Ground Pathway
+### Wall Pathways (with Split Outcomes)
 
 ```mermaid
 flowchart LR
-    subgraph Offensive["Offensive Track"]
-        GA[Ground Access] --> GC[Ground Control]
-        GC --> GF[Ground Finish]
+    subgraph ENTRY["Entry to Wall"]
+        PTW[Pressure to Wall]
     end
 
-    subgraph Defensive["Defensive Track"]
-        GE[Ground Escape] --> GR[Guard Recovery]
-        GE --> GTS[Ground to Standing]
+    subgraph WALL["Wall Position"]
+        WCon[Wall Control]
+        WE[Wall Escape]
+        WDS[Wall Def. Submission]
+        WG[Wall to Ground]
+        WGr[Wall Grinding]
+        SUL[Stand-Up Loop]
     end
 
-    subgraph Combined["Combined"]
+    subgraph OUTCOMES["Outcomes"]
+        GC[Ground Control]
+        TKO((TKO))
+        SUB((Submission))
+        RESET[Reset to Transition]
+    end
+
+    PTW --> WCon
+    WCon --> WE
+    WCon --> WG
+    WCon --> WGr
+    WE --> RESET
+    WDS --> SUB
+    WG --> SUL
+    WG --> GC
+    WGr --> TKO
+    SUL --> WCon
+    SUL --> GC
+
+    style PTW fill:#FF5722,color:#fff
+    style WCon fill:#FF5722,color:#fff
+    style WE fill:#4CAF50,color:#fff
+    style WDS fill:#4CAF50,color:#fff
+    style WG fill:#FF5722,color:#fff
+    style WGr fill:#FF5722,color:#fff
+    style SUL fill:#9C27B0,color:#fff
+    style GC fill:#FF5722,color:#fff
+    style TKO fill:#D32F2F,color:#fff
+    style SUB fill:#D32F2F,color:#fff
+```
+
+### Takedown Pathways (with Split Outcomes)
+
+```mermaid
+flowchart LR
+    subgraph ENTRY["Entry"]
+        PTT[Pressure to Takedown]
+        OST[Open Space Takedown]
+    end
+
+    subgraph OUTCOMES["After Takedown"]
+        GA[Ground Access<br/>Top established control]
+        GE[Ground Escape<br/>Bottom fights back]
+        SUL[Stand-Up Loop<br/>Scramble continues]
+    end
+
+    PTT --> OST
+    OST --> GA
+    OST --> GE
+    OST --> SUL
+
+    style PTT fill:#FF5722,color:#fff
+    style OST fill:#9C27B0,color:#fff
+    style GA fill:#FF5722,color:#fff
+    style GE fill:#4CAF50,color:#fff
+    style SUL fill:#9C27B0,color:#fff
+```
+
+### Ground Pathway (with Role Reversals)
+
+```mermaid
+flowchart LR
+    subgraph ENTRY["How You Get Here"]
+        OST[Open Space Takedown]
+        WG[Wall to Ground]
+        SUL[Stand-Up Loop]
+    end
+
+    subgraph OFFENSIVE["Offensive Track (Top)"]
+        GA[Ground Access]
+        GC[Ground Control]
+    end
+
+    subgraph DEFENSIVE["Defensive Track (Bottom)"]
+        GE[Ground Escape]
+        LR[Leg Reclaim]
+        GTS[Ground to Standing]
+        GDS[Ground Def. Submission]
+    end
+
+    subgraph COMBINED["Combined"]
         PB[Positional Battle]
     end
 
+    subgraph FINISH["End States"]
+        TKO((TKO))
+        SUB((Submission))
+        STAND[Return to Standing]
+    end
+
+    OST --> GA
+    OST --> GE
+    WG --> GA
+    WG --> GE
+    SUL --> GA
+    SUL --> GE
+
+    GA --> GC
     GA --> PB
-    GE --> PB
+    GC --> TKO
+    GC --> SUB
+
+    GE --> LR
+    GE --> GTS
+    GE --> GDS
+    LR --> PB
+    LR --> GTS
+    GTS --> STAND
+    GDS --> SUB
+
     PB --> GC
+    PB --> GE
+    GE -.->|role reversal| GA
 
     style GA fill:#FF5722,color:#fff
     style GC fill:#FF5722,color:#fff
-    style GF fill:#FF5722,color:#fff
     style GE fill:#4CAF50,color:#fff
-    style GR fill:#4CAF50,color:#fff
+    style LR fill:#4CAF50,color:#fff
     style GTS fill:#4CAF50,color:#fff
+    style GDS fill:#4CAF50,color:#fff
     style PB fill:#9C27B0,color:#fff
+    style TKO fill:#D32F2F,color:#fff
+    style SUB fill:#D32F2F,color:#fff
 ```
 
 ---
@@ -303,28 +526,32 @@ flowchart LR
 | 7 | [Lead Leg Offense](../games/lead-leg-offense.md) | Skill Isolation | Striking | Offensive | Intermediate |
 | 8 | [Rear Leg Offense](../games/rear-leg-offense.md) | Skill Isolation | Striking | Offensive | Intermediate |
 | 9 | [Close-Range Defense](../games/close-range-defense.md) | Open Space | Striking | Defensive | Intermediate |
-| 10 | [Land the Target](../games/land-the-target.md) | Open Space | Striking | Offensive | Intermediate |
-| 11 | [Sustained Offense](../games/sustained-offense.md) | Open Space | Striking | Offensive | Intermediate |
-| 12 | [Touch and Don't Get Touched](../games/touch-game.md) | Open Space | Striking | Combined | Beginner |
-| 13 | [Winning the Circle](../games/winning-circle.md) | Open Space | Wrestling | Combined | Beginner |
-| 14 | [Boundary Trigger](../games/boundary-trigger.md) | Open Space | Wrestling | Combined | Intermediate |
-| 15 | [Pressure to Takedown](../games/pressure-to-takedown.md) | Open Space | Wrestling | Offensive | Advanced |
-| 16 | [Pressure to Wall](../games/pressure-to-wall.md) | Open Space | Wrestling | Offensive | Advanced |
-| 17 | [Takedown Defense](../games/takedown-defense.md) | Open Space | Wrestling | Defensive | Intermediate |
-| 18 | [Clinch Denial](../games/clinch-denial.md) | Open Space | Wrestling | Defensive | Intermediate |
-| 19 | [Open Space Takedown](../games/open-space-takedown.md) | Open Space | Wrestling | Combined | Intermediate |
-| 20 | [Wall Control](../games/wall-control.md) | Wall | Wrestling | Offensive | Intermediate |
-| 21 | [Wall Escape](../games/wall-escape.md) | Wall | Wrestling | Defensive | Intermediate |
-| 22 | [Wall Pin to Ground](../games/wall-to-ground.md) | Wall | Wrestling | Offensive | Intermediate |
-| 23 | [Wall Grinding](../games/wall-grinding.md) | Wall | Wrestling | Offensive | Intermediate |
-| 24 | [Stand-Up Loop](../games/standup-loop.md) | Wall | Wrestling | Combined | Advanced |
-| 25 | [Ground Access](../games/ground-access.md) | Ground | Grappling | Offensive | Intermediate |
-| 26 | [Ground Control](../games/ground-control.md) | Ground | Grappling | Offensive | Intermediate |
-| 27 | [Ground Finish](../games/ground-finish.md) | Ground | Grappling | Offensive | Advanced |
-| 28 | [Ground Escape](../games/ground-escape.md) | Ground | Grappling | Defensive | Intermediate |
-| 29 | [Guard Recovery](../games/guard-recovery.md) | Ground | Grappling | Defensive | Intermediate |
-| 30 | [Ground to Standing](../games/ground-to-standing.md) | Ground | Grappling | Defensive | Intermediate |
-| 31 | [Positional Battle](../games/positional-battle.md) | Ground | Grappling | Combined | Intermediate |
+| 10 | [Evasive Movement](../games/evasive-movement.md) | Open Space | Striking | Defensive | Intermediate |
+| 11 | [Land the Target](../games/land-the-target.md) | Open Space | Striking | Offensive | Intermediate |
+| 12 | [Sustained Offense](../games/sustained-offense.md) | Open Space | Striking | Offensive | Intermediate |
+| 13 | [Touch and Don't Get Touched](../games/touch-game.md) | Open Space | Striking | Combined | Beginner |
+| 14 | [Winning the Circle](../games/winning-circle.md) | Open Space | Striking | Combined | Beginner |
+| 15 | [Counter-Striking](../games/counter-striking.md) | Transition | Striking | Defensive | Intermediate |
+| 16 | [Counter-Wrestling](../games/counter-wrestling.md) | Transition | Wrestling | Defensive | Intermediate |
+| 17 | [Clinch Denial](../games/clinch-denial.md) | Transition | Wrestling | Defensive | Intermediate |
+| 18 | [Boundary Trigger](../games/boundary-trigger.md) | Transition | Wrestling | Combined | Intermediate |
+| 19 | [Takedown Defense](../games/takedown-defense.md) | Open Space | Wrestling | Defensive | Intermediate |
+| 20 | [Pressure to Takedown](../games/pressure-to-takedown.md) | Open Space | Wrestling | Offensive | Advanced |
+| 21 | [Pressure to Wall](../games/pressure-to-wall.md) | Open Space | Wrestling | Offensive | Advanced |
+| 22 | [Open Space Takedown](../games/open-space-takedown.md) | Open Space | Wrestling | Combined | Intermediate |
+| 23 | [Wall Control](../games/wall-control.md) | Wall | Wrestling | Offensive | Intermediate |
+| 24 | [Wall Escape](../games/wall-escape.md) | Wall | Wrestling | Defensive | Intermediate |
+| 25 | [Wall Defensive Submission](../games/wall-defensive-submission.md) | Wall | Grappling | Defensive | Advanced |
+| 26 | [Wall Pin to Ground](../games/wall-to-ground.md) | Wall | Wrestling | Offensive | Intermediate |
+| 27 | [Wall Grinding](../games/wall-grinding.md) | Wall | Wrestling | Offensive | Intermediate |
+| 28 | [Stand-Up Loop](../games/standup-loop.md) | Wall | Wrestling | Combined | Advanced |
+| 29 | [Ground Access](../games/ground-access.md) | Ground | Grappling | Offensive | Intermediate |
+| 30 | [Ground Control](../games/ground-control.md) | Ground | Grappling | Offensive | Intermediate |
+| 31 | [Ground Escape](../games/ground-escape.md) | Ground | Grappling | Defensive | Intermediate |
+| 32 | [Leg Reclaim](../games/leg-reclaim.md) | Ground | Grappling | Defensive | Intermediate |
+| 33 | [Ground to Standing](../games/ground-to-standing.md) | Ground | Grappling | Defensive | Intermediate |
+| 34 | [Ground Defensive Submission](../games/ground-defensive-submission.md) | Ground | Grappling | Defensive | Advanced |
+| 35 | [Positional Battle](../games/positional-battle.md) | Ground | Grappling | Combined | Intermediate |
 
 ---
 
@@ -339,18 +566,27 @@ flowchart LR
     - Slip the Straight
     - Evade the Punch
 
-    **Open Space:**
+    **Open Space Striking:**
     - Close-Range Defense
-    - Takedown Defense
+    - Evasive Movement
+
+    **Transition:**
+    - Counter-Striking
+    - Counter-Wrestling
     - Clinch Denial
+
+    **Open Space Wrestling:**
+    - Takedown Defense
 
     **Wall:**
     - Wall Escape
+    - Wall Defensive Submission
 
     **Ground:**
     - Ground Escape
-    - Guard Recovery
+    - Leg Reclaim
     - Ground to Standing
+    - Ground Defensive Submission
 
 === "Offensive"
     Games where the attacker is the primary learner:
@@ -361,9 +597,11 @@ flowchart LR
     - Lead Leg Offense
     - Rear Leg Offense
 
-    **Open Space:**
+    **Open Space Striking:**
     - Land the Target
     - Sustained Offense
+
+    **Open Space Wrestling:**
     - Pressure to Takedown
     - Pressure to Wall
 
@@ -375,15 +613,18 @@ flowchart LR
     **Ground:**
     - Ground Access
     - Ground Control
-    - Ground Finish
 
 === "Combined"
-    Games where both sides have active learning objectives:
+    Games where both players have distinct objectives (A vs B roles):
 
-    **Open Space:**
+    **Open Space Striking:**
     - Touch and Don't Get Touched
     - Winning the Circle
+
+    **Transition:**
     - Boundary Trigger
+
+    **Open Space Wrestling:**
     - Open Space Takedown
 
     **Wall:**
@@ -402,9 +643,10 @@ flowchart LR
 | [Confidence Rating](../concepts/confidence-rating.md) | Land the Target, Skill Isolation | Commitment timing |
 | [Defensive Solutions](../concepts/defensive-solutions.md) | All skill isolation, Close-Range Defense | Defense selection |
 | [Hand Controls](../concepts/hand-controls.md) | Touch, Circle, Boundary, Pressure | Bridges striking and clinch |
-| [TKO Pin](../concepts/tko-pin.md) | Wall→Ground, Stand-Up Loop, Ground Finish | Exploitation endpoint |
+| [TKO Pin](../concepts/tko-pin.md) | Wall Grinding, Ground Control | Exploitation endpoint |
 | [Decision States](../concepts/decision-states.md) | All games | Access → Stabilize → Exploit → Counter |
 | [Full MMA Expression](../concepts/full-mma-expression.md) | Level 4 of all games | Cross-domain threat integration |
+| [Fight Philosophy](../concepts/fight-philosophy.md) | System-wide | Finish while taking minimal damage |
 
 ---
 
@@ -412,16 +654,18 @@ flowchart LR
 
 | Category | Count |
 |----------|-------|
-| **Total Games** | 31 |
-| **Defensive Focus** | 11 |
-| **Offensive Focus** | 14 |
+| **Total Games** | 35 |
+| **Defensive Focus** | 14 |
+| **Offensive Focus** | 12 |
 | **Combined Focus** | 6 |
+| **Transition Games** | 4 |
 | **Skill Isolation** | 8 |
-| **Open Space** | 11 |
-| **Wall** | 5 |
-| **Ground** | 7 |
+| **Open Space** | 12 |
+| **Wall** | 6 |
+| **Ground** | 6 |
 
 ---
 
 !!! abstract "System Evolution Notice"
     This map will be updated as new games are added and existing games are refined.
+    See [Change Log](../reference/changelog.md) for version history.

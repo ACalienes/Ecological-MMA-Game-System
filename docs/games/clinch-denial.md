@@ -1,6 +1,6 @@
 ---
 title: Clinch Denial
-environment: open-space
+environment: transition
 domain: wrestling
 focus: defensive
 difficulty: intermediate
