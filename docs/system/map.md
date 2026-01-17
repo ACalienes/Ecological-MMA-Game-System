@@ -6,9 +6,9 @@ This page provides visual navigation of the entire game system. All paths lead t
 
 ## Master Flowchart
 
-<div class="flowchart-hint">Scroll inside the box to explore the full diagram</div>
+*Scroll horizontally to see the full diagram*
 
-<div id="master-flowchart" class="flowchart-container"></div>
+<div class="mermaid-scroll-wrapper">
 
 ```mermaid
 flowchart LR
@@ -216,6 +216,8 @@ flowchart LR
     style TKO fill:#D32F2F,color:#fff
     style SUB fill:#D32F2F,color:#fff
 ```
+
+</div>
 
 **Legend:**
 
