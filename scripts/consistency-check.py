@@ -8,7 +8,6 @@ are consistent across the system.
 Usage: python3 scripts/consistency-check.py
 """
 
-import os
 import re
 from pathlib import Path
 
@@ -38,6 +37,36 @@ def get_games_from_nav(mkdocs_path):
     matches = re.findall(pattern, content)
     return set(m for m in matches if m != 'index')
 
+def get_games_by_category(mkdocs_path):
+    """Parse mkdocs.yml to get games organized by category"""
+    with open(mkdocs_path, 'r') as f:
+        lines = f.readlines()
+
+    categories = {}
+    current_category = None
+
+    # Track the category hierarchy from nav structure
+    for line in lines:
+        # Match category headers like "    - Skill Isolation:" or "    - Open Space - Striking:"
+        category_match = re.match(r'\s+- ([\w\s-]+):\s*$', line)
+        if category_match:
+            cat_name = category_match.group(1).strip()
+            # Skip subcategories like "Defensive:", "Offensive:", "Combined:"
+            if cat_name not in ['Defensive', 'Offensive', 'Combined', 'Games Library', 'All Games']:
+                current_category = cat_name
+                if current_category not in categories:
+                    categories[current_category] = []
+
+        # Match game entries like "        - Parry the Straight: games/parry-the-straight.md"
+        game_match = re.search(r'games/([a-z-]+)\.md', line)
+        if game_match and current_category:
+            game_slug = game_match.group(1)
+            if game_slug != 'index':
+                categories[current_category].append(game_slug)
+
+    # Filter to only categories that have games
+    return {k: v for k, v in categories.items() if v}
+
 def get_games_linked_in_file(file_path):
     """Extract game references from markdown links"""
     if not file_path.exists():
@@ -51,23 +80,23 @@ def get_games_linked_in_file(file_path):
     matches = re.findall(pattern, content)
     return set(m for m in matches if m != 'index')
 
-def find_game_counts(file_path):
-    """Find all mentions of game counts in a file"""
+def find_game_counts_with_context(file_path, total_games):
+    """Find mentions of game counts in a file with line context"""
     if not file_path.exists():
         return []
 
     with open(file_path, 'r') as f:
-        content = f.read()
+        lines = f.readlines()
 
-    # Find patterns like "35 games", "35-game", "(35)"
     results = []
-
-    # "X games" pattern
-    matches = re.findall(r'(\d+)\s+games?', content, re.IGNORECASE)
-    for m in matches:
-        count = int(m)
-        if count >= 15:  # Likely total or major category count
-            results.append(count)
+    for i, line in enumerate(lines, 1):
+        # "X games" pattern - look for counts that might be totals
+        matches = re.findall(r'(\d+)\s+games?', line, re.IGNORECASE)
+        for m in matches:
+            count = int(m)
+            # Flag counts >= 20 that don't match total (likely stale totals)
+            if count >= 20 and count != total_games:
+                results.append((i, count, line.strip()[:80]))
 
     return results
 
@@ -88,11 +117,6 @@ def main():
     total_games = len(game_files)
     print(f"Found {BOLD}{total_games} game files{RESET} in docs/games/")
 
-    # List all games
-    print(f"\n{BOLD}Games found:{RESET}")
-    for game in sorted(game_files):
-        print(f"  - {game}")
-
     # 2. Check mkdocs.yml nav
     print(f"\n{BOLD}Checking mkdocs.yml navigation...{RESET}")
     games_in_nav = get_games_from_nav(mkdocs_path)
@@ -106,7 +130,19 @@ def main():
     if in_nav_no_file:
         issues.append(f"Games in nav but NO file exists: {sorted(in_nav_no_file)}")
 
-    # 3. Check game counts in key files
+    # 3. Get category distribution from nav
+    print(f"\n{BOLD}Current distribution by category:{RESET}")
+    categories = get_games_by_category(mkdocs_path)
+    category_total = 0
+    for cat_name, games in categories.items():
+        print(f"  {cat_name}: {len(games)} games")
+        category_total += len(games)
+    print(f"  {BOLD}Total: {category_total} games{RESET}")
+
+    if category_total != total_games:
+        warnings.append(f"Category total ({category_total}) doesn't match file count ({total_games})")
+
+    # 4. Check game counts in key files
     print(f"\n{BOLD}Checking game counts in documentation...{RESET}")
 
     files_to_check = [
@@ -117,21 +153,18 @@ def main():
     ]
 
     for name, filepath in files_to_check:
-        counts = find_game_counts(filepath)
-        if counts:
-            wrong_counts = [c for c in counts if c != total_games and c > 20]
-            if wrong_counts:
-                issues.append(f"{name}: Found count(s) {wrong_counts} but should be {total_games}")
-            else:
-                print(f"  {GREEN}✓{RESET} {name}: counts OK")
+        stale_counts = find_game_counts_with_context(filepath, total_games)
+        if stale_counts:
+            for line_num, count, context in stale_counts:
+                issues.append(f"{name}:{line_num}: Found '{count} games' but should be {total_games}")
+                print(f"  {RED}✗{RESET} {name}:{line_num}: '{count} games' → should be {total_games}")
         else:
-            print(f"  - {name}: no total count found (may be OK)")
+            print(f"  {GREEN}✓{RESET} {name}: counts OK")
 
-    # 4. Check games linked in key files
+    # 5. Check games linked in key files
     print(f"\n{BOLD}Checking game links...{RESET}")
 
     link_files = [
-        ('games/index.md', docs_path / 'games' / 'index.md'),
         ('index.md (home)', docs_path / 'index.md'),
     ]
 
@@ -144,23 +177,13 @@ def main():
             print(f"  {GREEN}✓{RESET} {name}: All {len(linked_games)} games linked")
         else:
             if len(missing) <= 5:
-                warnings.append(f"{name}: Missing links to {len(missing)} games: {sorted(missing)}")
+                issues.append(f"{name}: Missing links to games: {sorted(missing)}")
             else:
-                warnings.append(f"{name}: Missing links to {len(missing)} games")
+                issues.append(f"{name}: Missing links to {len(missing)} games")
+            print(f"  {RED}✗{RESET} {name}: Missing {len(missing)} game links")
 
         if extra:
             issues.append(f"{name}: Links to non-existent games: {sorted(extra)}")
-
-    # 5. Summary statistics
-    print(f"\n{BOLD}=== Summary ==={RESET}")
-    print(f"\nExpected distribution (current system):")
-    print(f"  Skill Isolation:      8 games")
-    print(f"  Open Space Striking:  7 games")
-    print(f"  Transition Zone:      3 games")
-    print(f"  Open Space Wrestling: 4 games")
-    print(f"  Wall:                 6 games")
-    print(f"  Ground:               7 games")
-    print(f"  {BOLD}Total:                 35 games{RESET}")
 
     # Print results
     print(f"\n{BOLD}=== Results ==={RESET}\n")
@@ -184,7 +207,14 @@ def main():
     else:
         print(f"{RED}Please fix the issues above.{RESET}")
 
+    # Helpful note when adding games
+    print(f"\n{BOLD}When adding a new game:{RESET}")
+    print(f"  1. Create docs/games/game-name.md")
+    print(f"  2. Add to mkdocs.yml nav under appropriate category")
+    print(f"  3. Add link in docs/index.md")
+    print(f"  4. Update game counts in docs that mention totals")
     print()
+
     return len(issues)
 
 if __name__ == '__main__':
