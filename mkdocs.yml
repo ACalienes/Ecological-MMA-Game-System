@@ -146,12 +146,8 @@ nav:
     - Design Rules: about/levels-vs-games.md
     - Disclaimer: about/disclaimer.md
 
-extra_css:
-  - stylesheets/flowchart.css
-
 extra_javascript:
   - javascripts/mermaid-init.js
-  - javascripts/flowchart-zoom.js
 
 extra:
   social:
