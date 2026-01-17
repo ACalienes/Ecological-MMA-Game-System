@@ -283,6 +283,123 @@ Stop immediately if:
 
 ---
 
+## Coaching Scenarios
+
+### How do I know when an athlete is ready for the next level?
+
+Look for these signs:
+
+1. **Consistent success** — They achieve the game's objective most of the time
+2. **Boredom** — The current level no longer challenges them
+3. **Automatic execution** — They don't have to think hard about the basics
+4. **Asking for more** — They want additional challenge
+
+**When in doubt, stay at the current level longer.** Mastery beats rushing.
+
+### What if athletes in my group are at different levels?
+
+Options:
+
+1. **Pair by level** — Similar-level athletes work together
+2. **Handicap the advanced athlete** — Add constraints (e.g., one hand only)
+3. **Role assignment** — Advanced athletes play feeder/attacker roles
+4. **Split the group** — Run different levels simultaneously
+5. **Use it as teaching** — Advanced athletes coach beginners between rounds
+
+### How do I introduce this system to a traditional gym?
+
+Gradual integration works best:
+
+1. **Start with one game** — Pick something fun like Touch Game
+2. **Frame it as a warm-up** — Less threatening to existing culture
+3. **Let results speak** — Athletes will notice skill transfer
+4. **Add games slowly** — One new game every few weeks
+5. **Don't criticize the old way** — Present games as "adding tools"
+
+### Can I mix games with regular sparring?
+
+Yes, and you should:
+
+| Session Structure | Example |
+|-------------------|---------|
+| **Game → Sparring** | Touch Game warm-up, then free sparring |
+| **Themed sparring** | Sparring with one game's focus (e.g., "only score with counters") |
+| **Game → Integration** | Skill isolation, then open rounds |
+
+Games develop skills; sparring tests integration.
+
+### What if an athlete has physical limitations?
+
+Adapt the game, not the athlete:
+
+1. **Modify range** — Closer or farther based on mobility
+2. **Reduce intensity** — Lower contact levels
+3. **Change objectives** — Focus on what they CAN do
+4. **Adjust timing** — More time to execute
+5. **Skip levels** — Not every level suits every athlete
+
+The ecological approach embraces individual solutions.
+
+### How do I handle a big skill gap between partners?
+
+The advanced partner should:
+
+1. **Provide honest resistance** — Don't sandbag completely
+2. **Work on their weak areas** — Use off-hand, limit tools
+3. **Focus on timing/reading** — Develop perception skills
+4. **Be a good training partner** — Create learning opportunities
+
+The less experienced partner should:
+
+1. **Focus on survival first** — Don't overreach
+2. **Ask questions** — Learn from the experience gap
+3. **Celebrate small wins** — Progress, not dominance
+
+### What about athletes who are too passive?
+
+Passive athletes need encouragement to engage:
+
+1. **Simplify objectives** — "Just touch their shoulder once"
+2. **Remove consequences** — Play without scoring temporarily
+3. **Pair with patient partners** — Aggressive opponents make it worse
+4. **Celebrate attempts** — Reward action regardless of outcome
+5. **Check for fear** — Passivity often masks uncertainty or anxiety
+
+### Do I need to follow prerequisite chains strictly?
+
+Guidelines, not rules:
+
+- **Prerequisites indicate logical progression** — Skill A helps with Skill B
+- **Athletes with experience can skip ahead** — A wrestler doesn't need Takedown Defense basics
+- **Return to prerequisites when stuck** — Regression often means foundation gaps
+- **Use judgment** — You know your athletes
+
+### Can I create my own game modifications?
+
+Absolutely. When modifying:
+
+1. **Keep the core problem** — Don't lose what the game teaches
+2. **Maintain invariants** — Rules exist for reasons
+3. **Test before deploying** — Try it yourself first
+4. **Document changes** — Track what works
+5. **Share with the community** — Others may benefit
+
+### How do I track athlete progress across games?
+
+Simple methods:
+
+| Method | How It Works |
+|--------|--------------|
+| **Level tracking** | Record highest level achieved per game |
+| **Confidence rating** | Athlete self-rates comfort (1-5) |
+| **Video comparison** | Record early vs. later performance |
+| **Sparring transfer** | Note when game skills appear in sparring |
+| **Coach notes** | Qualitative observations |
+
+Avoid over-measuring. Learning isn't always linear or visible.
+
+---
+
 ## Resources
 
 | Need | Where to Look |
