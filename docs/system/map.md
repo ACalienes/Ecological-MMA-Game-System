@@ -14,7 +14,7 @@ This page provides visual navigation of the entire game system. All paths lead t
     <span class="controls-hint">Scroll to zoom • Drag to pan • Double-click to zoom in</span>
 </div>
 
-<div id="master-flowchart" class="flowchart-container" markdown="1">
+<div id="master-flowchart" class="flowchart-container"></div>
 
 ```mermaid
 flowchart LR
@@ -223,8 +223,6 @@ flowchart LR
     style SUB fill:#D32F2F,color:#fff
 ```
 
-</div>
-
 **Legend:**
 
 - 🟢 Green = Defensive Focus
@@ -338,19 +336,19 @@ The Transition Zone sits between Striking and Wrestling, handling the critical m
 
 ```mermaid
 flowchart LR
-    subgraph FROM_STRIKING["From Striking"]
+    subgraph STRIKING["Open Space Striking"]
         WC[Winning the Circle]
         CRD[Close-Range Defense]
+        CS[Counter-Striking]
     end
 
     subgraph TRANSITION["Transition Zone"]
         CD[Clinch Denial]
-        CS[Counter-Striking]
         CW[Counter-Wrestling]
         BT[Boundary Trigger]
     end
 
-    subgraph TO_WRESTLING["To Wrestling"]
+    subgraph WRESTLING["Open Space Wrestling"]
         PTT[Pressure to Takedown]
         PTW[Pressure to Wall]
         TDD[Takedown Defense]
@@ -369,8 +367,8 @@ flowchart LR
 
     style WC fill:#9C27B0,color:#fff
     style CRD fill:#4CAF50,color:#fff
-    style CD fill:#4CAF50,color:#fff
     style CS fill:#4CAF50,color:#fff
+    style CD fill:#4CAF50,color:#fff
     style CW fill:#4CAF50,color:#fff
     style BT fill:#9C27B0,color:#fff
     style PTT fill:#FF5722,color:#fff
@@ -543,7 +541,7 @@ flowchart LR
 | 12 | [Sustained Offense](../games/sustained-offense.md) | Open Space | Striking | Offensive | Intermediate |
 | 13 | [Touch and Don't Get Touched](../games/touch-game.md) | Open Space | Striking | Combined | Beginner |
 | 14 | [Winning the Circle](../games/winning-circle.md) | Open Space | Striking | Combined | Beginner |
-| 15 | [Counter-Striking](../games/counter-striking.md) | Transition | Striking | Defensive | Intermediate |
+| 15 | [Counter-Striking](../games/counter-striking.md) | Open Space | Striking | Defensive | Intermediate |
 | 16 | [Counter-Wrestling](../games/counter-wrestling.md) | Transition | Wrestling | Defensive | Intermediate |
 | 17 | [Clinch Denial](../games/clinch-denial.md) | Transition | Wrestling | Defensive | Intermediate |
 | 18 | [Boundary Trigger](../games/boundary-trigger.md) | Transition | Wrestling | Combined | Intermediate |
@@ -581,9 +579,9 @@ flowchart LR
     **Open Space Striking:**
     - Close-Range Defense
     - Evasive Movement
+    - Counter-Striking
 
     **Transition:**
-    - Counter-Striking
     - Counter-Wrestling
     - Clinch Denial
 
