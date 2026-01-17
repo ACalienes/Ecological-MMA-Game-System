@@ -3,72 +3,63 @@
 function initPanZoom() {
   const container = document.getElementById('master-flowchart');
   if (!container) {
+    console.log('Pan-zoom: Container not found');
     return false;
   }
 
   // Check if we already initialized (container has an SVG child)
   if (container.querySelector('svg')) {
-    return true; // Already done
+    console.log('Pan-zoom: Already initialized');
+    return true;
   }
 
-  // Find the mermaid div that follows the container
-  // MkDocs renders mermaid blocks as: <pre class="mermaid">...code...</pre>
-  // Then mermaid.js converts it to a div with SVG
-  let mermaidElement = container.nextElementSibling;
+  // Find the master flowchart SVG by looking for all SVGs and finding the big one
+  // that contains our unique content
+  const allSvgs = document.querySelectorAll('svg');
+  let targetSvg = null;
 
-  // Walk forward to find the mermaid element (might be pre or div with .mermaid class)
-  while (mermaidElement && !mermaidElement.classList.contains('mermaid')) {
-    // Check if it's a pre with mermaid class or contains mermaid
-    if (mermaidElement.tagName === 'PRE' && mermaidElement.querySelector('.mermaid')) {
-      mermaidElement = mermaidElement.querySelector('.mermaid');
+  for (const svg of allSvgs) {
+    // Check if this SVG contains text unique to our master flowchart
+    const svgText = svg.textContent || svg.innerText || '';
+    if (svgText.includes('SKILL ISOLATION') || svgText.includes('OPEN SPACE')) {
+      targetSvg = svg;
+      console.log('Pan-zoom: Found master flowchart SVG');
       break;
     }
-    mermaidElement = mermaidElement.nextElementSibling;
   }
 
-  if (!mermaidElement) {
-    // Try looking for any .mermaid element right after the container's parent section
-    const allMermaids = document.querySelectorAll('.mermaid');
-    for (const m of allMermaids) {
-      // Find the one that's for the master flowchart (the first big one)
-      const svg = m.querySelector('svg');
-      if (svg && svg.innerHTML.includes('SKILL ISOLATION')) {
-        mermaidElement = m;
-        break;
-      }
-    }
-  }
-
-  if (!mermaidElement) {
+  if (!targetSvg) {
+    console.log('Pan-zoom: Master flowchart SVG not found yet');
     return false;
   }
 
-  const svg = mermaidElement.querySelector('svg');
-  if (!svg) {
-    return false;
+  // Get the parent element to hide it after we move the SVG
+  const originalParent = targetSvg.parentElement;
+
+  // Clone the SVG and append to container (moving can cause issues)
+  const svgClone = targetSvg.cloneNode(true);
+  container.appendChild(svgClone);
+
+  // Hide the original
+  if (originalParent) {
+    originalParent.style.display = 'none';
   }
-
-  // Move the SVG into our container
-  container.appendChild(svg);
-
-  // Hide the now-empty mermaid element
-  mermaidElement.style.display = 'none';
 
   // Set SVG to fill container
-  svg.style.width = '100%';
-  svg.style.height = '100%';
-  svg.style.maxWidth = 'none';
-  svg.removeAttribute('height');
+  svgClone.style.width = '100%';
+  svgClone.style.height = '100%';
+  svgClone.style.maxWidth = 'none';
+  svgClone.removeAttribute('height');
 
   // Check if svgPanZoom is available
   if (typeof svgPanZoom === 'undefined') {
-    console.warn('Pan-zoom: svgPanZoom library not loaded');
+    console.log('Pan-zoom: svgPanZoom library not loaded');
     return false;
   }
 
   // Initialize svg-pan-zoom
   try {
-    const panZoomInstance = svgPanZoom(svg, {
+    const panZoomInstance = svgPanZoom(svgClone, {
       zoomEnabled: true,
       controlIconsEnabled: false,
       fit: true,
@@ -83,6 +74,8 @@ function initPanZoom() {
       refreshRate: 'auto'
     });
 
+    console.log('Pan-zoom: Initialized successfully');
+
     // Zoom controls
     const zoomIn = document.getElementById('zoom-in');
     const zoomOut = document.getElementById('zoom-out');
@@ -92,6 +85,7 @@ function initPanZoom() {
     if (zoomIn) {
       zoomIn.addEventListener('click', function(e) {
         e.preventDefault();
+        e.stopPropagation();
         panZoomInstance.zoomIn();
       });
     }
@@ -99,6 +93,7 @@ function initPanZoom() {
     if (zoomOut) {
       zoomOut.addEventListener('click', function(e) {
         e.preventDefault();
+        e.stopPropagation();
         panZoomInstance.zoomOut();
       });
     }
@@ -106,6 +101,7 @@ function initPanZoom() {
     if (zoomReset) {
       zoomReset.addEventListener('click', function(e) {
         e.preventDefault();
+        e.stopPropagation();
         panZoomInstance.resetZoom();
         panZoomInstance.center();
       });
@@ -114,16 +110,21 @@ function initPanZoom() {
     if (zoomFit) {
       zoomFit.addEventListener('click', function(e) {
         e.preventDefault();
+        e.stopPropagation();
         panZoomInstance.fit();
         panZoomInstance.center();
       });
     }
 
     // Handle window resize
+    let resizeTimeout;
     window.addEventListener('resize', function() {
-      panZoomInstance.resize();
-      panZoomInstance.fit();
-      panZoomInstance.center();
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(function() {
+        panZoomInstance.resize();
+        panZoomInstance.fit();
+        panZoomInstance.center();
+      }, 100);
     });
 
     return true;
@@ -136,7 +137,10 @@ function initPanZoom() {
 
 // Retry initialization until successful
 function tryInitPanZoom(attempts, delay) {
-  if (attempts <= 0) return;
+  if (attempts <= 0) {
+    console.log('Pan-zoom: Max attempts reached');
+    return;
+  }
 
   if (!initPanZoom()) {
     setTimeout(function() {
@@ -147,13 +151,15 @@ function tryInitPanZoom(attempts, delay) {
 
 // Start trying after DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('Pan-zoom: DOMContentLoaded fired');
   // Mermaid needs time to render, so we retry multiple times
-  tryInitPanZoom(10, 500); // Try up to 10 times, every 500ms
+  tryInitPanZoom(20, 300); // Try up to 20 times, every 300ms (6 seconds total)
 });
 
 // Also try on full window load
 window.addEventListener('load', function() {
+  console.log('Pan-zoom: window load fired');
   setTimeout(function() {
-    tryInitPanZoom(5, 500);
-  }, 100);
+    tryInitPanZoom(10, 500);
+  }, 500);
 });
