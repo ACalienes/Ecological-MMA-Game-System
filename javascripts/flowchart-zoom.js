@@ -13,34 +13,51 @@ function initPanZoom() {
     return true;
   }
 
-  // Find the master flowchart SVG by looking for all SVGs and finding the big one
-  // that contains our unique content
+  // Find the master flowchart SVG - it's the large one with many nodes
+  // Search by checking innerHTML for unique identifiers
   const allSvgs = document.querySelectorAll('svg');
   let targetSvg = null;
+  let maxNodes = 0;
+
+  console.log('Pan-zoom: Found ' + allSvgs.length + ' SVGs on page');
 
   for (const svg of allSvgs) {
-    // Check if this SVG contains text unique to our master flowchart
-    const svgText = svg.textContent || svg.innerText || '';
-    if (svgText.includes('SKILL ISOLATION') || svgText.includes('OPEN SPACE')) {
+    // Check innerHTML for our unique subgraph identifiers
+    const svgHtml = svg.innerHTML || '';
+
+    // Look for unique identifiers from our master flowchart
+    if (svgHtml.includes('SKILL') && svgHtml.includes('STRIKING') && svgHtml.includes('GROUND')) {
       targetSvg = svg;
-      console.log('Pan-zoom: Found master flowchart SVG');
+      console.log('Pan-zoom: Found master flowchart by content markers');
       break;
+    }
+
+    // Fallback: find the SVG with the most nodes (largest diagram)
+    const nodeCount = svg.querySelectorAll('g.node, g.cluster').length;
+    if (nodeCount > maxNodes) {
+      maxNodes = nodeCount;
+      targetSvg = svg;
     }
   }
 
+  // Use the largest SVG if we found one with significant content
+  if (targetSvg && maxNodes > 20) {
+    console.log('Pan-zoom: Using largest SVG with ' + maxNodes + ' nodes');
+  }
+
   if (!targetSvg) {
-    console.log('Pan-zoom: Master flowchart SVG not found yet');
+    console.log('Pan-zoom: No suitable SVG found yet');
     return false;
   }
 
-  // Get the parent element to hide it after we move the SVG
+  // Get the parent element to hide it after we clone
   const originalParent = targetSvg.parentElement;
 
-  // Clone the SVG and append to container (moving can cause issues)
+  // Clone the SVG and append to container
   const svgClone = targetSvg.cloneNode(true);
   container.appendChild(svgClone);
 
-  // Hide the original
+  // Hide the original diagram
   if (originalParent) {
     originalParent.style.display = 'none';
   }
@@ -152,8 +169,7 @@ function tryInitPanZoom(attempts, delay) {
 // Start trying after DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
   console.log('Pan-zoom: DOMContentLoaded fired');
-  // Mermaid needs time to render, so we retry multiple times
-  tryInitPanZoom(20, 300); // Try up to 20 times, every 300ms (6 seconds total)
+  tryInitPanZoom(20, 300);
 });
 
 // Also try on full window load
