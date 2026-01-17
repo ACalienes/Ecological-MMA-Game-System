@@ -13,42 +13,46 @@ function initPanZoom() {
     return true;
   }
 
-  // Find the master flowchart SVG - it's the large one with many nodes
-  // Search by checking innerHTML for unique identifiers
+  // Find all SVGs and analyze them
   const allSvgs = document.querySelectorAll('svg');
   let targetSvg = null;
-  let maxNodes = 0;
 
   console.log('Pan-zoom: Found ' + allSvgs.length + ' SVGs on page');
 
-  for (const svg of allSvgs) {
-    // Check innerHTML for our unique subgraph identifiers
-    const svgHtml = svg.innerHTML || '';
+  // Debug: log info about each SVG
+  allSvgs.forEach(function(svg, index) {
+    const width = svg.getAttribute('width') || svg.style.width || 'auto';
+    const height = svg.getAttribute('height') || svg.style.height || 'auto';
+    const viewBox = svg.getAttribute('viewBox') || 'none';
+    const childCount = svg.children.length;
+    const htmlSnippet = (svg.innerHTML || '').substring(0, 200);
 
-    // Look for unique identifiers from our master flowchart
-    if (svgHtml.includes('SKILL') && svgHtml.includes('STRIKING') && svgHtml.includes('GROUND')) {
-      targetSvg = svg;
-      console.log('Pan-zoom: Found master flowchart by content markers');
-      break;
+    console.log('SVG #' + index + ': ' + width + 'x' + height + ', viewBox=' + viewBox + ', children=' + childCount);
+
+    // Look for the largest SVG by viewBox dimensions or child count
+    // The master flowchart should be significantly larger than icons
+    if (viewBox !== 'none') {
+      const parts = viewBox.split(' ');
+      if (parts.length === 4) {
+        const vbWidth = parseFloat(parts[2]);
+        const vbHeight = parseFloat(parts[3]);
+        // Master flowchart is very wide (>1000) due to LR layout
+        if (vbWidth > 500 && vbHeight > 200) {
+          console.log('Pan-zoom: SVG #' + index + ' looks like a large diagram (viewBox: ' + vbWidth + 'x' + vbHeight + ')');
+          if (!targetSvg) {
+            targetSvg = svg;
+          }
+        }
+      }
     }
-
-    // Fallback: find the SVG with the most nodes (largest diagram)
-    const nodeCount = svg.querySelectorAll('g.node, g.cluster').length;
-    if (nodeCount > maxNodes) {
-      maxNodes = nodeCount;
-      targetSvg = svg;
-    }
-  }
-
-  // Use the largest SVG if we found one with significant content
-  if (targetSvg && maxNodes > 20) {
-    console.log('Pan-zoom: Using largest SVG with ' + maxNodes + ' nodes');
-  }
+  });
 
   if (!targetSvg) {
-    console.log('Pan-zoom: No suitable SVG found yet');
+    console.log('Pan-zoom: No large SVG found yet');
     return false;
   }
+
+  console.log('Pan-zoom: Selected target SVG');
 
   // Get the parent element to hide it after we clone
   const originalParent = targetSvg.parentElement;
