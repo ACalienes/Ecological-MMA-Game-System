@@ -6,9 +6,15 @@ This page provides visual navigation of the entire game system. All paths lead t
 
 ## Master Flowchart
 
-*Scroll horizontally to see the full diagram*
+<div class="zoom-controls">
+    <button onclick="zoomFlowchart(0.8)">−</button>
+    <button onclick="zoomFlowchart(1)">Reset</button>
+    <button onclick="zoomFlowchart(1.25)">+</button>
+    <span class="zoom-hint">Use buttons or scroll to zoom</span>
+</div>
 
-<div class="mermaid-scroll-wrapper">
+<div class="flowchart-viewport">
+<div class="flowchart-content" id="master-flowchart">
 
 ```mermaid
 flowchart LR
@@ -217,6 +223,7 @@ flowchart LR
     style SUB fill:#D32F2F,color:#fff
 ```
 
+</div>
 </div>
 
 **Legend:**
