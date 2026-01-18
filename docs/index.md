@@ -110,6 +110,7 @@ flowchart TB
     %% Paths to finish
     O_ATK --> KO
     O_ATK --> TKO
+    O_ATK -.-> SUB
     W_ATK --> TKO
     W_ATK -.-> KO
     W_ATK -.-> SUB

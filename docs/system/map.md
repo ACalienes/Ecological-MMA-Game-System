@@ -114,6 +114,7 @@ flowchart LR
     %% Striking → Finish
     SO --> KO
     SO --> TKO
+    SO -.-> SUB
     CS -.-> KO
 
     %% Striking → Ground (knockdown paths)
