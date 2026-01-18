@@ -16,7 +16,7 @@ prerequisites:
     - hand-controls
   games:
     - close-range-defense
-    - winning-circle
+    - pressure-to-clinch
 tags:
   - takedowns
   - pressure
@@ -158,6 +158,146 @@ Jumping steps or rushing creates counter opportunities.
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Attacker must use strikes to close (can't just shoot) | Develops integrated striking-to-grappling |
+| **Task** | Multi-layer sequence (strikes → closure → control → takedown) | Full MMA offensive chain |
+| **Task** | Defender manages all threats simultaneously | Develops layered defensive awareness |
+| **Task** | Progressive layers added (closure → takedown → scramble → counters) | Scaffolded complexity |
+| **Individual** | Prerequisites: Close-Range Defense, Pressure to Clinch | Has defensive and clinch skills |
+| **Environmental** | Open space with optional wall | Multiple pathways available |
+
+!!! info "Theoretical Foundation"
+    This game develops **offensive sequencing**—the perception-action coupling across multiple domains. The constraint requiring strikes before shooting prevents wrestlers from ignoring striking and forces true MMA integration. The defender develops **layered defensive perception**, reading which threat is current and selecting appropriate responses (Renshaw et al., 2019).
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Defender's guard position | Where to strike |
+| **Visual** | Defender's distance/footwork | When to close |
+| **Visual** | Defender's underhook position | Takedown angle |
+| **Visual** | Defender's counter setup | When to be cautious |
+| **Haptic** | Clinch control quality | When to attempt takedown |
+| **Proprioceptive** | Own balance and position | Sequence timing |
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Attacker's striking pattern | Defense selection |
+| **Visual** | Attacker's level change setup | Sprawl preparation |
+| **Visual** | Attacker's distance closure | When to frame or move |
+| **Haptic** | Clinch pressure | Escape or reversal timing |
+| **Proprioceptive** | Own position if taken down | Scramble direction |
+
+!!! tip "Coaching Cue"
+    Ask attackers: "Did your strikes create the takedown opportunity?" The takedown should emerge from striking pressure, not be forced independently. Ask defenders: "What layer were you defending?" to develop threat awareness.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+A wrestler or pressure fighter using striking to set up takedowns—the classic "punch to shoot" MMA strategy.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Offensive sequence** | Strikes → Clinch → Takedown → Control | Same | High |
+| **Multi-domain integration** | Full MMA offensive toolkit | Same | High |
+| **Defensive layers** | Must defend all threats | Progressive by level | Scaffolded |
+| **Consequence** | Fight goes to ground | Game ends on control | Analogous |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| Progressive defender options | Allows focus on each defensive layer |
+| Controlled contact | Safety during learning |
+| Clear win conditions | Structure for evaluation |
+
+!!! note "Transfer Expectation"
+    The offensive sequence developed here transfers directly to MMA competition. Fighters who can chain strikes to takedowns become effective pressure grapplers. The perceptual skill—reading when closure is available—is identical in competition.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Defender style** | Strikers, grapplers, movers | Multiple closing solutions |
+| **Defender size** | Larger, smaller, equal | Adaptability |
+| **Takedown emphasis** | Clinch takedowns, shot takedowns | Full wrestling vocabulary |
+| **Wall availability** | Open space only, cage available | Environmental flexibility |
+| **Intensity** | Controlled pace, live pace | Pressure calibration |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Strikes must precede shooting | Core constraint developing integration |
+| Sequence logic (strikes → closure → takedown) | Maintains MMA-specific learning |
+| Controlled takedowns | Safety |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Strikes create closure opportunities | Integration developing |
+| Takedowns emerge from clinch control | Sequence logic understood |
+| Defender manages current level's threats | Ready for more complexity |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Strikes clearly set up distance closure
+- [ ] Takedowns emerge from clinch control (not forced)
+- [ ] Defender successfully manages current level's threats
+- [ ] Can articulate: "I threw the cross then shot because..."
+- [ ] Sequence feels integrated, not choppy
+
+### Ready to Exit Game When
+
+- [ ] Level 4+ competence (handles defender counters)
+- [ ] Striking-to-grappling is seamless
+- [ ] Multiple pathway options (wall vs. open space takedown)
+- [ ] Sequence appears naturally in sparring
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Shoots without strikes | Not integrating domains | Reinforce constraint, more striking emphasis |
+| Gets countered during closure | Timing off | Slow down, work on reading counter threat |
+| Sequence feels forced | Not flowing | More reps at current level |
+| Defender overwhelmed | Progressed too fast | Return to previous level |
+
+---
+
 ## Advanced Expressions (Coach Context)
 
 **For attackers:**
@@ -188,14 +328,14 @@ Jumping steps or rushing creates counter opportunities.
 ```mermaid
 flowchart TD
     A[Close-Range Defense] --> B[Pressure to Takedown]
-    C[Winning the Circle] --> B
+    C[Pressure to Clinch] --> B
     B --> D[Wall Control]
     B --> E[Open Space Takedown]
 
     style B fill:#9C27B0,color:#fff
 ```
 
-- **Prerequisite games:** Close-Range Defense, Winning the Circle
+- **Prerequisite games:** Close-Range Defense, Pressure to Clinch
 - **Follow-on games:** Wall Control, Open Space Takedown
 - **Related concepts:** Defensive Solutions, Hand Controls, TKO Pin
 

@@ -37,7 +37,7 @@ flowchart LR
         end
         subgraph STR_COM["Combined"]
             TG[Touch Game]
-            WC[Winning the Circle]
+            PC[Pressure to Clinch]
         end
     end
 
@@ -45,9 +45,6 @@ flowchart LR
         subgraph TR_DEF["Defensive"]
             CD[Clinch Denial]
             CW[Counter-Wrestling]
-        end
-        subgraph TR_COM["Combined"]
-            BT[Boundary Trigger]
         end
     end
 
@@ -112,21 +109,19 @@ flowchart LR
     CRD --> CW
     LT --> TG
     LT --> SO
-    TG --> WC
+    TG --> PC
 
     %% Striking → Finish
     SO --> KO
     SO --> TKO
 
     %% Striking → Transition
-    WC --> BT
-    WC --> CD
-    EM --> BT
+    PC --> CD
+    PC --> WCon
+    PC --> OST
+    EM --> PC
 
     %% Transition → Wrestling
-    BT --> PTT
-    BT --> PTW
-    BT --> TDD
     CS --> TDD
     CW --> OST
 
@@ -139,7 +134,7 @@ flowchart LR
     WCon --> WE
     WCon --> WG
     WCon --> WGr
-    WE --> BT
+    WE --> PC
     WDS --> SUB
     WG --> SUL
     WG --> GC
@@ -163,7 +158,7 @@ flowchart LR
     GE --> GDS
     LR --> PB
     LR --> GTS
-    GTS --> BT
+    GTS --> PC
     GDS --> SUB
     PB --> GC
     PB --> GE
@@ -204,8 +199,7 @@ flowchart LR
     style GC fill:#FF5722,color:#fff
 
     style TG fill:#9C27B0,color:#fff
-    style WC fill:#9C27B0,color:#fff
-    style BT fill:#9C27B0,color:#fff
+    style PC fill:#9C27B0,color:#fff
     style OST fill:#9C27B0,color:#fff
     style SUL fill:#9C27B0,color:#fff
     style PB fill:#9C27B0,color:#fff
@@ -285,7 +279,7 @@ flowchart LR
         LT[Land the Target]
         SO[Sustained Offense]
         TG[Touch Game]
-        WC[Winning the Circle]
+        PC[Pressure to Clinch]
     end
 
     subgraph COUNTER["Counter Options"]
@@ -306,7 +300,7 @@ flowchart LR
     CRD --> CW
     LT --> TG
     LT --> SO
-    TG --> WC
+    TG --> PC
     SO --> KO
     SO --> TKO
 
@@ -317,7 +311,7 @@ flowchart LR
     style LT fill:#FF5722,color:#fff
     style SO fill:#FF5722,color:#fff
     style TG fill:#9C27B0,color:#fff
-    style WC fill:#9C27B0,color:#fff
+    style PC fill:#9C27B0,color:#fff
     style KO fill:#D32F2F,color:#fff
     style TKO fill:#D32F2F,color:#fff
 ```
@@ -329,7 +323,7 @@ The Transition Zone sits between Striking and Wrestling, handling the critical m
 ```mermaid
 flowchart LR
     subgraph STRIKING["Open Space Striking"]
-        WC[Winning the Circle]
+        PC[Pressure to Clinch]
         CRD[Close-Range Defense]
         CS[Counter-Striking]
     end
@@ -337,7 +331,6 @@ flowchart LR
     subgraph TRANSITION["Transition Zone"]
         CD[Clinch Denial]
         CW[Counter-Wrestling]
-        BT[Boundary Trigger]
     end
 
     subgraph WRESTLING["Open Space Wrestling"]
@@ -347,22 +340,19 @@ flowchart LR
         OST[Open Space Takedown]
     end
 
-    WC --> BT
-    WC --> CD
+    PC --> CD
+    PC --> WCon
+    PC --> OST
     CRD --> CS
     CRD --> CW
-    BT --> PTT
-    BT --> PTW
-    BT --> TDD
     CS --> TDD
     CW --> OST
 
-    style WC fill:#9C27B0,color:#fff
+    style PC fill:#9C27B0,color:#fff
     style CRD fill:#4CAF50,color:#fff
     style CS fill:#4CAF50,color:#fff
     style CD fill:#4CAF50,color:#fff
     style CW fill:#4CAF50,color:#fff
-    style BT fill:#9C27B0,color:#fff
     style PTT fill:#FF5722,color:#fff
     style PTW fill:#FF5722,color:#fff
     style TDD fill:#4CAF50,color:#fff
@@ -532,28 +522,27 @@ flowchart LR
 | 11 | [Land the Target](../games/land-the-target.md) | Open Space | Striking | Offensive | Intermediate |
 | 12 | [Sustained Offense](../games/sustained-offense.md) | Open Space | Striking | Offensive | Intermediate |
 | 13 | [Touch and Don't Get Touched](../games/touch-game.md) | Open Space | Striking | Combined | Beginner |
-| 14 | [Winning the Circle](../games/winning-circle.md) | Open Space | Striking | Combined | Beginner |
+| 14 | [Pressure to Clinch](../games/pressure-to-clinch.md) | Open Space | Striking | Combined | Beginner |
 | 15 | [Counter-Striking](../games/counter-striking.md) | Open Space | Striking | Defensive | Intermediate |
 | 16 | [Counter-Wrestling](../games/counter-wrestling.md) | Transition | Wrestling | Defensive | Intermediate |
 | 17 | [Clinch Denial](../games/clinch-denial.md) | Transition | Wrestling | Defensive | Intermediate |
-| 18 | [Boundary Trigger](../games/boundary-trigger.md) | Transition | Wrestling | Combined | Intermediate |
-| 19 | [Takedown Defense](../games/takedown-defense.md) | Open Space | Wrestling | Defensive | Intermediate |
-| 20 | [Pressure to Takedown](../games/pressure-to-takedown.md) | Open Space | Wrestling | Offensive | Advanced |
-| 21 | [Pressure to Wall](../games/pressure-to-wall.md) | Open Space | Wrestling | Offensive | Advanced |
-| 22 | [Open Space Takedown](../games/open-space-takedown.md) | Open Space | Wrestling | Combined | Intermediate |
-| 23 | [Wall Control](../games/wall-control.md) | Wall | Wrestling | Offensive | Intermediate |
-| 24 | [Wall Escape](../games/wall-escape.md) | Wall | Wrestling | Defensive | Intermediate |
-| 25 | [Wall Defensive Submission](../games/wall-defensive-submission.md) | Wall | Grappling | Defensive | Advanced |
-| 26 | [Wall Pin to Ground](../games/wall-to-ground.md) | Wall | Wrestling | Offensive | Intermediate |
-| 27 | [Wall Grinding](../games/wall-grinding.md) | Wall | Wrestling | Offensive | Intermediate |
-| 28 | [Stand-Up Loop](../games/standup-loop.md) | Wall | Wrestling | Combined | Advanced |
-| 29 | [Ground Access](../games/ground-access.md) | Ground | Grappling | Offensive | Intermediate |
-| 30 | [Ground Control](../games/ground-control.md) | Ground | Grappling | Offensive | Intermediate |
-| 31 | [Ground Escape](../games/ground-escape.md) | Ground | Grappling | Defensive | Intermediate |
-| 32 | [Leg Reclaim](../games/leg-reclaim.md) | Ground | Grappling | Defensive | Intermediate |
-| 33 | [Ground to Standing](../games/ground-to-standing.md) | Ground | Grappling | Defensive | Intermediate |
-| 34 | [Ground Defensive Submission](../games/ground-defensive-submission.md) | Ground | Grappling | Defensive | Advanced |
-| 35 | [Positional Battle](../games/positional-battle.md) | Ground | Grappling | Combined | Intermediate |
+| 18 | [Takedown Defense](../games/takedown-defense.md) | Open Space | Wrestling | Defensive | Intermediate |
+| 19 | [Pressure to Takedown](../games/pressure-to-takedown.md) | Open Space | Wrestling | Offensive | Advanced |
+| 20 | [Pressure to Wall](../games/pressure-to-wall.md) | Open Space | Wrestling | Offensive | Advanced |
+| 21 | [Open Space Takedown](../games/open-space-takedown.md) | Open Space | Wrestling | Combined | Intermediate |
+| 22 | [Wall Control](../games/wall-control.md) | Wall | Wrestling | Offensive | Intermediate |
+| 23 | [Wall Escape](../games/wall-escape.md) | Wall | Wrestling | Defensive | Intermediate |
+| 24 | [Wall Defensive Submission](../games/wall-defensive-submission.md) | Wall | Grappling | Defensive | Advanced |
+| 25 | [Wall Pin to Ground](../games/wall-to-ground.md) | Wall | Wrestling | Offensive | Intermediate |
+| 26 | [Wall Grinding](../games/wall-grinding.md) | Wall | Wrestling | Offensive | Intermediate |
+| 27 | [Stand-Up Loop](../games/standup-loop.md) | Wall | Wrestling | Combined | Advanced |
+| 28 | [Ground Access](../games/ground-access.md) | Ground | Grappling | Offensive | Intermediate |
+| 29 | [Ground Control](../games/ground-control.md) | Ground | Grappling | Offensive | Intermediate |
+| 30 | [Ground Escape](../games/ground-escape.md) | Ground | Grappling | Defensive | Intermediate |
+| 31 | [Leg Reclaim](../games/leg-reclaim.md) | Ground | Grappling | Defensive | Intermediate |
+| 32 | [Ground to Standing](../games/ground-to-standing.md) | Ground | Grappling | Defensive | Intermediate |
+| 33 | [Ground Defensive Submission](../games/ground-defensive-submission.md) | Ground | Grappling | Defensive | Advanced |
+| 34 | [Positional Battle](../games/positional-battle.md) | Ground | Grappling | Combined | Intermediate |
 
 ---
 
@@ -621,10 +610,7 @@ flowchart LR
 
     **Open Space Striking:**
     - Touch and Don't Get Touched
-    - Winning the Circle
-
-    **Transition:**
-    - Boundary Trigger
+    - Pressure to Clinch
 
     **Open Space Wrestling:**
     - Open Space Takedown
@@ -644,7 +630,7 @@ flowchart LR
 | [Three Zones](../concepts/three-zones.md) | Land the Target, Sustained Offense | Offensive target selection |
 | [Confidence Rating](../concepts/confidence-rating.md) | Land the Target, Skill Isolation | Commitment timing |
 | [Defensive Solutions](../concepts/defensive-solutions.md) | All skill isolation, Close-Range Defense | Defense selection |
-| [Hand Controls](../concepts/hand-controls.md) | Touch, Circle, Boundary, Pressure | Bridges striking and clinch |
+| [Hand Controls](../concepts/hand-controls.md) | Touch, Pressure to Clinch, Pressure games | Bridges striking and clinch |
 | [TKO Pin](../concepts/tko-pin.md) | Wall Grinding, Ground Control | Exploitation endpoint |
 | [Decision States](../concepts/decision-states.md) | All games | Access → Stabilize → Exploit → Counter |
 | [Full MMA Expression](../concepts/full-mma-expression.md) | Level 4 of all games | Cross-domain threat integration |
@@ -656,15 +642,15 @@ flowchart LR
 
 | Category | Count |
 |----------|-------|
-| **Total Games** | 35 |
+| **Total Games** | 34 |
 | **Defensive Focus** | 14 |
 | **Offensive Focus** | 12 |
-| **Combined Focus** | 6 |
-| **Transition Games** | 4 |
+| **Combined Focus** | 5 |
+| **Transition Games** | 2 |
 | **Skill Isolation** | 8 |
 | **Open Space** | 12 |
 | **Wall** | 6 |
-| **Ground** | 6 |
+| **Ground** | 7 |
 
 ---
 

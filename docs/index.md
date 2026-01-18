@@ -10,7 +10,7 @@ This is a **complete training system** built on one insight: **MMA is a decision
 
 Instead of drilling techniques in isolation, athletes solve problems through structured games. The environment does the teaching. Correct behavior emerges from constraints, not coaching cues.
 
-**35 games. 5 environments. All paths lead to finish.**
+**35 games. 13 subcategories. All paths lead to finish.**
 
 ---
 
@@ -27,7 +27,7 @@ Instead of drilling techniques in isolation, athletes solve problems through str
     | Striking defense | [Parry the Straight](games/parry-the-straight.md) or [Slip the Straight](games/slip-the-straight.md) |
     | Striking offense | [Lead Hand Offense](games/lead-hand-offense.md) or [Land the Target](games/land-the-target.md) |
     | Range and timing | [Touch and Don't Get Touched](games/touch-game.md) |
-    | Space control | [Winning the Circle](games/winning-circle.md) |
+    | Space control | [Pressure to Clinch](games/pressure-to-clinch.md) |
     | Wall work | [Wall Control](games/wall-control.md) |
     | Ground work | [Ground Escape](games/ground-escape.md) or [Ground Access](games/ground-access.md) |
 
@@ -60,195 +60,196 @@ Every game in this system ultimately leads to one of three endings:
 
 See: [Fight Philosophy](concepts/fight-philosophy.md)
 
-### Full MMA Expression
-
-Every game has a highest level called [Full MMA Expression](concepts/full-mma-expression.md) where cross-domain threats are added. Striking games add grappling threats. Grappling games add striking threats. Lower levels build skill; highest levels test it under MMA reality.
-
 ---
 
 ## The System at a Glance
 
+**The fight is cyclical.** You move between positions until someone finishes.
+
 ```mermaid
-flowchart TD
-    subgraph SKILL["SKILL ISOLATION (8)"]
-        DEF[Defensive: Parry, Block, Slip, Evade]
-        OFF[Offensive: Lead Hand, Rear Hand, Lead Leg, Rear Leg]
+flowchart TB
+    START((FIGHT<br>STARTS)) --> OPEN
+
+    subgraph OPEN["OPEN SPACE — Standing at Distance"]
+        direction LR
+        O_DEF["🟢 Defend & Counter"]
+        O_CTL["🟣 Control Space"]
+        O_ATK["🟠 Attack & Finish"]
     end
 
-    subgraph STRIKING["OPEN SPACE STRIKING (7)"]
-        TG[Touch Game]
-        CRD[Close-Range Defense]
-        LT[Land the Target]
-        WC[Winning the Circle]
+    subgraph WALL["WALL — Standing Against Cage"]
+        direction LR
+        W_DEF["🟢 Escape"]
+        W_ATK["🟠 Control & Grind"]
     end
 
-    subgraph TRANSITION["TRANSITION ZONE (3)"]
-        CD[Clinch Denial]
-        CS[Counter-Striking]
-        CW[Counter-Wrestling]
-        BT[Boundary Trigger]
+    subgraph GROUND["GROUND — Horizontal Grappling"]
+        direction LR
+        G_DEF["🟢 Escape & Survive"]
+        G_ATK["🟠 Advance & Finish"]
     end
 
-    subgraph WRESTLING["OPEN SPACE WRESTLING (4)"]
-        TDD[Takedown Defense]
-        PTT[Pressure to Takedown]
-        OST[Open Space Takedown]
-    end
-
-    subgraph WALL["WALL (6)"]
-        WCON[Wall Control]
-        WE[Wall Escape]
-        WG[Wall to Ground]
-    end
-
-    subgraph GROUND["GROUND (7)"]
-        GA[Ground Access]
-        GC[Ground Control]
-        GE[Ground Escape]
-        PB[Positional Battle]
-    end
-
-    subgraph FINISH["END STATES"]
+    subgraph FINISH["FIGHT ENDS"]
         KO((KO))
         TKO((TKO))
-        SUB((Submission))
+        SUB((Sub))
     end
 
-    DEF --> CRD
-    OFF --> LT
-    CRD --> TG
-    LT --> TG
-    TG --> WC
-    WC --> BT
-    CRD --> CS
-    CRD --> CW
+    %% Transitions between positions
+    OPEN -->|"Clinch / Pressure"| WALL
+    OPEN -->|"Takedown"| GROUND
+    WALL -->|"Escape"| OPEN
+    WALL -->|"Takedown"| GROUND
+    GROUND -->|"Stand Up"| OPEN
+    GROUND -.->|"Scramble to Wall"| WALL
 
-    BT --> PTT
-    BT --> TDD
-    CS --> TDD
-    CW --> OST
+    %% Paths to finish
+    O_ATK --> KO
+    W_ATK --> TKO
+    G_ATK --> TKO
+    G_ATK --> SUB
+    G_DEF -.->|"Def Sub"| SUB
+    W_DEF -.->|"Def Sub"| SUB
 
-    PTT --> WCON
-    PTT --> OST
-    OST --> GA
-    OST --> GE
-
-    WCON --> WE
-    WCON --> WG
-    WG --> GC
-
-    GA --> GC
-    GE --> PB
-    PB --> GC
-    PB --> GE
-
-    GC --> TKO
-    GC --> SUB
-    WCON --> TKO
-
-    style DEF fill:#4CAF50,color:#fff
-    style OFF fill:#FF5722,color:#fff
-    style TG fill:#9C27B0,color:#fff
-    style CRD fill:#4CAF50,color:#fff
-    style LT fill:#FF5722,color:#fff
-    style WC fill:#9C27B0,color:#fff
-    style BT fill:#9C27B0,color:#fff
+    %% Styling
+    style START fill:#2196F3,color:#fff
+    style O_DEF fill:#4CAF50,color:#fff
+    style O_CTL fill:#9C27B0,color:#fff
+    style O_ATK fill:#FF5722,color:#fff
+    style W_DEF fill:#4CAF50,color:#fff
+    style W_ATK fill:#FF5722,color:#fff
+    style G_DEF fill:#4CAF50,color:#fff
+    style G_ATK fill:#FF5722,color:#fff
     style KO fill:#D32F2F,color:#fff
     style TKO fill:#D32F2F,color:#fff
     style SUB fill:#D32F2F,color:#fff
+
+    click O_DEF "#open-space-defensive"
+    click O_CTL "#open-space-control"
+    click O_ATK "#open-space-offensive"
+    click W_DEF "#wall-defensive"
+    click W_ATK "#wall-offensive"
+    click G_DEF "#ground-defensive"
+    click G_ATK "#ground-offensive"
 ```
 
-**Legend:** 🟢 Defensive | 🟠 Offensive | 🟣 Combined | 🔴 Finish
+**Reading the diagram:**
 
-For the complete map with all 35 games, see [System Map](system/map.md).
+- **Solid arrows** = Common transitions (how you move between positions)
+- **Dotted arrows** = Less common paths (defensive submissions, scrambles)
+- **🟢 Green** = Defensive (survive, escape, counter)
+- **🟠 Orange** = Offensive (attack, control, finish)
+- **🟣 Purple** = Combined (both roles active)
+
+**The cycle:** Open Space → Wall or Ground → Escape back to Open Space → Repeat until finish
 
 ---
 
-## Find Your Game
+## Games by Position
 
-=== "By Environment"
+Click any colored box in the diagram above to jump to that section.
 
-    **Skill Isolation (8 games)** — Single-skill focus
+---
 
-    - Defensive: [Parry](games/parry-the-straight.md), [Block](games/tight-block.md), [Slip](games/slip-the-straight.md), [Evade](games/evade-the-punch.md)
-    - Offensive: [Lead Hand](games/lead-hand-offense.md), [Rear Hand](games/rear-hand-offense.md), [Lead Leg](games/lead-leg-offense.md), [Rear Leg](games/rear-leg-offense.md)
+### OPEN SPACE — Standing at Distance
 
-    **Open Space — Striking (7 games)**
+This is where every fight starts. All striking and wrestling initiation happens here.
 
-    - [Touch Game](games/touch-game.md), [Winning the Circle](games/winning-circle.md)
-    - [Close-Range Defense](games/close-range-defense.md), [Evasive Movement](games/evasive-movement.md), [Counter-Striking](games/counter-striking.md)
-    - [Land the Target](games/land-the-target.md), [Sustained Offense](games/sustained-offense.md)
+#### Open Space — Defensive
+Survive strikes, defend takedowns, counter attacks, return to neutral.
 
-    **Transition Zone (3 games)**
+| Game | Category | What It Develops |
+|------|----------|------------------|
+| [Parry the Straight](games/parry-the-straight.md) | Skill Building | Hand deflection timing |
+| [Tight Block](games/tight-block.md) | Skill Building | Guard absorption |
+| [Slip the Straight](games/slip-the-straight.md) | Skill Building | Head movement |
+| [Evade the Punch](games/evade-the-punch.md) | Skill Building | Full evasion vocabulary |
+| [Close-Range Defense](games/close-range-defense.md) | Application | Layered defensive response |
+| [Evasive Movement](games/evasive-movement.md) | Application | Creating distance under fire |
+| [Counter-Striking](games/counter-striking.md) | Application | Punishing initiation |
+| [Clinch Denial](games/clinch-denial.md) | Transition | Breaking clinch attempts |
+| [Counter-Wrestling](games/counter-wrestling.md) | Transition | Punishing shot attempts |
+| [Takedown Defense](games/takedown-defense.md) | Transition | Sprawl, underhooks, recovery |
 
-    - [Clinch Denial](games/clinch-denial.md), [Counter-Wrestling](games/counter-wrestling.md), [Boundary Trigger](games/boundary-trigger.md)
+---
 
-    **Open Space — Wrestling (4 games)**
+#### Open Space — Control
+Manage distance, angles, and position. Neither pure offense nor defense.
 
-    - [Takedown Defense](games/takedown-defense.md), [Pressure to Takedown](games/pressure-to-takedown.md)
-    - [Pressure to Wall](games/pressure-to-wall.md), [Open Space Takedown](games/open-space-takedown.md)
+| Game | What It Develops |
+|------|------------------|
+| [Touch Game](games/touch-game.md) | Range awareness and timing |
+| [Pressure to Clinch](games/pressure-to-clinch.md) | Space control, pressure, and clinch entry |
 
-    **Wall (6 games)**
+---
 
-    - [Wall Control](games/wall-control.md), [Wall Escape](games/wall-escape.md), [Wall Defensive Submission](games/wall-defensive-submission.md)
-    - [Wall to Ground](games/wall-to-ground.md), [Wall Grinding](games/wall-grinding.md), [Stand-Up Loop](games/standup-loop.md)
+#### Open Space — Offensive
+Land strikes, initiate grappling, pressure opponent toward finish or position change.
 
-    **Ground (7 games)**
+| Game | Category | What It Develops |
+|------|----------|------------------|
+| [Lead Hand Offense](games/lead-hand-offense.md) | Skill Building | Jab mechanics and setups |
+| [Rear Hand Offense](games/rear-hand-offense.md) | Skill Building | Cross/power hand timing |
+| [Lead Leg Offense](games/lead-leg-offense.md) | Skill Building | Lead kick variety |
+| [Rear Leg Offense](games/rear-leg-offense.md) | Skill Building | Power kick delivery |
+| [Land the Target](games/land-the-target.md) | Application | Reading defense, landing clean |
+| [Sustained Offense](games/sustained-offense.md) | Application | Maintaining pressure to KO |
+| [Pressure to Takedown](games/pressure-to-takedown.md) | Position Change | Chaining strikes to takedown |
+| [Pressure to Wall](games/pressure-to-wall.md) | Position Change | Driving opponent to cage |
+| [Open Space Takedown](games/open-space-takedown.md) | Position Change | Takedowns without wall |
 
-    - [Ground Access](games/ground-access.md), [Ground Control](games/ground-control.md)
-    - [Ground Escape](games/ground-escape.md), [Leg Reclaim](games/leg-reclaim.md), [Ground to Standing](games/ground-to-standing.md), [Ground Defensive Submission](games/ground-defensive-submission.md)
-    - [Positional Battle](games/positional-battle.md)
+---
 
-=== "By Focus"
+### WALL — Standing Against Cage
 
-    **Defensive (17 games)** — Defender is primary learner
+You arrive here via clinch or pressure. Exit by escaping, taking down, or finishing.
 
-    - Skill Isolation: Parry, Block, Slip, Evade
-    - Striking: Close-Range Defense, Evasive Movement, Counter-Striking
-    - Transition: Clinch Denial, Counter-Wrestling
-    - Wrestling: Takedown Defense
-    - Wall: Wall Escape, Wall Defensive Submission
-    - Ground: Ground Escape, Leg Reclaim, Ground to Standing, Ground Defensive Submission
+#### Wall — Defensive
+Get off the wall and return to open space.
 
-    **Offensive (12 games)** — Attacker is primary learner
+| Game | What It Develops |
+|------|------------------|
+| [Wall Escape](games/wall-escape.md) | Breaking the pin, returning to open space |
+| [Wall Defensive Submission](games/wall-defensive-submission.md) | Submissions to deter/punish control |
 
-    - Skill Isolation: Lead Hand, Rear Hand, Lead Leg, Rear Leg
-    - Striking: Land the Target, Sustained Offense
-    - Wrestling: Pressure to Takedown, Pressure to Wall
-    - Wall: Wall Control, Wall to Ground, Wall Grinding
-    - Ground: Ground Access, Ground Control
+---
 
-    **Combined (6 games)** — Both sides have distinct objectives
+#### Wall — Offensive
+Maintain control, accumulate damage, or advance to ground.
 
-    - Striking: Touch Game, Winning the Circle
-    - Transition: Boundary Trigger
-    - Wrestling: Open Space Takedown
-    - Wall: Stand-Up Loop
-    - Ground: Positional Battle
+| Game | What It Develops |
+|------|------------------|
+| [Wall Control](games/wall-control.md) | Maintaining the pin |
+| [Wall Grinding](games/wall-grinding.md) | Accumulating damage toward TKO |
+| [Wall to Ground](games/wall-to-ground.md) | Taking fight to ground |
+| [Stand-Up Loop](games/standup-loop.md) | Managing repeated stand-up/re-pin cycles |
 
-=== "By Difficulty"
+---
 
-    **Beginner** — Start here
+### GROUND — Horizontal Grappling
 
-    - Parry the Straight, Tight Block, Slip the Straight
-    - Lead Hand Offense, Rear Hand Offense
-    - Touch Game, Winning the Circle
+You arrive here via takedown. Exit by standing up, or finish via TKO/submission.
 
-    **Intermediate** — Build on foundations
+#### Ground — Defensive
+Escape back to feet or survive until you can. Defensive submissions punish mistakes.
 
-    - Evade the Punch, Close-Range Defense, Land the Target
-    - Evasive Movement, Counter-Striking, Sustained Offense
-    - Clinch Denial, Counter-Wrestling, Boundary Trigger
-    - Takedown Defense, Open Space Takedown
-    - Wall Control, Wall Escape, Wall to Ground, Wall Grinding
-    - Ground Access, Ground Control, Ground Escape, Leg Reclaim, Ground to Standing, Positional Battle
+| Game | What It Develops |
+|------|------------------|
+| [Ground Escape](games/ground-escape.md) | Basic escapes from bottom |
+| [Leg Reclaim](games/leg-reclaim.md) | Guard recovery |
+| [Ground to Standing](games/ground-to-standing.md) | Technical stand-up |
+| [Ground Defensive Submission](games/ground-defensive-submission.md) | Submissions from bottom |
 
-    **Advanced** — Full integration
+---
 
-    - Lead Leg Offense, Rear Leg Offense
-    - Pressure to Takedown, Pressure to Wall
-    - Wall Defensive Submission, Stand-Up Loop
-    - Ground Defensive Submission
+#### Ground — Offensive
+Pass guard, establish control, finish the fight.
+
+| Game | What It Develops |
+|------|------------------|
+| [Ground Access](games/ground-access.md) | Passing guard |
+| [Ground Control](games/ground-control.md) | Maintaining dominant position |
+| [Positional Battle](games/positional-battle.md) | Winning scrambles and exchanges |
 
 ---
 

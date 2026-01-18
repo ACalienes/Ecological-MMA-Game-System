@@ -250,7 +250,7 @@ See: Training Mindset principle
 | Striking defense | Parry the Straight, Slip the Straight |
 | Striking offense | Land the Target |
 | Range/timing | Touch Game |
-| Space control | Winning the Circle |
+| Space control | Pressure to Clinch |
 | Full integration | Pressure to Takedown |
 | Wall work | Wall Control |
 

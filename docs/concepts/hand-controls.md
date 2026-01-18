@@ -77,8 +77,7 @@ Hand control appears:
 | Context | Role |
 |---------|------|
 | [Touch Game](../games/touch-game.md) Level 4 | Advanced expression of "don't get touched" |
-| [Winning the Circle](../games/winning-circle.md) | Pressure tool for attacker |
-| [Boundary Trigger](../games/boundary-trigger.md) | Bridge into clinch |
+| [Pressure to Clinch](../games/pressure-to-clinch.md) | Pressure tool and clinch entry |
 | All grappling games | Controlling defender's frames |
 
 ---

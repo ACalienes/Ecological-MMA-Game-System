@@ -139,6 +139,145 @@ This is different from basic offense (landing targets) — it's about maintainin
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Attacker must continue (no full reset) | Develops seamless defense-within-offense |
+| **Task** | Defender actively interrupts (not passive) | Creates realistic resistance to maintain rhythm against |
+| **Task** | Progressive defender tools (counter → move → clinch → shoot) | Scaffolded learning of pressure maintenance |
+| **Task** | Duration-based win (sustained sequence) | Rewards continuous pressure, not single moments |
+| **Individual** | Prerequisite: Land the Target | Foundation of hitting targets exists |
+| **Environmental** | Open space with movement | Attacker must follow, not just stand and throw |
+
+!!! info "Theoretical Foundation"
+    This game develops **attacking degeneracy**—multiple ways to maintain offensive rhythm. The constraints force the attacker to integrate defensive awareness without breaking flow, developing what Renshaw et al. (2019) call "adaptability under pressure." The attacker isn't learning a fixed combination; they're learning to solve the continuous problem of maintaining offense.
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Defender's counter initiation | Slip/absorb while continuing |
+| **Visual** | Defender's movement direction | Follow without overchasing |
+| **Visual** | Defender's clinch attempt setup | Disengage or frame and continue |
+| **Visual** | Defender's level change | Sprawl preparation while striking |
+| **Haptic** | Contact on blocks/parries | Adjust targets without stopping |
+| **Proprioceptive** | Own rhythm and balance | Maintain flow through defensive moments |
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Attacker's pattern and gaps | When to counter |
+| **Visual** | Attacker's forward pressure | When to move, clinch, or shoot |
+| **Haptic** | Attacker's weight and rhythm | Best interruption method |
+
+!!! tip "Coaching Cue"
+    Ask attackers: "What happened? Did you continue or reset?" This develops awareness of rhythm breaks. The goal is continuity, not perfection—brief defensive moments within offense are expected and desired.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Pressing an opponent with sustained combinations while they try to escape, counter, clinch, or shoot—the pressure fighting phase of MMA.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Offensive rhythm** | Sustained combinations | Same | High |
+| **Defensive resistance** | Counters, movement, clinch, takedown | Progressive by level | Scaffolded |
+| **Pressure intensity** | Full power possible | Controlled contact | Reduced |
+| **Consequence** | Damage, finish | Role switch | Reduced |
+| **Wrestling threat** | Always present | Added at Level 4 | Progressive |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| Progressive defender tools | Allows focused development of each rhythm-maintenance skill |
+| Controlled contact | Safety while learning flow |
+| Clear duration win | Provides structure for evaluation |
+
+!!! note "Transfer Expectation"
+    The rhythm-maintenance skill transfers directly to live sparring and competition. Athletes who can continue offense through resistance become effective pressure fighters. The perception of "my rhythm" vs. "broken rhythm" is identical in competition.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Defender style** | Some counter heavily, some move, some clinch | Multiple rhythm solutions |
+| **Defender activity level** | Passive resistance, active resistance | Intensity calibration |
+| **Duration requirement** | 10-second sequences, 20-second sequences | Endurance development |
+| **Partner size/speed** | Faster defenders, larger defenders | Adaptability |
+| **Offensive tools** | Hands-only rounds, add kicks | Weapon variety in rhythm |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Attacker must continue (no full reset) | Core constraint defining the game |
+| Defender actively interrupts | Maintains representative resistance |
+| Sequence-based win | Maintains rhythm focus |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Maintains rhythm through current defender tools | Ready for more interruption methods |
+| Seamless defense within offense | Integration occurring |
+| Follows movement without breaking rhythm | Pressure quality developing |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Maintains rhythm through current level's defender tools
+- [ ] Defensive moments (slipping counters, etc.) don't break flow
+- [ ] Follows movement without resetting
+- [ ] Can articulate: "I slipped and continued" vs. "I got hit and reset"
+- [ ] Rhythm quality consistent across different defenders
+
+### Ready to Exit Game When
+
+- [ ] Level 3+ competence (handles clinch attempts)
+- [ ] Sustained pressure feels natural, not forced
+- [ ] Ready to add pressure objectives (wall, takedown)
+- [ ] Rhythm maintenance appears in live sparring
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Full resets after every exchange | Rhythm not developed | Slower tempo, less defender activity |
+| Chasing defender frantically | Following without purpose | Emphasize measured pursuit |
+| Gets hit cleanly and stops | Counter management lacking | Return to previous level |
+| Ignores counters (just throws through them) | Not integrating defense | Emphasize "continue, don't ignore" |
+
+---
+
 ## Safety
 
 - **Contact limits:** Light to moderate

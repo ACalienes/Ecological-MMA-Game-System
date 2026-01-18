@@ -74,8 +74,8 @@ If you prefer structured templates, use these pre-designed sessions:
 
 | Order | Game | Duration | Focus |
 |-------|------|----------|-------|
-| 1 | Winning the Circle | 10 min | Space control warm-up |
-| 2 | Boundary Trigger | 10 min | Recognize clinch moments |
+| 1 | Pressure to Clinch | 10 min | Space control warm-up |
+| 2 | Pressure to Clinch (L3) | 10 min | Clinch to wall transition |
 | 3 | Clinch Denial | 10 min | Defensive transition |
 | 4 | Pressure to Takedown | 15 min | Offensive chain |
 | 5 | Open Space Takedown | 15 min | Full wrestling exchange |
@@ -145,8 +145,8 @@ If you prefer structured templates, use these pre-designed sessions:
 | Order | Game | Duration | Focus |
 |-------|------|----------|-------|
 | 1 | Touch and Don't Get Touched (L4) | 10 min | Striking with TD threat |
-| 2 | Winning the Circle (L4) | 10 min | Space control, full MMA |
-| 3 | Boundary Trigger (L4) | 12 min | Transition with strikes |
+| 2 | Pressure to Clinch (L4) | 10 min | Space control, full MMA |
+| 3 | Pressure to Clinch (L5) | 12 min | Full MMA Expression |
 | 4 | Open Space Takedown (L4) | 14 min | Wrestling with strikes |
 | 5 | Stand-Up Loop (L4) | 14 min | Complete MMA exchange |
 
@@ -232,12 +232,12 @@ Use this template to document your sessions:
 
     **Offensive:** Land the Target, Sustained Offense
 
-    **Combined:** Touch and Don't Get Touched, Winning the Circle
+    **Combined:** Touch and Don't Get Touched, Pressure to Clinch
 
 === "Transition Zone"
     **Defensive:** Clinch Denial, Counter-Striking, Counter-Wrestling
 
-    **Combined:** Boundary Trigger
+    **Combined:** Pressure to Clinch (L3+)
 
 === "Open Space Wrestling"
     **Defensive:** Takedown Defense
@@ -289,7 +289,7 @@ const games = {
         ],
         'combined': [
             {name: 'Touch and Don\'t Get Touched', link: '../games/touch-game.md', difficulty: 'beginner'},
-            {name: 'Winning the Circle', link: '../games/winning-circle.md', difficulty: 'beginner'}
+            {name: 'Pressure to Clinch', link: '../games/pressure-to-clinch.md', difficulty: 'beginner'}
         ]
     },
     'transition': {
@@ -299,7 +299,7 @@ const games = {
             {name: 'Counter-Wrestling', link: '../games/counter-wrestling.md', difficulty: 'intermediate'}
         ],
         'combined': [
-            {name: 'Boundary Trigger', link: '../games/boundary-trigger.md', difficulty: 'intermediate'}
+            {name: 'Pressure to Clinch (L3+)', link: '../games/pressure-to-clinch.md', difficulty: 'intermediate'}
         ]
     },
     'wrestling': {

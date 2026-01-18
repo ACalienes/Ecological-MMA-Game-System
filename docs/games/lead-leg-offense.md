@@ -129,6 +129,145 @@ The objective is **weapon development**, not competition.
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Attacker uses lead leg only | Forces exploration of quick, non-committal kicks |
+| **Task** | Defender cannot counter (Level 1) | Attacker can focus on range and timing |
+| **Task** | All lead leg tools available | Invites discovery of teep, round kick, side kick options |
+| **Task** | Multiple target levels allowed | Encourages level variation (head, body, leg) |
+| **Individual** | Skill level matching | Appropriate challenge for development |
+| **Environmental** | Kicking range maintained | Lead leg is viable and effective |
+
+!!! info "Theoretical Foundation"
+    This game implements **Constrain to Afford** (Renshaw et al., 2019). By limiting the attacker to lead leg only, the environment invites exploration of the fastest kicking weapon. Different fighters will develop different lead leg preferences based on individual constraints (hip flexibility, stance width, balance).
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Defender's distance | Kick selection based on range |
+| **Visual** | Defender's stance/weight distribution | Target availability |
+| **Visual** | Defender's guard position | Which targets are open |
+| **Visual** | Defender's reaction timing | When to throw vs. feint |
+| **Proprioceptive** | Hip position and balance | Kick execution and recovery |
+| **Proprioceptive** | Range to target | Kick selection |
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Attacker's hip chamber/loading | Early detection of kick |
+| **Visual** | Attacker's weight shift | Which kick is coming |
+| **Visual** | Kick trajectory | Defense selection (check, catch, evade) |
+| **Haptic** | Contact quality | Confirming defense effectiveness |
+
+!!! tip "Coaching Cue"
+    Ask attackers: "What range were you at for that kick?" This develops their perception of distance management for different lead leg tools.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Using the lead leg to control distance, disrupt rhythm, and find openings—the quickest kicking tool for range management.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Weapon** | All strikes available | Lead leg only | Isolated |
+| **Defense** | Full defense + counters | Defense only (Level 1) | Simplified |
+| **Targets** | All targets | All targets | Full |
+| **Consequence** | Damage/disruption | Role switch | Reduced |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| Lead leg only | Isolates the fastest, lowest-commitment kicking weapon |
+| No hands or rear leg | Forces exploration of lead leg variety |
+| No counters at Level 1 | Allows focus on range and timing development |
+
+!!! note "Transfer Expectation"
+    Athletes who develop lead leg proficiency here transfer to [Land the Target](land-the-target.md) where all weapons integrate. The range management and quick-fire skills transfer directly to combination offense.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Defender** | Rotate training partners | Different defensive styles to solve |
+| **Kick emphasis** | Teep sessions, round kick sessions, side kick sessions | Complete lead leg development |
+| **Target emphasis** | Body-focused, leg-focused, head-focused | Full target repertoire |
+| **Distance** | Closer (round kicks), further (teeps) | Range adaptability |
+| **Tempo** | Fast bursts, patient single shots | Timing adaptability |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Lead leg only | Core constraint defining the game |
+| No hands/rear leg | Forces lead leg creativity |
+| Kicking range | Maintains lead leg viability |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Uses multiple kick types | Weapon variety developing |
+| Varies targets (body, leg, head) | Target selection improving |
+| Manages range effectively | Distance awareness developing |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Lands lead leg strikes consistently (50%+ success)
+- [ ] Uses at least 3 different lead leg tools (teep, round kick, side kick)
+- [ ] Varies targets without prompting
+- [ ] Maintains balance after kicking
+- [ ] Manages distance to set up kicks
+
+### Ready to Exit Game (Move to Land the Target) When
+
+- [ ] Level 2+ competence (handles counter threat)
+- [ ] Lead leg kicks integrate naturally into offense
+- [ ] Expresses desire to add hands/rear leg
+- [ ] Lead leg success maintains across varied defenders
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Only throws teeps | Limited variety | Introduce round kick/side kick focus |
+| Only targets body | Incomplete development | Leg and head-focused rounds |
+| Loses balance after kicks | Recovery underdeveloped | Slower tempo, emphasize structure |
+| Range is consistently wrong | Distance perception lacking | More range-finding practice |
+
+---
+
 ## Safety
 
 - **Contact limits:** Light to moderate — controlled kicks

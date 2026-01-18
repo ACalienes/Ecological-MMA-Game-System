@@ -106,8 +106,7 @@ Environment → Domain → Focus
 
 | Game | Domain | Focus | Difficulty |
 |------|--------|-------|------------|
-| Winning the Circle | Wrestling | Combined | Beginner |
-| Boundary Trigger | Wrestling | Combined | Intermediate |
+| Pressure to Clinch | Wrestling | Combined | Beginner |
 | Pressure to Takedown | Wrestling | Offensive | Advanced |
 | Open Space Takedown | Wrestling | Combined | Intermediate |
 

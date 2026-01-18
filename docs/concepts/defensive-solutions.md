@@ -187,8 +187,7 @@ This is intentional and context-driven.
 | Game | Defensive Focus |
 |------|-----------------|
 | Touch Game | Evasion, counter-touch |
-| Winning the Circle | Evasion (footwork) |
-| Boundary Trigger | Evasion → Enter |
+| Pressure to Clinch | Evasion (footwork) → Enter |
 | Wall Escape | Frames (blocking) → Enter (DNS) |
 
 ---

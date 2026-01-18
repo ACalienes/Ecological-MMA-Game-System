@@ -163,6 +163,141 @@ Success is evaluated by:
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Touch contact only | Removes fear, invites exploration of range |
+| **Task** | No sustained pressure/flurries | Each exchange resolves, allowing perception |
+| **Task** | Counter-touch opportunity | Teaches response composure after being hit |
+| **Task** | Maximum two-strike sequence | Prevents mindless volume, rewards precision |
+| **Task** | Reset after each exchange | Time to process and recalibrate |
+| **Individual** | Skill level matching | Appropriate challenge zone |
+| **Environmental** | Open space, no boundaries | Pure range and timing without pressure dynamics |
+
+!!! info "Theoretical Foundation"
+    This game implements **Representative Learning Design** (Renshaw et al., 2019). The core perception-action requirement—touch without being touched—mirrors the fundamental striking problem in MMA. The simplified contact level allows athletes to explore timing and range without fear-driven responses obscuring the learning.
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Both Players Perceive
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Distance to opponent | Determining if in range to touch |
+| **Visual** | Opponent's weight distribution | Timing of entry or exit |
+| **Visual** | Opponent's eye/hand movement | Attack initiation detection |
+| **Visual** | Opponent's recovery after contact | Counter-touch timing |
+| **Proprioceptive** | Own balance and range | Entry/exit execution |
+| **Proprioceptive** | Position after being touched | Recovery and counter-response |
+| **Haptic** | Contact (being touched) | Triggering counter-touch opportunity |
+
+!!! tip "Coaching Cue"
+    Ask: "Were you actually in range, or did you reach?" This develops honest range perception—the foundation for all striking.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Open-space striking exchanges where both fighters seek to land without being countered—the fundamental rhythm of striking in MMA.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Contact** | Full power strikes | Touch/light contact | Simplified |
+| **Pressure** | Sustained possible | No sustained pressure | Simplified |
+| **Weapons** | All available | Scaled by level | Progressive |
+| **Recovery** | Must recover under threat | Reset after exchange | Simplified |
+| **Objective** | Damage + control | Touch + deny response | Analogous |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| Touch contact only | Allows exploration without fear responses |
+| Reset after exchange | Time to perceive and process |
+| No sustained pressure | Isolates single-exchange dynamics |
+
+!!! note "Transfer Expectation"
+    Athletes who develop range honesty and counter-touch composure here transfer to [Pressure to Clinch](pressure-to-clinch.md) where pressure and space control are added. The timing and initiative skills transfer directly.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Partner** | Rotate training partners | Different speeds, ranges, timing |
+| **Stance** | Orthodox vs. southpaw matchups | Angle variability |
+| **Emphasis** | Entry-focused rounds, counter-focused rounds | Skill breadth |
+| **Tempo** | Fast-paced days, deliberate days | Timing adaptability |
+| **Target area** | Head-only rounds, body-included rounds | Target perception |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Touch contact only | Core safety constraint |
+| No sustained pressure | Maintains exchange-based learning |
+| Counter-touch opportunity | Core mechanic of the game |
+| Quick resolution and reset | Allows processing time |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Range is honest (not reaching) | Distance perception developing |
+| Counter-touches happen naturally | Composure after contact improving |
+| Initiative recovery is automatic | Exchange dynamics understood |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Touches land cleanly (not reaching or lunging)
+- [ ] Counter-touches occur naturally after being touched
+- [ ] Composure maintained after contact
+- [ ] Entry and exit are clean (not crashing)
+- [ ] Can articulate range and timing decisions
+
+### Ready to Exit Game (Move to Pressure to Clinch) When
+
+- [ ] Level 3+ competence (counter emphasis internalized)
+- [ ] Range honesty is automatic
+- [ ] Initiative recovery is immediate
+- [ ] Expresses desire to add pressure dynamics
+- [ ] Maintains quality across varied partners
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Reaching/lunging to touch | Range perception lacking | Emphasize "wait for range" |
+| Freezes after being touched | Composure underdeveloped | More practice at lower tempo |
+| Crashes forward on entry | Exit not planned | Emphasize "in and out" |
+| Chases after missed attempts | Exchange boundaries unclear | Reset and reinforce structure |
+
+---
+
 ## Advanced Expressions (Coach Context)
 
 As athletes advance, the meaning of "don't get touched" expands.
@@ -196,7 +331,7 @@ These are treated as **solutions**, not objectives.
 
 ```mermaid
 flowchart LR
-    A[Touch Game] --> B[Winning the Circle]
+    A[Touch Game] --> B[Pressure to Clinch]
     B --> C[All downstream games]
 
     style A fill:#4CAF50,color:#fff
@@ -204,7 +339,7 @@ flowchart LR
 
 This game precedes:
 
-- Winning the Circle
+- Pressure to Clinch
 - All pressure-based striking games
 - All clinch recognition games
 

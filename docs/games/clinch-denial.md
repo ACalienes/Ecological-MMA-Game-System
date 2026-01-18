@@ -11,7 +11,7 @@ prerequisites:
   concepts:
     - hand-controls
   games:
-    - winning-circle
+    - pressure-to-clinch
 tags:
   - wrestling
   - defense
@@ -135,6 +135,144 @@ The objective is **connection denial**, not escape from clinch.
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Attacker must attempt clinch (no striking) | Creates consistent clinch attempts to defend |
+| **Task** | Defender cannot strike (Level 1) | Isolates hand fighting and framing skill |
+| **Task** | Game ends on clinch (not escape) | Focuses on denial, not escape after connection |
+| **Task** | Progressive defender tools (frames → movement → strikes) | Scaffolded learning of denial options |
+| **Individual** | Prerequisite: Pressure to Clinch | Understands clinch objectives from attacker perspective |
+| **Environmental** | Mid-range starting position | Defender has time to read and react |
+
+!!! info "Theoretical Foundation"
+    This game develops **clinch denial affordances**—perceiving entry attempts and selecting appropriate denial tools. The constraint isolating hand fighting (no strikes at Level 1) forces the defender to develop pure denial skill before integrating striking. Denial is easier than escape; this game exploits that principle (Renshaw et al., 2019).
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Attacker's entry angle | Frame direction |
+| **Visual** | Attacker's hand targeting | Hand fighting priority |
+| **Visual** | Attacker's distance closure | Movement timing |
+| **Visual** | Attacker's head position | Push/frame opportunity |
+| **Haptic** | Attacker's grip attempts | Which hand to fight |
+| **Proprioceptive** | Own frame position and strength | Denial effectiveness |
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Defender's hand position | Entry path |
+| **Visual** | Defender's movement pattern | Cutting angle |
+| **Haptic** | Frame resistance | Where to swim or circle |
+
+!!! tip "Coaching Cue"
+    Ask defenders: "Are you stopping them before they connect or after?" The goal is early denial—frames and hand fighting before full clinch is established. Late denial becomes clinch escape, which is harder.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Preventing a wrestler or clinch-fighter from establishing connection—a key skill for strikers who want to keep the fight at distance.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Clinch attempts** | Various entries | Multiple entry types | High |
+| **Denial tools** | Frames, hand fighting, movement, strikes | Progressive by level | Scaffolded |
+| **Pressure** | Forward drive possible | Added at Level 2 | Progressive |
+| **Consequence** | Clinch leads to wrestling/wall | Game ends on clinch | Analogous |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| No strikes at Level 1 | Isolates hand fighting skill |
+| Game ends on clinch | Focuses on denial; escape is a different skill |
+| Clear role separation | Develops specific denial skill |
+
+!!! note "Transfer Expectation"
+    Hand fighting and framing developed here transfer directly to any clinch-denial situation. Strikers who develop these skills are harder to grapple.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Attacker style** | Aggressive closers, patient setups | Multiple denial solutions |
+| **Entry type** | Collar tie seekers, underhook hunters, body lock seekers | Full denial vocabulary |
+| **Attacker size** | Longer arms, compact build | Frame adaptability |
+| **Pressure level** | Light pressure, heavy pressure | Intensity calibration |
+| **Duration** | 30-second rounds, 2-minute rounds | Endurance development |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Attacker seeks clinch (not strikes) | Core constraint defining the game |
+| Defender denies (not escapes) | Maintains denial focus |
+| Clear win conditions | Structure for evaluation |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Denial consistent against current entry types | Ready for more pressure |
+| Uses multiple denial tools | Degeneracy developing |
+| Maintains distance effectively | Ready for movement addition |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Denies clinch consistently (70%+) against varied attackers
+- [ ] Uses frames, hand fighting, and push-offs appropriately
+- [ ] Can verbalize: "I stopped their underhook by..."
+- [ ] Maintains composure under forward pressure
+- [ ] Recovery to denial position is quick
+
+### Ready to Exit Game When
+
+- [ ] Level 3+ competence (uses movement effectively)
+- [ ] Denial is instinctive, not deliberate
+- [ ] Can integrate striking with denial (Level 4)
+- [ ] Clinch denial appears in sparring
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Gets clinched consistently | Denial not effective | Slow down attacker, more reps |
+| Only uses one denial tool | Limited solutions | Constrain that tool, force others |
+| Backs up without framing | Using distance instead of denial | Reduce space, enforce framing |
+| Panics when grips are attempted | Composure lacking | Slower pace, build confidence |
+
+---
+
 ## Safety
 
 - **Contact limits:** Light contact on frames and hand fighting
@@ -147,14 +285,13 @@ The objective is **connection denial**, not escape from clinch.
 
 ```mermaid
 flowchart LR
-    A[Winning the Circle] --> B[Clinch Denial]
-    C[Boundary Trigger] -.->|opposite| B
+    A[Pressure to Clinch] --> B[Clinch Denial]
 
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Winning the Circle
-- **Follow-on games:** Boundary Trigger (opposite perspective)
+- **Prerequisite games:** Pressure to Clinch
+- **Follow-on games:** Wall Control (opposite perspective)
 - **Related concepts:** Hand Controls
 
 ---

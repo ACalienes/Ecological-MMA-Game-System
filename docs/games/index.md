@@ -6,13 +6,13 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "35 Games Across 5 Environments"
+!!! tip "34 Games Across 5 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|
     | Skill Isolation | 8 | Single-skill development |
     | Open Space - Striking | 7 | Striking engagement |
-    | Transition Zone | 3 | Domain change moments |
+    | Transition Zone | 2 | Domain change moments |
     | Open Space - Wrestling | 4 | Takedowns and pressure |
     | Wall | 6 | Vertical constraint |
     | Ground | 7 | Horizontal grappling |
@@ -57,7 +57,7 @@ Standing games focused on striking offense and defense.
 | [Land the Target](land-the-target.md) | Offensive | Intermediate | Read defense, setup, land predetermined target |
 | [Sustained Offense](sustained-offense.md) | Offensive | Intermediate | Maintain rhythm through defensive attempts |
 | [Touch and Don't Get Touched](touch-game.md) | Combined | Beginner | Range awareness and timing literacy |
-| [Winning the Circle](winning-circle.md) | Combined | Beginner | Space domination through pressure |
+| [Pressure to Clinch](pressure-to-clinch.md) | Combined | Beginner | Space control and clinch entry |
 
 ---
 
@@ -69,7 +69,6 @@ Games at the seam between striking and wrestling — handling domain changes.
 |------|-------|------------|--------------|
 | [Clinch Denial](clinch-denial.md) | Defensive | Intermediate | Prevent clinch establishment |
 | [Counter-Wrestling](counter-wrestling.md) | Defensive | Intermediate | Use wrestling to stop striking pressure |
-| [Boundary Trigger](boundary-trigger.md) | Combined | Intermediate | Recognize clinch opportunity at boundary |
 
 ---
 
@@ -158,14 +157,11 @@ Games focused on horizontal grappling positions.
     **Ground:**
     - Ground Access, Ground Control
 
-=== "Combined (6 games)"
+=== "Combined (5 games)"
     Games where both sides have distinct objectives (A vs B roles):
 
     **Open Space Striking:**
-    - Touch and Don't Get Touched, Winning the Circle
-
-    **Transition Zone:**
-    - Boundary Trigger
+    - Touch and Don't Get Touched, Pressure to Clinch
 
     **Open Space Wrestling:**
     - Open Space Takedown
@@ -185,8 +181,7 @@ Games focused on horizontal grappling positions.
 
     - All Skill Isolation games
     - Touch and Don't Get Touched
-    - Winning the Circle
-    - Boundary Trigger
+    - Pressure to Clinch
     - Ground Access
 
 === "Stabilize"
@@ -250,12 +245,12 @@ This ensures skills are tested under realistic MMA pressure. See [Full MMA Expre
 ```
 Defensive Skill Isolation → Close-Range Defense → Evasive Movement
 Offensive Skill Isolation → Land the Target → Sustained Offense → KO/TKO
-Both → Touch Game → Winning the Circle
+Both → Touch Game → Pressure to Clinch
 ```
 
 ### Transition Track
 ```
-Winning the Circle → Boundary Trigger → Wrestling Games
+Pressure to Clinch → Wall Control / Open Space Takedown
 Close-Range Defense → Counter-Striking / Counter-Wrestling
 ```
 

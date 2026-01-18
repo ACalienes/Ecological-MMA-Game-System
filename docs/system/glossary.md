@@ -81,7 +81,7 @@ Training that mimics the decision-making context of competition. The environment
 ### Invariants
 Fixed rules within a game that cannot be violated. They define the problem space and constrain behavior.
 
-Example: "No clinching in open space" (Winning the Circle)
+Example: "No clinching in open space" (Touch Game Level 1)
 
 ### Task Focus
 The specific perceptual and motor challenges an athlete must solve within a game.

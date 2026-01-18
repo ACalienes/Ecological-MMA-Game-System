@@ -13,8 +13,7 @@ prerequisites:
   concepts:
     - hand-controls
   games:
-    - winning-circle
-    - boundary-trigger
+    - pressure-to-clinch
 tags:
   - wrestling
   - offense
@@ -139,6 +138,145 @@ The objective is **wall dominance**, not takedown.
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Attacker must use strikes to create pressure (not just pushing) | Develops striking-based herding |
+| **Task** | Goal is wall control + damage (not takedown) | Distinct from Pressure to Takedown pathway |
+| **Task** | Defender cannot back up infinitely (wall exists) | Creates decision points for defender |
+| **Task** | Progressive options (pressure → damage → counters → full MMA) | Scaffolded learning |
+| **Individual** | Prerequisite: Pressure to Clinch | Understands clinch and pressure dynamics |
+| **Environmental** | Wall/cage is available and is the destination | Environmental constraint shapes entire game |
+
+!!! info "Theoretical Foundation"
+    This game develops **cage-cutting affordance perception**—the ability to read angles and herd opponents to the wall. The wall constraint creates natural decision points; the defender must escape early or face the wall. The attacker learns to use strikes purposefully (for movement, not just damage), developing **fight IQ** about spatial control (Renshaw et al., 2019).
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Defender's distance from wall | Pressure intensity |
+| **Visual** | Defender's escape angle attempts | Cutting direction |
+| **Visual** | Defender's weight distribution | Which strike will move them |
+| **Visual** | Wall contact (defender's back to cage) | When to establish clinch |
+| **Proprioceptive** | Own pressure angle | Cutting efficiency |
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Attacker's cutting angle | Escape direction |
+| **Visual** | Distance to wall behind | Urgency of escape |
+| **Visual** | Attacker's striking patterns | Counter opportunity |
+| **Haptic** | Wall contact | Escape vs. clinch defense mode |
+| **Proprioceptive** | Own positioning relative to wall | Available options |
+
+!!! tip "Coaching Cue"
+    Ask attackers: "Are your strikes moving them or just hitting them?" The goal is purposeful striking that herds to the wall. Ask defenders: "Did you know how close the wall was?" to develop spatial awareness.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Cage-cutting and dirty boxing against the fence—a dominant strategy in MMA for pressure fighters and wrestlers who prefer wall work over ground work.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Herding with strikes** | Cage cutting common | Same | High |
+| **Wall as destination** | Dirty boxing, clinch grinding | Same | High |
+| **Wall damage** | Knees, dirty boxing, grinding | Progressive by level | Scaffolded |
+| **Consequence** | Damage accumulation at wall | Win on control + damage | Analogous |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| Progressive damage addition | Allows focus on pressure first, then damage |
+| Defender counters added later | Develops herding before managing counter threat |
+| Clear wall pin win condition | Structure for evaluation |
+
+!!! note "Transfer Expectation"
+    Cage-cutting developed here transfers directly to MMA competition. Fighters who can herd opponents to the wall control where the fight happens. The spatial perception—knowing when wall contact is imminent—is identical in competition.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Defender style** | Active movers, counter strikers, clinch-seekers | Multiple herding solutions |
+| **Starting position** | Center, near wall, various angles | Different herding problems |
+| **Wall shape** | Flat wall, curved cage | Environmental adaptability |
+| **Intensity** | Light pressure, heavy pressure | Intensity calibration |
+| **Damage emphasis** | Dirty boxing focus, knee focus | Full wall damage vocabulary |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Strikes must create pressure (not just pushing) | Core constraint developing purposeful striking |
+| Wall is destination (not ground) | Distinguishes from Pressure to Takedown |
+| Wall exists | Essential environmental constraint |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Consistent wall pins achieved | Herding skill developing |
+| Strikes purposefully move defender | Understanding pressure striking |
+| Damage flows from wall position | Ready for defender resistance |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Consistently herds defender to wall
+- [ ] Strikes move defender (purposeful, not just volume)
+- [ ] Wall control established without excessive effort
+- [ ] Can articulate: "I cut their angle by..."
+- [ ] Damage flows naturally from wall position
+
+### Ready to Exit Game When
+
+- [ ] Level 3+ competence (closes through counters)
+- [ ] Cage-cutting is instinctive
+- [ ] Wall work integrates with Wall Control/Wall Grinding games
+- [ ] Herding appears naturally in sparring
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Chases instead of cuts | Not reading angles | Slow down, emphasize cutting |
+| Pushes instead of strikes | Not integrating striking | Reinforce constraint |
+| Defender escapes repeatedly | Herding not effective | Work on angle control |
+| Wall position doesn't lead to damage | Not exploiting position | Focus on Level 2 damage work |
+
+---
+
 ## Safety
 
 - **Contact limits:** Light to moderate
@@ -151,14 +289,14 @@ The objective is **wall dominance**, not takedown.
 
 ```mermaid
 flowchart LR
-    A[Winning the Circle] --> B[Boundary Trigger]
-    B --> C[Pressure to Wall]
-    C --> D[Wall Grinding]
+    A[Pressure to Clinch] --> B[Pressure to Wall]
+    B --> C[Wall Grinding]
+    B --> D[Wall Control]
 
-    style C fill:#FF5722,color:#fff
+    style B fill:#FF5722,color:#fff
 ```
 
-- **Prerequisite games:** Winning the Circle, Boundary Trigger
+- **Prerequisite games:** Pressure to Clinch
 - **Follow-on games:** Wall Grinding, Wall Control
 - **Related concepts:** Hand Controls
 

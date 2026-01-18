@@ -16,7 +16,33 @@ This log tracks the evolution of the Ecological MMA Games System. When we refine
 
 ## Version History
 
-### v0.4.0 — System Restructure (Current)
+### v0.5.0 — CLA Documentation Rollout (Current)
+
+**Date:** January 2026
+
+**Major Changes:**
+
+1. **Constraints-Led Approach (CLA) Sections Added to All Games**
+   - Added standardized CLA documentation to all 35 games
+   - Each game now includes:
+     - **Constraints Analysis** — How task/individual/environmental constraints create affordances
+     - **Information Structure** — Perception-action coupling for each role (haptic, visual, proprioceptive)
+     - **Representativeness** — How games model real MMA situations with fidelity analysis
+     - **Variability Guidelines** — "Repetition without repetition" (Bernstein, 1967)
+     - **Readiness Indicators** — When athletes are ready to progress or exit games
+   - Theoretical foundations reference Renshaw et al., 2019 throughout
+
+2. **Game Count Verified at 35 Games**
+   - Consistency check script added to validate game counts
+   - All cross-references verified and updated
+
+3. **Navigation Cleanup**
+   - Removed deleted Boundary Trigger references
+   - Fixed Winning the Circle → Pressure to Clinch nav links
+
+---
+
+### v0.4.0 — System Restructure
 
 **Date:** January 2026
 
@@ -24,12 +50,12 @@ This log tracks the evolution of the Ecological MMA Games System. When we refine
 
 1. **Transition Zone Added**
    - Created new environment between Striking and Wrestling
-   - Moved Clinch Denial, Boundary Trigger to Transition Zone
-   - Added Counter-Striking and Counter-Wrestling games
+   - Added Clinch Denial, Counter-Striking and Counter-Wrestling games
 
-2. **Winning the Circle Reclassified**
-   - Moved from Wrestling to Striking
-   - Rationale: The game starts from striking perspective; Boundary Trigger is the crossover point
+2. **Winning the Circle → Pressure to Clinch**
+   - Renamed game to describe the activity, not the outcome
+   - "Winning the Circle" became a concept page
+   - "Boundary Trigger" merged into Pressure to Clinch as higher levels
 
 3. **Guard Recovery → Leg Reclaim**
    - Renamed to avoid technique-specific terminology
@@ -108,7 +134,7 @@ This log tracks the evolution of the Ecological MMA Games System. When we refine
 
 1. **Core striking games**
    - Touch and Don't Get Touched
-   - Winning the Circle
+   - Pressure to Clinch
    - Land the Target
    - Close-Range Defense
 
@@ -144,7 +170,7 @@ This log tracks the evolution of the Ecological MMA Games System. When we refine
 **Decision:** Create a new environment between Striking and Wrestling
 
 **Rationale:**
-- Clinch Denial and Boundary Trigger exist at the seam between domains
+- Clinch Denial exists at the seam between domains
 - Counter-Striking and Counter-Wrestling are defensive responses to pressure
 - Visual clarity: shows the critical moment when striking becomes wrestling
 - Games in this zone handle domain transitions specifically

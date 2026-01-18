@@ -148,6 +148,145 @@ Success is evaluated by:
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Defender cannot exit (must stay in range) | Forces defensive engagement, no escape option |
+| **Task** | Progressive tool availability (block → parry → dodge → counter) | Scaffolded learning of defensive integration |
+| **Task** | Attacker must allow reset between combinations | Processing time for learning |
+| **Task** | Close quarters starting position | No distance buffer—must defend immediately |
+| **Individual** | Prerequisite: Skill isolation games | Foundation of individual defensive tools |
+| **Environmental** | Open space, close range | Defensive selection matters (all solutions viable) |
+
+!!! info "Theoretical Foundation"
+    This game implements **Constrain to Afford** (Renshaw et al., 2019). By progressively unlocking defensive solutions, the defender naturally discovers which tools work for which attacks. The constraint of staying in range prevents the common escape response and forces true defensive skill development. **Degeneracy** develops as the defender learns multiple solutions for similar problems.
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Punch type and trajectory | Select block, parry, or dodge |
+| **Visual** | Combination rhythm | Anticipate follow-up strikes |
+| **Visual** | Attacker's weight shift | Timing of defensive action |
+| **Visual** | Openings after attacker commits | Counter timing |
+| **Proprioceptive** | Guard position and coverage | Gaps in defense |
+| **Haptic** | Strike impact location | Adjustment of guard position |
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Defender's guard position | Where openings exist |
+| **Visual** | Defender's defensive pattern | What they favor (block vs. parry) |
+| **Visual** | Defender's posture and balance | When to press, when to reset |
+
+!!! tip "Coaching Cue"
+    Ask defenders: "Which defense did you use? Why that one?" This develops conscious awareness of selection, which becomes unconscious with practice.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Being pressured in close quarters and needing to defend multiple strikes while looking for opportunities to counter or escape.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Attack variety** | Full arsenal including grappling | Strikes scaled by level | Simplified |
+| **Defensive options** | All available | Progressively unlocked | Scaffolded |
+| **Exit option** | Can move away | Cannot exit at lower levels | Simplified |
+| **Pressure intensity** | Continuous possible | Reset between combos | Reduced |
+| **Consequence** | Damage, knockdown | Diagnostic (no scoring) | Reduced |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| Progressive tool unlocking | Allows focus on learning each defensive solution |
+| Mandatory reset between combos | Processing time for deliberate practice |
+| Staying in range required | Develops true defensive skill, not escape reliance |
+
+!!! note "Transfer Expectation"
+    Athletes who develop defensive selection here transfer directly to live striking exchanges. The perception-action coupling—seeing a strike type and selecting appropriate defense—is identical to competition.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Attacker** | Different partners with different styles | Exposure to varied attack patterns |
+| **Combination length** | 2-punch, 3-punch, 4-punch sequences | Defensive endurance and selection |
+| **Attack type emphasis** | Body-focused sessions, head-focused sessions | Complete defensive vocabulary |
+| **Tempo** | Fast combinations, slow combinations | Timing adaptability |
+| **Intensity** | Light touch, moderate contact | Pressure calibration |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| No exit allowed | Core constraint defining the game |
+| Progressive tool unlocking | Scaffolded learning structure |
+| Reset between combinations | Maintains processing opportunity |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Appropriate defense selection 70%+ | Decision-making developing |
+| Smooth transitions between defensive tools | Integration occurring |
+| Defensive posture maintained between combos | Recovery skill established |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Current tool set used appropriately (right defense for right strike)
+- [ ] Smooth transitions between defensive solutions
+- [ ] Composure maintained under attack pressure
+- [ ] Can articulate why they chose specific defenses
+- [ ] Recovery to good position after each combo
+
+### Ready to Exit Game When
+
+- [ ] Level 4+ competence (uses counters effectively)
+- [ ] Defensive selection is automatic, not deliberate
+- [ ] Can defend varied attackers with different styles
+- [ ] Ready to integrate with footwork (Evasive Movement) or striking (Touch Game)
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Only uses one defensive tool | Selection not developing | Constrain: "This round, no blocking—parry or dodge only" |
+| Panics under combinations | Overwhelmed at current level | Reduce combo length, slow tempo |
+| Takes clean shots frequently | Defense not effective | Return to previous level |
+| Backs up despite constraint | Escape response dominating | Reinforce constraint, add boundary |
+
+---
+
 ## Advanced Expressions (Coach Context)
 
 As athletes develop:

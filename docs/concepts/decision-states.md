@@ -47,8 +47,7 @@ Access is about getting where you need to be. This could mean:
 
 **Games focused on Access:**
 - Touch and Don't Get Touched
-- Winning the Circle
-- Boundary Trigger
+- Pressure to Clinch
 - Ground Access
 
 **Key Skills:**
@@ -169,8 +168,8 @@ Every game in the system can be mapped to decision states:
 
 | Environment | Access | Stabilize | Exploit | Counter |
 |-------------|--------|-----------|---------|---------|
-| **Striking** | Touch Game, Winning Circle | Sustained Offense | KO/TKO | Close-Range Defense |
-| **Wrestling** | Boundary Trigger, Takedowns | Wall Control | Ground transitions | Takedown Defense |
+| **Striking** | Touch Game | Sustained Offense | KO/TKO | Close-Range Defense |
+| **Wrestling** | Pressure to Clinch, Takedowns | Wall Control | Ground transitions | Takedown Defense |
 | **Wall** | Pressure to Wall | Wall Control | Wall Grinding | Wall Escape |
 | **Ground** | Ground Access | Ground Control | Ground Finish | Ground Escape, Leg Reclaim |
 

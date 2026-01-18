@@ -41,36 +41,35 @@ Start here — these games have no prerequisites:
 
 | Game | Prerequisites | Leads To |
 |------|---------------|----------|
-| Touch Game | None | Winning the Circle |
+| Touch Game | None | Pressure to Clinch |
 | Close-Range Defense | Skill Isolation (defensive) | Counter-Striking, Evasive Movement |
-| Evasive Movement | Close-Range Defense | Boundary Trigger |
+| Evasive Movement | Close-Range Defense | Pressure to Clinch |
 | Counter-Striking | Close-Range Defense, Land the Target | Takedown Defense |
 | Land the Target | Three Zones concept | Sustained Offense, Touch Game |
 | Sustained Offense | Land the Target | KO/TKO finish |
-| Winning the Circle | Touch Game | Boundary Trigger, Clinch Denial |
+| Pressure to Clinch | Touch Game | Wall Control, Clinch Denial, Open Space Takedown |
 
-### Transition Zone (3 games)
+### Transition Zone (2 games)
 
 | Game | Prerequisites | Leads To |
 |------|---------------|----------|
-| Clinch Denial | Winning the Circle, Hand Controls | Boundary Trigger |
-| Counter-Wrestling | Close-Range Defense, Winning the Circle | Open Space Takedown |
-| Boundary Trigger | Winning the Circle | Wrestling games |
+| Clinch Denial | Pressure to Clinch, Hand Controls | Wall Control |
+| Counter-Wrestling | Close-Range Defense, Pressure to Clinch | Open Space Takedown |
 
 ### Open Space — Wrestling (4 games)
 
 | Game | Prerequisites | Leads To |
 |------|---------------|----------|
-| Takedown Defense | Winning the Circle | Open Space Takedown |
-| Pressure to Takedown | Close-Range Defense, Winning the Circle | Wall Control, Open Space Takedown |
-| Pressure to Wall | Winning the Circle, Boundary Trigger | Wall Control |
-| Open Space Takedown | Boundary Trigger | Ground games |
+| Takedown Defense | Pressure to Clinch | Open Space Takedown |
+| Pressure to Takedown | Close-Range Defense, Pressure to Clinch | Wall Control, Open Space Takedown |
+| Pressure to Wall | Pressure to Clinch | Wall Control |
+| Open Space Takedown | Pressure to Clinch | Ground games |
 
 ### Wall (6 games)
 
 | Game | Prerequisites | Leads To |
 |------|---------------|----------|
-| Wall Control | Boundary Trigger | Wall Escape, Wall to Ground, Wall Grinding |
+| Wall Control | Pressure to Clinch | Wall Escape, Wall to Ground, Wall Grinding |
 | Wall Escape | Wall Control | Stand-Up Loop |
 | Wall Defensive Submission | Wall Escape | Submission finish |
 | Wall to Ground | Wall Control | Stand-Up Loop, Ground games |
@@ -110,7 +109,7 @@ flowchart TD
         CRD[Close-Range Defense]
         LT[Land the Target]
         TG[Touch Game]
-        WC[Winning the Circle]
+        PC[Pressure to Clinch]
         EM[Evasive Movement]
         CS[Counter-Striking]
         SO[Sustained Offense]
@@ -119,7 +118,6 @@ flowchart TD
     subgraph TRANSITION["TRANSITION"]
         CD[Clinch Denial]
         CW[Counter-Wrestling]
-        BT[Boundary Trigger]
     end
 
     subgraph WRESTLING["WRESTLING"]
@@ -159,10 +157,11 @@ flowchart TD
     CRD --> CS
     LT --> TG
     LT --> SO
-    TG --> WC
-    WC --> BT
-    WC --> CD
-    EM --> BT
+    TG --> PC
+    PC --> WCon
+    PC --> CD
+    PC --> OST
+    EM --> PC
     CS --> TDD
     CRD --> CW
     CW --> OST
@@ -170,9 +169,6 @@ flowchart TD
     SO --> KO
     SO --> TKO
 
-    BT --> PTT
-    BT --> PTW
-    BT --> TDD
     PTT --> OST
     PTT --> WCon
     PTW --> WCon
@@ -218,14 +214,14 @@ Parry/Block/Slip → Evade the Punch → Close-Range Defense → Counter-Strikin
 
 ```
 Weapon Isolation → Land the Target → Sustained Offense → KO/TKO
-                                   → Touch Game → Winning the Circle
+                                   → Touch Game → Pressure to Clinch
 ```
 
 ### Wrestling Track
 
 ```
-Winning the Circle → Boundary Trigger → Pressure to Takedown → Wall Control
-                                      → Takedown Defense      → Open Space Takedown
+Pressure to Clinch → Pressure to Takedown → Wall Control
+                   → Takedown Defense      → Open Space Takedown
 ```
 
 ### Ground Track
@@ -269,7 +265,7 @@ Some games require understanding specific concepts:
 
 ### Before Pressure to Takedown
 - [ ] Competent at Close-Range Defense
-- [ ] Competent at Winning the Circle
+- [ ] Competent at Pressure to Clinch
 - [ ] Can chain strikes while moving forward
 
 ### Before Ground Games
@@ -285,4 +281,4 @@ Some games require understanding specific concepts:
 ---
 
 !!! abstract "System Evolution Notice"
-    This map reflects the current 35-game system and will update as games are added.
+    This map reflects the current 34-game system and will update as games are added.

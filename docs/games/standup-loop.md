@@ -136,6 +136,145 @@ Multiple win conditions reflect the cyclical nature of the position.
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Start from compromised ground position near wall | Realistic disadvantaged starting point |
+| **Task** | Wall access always available | Stand-up option always exists |
+| **Task** | Disengagement ends exchange (defender win) | Clear success criteria |
+| **Task** | Control must be re-earned after each stand-up | Creates cyclical dynamics |
+| **Individual** | Prerequisite: Wall to Ground | Understands ground-to-standing transitions |
+| **Environmental** | Wall/ground hybrid | Both environmental constraints active |
+
+!!! info "Theoretical Foundation"
+    This game develops **loop perception**—understanding that positions cycle rather than resolve cleanly. Both athletes learn to recognize **which part of the loop favors them** and work to stay there. The wall constraint helps both (defender for stand-up, attacker for pinning surface), creating rich tactical dynamics where the same environment affords different solutions (Renshaw et al., 2019).
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Wall position | Stand-up direction |
+| **Haptic** | Attacker's adjustment moments | Stand-up timing |
+| **Haptic** | Control looseness | When to initiate |
+| **Proprioceptive** | Own base position | Stand-up method |
+| **Proprioceptive** | Facing direction | Turn-before-disengage readiness |
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Haptic** | Defender's stand-up initiation | Follow/re-pin timing |
+| **Visual** | Defender's base building | Anticipate stand-up direction |
+| **Visual** | Defender's facing direction | Re-pin or flatten decision |
+| **Proprioceptive** | Own position relative to wall | Re-pinning path |
+
+!!! tip "Coaching Cue"
+    Ask defenders: "Did you turn before disengaging?" Turning to face before attempting to disengage is critical—disengaging while facing away exposes the back. Ask attackers: "Did you re-pin or flatten?" to develop decision-making.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+The grinding stand-up battle near the cage—positions cycling between ground control, stand-up attempts, and re-clinching.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Cyclical dynamics** | Common near cage | Same | High |
+| **Wall as double-edged constraint** | Helps both | Same | High |
+| **Turn-before-disengage** | Critical principle | Same | High |
+| **Re-pinning dynamics** | Common pattern | Same | High |
+| **Strikes** | Available throughout | Progressive by level | Scaffolded |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| Start from compromised position | Isolates stand-up skill |
+| Clear win conditions | Structure for evaluation |
+| Progressive striking | Develops mechanics first |
+
+!!! note "Transfer Expectation"
+    Stand-up loop dynamics developed here transfer directly to MMA cage fighting. The perception of loop timing—when to stand, when to flatten, when to re-pin—is identical in competition.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Starting position** | Turtle, seated, elbow post | Multiple stand-up problems |
+| **Attacker style** | Aggressive followers, patient re-pinners | Multiple solutions |
+| **Attacker size** | Larger, smaller, equal | Adaptability |
+| **Loop length** | Encourage quick cycles, allow extended exchanges | Timing development |
+| **Intensity** | Drilling pace, live pace | Pressure calibration |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Wall access available | Core environmental constraint |
+| Disengagement ends exchange | Maintains clear success criteria |
+| Control must be re-earned | Creates realistic cycling |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Stands consistently | Basic skill developing |
+| Disengages after standing | Complete sequence |
+| Reversals emerge | Ready for advanced level |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Stands using wall efficiently
+- [ ] Turns to face before disengaging
+- [ ] Manages re-pin attempts
+- [ ] Can articulate: "I stood when they adjusted..."
+- [ ] Understands loop dynamics
+
+### Ready to Exit Game When
+
+- [ ] Level 2+ competence (disengages after standing)
+- [ ] Loop timing is instinctive
+- [ ] Reversals available from attacker over-commitment
+- [ ] Stand-up loop appears in sparring
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Can't stand at all | Mechanics lacking | Focus on stand-up fundamentals |
+| Gets re-pinned immediately | Timing/technique issue | Slow down, work timing |
+| Disengages facing away | Missing critical principle | Emphasize turn-before-disengage |
+| Always gets flattened | Reading attacker poorly | Work on attacker anticipation |
+
+---
+
 ## Advanced Expressions (Coach Context)
 
 **For defenders:**

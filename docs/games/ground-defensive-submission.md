@@ -153,6 +153,147 @@ The objective is **submission as defensive weapon** from bottom position.
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Bottom must threaten submissions (not just escape) | Develops offensive bottom game |
+| **Task** | Top maintains control intent | Creates realistic control situation |
+| **Task** | Submissions must be position-appropriate | Reality-based technique selection |
+| **Task** | Progressive positions (guard → half → bad positions) | Scaffolded difficulty |
+| **Individual** | Prerequisite: Ground Escape | Understands escape first |
+| **Environmental** | Various ground positions | Full defensive submission vocabulary |
+
+!!! info "Theoretical Foundation"
+    This game develops **defensive submission perception**—recognizing when submission opportunities exist from bottom position. The constraint requiring threats (not just escape) develops **counter-offense from defense**. Athletes learn the **risk-reward calculation**—when submission is higher value than escape. This is advanced perception-action coupling where disadvantaged positions become offensive opportunities (Renshaw et al., 2019).
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Bottom (Defender) Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Haptic** | Top's posture breaks | Submission opportunity |
+| **Haptic** | Top's limb position | Target selection |
+| **Visual** | Top's head position | Guillotine/choke availability |
+| **Visual** | Top's arm extension | Armbar/kimura opportunity |
+| **Proprioceptive** | Own hip position | Submission setup |
+| **Proprioceptive** | Own grip quality | Attack commitment |
+
+### Top (Controller) Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Haptic** | Bottom's grip changes | Submission setup recognition |
+| **Haptic** | Hip movement | Guard threat awareness |
+| **Visual** | Bottom's hand positioning | Attack prediction |
+| **Proprioceptive** | Own posture quality | Vulnerability awareness |
+| **Proprioceptive** | Limb position | Protection needs |
+
+!!! tip "Coaching Cue"
+    Ask bottom: "Was submission higher percentage than escape there?" This develops risk-reward perception. Ask: "Did you use the threat to improve position?" Submission threats often create escape opportunities even when not finished.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Using submission threats from bottom to deter top control, create escapes, or finish fights—a crucial MMA skill despite bottom being generally disadvantageous.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Defensive submissions** | High-risk, high-reward | Same | High |
+| **Position-appropriate attacks** | Guards have more options than under mount | Same | High |
+| **Threat as tool** | Creates control hesitation | Same | High |
+| **Risk-reward calculation** | Critical decision | Same | High |
+| **Strikes** | Make bottom dangerous | Progressive by level | Scaffolded |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| Progressive positions | Masters guard before bad positions |
+| Clear threat requirement | Ensures offensive development |
+| Controlled submissions | Safety during learning |
+
+!!! note "Transfer Expectation"
+    Defensive submission skill developed here transfers directly to MMA. The perception of when submission is available and worth pursuing is identical in competition.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Starting position** | Guard, half guard, under side control | Multiple attack opportunities |
+| **Top style** | Passive control, active control | Multiple threat timings |
+| **Top size** | Larger, smaller, equal | Submission adjustment |
+| **Submission emphasis** | Chokes, armlocks, leg attacks | Full submission vocabulary |
+| **Intensity** | Drilling pace, live pace | Pressure calibration |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Submission threats required | Core constraint |
+| Position-appropriate attacks | Maintains realism |
+| Controlled submissions | Safety |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Threatens effectively from guard | Basic skill developing |
+| Uses threats to escape | Integration developing |
+| Threatens from bad positions | Ready for full expression |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Threatens submissions from current position
+- [ ] Top feels genuine danger
+- [ ] Finishes when openings appear
+- [ ] Uses threats to improve position
+- [ ] Can articulate: "Their arm was extended so I..."
+
+### Ready to Exit Game When
+
+- [ ] Level 2+ competence (threatens from half guard)
+- [ ] Risk-reward assessment is instinctive
+- [ ] Submission threats appear in sparring
+- [ ] Top respects the threat (adjusts posture)
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Only escapes (no submissions) | Not threatening | Constrain escape, require threat |
+| Top doesn't feel danger | Technique ineffective | Work on setups and grips |
+| Gives up position for failed attacks | Risk assessment poor | Emphasize position retention |
+| Only one submission works | Limited recognition | Vary positions to force options |
+
+---
+
 ## System Position
 
 ```mermaid

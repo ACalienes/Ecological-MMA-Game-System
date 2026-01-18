@@ -206,6 +206,152 @@ This mirrors real MMA: if you keep kicking someone's legs, they figure it out an
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Attacker has predetermined target | Develops intentional, strategic offense (not volume) |
+| **Task** | Defender cannot counter (Level 1-2) | Attacker explores setup patterns without counter-threat distraction |
+| **Task** | Must land specific shot to win | Forces reading defense and creating openings |
+| **Task** | Defender protects all three zones | Requires misdirection, not just power |
+| **Individual** | Attacker chooses own target | Allows personalized offensive development |
+| **Environmental** | Open space, striking range | Full movement and angle creation available |
+
+!!! info "Theoretical Foundation"
+    This game uses the **Co-Adaptation Principle** (Renshaw et al., 2019). By constraining the defender (no counters), we create a learning environment for the attacker. The defender's constraint shapes what affordances the attacker perceives and explores.
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Defender's guard position | Which zones are protected, which are open |
+| **Visual** | Defensive reactions to probes | Pattern recognition (what opens when X is threatened) |
+| **Visual** | Weight distribution | When defender is planted vs. mobile |
+| **Visual** | Eye focus | Where defender is watching |
+| **Haptic** | Contact on setup strikes | Confirming defensive commitment |
+| **Proprioceptive** | Own distance and angle | When in range for target shot |
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Attacker's shoulder/hip loading | Anticipating strike type |
+| **Visual** | Attacker's eye focus | Where attack might go |
+| **Visual** | Distance changes | When attack is imminent |
+| **Haptic** | Strike pressure on guard | Whether block was effective |
+
+!!! tip "Coaching Cue"
+    For attackers: "What happens to their guard when you go to the body? What opens?" This develops the probe → read → setup → execute cycle rather than mindless combination throwing.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Sustained offensive striking where you have a target in mind (setting up the finish, attacking the body to slow them down, chopping the lead leg).
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Target selection** | Fighter has strategic targets | Attacker chooses target | High |
+| **Reading defense** | Continuous pattern recognition | Probe → Read → Setup → Execute | High |
+| **Defensive response** | Counters and clinch available | No counters (Level 1-2) | Reduced |
+| **Misdirection** | Essential for landing clean | Core skill developed | High |
+| **Consequence** | Damage accumulation | Role switch | Reduced |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| No counter-threat (Level 1-2) | Allows focus on reading and setup; counters added at Level 3+ |
+| Single predetermined target | Develops intentional offense; random volume is easy but doesn't transfer |
+| Role switch on success | Creates clear success criteria and ensures both roles practiced |
+
+!!! note "Transfer Expectation"
+    The pattern recognition and misdirection skills developed here transfer directly to [Touch Game](touch-game.md) and live sparring. Athletes learn to "see" openings rather than just throw volume.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Target selection** | Different targets each round | Full offensive vocabulary |
+| **Defender style** | Rotate partners with different defensive habits | Multiple pattern recognition |
+| **Target zone emphasis** | Sessions on head targets, body targets, leg targets | Three-zone competence |
+| **Time pressure** | Some rounds with time limits, some open | Urgency calibration |
+| **Defender aggression** | Passive defense vs. active defense (still no counters) | Different puzzle difficulties |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Must have specific target | Prevents volume-based shortcuts |
+| Defender cannot counter (until Level 3) | Maintains focus on reading/setup |
+| Honor system on target claims | Maintains game integrity |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Lands variety of targets consistently | Not one-dimensional |
+| Can verbalize the setup logic | Understanding, not luck |
+| Succeeds against multiple defender styles | Adaptable pattern recognition |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Lands targets within reasonable time against varied defenders
+- [ ] Uses setup combinations (not just throwing target shot repeatedly)
+- [ ] Can explain: "I went to X to open Y"
+- [ ] Shows probe → read → setup → commit pattern
+- [ ] Success not dependent on specific defender
+
+### Ready for Level 3 (Adding Counter-Threat) When
+
+- [ ] Level 2 competence (lands announced targets)
+- [ ] Setup patterns are fluid, not forced
+- [ ] Expresses readiness to manage more complexity
+- [ ] Doesn't rush or panic when targets don't land immediately
+
+### Ready to Exit Game (Move to Touch Game) When
+
+- [ ] Level 3+ competence (manages counter-threat)
+- [ ] Misdirection and reading are automatic
+- [ ] Ready to add defensive responsibility simultaneously
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Just throws target shot repeatedly | Not reading defense | Emphasize the probe → read cycle |
+| Can't verbalize setup logic | Relying on luck | Coach questioning: "What did you see?" |
+| Only succeeds vs. specific defender | Solution too narrow | More partner variety |
+| Frustrated when target doesn't land quickly | Expectation mismatch | Reframe: this is reading practice, not landing practice |
+
+---
+
 ## Coach Notes
 
 !!! tip "Time-Based vs. Condition-Based"

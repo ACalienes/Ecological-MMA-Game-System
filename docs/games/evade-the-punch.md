@@ -165,6 +165,144 @@ The objective is **skill integration** — matching the defensive solution to th
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Mixed punch types (straights and hooks) | Forces recognition and selection, not just reaction |
+| **Task** | Defender can only evade (no blocking, parrying) | Explores evasion solutions without fallback options |
+| **Task** | Progressive pattern complexity (predictable → random) | Scaffolded learning from mechanics to recognition |
+| **Task** | Role switching on success | Both players develop attacking and defending skills |
+| **Individual** | Prerequisite: Slip the Straight | Builds on existing straight-punch evasion skill |
+| **Environmental** | Close striking range | Evasion timing must be precise (no distance buffer) |
+
+!!! info "Theoretical Foundation"
+    This game implements **Task Simplification** (Renshaw et al., 2019) by progressively adding complexity. Level 1's predictable pattern allows mechanical learning; later levels add the recognition challenge. The defender develops **degeneracy**—multiple evasion solutions that match different attack types—rather than a single response.
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Arm trajectory (straight vs. arcing) | Select slip vs. duck |
+| **Visual** | Elbow position (extended vs. bent) | Early punch-type recognition |
+| **Visual** | Shoulder rotation pattern | Timing of evasion |
+| **Visual** | Attacker's weight shift | Anticipate which hand is coming |
+| **Proprioceptive** | Own head position and balance | Execution of evasive movement |
+| **Proprioceptive** | Recovery position after evasion | Readiness for next exchange |
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Defender's evasion pattern | Which punch type is most likely to land |
+| **Visual** | Defender's head position | Available targets |
+| **Haptic** | Contact (or miss) | Whether punch landed or was evaded |
+
+!!! tip "Coaching Cue"
+    Ask defenders: "What tells you it's a hook before it arrives?" This develops the perceptual distinction between straight and looping punches—the arm path, elbow bend, and shoulder rotation that differentiate them.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Defending against mixed striking in open space where both straight punches and hooks are threats requiring different evasive responses.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Punch variety** | Full arsenal (straights, hooks, uppercuts, kicks) | Straights and hooks only | Simplified |
+| **Evasion options** | All defensive solutions available | Evasion only (slip/duck) | Isolated |
+| **Recognition demand** | Must read punch type quickly | Must read punch type quickly | High |
+| **Consequence** | Damage accumulation | Role switch | Reduced |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| No kicks or uppercuts | Focuses on the slip/duck dichotomy which transfers to all evasion |
+| No blocking allowed | Forces evasion skill development; blocking available in Close-Range Defense |
+| Head strikes only | Isolates head movement skill; body defense integrated later |
+
+!!! note "Transfer Expectation"
+    Athletes who develop punch-type recognition here will transfer the skill to [Close-Range Defense](close-range-defense.md) where all defensive options become available. The perceptual skill—reading straight vs. hooking attacks—transfers to any striking context.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Attacker** | Rotate training partners | Different tells, timing, power |
+| **Punch selection ratio** | More straights one session, more hooks another | Full evasion vocabulary |
+| **Tempo** | Fast-paced rounds, deliberate rounds | Timing adaptability |
+| **Stance matchup** | Orthodox vs. orthodox, orthodox vs. southpaw | Angle variety |
+| **Lead vs. rear emphasis** | Focus on lead hooks, rear crosses | Complete punch recognition |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Evasion only (no blocking) | Core constraint defining the game |
+| Straights and hooks only | The punch types being learned |
+| Head strikes only | Maintains skill isolation |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Correct evasion selection 70%+ | Recognition developing |
+| Smooth transitions between slip and duck | Motor patterns established |
+| Calm under random selection | Ready for tempo variability |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Correct evasion selection (slip for straights, duck for hooks) 70%+
+- [ ] Can articulate the visual difference ("I saw the elbow bend")
+- [ ] Evasion movements are smooth, not jerky or panicked
+- [ ] Recovers to good position after each evasion
+- [ ] Can handle both lead and rear punches
+
+### Ready to Exit Game (Move to Close-Range Defense) When
+
+- [ ] Level 4+ competence (handles feints appropriately)
+- [ ] Punch-type recognition is automatic, not deliberate
+- [ ] Expresses readiness to integrate other defensive solutions
+- [ ] Evasion quality maintains across varied partners
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Uses same evasion for all punches | Recognition not developed | Slow down, emphasize punch-type differences |
+| Freezes when uncertain | Still guessing, not reading | Return to predictable patterns (Level 1) |
+| Only evades one punch type well | Incomplete skill set | Emphasize the weaker evasion |
+| Gets hit by feints | Commitment timing off | Stay at current level, practice patience |
+
+---
+
 ## Advanced Expressions (Coach Context)
 
 As athletes develop:

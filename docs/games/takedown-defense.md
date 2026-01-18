@@ -10,7 +10,7 @@ equipment: mats
 prerequisites:
   concepts: []
   games:
-    - winning-circle
+    - pressure-to-clinch
 tags:
   - wrestling
   - defense
@@ -133,6 +133,144 @@ The objective is **takedown denial**, not escape from ground.
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Attacker initiates takedowns (defender reacts) | Forces development of reactive defense |
+| **Task** | Defender cannot strike (Level 1) | Isolates wrestling defense skill |
+| **Task** | Game ends on takedown (not ground escape) | Focuses on denial, not recovery |
+| **Task** | DNS allowed as defensive tool | Completes defensive arsenal |
+| **Individual** | Prerequisite: Pressure to Clinch | Understands clinch dynamics |
+| **Environmental** | Open space, wrestling distance | Shot recognition is critical |
+
+!!! info "Theoretical Foundation"
+    This game develops **shot recognition affordance perception**. The constraint forcing the defender to react (rather than preemptively sprawl) develops genuine perceptual skill. Multiple defensive solutions (sprawl, whizzer, crossface, DNS) emerge through self-organization as the defender explores what works against different shots (Renshaw et al., 2019).
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Attacker's level change initiation | Sprawl timing |
+| **Visual** | Shot angle (single vs. double, inside vs. outside) | Defense selection |
+| **Visual** | Attacker's head position | DNS opportunity |
+| **Visual** | Attacker's drive continuation | When to disengage vs. fight |
+| **Haptic** | Attacker's grip and pressure | Which counter works |
+| **Proprioceptive** | Own hip position and weight | Sprawl effectiveness |
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Visual** | Defender's stance and weight distribution | Shot selection and timing |
+| **Visual** | Defender's sprawl timing | When to chain to different attack |
+| **Haptic** | Defender's sprawl weight | Whether to continue or abort |
+
+!!! tip "Coaching Cue"
+    Ask defenders: "What did you see before they shot?" This develops early detection—the key to effective takedown defense. Late recognition means the sprawl is too late.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Defending takedown attempts in open space—a fundamental skill for any MMA fighter who wants to keep the fight standing.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Takedown attempts** | Full variety | Progressive by level | Scaffolded |
+| **Defensive options** | Sprawl, whizzer, DNS, strikes | Progressive by level | Scaffolded |
+| **Striking threat** | Always present | Added at Level 4 | Progressive |
+| **Consequence** | Fight goes to ground | Game ends | Analogous |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| No strikes at Level 1-2 | Isolates wrestling defense; strikes added at Level 4 |
+| Game ends on takedown | Focuses on denial skill; escape is a different game |
+| Attacker initiates | Develops reactive defense, not preemptive sprawling |
+
+!!! note "Transfer Expectation"
+    Shot recognition developed here transfers directly to live MMA. The sprawl timing, whizzer instinct, and DNS awareness are identical in sparring and competition.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Attacker style** | Single-leg specialists, double-leg specialists | Multiple defensive solutions |
+| **Shot timing** | Quick shots, patient setup shots | Timing adaptability |
+| **Shot angle** | Inside, outside, reactive | Direction adaptability |
+| **Attacker size** | Larger attackers, faster attackers | Solution robustness |
+| **Intensity** | Drilling pace, live pace | Pressure calibration |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Attacker initiates | Core constraint developing reactive skill |
+| Game ends on takedown | Maintains denial focus |
+| Controlled landings | Safety |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Sprawl timing is consistent | Basic recognition developed |
+| Multiple defenses used | Degeneracy developing |
+| DNS threats effective | Full defensive toolkit available |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Sprawls before being driven backward 70%+
+- [ ] Uses multiple defensive tools (sprawl, whizzer, DNS)
+- [ ] Disengages cleanly after defending
+- [ ] Can articulate: "I saw them drop so I sprawled"
+- [ ] Composure maintained under shot pressure
+
+### Ready to Exit Game When
+
+- [ ] Level 3+ competence (uses DNS effectively)
+- [ ] Shot recognition is instinctive
+- [ ] Defense integrates with striking (Level 4)
+- [ ] Takedown defense appears in sparring
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Always sprawls late (gets driven) | Recognition too slow | Slower shots, more reps |
+| Only sprawls (no whizzer/DNS) | Limited solution set | Constrain sprawl, force other tools |
+| Can't disengage after defense | Recovery incomplete | Focus on separation after sprawl |
+| Gets taken down by feints | Overcommitting | Slow down, read real vs. fake |
+
+---
+
 ## Safety
 
 - **Contact limits:** Controlled shots, no slamming
@@ -145,13 +283,13 @@ The objective is **takedown denial**, not escape from ground.
 
 ```mermaid
 flowchart LR
-    A[Winning the Circle] --> B[Takedown Defense]
+    A[Pressure to Clinch] --> B[Takedown Defense]
     C[Pressure to Takedown] -.->|opposite| B
 
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Winning the Circle (recommended)
+- **Prerequisite games:** Pressure to Clinch (recommended)
 - **Follow-on games:** Open Space Takedown (combined perspective)
 - **Related concepts:** DNS
 

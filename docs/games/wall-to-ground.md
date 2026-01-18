@@ -132,6 +132,144 @@ Ground control is established when:
 
 ---
 
+## Constraints Analysis
+
+*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+
+| Constraint Type | Constraint | Affordance Created |
+|-----------------|------------|-------------------|
+| **Task** | Control precedes gravity (no dumping) | Develops controlled descent, not forcing |
+| **Task** | Off-balancing precedes descent | Creates earned takedowns |
+| **Task** | Scrambles allowed and expected | Realistic transition dynamics |
+| **Task** | Ground control criteria (hips + shoulders, 2-3 seconds) | Clear success definition |
+| **Individual** | Prerequisite: Wall Control | Has wall pin skill |
+| **Environmental** | Wall → Ground transition | First environment change game |
+
+!!! info "Theoretical Foundation"
+    This game develops **transition affordance perception**—reading when descent is available (base compromised) vs. when it must be forced. The "control precedes gravity" constraint prevents dumping and develops safe, controlled transitions. The **scramble window** becomes a key learning arena where both athletes explore solutions under dynamic conditions (Renshaw et al., 2019).
+
+---
+
+## Information Structure
+
+*What athletes must perceive to succeed (perception-action coupling)*
+
+### Attacker Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Haptic** | Defender's base stability | When descent is available |
+| **Haptic** | Connection quality during descent | Where to follow |
+| **Visual** | Defender's scramble direction | Anticipate and counter |
+| **Proprioceptive** | Own balance during transition | Controlled vs. falling |
+
+### Defender Perceives
+
+| Information Source | What to Read | Action It Supports |
+|--------------------|--------------|-------------------|
+| **Haptic** | Attacker's descent initiation | Scramble timing |
+| **Haptic** | Connection quality | Exploit gaps |
+| **Visual** | Wall position | Stand-up opportunity |
+| **Visual** | Attacker's head position | DNS during scramble |
+
+!!! tip "Coaching Cue"
+    Ask attackers: "Was their base compromised before you went?" This develops the key perception—controlled descent requires reading balance, not forcing through strength.
+
+---
+
+## Representativeness
+
+*How this game models real MMA situations*
+
+### Real MMA Situation
+
+Taking an opponent from cage to ground—a common MMA transition requiring controlled technique.
+
+### How This Game Represents It
+
+| Element | Real MMA | This Game | Fidelity |
+|---------|----------|-----------|----------|
+| **Controlled descent** | Required for advantage | Same | High |
+| **Scramble window** | Critical transition period | Same | High |
+| **DNS threats** | Most dangerous during scramble | Same | High |
+| **Ground control** | Hips and shoulders | Same | High |
+| **Strikes** | Available throughout | Progressive by level | Scaffolded |
+
+### Simplifications & Justification
+
+| Simplification | Why Acceptable |
+|----------------|----------------|
+| Start from wall pin | Isolates transition from access |
+| No strikes at Level 1 | Develops mechanics first |
+| 2-3 second control criteria | Ensures stable control, not momentary |
+
+!!! note "Transfer Expectation"
+    Wall-to-ground transitions developed here transfer directly to MMA. The perception of "base compromised" and scramble window management are identical in competition.
+
+---
+
+## Variability Guidelines
+
+*Creating "repetition without repetition" (Bernstein, 1967)*
+
+### Within-Level Variability
+
+| Vary This | How | Maintains |
+|-----------|-----|-----------|
+| **Takedown type** | Trips, lifts, pulls | Multiple descent solutions |
+| **Defender resistance** | Passive, scrambling, explosive | Transition adaptability |
+| **Defender size** | Larger, smaller, equal | Adaptability |
+| **Wall angle** | Flat, corner, curved | Environmental variety |
+| **Intensity** | Drilling pace, live pace | Pressure calibration |
+
+### What NOT to Vary
+
+| Keep Constant | Why |
+|---------------|-----|
+| Control precedes gravity | Core safety and skill principle |
+| Off-balancing precedes descent | Prevents forcing |
+| Controlled landings | Safety |
+
+### Progressing Through Levels
+
+| Signal to Progress | Meaning |
+|--------------------|---------|
+| Controlled descents consistently | Core principle understood |
+| Wins scrambles | Transition skill developing |
+| Ground control established quickly | Ready for exploitation |
+
+---
+
+## Readiness Indicators
+
+*When is the athlete ready to advance?*
+
+### Ready for Next Level When
+
+- [ ] Descents are controlled (not dumped)
+- [ ] Connection maintained through transition
+- [ ] Scrambles won consistently
+- [ ] Ground control established in 2-3 seconds
+- [ ] Can articulate: "I felt their base go so I..."
+
+### Ready to Exit Game When
+
+- [ ] Level 2+ competence (denies scrambles effectively)
+- [ ] Transition timing is instinctive
+- [ ] Ready to add exploitation (TKO pin threat)
+- [ ] Wall-to-ground appears in sparring
+
+### Warning Signs (Not Ready to Progress)
+
+| Sign | Meaning | Response |
+|------|---------|----------|
+| Dumps opponents | Not reading base compromise | Slow down, emphasize control |
+| Loses position in scramble | Follow-through lacking | More reps on scramble denial |
+| Gets DNS'd during descent | Head position neglected | Focus on posture maintenance |
+| Controlled but not controlling | Transition incomplete | Focus on immediate ground establishment |
+
+---
+
 ## Advanced Expressions (Coach Context)
 
 **For attackers:**

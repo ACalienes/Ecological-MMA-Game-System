@@ -41,7 +41,7 @@ flowchart TD
     W_OPEN_Q --> W_TD[Takedowns]
     W_OPEN_Q --> W_FULL[Full Sequence]
 
-    W_SPACE --> CIRCLE[Winning the Circle]
+    W_SPACE --> PC[Pressure to Clinch]
     W_TD --> OST[Open Space Takedown]
     W_FULL --> PTT[Pressure to Takedown]
 
@@ -55,7 +55,7 @@ flowchart TD
     W_WALL_DEF --> WE[Wall Escape]
     W_WALL_BOTH --> SUL[Stand-Up Loop]
 
-    BOTH --> BT[Boundary Trigger]
+    BOTH --> PC2[Pressure to Clinch]
 
     style PARRY fill:#4CAF50,color:#fff
     style SLIP fill:#4CAF50,color:#fff
@@ -64,14 +64,14 @@ flowchart TD
     style CRD fill:#4CAF50,color:#fff
     style LT fill:#FF5722,color:#fff
     style TOUCH fill:#9C27B0,color:#fff
-    style CIRCLE fill:#9C27B0,color:#fff
+    style PC fill:#9C27B0,color:#fff
     style OST fill:#9C27B0,color:#fff
     style PTT fill:#FF5722,color:#fff
     style WCON fill:#FF5722,color:#fff
     style WG fill:#FF5722,color:#fff
     style WE fill:#4CAF50,color:#fff
     style SUL fill:#9C27B0,color:#fff
-    style BT fill:#FF9800,color:#fff
+    style PC2 fill:#FF9800,color:#fff
 ```
 
 ---
@@ -101,7 +101,7 @@ flowchart TD
 
     | Game | What You'll Learn |
     |------|-------------------|
-    | [Winning the Circle](../games/winning-circle.md) | Avoiding being cornered |
+    | [Pressure to Clinch](../games/pressure-to-clinch.md) | Avoiding being cornered |
     | [Open Space Takedown](../games/open-space-takedown.md) | Scrambles and DNS defense |
 
 === "Against Wall Pins"
@@ -142,7 +142,7 @@ flowchart TD
 | Game | What It Teaches |
 |------|-----------------|
 | [Touch and Don't Get Touched](../games/touch-game.md) | Range, timing, composure under contact |
-| [Winning the Circle](../games/winning-circle.md) | Space awareness, pressure vs. movement |
+| [Pressure to Clinch](../games/pressure-to-clinch.md) | Space awareness, pressure vs. movement |
 | [Parry the Straight](../games/parry-the-straight.md) | Basic defensive mechanics |
 
 ---
@@ -152,7 +152,7 @@ flowchart TD
 | Game | What It Teaches |
 |------|-----------------|
 | [Pressure to Takedown](../games/pressure-to-takedown.md) | Full strike-to-takedown sequence |
-| [Boundary Trigger](../games/boundary-trigger.md) | Recognizing when domains change |
+| [Pressure to Clinch](../games/pressure-to-clinch.md) (L3+) | Recognizing when domains change |
 | Any game at **Full MMA Expression** level | Adding cross-domain threats |
 
 See: [Full MMA Expression](../concepts/full-mma-expression.md)
@@ -167,14 +167,14 @@ Pick **one** game, work through levels 1-3:
 
 - Skill Isolation games (Parry, Slip, Block, Evade)
 - Touch Game
-- Winning the Circle
+- Pressure to Clinch
 
 ### Medium Session (30-45 min)
 
 Pick **two** related games:
 
 - Skill Isolation → Close-Range Defense
-- Touch Game → Winning the Circle
+- Touch Game → Pressure to Clinch
 - Wall Control → Wall Escape
 
 ### Full Session (60+ min)
@@ -182,7 +182,7 @@ Pick **two** related games:
 Run a **pathway**:
 
 - Skill Isolation → Close-Range Defense → Land the Target
-- Touch Game → Winning the Circle → Boundary Trigger
+- Touch Game → Pressure to Clinch → Wall Control
 - Wall Control → Wall Escape → Wall to Ground
 
 ---
@@ -194,7 +194,7 @@ Run a **pathway**:
 | Game | Notes |
 |------|-------|
 | [Touch and Don't Get Touched](../games/touch-game.md) | Light contact only |
-| [Winning the Circle](../games/winning-circle.md) | Use tape/cones for boundary |
+| [Pressure to Clinch](../games/pressure-to-clinch.md) | Use tape/cones for boundary |
 
 ### Gloves Only
 
@@ -225,7 +225,7 @@ Good games for mixed skill levels:
 |------|--------------|
 | Skill Isolation games | Clear roles, adjustable intensity |
 | [Land the Target](../games/land-the-target.md) | Defender doesn't counter |
-| [Winning the Circle](../games/winning-circle.md) | Space-based, low contact |
+| [Pressure to Clinch](../games/pressure-to-clinch.md) | Space-based, low contact |
 
 ### Partner is More Experienced
 
@@ -254,7 +254,7 @@ Any game works! Progress through levels together.
     Start with [Parry the Straight](../games/parry-the-straight.md) — it's the simplest skill isolation game.
 
     **Want wrestling?**
-    Start with [Winning the Circle](../games/winning-circle.md) — no contact required.
+    Start with [Pressure to Clinch](../games/pressure-to-clinch.md) — low contact, space-focused.
 
     **Want full MMA feel?**
     Try [Pressure to Takedown](../games/pressure-to-takedown.md) — it chains everything together.
