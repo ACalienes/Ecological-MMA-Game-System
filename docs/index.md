@@ -54,9 +54,9 @@ Every game in this system ultimately leads to one of three endings:
 
 | End State | How It Happens |
 |-----------|----------------|
-| **Knockout (KO)** | Striking → Sustained Offense → Finish |
-| **TKO** | Control → Wall Grinding or Ground Control → Damage accumulation |
-| **Submission** | Control → Ground Control or Defensive Submission → Tap |
+| **Knockout (KO)** | Striking → Clean shot lands with power and precision |
+| **TKO** | Sustained Offense, Wall Grinding, or Ground Control → Accumulated damage |
+| **Submission** | Ground Control or Defensive Submission → Choke or joint lock |
 
 See: [Fight Philosophy](concepts/fight-philosophy.md)
 
@@ -105,6 +105,7 @@ flowchart TB
 
     %% Paths to finish
     O_ATK --> KO
+    O_ATK --> TKO
     W_ATK --> TKO
     G_ATK --> TKO
     G_ATK --> SUB
