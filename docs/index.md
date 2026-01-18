@@ -109,6 +109,7 @@ flowchart TB
     W_ATK --> TKO
     G_ATK --> TKO
     G_ATK --> SUB
+    O_DEF -.->|"Counter"| KO
     G_DEF -.->|"Def Sub"| SUB
     W_DEF -.->|"Def Sub"| SUB
 

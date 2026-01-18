@@ -114,6 +114,7 @@ flowchart LR
     %% Striking → Finish
     SO --> KO
     SO --> TKO
+    CS -.-> KO
 
     %% Striking → Transition
     PC --> CD
@@ -303,6 +304,7 @@ flowchart LR
     TG --> PC
     SO --> KO
     SO --> TKO
+    CS -.-> KO
 
     style CRD fill:#4CAF50,color:#fff
     style EM fill:#4CAF50,color:#fff
