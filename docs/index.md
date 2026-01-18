@@ -103,6 +103,10 @@ flowchart TB
     GROUND -->|"Stand Up"| OPEN
     GROUND -.->|"Scramble to Wall"| WALL
 
+    %% Knockdown paths (striking leads to ground)
+    O_ATK -.->|"Knockdown"| GROUND
+    O_DEF -.->|"Knockdown"| GROUND
+
     %% Paths to finish
     O_ATK --> KO
     O_ATK --> TKO

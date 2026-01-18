@@ -116,6 +116,10 @@ flowchart LR
     SO --> TKO
     CS -.-> KO
 
+    %% Striking → Ground (knockdown paths)
+    SO -.-> GA
+    CS -.-> GA
+
     %% Striking → Transition
     PC --> CD
     PC --> WCon
