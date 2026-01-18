@@ -144,6 +144,8 @@ flowchart LR
     WG --> SUL
     WG --> GC
     WGr --> TKO
+    WGr -.-> KO
+    WGr -.-> SUB
     SUL --> WCon
     SUL --> GA
     SUL --> GE
@@ -398,6 +400,8 @@ flowchart LR
     WG --> SUL
     WG --> GC
     WGr --> TKO
+    WGr -.-> KO
+    WGr -.-> SUB
     SUL --> WCon
     SUL --> GC
 
