@@ -19,6 +19,7 @@ flowchart LR
     OS --> KO((KO))
     OS --> TKO((TKO))
     OS --> SUB((SUB))
+    W --> KO
     W --> TKO
     W --> SUB
     G --> TKO
