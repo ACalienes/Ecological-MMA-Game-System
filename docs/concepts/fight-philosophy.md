@@ -37,6 +37,25 @@ What matters is the **damage ratio** — how much you gave versus how much you t
 
 ---
 
+## Strategy Drives Efficiency
+
+The most efficient path to finish depends on your opponent. **Identifying their strengths and weaknesses** determines how you should approach the fight.
+
+- If they're vulnerable on the ground → take them down
+- If their cardio is weak → extend the fight and pressure
+- If they can't handle body shots → attack the body
+- If their takedown defense is poor → wrestle
+
+Efficiency isn't a fixed formula. It's a strategic calculation based on:
+
+1. **Your skills** — What finishes are available to you?
+2. **Their weaknesses** — Where are they most vulnerable?
+3. **Risk assessment** — What's the safest path to exploit those weaknesses?
+
+The goal remains constant (finish while minimizing damage), but the strategy adapts to the opponent in front of you.
+
+---
+
 ## Implications for Training
 
 This philosophy shapes how we design and play games:
