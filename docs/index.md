@@ -68,126 +68,44 @@ See: [Fight Philosophy](concepts/fight-philosophy.md)
 
 ```mermaid
 flowchart LR
-    START((FIGHT<br>STARTS)) --> OPEN
+    OS[Open Space] -->|Clinch| W[Wall]
+    OS -->|Takedown| G[Ground]
+    W -->|Takedown| G
+    W -.->|Escape| OS
+    G -.->|Stand Up| OS
 
-    subgraph OPEN["OPEN SPACE"]
-        direction TB
-        O_ATK["🟠 Attack & Finish"]
-        O_CTL["🟣 Control Space"]
-        O_DEF["🟢 Defend & Counter"]
-    end
+    OS --> KO((KO))
+    OS --> TKO((TKO))
+    OS --> SUB((SUB))
+    W --> KO
+    W --> TKO
+    W --> SUB
+    G --> TKO
+    G --> SUB
 
-    subgraph WALL["WALL"]
-        direction TB
-        W_ATK["🟠 Control & Grind"]
-        W_DEF["🟢 Escape"]
-    end
-
-    subgraph GROUND["GROUND"]
-        direction TB
-        G_ATK["🟠 Advance & Finish"]
-        G_DEF["🟢 Escape & Survive"]
-    end
-
-    subgraph FINISH["FIGHT ENDS"]
-        direction TB
-        KO((KO))
-        TKO((TKO))
-        SUB((Sub))
-    end
-
-    %% Position transitions (gray)
-    OPEN -->|"Clinch"| WALL
-    OPEN -->|"Takedown"| GROUND
-    WALL -->|"Escape"| OPEN
-    WALL -->|"Takedown"| GROUND
-    GROUND -->|"Stand Up"| OPEN
-    GROUND -.->|"Scramble"| WALL
-    O_ATK -.->|"Knockdown"| GROUND
-    O_DEF -.->|"Knockdown"| GROUND
-
-    %% KO paths (red)
-    O_ATK --> KO
-    O_DEF -.->|"Counter"| KO
-    W_ATK -.-> KO
-
-    %% TKO paths (orange)
-    O_ATK --> TKO
-    W_ATK --> TKO
-    G_ATK --> TKO
-
-    %% SUB paths (purple)
-    O_ATK -.-> SUB
-    W_ATK -.-> SUB
-    G_ATK --> SUB
-    W_DEF -.->|"Def Sub"| SUB
-    G_DEF -.->|"Def Sub"| SUB
-
-    %% Node styling
-    style START fill:#2196F3,color:#fff
-    style O_DEF fill:#4CAF50,color:#fff
-    style O_CTL fill:#9C27B0,color:#fff
-    style O_ATK fill:#FF5722,color:#fff
-    style W_DEF fill:#4CAF50,color:#fff
-    style W_ATK fill:#FF5722,color:#fff
-    style G_DEF fill:#4CAF50,color:#fff
-    style G_ATK fill:#FF5722,color:#fff
+    style OS fill:#2196F3,color:#fff
+    style W fill:#FF9800,color:#fff
+    style G fill:#795548,color:#fff
     style KO fill:#D32F2F,color:#fff
-    style TKO fill:#FF9800,color:#fff
-    style SUB fill:#7B1FA2,color:#fff
-
-    %% Link styling by type
-    %% Links 0-7: Position transitions (gray)
-    linkStyle 0 stroke:#757575,stroke-width:2px
-    linkStyle 1 stroke:#757575,stroke-width:2px
-    linkStyle 2 stroke:#757575,stroke-width:2px
-    linkStyle 3 stroke:#757575,stroke-width:2px
-    linkStyle 4 stroke:#757575,stroke-width:2px
-    linkStyle 5 stroke:#757575,stroke-width:2px
-    linkStyle 6 stroke:#757575,stroke-width:2px
-    linkStyle 7 stroke:#757575,stroke-width:2px
-    linkStyle 8 stroke:#757575,stroke-width:2px
-    %% Links 9-11: KO paths (red)
-    linkStyle 9 stroke:#D32F2F,stroke-width:3px
-    linkStyle 10 stroke:#D32F2F,stroke-width:2px
-    linkStyle 11 stroke:#D32F2F,stroke-width:2px
-    %% Links 12-14: TKO paths (orange)
-    linkStyle 12 stroke:#FF9800,stroke-width:3px
-    linkStyle 13 stroke:#FF9800,stroke-width:3px
-    linkStyle 14 stroke:#FF9800,stroke-width:3px
-    %% Links 15-19: SUB paths (purple)
-    linkStyle 15 stroke:#7B1FA2,stroke-width:2px
-    linkStyle 16 stroke:#7B1FA2,stroke-width:2px
-    linkStyle 17 stroke:#7B1FA2,stroke-width:3px
-    linkStyle 18 stroke:#7B1FA2,stroke-width:2px
-    linkStyle 19 stroke:#7B1FA2,stroke-width:2px
-
-    click O_DEF "#open-space-defensive"
-    click O_CTL "#open-space-control"
-    click O_ATK "#open-space-offensive"
-    click W_DEF "#wall-defensive"
-    click W_ATK "#wall-offensive"
-    click G_DEF "#ground-defensive"
-    click G_ATK "#ground-offensive"
+    style TKO fill:#FF5722,color:#fff
+    style SUB fill:#E91E63,color:#fff
 ```
 
-**Reading the diagram:**
+**The cycle:** Open Space → Wall or Ground → Escape back → Repeat until finish
 
-- **Arrow colors show destination:**
-    - **Gray** = Position transitions (moving between environments)
-    - **Red** = Paths to KO
-    - **Orange** = Paths to TKO
-    - **Purple** = Paths to Submission
-- **Solid arrows** = Common paths
-- **Dotted arrows** = Less common paths (counters, defensive submissions, scrambles)
+**Three positions:**
 
-**Role colors in boxes:**
+- **Open Space** — Standing at distance (where every fight starts)
+- **Wall** — Clinch against the cage
+- **Ground** — Horizontal grappling
 
-- **🟢 Green** = Defensive (survive, escape, counter)
-- **🟠 Orange** = Offensive (attack, control, finish)
-- **🟣 Purple** = Combined (both roles active)
+**Three finishes:**
 
-**The cycle:** Open Space → Wall or Ground → Escape back to Open Space → Repeat until finish
+- **KO** — Clean strike ends the fight
+- **TKO** — Accumulated damage overwhelms defense
+- **SUB** — Choke or joint lock forces tap
+
+For the full interactive diagram, see the **[System Map](system/map.md)**.
 
 ---
 
