@@ -9,134 +9,64 @@ This page provides visual navigation of the entire game system. Click any catego
 **The fight is cyclical.** You move between positions until someone finishes. Every path has a reverse.
 
 <div class="fight-diagram">
-  <div class="fight-diagram-grid">
 
-    <!-- Column 1: START -->
-    <div class="diagram-column">
-      <div class="column-header">Begin</div>
-      <a href="#" class="diagram-box box-start">FIGHT<br>STARTS</a>
-    </div>
+  <!-- Foundation reference -->
+  <div class="foundation-ref">
+    <a href="#foundation-skill-isolation" class="foundation-link">
+      <span class="foundation-label">Foundation Skills</span>
+      <span class="foundation-sub">Skill isolation before live fighting</span>
+    </a>
+  </div>
 
-    <!-- Arrow -->
-    <div class="flow-arrow">→</div>
+  <div class="fight-diagram-grid compact">
 
-    <!-- Column 2: FOUNDATION -->
-    <div class="diagram-column">
-      <div class="column-header">Foundation</div>
-      <a href="#foundation-defensive" class="diagram-box box-defensive">
-        Defensive Skills
-        <span class="box-subtitle">Parry, Block, Slip, Evade</span>
-      </a>
-      <a href="#foundation-offensive" class="diagram-box box-offensive">
-        Offensive Skills
-        <span class="box-subtitle">Hands & Kicks</span>
-      </a>
-    </div>
-
-    <!-- Arrow -->
-    <div class="flow-arrow">→</div>
-
-    <!-- Column 3: OPEN SPACE -->
+    <!-- Column 1: OPEN SPACE -->
     <div class="diagram-column">
       <div class="column-header">Open Space</div>
-      <a href="#open-space-striking-defense" class="diagram-box box-defensive">
-        Striking Defense
-        <span class="box-subtitle">Evade, Counter, Survive</span>
-      </a>
-      <a href="#open-space-striking-offense" class="diagram-box box-offensive">
-        Striking Offense
-        <span class="box-subtitle">Land Clean, Finish</span>
-      </a>
-      <a href="#open-space-combined" class="diagram-box box-combined">
-        Combined
-        <span class="box-subtitle">Both Roles Active</span>
-      </a>
+      <a href="#open-space-striking-defense" class="diagram-box box-defensive">Defensive</a>
+      <a href="#open-space-striking-offense" class="diagram-box box-offensive">Offensive</a>
+      <a href="#open-space-combined" class="diagram-box box-combined">Combined</a>
     </div>
 
-    <!-- Arrow -->
-    <div class="flow-arrow">→</div>
-
-    <!-- Column 4: TRANSITIONS -->
+    <!-- Column 2: TRANSITIONS -->
     <div class="diagram-column">
       <div class="column-header">Transitions</div>
-      <div class="column-split">
+      <div class="column-split compact">
         <div class="column-group">
-          <div class="group-label">Open → Wall</div>
-          <a href="#open-wall-prevent" class="diagram-box box-defensive">
-            Deny Clinch
-            <span class="box-subtitle">Stay at Distance</span>
-          </a>
-          <a href="#open-wall-initiate" class="diagram-box box-offensive">
-            Enter Clinch
-            <span class="box-subtitle">Pressure to Wall</span>
-          </a>
-          <a href="#open-wall-combined" class="diagram-box box-combined">
-            Combined
-            <span class="box-subtitle">Both Roles Active</span>
-          </a>
+          <div class="group-label">→ Wall</div>
+          <a href="#open-wall-prevent" class="diagram-box box-defensive">Defensive</a>
+          <a href="#open-wall-initiate" class="diagram-box box-offensive">Offensive</a>
+          <a href="#open-wall-combined" class="diagram-box box-combined">Combined</a>
         </div>
         <div class="column-group">
-          <div class="group-label">Open → Ground</div>
-          <a href="#open-ground-prevent" class="diagram-box box-defensive">
-            Stop Takedown
-            <span class="box-subtitle">Sprawl & Punish</span>
-          </a>
-          <a href="#open-ground-initiate" class="diagram-box box-offensive">
-            Take Down
-            <span class="box-subtitle">Get to Ground</span>
-          </a>
-          <a href="#open-ground-combined" class="diagram-box box-combined">
-            Combined
-            <span class="box-subtitle">Both Roles Active</span>
-          </a>
+          <div class="group-label">→ Ground</div>
+          <a href="#open-ground-prevent" class="diagram-box box-defensive">Defensive</a>
+          <a href="#open-ground-initiate" class="diagram-box box-offensive">Offensive</a>
+          <a href="#open-ground-combined" class="diagram-box box-combined">Combined</a>
         </div>
       </div>
     </div>
 
-    <!-- Arrow -->
-    <div class="flow-arrow">→</div>
-
-    <!-- Column 5: POSITIONS -->
+    <!-- Column 3: POSITIONS -->
     <div class="diagram-column">
       <div class="column-header">Positions</div>
-      <div class="column-split">
+      <div class="column-split compact">
         <div class="column-group">
           <div class="group-label">Wall</div>
-          <a href="#wall-escape-defend" class="diagram-box box-defensive">
-            Wall Escape
-            <span class="box-subtitle">Return to Open</span>
-          </a>
-          <a href="#wall-control-grind" class="diagram-box box-offensive">
-            Wall Control
-            <span class="box-subtitle">Pin & Damage</span>
-          </a>
-          <a href="#wall-combined" class="diagram-box box-combined">
-            Combined
-            <span class="box-subtitle">Both Roles Active</span>
-          </a>
+          <a href="#wall-escape-defend" class="diagram-box box-defensive">Defensive</a>
+          <a href="#wall-control-grind" class="diagram-box box-offensive">Offensive</a>
+          <a href="#wall-combined" class="diagram-box box-combined">Combined</a>
         </div>
         <div class="column-group">
           <div class="group-label">Ground</div>
-          <a href="#ground-escape-defend" class="diagram-box box-defensive">
-            Ground Escape
-            <span class="box-subtitle">Stand Up, Recover</span>
-          </a>
-          <a href="#ground-control-finish" class="diagram-box box-offensive">
-            Ground Control
-            <span class="box-subtitle">Advance & Finish</span>
-          </a>
-          <a href="#ground-combined" class="diagram-box box-combined">
-            Combined
-            <span class="box-subtitle">Both Roles Active</span>
-          </a>
+          <a href="#ground-escape-defend" class="diagram-box box-defensive">Defensive</a>
+          <a href="#ground-control-finish" class="diagram-box box-offensive">Offensive</a>
+          <a href="#ground-combined" class="diagram-box box-combined">Combined</a>
         </div>
       </div>
     </div>
 
-    <!-- Arrow -->
-    <div class="flow-arrow">→</div>
-
-    <!-- Column 6: FINISH -->
+    <!-- Column 4: FINISH -->
     <div class="diagram-column">
       <div class="column-header">Finish</div>
       <div class="diagram-box box-finish box-finish-ko">KO</div>

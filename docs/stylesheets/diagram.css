@@ -1,26 +1,68 @@
 /* ============================================
-   FIGHT STATES DIAGRAM - Clean Redesign
+   FIGHT STATES DIAGRAM - Compact Design
    ============================================ */
 
 .fight-diagram {
   position: relative;
   width: 100%;
-  padding: 30px 20px;
-  overflow-x: auto;
+  padding: 20px;
   background: linear-gradient(135deg, var(--md-default-bg-color) 0%, rgba(0,0,0,0.02) 100%);
   border-radius: 12px;
-  margin: 30px 0;
+  margin: 20px 0;
   border: 1px solid rgba(128,128,128,0.1);
 }
 
+/* ============================================
+   FOUNDATION REFERENCE
+   ============================================ */
+
+.foundation-ref {
+  margin-bottom: 16px;
+}
+
+.foundation-link {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #607D8B 0%, #455A64 100%);
+  border-radius: 8px;
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.foundation-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+.foundation-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.foundation-sub {
+  font-size: 0.7rem;
+  opacity: 0.85;
+  margin-top: 2px;
+}
+
+/* ============================================
+   GRID LAYOUT - COMPACT
+   ============================================ */
+
 .fight-diagram-grid {
   display: flex;
-  gap: 24px;
-  align-items: stretch;
+  gap: 20px;
+  align-items: flex-start;
   justify-content: center;
-  min-width: 1000px;
-  position: relative;
-  z-index: 2;
+}
+
+.fight-diagram-grid.compact {
+  gap: 16px;
 }
 
 /* ============================================
@@ -31,76 +73,79 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .column-header {
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--md-default-fg-color--light);
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
-/* Split columns for transitions */
+/* Split columns for transitions/positions */
 .column-split {
   display: flex;
-  flex-direction: column;
-  gap: 30px;
+  gap: 16px;
+}
+
+.column-split.compact {
+  gap: 12px;
 }
 
 .column-group {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 .group-label {
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--md-default-fg-color--light);
-  opacity: 0.6;
-  margin-bottom: 4px;
+  opacity: 0.7;
+  margin-bottom: 2px;
 }
 
 /* ============================================
-   BOX STYLES - Clean Cards
+   BOX STYLES - COMPACT
    ============================================ */
 
 .diagram-box {
-  padding: 14px 18px;
-  border-radius: 8px;
+  padding: 10px 14px;
+  border-radius: 6px;
   text-align: center;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   cursor: pointer;
   transition: all 0.2s ease;
-  min-width: 130px;
+  min-width: 90px;
   color: #ffffff !important;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   line-height: 1.3;
 }
 
 .diagram-box:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
   text-decoration: none;
   color: #ffffff !important;
 }
 
 .diagram-box .box-subtitle {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.9) !important;
   margin-top: 2px;
@@ -110,10 +155,10 @@
 .box-start {
   background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
   border-radius: 50%;
-  width: 90px;
-  height: 90px;
-  padding: 15px;
-  font-size: 0.75rem;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  font-size: 0.7rem;
   line-height: 1.3;
   min-width: unset;
 }
@@ -130,18 +175,14 @@
   background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);
 }
 
-.box-transition {
-  background: linear-gradient(135deg, #607D8B 0%, #455A64 100%);
-}
-
 /* Finish boxes */
 .box-finish {
   border-radius: 50%;
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   min-width: unset;
-  padding: 10px;
-  font-size: 0.85rem;
+  padding: 8px;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 
@@ -158,35 +199,17 @@
 }
 
 /* ============================================
-   FLOW ARROWS (CSS-based)
-   ============================================ */
-
-.flow-arrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--md-default-fg-color--light);
-  font-size: 1.5rem;
-  opacity: 0.4;
-  padding: 0 8px;
-}
-
-.flow-arrow-down {
-  transform: rotate(90deg);
-}
-
-/* ============================================
    LEGEND
    ============================================ */
 
 .diagram-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 25px;
-  padding: 18px 24px;
+  gap: 16px;
+  margin-top: 16px;
+  padding: 12px 16px;
   background: var(--md-code-bg-color);
-  border-radius: 10px;
+  border-radius: 8px;
   justify-content: center;
   border: 1px solid rgba(128,128,128,0.1);
 }
@@ -194,15 +217,15 @@
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.8rem;
+  gap: 8px;
+  font-size: 0.75rem;
   color: var(--md-default-fg-color--light);
 }
 
 .legend-color {
-  width: 18px;
-  height: 18px;
-  border-radius: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
@@ -210,14 +233,14 @@
    RESPONSIVE
    ============================================ */
 
-@media (max-width: 1100px) {
+@media (max-width: 800px) {
   .fight-diagram {
-    overflow-x: scroll;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 
   .fight-diagram-grid {
-    min-width: 1000px;
+    min-width: 600px;
   }
 }
 
@@ -230,9 +253,13 @@
 }
 
 [data-md-color-scheme="slate"] .diagram-box {
-  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 [data-md-color-scheme="slate"] .diagram-box:hover {
-  box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+[data-md-color-scheme="slate"] .foundation-link {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
