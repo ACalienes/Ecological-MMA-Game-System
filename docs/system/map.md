@@ -103,8 +103,8 @@ This page provides visual navigation of the entire game system. Click any catego
             <span class="box-subtitle">Pin & Damage</span>
           </a>
           <a href="#wall-combined" class="diagram-box box-combined">
-            Wall Cycles
-            <span class="box-subtitle">Escape/Re-pin Loop</span>
+            Combined
+            <span class="box-subtitle">Both Roles Active</span>
           </a>
         </div>
         <div class="column-group">
@@ -118,8 +118,8 @@ This page provides visual navigation of the entire game system. Click any catego
             <span class="box-subtitle">Advance & Finish</span>
           </a>
           <a href="#ground-combined" class="diagram-box box-combined">
-            Position Battle
-            <span class="box-subtitle">Scrambles</span>
+            Combined
+            <span class="box-subtitle">Both Roles Active</span>
           </a>
         </div>
       </div>
