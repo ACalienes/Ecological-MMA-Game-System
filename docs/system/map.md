@@ -16,11 +16,13 @@ flowchart LR
     W -.->|Escape| OS
     G -.->|Stand Up| OS
 
-    OS -->|KO| KO((KO))
-    OS -->|TKO| TKO((TKO))
-    W -->|TKO| TKO
-    G -->|TKO| TKO
-    G -->|Submit| SUB((SUB))
+    OS --> KO((KO))
+    OS --> TKO((TKO))
+    OS --> SUB((SUB))
+    W --> TKO
+    W --> SUB
+    G --> TKO
+    G --> SUB
 
     style OS fill:#2196F3,color:#fff
     style W fill:#FF9800,color:#fff
