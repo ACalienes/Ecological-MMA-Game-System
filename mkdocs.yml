@@ -145,6 +145,9 @@ nav:
     - Design Rules: about/levels-vs-games.md
     - Disclaimer: about/disclaimer.md
 
+extra_css:
+  - stylesheets/diagram.css
+
 extra_javascript:
   - javascripts/mermaid-init.js
 

@@ -8,112 +8,163 @@ This page provides visual navigation of the entire game system. Click any catego
 
 **The fight is cyclical.** You move between positions until someone finishes. Every path has a reverse.
 
-```mermaid
-flowchart LR
-    %% === SINGLE-LEVEL SUBGRAPHS ONLY ===
+<div class="fight-diagram">
+  <!-- SVG Arrow Definitions -->
+  <svg class="diagram-arrows" viewBox="0 0 1100 520" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#757575"/>
+      </marker>
+      <marker id="arrowhead-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#FF9800"/>
+      </marker>
+      <marker id="arrowhead-brown" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#795548"/>
+      </marker>
+      <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50"/>
+      </marker>
+      <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#D32F2F"/>
+      </marker>
+      <marker id="arrowhead-tko" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#FF5722"/>
+      </marker>
+      <marker id="arrowhead-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#7B1FA2"/>
+      </marker>
+    </defs>
 
-    START((FIGHT<br>START))
+    <!-- Main Forward Flow -->
+    <path d="M 90 260 L 140 260" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 260 260 L 310 260" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
 
-    subgraph FOUNDATION["FOUNDATION"]
-        SK_D["🟢 Defensive"]
-        SK_O["🟠 Offensive"]
-    end
+    <!-- Open Space to Transitions -->
+    <path d="M 430 200 L 480 140" stroke="#FF9800" stroke-width="2" fill="none" marker-end="url(#arrowhead-orange)"/>
+    <path d="M 430 320 L 480 380" stroke="#795548" stroke-width="2" fill="none" marker-end="url(#arrowhead-brown)"/>
 
-    subgraph OPEN["OPEN SPACE"]
-        OS_D["🟢 Defense"]
-        OS_O["🟠 Offense"]
-        OS_C["🟣 Control"]
-    end
+    <!-- Transitions to Positions -->
+    <path d="M 620 140 L 680 140" stroke="#FF9800" stroke-width="2" fill="none" marker-end="url(#arrowhead-orange)"/>
+    <path d="M 620 380 L 680 380" stroke="#795548" stroke-width="2" fill="none" marker-end="url(#arrowhead-brown)"/>
 
-    subgraph TO_WALL["OPEN → WALL"]
-        TW_D["🟢 Prevent"]
-        TW_O["🟠 Initiate"]
-    end
+    <!-- Wall to Ground (Takedown) -->
+    <path d="M 780 200 L 780 310" stroke="#795548" stroke-width="2" fill="none" marker-end="url(#arrowhead-brown)"/>
+    <text x="790" y="255" class="arrow-label" fill="#795548">Takedown</text>
 
-    subgraph TO_GROUND["OPEN → GROUND"]
-        TG_D["🟢 Prevent"]
-        TG_O["🟠 Initiate"]
-    end
+    <!-- Escape Paths (back to Open Space) -->
+    <path d="M 720 120 Q 550 50 400 180" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowhead-green)"/>
+    <text x="530" y="70" class="arrow-label" fill="#4CAF50">Escape</text>
 
-    subgraph WALL["WALL"]
-        W_D["🟢 Escape"]
-        W_O["🟠 Control"]
-        W_C["🟣 Combined"]
-    end
+    <path d="M 720 400 Q 550 480 400 340" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowhead-green)"/>
+    <text x="520" y="470" class="arrow-label" fill="#4CAF50">Stand Up</text>
 
-    subgraph GROUND["GROUND"]
-        G_D["🟢 Escape"]
-        G_O["🟠 Control"]
-        G_C["🟣 Combined"]
-    end
+    <!-- To Finish States -->
+    <path d="M 860 140 L 950 200" stroke="#FF5722" stroke-width="2" fill="none" marker-end="url(#arrowhead-tko)"/>
+    <path d="M 860 380 L 950 320" stroke="#FF5722" stroke-width="2" fill="none" marker-end="url(#arrowhead-tko)"/>
+    <path d="M 860 420 L 950 420" stroke="#7B1FA2" stroke-width="2" fill="none" marker-end="url(#arrowhead-purple)"/>
 
-    subgraph FINISH["FINISH"]
-        KO((KO))
-        TKO((TKO))
-        SUB((Sub))
-    end
+    <!-- KO from Open Space -->
+    <path d="M 430 240 Q 700 150 950 180" stroke="#D32F2F" stroke-width="2" fill="none" marker-end="url(#arrowhead-red)"/>
+    <text x="680" y="170" class="arrow-label" fill="#D32F2F">KO</text>
+  </svg>
 
-    %% === MAIN FORWARD FLOW ===
-    START --> FOUNDATION --> OPEN
-    OPEN --> TO_WALL --> WALL
-    OPEN --> TO_GROUND --> GROUND
-    WALL --> GROUND
+  <!-- Grid Layout -->
+  <div class="fight-diagram-grid">
 
-    %% === TO FINISH ===
-    WALL --> FINISH
-    GROUND --> FINISH
-    OS_O --> KO
-    OS_O --> TKO
-    W_O --> TKO
-    G_O --> TKO
-    G_O --> SUB
+    <!-- Column 1: START -->
+    <div class="diagram-column">
+      <a href="#" class="diagram-box box-start">FIGHT<br>START</a>
+    </div>
 
-    %% === ESCAPE PATHS (back to open) ===
-    W_D -.->|"Escape"| OPEN
-    G_D -.->|"Stand Up"| OPEN
+    <!-- Column 2: FOUNDATION -->
+    <div class="diagram-column">
+      <div class="diagram-section">
+        <div class="section-header">Foundation</div>
+        <a href="#foundation-defensive" class="diagram-box box-defensive">Defensive</a>
+        <a href="#foundation-offensive" class="diagram-box box-offensive">Offensive</a>
+      </div>
+    </div>
 
-    %% === DEFENSIVE SUBS ===
-    W_D -.-> SUB
-    G_D -.-> SUB
+    <!-- Column 3: OPEN SPACE -->
+    <div class="diagram-column">
+      <div class="diagram-section">
+        <div class="section-header">Open Space</div>
+        <a href="#open-space-striking-defense" class="diagram-box box-defensive">Defense</a>
+        <a href="#open-space-striking-offense" class="diagram-box box-offensive">Offense</a>
+        <a href="#open-space-control" class="diagram-box box-combined">Control</a>
+      </div>
+    </div>
 
-    %% === STYLING ===
-    style START fill:#2196F3,color:#fff
-    style SK_D fill:#4CAF50,color:#fff
-    style SK_O fill:#FF5722,color:#fff
-    style OS_D fill:#4CAF50,color:#fff
-    style OS_O fill:#FF5722,color:#fff
-    style OS_C fill:#9C27B0,color:#fff
-    style TW_D fill:#4CAF50,color:#fff
-    style TW_O fill:#FF5722,color:#fff
-    style TG_D fill:#4CAF50,color:#fff
-    style TG_O fill:#FF5722,color:#fff
-    style W_D fill:#4CAF50,color:#fff
-    style W_O fill:#FF5722,color:#fff
-    style W_C fill:#9C27B0,color:#fff
-    style G_D fill:#4CAF50,color:#fff
-    style G_O fill:#FF5722,color:#fff
-    style G_C fill:#9C27B0,color:#fff
-    style KO fill:#D32F2F,color:#fff
-    style TKO fill:#FF9800,color:#fff
-    style SUB fill:#7B1FA2,color:#fff
+    <!-- Column 4: TRANSITIONS -->
+    <div class="diagram-column">
+      <div class="diagram-section">
+        <div class="section-header">Open → Wall</div>
+        <a href="#open-wall-prevent" class="diagram-box box-defensive">Prevent</a>
+        <a href="#open-wall-initiate" class="diagram-box box-offensive">Initiate</a>
+      </div>
+      <div class="diagram-section">
+        <div class="section-header">Open → Ground</div>
+        <a href="#open-ground-prevent" class="diagram-box box-defensive">Prevent</a>
+        <a href="#open-ground-initiate" class="diagram-box box-offensive">Initiate</a>
+      </div>
+    </div>
 
-    %% === CLICK TARGETS ===
-    click SK_D "#foundation-defensive"
-    click SK_O "#foundation-offensive"
-    click OS_D "#open-space-striking-defense"
-    click OS_O "#open-space-striking-offense"
-    click OS_C "#open-space-control"
-    click TW_D "#open-wall-prevent"
-    click TW_O "#open-wall-initiate"
-    click TG_D "#open-ground-prevent"
-    click TG_O "#open-ground-initiate"
-    click W_D "#wall-escape-defend"
-    click W_O "#wall-control-grind"
-    click W_C "#wall-combined"
-    click G_D "#ground-escape-defend"
-    click G_O "#ground-control-finish"
-    click G_C "#ground-combined"
-```
+    <!-- Column 5: POSITIONS -->
+    <div class="diagram-column">
+      <div class="diagram-section">
+        <div class="section-header">Wall</div>
+        <a href="#wall-escape-defend" class="diagram-box box-defensive">Escape</a>
+        <a href="#wall-control-grind" class="diagram-box box-offensive">Control</a>
+        <a href="#wall-combined" class="diagram-box box-combined">Combined</a>
+      </div>
+      <div class="diagram-section">
+        <div class="section-header">Ground</div>
+        <a href="#ground-escape-defend" class="diagram-box box-defensive">Escape</a>
+        <a href="#ground-control-finish" class="diagram-box box-offensive">Control</a>
+        <a href="#ground-combined" class="diagram-box box-combined">Combined</a>
+      </div>
+    </div>
+
+    <!-- Column 6: FINISH -->
+    <div class="diagram-column">
+      <div class="diagram-section">
+        <div class="section-header">Finish</div>
+        <div class="diagram-box box-finish-ko">KO</div>
+        <div class="diagram-box box-finish-tko">TKO</div>
+        <div class="diagram-box box-finish-sub">SUB</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Legend -->
+<div class="diagram-legend">
+  <div class="legend-item">
+    <div class="legend-color" style="background: #4CAF50;"></div>
+    <span>Defensive (Prevent / Escape)</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-color" style="background: #FF5722;"></div>
+    <span>Offensive (Initiate / Control)</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-color" style="background: #9C27B0;"></div>
+    <span>Combined</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-line" style="background: #FF9800;"></div>
+    <span>Path to Wall</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-line" style="background: #795548;"></div>
+    <span>Path to Ground</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-line-dashed" style="color: #4CAF50;"></div>
+    <span>Escape Path</span>
+  </div>
+</div>
 
 ---
 
