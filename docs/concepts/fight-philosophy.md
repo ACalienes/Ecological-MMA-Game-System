@@ -27,17 +27,13 @@ These are the only ways to definitively end a fight. Everything else — points,
 
 ---
 
-## Efficiency Over Speed
+## Efficiency Is the Measure
 
-!!! note "Time Is Not the Measure"
-    Whether you finish in 5 seconds or 15 minutes, the principle remains the same: **minimize damage taken**.
+Efficiency means **finishing the fight while taking as little damage as possible**.
 
-Two scenarios that both satisfy the principle:
+This isn't about speed. A 5-second knockout and a 15-minute submission can both be efficient if you took minimal damage in the process.
 
-1. **Quick finish:** Knock opponent out in the first exchange before they can touch you
-2. **Long finish:** Systematically drain opponent's energy over 15 minutes until they're too slow to threaten you
-
-Both are valid. What matters is the damage ratio — how much you gave versus how much you took.
+What matters is the **damage ratio** — how much you gave versus how much you took. A clean finish with no damage taken is more efficient than a sloppy finish where both fighters are hurt.
 
 ---
 
