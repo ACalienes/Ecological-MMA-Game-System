@@ -62,7 +62,7 @@ nav:
     - Tags & Taxonomy: system/taxonomy.md
   - Games Library:
     - All Games: games/index.md
-    - Skill Isolation:
+    - Foundation (Skill Isolation):
       - Defensive:
         - Parry the Straight: games/parry-the-straight.md
         - Tight Block: games/tight-block.md
@@ -73,7 +73,7 @@ nav:
         - Rear Hand Offense: games/rear-hand-offense.md
         - Lead Leg Offense: games/lead-leg-offense.md
         - Rear Leg Offense: games/rear-leg-offense.md
-    - Open Space - Striking:
+    - Open Space:
       - Defensive:
         - Close-Range Defense: games/close-range-defense.md
         - Evasive Movement: games/evasive-movement.md
@@ -81,40 +81,41 @@ nav:
       - Offensive:
         - Land the Target: games/land-the-target.md
         - Sustained Offense: games/sustained-offense.md
-      - Combined:
+      - Control:
         - Touch and Don't Get Touched: games/touch-game.md
-        - Pressure to Clinch: games/pressure-to-clinch.md
-    - Transition Zone:
-      - Defensive:
+    - Open Space → Wall:
+      - Prevent:
         - Clinch Denial: games/clinch-denial.md
-        - Counter-Wrestling: games/counter-wrestling.md
-    - Open Space - Wrestling:
-      - Defensive:
-        - Takedown Defense: games/takedown-defense.md
-      - Offensive:
-        - Pressure to Takedown: games/pressure-to-takedown.md
+      - Initiate:
+        - Pressure to Clinch: games/pressure-to-clinch.md
         - Pressure to Wall: games/pressure-to-wall.md
-      - Combined:
+    - Open Space → Ground:
+      - Prevent:
+        - Takedown Defense: games/takedown-defense.md
+        - Counter-Wrestling: games/counter-wrestling.md
+      - Initiate:
+        - Pressure to Takedown: games/pressure-to-takedown.md
         - Open Space Takedown: games/open-space-takedown.md
     - Wall:
-      - Offensive:
-        - Wall Control: games/wall-control.md
-        - Wall to Ground: games/wall-to-ground.md
-        - Wall Grinding: games/wall-grinding.md
-      - Defensive:
+      - Escape & Defend:
         - Wall Escape: games/wall-escape.md
         - Wall Defensive Submission: games/wall-defensive-submission.md
+      - Control & Grind:
+        - Wall Control: games/wall-control.md
+        - Wall Grinding: games/wall-grinding.md
+      - Wall → Ground:
+        - Wall to Ground: games/wall-to-ground.md
       - Combined:
         - Stand-Up Loop: games/standup-loop.md
     - Ground:
-      - Offensive:
-        - Ground Access: games/ground-access.md
-        - Ground Control: games/ground-control.md
-      - Defensive:
+      - Escape & Defend:
         - Ground Escape: games/ground-escape.md
         - Leg Reclaim: games/leg-reclaim.md
         - Ground to Standing: games/ground-to-standing.md
         - Ground Defensive Submission: games/ground-defensive-submission.md
+      - Control & Finish:
+        - Ground Access: games/ground-access.md
+        - Ground Control: games/ground-control.md
       - Combined:
         - Positional Battle: games/positional-battle.md
   - Concepts:

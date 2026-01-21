@@ -6,7 +6,7 @@ This page provides visual navigation of the entire game system. Click any catego
 
 ## Fight States & Transitions
 
-**The fight is cyclical.** You move between states until someone finishes. Every game teaches skills within one of these states.
+**The fight is cyclical.** You move between positions until someone finishes. Every path has a reverse.
 
 ```mermaid
 flowchart LR
@@ -17,56 +17,71 @@ flowchart LR
         SK_O["🟠 Offensive Skills"]
     end
 
-    %% Open Space
+    %% Open Space (Striking)
     subgraph OPEN["OPEN SPACE"]
         direction TB
         OS_D["🟢 Striking Defense"]
         OS_O["🟠 Striking Offense"]
         OS_C["🟣 Space Control"]
-        OT["🟢 Transition Zone"]
-        OW_D["🟢 Wrestling Defense"]
-        OW_O["🟠 Wrestling Offense"]
-        OW_C["🟣 Wrestling Combined"]
+    end
+
+    %% Transitions to Wall
+    subgraph TO_WALL["OPEN → WALL"]
+        direction TB
+        TW_D["🟢 Prevent"]
+        TW_O["🟠 Initiate"]
+    end
+
+    %% Transitions to Ground
+    subgraph TO_GROUND["OPEN → GROUND"]
+        direction TB
+        TG_D["🟢 Prevent"]
+        TG_O["🟠 Initiate"]
     end
 
     %% Wall
     subgraph WALL["WALL"]
         direction TB
-        W_D["🟢 Escape & Submit"]
+        W_D["🟢 Escape & Defend"]
         W_O["🟠 Control & Grind"]
+        W_TG["📍 Wall → Ground"]
         W_C["🟣 Combined"]
     end
 
     %% Ground
     subgraph GROUND["GROUND"]
         direction TB
-        G_D["🟢 Escape & Submit"]
+        G_D["🟢 Escape & Defend"]
         G_O["🟠 Control & Finish"]
         G_C["🟣 Combined"]
     end
 
     %% Finish
-    subgraph FINISH["FIGHT ENDS"]
+    subgraph FINISH["FINISH"]
         direction TB
         KO((KO))
         TKO((TKO))
         SUB((Sub))
     end
 
-    %% Foundation feeds everything
+    %% Foundation to Open Space
     FOUNDATION --> OPEN
 
-    %% Position transitions
-    OPEN -->|"Clinch"| WALL
-    OPEN -->|"Takedown"| GROUND
-    WALL -->|"Escape"| OPEN
-    WALL -->|"Takedown"| GROUND
-    GROUND -->|"Stand Up"| OPEN
-    GROUND -.->|"Scramble"| WALL
+    %% Open Space to Transitions
+    OPEN --> TO_WALL
+    OPEN --> TO_GROUND
 
-    %% Knockdown paths
-    OS_O -.->|"Knockdown"| GROUND
-    OS_D -.->|"Counter KD"| GROUND
+    %% Transitions to Positions
+    TO_WALL --> WALL
+    TO_GROUND --> GROUND
+
+    %% Wall to Ground
+    W_TG --> GROUND
+
+    %% Escape paths (reverse)
+    W_D -->|"Escape"| OPEN
+    G_D -->|"Stand Up"| OPEN
+    G_D -.->|"Scramble"| WALL
 
     %% KO paths
     OS_O --> KO
@@ -81,8 +96,8 @@ flowchart LR
     %% SUB paths
     OS_O -.-> SUB
     W_O -.-> SUB
-    G_O --> SUB
     W_D -.->|"Def Sub"| SUB
+    G_O --> SUB
     G_D -.->|"Def Sub"| SUB
 
     %% Styling - Foundation
@@ -93,14 +108,17 @@ flowchart LR
     style OS_D fill:#4CAF50,color:#fff
     style OS_O fill:#FF5722,color:#fff
     style OS_C fill:#9C27B0,color:#fff
-    style OT fill:#4CAF50,color:#fff
-    style OW_D fill:#4CAF50,color:#fff
-    style OW_O fill:#FF5722,color:#fff
-    style OW_C fill:#9C27B0,color:#fff
+
+    %% Styling - Transitions
+    style TW_D fill:#4CAF50,color:#fff
+    style TW_O fill:#FF5722,color:#fff
+    style TG_D fill:#4CAF50,color:#fff
+    style TG_O fill:#FF5722,color:#fff
 
     %% Styling - Wall
     style W_D fill:#4CAF50,color:#fff
     style W_O fill:#FF5722,color:#fff
+    style W_TG fill:#795548,color:#fff
     style W_C fill:#9C27B0,color:#fff
 
     %% Styling - Ground
@@ -113,48 +131,97 @@ flowchart LR
     style TKO fill:#FF9800,color:#fff
     style SUB fill:#7B1FA2,color:#fff
 
+    %% Link styling
+    %% 0: Foundation to Open (gray)
+    linkStyle 0 stroke:#757575,stroke-width:2px
+    %% 1-2: Open to Transitions (orange/brown)
+    linkStyle 1 stroke:#FF9800,stroke-width:2px
+    linkStyle 2 stroke:#795548,stroke-width:2px
+    %% 3-4: Transitions to Positions (orange/brown)
+    linkStyle 3 stroke:#FF9800,stroke-width:2px
+    linkStyle 4 stroke:#795548,stroke-width:2px
+    %% 5: Wall to Ground (brown)
+    linkStyle 5 stroke:#795548,stroke-width:2px
+    %% 6-8: Escape paths (green)
+    linkStyle 6 stroke:#4CAF50,stroke-width:2px
+    linkStyle 7 stroke:#4CAF50,stroke-width:2px
+    linkStyle 8 stroke:#4CAF50,stroke-width:2px
+    %% 9-11: KO paths (red)
+    linkStyle 9 stroke:#D32F2F,stroke-width:3px
+    linkStyle 10 stroke:#D32F2F,stroke-width:2px
+    linkStyle 11 stroke:#D32F2F,stroke-width:2px
+    %% 12-14: TKO paths (orange-red)
+    linkStyle 12 stroke:#FF5722,stroke-width:3px
+    linkStyle 13 stroke:#FF5722,stroke-width:3px
+    linkStyle 14 stroke:#FF5722,stroke-width:3px
+    %% 15-19: SUB paths (purple)
+    linkStyle 15 stroke:#7B1FA2,stroke-width:2px
+    linkStyle 16 stroke:#7B1FA2,stroke-width:2px
+    linkStyle 17 stroke:#7B1FA2,stroke-width:2px
+    linkStyle 18 stroke:#7B1FA2,stroke-width:3px
+    linkStyle 19 stroke:#7B1FA2,stroke-width:2px
+
     %% Click targets
     click SK_D "#foundation-defensive"
     click SK_O "#foundation-offensive"
     click OS_D "#open-space-striking-defense"
     click OS_O "#open-space-striking-offense"
     click OS_C "#open-space-control"
-    click OT "#transition-zone"
-    click OW_D "#open-space-wrestling-defense"
-    click OW_O "#open-space-wrestling-offense"
-    click OW_C "#open-space-wrestling-combined"
-    click W_D "#wall-defensive"
-    click W_O "#wall-offensive"
+    click TW_D "#open-wall-prevent"
+    click TW_O "#open-wall-initiate"
+    click TG_D "#open-ground-prevent"
+    click TG_O "#open-ground-initiate"
+    click W_D "#wall-escape-defend"
+    click W_O "#wall-control-grind"
+    click W_TG "#wall-to-ground"
     click W_C "#wall-combined"
-    click G_D "#ground-defensive"
-    click G_O "#ground-offensive"
+    click G_D "#ground-escape-defend"
+    click G_O "#ground-control-finish"
     click G_C "#ground-combined"
 ```
 
-**Reading the diagram:**
+---
 
-- **Click any box** to jump to that category's games
-- **Arrow colors:** Gray = transitions, Red = KO paths, Orange = TKO paths, Purple = Submission paths
-- **Solid arrows** = Common paths | **Dotted arrows** = Less common paths
-- **🟢 Green** = Defensive | **🟠 Orange** = Offensive | **🟣 Purple** = Combined
+## Reading the Diagram
+
+**Arrow Colors = Where It Goes:**
+
+| Color | Meaning |
+|-------|---------|
+| **Gray** | Foundation flow |
+| **Orange** | Path toward Wall |
+| **Brown** | Path toward Ground |
+| **Green** | Escape back to Open Space |
+| **Red** | Path to KO |
+| **Orange-Red** | Path to TKO |
+| **Purple** | Path to Submission |
+
+**Line Styles:**
+
+- **Solid** = Primary/common path
+- **Dotted** = Secondary/less common path
+
+**Node Colors:**
+
+- **🟢 Green** = Defensive (survive, escape, prevent)
+- **🟠 Orange** = Offensive (attack, control, initiate)
+- **🟣 Purple** = Combined (both roles active)
 
 ---
 
 ## The Three End States
 
-Every pathway leads to one of three fight-ending outcomes:
-
 | End State | Definition | Primary Paths |
 |-----------|------------|---------------|
-| **Knockout (KO)** | Single strike renders opponent unable to continue | Clean strike lands with power and precision |
+| **Knockout (KO)** | Single strike ends the fight | Clean strike with power and precision |
 | **TKO** | Accumulated damage overwhelms defense | Sustained offense, wall grinding, ground control |
-| **Submission** | Choke or joint lock forces tap/unconsciousness | Ground control, defensive submissions from bottom |
+| **Submission** | Choke or joint lock forces tap | Ground control, defensive submissions |
 
 ---
 
 ## Foundation (Skill Isolation)
 
-These games develop isolated skills before integration into live fighting.
+Skills developed in isolation before integration into live fighting.
 
 ### Foundation — Defensive
 
@@ -178,7 +245,7 @@ These games develop isolated skills before integration into live fighting.
 
 ## Open Space
 
-This is where every fight starts. Standing at distance with freedom to move.
+Standing at distance. This is where every fight starts.
 
 ### Open Space — Striking Defense
 
@@ -200,34 +267,44 @@ This is where every fight starts. Standing at distance with freedom to move.
 | Game | What It Develops |
 |------|------------------|
 | [Touch and Don't Get Touched](../games/touch-game.md) | Range awareness and timing |
-| [Pressure to Clinch](../games/pressure-to-clinch.md) | Space control and clinch entry |
 
-### Transition Zone
+---
 
-The critical moment when striking becomes wrestling.
+## Open Space → Wall
+
+Transitions from standing at distance to the cage/clinch.
+
+### Open → Wall — Prevent
 
 | Game | What It Develops |
 |------|------------------|
 | [Clinch Denial](../games/clinch-denial.md) | Breaking clinch attempts |
-| [Counter-Wrestling](../games/counter-wrestling.md) | Punishing shot attempts |
 
-### Open Space — Wrestling Defense
+### Open → Wall — Initiate
+
+| Game | What It Develops |
+|------|------------------|
+| [Pressure to Clinch](../games/pressure-to-clinch.md) | Space control and clinch entry |
+| [Pressure to Wall](../games/pressure-to-wall.md) | Driving opponent to cage |
+
+---
+
+## Open Space → Ground
+
+Transitions from standing to the ground (takedowns/knockdowns).
+
+### Open → Ground — Prevent
 
 | Game | What It Develops |
 |------|------------------|
 | [Takedown Defense](../games/takedown-defense.md) | Sprawl, underhooks, recovery |
+| [Counter-Wrestling](../games/counter-wrestling.md) | Punishing shot attempts |
 
-### Open Space — Wrestling Offense
+### Open → Ground — Initiate
 
 | Game | What It Develops |
 |------|------------------|
 | [Pressure to Takedown](../games/pressure-to-takedown.md) | Chaining strikes to takedown |
-| [Pressure to Wall](../games/pressure-to-wall.md) | Driving opponent to cage |
-
-### Open Space — Wrestling Combined
-
-| Game | What It Develops |
-|------|------------------|
 | [Open Space Takedown](../games/open-space-takedown.md) | Takedowns without wall |
 
 ---
@@ -236,20 +313,25 @@ The critical moment when striking becomes wrestling.
 
 Standing against the cage. You arrive via clinch or pressure.
 
-### Wall — Defensive
+### Wall — Escape & Defend
 
 | Game | What It Develops |
 |------|------------------|
 | [Wall Escape](../games/wall-escape.md) | Breaking the pin, returning to open space |
 | [Wall Defensive Submission](../games/wall-defensive-submission.md) | Submissions to deter/punish control |
 
-### Wall — Offensive
+### Wall — Control & Grind
 
 | Game | What It Develops |
 |------|------------------|
 | [Wall Control](../games/wall-control.md) | Maintaining the pin |
 | [Wall Grinding](../games/wall-grinding.md) | Accumulating damage toward TKO |
-| [Wall to Ground](../games/wall-to-ground.md) | Taking fight to ground |
+
+### Wall → Ground
+
+| Game | What It Develops |
+|------|------------------|
+| [Wall to Ground](../games/wall-to-ground.md) | Taking fight to ground from wall |
 
 ### Wall — Combined
 
@@ -263,7 +345,7 @@ Standing against the cage. You arrive via clinch or pressure.
 
 Horizontal grappling. You arrive via takedown or knockdown.
 
-### Ground — Defensive
+### Ground — Escape & Defend
 
 | Game | What It Develops |
 |------|------------------|
@@ -272,7 +354,7 @@ Horizontal grappling. You arrive via takedown or knockdown.
 | [Ground to Standing](../games/ground-to-standing.md) | Technical stand-up |
 | [Ground Defensive Submission](../games/ground-defensive-submission.md) | Submissions from bottom |
 
-### Ground — Offensive
+### Ground — Control & Finish
 
 | Game | What It Develops |
 |------|------------------|
@@ -287,21 +369,32 @@ Horizontal grappling. You arrive via takedown or knockdown.
 
 ---
 
+## The Complete Cycle
+
+Every position has a way IN and a way OUT:
+
+| From | To | How (Forward) | How (Reverse) |
+|------|-----|---------------|---------------|
+| **Open Space** | **Wall** | Pressure to Clinch, Pressure to Wall | Wall Escape |
+| **Open Space** | **Ground** | Pressure to Takedown, Open Space Takedown, Knockdown | Ground to Standing |
+| **Wall** | **Ground** | Wall to Ground | Stand-Up Loop (scramble) |
+| **Wall** | **Open Space** | — | Wall Escape |
+| **Ground** | **Open Space** | — | Ground to Standing |
+| **Ground** | **Wall** | — | Scramble (Stand-Up Loop) |
+
+---
+
 ## System Statistics
 
-| Category | Count |
+| Category | Games |
 |----------|-------|
-| **Total Games** | 34 |
-| **Foundation (Skill Isolation)** | 8 |
-| **Open Space** | 13 |
+| **Foundation** | 8 |
+| **Open Space** | 6 |
+| **Open Space → Wall** | 3 |
+| **Open Space → Ground** | 4 |
 | **Wall** | 6 |
 | **Ground** | 7 |
-
-| Focus | Count |
-|-------|-------|
-| **Defensive** | 16 |
-| **Offensive** | 13 |
-| **Combined** | 5 |
+| **Total** | **34** |
 
 ---
 
@@ -321,4 +414,4 @@ Horizontal grappling. You arrive via takedown or knockdown.
 ---
 
 !!! abstract "System Evolution Notice"
-    Games can be added infinitely — the fight states are the structure, games are the teaching tools. See [Change Log](../reference/changelog.md) for version history.
+    Games can be added infinitely — the fight states and transitions are the structure, games are the teaching tools. See [Change Log](../reference/changelog.md) for version history.
