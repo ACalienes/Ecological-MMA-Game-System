@@ -70,6 +70,10 @@ This page provides visual navigation of the entire game system. Click any catego
             Enter Clinch
             <span class="box-subtitle">Pressure to Wall</span>
           </a>
+          <a href="#open-wall-combined" class="diagram-box box-combined">
+            Combined
+            <span class="box-subtitle">Both Roles Active</span>
+          </a>
         </div>
         <div class="column-group">
           <div class="group-label">Open → Ground</div>
@@ -80,6 +84,10 @@ This page provides visual navigation of the entire game system. Click any catego
           <a href="#open-ground-initiate" class="diagram-box box-offensive">
             Take Down
             <span class="box-subtitle">Get to Ground</span>
+          </a>
+          <a href="#open-ground-combined" class="diagram-box box-combined">
+            Combined
+            <span class="box-subtitle">Both Roles Active</span>
           </a>
         </div>
       </div>
