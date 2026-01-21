@@ -47,9 +47,9 @@ This page provides visual navigation of the entire game system. Click any catego
         Striking Offense
         <span class="box-subtitle">Land Clean, Finish</span>
       </a>
-      <a href="#open-space-control" class="diagram-box box-combined">
-        Range Control
-        <span class="box-subtitle">Touch Game</span>
+      <a href="#open-space-combined" class="diagram-box box-combined">
+        Combined
+        <span class="box-subtitle">Both Roles Active</span>
       </a>
     </div>
 
