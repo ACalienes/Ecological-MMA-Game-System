@@ -4,257 +4,186 @@ Use this template when documenting new games in the system.
 
 ---
 
-## Template Structure
+## Quick Reference
 
-```markdown
-# GAME: <NAME>
+Copy this structure for new games:
 
-## GAME IDENTITY
-- Problem:
-- Environment:
-- Stage:
+=== "Frontmatter"
 
-Brief description of what this game teaches and why it exists.
+    ```yaml
+    ---
+    title: Game Name
+    environment: open-space
+    domain: striking
+    focus: defensive
+    difficulty: beginner
+    duration: short
+    min_players: 2
+    equipment: none
+    prerequisites:
+      concepts: []
+      games: []
+    tags:
+      - tag1
+      - tag2
+    ---
+    ```
 
----
+=== "Page Structure"
 
-## GOAL
+    ```markdown
+    # Game Name
 
-Describe the game type and overall objective structure.
+    !!! info "Game Identity"
+        - **Problem:** What this game solves
+        - **Environment:** Where it takes place
+        - **Stage:** Decision state (Access/Stabilize/Exploit/Counter)
 
-**Game Type:** <Asymmetric / Mirrored>
+    Brief description.
 
-**A Side:** <Role Label> (e.g., Attacker, Top Player, Initiator)
-- Objective:
+    ---
 
-**B Side:** <Role Label> (e.g., Defender, Bottom Player, Responder)
-- Objective:
+    ## Roles & Objectives
 
-(For mirrored games, both sides share the same objective — describe once.)
+    | Role | Objective |
+    |------|-----------|
+    | **A Side** | What they're trying to do |
+    | **B Side** | What they're trying to do |
 
----
+    ---
 
-## ENTRY CONDITION
-- Starting positions:
-- Distance to constraints:
-- Reset rules:
+    ## Setup
 
----
+    **Starting Position:** Describe positions and distances
 
-## INVARIANTS
-1.
-2.
-3.
+    **Reset When:** Conditions that trigger reset
 
----
+    ---
 
-## TASK FOCUS
+    ## Rules
 
-### A Side (<Role Label>)
--
+    **Allowed:**
+    - Action 1
+    - Action 2
 
-### B Side (<Role Label>)
--
+    **Not Allowed:**
+    - Restriction 1
+    - Restriction 2
 
-Key internal questions:
-- A Side: ""
-- B Side: ""
+    ---
 
----
+    ## Win Conditions
 
-## LEGAL ACTIONS
-- Strikes:
-- Submissions:
-- Wrestling:
+    | Role | Wins By |
+    |------|---------|
+    | A Side | Specific, observable condition |
+    | B Side | Specific, observable condition |
 
----
+    ---
 
-## KEY LOGIC (GAME-SPECIFIC)
+    ## Levels
 
-If this game has unique mechanics or decision rules, document them here.
+    | Level | Focus | Constraints |
+    |-------|-------|-------------|
+    | 1 | Core skill | Most restricted |
+    | 2 | Integration | Added complexity |
+    | 3 | Full expression | Realistic pressure |
 
----
+    ---
 
-## WIN CONDITIONS
+    ## Safety
 
-**A Side (<Role Label>) wins by:**
--
+    - Contact limits
+    - Stop conditions
 
-**B Side (<Role Label>) wins by:**
--
+    ---
 
-**Role switch / Reset rules:**
--
+    ## Connections
 
-(For diagnostic games without win conditions, describe success criteria instead.)
-
----
-
-## LEVELS
-- Level 1:
-- Level 2:
-- Level 3:
-
----
-
-## ADVANCED EXPRESSIONS (COACH CONTEXT)
-
-How does the game evolve at higher skill levels?
-
----
-
-## SAFETY
-- Contact limits:
-- Stop conditions:
-- Coach intervention criteria:
-
----
-
-## SYSTEM POSITION
-
-- Prerequisite games:
-- Follow-on games:
-- Related concepts:
-
----
-
-## SYSTEM EVOLUTION NOTICE
-
-This game may be revised as the system evolves.
-```
+    **Prerequisites:** Games/concepts needed first
+    **Leads To:** Follow-on games
+    ```
 
 ---
 
 ## Section Guide
 
-### GAME IDENTITY
+??? note "Game Identity"
 
-| Field | Description |
-|-------|-------------|
-| Problem | The core learning challenge (1 sentence) |
-| Environment | Where this game takes place |
-| Stage | Which decision state(s) this addresses |
+    The identity box appears at the top of every game page.
 
-### GOAL
+    | Field | Description | Example |
+    |-------|-------------|---------|
+    | **Problem** | Core learning challenge (1 sentence) | "Defending strikes at close range" |
+    | **Environment** | Physical context | Open Space, Wall, Ground |
+    | **Stage** | Decision state | Access, Stabilize, Exploit, Counter |
 
-Describe what each role is trying to achieve.
+??? note "Roles & Objectives"
 
-**A Side / B Side Convention:**
+    Games use **A Side** and **B Side** as neutral role labels.
 
-Games use "A Side" and "B Side" as neutral role designators. Label them appropriately for the game:
+    | Game Type | A Side | B Side |
+    |-----------|--------|--------|
+    | Offense vs Defense | Attacker | Defender |
+    | Positional | Top Player | Bottom Player |
+    | Skill Isolation | Feeder | Practitioner |
+    | Mirrored | Player 1 | Player 2 (same goal) |
 
-| Game Type | A Side Label | B Side Label |
-|-----------|--------------|--------------|
-| Offense vs Defense | Attacker | Defender |
-| Positional | Top Player | Bottom Player |
-| Territorial | Aggressor | Space Manager |
-| Skill Isolation | Feeder | Practitioner |
-| Mirrored | Player 1 | Player 2 (same goal) |
+??? note "Rules (Invariants)"
 
-**Objective types to consider:**
+    Rules define the problem space. Good rules:
 
-- Spatial control
-- Position establishment
-- Escape/reversal
-- Transition recognition
-- Successful technique execution
-
-### ENTRY CONDITION
-
-Define exactly how the game starts:
-
-- Physical positions
-- Distance from constraints (wall, boundary)
-- When/how to reset
-
-### INVARIANTS
-
-Rules that **cannot be violated**. These define the problem space.
-
-!!! tip "Good Invariants"
     - Are clear and unambiguous
     - Shape behavior toward the learning goal
     - Remove distracting options
 
-### TASK FOCUS
+    !!! example "Example"
+        "No clinching" removes grappling so athletes focus on striking range.
 
-What should each role (A Side and B Side) be paying attention to? Include:
+??? note "Win Conditions"
 
-- Physical tasks
-- Perceptual tasks
-- Internal questions for self-assessment
+    Must be **specific and observable**.
 
-Use the same role labels established in the GOAL section.
+    !!! failure "Bad"
+        "A Side wins by controlling B Side"
 
-### KEY LOGIC
+    !!! success "Good"
+        "A Side wins by holding pin (flat shoulders, controlled hips) for 5 seconds"
 
-Game-specific mechanics that don't fit elsewhere:
+??? note "Levels"
 
-- Permission triggers
-- Counter-logic rules
-- Loop conditions
-- Special transitions
+    Progressive difficulty within the same problem:
 
-### WIN CONDITIONS
+    | Level | Purpose |
+    |-------|---------|
+    | **1** | Core skill in isolation |
+    | **2** | Added resistance or options |
+    | **3** | Full expression with counters |
+    | **4** | Full MMA Expression (cross-domain threats) |
 
-Clear, observable criteria for success for each side. Avoid vague conditions.
+??? note "Safety"
 
-**Include:**
-- A Side win condition
-- B Side win condition
-- Role switch rules (if applicable)
-- Reset rules
+    Every game needs:
 
-!!! warning "Bad Win Condition"
-    "A Side wins by controlling B Side"
-
-!!! success "Good Win Condition"
-    "A Side (Attacker) wins by holding functional pin (flat shoulders, controlled hips) for 5 seconds"
-
-!!! tip "Gamification"
-    Win conditions encourage engagement. Even skill isolation games benefit from clear win conditions with role switching (see Confidence Rating concept — successful defense = role switch).
-
-### LEVELS
-
-Progressive difficulty within the same problem:
-
-- Level 1: Core problem only
-- Level 2: Added resistance or complexity
-- Level 3: Full expression with counters
-
-### ADVANCED EXPRESSIONS
-
-How does this game look different when experts play it? What emerges naturally?
-
-### SAFETY
-
-Specific to this game:
-
-- Contact limits
-- Automatic stop conditions
-- When coach must intervene
-
-### SYSTEM POSITION
-
-Where this game fits:
-
-- What must be learned first (prerequisites)
-- What this game leads to (follow-ons)
-- Related concepts
+    - **Contact limits** — How hard can strikes be?
+    - **Stop conditions** — When does play pause automatically?
+    - **Intervention criteria** — When must coach step in?
 
 ---
 
-## Checklist Before Publishing
+## Checklist
+
+Before publishing a new game:
 
 - [ ] Problem is clearly defined
 - [ ] Environment and stage are tagged
 - [ ] Win conditions are observable
 - [ ] Safety section is complete
-- [ ] System position is mapped
+- [ ] Prerequisites are mapped
 - [ ] At least 3 levels defined
-- [ ] Invariants shape behavior appropriately
+- [ ] Tags added for search
 
 ---
 
-!!! abstract "System Evolution Notice"
-    This template may be updated as new patterns emerge.
+!!! abstract "Template Evolution"
+    This template updates as patterns emerge. See [Change Log](../reference/changelog.md) for history.
