@@ -1,6 +1,6 @@
 # System Map
 
-This page provides visual navigation of the entire game system. Click any category in the diagram to jump to its games.
+This page provides visual navigation of the entire game system. Click any category to jump to its games.
 
 ---
 
@@ -9,130 +9,131 @@ This page provides visual navigation of the entire game system. Click any catego
 **The fight is cyclical.** You move between positions until someone finishes. Every path has a reverse.
 
 <div class="fight-diagram">
-  <!-- SVG Arrow Definitions -->
-  <svg class="diagram-arrows" viewBox="0 0 1100 520" preserveAspectRatio="xMidYMid meet">
-    <defs>
-      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#757575"/>
-      </marker>
-      <marker id="arrowhead-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#FF9800"/>
-      </marker>
-      <marker id="arrowhead-brown" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#795548"/>
-      </marker>
-      <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50"/>
-      </marker>
-      <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#D32F2F"/>
-      </marker>
-      <marker id="arrowhead-tko" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#FF5722"/>
-      </marker>
-      <marker id="arrowhead-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#7B1FA2"/>
-      </marker>
-    </defs>
-
-    <!-- Main Forward Flow -->
-    <path d="M 90 260 L 140 260" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
-    <path d="M 260 260 L 310 260" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
-
-    <!-- Open Space to Transitions -->
-    <path d="M 430 200 L 480 140" stroke="#FF9800" stroke-width="2" fill="none" marker-end="url(#arrowhead-orange)"/>
-    <path d="M 430 320 L 480 380" stroke="#795548" stroke-width="2" fill="none" marker-end="url(#arrowhead-brown)"/>
-
-    <!-- Transitions to Positions -->
-    <path d="M 620 140 L 680 140" stroke="#FF9800" stroke-width="2" fill="none" marker-end="url(#arrowhead-orange)"/>
-    <path d="M 620 380 L 680 380" stroke="#795548" stroke-width="2" fill="none" marker-end="url(#arrowhead-brown)"/>
-
-    <!-- Wall to Ground (Takedown) -->
-    <path d="M 780 200 L 780 310" stroke="#795548" stroke-width="2" fill="none" marker-end="url(#arrowhead-brown)"/>
-    <text x="790" y="255" class="arrow-label" fill="#795548">Takedown</text>
-
-    <!-- Escape Paths (back to Open Space) -->
-    <path d="M 720 120 Q 550 50 400 180" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowhead-green)"/>
-    <text x="530" y="70" class="arrow-label" fill="#4CAF50">Escape</text>
-
-    <path d="M 720 400 Q 550 480 400 340" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowhead-green)"/>
-    <text x="520" y="470" class="arrow-label" fill="#4CAF50">Stand Up</text>
-
-    <!-- To Finish States -->
-    <path d="M 860 140 L 950 200" stroke="#FF5722" stroke-width="2" fill="none" marker-end="url(#arrowhead-tko)"/>
-    <path d="M 860 380 L 950 320" stroke="#FF5722" stroke-width="2" fill="none" marker-end="url(#arrowhead-tko)"/>
-    <path d="M 860 420 L 950 420" stroke="#7B1FA2" stroke-width="2" fill="none" marker-end="url(#arrowhead-purple)"/>
-
-    <!-- KO from Open Space -->
-    <path d="M 430 240 Q 700 150 950 180" stroke="#D32F2F" stroke-width="2" fill="none" marker-end="url(#arrowhead-red)"/>
-    <text x="680" y="170" class="arrow-label" fill="#D32F2F">KO</text>
-  </svg>
-
-  <!-- Grid Layout -->
   <div class="fight-diagram-grid">
 
     <!-- Column 1: START -->
     <div class="diagram-column">
-      <a href="#" class="diagram-box box-start">FIGHT<br>START</a>
+      <div class="column-header">Begin</div>
+      <a href="#" class="diagram-box box-start">FIGHT<br>STARTS</a>
     </div>
+
+    <!-- Arrow -->
+    <div class="flow-arrow">→</div>
 
     <!-- Column 2: FOUNDATION -->
     <div class="diagram-column">
-      <div class="diagram-section">
-        <div class="section-header">Foundation</div>
-        <a href="#foundation-defensive" class="diagram-box box-defensive">Defensive</a>
-        <a href="#foundation-offensive" class="diagram-box box-offensive">Offensive</a>
-      </div>
+      <div class="column-header">Foundation</div>
+      <a href="#foundation-defensive" class="diagram-box box-defensive">
+        Defensive Skills
+        <span class="box-subtitle">Parry, Block, Slip, Evade</span>
+      </a>
+      <a href="#foundation-offensive" class="diagram-box box-offensive">
+        Offensive Skills
+        <span class="box-subtitle">Hands & Kicks</span>
+      </a>
     </div>
+
+    <!-- Arrow -->
+    <div class="flow-arrow">→</div>
 
     <!-- Column 3: OPEN SPACE -->
     <div class="diagram-column">
-      <div class="diagram-section">
-        <div class="section-header">Open Space</div>
-        <a href="#open-space-striking-defense" class="diagram-box box-defensive">Defense</a>
-        <a href="#open-space-striking-offense" class="diagram-box box-offensive">Offense</a>
-        <a href="#open-space-control" class="diagram-box box-combined">Control</a>
-      </div>
+      <div class="column-header">Open Space</div>
+      <a href="#open-space-striking-defense" class="diagram-box box-defensive">
+        Striking Defense
+        <span class="box-subtitle">Evade, Counter, Survive</span>
+      </a>
+      <a href="#open-space-striking-offense" class="diagram-box box-offensive">
+        Striking Offense
+        <span class="box-subtitle">Land Clean, Finish</span>
+      </a>
+      <a href="#open-space-control" class="diagram-box box-combined">
+        Range Control
+        <span class="box-subtitle">Touch Game</span>
+      </a>
     </div>
+
+    <!-- Arrow -->
+    <div class="flow-arrow">→</div>
 
     <!-- Column 4: TRANSITIONS -->
     <div class="diagram-column">
-      <div class="diagram-section">
-        <div class="section-header">Open → Wall</div>
-        <a href="#open-wall-prevent" class="diagram-box box-defensive">Prevent</a>
-        <a href="#open-wall-initiate" class="diagram-box box-offensive">Initiate</a>
-      </div>
-      <div class="diagram-section">
-        <div class="section-header">Open → Ground</div>
-        <a href="#open-ground-prevent" class="diagram-box box-defensive">Prevent</a>
-        <a href="#open-ground-initiate" class="diagram-box box-offensive">Initiate</a>
+      <div class="column-header">Transitions</div>
+      <div class="column-split">
+        <div class="column-group">
+          <div class="group-label">Open → Wall</div>
+          <a href="#open-wall-prevent" class="diagram-box box-defensive">
+            Deny Clinch
+            <span class="box-subtitle">Stay at Distance</span>
+          </a>
+          <a href="#open-wall-initiate" class="diagram-box box-offensive">
+            Enter Clinch
+            <span class="box-subtitle">Pressure to Wall</span>
+          </a>
+        </div>
+        <div class="column-group">
+          <div class="group-label">Open → Ground</div>
+          <a href="#open-ground-prevent" class="diagram-box box-defensive">
+            Stop Takedown
+            <span class="box-subtitle">Sprawl & Punish</span>
+          </a>
+          <a href="#open-ground-initiate" class="diagram-box box-offensive">
+            Take Down
+            <span class="box-subtitle">Get to Ground</span>
+          </a>
+        </div>
       </div>
     </div>
+
+    <!-- Arrow -->
+    <div class="flow-arrow">→</div>
 
     <!-- Column 5: POSITIONS -->
     <div class="diagram-column">
-      <div class="diagram-section">
-        <div class="section-header">Wall</div>
-        <a href="#wall-escape-defend" class="diagram-box box-defensive">Escape</a>
-        <a href="#wall-control-grind" class="diagram-box box-offensive">Control</a>
-        <a href="#wall-combined" class="diagram-box box-combined">Combined</a>
-      </div>
-      <div class="diagram-section">
-        <div class="section-header">Ground</div>
-        <a href="#ground-escape-defend" class="diagram-box box-defensive">Escape</a>
-        <a href="#ground-control-finish" class="diagram-box box-offensive">Control</a>
-        <a href="#ground-combined" class="diagram-box box-combined">Combined</a>
+      <div class="column-header">Positions</div>
+      <div class="column-split">
+        <div class="column-group">
+          <div class="group-label">Wall</div>
+          <a href="#wall-escape-defend" class="diagram-box box-defensive">
+            Wall Escape
+            <span class="box-subtitle">Return to Open</span>
+          </a>
+          <a href="#wall-control-grind" class="diagram-box box-offensive">
+            Wall Control
+            <span class="box-subtitle">Pin & Damage</span>
+          </a>
+          <a href="#wall-combined" class="diagram-box box-combined">
+            Wall Cycles
+            <span class="box-subtitle">Escape/Re-pin Loop</span>
+          </a>
+        </div>
+        <div class="column-group">
+          <div class="group-label">Ground</div>
+          <a href="#ground-escape-defend" class="diagram-box box-defensive">
+            Ground Escape
+            <span class="box-subtitle">Stand Up, Recover</span>
+          </a>
+          <a href="#ground-control-finish" class="diagram-box box-offensive">
+            Ground Control
+            <span class="box-subtitle">Advance & Finish</span>
+          </a>
+          <a href="#ground-combined" class="diagram-box box-combined">
+            Position Battle
+            <span class="box-subtitle">Scrambles</span>
+          </a>
+        </div>
       </div>
     </div>
 
+    <!-- Arrow -->
+    <div class="flow-arrow">→</div>
+
     <!-- Column 6: FINISH -->
     <div class="diagram-column">
-      <div class="diagram-section">
-        <div class="section-header">Finish</div>
-        <div class="diagram-box box-finish-ko">KO</div>
-        <div class="diagram-box box-finish-tko">TKO</div>
-        <div class="diagram-box box-finish-sub">SUB</div>
-      </div>
+      <div class="column-header">Finish</div>
+      <div class="diagram-box box-finish box-finish-ko">KO</div>
+      <div class="diagram-box box-finish box-finish-tko">TKO</div>
+      <div class="diagram-box box-finish box-finish-sub">SUB</div>
     </div>
 
   </div>
@@ -141,57 +142,37 @@ This page provides visual navigation of the entire game system. Click any catego
 <!-- Legend -->
 <div class="diagram-legend">
   <div class="legend-item">
-    <div class="legend-color" style="background: #4CAF50;"></div>
-    <span>Defensive (Prevent / Escape)</span>
+    <div class="legend-color" style="background: linear-gradient(135deg, #4CAF50, #388E3C);"></div>
+    <span>Defensive — Survive, Escape, Prevent</span>
   </div>
   <div class="legend-item">
-    <div class="legend-color" style="background: #FF5722;"></div>
-    <span>Offensive (Initiate / Control)</span>
+    <div class="legend-color" style="background: linear-gradient(135deg, #FF5722, #E64A19);"></div>
+    <span>Offensive — Attack, Control, Initiate</span>
   </div>
   <div class="legend-item">
-    <div class="legend-color" style="background: #9C27B0;"></div>
-    <span>Combined</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-line" style="background: #FF9800;"></div>
-    <span>Path to Wall</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-line" style="background: #795548;"></div>
-    <span>Path to Ground</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-line-dashed" style="color: #4CAF50;"></div>
-    <span>Escape Path</span>
+    <div class="legend-color" style="background: linear-gradient(135deg, #9C27B0, #7B1FA2);"></div>
+    <span>Combined — Both Roles Active</span>
   </div>
 </div>
 
 ---
 
-## Reading the Diagram
+## How the Diagram Works
 
-**Arrow Colors = Where It Goes:**
+**Read left to right:** Foundation skills → Open Space fighting → Transitions between positions → Positional fighting → Finish
 
-| Color | Meaning |
-|-------|---------|
-| **Gray** | Foundation flow |
-| **Orange** | Path toward Wall |
-| **Brown** | Path toward Ground |
-| **Green** | Escape back to Open Space |
-| **Red** | Path to KO |
-| **Orange-Red** | Path to TKO |
-| **Purple** | Path to Submission |
+**The cycle:**
 
-**Line Styles:**
+1. Every fight starts in **Open Space** (standing at distance)
+2. From Open Space, you can transition to **Wall** (clinch against cage) or **Ground** (horizontal grappling)
+3. From Wall or Ground, you can **escape back** to Open Space
+4. Any position can lead to a **finish** (KO, TKO, or Submission)
 
-- **Solid** = Primary/common path
-- **Dotted** = Secondary/less common path
+**Box colors show your role:**
 
-**Node Colors:**
-
-- **🟢 Green** = Defensive (survive, escape, prevent)
-- **🟠 Orange** = Offensive (attack, control, initiate)
-- **🟣 Purple** = Combined (both roles active)
+- **🟢 Green** = Defensive — survive, escape, prevent transitions
+- **🟠 Orange** = Offensive — attack, control, initiate transitions
+- **🟣 Purple** = Combined — both roles active (scrambles, mixed situations)
 
 ---
 
