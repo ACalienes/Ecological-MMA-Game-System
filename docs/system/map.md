@@ -8,6 +8,30 @@ This page provides visual navigation of the entire game system. Click any catego
 
 **The fight is cyclical.** You move between positions until someone finishes. Every path has a reverse.
 
+```mermaid
+flowchart LR
+    OS[Open Space] -->|Clinch| W[Wall]
+    OS -->|Takedown| G[Ground]
+    W -->|Takedown| G
+    W -.->|Escape| OS
+    G -.->|Stand Up| OS
+
+    OS -->|KO| KO((KO))
+    OS -->|TKO| TKO((TKO))
+    W -->|TKO| TKO
+    G -->|TKO| TKO
+    G -->|Submit| SUB((SUB))
+
+    style OS fill:#2196F3,color:#fff
+    style W fill:#FF9800,color:#fff
+    style G fill:#795548,color:#fff
+    style KO fill:#D32F2F,color:#fff
+    style TKO fill:#FF5722,color:#fff
+    style SUB fill:#E91E63,color:#fff
+```
+
+**Click any category below to jump to its games:**
+
 <div class="fight-diagram">
 
   <!-- Foundation reference -->
