@@ -147,6 +147,129 @@ Using bodyweight or momentum to force an opponent down without proper control. U
 
 ---
 
+## Grappling Positions
+
+### Guard
+Bottom position with legs engaged between you and opponent. Allows defensive control and attack options.
+
+### Half Guard
+Bottom position with one of opponent's legs trapped between yours. Transitional position.
+
+### Mount
+Top position sitting on opponent's torso with knees on either side. Dominant striking and submission position.
+
+### Side Control
+Top position perpendicular to opponent, chest-to-chest. Strong control position.
+
+### Back Control
+Controlling opponent from behind, typically with hooks (feet inside thighs) and seatbelt grip.
+
+### Turtle
+Defensive all-fours position, protecting neck and limbs. Temporary survival position.
+
+### North-South
+Top position facing opposite direction from opponent, head-to-head.
+
+---
+
+## Striking Terms
+
+### Jab
+Lead hand straight punch. Primary range-finder and setup tool.
+
+### Cross
+Rear hand straight punch. Primary power punch.
+
+### Hook
+Curved punch targeting side of head or body.
+
+### Uppercut
+Upward punch targeting chin or body.
+
+### Teep
+Push kick / front kick. Used for distance management.
+
+### Round Kick
+Circular kick using shin as striking surface.
+
+### Low Kick
+Kick targeting opponent's legs (calf, thigh).
+
+---
+
+## Defensive Terms
+
+### Parry
+Redirecting a strike with a small hand movement.
+
+### Slip
+Moving head offline to avoid a straight punch.
+
+### Roll
+Rotating shoulders/head to deflect hooks.
+
+### Sprawl
+Hip defense against takedowns — driving hips back and down.
+
+### Underhook
+Arm positioned under opponent's armpit. Key control position in clinch.
+
+### Overhook (Whizzer)
+Arm positioned over opponent's arm. Counter to underhook.
+
+### Frame
+Using skeletal structure (forearms, elbows) to create space. Not strength-dependent.
+
+---
+
+## Training Formats
+
+### Positional Sparring
+Starting from a specific position with defined reset conditions. High repetition of specific scenarios.
+
+### Flow Rolling
+Cooperative, exploratory grappling at low intensity. Focus on movement, not winning.
+
+### Live Sparring
+Full resistance sparring with defined rules. Competitive intensity.
+
+### Situational Drilling
+Repeating specific scenarios with progressive resistance.
+
+---
+
+## Role Terms
+
+### A Side
+The athlete whose learning is prioritized in a game. Usually the "attacker" or initiator role.
+
+### B Side
+The athlete providing resistance/reactions. Still learning but in support of A Side's development.
+
+### Feeder
+Partner providing controlled stimulus (strikes, pressure) for specific skill development.
+
+---
+
+## System Terms
+
+### Combined Game
+A game where both athletes have simultaneous offensive and defensive objectives. Neither role is purely reactive.
+
+### Transition
+Movement between fight environments (Open Space → Wall, Open Space → Ground, etc.)
+
+### Escape
+Successfully disengaging from a controlled position and returning to a neutral or advantageous state.
+
+### Pressure
+Forward movement that reduces opponent's space and options. Can be striking or wrestling-based.
+
+### Cage Cut
+Using footwork and positioning to limit opponent's lateral movement options.
+
+---
+
 ## Cross-References
 
 | Term | Primary Document |
@@ -156,4 +279,7 @@ Using bodyweight or momentum to force an opponent down without proper control. U
 | DNS | [Concept: TKO Pin](../concepts/tko-pin.md) |
 | Hand Controls | [Concept: Hand Controls](../concepts/hand-controls.md) |
 | Defensive Solutions | [Concept: Defensive Solutions](../concepts/defensive-solutions.md) |
+| Confidence Rating | [Concept: Confidence Rating](../concepts/confidence-rating.md) |
+| Three Zones | [Concept: Three Zones](../concepts/three-zones.md) |
+| Decision States | [Concept: Decision States](../concepts/decision-states.md) |
 | Levels vs Games | [Design Rules](../about/levels-vs-games.md) |
