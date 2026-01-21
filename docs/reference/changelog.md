@@ -23,7 +23,7 @@ This log tracks the evolution of the Ecological MMA Games System. When we refine
 **Major Changes:**
 
 1. **Constraints-Led Approach (CLA) Sections Added to All Games**
-   - Added standardized CLA documentation to all 35 games
+   - Added standardized CLA documentation to all 34 games
    - Each game now includes:
      - **Constraints Analysis** — How task/individual/environmental constraints create affordances
      - **Information Structure** — Perception-action coupling for each role (haptic, visual, proprioceptive)
@@ -32,7 +32,7 @@ This log tracks the evolution of the Ecological MMA Games System. When we refine
      - **Readiness Indicators** — When athletes are ready to progress or exit games
    - Theoretical foundations reference Renshaw et al., 2019 throughout
 
-2. **Game Count Verified at 35 Games**
+2. **Game Count Verified at 34 Games**
    - Consistency check script added to validate game counts
    - All cross-references verified and updated
 

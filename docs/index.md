@@ -10,7 +10,7 @@ This is a **complete training system** built on one insight: **MMA is a decision
 
 Instead of drilling techniques in isolation, athletes solve problems through structured games. The environment does the teaching. Correct behavior emerges from constraints, not coaching cues.
 
-**35 games. 13 subcategories. All paths lead to finish.**
+**34 games. 15 subcategories. All paths lead to finish.**
 
 ---
 
@@ -303,7 +303,7 @@ Pass guard, establish control, finish the fight.
 
 | Section | What You'll Find |
 |---------|------------------|
-| [System Map](system/map.md) | Visual overview of all 35 games and connections |
+| [System Map](system/map.md) | Interactive fight states diagram with game navigation |
 | [Games Library](games/index.md) | Complete catalog with filters |
 | [Concepts](concepts/fight-philosophy.md) | Key ideas: Fight Philosophy, Decision States, TKO Pin |
 | [Coach Tools](tools/safety.md) | Safety, assessment, session planning |
