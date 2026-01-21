@@ -22,6 +22,10 @@ tags:
   - pressure
   - distance-closure
   - striking-to-grappling
+  - single-leg
+  - double-leg
+  - level-change
+  - timing
 ---
 
 # Pressure to Takedown

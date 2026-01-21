@@ -12,9 +12,12 @@ prerequisites:
     - defensive-solutions
   games: []
 tags:
-  - parrying
-  - straight-punches
-  - hand-defense
+  - parry
+  - jab
+  - cross
+  - timing
+  - reaction
+  - beginner-friendly
   - skill-isolation
 ---
 

@@ -20,6 +20,10 @@ tags:
   - counter
   - timing
   - transition
+  - jab
+  - cross
+  - reaction
+  - pressure
 ---
 
 # Counter-Striking

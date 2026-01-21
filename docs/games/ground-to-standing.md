@@ -18,6 +18,11 @@ tags:
   - standup
   - escape
   - wrestling-up
+  - guard
+  - turtle
+  - footwork
+  - distance
+  - transition
 ---
 
 # Ground to Standing

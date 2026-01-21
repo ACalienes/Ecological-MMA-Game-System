@@ -12,9 +12,12 @@ prerequisites:
     - defensive-solutions
   games: []
 tags:
-  - slipping
+  - slip
+  - jab
+  - cross
   - head-movement
-  - evasion
+  - timing
+  - beginner-friendly
   - skill-isolation
 ---
 

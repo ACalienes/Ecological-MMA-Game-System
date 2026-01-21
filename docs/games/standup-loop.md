@@ -16,8 +16,13 @@ prerequisites:
 tags:
   - wall
   - stand-up
-  - cycles
-  - scrambles
+  - cycle
+  - scramble
+  - underhook
+  - pummel
+  - footwork
+  - positional-sparring
+  - high-intensity
 ---
 
 # Wall Stand-Up & Re-Pin Loop

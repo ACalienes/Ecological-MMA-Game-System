@@ -20,6 +20,10 @@ tags:
   - submission
   - grappling
   - deterrent
+  - guillotine
+  - kimura
+  - underhook
+  - counter
 ---
 
 # Wall Defensive Submission

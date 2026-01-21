@@ -12,9 +12,10 @@ prerequisites:
     - defensive-solutions
   games: []
 tags:
-  - blocking
-  - tight-guard
-  - shell-defense
+  - block
+  - hook
+  - body-kick
+  - beginner-friendly
   - skill-isolation
 ---
 

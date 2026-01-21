@@ -18,6 +18,10 @@ tags:
   - space-control
   - clinch-entry
   - transition
+  - underhook
+  - collar-tie
+  - clinch
+  - angle
 ---
 
 # Pressure to Clinch

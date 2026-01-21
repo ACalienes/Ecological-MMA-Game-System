@@ -13,9 +13,11 @@ prerequisites:
   games:
     - slip-the-straight
 tags:
-  - evasion
+  - slip
+  - roll
+  - pull
   - head-movement
-  - punch-recognition
+  - reaction
   - skill-isolation
 ---
 

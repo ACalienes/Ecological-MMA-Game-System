@@ -11,10 +11,11 @@ prerequisites:
   concepts: []
   games: []
 tags:
-  - weapon-isolation
-  - lead-hand
   - jab
-  - offense
+  - hook
+  - timing
+  - distance
+  - beginner-friendly
   - skill-isolation
 ---
 

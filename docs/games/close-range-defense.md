@@ -18,6 +18,13 @@ tags:
   - close-range
   - multiple-solutions
   - integration
+  - parry
+  - block
+  - slip
+  - roll
+  - clinch
+  - reaction
+  - high-intensity
 ---
 
 # Close-Range Defense

@@ -18,6 +18,11 @@ tags:
   - control
   - stabilize
   - top
+  - mount
+  - side-control
+  - back-control
+  - pressure
+  - positional-sparring
 ---
 
 # Ground Control

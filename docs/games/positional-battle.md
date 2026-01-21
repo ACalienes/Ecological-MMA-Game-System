@@ -19,6 +19,11 @@ tags:
   - positional
   - scramble
   - battle
+  - guard
+  - mount
+  - side-control
+  - back-control
+  - high-intensity
 ---
 
 # Positional Battle

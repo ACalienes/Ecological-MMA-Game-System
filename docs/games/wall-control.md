@@ -19,6 +19,11 @@ tags:
   - pinning
   - control
   - grappling
+  - underhook
+  - overhook
+  - collar-tie
+  - pressure
+  - positional-sparring
 ---
 
 # Wall Control — Establish the Pin

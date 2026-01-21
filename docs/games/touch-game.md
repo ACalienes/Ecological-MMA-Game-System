@@ -15,6 +15,12 @@ tags:
   - timing
   - counter-striking
   - foundational
+  - distance
+  - footwork
+  - counter
+  - reaction
+  - beginner-friendly
+  - low-intensity
 ---
 
 # Touch and Don't Get Touched

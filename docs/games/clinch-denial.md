@@ -18,6 +18,12 @@ tags:
   - clinch
   - hand-fighting
   - space
+  - underhook
+  - collar-tie
+  - wrist-control
+  - pummel
+  - distance
+  - pressure
 ---
 
 # Clinch Denial

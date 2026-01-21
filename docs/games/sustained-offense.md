@@ -19,6 +19,11 @@ tags:
   - rhythm
   - pressure
   - combinations
+  - jab
+  - cross
+  - hook
+  - body-kick
+  - high-intensity
 ---
 
 # Sustained Offense

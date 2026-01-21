@@ -20,6 +20,10 @@ tags:
   - grinding
   - damage
   - control
+  - knee
+  - elbow
+  - pressure
+  - high-intensity
 ---
 
 # Wall Grinding

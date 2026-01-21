@@ -11,11 +11,10 @@ prerequisites:
   concepts: []
   games: []
 tags:
-  - weapon-isolation
-  - lead-leg
-  - kicks
   - teep
-  - offense
+  - round-kick
+  - low-kick
+  - distance
   - skill-isolation
 ---
 

@@ -21,6 +21,10 @@ tags:
   - wall
   - dirty-boxing
   - transition
+  - clinch
+  - underhook
+  - footwork
+  - cage-cut
 ---
 
 # Pressure to Wall

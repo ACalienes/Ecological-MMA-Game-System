@@ -16,8 +16,14 @@ prerequisites:
 tags:
   - wall
   - escape
-  - frames
+  - frame
   - defense
+  - underhook
+  - overhook
+  - pummel
+  - footwork
+  - angle
+  - positional-sparring
 ---
 
 # Wall Escape — Anti-Pin

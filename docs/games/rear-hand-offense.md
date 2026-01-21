@@ -11,11 +11,10 @@ prerequisites:
   concepts: []
   games: []
 tags:
-  - weapon-isolation
-  - rear-hand
   - cross
-  - power-hand
-  - offense
+  - overhand
+  - power
+  - timing
   - skill-isolation
 ---
 

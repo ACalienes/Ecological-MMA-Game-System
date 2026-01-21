@@ -17,6 +17,12 @@ tags:
   - escape
   - bottom
   - survival
+  - guard
+  - half-guard
+  - mount
+  - side-control
+  - bridge
+  - positional-sparring
 ---
 
 # Ground Escape

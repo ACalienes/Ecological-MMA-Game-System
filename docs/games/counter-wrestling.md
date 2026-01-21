@@ -22,6 +22,10 @@ tags:
   - transition
   - clinch
   - level-change
+  - sprawl
+  - guillotine
+  - knee
+  - reaction
 ---
 
 # Counter-Wrestling

@@ -19,6 +19,11 @@ tags:
   - footwork
   - evasion
   - space
+  - distance
+  - retreat
+  - angle
+  - pivot
+  - pressure
 ---
 
 # Evasive Movement

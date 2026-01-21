@@ -17,6 +17,11 @@ tags:
   - clinch
   - dns
   - scrambles
+  - single-leg
+  - double-leg
+  - level-change
+  - distance
+  - timing
 ---
 
 # Open Space Control → Takedown

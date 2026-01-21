@@ -18,6 +18,11 @@ tags:
   - submission
   - bottom
   - grappling
+  - guard
+  - triangle
+  - armbar
+  - guillotine
+  - counter
 ---
 
 # Ground Defensive Submission

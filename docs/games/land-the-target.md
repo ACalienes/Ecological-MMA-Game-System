@@ -18,6 +18,12 @@ tags:
   - combinations
   - target-selection
   - misdirection
+  - jab
+  - cross
+  - hook
+  - timing
+  - distance
+  - angle
 ---
 
 # Land the Target

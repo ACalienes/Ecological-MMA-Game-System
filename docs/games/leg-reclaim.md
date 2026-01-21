@@ -18,6 +18,9 @@ tags:
   - guard
   - recovery
   - position
+  - half-guard
+  - hip-movement
+  - positional-sparring
 ---
 
 # Leg Reclaim

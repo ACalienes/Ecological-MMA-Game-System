@@ -83,6 +83,117 @@ Environment → Domain → Focus
 
 ---
 
+## Technique Tags — Striking Offense
+
+| Tag | Description |
+|-----|-------------|
+| `jab` | Lead hand straight punch |
+| `cross` | Rear hand straight punch |
+| `hook` | Curved punch to side of head/body |
+| `uppercut` | Upward punch to chin/body |
+| `overhand` | Looping power punch |
+| `teep` | Push kick / front kick |
+| `round-kick` | Circular kick to leg/body/head |
+| `low-kick` | Kick targeting the legs |
+| `body-kick` | Kick targeting the torso |
+| `head-kick` | Kick targeting the head |
+| `knee` | Knee strike |
+| `elbow` | Elbow strike |
+
+---
+
+## Technique Tags — Striking Defense
+
+| Tag | Description |
+|-----|-------------|
+| `parry` | Deflecting strikes with hands |
+| `block` | Absorbing strikes with guard |
+| `slip` | Head movement to avoid straight punches |
+| `roll` | Head movement to avoid hooks |
+| `pull` | Leaning back to avoid strikes |
+| `check` | Blocking kicks with shin |
+| `catch` | Catching opponent's kick |
+
+---
+
+## Technique Tags — Movement
+
+| Tag | Description |
+|-----|-------------|
+| `footwork` | Stance and movement patterns |
+| `angle` | Creating off-center positioning |
+| `distance` | Range management |
+| `pressure` | Forward movement and cage cutting |
+| `retreat` | Backward movement and escape |
+| `pivot` | Rotational movement |
+| `level-change` | Changing height/elevation |
+
+---
+
+## Technique Tags — Wrestling
+
+| Tag | Description |
+|-----|-------------|
+| `underhook` | Arm under opponent's armpit |
+| `overhook` | Arm over opponent's arm (whizzer) |
+| `collar-tie` | Hand behind opponent's neck |
+| `wrist-control` | Controlling opponent's wrists |
+| `pummel` | Fighting for underhook position |
+| `sprawl` | Hip defense against takedowns |
+| `single-leg` | Single leg takedown |
+| `double-leg` | Double leg takedown |
+| `trip` | Off-balancing with leg |
+| `throw` | Hip or shoulder throw |
+
+---
+
+## Technique Tags — Grappling Positions
+
+| Tag | Description |
+|-----|-------------|
+| `guard` | Bottom position with legs engaged |
+| `half-guard` | Bottom with one leg trapped |
+| `mount` | Top position sitting on torso |
+| `side-control` | Top position perpendicular to opponent |
+| `back-control` | Controlling from behind |
+| `turtle` | Defensive all-fours position |
+| `north-south` | Top position head-to-head |
+| `crucifix` | Controlling both arms from side |
+
+---
+
+## Technique Tags — Submissions
+
+| Tag | Description |
+|-----|-------------|
+| `guillotine` | Front headlock choke |
+| `rnc` | Rear naked choke |
+| `arm-triangle` | Head and arm choke |
+| `darce` | Arm-in head and arm choke |
+| `armbar` | Straight arm lock |
+| `kimura` | Shoulder lock (double wristlock) |
+| `americana` | Reverse shoulder lock |
+| `triangle` | Leg triangle choke |
+| `heel-hook` | Rotational knee/ankle attack |
+| `ankle-lock` | Straight ankle lock |
+
+---
+
+## Situational Tags
+
+| Tag | Description |
+|-----|-------------|
+| `beginner-friendly` | Suitable for new practitioners |
+| `high-intensity` | Requires significant exertion |
+| `low-intensity` | Technical focus, lower exertion |
+| `live-sparring` | Full resistance, competitive |
+| `positional-sparring` | Specific start position, reset on escape/score |
+| `flow` | Cooperative, exploratory pace |
+| `timing` | Emphasis on timing development |
+| `reaction` | Emphasis on reaction training |
+
+---
+
 ## Game Tag Matrix
 
 ### Skill Isolation Games

@@ -19,6 +19,10 @@ tags:
   - ground
   - transition
   - takedown
+  - single-leg
+  - double-leg
+  - trip
+  - level-change
 ---
 
 # Wall Pin → Ground Control

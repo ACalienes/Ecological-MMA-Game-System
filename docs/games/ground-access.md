@@ -18,6 +18,12 @@ tags:
   - passing
   - access
   - top
+  - guard
+  - half-guard
+  - mount
+  - side-control
+  - pressure
+  - positional-sparring
 ---
 
 # Ground Access
