@@ -10,53 +10,53 @@ This page provides visual navigation of the entire game system. Click any catego
 
 ```mermaid
 flowchart LR
-    %% Foundation
+    %% === COLUMN 1: START ===
+    START((FIGHT<br>START))
+
+    %% === COLUMN 2: FOUNDATION ===
     subgraph FOUNDATION["FOUNDATION"]
         direction TB
-        SK_D["🟢 Defensive Skills"]
-        SK_O["🟠 Offensive Skills"]
+        SK_D["🟢 Defensive"]
+        SK_O["🟠 Offensive"]
     end
 
-    %% Open Space (Striking)
+    %% === COLUMN 3: OPEN SPACE ===
     subgraph OPEN["OPEN SPACE"]
         direction TB
-        OS_D["🟢 Striking Defense"]
-        OS_O["🟠 Striking Offense"]
-        OS_C["🟣 Space Control"]
+        OS_D["🟢 Defense"]
+        OS_O["🟠 Offense"]
+        OS_C["🟣 Control"]
     end
 
-    %% Transitions to Wall
-    subgraph TO_WALL["OPEN → WALL"]
+    %% === COLUMN 4: TRANSITIONS (stacked) ===
+    subgraph TRANSITIONS[" "]
         direction TB
-        TW_D["🟢 Prevent"]
-        TW_O["🟠 Initiate"]
+        subgraph TO_WALL["OPEN → WALL"]
+            TW_D["🟢 Prevent"]
+            TW_O["🟠 Initiate"]
+        end
+        subgraph TO_GROUND["OPEN → GROUND"]
+            TG_D["🟢 Prevent"]
+            TG_O["🟠 Initiate"]
+        end
     end
 
-    %% Transitions to Ground
-    subgraph TO_GROUND["OPEN → GROUND"]
+    %% === COLUMN 5: POSITIONS (stacked) ===
+    subgraph POSITIONS[" "]
         direction TB
-        TG_D["🟢 Prevent"]
-        TG_O["🟠 Initiate"]
+        subgraph WALL["WALL"]
+            W_D["🟢 Escape"]
+            W_O["🟠 Control"]
+            W_C["🟣 Combined"]
+        end
+        subgraph GROUND["GROUND"]
+            G_D["🟢 Escape"]
+            G_O["🟠 Control"]
+            G_C["🟣 Combined"]
+        end
     end
 
-    %% Wall
-    subgraph WALL["WALL"]
-        direction TB
-        W_D["🟢 Escape & Defend"]
-        W_O["🟠 Control & Grind"]
-        W_TG["📍 Wall → Ground"]
-        W_C["🟣 Combined"]
-    end
-
-    %% Ground
-    subgraph GROUND["GROUND"]
-        direction TB
-        G_D["🟢 Escape & Defend"]
-        G_O["🟠 Control & Finish"]
-        G_C["🟣 Combined"]
-    end
-
-    %% Finish
+    %% === COLUMN 6: FINISH ===
     subgraph FINISH["FINISH"]
         direction TB
         KO((KO))
@@ -64,104 +64,85 @@ flowchart LR
         SUB((Sub))
     end
 
-    %% Foundation to Open Space
+    %% === MAIN FLOW (left to right) ===
+    START --> FOUNDATION
     FOUNDATION --> OPEN
-
-    %% Open Space to Transitions
-    OPEN --> TO_WALL
-    OPEN --> TO_GROUND
-
-    %% Transitions to Positions
+    OPEN --> TRANSITIONS
     TO_WALL --> WALL
     TO_GROUND --> GROUND
+    WALL --> FINISH
+    GROUND --> FINISH
 
-    %% Wall to Ground
-    W_TG --> GROUND
+    %% === WALL TO GROUND ===
+    WALL -->|"Takedown"| GROUND
 
-    %% Escape paths (reverse)
+    %% === ESCAPE PATHS (reverse - green) ===
     W_D -->|"Escape"| OPEN
     G_D -->|"Stand Up"| OPEN
-    G_D -.->|"Scramble"| WALL
+    GROUND -.->|"Scramble"| WALL
 
-    %% KO paths
+    %% === FINISH PATHS ===
     OS_O --> KO
-    OS_D -.->|"Counter"| KO
-    W_O -.-> KO
-
-    %% TKO paths
     OS_O --> TKO
     W_O --> TKO
+    W_O -.-> KO
     G_O --> TKO
-
-    %% SUB paths
-    OS_O -.-> SUB
-    W_O -.-> SUB
-    W_D -.->|"Def Sub"| SUB
     G_O --> SUB
+    W_D -.->|"Def Sub"| SUB
     G_D -.->|"Def Sub"| SUB
 
-    %% Styling - Foundation
+    %% === NODE STYLING ===
+    style START fill:#2196F3,color:#fff
     style SK_D fill:#4CAF50,color:#fff
     style SK_O fill:#FF5722,color:#fff
-
-    %% Styling - Open Space
     style OS_D fill:#4CAF50,color:#fff
     style OS_O fill:#FF5722,color:#fff
     style OS_C fill:#9C27B0,color:#fff
-
-    %% Styling - Transitions
     style TW_D fill:#4CAF50,color:#fff
     style TW_O fill:#FF5722,color:#fff
     style TG_D fill:#4CAF50,color:#fff
     style TG_O fill:#FF5722,color:#fff
-
-    %% Styling - Wall
     style W_D fill:#4CAF50,color:#fff
     style W_O fill:#FF5722,color:#fff
-    style W_TG fill:#795548,color:#fff
     style W_C fill:#9C27B0,color:#fff
-
-    %% Styling - Ground
     style G_D fill:#4CAF50,color:#fff
     style G_O fill:#FF5722,color:#fff
     style G_C fill:#9C27B0,color:#fff
-
-    %% Styling - Finish
     style KO fill:#D32F2F,color:#fff
     style TKO fill:#FF9800,color:#fff
     style SUB fill:#7B1FA2,color:#fff
 
-    %% Link styling
-    %% 0: Foundation to Open (gray)
+    %% === LINK STYLING ===
+    %% 0-2: Main flow (gray)
     linkStyle 0 stroke:#757575,stroke-width:2px
-    %% 1-2: Open to Transitions (orange/brown)
-    linkStyle 1 stroke:#FF9800,stroke-width:2px
-    linkStyle 2 stroke:#795548,stroke-width:2px
-    %% 3-4: Transitions to Positions (orange/brown)
+    linkStyle 1 stroke:#757575,stroke-width:2px
+    linkStyle 2 stroke:#757575,stroke-width:2px
+    %% 3: TO_WALL to WALL (orange)
     linkStyle 3 stroke:#FF9800,stroke-width:2px
+    %% 4: TO_GROUND to GROUND (brown)
     linkStyle 4 stroke:#795548,stroke-width:2px
-    %% 5: Wall to Ground (brown)
-    linkStyle 5 stroke:#795548,stroke-width:2px
-    %% 6-8: Escape paths (green)
-    linkStyle 6 stroke:#4CAF50,stroke-width:2px
-    linkStyle 7 stroke:#4CAF50,stroke-width:2px
+    %% 5-6: To FINISH (gray)
+    linkStyle 5 stroke:#757575,stroke-width:2px
+    linkStyle 6 stroke:#757575,stroke-width:2px
+    %% 7: WALL to GROUND (brown)
+    linkStyle 7 stroke:#795548,stroke-width:2px
+    %% 8-10: Escape paths (green)
     linkStyle 8 stroke:#4CAF50,stroke-width:2px
-    %% 9-11: KO paths (red)
-    linkStyle 9 stroke:#D32F2F,stroke-width:3px
-    linkStyle 10 stroke:#D32F2F,stroke-width:2px
-    linkStyle 11 stroke:#D32F2F,stroke-width:2px
-    %% 12-14: TKO paths (orange-red)
+    linkStyle 9 stroke:#4CAF50,stroke-width:2px
+    linkStyle 10 stroke:#4CAF50,stroke-width:2px
+    %% 11-12: KO paths (red)
+    linkStyle 11 stroke:#D32F2F,stroke-width:3px
+    linkStyle 14 stroke:#D32F2F,stroke-width:2px
+    %% 12-13, 15: TKO paths (orange-red)
     linkStyle 12 stroke:#FF5722,stroke-width:3px
     linkStyle 13 stroke:#FF5722,stroke-width:3px
-    linkStyle 14 stroke:#FF5722,stroke-width:3px
-    %% 15-19: SUB paths (purple)
-    linkStyle 15 stroke:#7B1FA2,stroke-width:2px
-    linkStyle 16 stroke:#7B1FA2,stroke-width:2px
+    linkStyle 15 stroke:#FF5722,stroke-width:3px
+    %% 16-18: SUB paths (purple)
+    linkStyle 16 stroke:#7B1FA2,stroke-width:3px
     linkStyle 17 stroke:#7B1FA2,stroke-width:2px
-    linkStyle 18 stroke:#7B1FA2,stroke-width:3px
-    linkStyle 19 stroke:#7B1FA2,stroke-width:2px
+    linkStyle 18 stroke:#7B1FA2,stroke-width:2px
 
-    %% Click targets
+    %% === CLICK TARGETS ===
     click SK_D "#foundation-defensive"
     click SK_O "#foundation-offensive"
     click OS_D "#open-space-striking-defense"
@@ -173,7 +154,6 @@ flowchart LR
     click TG_O "#open-ground-initiate"
     click W_D "#wall-escape-defend"
     click W_O "#wall-control-grind"
-    click W_TG "#wall-to-ground"
     click W_C "#wall-combined"
     click G_D "#ground-escape-defend"
     click G_O "#ground-control-finish"
