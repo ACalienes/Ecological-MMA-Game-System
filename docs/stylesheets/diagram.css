@@ -230,17 +230,154 @@
 }
 
 /* ============================================
-   RESPONSIVE
+   RESPONSIVE - TABLET
    ============================================ */
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+  .fight-diagram-grid {
+    gap: 12px;
+  }
+
+  .diagram-box {
+    padding: 8px 10px;
+    min-width: 70px;
+    font-size: 0.7rem;
+  }
+
+  .box-finish {
+    width: 44px;
+    height: 44px;
+    font-size: 0.7rem;
+  }
+
+  .column-split {
+    gap: 10px;
+  }
+}
+
+/* ============================================
+   RESPONSIVE - MOBILE
+   ============================================ */
+
+@media (max-width: 600px) {
   .fight-diagram {
+    padding: 16px 12px;
+  }
+
+  /* Stack diagram vertically on mobile */
+  .fight-diagram-grid {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .diagram-column {
+    width: 100%;
+  }
+
+  .column-header {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(128,128,128,0.2);
+  }
+
+  /* Side-by-side groups on mobile */
+  .column-split {
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .column-group {
+    flex: 1;
+    max-width: 140px;
+  }
+
+  .group-label {
+    font-size: 0.7rem;
+  }
+
+  /* Larger touch targets on mobile */
+  .diagram-box {
+    padding: 12px 16px;
+    min-width: unset;
+    width: 100%;
+    min-height: 44px;
+    font-size: 0.8rem;
+  }
+
+  /* Finish boxes in a row */
+  .diagram-column:last-child {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .diagram-column:last-child .column-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  .box-finish {
+    width: 50px;
+    height: 50px;
+    font-size: 0.75rem;
+  }
+
+  /* Foundation link full width */
+  .foundation-link {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* Legend stacks better */
+  .diagram-legend {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .legend-item {
+    font-size: 0.7rem;
+  }
+}
+
+/* ============================================
+   RESPONSIVE TABLES
+   ============================================ */
+
+@media (max-width: 600px) {
+  /* Make tables horizontally scrollable */
+  .md-typeset table:not(.highlighttable) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .md-typeset table:not(.highlighttable) th,
+  .md-typeset table:not(.highlighttable) td {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+}
+
+/* ============================================
+   MERMAID RESPONSIVE
+   ============================================ */
+
+@media (max-width: 600px) {
+  .mermaid {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 
-  .fight-diagram-grid {
-    min-width: 600px;
+  .mermaid svg {
+    max-width: none;
+    min-width: 500px;
   }
 }
 
