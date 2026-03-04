@@ -59,12 +59,21 @@ Well-structured MMA training documentation system built with MkDocs Material. 34
 |------|-------|
 | `docs/games/index.md:9` | Header says "5 Environments" but table lists 6 |
 | `mkdocs.yml:157` | GitHub social link points to generic `https://github.com/` |
-| `docs/stylesheets/flowchart.css` | Empty file (comment only) |
-| `docs/javascripts/flowchart-zoom.js` | Empty file (comment only) |
+| `docs/stylesheets/flowchart.css` | Empty file (comment only), not referenced in mkdocs.yml |
+| `docs/javascripts/flowchart-zoom.js` | Empty file (comment only), not referenced in mkdocs.yml |
+| `docs/javascripts/mermaid-init.js` | Hard-codes `theme: 'dark'` — doesn't respect light/dark mode toggle. May also be unnecessary since MkDocs Material renders Mermaid at build time |
 
 ### Informational — Legacy Directories
 
-Root contains legacy source directories (`Markdown Knowledge Base Files/`, `Ecological Games Library/`, `Concepts/`, `Principles/`, `System Map/`) that predate the `docs/` MkDocs migration.
+Root contains legacy source directories that predate the `docs/` MkDocs migration. Content in these directories is **fully duplicated** in `docs/` (production versions have YAML frontmatter and MkDocs formatting added):
+
+| Root Directory | Files | docs/ Equivalent |
+|----------------|-------|------------------|
+| `Markdown Knowledge Base Files/` | 13 | Scattered across `docs/system/`, `docs/tools/`, `docs/about/`, `docs/reference/` |
+| `Ecological Games Library/` | 14 | `docs/games/` (has all 34 + index) |
+| `Concepts/` | 5 | `docs/concepts/` (has all 9) |
+| `Principles/` | 1 | `docs/principles/` (expanded with CLA) |
+| `System Map/` | 1 | `docs/system/` (decomposed into 4 files) |
 
 ---
 
@@ -79,4 +88,5 @@ Root contains legacy source directories (`Markdown Knowledge Base Files/`, `Ecol
 7. Complete the two flagged safety sections
 8. Clean up empty asset files (`flowchart.css`, `flowchart-zoom.js`)
 9. Update GitHub social link in `mkdocs.yml` to point to actual repo
-10. Consider removing or archiving legacy root directories
+10. Fix or remove `mermaid-init.js` — either make theme detection dynamic or remove if MkDocs Material handles rendering
+11. Remove legacy root directories (`Concepts/`, `Principles/`, `System Map/`, `Ecological Games Library/`, `Markdown Knowledge Base Files/`) — all content is duplicated in `docs/`
