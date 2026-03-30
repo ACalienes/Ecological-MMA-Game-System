@@ -92,9 +92,11 @@ Start here — these games have no prerequisites:
 
 ## Progression Flowchart
 
+All 34 games and their prerequisite relationships. Follow the arrows from entry points to end states.
+
 ```mermaid
 flowchart TD
-    subgraph SKILL["SKILL ISOLATION"]
+    subgraph SKILL["🟡 SKILL ISOLATION — Entry Points"]
         P[Parry] --> CRD
         TB[Block] --> CRD
         SS[Slip] --> EP[Evade]
@@ -105,7 +107,7 @@ flowchart TD
         RL[Rear Leg] --> LT
     end
 
-    subgraph STRIKING["STRIKING"]
+    subgraph STRIKING["🔵 OPEN SPACE — Striking"]
         CRD[Close-Range Defense]
         LT[Land the Target]
         TG[Touch Game]
@@ -115,88 +117,99 @@ flowchart TD
         SO[Sustained Offense]
     end
 
-    subgraph TRANSITION["TRANSITION"]
+    subgraph TRANSITION["🟣 TRANSITION ZONE"]
         CD[Clinch Denial]
         CW[Counter-Wrestling]
-    end
-
-    subgraph WRESTLING["WRESTLING"]
         TDD[Takedown Defense]
         PTT[Pressure to Takedown]
         PTW[Pressure to Wall]
         OST[Open Space Takedown]
     end
 
-    subgraph WALL["WALL"]
+    subgraph WALL["🟠 WALL"]
         WCon[Wall Control]
         WE[Wall Escape]
         WDS[Wall Def Sub]
-        WG[Wall to Ground]
+        WtG[Wall to Ground]
         WGr[Wall Grinding]
         SUL[Stand-Up Loop]
     end
 
-    subgraph GROUND["GROUND"]
+    subgraph GROUND["🟤 GROUND"]
+        GE[Ground Escape]
         GA[Ground Access]
         GC[Ground Control]
-        GE[Ground Escape]
         LR[Leg Reclaim]
         GTS[Ground to Standing]
         GDS[Ground Def Sub]
         PB[Positional Battle]
     end
 
-    subgraph FINISH["END STATES"]
-        KO((KO))
-        TKO((TKO))
-        SUB((Submission))
-    end
+    KO((KO))
+    TKO((TKO))
+    SUB((SUB))
 
-    CRD --> TG
+    %% Striking connections
     CRD --> EM
     CRD --> CS
-    LT --> TG
-    LT --> SO
-    TG --> PC
-    PC --> WCon
-    PC --> CD
-    PC --> OST
-    EM --> PC
-    CS --> TDD
     CRD --> CW
-    CW --> OST
+    CRD --> PTT
+    LT --> SO
+    LT --> TG
+    CRD --> TG
+    TG --> PC
+    EM --> PC
 
+    %% Striking to finish
     SO --> KO
     SO --> TKO
 
+    %% Transition connections
+    PC --> CD
+    PC --> WCon
+    PC --> OST
+    PC --> TDD
+    PC --> PTW
+    CS --> TDD
+    CW --> OST
     PTT --> OST
     PTT --> WCon
     PTW --> WCon
+    TDD --> OST
 
+    %% Wall connections
     WCon --> WE
-    WCon --> WG
+    WCon --> WtG
     WCon --> WGr
     WE --> SUL
-    WDS --> SUB
-    WG --> SUL
+    WE --> WDS
+    WtG --> SUL
     WGr --> TKO
+    WDS --> SUB
 
+    %% Wall/Transition to Ground
     OST --> GA
     OST --> GE
     SUL --> GA
     SUL --> GE
 
-    GA --> GC
-    GA --> PB
-    GC --> TKO
-    GC --> SUB
+    %% Ground connections
     GE --> LR
     GE --> GTS
     GE --> GDS
+    GA --> GC
+    GA --> PB
     LR --> PB
-    GDS --> SUB
+    GE --> PB
     PB --> GC
-    PB --> GE
+    GC --> TKO
+    GC --> SUB
+    GDS --> SUB
+
+    %% Styling
+    style KO fill:#D32F2F,color:#fff
+    style TKO fill:#FF5722,color:#fff
+    style SUB fill:#E91E63,color:#fff
 ```
 
 ---
