@@ -127,8 +127,20 @@ nav:
     - TKO Pin: concepts/tko-pin.md
     - Defensive Solutions: concepts/defensive-solutions.md
     - Hand Controls: concepts/hand-controls.md
+    - Winning the Circle: concepts/winning-the-circle.md
   - Principles:
     - Training Mindset: principles/training-mindset.md
+    - Constraints-Led Approach:
+      - Overview: principles/cla/index.md
+      - Theory: principles/cla/theory.md
+      - Key Concepts: principles/cla/key-concepts.md
+      - Environment Design: principles/cla/environment-design.md
+      - Session Design: principles/cla/session-design.md
+      - MMA Applications: principles/cla/mma-applications.md
+      - Implementation: principles/cla/implementation.md
+      - Common Pitfalls: principles/cla/pitfalls.md
+      - CLA Glossary: principles/cla/glossary.md
+      - Quick Reference: principles/cla/quick-reference.md
   - Coach Tools:
     - Safety & Intensity: tools/safety.md
     - Assessment Rubrics: tools/assessment.md
@@ -139,6 +151,7 @@ nav:
     - Game Finder: reference/game-finder.md
     - Prerequisite Map: reference/prerequisites.md
     - FAQ & Troubleshooting: reference/faq.md
+    - Sources & Theory: reference/sources.md
     - Change Log: reference/changelog.md
   - About:
     - Project Context: about/context.md
@@ -154,4 +167,4 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/
+      link: https://github.com/ACalienes/Ecological-MMA-Game-System
