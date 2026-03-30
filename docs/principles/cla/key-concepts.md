@@ -123,7 +123,7 @@ prescription-based,                                    discovery-based,
 directive coaching)                                    exploratory learning)
 ```
 
-**Coaching Implication:** Move learners across this landscape based on their needs and development stage (Renshaw et al., 2019).
+**Coaching Implication:** Move learners across this landscape based on their needs and development stage (Renshaw et al., 2019). Compare [Touch and Don't Get Touched](../../games/touch-game.md) (narrow landscape) with [Counter-Wrestling](../../games/counter-wrestling.md) (rich landscape).
 
 ---
 
@@ -181,7 +181,7 @@ Perception and action are not separate sequential processes—they form a contin
 3. **Use task simplification** (scaling) instead of decomposition
 4. **Include relevant information sources** in all practice tasks
 
-**Example:** Shadow boxing separates perception from action (no opponent to read). Pad work with a reactive holder maintains the coupling.
+**Example:** Shadow boxing separates perception from action (no opponent to read). Pad work with a reactive holder maintains the coupling. [Land the Target](../../games/land-the-target.md) is designed around this principle.
 
 ---
 
@@ -242,7 +242,7 @@ Two dimensions of coordination (Turvey, 1990):
 - Context-dependent
 - Can be rapidly formed and dissolved
 
-**For MMA:** A takedown defense synergy (sprawl) is assembled when needed and dissolves immediately after, allowing transition to other positions.
+**For MMA:** A takedown defense synergy (sprawl) is assembled when needed and dissolves immediately after, allowing transition to other positions. See [Counter-Wrestling](../../games/counter-wrestling.md) for sprawl emergence in context.
 
 ---
 

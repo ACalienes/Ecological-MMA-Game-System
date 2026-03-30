@@ -341,6 +341,7 @@ Every position has a way IN and a way OUT:
 | [TKO Pin](../concepts/tko-pin.md) | Wall Grinding, Ground Control | Exploitation endpoint |
 | [Decision States](../concepts/decision-states.md) | All games | Access → Stabilize → Exploit → Counter |
 | [Full MMA Expression](../concepts/full-mma-expression.md) | Level 4 of all games | Cross-domain threat integration |
+| [Winning the Circle](../concepts/winning-the-circle.md) | Pressure to Clinch, Pressure to Wall | Space control and cage cutting |
 | [Fight Philosophy](../concepts/fight-philosophy.md) | System-wide | Finish while taking minimal damage |
 
 ---

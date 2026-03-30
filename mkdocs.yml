@@ -1,6 +1,8 @@
 site_name: Ecological MMA Games System
 site_description: A constraints-led, game-based training framework for MMA
 site_author: Ecological MMA
+repo_url: https://github.com/ACalienes/Ecological-MMA-Game-System
+repo_name: ACalienes/Ecological-MMA-Game-System
 
 theme:
   name: material
@@ -22,7 +24,6 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.top
     - search.highlight
     - search.share
@@ -160,9 +161,6 @@ nav:
 
 extra_css:
   - stylesheets/diagram.css
-
-extra_javascript:
-  - javascripts/mermaid-init.js
 
 extra:
   social:
