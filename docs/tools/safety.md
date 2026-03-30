@@ -98,7 +98,8 @@ When red flags appear, **stop the game** and reassess:
 ### Ground
 
 - No falling onto legs
-- DNS recognized and stopped before completion
+- In non-submission games, DNS is recognized and stopped before completion — the threat is the training tool, not the finish
+- In submission games (Ground Defensive Submission), submissions go to completion with standard tap rules
 - No sustained suffocation
 
 ---

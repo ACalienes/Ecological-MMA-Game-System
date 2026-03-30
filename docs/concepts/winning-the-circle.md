@@ -7,7 +7,7 @@ related_games:
   - touch-game
   - wall-control
 related_concepts:
-  - wall-pin
+  - tko-pin
   - pressure
 tags:
   - space-control
