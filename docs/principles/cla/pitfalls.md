@@ -85,7 +85,7 @@ Practice doesn't transfer to competition.
 
 Include relevant information sources, maintain perception-action coupling.
 
-**Better:** Attacker can shoot anytime within a round. May or may not shoot. Defender must read and react.
+**Better:** Attacker can shoot anytime within a round. May or may not shoot. Defender must read and react. Compare with [Counter-Wrestling](../../games/counter-wrestling.md), which maintains realism.
 
 ---
 
@@ -281,6 +281,8 @@ Simplify by scaling the whole task, not by decomposing it.
 
 - Slower tempo (but whole technique)
 - Reduced threat (lighter contact, but whole exchange)
+
+[Slip the Straight](../../games/slip-the-straight.md) simplifies (straight punches only) while preserving the whole perception-action task.
 - Smaller space (but whole movement)
 - Limited options (but whole decision process)
 

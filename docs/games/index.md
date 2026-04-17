@@ -6,7 +6,7 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "34 Games Across 5 Environments"
+!!! tip "34 Games Across 6 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|

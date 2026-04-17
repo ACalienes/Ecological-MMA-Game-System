@@ -7,7 +7,7 @@ related_games:
   - touch-game
   - wall-control
 related_concepts:
-  - wall-pin
+  - tko-pin
   - pressure
 tags:
   - space-control
@@ -162,5 +162,5 @@ The fighter who wins the circle doesn't just accumulate position — they accumu
 ---
 
 !!! abstract "Related Concepts"
-    - [Wall Pin](wall-pin.md) — The completion of winning the circle for the attacker
+    - [TKO Pin](tko-pin.md) — The completion of winning the circle for the attacker
     - [Pressure to Clinch](../games/pressure-to-clinch.md) — The primary game for developing this skill

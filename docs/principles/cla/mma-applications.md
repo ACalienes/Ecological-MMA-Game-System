@@ -109,6 +109,8 @@
 - Attacker variability builds defender adaptability
 - Striking context ensures transfer to MMA (not just wrestling)
 
+This is implemented in [Counter-Wrestling](../../games/counter-wrestling.md) and [Takedown Defense](../../games/takedown-defense.md).
+
 ---
 
 ### Example: Developing Counter-Striking

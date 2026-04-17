@@ -109,7 +109,7 @@ These four principles guide every coaching decision in the ecological approach.
 - Apply task constraints to attackers → defenders adapt
 - Creates representative, functional learning
 
-**MMA Example:** To develop counter-striking, constrain the attacker to initiate first. The defender (primary learner) must then read and respond—the constraint on the attacker creates the learning opportunity for the defender.
+**MMA Example:** To develop counter-striking, constrain the attacker to initiate first. The defender (primary learner) must then read and respond—the constraint on the attacker creates the learning opportunity for the defender. [Slip the Straight](../../games/slip-the-straight.md) implements this principle.
 
 ---
 

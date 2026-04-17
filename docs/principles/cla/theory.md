@@ -53,7 +53,7 @@ An integrated framework incorporating:
 > "Affordances are what the environment offers, provides, or furnishes for an organism."
 > — Gibson, 1979
 
-**For MMA:** Fighters directly perceive opportunities to strike, take down, or submit based on opponent positioning—they don't calculate these opportunities, they see them.
+**For MMA:** Fighters directly perceive opportunities to strike, take down, or submit based on opponent positioning—they don't calculate these opportunities, they see them. See [Touch and Don't Get Touched](../../games/touch-game.md) for foundational affordance practice.
 
 ---
 
@@ -74,7 +74,7 @@ An integrated framework incorporating:
 > "Practice is a particular type of repetition without repetition."
 > — Bernstein, 1967
 
-**For MMA:** A beginner freezes their hips when punching (reducing complexity). An expert exploits hip rotation for power (using the freed degrees of freedom).
+**For MMA:** A beginner freezes their hips when punching (reducing complexity). An expert exploits hip rotation for power (using the freed degrees of freedom). [Rear Leg Offense](../../games/rear-leg-offense.md) demonstrates this progression in kicking.
 
 ---
 
@@ -131,7 +131,7 @@ An integrated framework incorporating:
 - Behavior emerges from the interaction of all three constraint categories
 - Manipulation of constraints guides learning without prescribing solutions
 
-**For MMA:** A game's rules (task constraints), an athlete's reach (individual constraints), and the cage (environmental constraints) together shape what techniques emerge.
+**For MMA:** A game's rules (task constraints), an athlete's reach (individual constraints), and the cage (environmental constraints) together shape what techniques emerge. [Counter-Wrestling](../../games/counter-wrestling.md) demonstrates all three interacting.
 
 ---
 

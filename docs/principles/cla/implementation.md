@@ -81,6 +81,8 @@
 | **Distance-focused** | "Close the space", "Create distance" |
 | **Outcome-focused** | "Score the takedown", "Land clean" |
 
+[Land the Target](../../games/land-the-target.md) develops target-focused external attention.
+
 ### Poor Cues (Internal, Mechanical)
 
 | Type | Examples |

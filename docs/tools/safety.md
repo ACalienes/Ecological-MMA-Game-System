@@ -21,10 +21,12 @@ Strikes in training games are **light and informational**. They measure distance
 
 ### 4. Submissions are Emergent
 
-!!! bug "FLAGGED FOR REVIEW"
-    This section contains errors and needs revision. Content below is placeholder until corrected.
+Submissions emerge from constraints — they are not the starting objective. In this system:
 
-Submissions (especially DNS) are **defensive tools** that emerge from constraints. No jumping guard, no sitting to finish, no hunting submissions as primary objectives.
+- **Defensive Neck Submissions (DNS)** are defensive tools that punish poor posture, over-committed control, and exposed head position. DNS is allowed in all games where control is contested (Wall Control, Wall Escape, Ground Control, etc.)
+- **Dedicated submission games** (Wall Defensive Submission, Ground Defensive Submission) teach submissions from disadvantaged positions as deterrents to control
+- **No jumping guard, no sitting to finish, no hunting submissions as a primary offensive objective** — submissions reward good positioning and constraint exploitation, not isolated technique hunting
+- Standard tap rules always apply — immediate release on any tap signal
 
 ### 5. Coach Intervention is Mandatory
 
@@ -79,12 +81,12 @@ When red flags appear, **stop the game** and reassess:
 
 ### Wall
 
-!!! bug "FLAGGED FOR REVIEW"
-    This section needs revision.
-
-- No grinding into wall
-- No neck cranks
-- Light strikes only
+- Contact intensity follows game level — light at Level 1, progressively increasing through levels
+- Knees must be especially controlled (even in Wall Grinding)
+- DNS is allowed as a defensive tool — it keeps controllers honest and prevents stalling
+- No neck cranks or spine manipulation outside of recognized submission positions
+- Reset if grinding becomes stalling with no tactical progress
+- Stop if composure breaks or intensity escalates beyond the game's level
 
 ### Transitions (Wall → Ground)
 
@@ -96,7 +98,8 @@ When red flags appear, **stop the game** and reassess:
 ### Ground
 
 - No falling onto legs
-- DNS recognized and stopped before completion
+- In non-submission games, DNS is recognized and stopped before completion — the threat is the training tool, not the finish
+- In submission games (Ground Defensive Submission), submissions go to completion with standard tap rules
 - No sustained suffocation
 
 ---

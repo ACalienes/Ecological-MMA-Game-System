@@ -207,7 +207,7 @@ You arrive via takedown or knockdown. Exit by standing up, or finish.
 |---------|------------------|
 | [System Map](system/map.md) | Interactive fight states diagram with game navigation |
 | [Games Library](games/index.md) | Complete catalog with filters |
-| [Concepts](concepts/fight-philosophy.md) | Key ideas: Fight Philosophy, Decision States, TKO Pin |
+| [Concepts](concepts/fight-philosophy.md) | Key ideas: Fight Philosophy, Decision States, TKO Pin, Winning the Circle |
 | [Coach Tools](tools/safety.md) | Safety, assessment, session planning |
 | [Prerequisites](reference/prerequisites.md) | Game progression pathways |
 | [FAQ](reference/faq.md) | Common questions and troubleshooting |
