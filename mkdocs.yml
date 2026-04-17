@@ -130,6 +130,10 @@ nav:
     - Defensive Solutions: concepts/defensive-solutions.md
     - Hand Controls: concepts/hand-controls.md
     - Winning the Circle: concepts/winning-the-circle.md
+    - Constraint Manipulation: concepts/constraint-manipulation.md
+    - Affordance Design: concepts/affordance-design.md
+    - Role Design: concepts/role-design.md
+    - Scaling Difficulty: concepts/scaling-difficulty.md
   - Principles:
     - Training Mindset: principles/training-mindset.md
     - Constraints-Led Approach:
