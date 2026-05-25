@@ -4,128 +4,79 @@ title: Full MMA Expression
 
 # Full MMA Expression
 
-## Core Principle
+<div class="emma-meta"><span>Highest Level</span><span>All Games</span><span>Multi-Threat Pressure</span></div>
 
-Every game in this system can be played at a **Full MMA Expression** level — the highest level where complications from other domains are introduced while maintaining the game's core focus.
+<p class="emma-hl"><b>Every game can be played at a Full MMA Expression level</b> — the highest level, where complications from other domains are introduced while the game keeps its core focus.</p>
 
----
+<p class="emma-glabel">The Pattern</p>
 
-## The Pattern
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Lower levels (1–3)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Primary skill in isolation — single domain only</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Mid levels (3–4)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Primary skill with rising complexity — single domain, more variables</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Highest level</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Primary skill under full MMA pressure — multiple domains, realistic threats</span></div>
+</div>
 
-| Level Range | Focus | Threats Present |
-|-------------|-------|-----------------|
-| **Lower levels (1-3)** | Primary skill in isolation | Single domain only |
-| **Mid levels (3-4)** | Primary skill with increasing complexity | Single domain, more variables |
-| **Highest level** | Primary skill under full MMA pressure | Multiple domains, realistic threats |
+<p class="emma-glabel">Why This Matters</p>
 
----
+<p class="emma-hl"><b>MMA is not a collection of isolated skills.</b> Train only in isolation and you miss the reality; introduce everything at once and you overwhelm beginners. The fix: add complications only after the foundation is set.</p>
 
-## Why This Matters
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defending strikes</div><p>...while staying aware of takedown threats.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Working takedowns</div><p>...while respecting striking counters.</p></div>
+  <div class="emma-card"><div class="emma-card__i">📍</div><div class="emma-card__t">Controlling position</div><p>...while managing submissions and escapes.</p></div>
+</div>
 
-**MMA is not a collection of isolated skills.** In a fight:
+<p class="emma-glabel">What Full MMA Expression Looks Like</p>
 
-- While defending strikes, you must remain aware of takedown threats
-- While working takedowns, you must respect striking counters
-- While controlling position, you must manage submissions and escapes
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Striking defense games</div><p>Adds <b>grappling threats</b>.<span class="emma-pop">Lower levels focus on the defensive solution (block, parry, slip, evade). At full expression the attacker can shoot or clinch, and the defender must defend strikes AND deny grappling entry — shelling up without posture awareness invites takedowns.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚔️</div><div class="emma-card__t">Striking offense games</div><p>Adds <b>counter threats and clinch responses</b>.<span class="emma-pop">Lower levels focus on landing targets and reading defense. At full expression the defender can counter-strike or clinch as denial, and the attacker must land while respecting those responses.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤼</div><div class="emma-card__t">Wrestling / grappling games</div><p>Adds <b>striking threats</b>.<span class="emma-pop">Lower levels focus on control, escapes, or takedowns. At full expression light strikes become available, position must account for damage potential, and control without strike awareness is incomplete.</span></p></div>
+</div>
 
-Games that only train isolated skills miss this reality. But games that introduce everything at once overwhelm beginners.
+<p class="emma-glabel">Implementation Across Games</p>
 
-**The solution:** Progressive levels that add MMA complications only after foundational skills are established.
+<p class="emma-hl">Every game's highest level should ask: <b>"What other threats would exist in a real fight, and how does that change the skill?"</b></p>
 
----
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Blocking games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Absorb strikes + grappling threat</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Parrying / slipping games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Deflect/evade strikes + grappling threat</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Offensive striking games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Land targets + counter threat, clinch denial</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Space control games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Manage distance + striking threat</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Wrestling games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Control/escape + striking threat</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Clinch games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Establish/break connection + strikes, takedowns</span></div>
+</div>
 
-## What "Full MMA Expression" Looks Like
+<p class="emma-glabel">The Teaching Logic</p>
 
-### For Striking Defense Games
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Beginners — lower levels</b>Learn the primary skill without distraction.<span class="emma-pop emma-pop--l">Build correct movement patterns and develop confidence in the core mechanic.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Intermediate — progress through levels</b>Add tempo, combinations, feints.<span class="emma-pop emma-pop--l">Increase complexity within the domain and prepare for multi-threat environments.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Advanced — Full MMA Expression</b>Primary skill under realistic pressure.<span class="emma-pop emma-pop--l">Account for all relevant threats — the closest approximation to fight conditions within the game's constraints.</span></div>
+</div>
 
-Lower levels focus on the defensive solution (block, parry, slip, evade).
+<p class="emma-glabel">Use It Sparingly</p>
 
-Full MMA Expression adds: **Grappling threats**
+<p class="emma-hl">This level exists for athletes who have mastered the lower levels. <b>Most training will occur at levels 1–4 — the skill must be solid before adding complications.</b></p>
 
-- Attacker can shoot or establish clinch
-- Defender must defend strikes AND deny grappling entry
-- Shelling up without posture awareness creates takedown opportunities
+<ul class="emma-checklist">
+  <li>Athletes are proficient at lower levels.</li>
+  <li>You want to stress-test skills under realistic pressure.</li>
+  <li>You're preparing for competition.</li>
+</ul>
 
-### For Striking Offense Games
+<div class="emma-warns">
+  <span class="emma-warn">Rushing here before the core skill is solid</span>
+  <span class="emma-warn">Treating it as the default rather than the ceiling</span>
+</div>
 
-Lower levels focus on landing targets and reading defense.
+<p class="emma-glabel">Relationship to Other Concepts</p>
 
-Full MMA Expression adds: **Counter threats and clinch responses**
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../confidence-rating/">Confidence Rating</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Higher confidence needed before committing under multi-threat pressure</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../defensive-solutions/">Defensive Solutions</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Each solution has different vulnerability to MMA complications</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../three-zones/">Three Zones</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Zone awareness becomes more critical when grappling threats exist</span></div>
+</div>
 
-- Defender can counter-strike
-- Defender can clinch as denial
-- Attacker must land targets while respecting defensive responses
-
-### For Wrestling/Grappling Games
-
-Lower levels focus on control, escapes, or takedowns.
-
-Full MMA Expression adds: **Striking threats**
-
-- Light strikes become available
-- Position must account for damage potential
-- Control without strike awareness is incomplete
-
----
-
-## Implementation Across Games
-
-Every game's highest level should ask:
-
-> "What other threats would exist in a real fight, and how does that change the skill?"
-
-| Game Type | Primary Skill | MMA Complication |
-|-----------|---------------|------------------|
-| Blocking games | Absorb strikes | Grappling threat |
-| Parrying/slipping games | Deflect/evade strikes | Grappling threat |
-| Offensive striking games | Land targets | Counter threat, clinch denial |
-| Space control games | Manage distance | Striking threat |
-| Wrestling games | Control/escape | Striking threat |
-| Clinch games | Establish/break connection | Strikes, takedowns |
-
----
-
-## The Teaching Logic
-
-**Beginners** work lower levels:
-- Learn the primary skill without distraction
-- Build correct movement patterns
-- Develop confidence in the core mechanic
-
-**Intermediate** athletes progress through levels:
-- Add tempo, combinations, feints
-- Increase complexity within the domain
-- Prepare for multi-threat environments
-
-**Advanced** athletes reach Full MMA Expression:
-- Primary skill under realistic pressure
-- Must account for all relevant threats
-- Closest approximation to fight conditions within the game's constraints
-
----
-
-## Not Every Session Needs Full MMA Expression
-
-This level exists for athletes who have mastered lower levels. Most training will occur at levels 1-4.
-
-Use Full MMA Expression when:
-- Athletes are proficient at lower levels
-- You want to stress-test skills under realistic pressure
-- Preparing for competition
-
-Don't rush to this level. **The skill must be solid before adding complications.**
-
----
-
-## Relationship to Other Concepts
-
-| Concept | Relationship |
-|---------|--------------|
-| Confidence Rating | Higher confidence needed before committing under multi-threat pressure |
-| Defensive Solutions | Each solution has different vulnerability to MMA complications |
-| Three Zones | Zone awareness becomes more critical when grappling threats exist |
-
----
-
-!!! abstract "System Evolution Notice"
+??? abstract "System evolution notice"
     This concept applies across all games and should be referenced when designing new games or levels.

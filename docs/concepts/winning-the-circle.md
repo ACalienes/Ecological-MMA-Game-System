@@ -19,147 +19,88 @@ tags:
 
 # Winning the Circle
 
-**Winning the circle** is the ongoing battle for spatial control between two fighters. At any given moment, one fighter is winning the circle — either by successfully applying pressure and shrinking available space, or by successfully escaping and maintaining open space.
+<div class="emma-meta"><span>Spatial Control</span><span>All Domains</span><span>Foundational</span><span>Continuous Battle</span></div>
 
----
+**Every moment, one fighter is winning the circle — shrinking space by pressure, or keeping it open by escape. Whoever owns the space owns the options.**
 
-## Definition
+<p class="emma-hl"><b>Winning the Circle</b> is the outcome of a spatial exchange where one fighter holds the positional advantage. The <b>outside</b> fighter wins by cutting off escape and corralling the opponent to the boundary; the <b>inside</b> fighter wins by escaping to open space and regaining freedom.</p>
 
-> **Winning the Circle:** The outcome of a spatial exchange where one fighter controls positional advantage. The outside fighter wins by cutting off escape and corralling the opponent to the boundary. The inside fighter wins by escaping to open space and regaining positional freedom.
+<p class="emma-glabel">The Two Perspectives</p>
 
----
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Outside — Pressuring</div><p>Escape routes shrinking · their movement turns predictable · you hold centre while they near the boundary · you dictate range &amp; timing.<br><b>Success:</b> opponent reaches the boundary with limited options → clinch → wall pin.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Inside — Escaping</div><p>You keep access to open space · you move laterally without being cut off · you control when &amp; where engagements happen · they chase instead of cutting angles.<br><b>Success:</b> return to centre, reset distance, regain freedom.</p></div>
+</div>
 
-## The Two Perspectives
+<p class="emma-glabel">The "Circle" Is Available Space</p>
 
-Winning the circle looks different depending on your role:
+The circle doesn't need an actual circular boundary — it represents the **available space** around a fighter at any moment. Winning it means controlling that space: taking it away (attacker) or maintaining it (defender).
 
-### Outside Fighter (Pressuring)
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Cage</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">The space between you and the fence</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Ring</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">The space between you and the ropes</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Open mat</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">The imaginary space defined by your movement options</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Training drill</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">The marked perimeter (cones, tape, etc.)</span></div>
+</div>
 
-You are winning the circle when:
+<p class="emma-glabel">Why It Matters</p>
 
-- Opponent's escape routes are shrinking
-- Opponent's movement becomes predictable
-- You control the center while they move toward the boundary
-- You can dictate engagement distance and timing
+Fighters who consistently win the circle control the fight's geography — tactical advantage in every domain.
 
-**Success:** Opponent reaches the boundary with limited options → clinch opportunity → wall pin
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Win it attacking</div><p>You dictate range &amp; timing · clinch and takedown entries open · their offense turns predictable · you accumulate control advantage.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Win it defending</div><p>You choose when to engage · you strike and move freely · you avoid being trapped · you deny their game plan.</p></div>
+</div>
 
-### Inside Fighter (Escaping)
+<p class="emma-glabel">Winning vs. Losing — A Continuous Battle</p>
 
-You are winning the circle when:
+The circle can be won and lost many times in a single exchange. It is a continuous battle, not a single event.
 
-- You maintain access to open space
-- You can move laterally without being cut off
-- You control when and where engagements happen
-- Opponent is chasing rather than cutting angles
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Options increasing</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Options decreasing</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Space available</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Space shrinking</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Movement proactive</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Movement reactive</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">You set the terms</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Opponent sets the terms</span></div>
+</div>
 
-**Success:** Return to center, reset distance, regain positional freedom
+??? warning "Key insight — winning the fight ≠ winning the circle"
 
----
+    <p class="emma-hl">You can be "winning" a fight (landing strikes, scoring points) while <i>losing</i> the circle. If the opponent is steadily taking space, your options shrink even as you land shots. Eventually it catches up — you end up pinned to the cage or taken down.</p>
 
-## The Circle as a Concept
+<p class="emma-glabel">How to Win It</p>
 
-The "circle" doesn't require an actual circular boundary. It represents the **available space** around a fighter at any moment.
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Outside — Pressure</div><p>Cut angles, don't chase — move where they're going · use feints &amp; strikes as pressure without overcommitting · keep composure &amp; structure · recognise when clinch is available, then convert.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Inside — Escape</div><p>Move early, before space closes · circle laterally instead of backing up · strike to create space · recognise early when you're losing — awareness beats panic.</p></div>
+</div>
 
-| Environment | The "Circle" Is... |
-|-------------|-------------------|
-| Cage | The space between you and the fence |
-| Ring | The space between you and the ropes |
-| Open mat | The imaginary space defined by your movement options |
-| Training drill | The marked boundary (cones, tape, etc.) |
+<p class="emma-glabel">Developed Through Games</p>
 
-In all cases, **winning the circle** means controlling that available space — either taking it away (attacker) or maintaining it (defender).
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/touch-game/">Touch &amp; Don't Get Touched</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Range and timing foundation</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full pressure-to-pin sequence</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-control/">Wall Control</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What to do after winning the circle</span></div>
+</div>
 
----
+<p class="emma-glabel">Common Errors</p>
 
-## Why This Matters in MMA
+??? note "Attacker errors"
 
-Space control is fundamental to MMA strategy:
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Chasing, not cutting</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Opponent escapes, you lose position</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Over-pressuring (crashing)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Loss of composure, vulnerable to counters</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Clinching too early</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No setup, easy to defend or reverse</span></div>
+    </div>
 
-| If You Win the Circle (Attacking) | If You Win the Circle (Defending) |
-|-----------------------------------|-----------------------------------|
-| You dictate range and timing | You choose when to engage |
-| Clinch and takedown entries become available | You can strike and move freely |
-| Opponent's offense becomes predictable | You avoid being trapped |
-| You accumulate control advantage | You deny opponent's game plan |
+??? note "Defender errors"
 
-Fighters who consistently win the circle control the fight's geography, which translates to tactical advantage in all domains.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Backing up straight</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Runs directly into the boundary</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Moving too late</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Space already gone</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Only using hands</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Movement is the primary tool</span></div>
+    </div>
 
----
-
-## Winning vs. Losing the Circle
-
-The circle can be won and lost multiple times in a single exchange. It's a continuous battle, not a single event.
-
-| Winning the Circle | Losing the Circle |
-|--------------------|-------------------|
-| Options increasing | Options decreasing |
-| Space available | Space shrinking |
-| Movement is proactive | Movement is reactive |
-| You set the terms | Opponent sets the terms |
-
-!!! warning "Key Insight"
-    You can be "winning" a fight (landing strikes, scoring points) while *losing* the circle. If your opponent is steadily taking space, your options are shrinking even if you're landing shots. Eventually, losing the circle catches up — you end up pinned to the cage or taken down.
-
----
-
-## How to Win the Circle
-
-### As the Outside Fighter (Pressure)
-
-1. **Cut angles, don't chase** — Move to where they're going, not where they are
-2. **Use feints and strikes as pressure** — Create backward movement without overcommitting
-3. **Maintain composure and structure** — Rushing breaks your position
-4. **Recognize when clinch is available** — Pressure creates opportunity, then convert
-
-### As the Inside Fighter (Escape)
-
-1. **Move early** — Before space closes, not after
-2. **Use lateral movement** — Circling beats backing up
-3. **Strike to create space** — Counter-offense disrupts pressure
-4. **Recognize when you're losing** — Early awareness beats late panic
-
----
-
-## Relationship to Games
-
-The concept of winning the circle is developed through specific games:
-
-| Game | What It Teaches |
-|------|-----------------|
-| [Touch and Don't Get Touched](../games/touch-game.md) | Range and timing foundation |
-| [Pressure to Clinch](../games/pressure-to-clinch.md) | Full pressure-to-pin sequence |
-| [Wall Control](../games/wall-control.md) | What to do after winning the circle |
-
----
-
-## Common Errors
-
-### Attackers
-
-| Error | Why It Fails |
-|-------|--------------|
-| Chasing instead of cutting | Opponent escapes, you lose position |
-| Over-pressuring (crashing) | Loss of composure, vulnerable to counters |
-| Clinching too early | No setup, easy to defend or reverse |
-
-### Defenders
-
-| Error | Why It Fails |
-|-------|--------------|
-| Backing up straight | Runs directly into boundary |
-| Moving too late | Space already gone |
-| Only using hands to defend | Movement is the primary tool |
-
----
-
-## Summary
-
-**Winning the circle** is the foundational concept for understanding space control in MMA. It applies to striking, clinch work, and cage wrestling. Every fighter is constantly either winning or losing the circle — and awareness of this dynamic separates reactive fighters from strategic ones.
-
-The fighter who wins the circle doesn't just accumulate position — they accumulate *options*. And options win fights.
-
----
+<p class="emma-hl">The fighter who wins the circle doesn't just accumulate position — they accumulate <b>options</b>. And options win fights.</p>
 
 !!! abstract "Related Concepts"
     - [Wall Control — Establish the Pin](../games/wall-control.md) — The completion of winning the circle for the attacker

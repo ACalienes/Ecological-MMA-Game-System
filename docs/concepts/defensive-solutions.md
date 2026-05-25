@@ -1,196 +1,79 @@
-# Concept: Defensive Solutions in Striking
+# Defensive Solutions in Striking
 
-This document defines the **primary ways an athlete can defend against strikes** within the ecological MMA framework.
+<div class="emma-meta"><span>Core Concept</span><span>Striking</span><span>4 Solutions</span><span>Context-Driven</span></div>
 
----
+**There are four functionally distinct ways to defend a strike — and the skill is selecting, not memorizing, the right one.**
 
-## Definition
+<p class="emma-hl"><b>Defense</b> is any action that meaningfully reduces the opponent's ability to land effective strikes — nothing more, nothing less.</p>
 
-> **Defense:** Any action that meaningfully reduces the opponent's ability to land effective strikes.
+<p class="emma-glabel">The Four Core Solutions</p>
 
----
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Block</div><p>Use the arms or legs as a physical barrier between the body and the strike — forearm shields, leg checks, elbow blocks, tight guards.</p></div>
+  <div class="emma-card"><div class="emma-card__i">↗️</div><div class="emma-card__t">Parry</div><p>Redirect a strike off the centre line before it lands cleanly — pushing straights off line, slapping or guiding shots away.</p></div>
+  <div class="emma-card"><div class="emma-card__i">💨</div><div class="emma-card__t">Evade</div><p>Avoid the strike entirely through movement — head movement, footwork, angle changes, distance management.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🤝</div><div class="emma-card__t">Enter</div><p>Neutralise by <b>removing the opponent's ability to strike</b> — clinching, hand control, level changes, takedown entries.</p></div>
+</div>
 
-## The Four Core Defensive Solutions
+<p class="emma-glabel">How Each One Behaves</p>
 
-```mermaid
-flowchart TD
-    A[Incoming Strike] --> B{Defensive Solution}
-    B --> C[Block]
-    B --> D[Parry]
-    B --> E[Evade]
-    B --> F[Enter]
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛡️</span> Block — reliable but costly<span class="emma-chip__detail">Force: absorbs or redirects. Timing: reactive. Movement: often static. Cost: builds fatigue over time. Reliable, but expensive if overused.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↗️</span> Parry — efficient but timing-dependent<span class="emma-chip__detail">Force: redirects. Timing: requires precision. Movement: light, efficient. Cost: low if timed well — but timing-dependent.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">💨</span> Evade — cheapest, needs space<span class="emma-chip__detail">Force: none — no contact. Timing: anticipatory. Movement: dynamic. Cost: lowest impact cost. Ideal when space is available.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤝</span> Enter — proactive, high commitment<span class="emma-chip__detail">Force: negates the threat entirely. Timing: proactive. Movement: high commitment. Cost: trades striking range for grappling control.</span></span>
+</div>
 
-    style C fill:#2196F3,color:#fff
-    style D fill:#4CAF50,color:#fff
-    style E fill:#FF9800,color:#fff
-    style F fill:#9C27B0,color:#fff
-```
+<p class="emma-glabel">Combination Patterns</p>
 
----
+The four categories are functionally distinct but **not mutually exclusive** — most real defensive actions chain two together. This is expected and desired.
 
-### 1. Blocking
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Evade → Enter</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Slip the punch, initiate the clinch</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Parry → Hand control</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Redirect the jab, trap the hand</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Block → Clinch</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Absorb the hook, close the distance</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Evade → Counter</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Slip the punch, return a strike</span></div>
+</div>
 
-**Definition:** Using the arms or legs to create a physical barrier between the body and an incoming strike.
+<p class="emma-glabel">Why Not a Fifth Category?</p>
 
-**Examples:**
+??? note "What about countering?"
 
-- Forearm shields
-- Leg checks
-- Elbow blocks
-- Tight guard positions
+    <p class="emma-sub">Countering is sometimes proposed as a fifth defensive solution. In this system it is not — it's an <b>offensive response</b>, not a defence in itself.</p>
 
-**Characteristics:**
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">A defence succeeds</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">block / parry / evade / enter lands first</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Only then</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">a counter can exist</span></div>
+    </div>
 
-| Property | Value |
-|----------|-------|
-| Force handling | Absorbs or redirects |
-| Timing | Reactive |
-| Movement | Often static |
-| Cost | Increases fatigue over time |
+    <p class="emma-hl">A counter only exists <b>after</b> one of the four defences has succeeded — so countering is not listed as a primary defensive category.</p>
 
-!!! note "Trade-off"
-    Blocking is reliable but costly if overused.
+<p class="emma-glabel">No Universal Best — Context Decides</p>
 
----
+<p class="emma-hl"><b>No defensive solution is universally superior.</b> The system teaches athletes to <b>select</b>, not memorise, their defence.</p>
 
-### 2. Parrying
+Effectiveness depends on the live situation:
 
-**Definition:** Redirecting a strike off the center line before it lands cleanly.
+<div class="emma-chips">
+  <span class="emma-chip"><span class="emma-chip__i">📐</span> Available space</span>
+  <span class="emma-chip"><span class="emma-chip__i">🔋</span> Fatigue level</span>
+  <span class="emma-chip"><span class="emma-chip__i">🎯</span> Skill level</span>
+  <span class="emma-chip"><span class="emma-chip__i">🧱</span> Wall vs. open space</span>
+  <span class="emma-chip"><span class="emma-chip__i">🤜</span> Proximity to clinch</span>
+</div>
 
-**Examples:**
+<p class="emma-glabel">How Games Use This</p>
 
-- Pushing straight punches off line
-- Slapping or guiding strikes away from the body
+Games deliberately constrain which solutions are **allowed**, **emphasised**, or **punished** — this is intentional and context-driven.
 
-**Characteristics:**
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">👆</div><div class="emma-card__t">Touch Game</div><p>Evasion &amp; counter-touch.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🤜</div><div class="emma-card__t">Pressure to Clinch</div><p>Evasion (footwork) → Enter.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Wall Escape</div><p>Frames (blocking) → Enter (DNS).</p></div>
+</div>
 
-| Property | Value |
-|----------|-------|
-| Force handling | Redirects |
-| Timing | Requires precision |
-| Movement | Light, efficient |
-| Cost | Low if timed well |
+??? abstract "System evolution notice"
 
-!!! note "Trade-off"
-    Parrying is efficient but timing-dependent.
+    <p class="emma-sub">Defensive categories may be revised if new functional distinctions emerge.</p>
 
----
-
-### 3. Evasion
-
-**Definition:** Avoiding strikes entirely through movement.
-
-**Examples:**
-
-- Head movement
-- Footwork
-- Angle changes
-- Distance management
-
-**Characteristics:**
-
-| Property | Value |
-|----------|-------|
-| Force handling | None (no contact) |
-| Timing | Anticipatory |
-| Movement | Dynamic |
-| Cost | Lowest impact cost |
-
-!!! note "Trade-off"
-    Evasion is ideal when space is available.
-
----
-
-### 4. Entering
-
-**Definition:** Neutralizing strikes by **removing the opponent's ability to strike**.
-
-**Examples:**
-
-- Clinching
-- Hand control
-- Level changes
-- Takedown entries
-
-**Characteristics:**
-
-| Property | Value |
-|----------|-------|
-| Force handling | Negates threat entirely |
-| Timing | Proactive |
-| Movement | High commitment |
-| Cost | Trades distance for control |
-
-!!! note "Trade-off"
-    Entering trades striking range for grappling control.
-
----
-
-## Combination Patterns
-
-These four categories are **functionally distinct** but not mutually exclusive.
-
-Most real defensive actions are **combinations**:
-
-| Pattern | Description |
-|---------|-------------|
-| Evade → Enter | Slip punch, initiate clinch |
-| Parry → Hand control | Redirect jab, trap hand |
-| Block → Clinch | Absorb hook, close distance |
-| Evade → Counter | Slip punch, counter strike |
-
-This is expected and desired.
-
----
-
-## What About Countering?
-
-A potential fifth category is sometimes proposed: **Countering**.
-
-However, in this system:
-
-- Countering is an **offensive response**
-- Not a defensive solution in itself
-- A counter only exists **after** one of the four defenses has succeeded
-
-Therefore, countering is not listed as a primary defensive category.
-
----
-
-## Defensive Hierarchy
-
-!!! warning "Context Determines Effectiveness"
-    No defensive solution is universally superior.
-
-Effectiveness depends on:
-
-- Available space
-- Fatigue level
-- Skill level
-- Environment (wall vs open space)
-- Proximity to clinch
-
-The system teaches athletes to **select**, not memorize, defensive solutions.
-
----
-
-## Integration into Games
-
-Games may constrain:
-
-- Which defensive solutions are **allowed**
-- Which are **emphasized**
-- Which are **punished**
-
-This is intentional and context-driven.
-
-| Game | Defensive Focus |
-|------|-----------------|
-| Touch Game | Evasion, counter-touch |
-| Pressure to Clinch | Evasion (footwork) → Enter |
-| Wall Escape | Frames (blocking) → Enter (DNS) |
-
----
-
-!!! abstract "System Evolution Notice"
-    Defensive categories may be revised if new functional distinctions emerge.
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Related · <a href="../hand-controls/">Hand Controls</a> — a defence-and-entry tool · <a href="../confidence-rating/">Confidence Rating</a> — how much each solution dares to commit · Games · <a href="../../games/tight-block/">Tight Block</a> · <a href="../../games/parry-the-straight/">Parry the Straight</a> · <a href="../../games/evade-the-punch/">Evade the Punch</a></p>
