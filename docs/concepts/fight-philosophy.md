@@ -1,18 +1,29 @@
-# Fight Philosophy
+---
+title: Fight Philosophy
+---
 
-<div class="emma-meta"><span>System Foundation</span><span>The Overarching Goal</span><span>Guides All Games</span></div>
-
-<p class="emma-hl"><b>The goal of fighting:</b> finish the fight while taking as little damage as possible. Not time, not rounds, not points — <i>efficient finish, minimal harm.</i></p>
-
-<p class="emma-glabel">Three Ways to Finish</p>
-
-Every pathway in this system leads to one of three fight-ending outcomes — everything else (points, decisions, position) is secondary.
-
-<div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">💥</div><div class="emma-card__t">Knockout (KO)</div><p>A single strike renders the opponent unconscious.<span class="emma-pop">Happens when a clean shot lands with power and precision.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t">TKO</div><p>Accumulated damage until the opponent cannot intelligently defend.<span class="emma-pop">Happens when sustained striking overwhelms the defense.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔒</div><div class="emma-card__t">Submission</div><p>A choke or joint lock forces a tap or unconsciousness.<span class="emma-pop">Happens when a control position enables the finishing hold.</span></p></div>
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/fight-philosophy.png" alt="Fight Philosophy">
+  <div class="emma-phero__cap"><span class="k">System Foundation · Guides Every Game</span><span class="h">Fight Philosophy</span></div>
 </div>
+
+<div class="emma-band">
+  <p class="emma-statement">Finish the fight —<br><span class="accent">take as little damage as possible.</span></p>
+  <p class="emma-statement__sub">Not time, not rounds, not points. <b>Efficient finish, minimal harm.</b> This one goal governs every game in the system.</p>
+</div>
+
+<p class="emma-glabel">All Paths Lead to the Finish</p>
+
+<div class="emma-tree">
+  <div class="emma-tree__crownrow"><span class="emma-tree__crown">The Finish</span></div>
+  <div class="emma-tree__branches">
+    <div class="emma-tree__node"><span class="t">💥 Knockout</span><span class="d">A clean strike with power and precision drops the opponent.</span></div>
+    <div class="emma-tree__node"><span class="t">🥊 TKO</span><span class="d">Accumulated damage until they can no longer intelligently defend.</span></div>
+    <div class="emma-tree__node"><span class="t">🔒 Submission</span><span class="d">A control position enables a choke or joint lock — tap or sleep.</span></div>
+  </div>
+</div>
+
+Every pathway in the system leads to one of these three — everything else (points, decisions, position) is secondary.
 
 <p class="emma-glabel">Efficiency Is the Measure</p>
 
