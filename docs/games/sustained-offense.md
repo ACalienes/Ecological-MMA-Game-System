@@ -28,292 +28,160 @@ tags:
 
 # Sustained Offense
 
-!!! info "Game Identity"
-    - **Problem:** Maintaining offensive rhythm through opponent's defensive attempts
-    - **Environment:** Open Space
-    - **Stage:** Access → Stabilize (Offensive Dominance)
+<div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Offensive</span><span>Intermediate</span><span>Access → Stabilize</span></div>
+
+Maintain offensive rhythm through the opponent's defensive attempts. The attacker keeps striking when the defender tries to counter, escape, or clinch — continuing without a full reset rather than landing one shot and stopping.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>The attacker holds initiative with slight forward pressure inside a marked perimeter; the defender sits in a defensive posture.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to sustain continuous offense through resistance; the defender is trying to actively break the rhythm and force a reset.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Sustain the sequence → switch · Rhythm fully broken → reset, same roles · Single shots that reset don't count.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the defender's <i>guard reactions to your pressure — their counter, movement, or clinch attempt</i> — how their shell shifts as you threaten, together with the <i>rate of expansion</i> (τ) of your <i>next</i> committing shot toward the opening at <b>center mass</b>. Each defensive move is itself a read that opens the next strike — the rhythm is a chain of openings, not a single one.</p>
 
-This is an **intermediate offensive game** that teaches maintaining attack through resistance. The attacker learns to continue striking when the opponent attempts to counter, escape, or nullify — without losing rhythm or resetting.
+<p class="emma-glabel">The Starting Position</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Attacker starts with initiative (slight forward pressure); defender in defensive posture.
-    - **Attacker:** Maintain continuous striking offense through defensive attempts — single shots that reset don't count.
-    - **Defender:** Actively interrupt the attacker's rhythm with counters, movement, or clinch — not passive defense.
-    - **Win:** Attacker wins with a sustained offensive sequence (e.g., 10+ seconds of continuous pressure); defender wins by forcing a full reset and re-engage.
-    - **Why it matters:** Develops sustained pressure — maintaining attack through resistance rather than single-shot landing.
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, with the attacker starting on the front foot and the defender in a defensive posture.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range in open space — close enough to pressure, with room for the defender to move and the attacker to follow.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker sustains a full offensive sequence.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates with forward pressure; reset to neutral only when the rhythm is fully broken or the defender escapes.</div>
+</div>
 
----
+<p class="emma-glabel">The Matchup</p>
 
-## Goal
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to maintain continuous striking offense through the defender's attempts to interrupt.</p>
+    <span class="emma-pop">Chain strikes into combinations. When they counter, slip/absorb and continue; when they move, follow; when they clinch, disengage and continue. The key: continue without a full reset.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to interrupt the attacker's rhythm through counters, movement, or clinch.</p>
+    <span class="emma-pop">Active resistance, not passive defense. Counter after defensive moments, move to create space, clinch to break rhythm, shoot to threaten the takedown. You win by forcing a full reset.</span>
+  </div>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">The Rules</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Maintain continuous striking offense through defensive attempts |
-| **Defender** | Interrupt attacker's rhythm through counters, movement, or clinch |
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔁</span> Attacker must continue<span class="emma-chip__detail">Single shots followed by a full reset don't count. The attacker has to chain offense — brief defensive moments are allowed as long as the rhythm continues.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚡</span> Defender actively interrupts<span class="emma-chip__detail">The defender is not a passive target — they actively try to break rhythm with counters, movement, or clinch. This creates the realistic resistance the attacker maintains against.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🌊</span> Brief defensive moments allowed<span class="emma-chip__detail">The attacker can slip, absorb, or frame mid-flow — defensive awareness within offense is expected and desired, as long as it doesn't become a full reset.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⛔</span> Full reset = defender succeeds<span class="emma-chip__detail">If the attacker's rhythm is fully broken and they re-engage from scratch, the defender has won that exchange.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). The attacker follows movement without chasing out of bounds.</span></span>
+</div>
 
-The objective is **sustained pressure**, not single-shot landing.
+<p class="emma-glabel">How to Win</p>
 
----
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker sustains a continuous offensive sequence (e.g., 10+ seconds of unbroken pressure), the players switch roles.<span class="emma-pop">A sustained sequence means rhythm maintained through resistance — counters slipped, movement followed, clinches shed — without a full reset. Sustain it and you become the defender.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the defender forces the attacker to fully reset and re-engage, reset to neutral — same roles — and the defender keeps trying to break rhythm.<span class="emma-pop">A broken rhythm isn't a loss of the game; it's information. Reset to neutral and re-enter with pressure, reading where the next opening lives.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Whether each defensive moment was absorbed-and-continued or turned into a stop is the read — "I slipped and continued" vs. "I got hit and reset."<span class="emma-pop">The goal is continuity, not perfection. Brief defensive moments within offense are expected; the question is whether the attacker continued through them or broke off.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">The Levels</p>
 
-- Attacker starts with initiative (slight forward pressure)
-- Defender in defensive posture
-- Attacker attempts to maintain continuous offense
-- Reset when attacker's rhythm is fully broken or defender escapes
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Counter strikes only</b>Defender can only counter.<span class="emma-pop emma-pop--l">The defender's only interruption is the counter-strike. The attacker learns seamless defense within offense — slip/absorb and continue.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add movement</b>Counter AND move to escape.<span class="emma-pop emma-pop--l">The defender can now move to create space. The attacker follows while maintaining rhythm — pressure without chasing.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add clinch</b>Counter, move, AND clinch.<span class="emma-pop emma-pop--l">The defender can clinch to break rhythm. The attacker must disengage and continue — managing the clinch attempt without resetting.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA expression</b>Counter, move, clinch, OR shoot.<span class="emma-pop emma-pop--l">The defender adds the takedown threat. Sustain offense under MMA reality with all interruptions live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Invariants
+??? note "Task focus &amp; coaching cues"
 
-1. Attacker must **continue offense** — single shots followed by reset don't count
-2. Defender actively tries to **interrupt** — not passive defense
-3. Brief defensive moments by attacker are allowed if rhythm continues
-4. Full reset by attacker = defender succeeds
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Chain strikes into combinations; when the defender counters, evade/absorb and continue; when they move, follow and continue; when they clinch, disengage and continue.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Counter after defensive moments; move to create space; clinch to break rhythm; shoot to threaten the takedown. Active interruption, not passive defense.</p></div>
+    </div>
 
-## Task Focus
+    <p class="emma-sub">Coaching cues</p>
 
-### Attacker
-- Chain strikes into combinations
-- When defender counters, evade/absorb seamlessly and continue
-- When defender moves, follow and continue
-- When defender clinches, disengage and continue
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">"Did you continue or reset?"</div><p>Ask after each exchange. This develops awareness of rhythm breaks — the goal is continuity, not perfection.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🌊</div><div class="emma-card__t">Seamless defense within offense</div><p>Slip a counter, follow movement, shed a clinch, sprawl on a shot — then keep striking. The defensive moment is part of the flow, not a stop.</p></div>
+    </div>
 
-### Defender
-- Counter after defensive moments
-- Move to create space
-- Clinch to break rhythm
-- Shoot to threaten takedown
+??? abstract "Constraints-Led analysis"
 
-!!! question "Key Internal Questions — Attacker"
-    - "Can I continue after this defensive moment?"
-    - "Am I following their movement or chasing?"
-    - "Is my rhythm broken or just paused?"
+    <p class="emma-sub">Constraints → Affordances</p>
 
----
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Attacker must continue (no full reset)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops seamless defense-within-offense</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender actively interrupts</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates realistic resistance to maintain rhythm against</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Progressive defender tools</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scaffolds learning of pressure maintenance</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Duration-based win</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Rewards continuous pressure, not single moments</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Open space with movement</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Attacker must follow, not just stand and throw</span></div>
+    </div>
 
-## Key Logic: Seamless Defense Within Offense
+    <p class="emma-hl">Develops <b>attacking degeneracy</b> — multiple ways to maintain offensive rhythm. The constraints force "adaptability under pressure" (Renshaw et al., 2019): solving the continuous problem of maintaining offense, not running a fixed combination.</p>
 
-!!! note "The Core Skill"
-    The attacker's defensive awareness doesn't interrupt their offense:
+    <p class="emma-sub">What the attacker reads</p>
 
-    | Defender Attempts | Attacker Response |
-    |-------------------|-------------------|
-    | Counter strike | Slip/absorb, continue |
-    | Move away | Follow, continue |
-    | Clinch | Disengage, continue |
-    | Shoot | Sprawl, continue |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Counter initiation, movement direction, clinch setup, level change → slip/absorb, follow, disengage, or sprawl while continuing.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Contact on blocks/parries → adjust targets without stopping.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own rhythm and balance → maintain flow through defensive moments.</p></div>
+    </div>
 
-    The key: **continue without full reset**.
+    <p class="emma-sub">What we measure (order parameter)</p>
 
-This is different from basic offense (landing targets) — it's about maintaining pressure through resistance.
+    <p class="emma-hl">Whether each <b>committing shot lands on the opening the defender's reaction created</b> — track sustained sequences vs. full resets, and whether each strike followed a genuine read → open → commit chain rather than chasing or throwing through resistance. That continuity of opening-read to committed strike across interruptions is the order parameter; when it stabilizes, sustained pressure has formed.</p>
 
----
+    <p class="emma-sub">Representativeness</p>
 
-## Win Conditions
+    <p class="emma-hl"><b>Models:</b> pressing an opponent with sustained combinations while they try to escape, counter, clinch, or shoot — the pressure-fighting phase of MMA.</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Sustained offensive sequence (e.g., 10+ seconds of continuous pressure) |
-| **Defender** | Force attacker to fully reset and re-engage |
+    <div class="emma-meta"><span>Progressive defender tools</span><span>controlled contact</span><span>clear duration win</span></div>
 
-**On attacker win:** Roles switch.
-**On defender win:** Reset, same roles, defender continues trying to break rhythm.
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Rhythm maintenance transfers directly into <a href="../pressure-to-takedown/">Pressure to Takedown</a> and <a href="../pressure-to-wall/">Pressure to Wall</a> and live sparring.</p>
 
----
+    <p class="emma-sub">Readiness to progress</p>
 
-## Levels
+    <ul class="emma-checklist">
+      <li>Maintains rhythm through current tools</li>
+      <li>Defensive moments don't break flow</li>
+      <li>Follows movement without resetting</li>
+      <li>Articulates "slipped and continued" vs. "hit and reset"</li>
+      <li>Rhythm consistent across defenders</li>
+    </ul>
 
-=== "Level 1 — Counter Strikes Only"
-    - Defender can only counter-strike
-    - Attacker maintains rhythm through counters
-    - Focus: Seamless defense within offense
+    <p class="emma-sub">Warning signs</p>
 
-=== "Level 2 — Add Movement"
-    - Defender can counter AND move to escape
-    - Attacker must follow while maintaining rhythm
-    - Focus: Pressure without chasing
+    <div class="emma-warns">
+      <span class="emma-warn">Full resets after every exchange</span>
+      <span class="emma-warn">Chasing the defender frantically</span>
+      <span class="emma-warn">Gets hit cleanly and stops</span>
+      <span class="emma-warn">Ignores counters, throws through them</span>
+    </div>
 
-=== "Level 3 — Add Clinch"
-    - Defender can counter, move, AND clinch
-    - Attacker must disengage and continue
-    - Focus: Managing clinch attempts
+??? note "Safety &amp; related games"
 
-=== "Level 4 — Full MMA Expression"
-    - Defender can counter, move, clinch, OR shoot
-    - Attacker must maintain rhythm through all threats
-    - Focus: Sustained offense under MMA reality
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on reckless chasing or excessive force</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if exchanges become chaotic</span>
+    </div>
 
----
+    <p class="emma-sub">Where it sits</p>
 
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker must continue (no full reset) | Develops seamless defense-within-offense |
-| **Task** | Defender actively interrupts (not passive) | Creates realistic resistance to maintain rhythm against |
-| **Task** | Progressive defender tools (counter → move → clinch → shoot) | Scaffolded learning of pressure maintenance |
-| **Task** | Duration-based win (sustained sequence) | Rewards continuous pressure, not single moments |
-| **Individual** | Prerequisite: Land the Target | Foundation of hitting targets exists |
-| **Environmental** | Open space with movement | Attacker must follow, not just stand and throw |
-
-!!! info "Theoretical Foundation"
-    This game develops **attacking degeneracy**—multiple ways to maintain offensive rhythm. The constraints force the attacker to integrate defensive awareness without breaking flow, developing what Renshaw et al. (2019) call "adaptability under pressure." The attacker isn't learning a fixed combination; they're learning to solve the continuous problem of maintaining offense.
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's counter initiation | Slip/absorb while continuing |
-| **Visual** | Defender's movement direction | Follow without overchasing |
-| **Visual** | Defender's clinch attempt setup | Disengage or frame and continue |
-| **Visual** | Defender's level change | Sprawl preparation while striking |
-| **Haptic** | Contact on blocks/parries | Adjust targets without stopping |
-| **Proprioceptive** | Own rhythm and balance | Maintain flow through defensive moments |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's pattern and gaps | When to counter |
-| **Visual** | Attacker's forward pressure | When to move, clinch, or shoot |
-| **Haptic** | Attacker's weight and rhythm | Best interruption method |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "What happened? Did you continue or reset?" This develops awareness of rhythm breaks. The goal is continuity, not perfection—brief defensive moments within offense are expected and desired.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Pressing an opponent with sustained combinations while they try to escape, counter, clinch, or shoot—the pressure fighting phase of MMA.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Offensive rhythm** | Sustained combinations | Same | High |
-| **Defensive resistance** | Counters, movement, clinch, takedown | Progressive by level | Scaffolded |
-| **Pressure intensity** | Full power possible | Controlled contact | Reduced |
-| **Consequence** | Damage, finish | Role switch | Reduced |
-| **Wrestling threat** | Always present | Added at Level 4 | Progressive |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Progressive defender tools | Allows focused development of each rhythm-maintenance skill |
-| Controlled contact | Safety while learning flow |
-| Clear duration win | Provides structure for evaluation |
-
-!!! note "Transfer Expectation"
-    The rhythm-maintenance skill transfers directly to live sparring and competition. Athletes who can continue offense through resistance become effective pressure fighters. The perception of "my rhythm" vs. "broken rhythm" is identical in competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Defender style** | Some counter heavily, some move, some clinch | Multiple rhythm solutions |
-| **Defender activity level** | Passive resistance, active resistance | Intensity calibration |
-| **Duration requirement** | 10-second sequences, 20-second sequences | Endurance development |
-| **Partner size/speed** | Faster defenders, larger defenders | Adaptability |
-| **Offensive tools** | Hands-only rounds, add kicks | Weapon variety in rhythm |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Attacker must continue (no full reset) | Core constraint defining the game |
-| Defender actively interrupts | Maintains representative resistance |
-| Sequence-based win | Maintains rhythm focus |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Maintains rhythm through current defender tools | Ready for more interruption methods |
-| Seamless defense within offense | Integration occurring |
-| Follows movement without breaking rhythm | Pressure quality developing |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Maintains rhythm through current level's defender tools
-- [ ] Defensive moments (slipping counters, etc.) don't break flow
-- [ ] Follows movement without resetting
-- [ ] Can articulate: "I slipped and continued" vs. "I got hit and reset"
-- [ ] Rhythm quality consistent across different defenders
-
-### Ready to Exit Game When
-
-- [ ] Level 3+ competence (handles clinch attempts)
-- [ ] Sustained pressure feels natural, not forced
-- [ ] Ready to add pressure objectives (wall, takedown)
-- [ ] Rhythm maintenance appears in live sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Full resets after every exchange | Rhythm not developed | Slower tempo, less defender activity |
-| Chasing defender frantically | Following without purpose | Emphasize measured pursuit |
-| Gets hit cleanly and stops | Counter management lacking | Return to previous level |
-| Ignores counters (just throws through them) | Not integrating defense | Emphasize "continue, don't ignore" |
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate
-- **Stop conditions:** Attacker chasing recklessly, excessive force
-- **Coach intervention:** Reset if exchanges become chaotic
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Land the Target] --> B[Sustained Offense]
-    B --> C[Pressure to Takedown]
-    B --> D[Pressure to Wall]
-
-    style B fill:#FF5722,color:#fff
-```
-
-- **Prerequisite games:** [Land the Target](land-the-target.md)
-- **Follow-on games:** [Pressure to Takedown](pressure-to-takedown.md), [Pressure to Wall](pressure-to-wall.md)
-- **Related concepts:** [Three Zones](../concepts/three-zones.md), [Confidence Rating](../concepts/confidence-rating.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as sustained offense patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../land-the-target/">Land the Target</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-takedown/">Pressure to Takedown</a> · <a href="../pressure-to-wall/">Pressure to Wall</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/three-zones/">Three Zones</a> · <a href="../../concepts/confidence-rating/">Confidence Rating</a></span></div>
+    </div>

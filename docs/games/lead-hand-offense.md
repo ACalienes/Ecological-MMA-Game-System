@@ -21,283 +21,159 @@ tags:
 
 # Lead Hand Offense
 
-!!! info "Game Identity"
-    - **Problem:** Developing offensive capability with the lead hand only
-    - **Environment:** Skill Isolation
-    - **Stage:** Access (Offensive Skill Development)
+<div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
+
+Develop the lead hand as a weapon. The attacker can *only* use the lead hand — jab, lead hook, lead uppercut — which forces variety, timing, and opening-creation within a tight constraint while the defender resists without any counter-threat.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range, inside a marked perimeter, with the attacker restricted to the lead hand.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean lead hand strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the defender's <i>guard reactions to your lead-hand probes &amp; feints</i> — how their shell shifts when you threaten a zone — together with the <i>rate of expansion</i> (τ) of your committing jab or lead hook toward the opening at <b>center mass</b>. The opening you read isn't where the guard <i>is</i>; it's where it <i>goes</i> when you make it move.</p>
 
-This is a **beginner offensive skill isolation game** that develops lead hand offense. The attacker can ONLY use their lead hand, forcing them to find variety, timing, and openings within that constraint.
+<p class="emma-glabel">The Starting Position</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players in neutral standing at striking range; reset to neutral after each attack.
-    - **Attacker:** Land clean strikes using the lead hand only — jab, lead hook, lead uppercut (no rear hand, no kicks).
-    - **Defender:** Defend against lead hand attacks using any defensive solution — no counters.
-    - **Win:** Attacker wins by landing a clean lead hand strike; defender has no win condition (success is defensive quality).
-    - **Why it matters:** Develops the lead hand as a weapon — finding variety and timing within a tight constraint.
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range — close enough for the lead hand to reach, with room to create angles.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker lands a clean lead hand strike.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
+</div>
 
----
+<p class="emma-glabel">The Matchup</p>
 
-## Goal
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to land a clean lead hand strike — jab, lead hook, or lead uppercut — by reading the defense and creating openings.</p>
+    <span class="emma-pop">Lead hand only. Find variety within the constraint: vary targets head/body, feint, double up, change rhythm. The lead hand isn't just a jab.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to defend all lead hand attacks effectively. No countering.</p>
+    <span class="emma-pop">Defend naturally with the full toolkit (block, parry, slip, move). You have no win condition — your success is making the attacker work for every opening.</span>
+  </div>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">The Rules</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Land clean strikes using lead hand only |
-| **Defender** | Defend against lead hand attacks (defense only, no counter) |
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Lead hand only<span class="emma-chip__detail">The attacker uses <strong>only</strong> the lead hand — jab, lead hook, lead uppercut. No rear hand, no kicks. This forces creativity and timing within a single tool.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Defender cannot counter<span class="emma-chip__detail">At Level 1 the defender plays pure defense. Removing the counter-threat lets the attacker focus entirely on reading patterns and building openings.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎯</span> All targets allowed<span class="emma-chip__detail">Head and body are both fair game. Target variation invites level changes and misdirection within the lead-hand constraint.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Maintain striking range<span class="emma-chip__detail">Both players hold striking range so the lead hand stays viable and necessary — no drifting out to where it can't reach.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset after each attack<span class="emma-chip__detail">Reset to a neutral stance after a clean strike lands or after a set time, so each rep begins from the same problem.</span></span>
+</div>
 
-The objective is **weapon development**, not competition.
+<p class="emma-glabel">How to Win</p>
 
----
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker lands a clean lead hand strike, the players switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or blocked shot. Land it and you become the defender.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the strike is whiffed, grazed, or blocked, reset to neutral — same roles — and read again.<span class="emma-pop">A failed attempt isn't a loss; it's information. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> When the defender denies every opening, that's a diagnostic success — the defender has no win condition.<span class="emma-pop">The defender's success is measured by quality of defense, not points. Forcing the attacker to read, set up, and commit is the goal.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">The Levels</p>
 
-- Both players start in neutral standing position at striking range
-- Attacker can only use lead hand (jab, lead hook, lead uppercut)
-- Defender uses any defensive solution but cannot counter
-- Reset after clean strike lands or set time
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Defense only</b>Defender can't counter.<span class="emma-pop emma-pop--l">Pure offensive development — lead hand only against a defender who can't counter. Build timing and variety with zero counter-threat.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add counter threat</b>Counters after good defense.<span class="emma-pop emma-pop--l">The defender can fire counters once they defend successfully. You land the lead hand while managing the counter risk.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the lead hand under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Invariants
+??? note "Task focus &amp; coaching cues"
 
-1. Attacker uses **lead hand ONLY** — no rear hand, no kicks
-2. Defender can **defend only** — no counters at Level 1
-3. Both players maintain striking range
-4. Reset to neutral after each successful attack
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Find openings with the lead hand; vary targets head/body; vary timing with feints, doubles, rhythm changes; create opportunities through movement and misdirection.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Defend all lead hand attacks with appropriate solutions (parry, slip, block); provide realistic resistance; never counter at Level 1.</p></div>
+    </div>
 
-## Task Focus
+    <p class="emma-sub">Coaching cues</p>
 
-### Attacker
-- Find openings using only the lead hand
-- Vary targets (head, body)
-- Vary timing (feint, double up, change rhythm)
-- Create opportunities through movement and misdirection
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">"What opening did you see?"</div><p>Ask after each rep. This develops perception of defensive gaps rather than throwing blindly.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">The lead hand isn't just a jab</div><p>Jab head, jab body, lead hook, lead uppercut, feint any of them, double or triple up. The constraint forces creativity within limited tools.</p></div>
+    </div>
 
-### Defender
-- Defend all lead hand attacks
-- Use appropriate defensive solutions (parry, slip, block)
-- Provide realistic resistance
+??? abstract "Constraints-Led analysis"
 
-!!! question "Key Internal Questions — Attacker"
-    - "What openings exist right now?"
-    - "Can I create an opening with a feint or level change?"
-    - "Am I varying my timing enough?"
+    <p class="emma-sub">Constraints → Affordances</p>
 
----
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Lead hand only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces exploration of lead hand variety</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender can't counter (L1)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Focus on offense without defensive concern</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">All lead-hand tools available</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Invites discovery of jab, hook, uppercut options</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Target variation allowed</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Encourages level changes and misdirection</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Striking range maintained</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Lead hand is viable and necessary</span></div>
+    </div>
 
-## Key Logic: Variety Within Constraint
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — different fighters develop different lead hand preferences based on reach, speed, and stance.</p>
 
-!!! note "The Core Skill"
-    The lead hand isn't just a jab. Within the lead hand constraint, you can:
+    <p class="emma-sub">What the attacker reads</p>
 
-    - Jab to head
-    - Jab to body
-    - Lead hook
-    - Lead uppercut
-    - Feint any of the above
-    - Double or triple up
-    - Change timing and rhythm
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Guard position, weight distribution, gaps, reaction patterns → target selection and when to feint vs. commit.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Contact quality → whether the strike landed clean.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own balance and range → strike selection and power generation.</p></div>
+    </div>
 
-    The constraint forces creativity within limited tools.
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the <b>committing lead-hand shot lands on the opening a probe created</b> — track target-landed vs. attempts, and whether each landing followed a genuine read → open → commit cycle rather than a repeated guess. That coupling of opening-read to committed strike is the order parameter; when it stabilizes, intentional lead-hand offense has formed.</p>
 
-## Win Conditions
+    <p class="emma-sub">Representativeness</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Land a clean lead hand strike |
-| **Defender** | No win condition — success is measured by quality of defense |
+    <p class="emma-hl"><b>Models:</b> using the lead hand to establish range, set up combinations, and find openings — the most frequently used tool in striking.</p>
 
-**On attacker win:** Roles switch — attacker becomes defender.
+    <div class="emma-meta"><span>Simplified: lead hand only</span><span>no counter (L1)</span><span>role switch on success</span></div>
 
----
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Timing and target selection transfer directly into <a href="../land-the-target/">Land the Target</a>, where all weapons integrate.</p>
 
-## Levels
+    <p class="emma-sub">Readiness to progress</p>
 
-=== "Level 1 — Defense Only"
-    - Attacker: Lead hand only
-    - Defender: Defense only, no counters
-    - Focus: Develop lead hand timing and variety
+    <ul class="emma-checklist">
+      <li>Lands lead hand consistently (~50%+)</li>
+      <li>Uses 3+ tools (jab, hook, uppercut)</li>
+      <li>Varies targets without prompting</li>
+      <li>Creates openings through feints or timing</li>
+      <li>Composed under counter threat (L2)</li>
+    </ul>
 
-=== "Level 2 — Add Counter Threat"
-    - Defender can throw counters after successful defense
-    - Attacker must respect counter threat
-    - Focus: Landing lead hand while managing risk
+    <p class="emma-sub">Warning signs</p>
 
-=== "Level 3 — Full MMA Expression"
-    - Defender can counter-strike OR shoot/clinch
-    - Attacker must land lead hand while respecting all threats
-    - Focus: Lead hand offense under MMA pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+    <div class="emma-warns">
+      <span class="emma-warn">Only throws the jab</span>
+      <span class="emma-warn">Only targets the head</span>
+      <span class="emma-warn">Timing is predictable</span>
+      <span class="emma-warn">Freezes under counter threat</span>
+    </div>
 
----
+??? note "Safety &amp; related games"
 
-## Constraints Analysis
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate, controlled contact</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on excessive force or lost composure</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if attacker uses non-lead-hand weapons</span>
+    </div>
 
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+    <p class="emma-sub">Where it sits</p>
 
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker uses lead hand only | Forces exploration of lead hand variety |
-| **Task** | Defender cannot counter (Level 1) | Attacker can focus on offense without defensive concern |
-| **Task** | All lead hand tools available | Invites discovery of jab, hook, uppercut options |
-| **Task** | Target variation allowed | Encourages level changes and misdirection |
-| **Individual** | Skill level matching | Appropriate challenge for development |
-| **Environmental** | Striking range maintained | Lead hand is viable and necessary |
-
-!!! info "Theoretical Foundation"
-    This game implements **Constrain to Afford** (Renshaw et al., 2019). By limiting the attacker to lead hand only, the environment invites exploration of variety within constraint. Different fighters will develop different lead hand preferences based on individual constraints (reach, speed, stance).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's guard position | Target selection (high or body) |
-| **Visual** | Defender's weight distribution | Timing of attack |
-| **Visual** | Gaps in defensive structure | Where to land the strike |
-| **Visual** | Defender's reaction patterns | When to feint vs. commit |
-| **Proprioceptive** | Own balance and range | Strike selection and power generation |
-| **Haptic** | Contact quality | Whether strike landed clean |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's shoulder loading | Anticipating lead hand launch |
-| **Visual** | Attacker's eye/head movement | Detecting target selection |
-| **Visual** | Feint patterns | Distinguishing real from fake |
-| **Haptic** | Contact location | Confirming defense effectiveness |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "What opening did you see?" This develops their perception of defensive gaps rather than throwing blindly.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Using the lead hand to establish range, set up combinations, and find openings—the most frequently used tool in striking.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Weapon** | All strikes available | Lead hand only | Isolated |
-| **Defense** | Full defense + counters | Defense only (Level 1) | Simplified |
-| **Targets** | All targets | All targets | Full |
-| **Consequence** | Damage/advantage | Role switch | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Lead hand only | Isolates the most frequently used offensive tool |
-| No counters at Level 1 | Allows focus on offensive development without defensive distraction |
-| No rear hand or kicks | Creates necessity for lead hand creativity |
-
-!!! note "Transfer Expectation"
-    Athletes who develop lead hand proficiency here transfer to [Land the Target](land-the-target.md) where all weapons integrate. The timing and target selection skills transfer directly.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Defender** | Rotate training partners | Different defensive styles to solve |
-| **Emphasis** | Jab sessions, hook sessions, body sessions | Complete lead hand development |
-| **Distance** | Slightly longer, slightly closer | Range adaptability |
-| **Tempo** | Fast days, slow days | Timing adaptability |
-| **Intensity** | Light touch to moderate contact | Pressure calibration |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Lead hand only | Core constraint defining the game |
-| No rear hand/kicks | Forces lead hand creativity |
-| Striking range | Maintains lead hand viability |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Varies targets (head and body) | Target selection developing |
-| Uses multiple lead hand tools | Weapon variety emerging |
-| Lands against varied defenders | Transferable skill developing |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Lands lead hand strikes consistently (50%+ success)
-- [ ] Uses at least 3 different lead hand tools (jab, hook, uppercut)
-- [ ] Varies targets without prompting
-- [ ] Creates openings through feints or timing
-- [ ] Maintains composure under counter threat (Level 2)
-
-### Ready to Exit Game (Move to Land the Target) When
-
-- [ ] Level 2+ competence (handles counter threat)
-- [ ] Lead hand attacks set up naturally
-- [ ] Expresses desire to add rear hand/kicks
-- [ ] Lead hand success maintains across varied defenders
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Only throws jab | Limited variety | Introduce hook/uppercut constraints |
-| Only targets head | Incomplete development | Body-focused rounds |
-| Timing is predictable | Pattern locked | Emphasize rhythm variation |
-| Freezes under counter threat | Not ready for Level 2 | More time at Level 1 |
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — strikes should land clean but controlled
-- **Stop conditions:** Loss of composure, excessive force
-- **Coach intervention:** Reset if attacker uses non-lead-hand weapons
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Lead Hand Offense] --> B[Land the Target]
-    B --> C[Touch Game]
-
-    style A fill:#FF5722,color:#fff
-```
-
-- **Prerequisite games:** None — this is foundational
-- **Follow-on games:** [Land the Target](land-the-target.md) (integrates all weapons)
-- **Related concepts:** [Three Zones of Attack](../concepts/three-zones.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as offensive skill isolation patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None — this is foundational</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../land-the-target/">Land the Target</a> (integrates all weapons)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/three-zones/">Three Zones of Attack</a></span></div>
+    </div>

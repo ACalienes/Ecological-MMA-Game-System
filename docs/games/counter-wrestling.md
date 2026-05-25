@@ -30,287 +30,159 @@ tags:
 
 # Counter-Wrestling
 
-!!! info "Game Identity"
-    - **Problem:** Using wrestling as a defensive response to striking pressure
-    - **Environment:** Transition Zone (Striking → Wrestling)
-    - **Stage:** Counter (Defensive Wrestling)
+<div class="emma-meta"><span>Transition</span><span>Wrestling</span><span>Defensive</span><span>Intermediate</span><span>Striking → Wrestling</span></div>
+
+Change the domain to defend. Instead of answering strikes with strikes or evasion, the counter-wrestler times reactive clinch entries and level changes to turn the striker's offense into wrestling.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range, inside a marked perimeter; the striker leads.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The striker is trying to land clean offense &amp; keep the striking domain; the counter-wrestler is trying to clinch or take down off the initiation.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Wrestling established → transition · Striker keeps the domain → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate of closure</i> (τ) of the striker's <b>committed strike</b> — the forward commitment and balance shift as they extend on a shot — not their eyes or a count. That information specifies <i>the window</i> to time a clinch or level-change entry.</p>
 
-This is a **defensive game that changes domains** — instead of defending strikes with strikes or evasion, the defender uses wrestling (clinch, level change, takedown) to neutralize striking offense. It's the transition from striking defense to wrestling offense.
+<p class="emma-glabel">The Starting Position</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players at striking range; the striker leads with offense
-    - **Counter-Wrestler (Defender):** Read the striking initiation and time reactive clinch entries or level changes to neutralize it — not strikes
-    - **Striker (Attacker):** Maintain striking distance and offense, punishing wrestling attempts to keep the fight in the striking domain
-    - **Win:** Counter-Wrestler establishes a clinch or completes a takedown; Striker lands clean offense and keeps the striking domain
-    - **Why it matters:** Trains domain change as defense — recognizing when wrestling beats staying in a striking exchange
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off at striking range.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range transitioning to clinch — entry timing is critical.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One striker (attacker), one counter-wrestler (defender) — roles transition on a counter-wrestler win.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The striker leads with offense; reset when wrestling is established or the striker keeps the domain.</div>
+</div>
 
----
+<p class="emma-glabel">The Matchup</p>
 
-## Goal
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Striker</div>
+    <p class="emma-fighter__obj">Trying to land clean offense and keep the fight in the striking domain.</p>
+    <span class="emma-pop">Maintain distance to prevent wrestling; punish level-change attempts; disengage from clinch attempts. You must keep striking — you can't just defend the wrestling.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🤼</div>
+    <div class="emma-fighter__role">Counter-Wrestler</div>
+    <p class="emma-fighter__obj">Trying to neutralize striking by establishing a clinch or completing a takedown — not by striking.</p>
+    <span class="emma-pop">Read the striking initiation; time clinch entries or level changes; use their commitment against them. Wait for the initiation — the entry must be reactive, not preemptive.</span>
+  </div>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">The Rules</p>
 
-| Role | Objective |
-|------|-----------|
-| **Counter-Wrestler** | Use wrestling to neutralize striking offense |
-| **Striker** | Maintain striking distance and offense despite wrestling threat |
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏳</span> Counter-wrestler waits for initiation<span class="emma-chip__detail">The counter-wrestler doesn't lead — they react to the striker's offense. This forces genuine reading of when to change domains rather than preplanned shooting.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Striker must strike<span class="emma-chip__detail">The striker can't just defend the wrestling — they must lead with offense. This provides reliable attacks for the counter-wrestler to time entries against.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> Entry must be reactive<span class="emma-chip__detail">The wrestling entry must be timed off the striker's commitment — not a preemptive shoot. The skill is recognizing when wrestling beats staying in the exchange.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤼</span> Wrestling is the goal, not strikes<span class="emma-chip__detail">The counter-wrestler aims for a clinch or takedown — not strikes of their own. Domain change is the explicit objective.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
+</div>
 
-The objective is **domain change as defense** — escaping striking through wrestling.
+<p class="emma-glabel">How to Win</p>
 
----
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Transition</span> When the counter-wrestler establishes a clinch or completes a takedown, move on to wrestling games.<span class="emma-pop">The counter-wrestler changed the domain — clinch locked or takedown finished. Transition to Open Space Takedown and related wrestling games.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the striker lands clean offense and keeps the striking domain, reset — same roles.<span class="emma-pop">The striker punished the entry or kept distance and stayed striking. Then begin again at striking range.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">The Levels</p>
 
-- Both players start at striking range
-- Striker leads with striking offense
-- Counter-wrestler times wrestling entries to neutralize
-- Reset when wrestling is established OR striker maintains striking
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Clinch only</b>No level changes or takedowns.<span class="emma-pop emma-pop--l">The counter-wrestler can only clinch — no level changes or takedowns. Build the timing of clinch entries off the strike.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add level changes</b>Shoot or clinch.<span class="emma-pop emma-pop--l">The counter-wrestler can shoot or clinch; the striker must defend both. Reading which entry is coming.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Chain wrestling</b>Clinch → takedown, shot → clinch.<span class="emma-pop emma-pop--l">The counter-wrestler can chain entries — clinch into takedown, shot into clinch. More dynamic exchanges, wrestling chains as defense.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Striker sprawls and continues.<span class="emma-pop emma-pop--l">The striker can sprawl and keep striking; the counter-wrestler must complete the wrestling. Domain change under <a href="../../concepts/full-mma-expression/">full MMA</a> resistance.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Invariants
+??? note "Task focus &amp; coaching cues"
 
-1. Counter-wrestler **waits for initiation** — doesn't lead
-2. Striker **must strike** — can't just defend wrestling
-3. Wrestling entry must be **reactive** — not preemptive
-4. Counter-wrestler aims for clinch or takedown, not strikes
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Striker</div><p>Maintain distance to prevent wrestling; punish level-change attempts; disengage from clinch attempts; keep the striking domain.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Counter-Wrestler</div><p>Read striking initiation; time clinch entries or level changes; use the opponent's commitment against them.</p></div>
+    </div>
 
-## Task Focus
+    <p class="emma-sub">Coaching cues</p>
 
-### Counter-Wrestler (Defender)
-- Read striking initiation
-- Time clinch entries or level changes
-- Use opponent's commitment against them
-- Establish wrestling position from striking defense
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Enter on what you saw</div><p>"When did you decide to shoot or clinch?" The answer should be about what they saw — "after they threw the cross" — not "on my third exchange."</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Clinch or shot?</div><p>"Is a clinch or level change better here?" Forward pressure invites a clinch; a committed power shot opens a level change underneath.</p></div>
+    </div>
 
-### Striker (Attacker)
-- Maintain distance to prevent wrestling
-- Punish level change attempts
-- Disengage from clinch attempts
-- Keep fight in striking domain
+??? abstract "Constraints-Led analysis"
 
-!!! question "Key Internal Questions — Counter-Wrestler"
-    - "When do they commit forward?"
-    - "Is a clinch or level change better here?"
-    - "Can I time my entry to their punch?"
+    <p class="emma-sub">Constraints → Affordances</p>
 
----
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Counter-wrestler must wait</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces reactive wrestling entry</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Striker must strike</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Reliable attacks to counter-wrestle</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Aims for clinch/takedown (not strikes)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Domain change is the explicit goal</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Progressive entries (clinch → shot → chain)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scaffolded learning of wrestling options</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Striking range → clinch</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Entry timing is critical</span></div>
+    </div>
 
-## Key Logic: Wrestling as Escape
+    <p class="emma-hl">Develops <b>domain-switching as defense</b> — recognizing when wrestling beats striking defense. Forcing reactive entry (not preemptive shooting) builds genuine perception of when to change domains — a key <b>degeneracy</b> in MMA (Renshaw et al., 2019).</p>
 
-!!! note "The Core Skill"
-    Counter-wrestling uses wrestling entries as defensive responses:
+    <p class="emma-sub">What the counter-wrestler reads</p>
 
-    | Striker Does | Counter-Wrestler Response |
-    |--------------|---------------------------|
-    | Commits to power shot | Shoot under during extension |
-    | Pressures forward | Clinch and neutralize |
-    | Throws combination | Time entry between strikes |
-    | Gets close | Snap down or arm drag |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Forward commitment, balance during the strike, combination rhythm, head position → clinch/level-change timing &amp; entry window.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Contact during the clinch entry → grip confirmation.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own level &amp; balance → entry execution.</p></div>
+    </div>
 
-    The skill is recognizing when striking defense is disadvantageous and wrestling is the better answer.
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the counter-wrestler <b>times the entry to the striker's commitment</b> — the clinch or level change arriving in the window the committed strike opens, establishing wrestling rather than getting struck. Track entries landed clean vs. punished or stuffed. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
-## Win Conditions
+    <p class="emma-sub">Representativeness</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Counter-Wrestler** | Establish clinch or complete takedown |
-| **Striker** | Land clean offense and maintain striking domain |
+    <p class="emma-hl"><b>Models:</b> using wrestling to escape striking pressure when being out-struck and needing to change domains.</p>
 
-**On counter-wrestler win:** Transition to wrestling games (Open Space Takedown, etc.).
-**On striker win:** Reset, same roles.
+    <div class="emma-meta"><span>Striker must strike</span><span>entry must be reactive</span><span>wrestling is the goal</span></div>
 
----
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">The timing perception — when to shoot under a cross, when to clinch on pressure — transfers directly to live MMA; feeds <a href="../open-space-takedown/">Open Space Takedown</a>.</p>
 
-## Levels
+    <p class="emma-sub">Readiness to progress</p>
 
-=== "Level 1 — Clinch Only"
-    - Counter-wrestler can only clinch
-    - No level changes or takedowns
-    - Focus: Timing clinch entries
+    <ul class="emma-checklist">
+      <li>Entry timing matches the striker's commitment</li>
+      <li>Uses multiple entry types (clinch, level change)</li>
+      <li>Doesn't get hit cleanly during entry</li>
+      <li>Can describe: "I shot when they threw because…"</li>
+    </ul>
 
-=== "Level 2 — Add Level Changes"
-    - Counter-wrestler can shoot or clinch
-    - Striker must defend both
-    - Focus: Reading which entry is coming
+    <p class="emma-sub">Warning signs</p>
 
-=== "Level 3 — Chain Wrestling"
-    - Counter-wrestler can chain: clinch → takedown, shot → clinch
-    - More dynamic exchanges
-    - Focus: Wrestling chains as defense
+    <div class="emma-warns">
+      <span class="emma-warn">Shoots randomly (not reactive)</span>
+      <span class="emma-warn">Gets hit during entries</span>
+      <span class="emma-warn">Only uses one entry</span>
+      <span class="emma-warn">Entries feel panicked</span>
+    </div>
 
-=== "Level 4 — Full MMA Expression"
-    - Striker can sprawl and continue striking
-    - Counter-wrestler must complete wrestling
-    - Focus: Domain change under resistance
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+??? note "Safety &amp; related games"
 
----
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light striking, controlled wrestling</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on slamming or uncontrolled takedowns</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if it becomes a pure wrestling match</span>
+    </div>
 
-## Constraints Analysis
+    <p class="emma-sub">Where it sits</p>
 
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Counter-wrestler must wait (can't lead) | Forces reactive wrestling entry |
-| **Task** | Striker must strike (can't just defend) | Creates reliable attacks to counter-wrestle |
-| **Task** | Counter-wrestler aims for clinch/takedown (not strikes) | Domain change is explicit goal |
-| **Task** | Progressive entries (clinch → level change → chain) | Scaffolded learning of wrestling options |
-| **Individual** | Prerequisites: Close-Range Defense, Pressure to Clinch | Has striking defense and clinch understanding |
-| **Environmental** | Striking range transitioning to clinch | Entry timing is critical |
-
-!!! info "Theoretical Foundation"
-    This game develops **domain-switching as defense**—recognizing when wrestling is a better answer than striking defense. The constraint forcing reactive entry (not preemptive shooting) develops genuine perception of when to change domains. This is a key **degeneracy** in MMA—having multiple solutions to the same problem (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Counter-Wrestler Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Striker's forward commitment | Clinch timing |
-| **Visual** | Striker's balance during strike | Level change timing |
-| **Visual** | Striker's combination rhythm | Entry window between strikes |
-| **Visual** | Striker's head position | Snap down opportunity |
-| **Haptic** | Contact during clinch entry | Grip confirmation |
-| **Proprioceptive** | Own level and balance | Entry execution |
-
-### Striker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Counter-wrestler's level change setup | Sprawl/stop preparation |
-| **Visual** | Distance and positioning | Safe striking distance |
-| **Visual** | Counter-wrestler's hand positioning | Clinch denial |
-
-!!! tip "Coaching Cue"
-    Ask counter-wrestlers: "When did you decide to shoot/clinch?" The answer should be about what they saw, not predetermined timing. If they say "after they threw the cross," that's perception-based. If they say "on my third exchange," that's preplanning.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Using wrestling to escape striking pressure—a common MMA scenario when a fighter is being out-struck and needs to change domains.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Domain change trigger** | Getting out-struck, needing reset | Reactive to striking | Analogous |
-| **Entry options** | Clinch, level change, snap down | Progressive by level | Scaffolded |
-| **Striker resistance** | Sprawl, frame, disengage | Added at Level 4 | Progressive |
-| **Consequence** | Domain changes | Roles switch | Analogous |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Striker must strike (can't defend) | Ensures consistent attacks to counter |
-| Counter-wrestler can't lead | Develops reactive, not preemptive entries |
-| Clear role separation | Maintains domain-change focus |
-
-!!! note "Transfer Expectation"
-    The timing perception—knowing when to shoot under a cross, when to clinch on forward pressure—transfers directly to live MMA. Fighters who develop this become harder to hurt because they have an escape route.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Striker style** | Pressure strikers, counter strikers | Multiple entry solutions |
-| **Striker commitment** | Heavy hitters, light hitters | Entry timing calibration |
-| **Entry type emphasis** | Clinch-focused rounds, level-change-focused rounds | Full wrestling vocabulary |
-| **Striker size/reach** | Longer strikers, compact strikers | Distance adaptability |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Counter-wrestler must wait | Core constraint developing reactive skill |
-| Striker must strike | Provides consistent attacks to counter |
-| Wrestling entry is goal | Maintains domain-change focus |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Clinch entries well-timed | Basic timing developed |
-| Uses level changes effectively | Ready for more wrestling options |
-| Chains wrestling attempts | Complex solutions emerging |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Entry timing matches striker's commitment consistently
-- [ ] Uses multiple entry types (clinch, level change)
-- [ ] Doesn't get hit cleanly during entry
-- [ ] Can articulate: "I shot when they threw because..."
-- [ ] Entries feel timed, not desperate
-
-### Ready to Exit Game When
-
-- [ ] Level 3+ competence (chains wrestling)
-- [ ] Domain change timing is instinctive
-- [ ] Wrestling entries appear in live sparring when appropriate
-- [ ] Ready for full Open Space Takedown game
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Shoots randomly (not reactive) | Not reading striker | Reinforce constraint, slow down |
-| Gets hit during entries | Timing off | Work on timing at lower intensity |
-| Only uses one entry | Limited solution set | Constrain that entry, force others |
-| Entries feel panicked | Not confident | More reps at current level |
-
----
-
-## Safety
-
-- **Contact limits:** Light striking, controlled wrestling
-- **Stop conditions:** Slamming, uncontrolled takedowns
-- **Coach intervention:** Reset if becoming pure wrestling match
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Close-Range Defense] --> B[Counter-Wrestling]
-    B --> C[Open Space Takedown]
-
-    style B fill:#4CAF50,color:#fff
-```
-
-- **Prerequisite games:** [Close-Range Defense](close-range-defense.md), [Pressure to Clinch](pressure-to-clinch.md)
-- **Follow-on games:** [Open Space Takedown](open-space-takedown.md)
-- **Related concepts:** [Hand Controls](../concepts/hand-controls.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as counter-wrestling patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../close-range-defense/">Close-Range Defense</a> · <a href="../pressure-to-clinch/">Pressure to Clinch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../open-space-takedown/">Open Space Takedown</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/hand-controls/">Hand Controls</a></span></div>
+    </div>

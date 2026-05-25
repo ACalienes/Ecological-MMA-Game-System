@@ -32,20 +32,42 @@ tags:
 
 Teach vertical control — the wall becomes the dominant constraint, limiting the defender's options and creating opportunities for organized control.
 
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two grapplers clinched, the defender between the attacker and the wall, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to organize a functional pin; the defender is trying to rotate out or disengage.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Hold the pin 5s → attacker wins · Disengage or reverse → defender wins · Only pressing → no pin.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation</i> through your grips and frames — the <b>inertial array</b> at the shoulders and hips, plus where the defender's weight wants to escape. That resistance (or its sudden absence) specifies whether the pin is organized or merely pressing — not how hard you are pushing or what their face is doing.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two grapplers, clinched with initial connection but no control yet.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range/position</span>Tied up at the wall, 1–2 feet out — the defender pinned between the attacker and the wall.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>The wall (or cage) is the dominant constraint, set inside a marked perimeter — any shape (square, circle, taped lines).</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker establishing the pin, one defender resisting and escaping.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the clinch; reset to neutral if the defender creates significant space or fully disengages.</div>
+</div>
+
 <p class="emma-glabel">The Matchup</p>
 
 <div class="emma-matchup">
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🤼</div>
     <div class="emma-fighter__role">Attacker</div>
-    <p class="emma-fighter__obj">Establish a functional wall pin — hips and shoulders controlled, rotation denied.</p>
+    <p class="emma-fighter__obj">Trying to establish a functional wall pin — hips and shoulders controlled, rotation denied.</p>
     <span class="emma-pop">You start with initial connection but no control yet. No immediate takedowns — stabilize first, then organize the pin against the wall.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🧱</div>
     <div class="emma-fighter__role">Defender</div>
-    <p class="emma-fighter__obj">Prevent the pin or disengage before being flattened.</p>
+    <p class="emma-fighter__obj">Trying to prevent the pin or disengage before being flattened.</p>
     <span class="emma-pop">Active resistance only — no passive drilling. Work rotation, frames, and defensive neck submissions to keep the attacker honest.</span>
   </div>
 </div>
@@ -63,9 +85,9 @@ Teach vertical control — the wall becomes the dominant constraint, limiting th
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Hold a functional pin for 5 seconds.<span class="emma-pop">A functional pin: shoulders substantially flat to the wall, hips controlled or compromised, no free rotation, with the attacker keeping structure and balance. The 5-second hold ensures the pin is stable, not momentary.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Disengage (create space) or reverse position.<span class="emma-pop">Break free by creating significant space, or turn the position around. Either ends the attacker's control attempt.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Just pressing</span> Pressure without organized control is not a pin.<span class="emma-pop">If the defender can still rotate their shoulders, it isn't a pin — only pressure. Organized structure that denies rotation is what counts.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker wins</span> When the attacker holds a functional pin for 5 seconds, the attacker wins the exchange.<span class="emma-pop">A functional pin: shoulders substantially flat to the wall, hips controlled or compromised, no free rotation, with the attacker keeping structure and balance. The 5-second hold ensures the pin is stable, not momentary.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender wins</span> When the defender disengages (creates space) or reverses position, the defender wins the exchange.<span class="emma-pop">Break free by creating significant space, or turn the position around. Either ends the attacker's control attempt.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No pin</span> When the defender can still rotate their shoulders, it counts as pressing — not a pin.<span class="emma-pop">If the defender can still rotate their shoulders, it isn't a pin — only pressure. Organized structure that denies rotation is what counts.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
@@ -79,15 +101,7 @@ Teach vertical control — the wall becomes the dominant constraint, limiting th
 
 <p class="emma-glabel">Go Deeper</p>
 
-??? note "Setup &amp; task focus"
-
-    <p class="emma-sub">Entry</p>
-
-    <div class="emma-chips">
-      <span class="emma-chip"><span class="emma-chip__i">📍</span> Clinch, defender between attacker &amp; wall</span>
-      <span class="emma-chip"><span class="emma-chip__i">📏</span> 1–2 feet from the wall</span>
-      <span class="emma-chip"><span class="emma-chip__i">🔄</span> Reset on significant space or disengage</span>
-    </div>
+??? note "Task focus &amp; coaching cues"
 
     <p class="emma-sub">Each role's job</p>
 
@@ -132,6 +146,10 @@ Teach vertical control — the wall becomes the dominant constraint, limiting th
       <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Attacker's head position → DNS opportunity.</p></div>
       <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own shoulder and hip position → current escape options.</p></div>
     </div>
+
+    <p class="emma-sub">What we measure (order parameter)</p>
+
+    <p class="emma-hl">Whether the defender's <b>shoulders stay rotatable or go flat</b> — track free rotation vs. denied rotation under active resistance, and whether the attacker can hold that flatness for the full 5 seconds. That rotation-denial relationship is the order parameter; when it stabilizes, organized control has formed and the position has crossed from pressing into a pin.</p>
 
     <p class="emma-sub">Representativeness</p>
 

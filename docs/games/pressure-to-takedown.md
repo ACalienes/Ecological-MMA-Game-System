@@ -30,327 +30,168 @@ tags:
 
 # Pressure to Takedown
 
-!!! info "Game Identity"
-    - **Problem:** Closing distance with strikes to establish control and execute takedown
-    - **Environment:** Open Space (can use wall)
-    - **Stage:** Access → Stabilize → Exploit
+<div class="emma-meta"><span>Open Space</span><span>Wrestling</span><span>Offensive</span><span>Advanced</span><span>Striking → Grappling</span></div>
+
+A full-sequence offensive game that teaches the attacker to chain strikes, distance closure, and takedowns into one flow. The defender learns to manage all three threats at once.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters in neutral standing at close quarters — attacker has initiative.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to chain strikes to a takedown; the defender is trying to defend all three layers.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Takedown + meaningful top control → reset · Defender survives strikes, closure &amp; takedown → success (no win state).</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate the distance closes</i> as strikes land (global optic flow) and the <i>defender's preferred distance</i> — near affords your clinch and shot, far affords their escape. Read their guard position and weight, plus the level-change opening (with <b>τ</b> on the shot entry), <b>not</b> their eyes. That information specifies <i>when closure is available</i> and <i>when the takedown is there to take</i>.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one attacker (initiative), one defender managing the pressure.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Neutral standing at close quarters — inside the range where strikes set up closure.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — open space, with an optional wall available as a pathway.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — the defender has no win state; success is measured by threats defended.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates with strikes; reset if the defender escapes cleanly or the attacker establishes top control.</div>
+</div>
 
-This is a **full-sequence offensive game** that teaches the attacker to chain strikes, distance closure, and takedowns. The defender learns to manage all three threats simultaneously.
+<p class="emma-glabel">The Matchup</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players in neutral standing at close quarters; attacker has initiative, defender must manage pressure.
-    - **Attacker (Offense):** Use strikes to close distance, establish control, and take the defender down to meaningful top control.
-    - **Defender:** Defend strikes, prevent distance closure, break control, defend the takedown, and scramble back to standing.
-    - **Win:** Attacker wins by executing a takedown AND establishing meaningful top pinning control; defender has no win condition (success is strikes/closure/takedowns defended).
-    - **Why it matters:** Trains chaining strikes to a takedown — and managing all three threats at once on defense.
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🤼</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to compromise openings with strikes, close distance, and take the defender down to meaningful top control.</p>
+    <span class="emma-pop">Chain it: strikes → clinch entry → takedown → top control. Strikes must create the closure — aggressive forward motion increases counter vulnerability, so the takedown should emerge from pressure, not be forced.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to defend strikes, prevent closure, break control, defend the takedown, and scramble back to standing.</p>
+    <span class="emma-pop">Manage every layer in turn: block/parry/dodge strikes, use footwork and hand controls to deny closure, break grips if clinched, sprawl/whizzer the shot, and scramble up if taken down.</span>
+  </div>
+</div>
 
----
+<p class="emma-glabel">The Rules</p>
 
-## Goal
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Strikes must precede the shot<span class="emma-chip__detail">The attacker must use strikes to close distance — not just shoot from outside. This prevents wrestlers from ignoring striking and forces true MMA integration.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚠️</span> Forward motion = more open to counters<span class="emma-chip__detail">The more aggressive the forward motion, the more compromised the attacker is for the defender's counter. Closure must be paid for.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎭</span> Feints disguise intention<span class="emma-chip__detail">Feints and fakes make it harder for the defender to identify whether a strike, a closure, or a shot is coming.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📈</span> Layers added progressively<span class="emma-chip__detail">Closure → takedown → scramble → counters → full expression. Each layer is added in turn so the sequence is built before the defender can fight back fully.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Open space, optional wall<span class="emma-chip__detail">Play happens inside a marked perimeter in open space, with a wall available as an optional pathway — multiple routes to the takedown.</span></span>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">How to Win</p>
 
-### Attacker (Offense)
-- Compromise defender's openings and land strikes
-- Close the distance and establish meaningful control
-- Take defender down to ground and establish meaningful top control
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker scores</span> When the attacker executes a takedown AND establishes meaningful top pinning control, the sequence is won — reset.<span class="emma-pop">The space fully closed and the chain completed: strikes set up closure, closure became a takedown, and the takedown became control. Then reset.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender (no win state)</span> The defender has no win condition — success is measured by strikes defended, closure prevented, and takedowns defended.<span class="emma-pop">This is an offensive-development game. The defender wins nothing outright; the coach reads how well each layer was defended.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the defender escapes cleanly or scrambles back to standing, the space re-opens — reset to neutral.<span class="emma-pop">The defender broke the chain — denied closure, defended the shot, or scrambled up. Begin again at close quarters.</span></div>
+</div>
 
-### Defender
-- Defend strikes effectively (tight blocking, parrying, dodging)
-- Avoid closing the distance at all costs with footwork and controls
-- Break meaningful control and escape/reverse
-- Defend the takedown and scramble back to standing if taken down
+<p class="emma-glabel">The Levels</p>
 
----
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Strikes and closure only</b>No takedowns yet.<span class="emma-pop emma-pop--l">Attacker: strikes and clinch entry only. Defender: defend strikes and prevent the clinch. Managing the first two layers.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add takedown threat</b>Takedowns from clinch.<span class="emma-pop emma-pop--l">The attacker can attempt takedowns from the clinch; the defender must defend clinch AND takedown. Full standing defense.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add scramble continuation</b>Play continues on the ground.<span class="emma-pop emma-pop--l">If taken down, play continues; the defender scrambles to return to standing. Recovery and continuation.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Add defender counter strikes</b>Two-way striking.<span class="emma-pop emma-pop--l">The defender can throw counter strikes; the attacker must respect the counter threat. Two-way striking with a takedown threat.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full expression</b>Both strike freely; DNS allowed.<span class="emma-pop emma-pop--l">Both players strike freely; the attacker chains strikes to takedowns, the defender can counter or disengage. DNS allowed defensively.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">Go Deeper</p>
 
-- Both players start in neutral standing at close quarters
-- Attacker in "winning position" (initiative)
-- Defender in "losing position" (must manage pressure)
-- Reset if defender escapes cleanly OR attacker establishes top control
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Attacker</div><p>Start with only head strikes or only straight punches; use strikes to open closure; chain strikes → clinch → takedown → top control.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Defense and distance first; footwork and hand controls to deny closure; break control if clinched; scramble up if taken down.</p></div>
+    </div>
 
-1. Attacker must use **strikes to close distance** (not just shoot from outside)
-2. More aggressive forward motion = more compromised for counter attack
-3. Feints and fakes make it harder for defender to identify intention
+    <p class="emma-sub">Coaching cues</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🔗</div><div class="emma-card__t">Did strikes make it?</div><p>Ask attackers: "Did your strikes create the takedown opportunity?" The takedown should emerge from striking pressure, not be forced.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Which layer?</div><p>Ask defenders: "What layer were you defending?" to develop threat awareness across strikes, closure, clinch, takedown, and ground.</p></div>
+    </div>
 
-## Task Focus
+    <p class="emma-sub">Defensive trade-offs</p>
 
-### Attacker
-- Start with only head strikes or only straight punches
-- Use strikes to create openings for distance closure
-- Chain: Strikes → Clinch entry → Takedown → Top control
-- Understand: aggressive forward motion increases counter vulnerability
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Hands closer</div><p>Easier to defend strikes, but harder to counter or defend closure.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🫳</div><div class="emma-card__t">Hands further out</div><p>Compromised to strikes, but can disrupt the attacker or defend takedowns. Offline head when dodging is open to significant strikes.</p></div>
+    </div>
 
-### Defender
-- Focus on defense first and distance management
-- Use footwork and hand controls to prevent closure
-- If clinched: break control and escape/reverse
-- If taken down: scramble back to standing
+??? abstract "Constraints-Led analysis"
 
-!!! warning "Defensive Trade-offs"
-    - **Hands closer to face** = easier to defend strikes, harder to counter or defend closure
-    - **Hands further out** = compromised to strikes, but can disrupt attacker or defend takedowns
-    - **When dodging**, offline head = compromised for significant strikes
+    <p class="emma-sub">Constraints → Affordances</p>
 
----
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Strikes must close (can't just shoot)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops integrated striking-to-grappling</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Multi-layer sequence</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full MMA offensive chain</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender manages all threats</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops layered defensive awareness</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Progressive layers</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scaffolded complexity</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Open space with optional wall</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Multiple pathways available</span></div>
+    </div>
 
-## Key Logic: The Closing Sequence
+    <p class="emma-hl">Develops <b>offensive sequencing</b> — perception-action coupling across multiple domains; requiring strikes before shooting forces true MMA integration (Renshaw et al., 2019).</p>
 
-Attacker must follow a logical chain:
+    <p class="emma-sub">What the players read</p>
 
-```mermaid
-flowchart LR
-    A[Strikes] --> B[Distance Closure]
-    B --> C[Control]
-    C --> D[Takedown]
-    D --> E[Top Control]
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Guard position, footwork/distance, level-change setup, counter setup → where to strike, when to close, sprawl prep.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Clinch control quality and pressure → when to attempt the takedown; escape or reversal timing.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own balance and position → sequence timing; scramble direction if taken down.</p></div>
+    </div>
 
-    style A fill:#FF5722,color:#fff
-    style E fill:#4CAF50,color:#fff
-```
+    <p class="emma-sub">What we measure (order parameter)</p>
 
-Jumping steps or rushing creates counter opportunities.
+    <p class="emma-hl">Whether the <b>distance closes over time</b> and the chain completes — is the gap-closure rate trending toward the clinch, and does the sequence reach a controlled takedown? Track whether strikes create closure, whether takedowns emerge from clinch control (not forced), and which layer the defender holds. When the chain flows without jumping steps, the skill has formed.</p>
 
-### Defender's Layered Defense
+    <p class="emma-sub">Representativeness</p>
 
-| Threat | Defensive Solution |
-|--------|-------------------|
-| Strikes | Block, parry, dodge |
-| Distance closure | Footwork, hand controls, frames |
-| Clinch | Break grips, underhook battles, escape |
-| Takedown | Sprawl, whizzer, scramble |
-| Ground | Scramble to standing |
+    <p class="emma-hl"><b>Models:</b> the classic "punch to shoot" — a wrestler or pressure fighter using striking to set up takedowns.</p>
 
----
+    <div class="emma-meta"><span>Progressive defender options</span><span>controlled contact</span><span>controlled takedowns</span></div>
 
-## Win Conditions
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">The offensive sequence transfers directly to competition — branches into <a href="../wall-control/">Wall Control</a> and <a href="../open-space-takedown/">Open Space Takedown</a>.</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Execute takedown AND establish meaningful top pinning control |
-| **Defender** | No win condition — success measured by strikes defended, closure prevented, takedowns defended |
+    <p class="emma-sub">Readiness to progress</p>
 
----
+    <ul class="emma-checklist">
+      <li>Strikes clearly set up the distance closure</li>
+      <li>Takedowns emerge from clinch control — not forced</li>
+      <li>Defender manages the current level's threats</li>
+      <li>The sequence feels integrated, not choppy</li>
+      <li>Can articulate: "I threw the cross then shot because…"</li>
+    </ul>
 
-## Levels
+    <p class="emma-sub">Warning signs</p>
 
-=== "Level 1 — Strikes and Closure Only"
-    - Attacker: Strikes and clinch entry only (no takedowns yet)
-    - Defender: Defend strikes and prevent clinch
-    - Focus: Managing the first two layers
+    <div class="emma-warns">
+      <span class="emma-warn">Shoots without strikes</span>
+      <span class="emma-warn">Gets countered during closure</span>
+      <span class="emma-warn">Sequence feels forced</span>
+      <span class="emma-warn">Defender overwhelmed</span>
+    </div>
 
-=== "Level 2 — Add Takedown Threat"
-    - Attacker can now attempt takedowns from clinch
-    - Defender must defend clinch AND takedown
-    - Focus: Full standing defense
+??? note "Safety &amp; related games"
 
-=== "Level 3 — Add Scramble Continuation"
-    - If taken down, play continues
-    - Defender scrambles to return to standing
-    - Focus: Recovery and continuation
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate strikes; controlled takedowns</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on uncontrolled takedowns, excessive force, or slams</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the attacker is just shooting without strikes</span>
+    </div>
 
-=== "Level 4 — Add Defender Counter Strikes"
-    - Defender can throw counter strikes
-    - Attacker must respect counter threat
-    - Focus: Two-way striking with takedown threat
+    <p class="emma-sub">Where it sits</p>
 
-=== "Level 5 — Full Expression"
-    - Both players can strike freely
-    - Attacker chains strikes to takedowns
-    - Defender can counter or disengage
-    - DNS allowed defensively
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker must use strikes to close (can't just shoot) | Develops integrated striking-to-grappling |
-| **Task** | Multi-layer sequence (strikes → closure → control → takedown) | Full MMA offensive chain |
-| **Task** | Defender manages all threats simultaneously | Develops layered defensive awareness |
-| **Task** | Progressive layers added (closure → takedown → scramble → counters) | Scaffolded complexity |
-| **Individual** | Prerequisites: Close-Range Defense, Pressure to Clinch | Has defensive and clinch skills |
-| **Environmental** | Open space with optional wall | Multiple pathways available |
-
-!!! info "Theoretical Foundation"
-    This game develops **offensive sequencing**—the perception-action coupling across multiple domains. The constraint requiring strikes before shooting prevents wrestlers from ignoring striking and forces true MMA integration. The defender develops **layered defensive perception**, reading which threat is current and selecting appropriate responses (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's guard position | Where to strike |
-| **Visual** | Defender's distance/footwork | When to close |
-| **Visual** | Defender's underhook position | Takedown angle |
-| **Visual** | Defender's counter setup | When to be cautious |
-| **Haptic** | Clinch control quality | When to attempt takedown |
-| **Proprioceptive** | Own balance and position | Sequence timing |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's striking pattern | Defense selection |
-| **Visual** | Attacker's level change setup | Sprawl preparation |
-| **Visual** | Attacker's distance closure | When to frame or move |
-| **Haptic** | Clinch pressure | Escape or reversal timing |
-| **Proprioceptive** | Own position if taken down | Scramble direction |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "Did your strikes create the takedown opportunity?" The takedown should emerge from striking pressure, not be forced independently. Ask defenders: "What layer were you defending?" to develop threat awareness.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-A wrestler or pressure fighter using striking to set up takedowns—the classic "punch to shoot" MMA strategy.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Offensive sequence** | Strikes → Clinch → Takedown → Control | Same | High |
-| **Multi-domain integration** | Full MMA offensive toolkit | Same | High |
-| **Defensive layers** | Must defend all threats | Progressive by level | Scaffolded |
-| **Consequence** | Fight goes to ground | Game ends on control | Analogous |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Progressive defender options | Allows focus on each defensive layer |
-| Controlled contact | Safety during learning |
-| Clear win conditions | Structure for evaluation |
-
-!!! note "Transfer Expectation"
-    The offensive sequence developed here transfers directly to MMA competition. Fighters who can chain strikes to takedowns become effective pressure grapplers. The perceptual skill—reading when closure is available—is identical in competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Defender style** | Strikers, grapplers, movers | Multiple closing solutions |
-| **Defender size** | Larger, smaller, equal | Adaptability |
-| **Takedown emphasis** | Clinch takedowns, shot takedowns | Full wrestling vocabulary |
-| **Wall availability** | Open space only, cage available | Environmental flexibility |
-| **Intensity** | Controlled pace, live pace | Pressure calibration |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Strikes must precede shooting | Core constraint developing integration |
-| Sequence logic (strikes → closure → takedown) | Maintains MMA-specific learning |
-| Controlled takedowns | Safety |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Strikes create closure opportunities | Integration developing |
-| Takedowns emerge from clinch control | Sequence logic understood |
-| Defender manages current level's threats | Ready for more complexity |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Strikes clearly set up distance closure
-- [ ] Takedowns emerge from clinch control (not forced)
-- [ ] Defender successfully manages current level's threats
-- [ ] Can articulate: "I threw the cross then shot because..."
-- [ ] Sequence feels integrated, not choppy
-
-### Ready to Exit Game When
-
-- [ ] Level 4+ competence (handles defender counters)
-- [ ] Striking-to-grappling is seamless
-- [ ] Multiple pathway options (wall vs. open space takedown)
-- [ ] Sequence appears naturally in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Shoots without strikes | Not integrating domains | Reinforce constraint, more striking emphasis |
-| Gets countered during closure | Timing off | Slow down, work on reading counter threat |
-| Sequence feels forced | Not flowing | More reps at current level |
-| Defender overwhelmed | Progressed too fast | Return to previous level |
-
----
-
-## Advanced Expressions (Coach Context)
-
-**For attackers:**
-- Striking becomes purposeful (setting up closure)
-- Distance closure timing becomes precise
-- Takedown entries emerge from natural openings
-
-**For defenders:**
-- Defensive layers become integrated
-- Counter timing improves
-- Scrambles become automatic
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate strikes; controlled takedowns
-- **Stop conditions:** Uncontrolled takedowns, excessive force, slam attempts
-- **Coach intervention:** Reset if attacker is just shooting without strikes
-
-!!! danger "Control Precedes Gravity"
-    Takedowns must be earned, not forced.
-
----
-
-## System Position
-
-```mermaid
-flowchart TD
-    A[Close-Range Defense] --> B[Pressure to Takedown]
-    C[Pressure to Clinch] --> B
-    B --> D[Wall Control]
-    B --> E[Open Space Takedown]
-
-    style B fill:#9C27B0,color:#fff
-```
-
-- **Prerequisite games:** [Close-Range Defense](close-range-defense.md), [Pressure to Clinch](pressure-to-clinch.md)
-- **Follow-on games:** [Wall Control](wall-control.md), [Open Space Takedown](open-space-takedown.md)
-- **Related concepts:** [Defensive Solutions](../concepts/defensive-solutions.md), [Hand Controls](../concepts/hand-controls.md), [TKO Pin](../concepts/tko-pin.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as striking-to-grappling integration patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../close-range-defense/">Close-Range Defense</a> · <a href="../pressure-to-clinch/">Pressure to Clinch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-control/">Wall Control</a> · <a href="../open-space-takedown/">Open Space Takedown</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/defensive-solutions/">Defensive Solutions</a> · <a href="../../concepts/hand-controls/">Hand Controls</a> · <a href="../../concepts/tko-pin/">TKO Pin</a></span></div>
+    </div>

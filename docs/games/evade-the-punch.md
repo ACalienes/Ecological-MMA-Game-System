@@ -23,337 +23,161 @@ tags:
 
 # Evade the Punch
 
-!!! info "Game Identity"
-    - **Problem:** Learning to evade different punch types using appropriate head movement
-    - **Environment:** Open Space
-    - **Stage:** Access (Defensive Skill Integration)
+<div class="emma-meta"><span>Skill Integration</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Open Space</span></div>
+
+Learn to match the evasion to the punch — slip straights, duck hooks. The defender can *only* evade with head movement, so they must read punch type early and select the right response.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean head punch; the defender is trying to read its type and evade with the matching movement.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Correct evasion → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) <i>and the path</i> of the incoming punch — straight line vs. arcing — read via shoulder–hip motion and the bending elbow at <b>center mass</b>, not the opponent's eyes or their absolute distance. That information specifies <i>when</i> it arrives and <i>whether to slip or duck</i>.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Close quarters — inside punching distance, no gap to retreat into.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the defender evades correctly.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
+</div>
 
-This is an **intermediate skill integration game** that teaches punch-type recognition and appropriate evasion selection. The defender must read whether a punch is straight or hooking and apply the correct evasive movement.
+<p class="emma-glabel">The Matchup</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players in neutral standing at close quarters (striking range); reset to neutral after each exchange.
-    - **Attacker:** Land head punches — straights and/or hooks (head strikes only, allow resets).
-    - **Defender:** Evade only — slip straights, duck hooks (no blocking, parrying, or backing up).
-    - **Win:** Defender wins by evading a punch with correct technique; attacker wins by landing a clean head punch.
-    - **Why it matters:** Builds skill integration — matching the right evasion to the punch type under pressure.
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to land a clean punch — straight or hook — to the defender's head.</p>
+    <span class="emma-pop">Straights and hooks to the head only, scaled to level — no uppercuts, kicks, or body shots. Mix punch types to force recognition; vary timing and rhythm; ramp up only as the defender succeeds.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🌀</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to evade each punch with the matching movement — slip straights, duck hooks.</p>
+    <span class="emma-pop">No blocking, no parrying, no backing up — head movement only. Using the wrong evasion gets you hit; read the path early and commit when confident.</span>
+  </div>
+</div>
 
----
+<p class="emma-glabel">The Rules</p>
 
-## Goal
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Straights &amp; hooks, head only<span class="emma-chip__detail">The attacker throws straights and/or hooks to the head, scaled to the level — no uppercuts, kicks, or body shots. The mix forces the defender to recognize punch type, not just react.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🌀</span> Evade only — no block, no parry<span class="emma-chip__detail">The defender may <strong>only</strong> use head movement — slip or duck. Blocking, parrying, and backing up are off-limits, so the evasion solutions explore with no fallback.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No continuous backing up<span class="emma-chip__detail">The defender can't keep retreating out of range to avoid exchanges — they must stay and solve the problem in the pocket.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset between strikes<span class="emma-chip__detail">At early levels the attacker pauses between strikes so the defender can reorganize. Pressure becomes continuous as the levels rise.</span></span>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">How to Win</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Land punches (straights and hooks) to defender's head |
-| **Defender** | Evade punches using appropriate head movement (slip straights, duck hooks) |
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the defender evades a punch with the correct technique — slip a straight or duck a hook, full miss — the players switch roles.<span class="emma-pop">The right evasion for the punch type, fully missing. The defender earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the attacker lands a clean punch to the head, reset to neutral — same roles.<span class="emma-pop">A clean head shot that got through — often the wrong evasion for the punch type. Begin again from a neutral stance.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+</div>
 
-The objective is **skill integration** — matching the defensive solution to the attack.
+<p class="emma-glabel">The Levels</p>
 
----
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Predictable pattern</b>Alternating straight, hook.<span class="emma-pop emma-pop--l">The attacker alternates straight then hook so the defender knows what's coming — pure focus on correct evasion mechanics for each type.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Random selection</b>Straights or hooks, single punches.<span class="emma-pop emma-pop--l">The attacker throws straights or hooks at random, single punches with reset between — now it's recognition and selection.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Variable tempo</b>Random type, no fixed reset.<span class="emma-pop emma-pop--l">Random punch type with no guaranteed reset — the defender stays ready for either path as timing shifts.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Add feints</b>Real vs. fake.<span class="emma-pop emma-pop--l">The attacker can feint — fake a jab then throw a hook. Patience and commitment timing now matter.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Two-punch combinations</b>Mixed in one combo.<span class="emma-pop emma-pop--l">Two-punch combinations that may mix straights and hooks — chain evasions together.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too — evade while denying the grappling entry, staying aware of all threats.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">Go Deeper</p>
 
-- Both players start in neutral standing position
-- Close quarters distance (striking range)
-- Roles are assigned; switch after 4 minutes
-- Reset to neutral after each exchange
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Land clean head punches; mix straights and hooks to force recognition; vary timing and rhythm.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Defender</div><p>Slip straights (head laterally offline), duck/bob hooks (under the arc); read the path early and select.</p></div>
+    </div>
 
-1. Attacker throws **straights and/or hooks** (scaled to level)
-2. Defender can **ONLY evade** — no blocking, parrying, or backing up continuously
-3. Attacker throws head strikes only
-4. Attacker allows reset between strikes (no continuous pressure at Level 1)
+    <p class="emma-sub">Coaching cues</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Read the path</div><p>Arm stays straight → slip. Elbow bends and the arm arcs → duck. The bending elbow at center mass is the tell, not the eyes.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Right tool, full miss</div><p>The wrong evasion gets you hit — a slip won't beat a hook. Don't evade everything; recognize type first, then commit. One correct evasion beats ten wrong ones.</p></div>
+    </div>
 
-## Task Focus
+??? abstract "Constraints-Led analysis"
 
-### Attacker
-- Land clean punches to the head
-- Mix straight and hooking punches to force recognition
-- Vary timing and rhythm
+    <p class="emma-sub">Constraints → Affordances</p>
 
-### Defender
-- **Slip** straights (head moves laterally offline)
-- **Duck/Bob** hooks (head moves down/under the arc)
-- Read punch type early and select appropriate response
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Mixed straights &amp; hooks</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces recognition and selection, not just reaction</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Evade-only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Explores evasion solutions with no fallback</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Predictable → random progression</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scaffolds from mechanics to recognition</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Role switch on success</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops both attacking and defending</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Close range</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Evasion timing must be precise (no distance buffer)</span></div>
+    </div>
 
-!!! question "Key Internal Questions"
-    - "Am I reading the punch type early enough?"
-    - "Am I using the right evasion for this punch?"
-    - "Is the punch fully missing or grazing me?"
+    <p class="emma-hl">Implements <b>Task Simplification</b> (Renshaw et al., 2019) — the defender develops <i>degeneracy</i>: multiple evasion solutions matched to different attack types, not one fixed response.</p>
 
----
+    <p class="emma-sub">What the defender reads</p>
 
-## Key Logic: Matching Evasion to Punch Type
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual — path</div><p>Straight vs. arcing trajectory; extended vs. bent elbow → slip or duck.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Visual — timing</div><p>Shoulder rotation &amp; weight shift → when to move and which hand.</p></div>
+      <div class="emma-card"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Proprioceptive</div><p>Own head position &amp; balance → execution and recovery readiness.</p></div>
+    </div>
 
-!!! note "The Core Skill"
-    Different punches require different evasive movements:
+    <p class="emma-sub">What we measure (order parameter)</p>
 
-    | Punch Type | Evasion | Why |
-    |------------|---------|-----|
-    | Jab/Cross | **Slip** (lateral) | Straight punches travel down centerline |
-    | Hook | **Duck/Bob** (vertical) | Hooks follow lateral head movement |
+    <p class="emma-hl">Whether the defender's <b>evasion lands in time with the punch</b> — track correct, clean evasions vs. shots eaten, and whether the head re-sets between strikes. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
-    Using the wrong evasion gets you hit.
+    <p class="emma-sub">Representativeness</p>
 
-### Slip vs. Duck
+    <p class="emma-hl"><b>Models:</b> reading punch type and matching the right head-movement evasion under pressure.</p>
 
-| Evasion | Movement | Works For | Fails Against |
-|---------|----------|-----------|---------------|
-| Slip | Head moves left/right | Straights | Hooks (follows you) |
-| Duck/Bob | Head moves down/under | Hooks | Uppercuts (meets you) |
+    <div class="emma-meta"><span>Simplified: no kicks/uppercuts</span><span>head only</span><span>evade only</span></div>
 
-!!! danger "The Recognition Challenge"
-    The defender must read the punch early enough to select the correct evasion:
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Integrates two evasion solutions before full defense — transfers into <a href="../close-range-defense/">Close-Range Defense</a>.</p>
 
-    - **Arm stays straight** → Slip
-    - **Elbow bends, arm arcs** → Duck
+    <p class="emma-sub">Readiness to progress</p>
 
----
+    <ul class="emma-checklist">
+      <li>Correct evasion selection ~70%+</li>
+      <li>Can articulate the tell ("I saw the elbow bend")</li>
+      <li>Smooth, not jerky or panicked movements</li>
+      <li>Handles both lead and rear punches</li>
+    </ul>
 
-## Win Conditions
+    <p class="emma-sub">Warning signs</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Defender** | Successfully evade a punch with correct technique (slip a straight OR duck a hook) |
-| **Attacker** | Land a clean punch to the head |
+    <div class="emma-warns">
+      <span class="emma-warn">Uses same evasion for all punches</span>
+      <span class="emma-warn">Freezes when uncertain</span>
+      <span class="emma-warn">Gets hit by feints</span>
+    </div>
 
-**On defender win:** Roles switch — defender becomes attacker.
+??? note "Safety &amp; related games"
 
-**On attacker win:** Reset to neutral, same roles, attacker continues.
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact</span>
+      <span class="emma-chip"><span class="emma-chip__i">🥊</span> Hooks at controlled speed until recognition is shown</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on freezing, lost composure, or excessive force</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the defender starts blocking instead of evading</span>
+    </div>
 
-!!! tip "The Strategic Insight"
-    You don't need to evade every punch. The defender can absorb strikes while reading the attacker's patterns — identifying whether straights or hooks are coming. When confidence is high, commit to the correct evasion. This teaches:
+    <p class="emma-sub">Where it sits</p>
 
-    - **Punch recognition** before commitment
-    - **Evasion selection** under pressure
-    - **Timing over volume** — one correct evasion beats ten wrong ones
-
-**Duration:** Play until natural stopping point or time limit. Role switches keep both players engaged.
-
----
-
-## Levels
-
-=== "Level 1 — Predictable Pattern"
-    - Attacker alternates: straight, hook, straight, hook
-    - Defender knows what's coming
-    - Focus: Correct evasion mechanics for each type
-
-=== "Level 2 — Random Selection"
-    - Attacker throws straights OR hooks randomly
-    - Single punches, with reset between
-    - Focus: Recognition and selection
-
-=== "Level 3 — Variable Tempo"
-    - Random punch selection
-    - No fixed reset — attacker varies timing
-    - Focus: Staying ready for either type
-
-=== "Level 4 — Add Feints"
-    - Attacker can feint before throwing
-    - Feinting a jab then throwing a hook is now possible
-    - Focus: Patience and commitment timing
-
-=== "Level 5 — Two-Punch Combinations"
-    - Attacker throws 2-punch combinations
-    - May mix straights and hooks in same combo
-    - Focus: Chaining evasions together
-
-=== "Level 6 — Full MMA Expression"
-    - Attacker can throw straights/hooks AND shoot or establish clinch
-    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
-    - Defender must evade effectively AND deny grappling entry
-    - Focus: Evasion while remaining aware of all threats
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Mixed punch types (straights and hooks) | Forces recognition and selection, not just reaction |
-| **Task** | Defender can only evade (no blocking, parrying) | Explores evasion solutions without fallback options |
-| **Task** | Progressive pattern complexity (predictable → random) | Scaffolded learning from mechanics to recognition |
-| **Task** | Role switching on success | Both players develop attacking and defending skills |
-| **Individual** | Prerequisite: Slip the Straight | Builds on existing straight-punch evasion skill |
-| **Environmental** | Close striking range | Evasion timing must be precise (no distance buffer) |
-
-!!! info "Theoretical Foundation"
-    This game implements **Task Simplification** (Renshaw et al., 2019) by progressively adding complexity. Level 1's predictable pattern allows mechanical learning; later levels add the recognition challenge. The defender develops **degeneracy**—multiple evasion solutions that match different attack types—rather than a single response.
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Arm trajectory (straight vs. arcing) | Select slip vs. duck |
-| **Visual** | Elbow position (extended vs. bent) | Early punch-type recognition |
-| **Visual** | Shoulder rotation pattern | Timing of evasion |
-| **Visual** | Attacker's weight shift | Anticipate which hand is coming |
-| **Proprioceptive** | Own head position and balance | Execution of evasive movement |
-| **Proprioceptive** | Recovery position after evasion | Readiness for next exchange |
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's evasion pattern | Which punch type is most likely to land |
-| **Visual** | Defender's head position | Available targets |
-| **Haptic** | Contact (or miss) | Whether punch landed or was evaded |
-
-!!! tip "Coaching Cue"
-    Ask defenders: "What tells you it's a hook before it arrives?" This develops the perceptual distinction between straight and looping punches—the arm path, elbow bend, and shoulder rotation that differentiate them.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Defending against mixed striking in open space where both straight punches and hooks are threats requiring different evasive responses.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Punch variety** | Full arsenal (straights, hooks, uppercuts, kicks) | Straights and hooks only | Simplified |
-| **Evasion options** | All defensive solutions available | Evasion only (slip/duck) | Isolated |
-| **Recognition demand** | Must read punch type quickly | Must read punch type quickly | High |
-| **Consequence** | Damage accumulation | Role switch | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| No kicks or uppercuts | Focuses on the slip/duck dichotomy which transfers to all evasion |
-| No blocking allowed | Forces evasion skill development; blocking available in Close-Range Defense |
-| Head strikes only | Isolates head movement skill; body defense integrated later |
-
-!!! note "Transfer Expectation"
-    Athletes who develop punch-type recognition here will transfer the skill to [Close-Range Defense](close-range-defense.md) where all defensive options become available. The perceptual skill—reading straight vs. hooking attacks—transfers to any striking context.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Attacker** | Rotate training partners | Different tells, timing, power |
-| **Punch selection ratio** | More straights one session, more hooks another | Full evasion vocabulary |
-| **Tempo** | Fast-paced rounds, deliberate rounds | Timing adaptability |
-| **Stance matchup** | Orthodox vs. orthodox, orthodox vs. southpaw | Angle variety |
-| **Lead vs. rear emphasis** | Focus on lead hooks, rear crosses | Complete punch recognition |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Evasion only (no blocking) | Core constraint defining the game |
-| Straights and hooks only | The punch types being learned |
-| Head strikes only | Maintains skill isolation |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Correct evasion selection 70%+ | Recognition developing |
-| Smooth transitions between slip and duck | Motor patterns established |
-| Calm under random selection | Ready for tempo variability |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Correct evasion selection (slip for straights, duck for hooks) 70%+
-- [ ] Can articulate the visual difference ("I saw the elbow bend")
-- [ ] Evasion movements are smooth, not jerky or panicked
-- [ ] Recovers to good position after each evasion
-- [ ] Can handle both lead and rear punches
-
-### Ready to Exit Game (Move to Close-Range Defense) When
-
-- [ ] Level 4+ competence (handles feints appropriately)
-- [ ] Punch-type recognition is automatic, not deliberate
-- [ ] Expresses readiness to integrate other defensive solutions
-- [ ] Evasion quality maintains across varied partners
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Uses same evasion for all punches | Recognition not developed | Slow down, emphasize punch-type differences |
-| Freezes when uncertain | Still guessing, not reading | Return to predictable patterns (Level 1) |
-| Only evades one punch type well | Incomplete skill set | Emphasize the weaker evasion |
-| Gets hit by feints | Commitment timing off | Stay at current level, practice patience |
-
----
-
-## Advanced Expressions (Coach Context)
-
-As athletes develop:
-
-**For defenders:**
-- Punch recognition becomes instant and automatic
-- Evasion selection happens without conscious thought
-- Recovery between evasions becomes fluid
-
-**For attackers:**
-- Learn to disguise punch type longer
-- Develop combinations that exploit evasion patterns
-- Understand how to catch defenders between movements
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — punches should land if not evaded, but not full power
-- **Stop conditions:** Loss of composure, freezing, excessive force
-- **Coach intervention:** Reset if defender starts blocking instead of evading
-
-!!! warning "Hook Caution"
-    Hooks carry more rotational force. Attackers should throw at controlled speed until defender demonstrates recognition skill.
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Slip the Straight] --> B[Evade the Punch]
-    B --> C[Close-Range Defense]
-
-    style B fill:#4CAF50,color:#fff
-```
-
-- **Prerequisite games:** [Slip the Straight](slip-the-straight.md) (recommended)
-- **Follow-on games:** [Close-Range Defense](close-range-defense.md)
-- **Related concepts:** [Defensive Solutions in Striking](../concepts/defensive-solutions.md) (Evasion)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as defensive skill development patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../slip-the-straight/">Slip the Straight</a> (recommended)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../close-range-defense/">Close-Range Defense</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/defensive-solutions/">Defensive Solutions</a></span></div>
+    </div>

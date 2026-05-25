@@ -29,289 +29,160 @@ tags:
 
 # Pressure to Wall
 
-!!! info "Game Identity"
-    - **Problem:** Using strikes and pressure to establish wall position for grinding
-    - **Environment:** Open Space → Wall
-    - **Stage:** Access → Stabilize (Wall Dominance)
+<div class="emma-meta"><span>Open Space → Wall</span><span>Wrestling</span><span>Offensive</span><span>Advanced</span><span>Wall Dominance</span></div>
+
+An offensive game that chains strikes to wall control. Unlike Pressure to Takedown, the destination is the wall itself — for dirty boxing and grinding, not a transition to the ground.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters in open space at striking range, with a wall available.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to herd to the wall and damage; the defender is trying to escape or reverse.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Wall control + damage → switch · Escape clean or reverse → reset to open space.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate the open space closes</i> as you cut angles (global optic flow) and the <i>defender's preferred distance</i> — near affords your clinch and grinding, far affords their escape. Read their escape-angle attempts and weight distribution, plus the gap to the wall behind them (with <b>τ</b> on the clinch entry), <b>not</b> their eyes. That information specifies <i>which strike moves them</i> and <i>when wall contact is imminent</i>.</p>
 
-This is an **offensive game** that chains strikes to wall control. Unlike Pressure to Takedown, the goal is wall position for damage (dirty boxing, grinding), not transitioning to ground.
+<p class="emma-glabel">The Starting Position</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players in open space at striking range with a wall/cage available.
-    - **Attacker:** Use strikes and pressure to drive the opponent to the wall and establish control for damage (knees, dirty boxing) — not a takedown.
-    - **Defender:** Avoid the wall, escape pressure, or reverse position (can't back up infinitely).
-    - **Win:** Attacker wins by establishing wall control AND landing damage; defender wins by escaping the wall cleanly or reversing position.
-    - **Why it matters:** Develops wall dominance — chaining strikes into a controlling, damaging wall position.
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off — one attacker, one defender.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range in open space, with room to herd toward the wall.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter with a wall/cage as the destination — flat wall or curved cage. The wall is the point of the game.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker establishes wall control and lands damage.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates the pressure; reset to open space when wall control is established or the defender escapes cleanly.</div>
+</div>
 
----
+<p class="emma-glabel">The Matchup</p>
 
-## Goal
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🧱</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to drive the opponent to the wall with strikes and establish control for damage — not a takedown.</p>
+    <span class="emma-pop">Use strikes to back them up — purposeful, not just volume. Cut angles, close distance, establish the clinch at the wall, then work dirty boxing, knees, and grinding while denying escape.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to avoid the wall, escape the pressure, or reverse position — can't back up infinitely.</p>
+    <span class="emma-pop">Circle and create angles before you're trapped. If you reach the wall, escape or reverse. Counter to discourage the pressure — the wall is behind you, so back-up alone won't save you.</span>
+  </div>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">The Rules</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Drive opponent to wall and establish control for damage |
-| **Defender** | Avoid wall, escape pressure, or reverse position |
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Strikes create pressure — not pushing<span class="emma-chip__detail">The attacker must use strikes to create the pressure that moves the defender — not just shove them. This develops striking-based herding.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall is the destination — not the ground<span class="emma-chip__detail">The goal is wall control and damage, not a takedown. Once on the wall, the attacker works grinding and dirty boxing, not a ground transition. This distinguishes it from Pressure to Takedown.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No infinite back-up<span class="emma-chip__detail">The defender cannot simply retreat forever — the wall exists. This forces real decision points: escape early or face the wall.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📈</span> Progressive options by level<span class="emma-chip__detail">Pressure → wall damage → defender counters → full MMA. Scaffolded so herding is built before counter threats are added.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Wall / marked perimeter in play<span class="emma-chip__detail">A wall or cage is available as the destination, inside a marked perimeter. The environmental constraint shapes the entire game.</span></span>
+</div>
 
-The objective is **wall dominance**, not takedown.
+<p class="emma-glabel">How to Win</p>
 
----
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker establishes wall control AND lands damage (knees, dirty boxing), the players switch roles.<span class="emma-pop">The space fully closed onto the wall and the attacker exploited the position with damage — and earns the defending role.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the defender escapes the wall cleanly OR reverses position, reset to open space — same roles.<span class="emma-pop">The defender re-opened the space — circled out clean or turned the attacker onto the wall. Begin again in open space.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Watch whether the strikes actually move the defender, or just hit them — purposeful herding vs. volume.<span class="emma-pop">Beyond the win, the coach reads whether striking is herding the defender and whether damage flows from the wall position.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">The Levels</p>
 
-- Both players start in open space at striking range
-- Wall/cage is available
-- Attacker uses strikes and pressure to drive to wall
-- Reset when wall control is established OR defender escapes cleanly
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Pressure to wall only</b>Drive and pin.<span class="emma-pop emma-pop--l">Drive to the wall with strikes; establish control once there, no extended damage. Closing and pinning.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add wall damage</b>Dirty boxing, knees.<span class="emma-pop emma-pop--l">Once wall control is established, work damage — dirty boxing, knees, grinding. Damage from wall position.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Defender counters</b>Counter during pressure.<span class="emma-pop emma-pop--l">The defender can counter-strike during the pressure phase; the attacker must close through counters. Pressure under threat.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA expression</b>Counter, clinch, or shoot.<span class="emma-pop emma-pop--l">The defender can counter, clinch, or shoot; the attacker must reach the wall while managing all threats. Wall pressure under MMA reality.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Invariants
+??? note "Task focus &amp; coaching cues"
 
-1. Attacker must use **strikes to create pressure** — not just pushing
-2. Goal is **wall control**, not takedown
-3. Once on wall, attacker works damage/grinding, not ground transition
-4. Defender cannot simply back up infinitely — wall exists
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Attacker</div><p>Strike to back them toward the wall; cut angles; establish clinch at the wall; dirty box, knee, grind; deny escape.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Avoid being backed up; circle and create angles; if on the wall, escape or reverse; counter to discourage pressure.</p></div>
+    </div>
 
-## Task Focus
+    <p class="emma-sub">Coaching cues</p>
 
-### Attacker
-- Use strikes to back opponent toward wall
-- Close distance and establish clinch at wall
-- Once on wall: dirty boxing, knees, grinding
-- Maintain wall position, deny escape
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">➡️</div><div class="emma-card__t">Moving or hitting?</div><p>Ask attackers: "Are your strikes moving them or just hitting them?" The goal is purposeful striking that herds to the wall.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Know the wall</div><p>Ask defenders: "Did you know how close the wall was?" to develop spatial awareness before being trapped.</p></div>
+    </div>
 
-### Defender
-- Avoid being backed to wall
-- Circle and create angles
-- If on wall: escape or reverse
-- Counter to discourage pressure
+??? abstract "Constraints-Led analysis"
 
-!!! question "Key Internal Questions — Attacker"
-    - "Am I using strikes to move them or just throwing?"
-    - "Can I cut off their angle?"
-    - "Once on wall, am I damaging or just holding?"
+    <p class="emma-sub">Constraints → Affordances</p>
 
----
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Strikes must create pressure</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops striking-based herding</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Wall control + damage (not takedown)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Distinct from the Pressure to Takedown pathway</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">No infinite back-up</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates decision points for the defender</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Progressive options</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scaffolded learning</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Wall is the destination</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Environmental constraint shapes the whole game</span></div>
+    </div>
 
-## Key Logic: Wall as Destination
+    <p class="emma-hl">Develops <b>cage-cutting affordance perception</b> — reading angles to herd opponents to the wall and striking purposefully for movement, not just damage (Renshaw et al., 2019).</p>
 
-!!! note "The Core Skill"
-    This game treats the wall as the END STATE, not a waypoint:
+    <p class="emma-sub">What the players read</p>
 
-    | Pressure to Takedown | Pressure to Wall |
-    |---------------------|------------------|
-    | Strikes → Clinch → Takedown → Ground | Strikes → Clinch → Wall → Damage |
-    | Ground control is goal | Wall control is goal |
-    | Transitions through wall | Stays on wall |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Distance from the wall, escape-angle attempts, weight distribution → cutting direction and which strike moves them.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Wall contact (back to the cage) → escape vs. clinch-defense mode; when to establish the clinch.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own pressure angle and positioning relative to the wall → cutting efficiency and available options.</p></div>
+    </div>
 
-    Choose this pathway when ground isn't advantageous or dirty boxing is the game plan.
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the <b>open space closes onto the wall over time</b> — is the gap-closure rate trending the defender toward the cage, and does the sequence reach wall control with damage? Track wall pins achieved, whether strikes purposefully move the defender, and clean escapes. When herding reliably closes the space, the skill has formed.</p>
 
-## Win Conditions
+    <p class="emma-sub">Representativeness</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Establish wall control AND land damage (knees, dirty boxing) |
-| **Defender** | Escape wall cleanly OR reverse position |
+    <p class="emma-hl"><b>Models:</b> cage-cutting and dirty boxing against the fence — a dominant pressure-fighter and wrestler strategy.</p>
 
-**On attacker win:** Roles switch.
-**On defender win:** Reset to open space, same roles.
+    <div class="emma-meta"><span>Progressive: damage added</span><span>counters added later</span><span>clear wall-pin win</span></div>
 
----
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Cage-cutting transfers directly to competition — leads into <a href="../wall-grinding/">Wall Grinding</a> and <a href="../wall-control/">Wall Control</a>.</p>
 
-## Levels
+    <p class="emma-sub">Readiness to progress</p>
 
-=== "Level 1 — Pressure to Wall Only"
-    - Focus on driving to wall with strikes
-    - Once on wall, establish control (no extended damage)
-    - Focus: Closing and pinning
+    <ul class="emma-checklist">
+      <li>Consistently herds the defender to the wall</li>
+      <li>Strikes move the defender — purposeful, not just volume</li>
+      <li>Wall control established without excessive effort</li>
+      <li>Damage flows naturally from the wall position</li>
+      <li>Can articulate: "I cut their angle by…"</li>
+    </ul>
 
-=== "Level 2 — Add Wall Damage"
-    - Once wall control established, work damage
-    - Dirty boxing, knees, grinding
-    - Focus: Damage from wall position
+    <p class="emma-sub">Warning signs</p>
 
-=== "Level 3 — Defender Counters"
-    - Defender can counter-strike during pressure phase
-    - Attacker must close through counters
-    - Focus: Pressure under threat
+    <div class="emma-warns">
+      <span class="emma-warn">Chases instead of cuts</span>
+      <span class="emma-warn">Pushes instead of strikes</span>
+      <span class="emma-warn">Defender escapes repeatedly</span>
+      <span class="emma-warn">Wall position doesn't lead to damage</span>
+    </div>
 
-=== "Level 4 — Full MMA Expression"
-    - Defender can counter, clinch, OR shoot
-    - Attacker must achieve wall while managing all threats
-    - Focus: Wall pressure under MMA reality
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+??? note "Safety &amp; related games"
 
----
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on excessive force or uncontrolled pressure</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if wall work becomes grinding without purpose</span>
+    </div>
 
-## Constraints Analysis
+    <p class="emma-sub">Where it sits</p>
 
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker must use strikes to create pressure (not just pushing) | Develops striking-based herding |
-| **Task** | Goal is wall control + damage (not takedown) | Distinct from Pressure to Takedown pathway |
-| **Task** | Defender cannot back up infinitely (wall exists) | Creates decision points for defender |
-| **Task** | Progressive options (pressure → damage → counters → full MMA) | Scaffolded learning |
-| **Individual** | Prerequisite: Pressure to Clinch | Understands clinch and pressure dynamics |
-| **Environmental** | Wall/cage is available and is the destination | Environmental constraint shapes entire game |
-
-!!! info "Theoretical Foundation"
-    This game develops **cage-cutting affordance perception**—the ability to read angles and herd opponents to the wall. The wall constraint creates natural decision points; the defender must escape early or face the wall. The attacker learns to use strikes purposefully (for movement, not just damage), developing **fight IQ** about spatial control (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's distance from wall | Pressure intensity |
-| **Visual** | Defender's escape angle attempts | Cutting direction |
-| **Visual** | Defender's weight distribution | Which strike will move them |
-| **Visual** | Wall contact (defender's back to cage) | When to establish clinch |
-| **Proprioceptive** | Own pressure angle | Cutting efficiency |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's cutting angle | Escape direction |
-| **Visual** | Distance to wall behind | Urgency of escape |
-| **Visual** | Attacker's striking patterns | Counter opportunity |
-| **Haptic** | Wall contact | Escape vs. clinch defense mode |
-| **Proprioceptive** | Own positioning relative to wall | Available options |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "Are your strikes moving them or just hitting them?" The goal is purposeful striking that herds to the wall. Ask defenders: "Did you know how close the wall was?" to develop spatial awareness.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Cage-cutting and dirty boxing against the fence—a dominant strategy in MMA for pressure fighters and wrestlers who prefer wall work over ground work.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Herding with strikes** | Cage cutting common | Same | High |
-| **Wall as destination** | Dirty boxing, clinch grinding | Same | High |
-| **Wall damage** | Knees, dirty boxing, grinding | Progressive by level | Scaffolded |
-| **Consequence** | Damage accumulation at wall | Win on control + damage | Analogous |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Progressive damage addition | Allows focus on pressure first, then damage |
-| Defender counters added later | Develops herding before managing counter threat |
-| Clear wall pin win condition | Structure for evaluation |
-
-!!! note "Transfer Expectation"
-    Cage-cutting developed here transfers directly to MMA competition. Fighters who can herd opponents to the wall control where the fight happens. The spatial perception—knowing when wall contact is imminent—is identical in competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Defender style** | Active movers, counter strikers, clinch-seekers | Multiple herding solutions |
-| **Starting position** | Center, near wall, various angles | Different herding problems |
-| **Wall shape** | Flat wall, curved cage | Environmental adaptability |
-| **Intensity** | Light pressure, heavy pressure | Intensity calibration |
-| **Damage emphasis** | Dirty boxing focus, knee focus | Full wall damage vocabulary |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Strikes must create pressure (not just pushing) | Core constraint developing purposeful striking |
-| Wall is destination (not ground) | Distinguishes from Pressure to Takedown |
-| Wall exists | Essential environmental constraint |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Consistent wall pins achieved | Herding skill developing |
-| Strikes purposefully move defender | Understanding pressure striking |
-| Damage flows from wall position | Ready for defender resistance |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Consistently herds defender to wall
-- [ ] Strikes move defender (purposeful, not just volume)
-- [ ] Wall control established without excessive effort
-- [ ] Can articulate: "I cut their angle by..."
-- [ ] Damage flows naturally from wall position
-
-### Ready to Exit Game When
-
-- [ ] Level 3+ competence (closes through counters)
-- [ ] Cage-cutting is instinctive
-- [ ] Wall work integrates with Wall Control/Wall Grinding games
-- [ ] Herding appears naturally in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Chases instead of cuts | Not reading angles | Slow down, emphasize cutting |
-| Pushes instead of strikes | Not integrating striking | Reinforce constraint |
-| Defender escapes repeatedly | Herding not effective | Work on angle control |
-| Wall position doesn't lead to damage | Not exploiting position | Focus on Level 2 damage work |
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate
-- **Stop conditions:** Excessive force, uncontrolled pressure
-- **Coach intervention:** Reset if wall work becomes grinding without purpose
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Pressure to Clinch] --> B[Pressure to Wall]
-    B --> C[Wall Grinding]
-    B --> D[Wall Control]
-
-    style B fill:#FF5722,color:#fff
-```
-
-- **Prerequisite games:** [Pressure to Clinch](pressure-to-clinch.md)
-- **Follow-on games:** [Wall Grinding](wall-grinding.md), [Wall Control](wall-control.md)
-- **Related concepts:** [Hand Controls](../concepts/hand-controls.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as wall pressure patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-clinch/">Pressure to Clinch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-grinding/">Wall Grinding</a> · <a href="../wall-control/">Wall Control</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/hand-controls/">Hand Controls</a></span></div>
+    </div>

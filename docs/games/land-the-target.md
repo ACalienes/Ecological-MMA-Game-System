@@ -32,20 +32,42 @@ tags:
 
 An offensive development game that teaches the attacker to read defensive patterns, use the Three Zones principle, and land specific targets through setup and misdirection — while the defender resists without any counter-threat.
 
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range, inside a marked perimeter, with the attacker holding one target in mind.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land the declared target by reading &amp; opening the defense; the defender is trying to protect all three zones.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land the target → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the defender's <i>guard reactions to your probes</i> — how their shell shifts when you threaten a zone — together with the <i>rate of expansion</i> (τ) of your own committing shot toward the opening at <b>center mass</b>. The opening you read isn't where the guard <i>is</i>; it's where it <i>goes</i> when you make it move.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range — close enough to threaten, with room to create angles.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker lands the declared target.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker picks a target and initiates; reset to neutral after each exchange.</div>
+</div>
+
 <p class="emma-glabel">The Matchup</p>
 
 <div class="emma-matchup">
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🥊</div>
     <div class="emma-fighter__role">Attacker</div>
-    <p class="emma-fighter__obj">Land a predetermined target shot by reading the defense and creating openings.</p>
+    <p class="emma-fighter__obj">Trying to land a predetermined target shot by reading the defense and creating openings.</p>
     <span class="emma-pop">Probe, identify, set up, then commit. You may attack other zones as setup — but you only win when you land your <em>declared</em> target.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🛡️</div>
     <div class="emma-fighter__role">Defender</div>
-    <p class="emma-fighter__obj">Defend all three zones — head, body, legs — effectively. No countering.</p>
+    <p class="emma-fighter__obj">Trying to defend all three zones — head, body, legs — effectively. No countering.</p>
     <span class="emma-pop">Defend naturally with the full toolkit (block, parry, slip, move). You have no win condition — your success is making the attacker work for every opening.</span>
   </div>
 </div>
@@ -62,9 +84,9 @@ An offensive development game that teaches the attacker to read defensive patter
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Land your predetermined target shot cleanly → roles switch.<span class="emma-pop">A clean landing means solid contact reaching the target zone with real energy transfer — not a whiff, graze, or blocked shot. Land it and you become the defender.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender · No score</span> Success is making the attacker work.<span class="emma-pop">The defender has no win condition. Success is measured by maintaining solid defense across all zones and forcing the attacker to read, set up, and commit.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Honor system</span> The attacker claims the win honestly.<span class="emma-pop">The attacker calls their own clean target landing. This is an academic exercise — claiming false wins only cheats yourself.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker lands the declared target shot cleanly, the players switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target zone with real energy transfer — not a whiff, graze, or blocked shot. Land it and you become the defender.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the target is whiffed, grazed, or blocked, reset to neutral — same roles — and read again.<span class="emma-pop">A failed attempt isn't a loss; it's information. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> When the defender denies every opening, that's a diagnostic success — the defender has no win condition.<span class="emma-pop">The defender has no win condition. Success is measured by maintaining solid defense across all zones and forcing the attacker to read, set up, and commit. The attacker calls their own clean landing on the honor system — this is an academic exercise.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
@@ -78,15 +100,7 @@ An offensive development game that teaches the attacker to read defensive patter
 
 <p class="emma-glabel">Go Deeper</p>
 
-??? note "Setup &amp; task focus"
-
-    <p class="emma-sub">Entry</p>
-
-    <div class="emma-chips">
-      <span class="emma-chip"><span class="emma-chip__i">📍</span> Neutral standing, striking range</span>
-      <span class="emma-chip"><span class="emma-chip__i">🎯</span> Attacker has a target in mind</span>
-      <span class="emma-chip"><span class="emma-chip__i">🔄</span> Reset &amp; switch when target lands</span>
-    </div>
+??? note "Task focus &amp; coaching cues"
 
     <p class="emma-sub">Each role's job</p>
 
@@ -123,6 +137,10 @@ An offensive development game that teaches the attacker to read defensive patter
       <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Contact on setup strikes → confirms defensive commitment.</p></div>
       <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own distance and angle → when in range for the target shot.</p></div>
     </div>
+
+    <p class="emma-sub">What we measure (order parameter)</p>
+
+    <p class="emma-hl">Whether the <b>committing shot lands on the opening the probe created</b> — track target-landed vs. attempts, and whether each landing followed a genuine setup (read → open → commit) rather than a repeated guess. That coupling of opening-read to committed strike is the order parameter; when it stabilizes, intentional offense has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 

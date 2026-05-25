@@ -30,20 +30,42 @@ tags:
 
 The primary space-control game: manage distance through movement and pressure, then convert successful pressure into the clinch and wall pin.
 
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters in open space at neutral distance, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The outside player is trying to pressure &amp; clinch; the inside player is trying to keep space &amp; escape.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clinch / wall pin → attacker scores · Escape or reverse → defender scores · Leave the perimeter → loss.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>global optic flow of closing pressure</i> — how fast the gap is shrinking and which way space is collapsing — plus the <i>rate of closure</i> (τ) on clinch entries. <b>Near</b> distance affords the clinch and offense; <b>far</b> affords escape and defense. Read the <i>shrinking of open space</i>, not the opponent's hands or feet — that information specifies <i>when</i> the pin is on and <i>where</i> the escape lane still lives.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, in open space at neutral distance — one outside, one inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking distance with room to move — a gap exists to be closed or kept.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (circle, square, taped lines, cones, or wall). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One outside player (attacker), one inside player (defender) — switched between rounds.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Both begin at neutral distance; reset to neutral after each exchange or score.</div>
+</div>
+
 <p class="emma-glabel">The Matchup</p>
 
 <div class="emma-matchup">
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🥊</div>
     <div class="emma-fighter__role">Outside Player (Attacker)</div>
-    <p class="emma-fighter__obj">Apply pressure to control space, close distance, and establish the clinch.</p>
+    <p class="emma-fighter__obj">Trying to apply pressure to control space, close distance, and establish the clinch.</p>
     <span class="emma-pop">Corral the opponent toward the boundary, cut off lateral escapes, and convert pressure to clinch and clinch to wall pin. Cut angles — don't chase.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🦶</div>
     <div class="emma-fighter__role">Inside Player (Defender)</div>
-    <p class="emma-fighter__obj">Maintain access to open space, escape pressure, and prevent the clinch.</p>
+    <p class="emma-fighter__obj">Trying to maintain access to open space, escape pressure, and prevent the clinch.</p>
     <span class="emma-pop">Keep space through movement, avoid being flattened against the boundary, and escape or reverse if the clinch is initiated.</span>
   </div>
 </div>
@@ -51,7 +73,7 @@ The primary space-control game: manage distance through movement and pressure, t
 <p class="emma-glabel">The Rules</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⭕</span> Visible circular boundary<span class="emma-chip__detail">Play happens inside a visible or imagined circular boundary — a training ring, tape, cones, or wall. The boundary creates spatial awareness and urgency.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⭕</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (circle, square, taped lines, cones, or wall). The boundary creates spatial awareness and urgency; if both feet leave it, you lose instantly.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No takedowns until Level 5<span class="emma-chip__detail">Takedowns are off-limits until the final level, keeping the focus on completing the clinch and wall-pin sequence.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> Movement is continuous<span class="emma-chip__detail">Static exchanges reset — both players must keep moving so the spatial battle stays live.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤼</span> Clinch from controlling position<span class="emma-chip__detail">The clinch must be established from a controlling position with the attacker on the outside. If the attacker gets reversed to the wall side, the defender wins the exchange.</span></span>
@@ -61,9 +83,9 @@ The primary space-control game: manage distance through movement and pressure, t
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Establish the clinch / wall pin, per level.<span class="emma-pop">Level 2: establish clinch in a controlling position. Level 3: achieve a wall pin. Level 4: hold the pin 3–5 seconds. Level 5: wall pin or takedown.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Escape, reverse to the wall side, or prevent the pin.<span class="emma-pop">Escape the pressure or clinch, reverse the attacker to the wall side, or prevent the pin — scaled by level. At Level 5 a counter-strike to reset also counts.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Level 1</span> Time-based — no winner.<span class="emma-pop">The opening level is time-based with no winner. Both players experience pressure and escape patterns before contact is added. Rounds run 60–90 seconds.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> When the attacker establishes the clinch / wall pin per level, the attacker scores.<span class="emma-pop">Level 2: establish clinch in a controlling position. Level 3: achieve a wall pin. Level 4: hold the pin 3–5 seconds. Level 5: wall pin or takedown.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> When the defender escapes, reverses to the wall side, or prevents the pin, the defender scores.<span class="emma-pop">Escape the pressure or clinch, reverse the attacker to the wall side, or prevent the pin — scaled by level. At Level 5 a counter-strike to reset also counts.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Level 1</span> Time-based — no winner; both players experience the pressure and escape patterns.<span class="emma-pop">The opening level is time-based with no winner. Both players experience pressure and escape patterns before contact is added. Rounds run 60–90 seconds.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
@@ -78,15 +100,7 @@ The primary space-control game: manage distance through movement and pressure, t
 
 <p class="emma-glabel">Go Deeper</p>
 
-??? note "Setup &amp; task focus"
-
-    <p class="emma-sub">Entry</p>
-
-    <div class="emma-chips">
-      <span class="emma-chip"><span class="emma-chip__i">📍</span> Both start in open space</span>
-      <span class="emma-chip"><span class="emma-chip__i">⭕</span> Visible or imagined circular boundary</span>
-      <span class="emma-chip"><span class="emma-chip__i">🔄</span> Roles switch between rounds; reset to neutral distance</span>
-    </div>
+??? note "Task focus &amp; coaching cues"
 
     <p class="emma-sub">Each role's job</p>
 
@@ -107,7 +121,7 @@ The primary space-control game: manage distance through movement and pressure, t
     <p class="emma-sub">Constraints → Affordances</p>
 
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from">Visible boundary</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates spatial awareness and urgency</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Marked perimeter</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates spatial awareness and urgency</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Asymmetric roles</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Defines distinct movement solutions</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Clinch as win condition</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Gives purpose to pressure (not just pushing)</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Wall pin as complete success</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Teaches full sequence completion</span></div>
@@ -123,6 +137,10 @@ The primary space-control game: manage distance through movement and pressure, t
       <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual (Defender)</div><p>Available space, the attacker's cutting angles, and clinch-entry timing → urgency of escape and when to frame or reverse.</p></div>
       <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own balance, position relative to center, and balance during clinch → composure under pressure, spatial awareness, and reversal opportunity.</p></div>
     </div>
+
+    <p class="emma-sub">What we measure (order parameter)</p>
+
+    <p class="emma-hl">Whether <b>open space is opening or closing over time</b> — track the distance the inside player keeps and the rate the gap shrinks under pressure, then whether the sequence reaches clinch and pin. That distance-closure relationship is the order parameter; when the attacker reliably collapses space and the defender reliably preserves escape lanes, the skill has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 

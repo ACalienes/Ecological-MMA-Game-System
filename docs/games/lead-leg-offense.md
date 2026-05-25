@@ -20,283 +20,159 @@ tags:
 
 # Lead Leg Offense
 
-!!! info "Game Identity"
-    - **Problem:** Developing offensive capability with the lead leg only
-    - **Environment:** Skill Isolation
-    - **Stage:** Access (Offensive Skill Development)
+<div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
+
+Develop the lead leg as a weapon. The attacker can *only* use the lead leg — teep, lead round kick, lead side kick — which forces range management, timing, and variety with the fastest, lowest-commitment kicking tool. The defender resists without any counter-threat.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at kicking range, inside a marked perimeter, with the attacker restricted to the lead leg.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean lead leg strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the defender's <i>guard &amp; stance reactions to your lead-leg probes &amp; feints</i> — how their shell and weight shift when you threaten a level — together with the <i>rate of expansion</i> (τ) of your committing teep or round kick toward the opening at <b>center mass</b>. The opening you read isn't where the guard <i>is</i>; it's where it <i>goes</i> when you make it move.</p>
 
-This is a **beginner offensive skill isolation game** that develops lead leg offense. The attacker can ONLY use their lead leg, forcing them to find range, timing, and variety with kicks from the front leg.
+<p class="emma-glabel">The Starting Position</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players in neutral standing at kicking range; reset to neutral after each attack.
-    - **Attacker:** Land clean strikes using the lead leg only — teep, lead round kick, lead side kick (no hands, no rear leg).
-    - **Defender:** Defend against lead leg attacks using any defensive solution — no counters.
-    - **Win:** Attacker wins by landing a clean lead leg strike; defender has no win condition (success is defensive quality).
-    - **Why it matters:** Develops the lead leg as a weapon — finding range, timing, and variety within a tight constraint.
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Kicking range — far enough for the lead leg to reach, with room to adjust distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker lands a clean lead leg strike.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
+</div>
 
----
+<p class="emma-glabel">The Matchup</p>
 
-## Goal
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🦵</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to land a clean lead leg strike — teep, lead round kick, or lead side kick — by reading the defense and managing range.</p>
+    <span class="emma-pop">Lead leg only. The fastest kicking weapon — find variety across levels: teep body/face, round kick leg/body/head, side kick. Manage distance for each tool.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to defend all lead leg attacks effectively. No countering.</p>
+    <span class="emma-pop">Defend naturally with the full toolkit (check, catch, evade, move). You have no win condition — your success is making the attacker work for every opening.</span>
+  </div>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">The Rules</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Land clean strikes using lead leg only |
-| **Defender** | Defend against lead leg attacks (defense only, no counter) |
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🦵</span> Lead leg only<span class="emma-chip__detail">The attacker uses <strong>only</strong> the lead leg — teep, lead round kick, lead side kick. No hands, no rear leg. This forces range management and variety with the fastest kicking tool.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Defender cannot counter<span class="emma-chip__detail">At Level 1 the defender plays pure defense. Removing the counter-threat lets the attacker focus entirely on range and timing.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎯</span> All targets allowed<span class="emma-chip__detail">Head, body, and legs are all fair game. Multiple target levels invite level variation within the lead-leg constraint.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Maintain kicking range<span class="emma-chip__detail">Both players hold kicking range so the lead leg stays viable and effective — closer for round kicks, further for teeps.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset after each attack<span class="emma-chip__detail">Reset to a neutral stance after a clean strike lands or after a set time, so each rep begins from the same problem.</span></span>
+</div>
 
-The objective is **weapon development**, not competition.
+<p class="emma-glabel">How to Win</p>
 
----
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker lands a clean lead leg strike, the players switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or checked kick. Land it and you become the defender.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the kick is whiffed, grazed, or defended, reset to neutral — same roles — and read again.<span class="emma-pop">A failed attempt isn't a loss; it's information. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> When the defender denies every opening, that's a diagnostic success — the defender has no win condition.<span class="emma-pop">The defender's success is measured by quality of defense, not points. Forcing the attacker to read, set up, and commit is the goal.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">The Levels</p>
 
-- Both players start in neutral standing position at kicking range
-- Attacker can only use lead leg (teep, lead round kick, lead side kick, etc.)
-- Defender uses any defensive solution but cannot counter
-- Reset after clean strike lands or set time
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Defense only</b>Defender can't counter.<span class="emma-pop emma-pop--l">Pure offensive development — lead leg only against a defender who can't counter. Build timing and range with zero counter-threat.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add counter threat</b>Counters after good defense.<span class="emma-pop emma-pop--l">The defender can fire counters once they defend successfully. You land kicks while managing the counter risk.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the lead leg under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Invariants
+??? note "Task focus &amp; coaching cues"
 
-1. Attacker uses **lead leg ONLY** — no hands, no rear leg
-2. Defender can **defend only** — no counters at Level 1
-3. Both players maintain appropriate range
-4. Reset to neutral after each successful attack
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🦵</div><div class="emma-card__t">Attacker</div><p>Find openings with the lead leg; vary targets head/body/legs; vary kick types teep/round/side; manage distance for effective kicking.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Defend all lead leg attacks with appropriate solutions (check, catch, evade); provide realistic resistance; never counter at Level 1.</p></div>
+    </div>
 
-## Task Focus
+    <p class="emma-sub">Coaching cues</p>
 
-### Attacker
-- Find openings using only the lead leg
-- Vary targets (head, body, legs)
-- Vary kick types (teep, round kick, side kick)
-- Manage distance for effective kicking
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">"What range were you at?"</div><p>Ask after each rep. This develops perception of distance management for different lead leg tools.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">The fastest kicking weapon</div><p>Teep body, teep face, lead round kick leg/body/head, lead side kick, feint any of them. Quick, non-committal kicking offense.</p></div>
+    </div>
 
-### Defender
-- Defend all lead leg attacks
-- Use appropriate defensive solutions (check, catch, evade)
-- Provide realistic resistance
+??? abstract "Constraints-Led analysis"
 
-!!! question "Key Internal Questions — Attacker"
-    - "Am I at the right range for this kick?"
-    - "What opening exists for my lead leg?"
-    - "Can I create openings with feints or level changes?"
+    <p class="emma-sub">Constraints → Affordances</p>
 
----
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Lead leg only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces exploration of quick, non-committal kicks</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender can't counter (L1)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Focus on range and timing</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">All lead-leg tools available</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Invites discovery of teep, round kick, side kick options</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Multiple target levels allowed</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Encourages level variation (head, body, leg)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Kicking range maintained</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Lead leg is viable and effective</span></div>
+    </div>
 
-## Key Logic: Lead Leg Versatility
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — different fighters develop different lead leg preferences based on hip flexibility, stance width, and balance.</p>
 
-!!! note "The Core Skill"
-    The lead leg is the fastest kicking weapon. Within the constraint:
+    <p class="emma-sub">What the attacker reads</p>
 
-    - Teep to body (push kick)
-    - Teep to face
-    - Lead round kick to leg
-    - Lead round kick to body
-    - Lead round kick to head
-    - Lead side kick
-    - Feints with any of the above
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Distance, stance/weight distribution, guard position, reaction timing → kick selection, target availability, when to throw vs. feint.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Contact quality → whether the kick landed clean.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Hip position and balance, range to target → kick execution, recovery, and selection.</p></div>
+    </div>
 
-    Develops quick, non-committal kicking offense.
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the <b>committing lead-leg kick lands on the opening a probe created</b> — track target-landed vs. attempts, and whether each landing followed a genuine read → open → commit cycle rather than a repeated guess. That coupling of opening-read to committed kick is the order parameter; when it stabilizes, intentional lead-leg offense has formed.</p>
 
-## Win Conditions
+    <p class="emma-sub">Representativeness</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Land a clean lead leg strike |
-| **Defender** | No win condition — success is measured by quality of defense |
+    <p class="emma-hl"><b>Models:</b> using the lead leg to control distance, disrupt rhythm, and find openings — the quickest kicking tool for range management.</p>
 
-**On attacker win:** Roles switch — attacker becomes defender.
+    <div class="emma-meta"><span>Simplified: lead leg only</span><span>no counter (L1)</span><span>role switch on success</span></div>
 
----
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Range management and quick-fire skills transfer directly into <a href="../land-the-target/">Land the Target</a>, where all weapons integrate.</p>
 
-## Levels
+    <p class="emma-sub">Readiness to progress</p>
 
-=== "Level 1 — Defense Only"
-    - Attacker: Lead leg only
-    - Defender: Defense only, no counters
-    - Focus: Develop lead leg timing and range
+    <ul class="emma-checklist">
+      <li>Lands lead leg consistently (~50%+)</li>
+      <li>Uses 3+ tools (teep, round, side kick)</li>
+      <li>Varies targets without prompting</li>
+      <li>Maintains balance after kicking</li>
+      <li>Manages distance to set up kicks</li>
+    </ul>
 
-=== "Level 2 — Add Counter Threat"
-    - Defender can throw counters after successful defense
-    - Attacker must respect counter threat
-    - Focus: Landing kicks while managing risk
+    <p class="emma-sub">Warning signs</p>
 
-=== "Level 3 — Full MMA Expression"
-    - Defender can counter-strike OR shoot/clinch
-    - Attacker must land lead leg while respecting all threats
-    - Focus: Lead leg offense under MMA pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+    <div class="emma-warns">
+      <span class="emma-warn">Only throws teeps</span>
+      <span class="emma-warn">Only targets the body</span>
+      <span class="emma-warn">Loses balance after kicks</span>
+      <span class="emma-warn">Range is consistently wrong</span>
+    </div>
 
----
+??? note "Safety &amp; related games"
 
-## Constraints Analysis
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate, controlled kicks</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on excessive force or lost composure</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if attacker uses non-lead-leg weapons</span>
+    </div>
 
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+    <p class="emma-sub">Where it sits</p>
 
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker uses lead leg only | Forces exploration of quick, non-committal kicks |
-| **Task** | Defender cannot counter (Level 1) | Attacker can focus on range and timing |
-| **Task** | All lead leg tools available | Invites discovery of teep, round kick, side kick options |
-| **Task** | Multiple target levels allowed | Encourages level variation (head, body, leg) |
-| **Individual** | Skill level matching | Appropriate challenge for development |
-| **Environmental** | Kicking range maintained | Lead leg is viable and effective |
-
-!!! info "Theoretical Foundation"
-    This game implements **Constrain to Afford** (Renshaw et al., 2019). By limiting the attacker to lead leg only, the environment invites exploration of the fastest kicking weapon. Different fighters will develop different lead leg preferences based on individual constraints (hip flexibility, stance width, balance).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's distance | Kick selection based on range |
-| **Visual** | Defender's stance/weight distribution | Target availability |
-| **Visual** | Defender's guard position | Which targets are open |
-| **Visual** | Defender's reaction timing | When to throw vs. feint |
-| **Proprioceptive** | Hip position and balance | Kick execution and recovery |
-| **Proprioceptive** | Range to target | Kick selection |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's hip chamber/loading | Early detection of kick |
-| **Visual** | Attacker's weight shift | Which kick is coming |
-| **Visual** | Kick trajectory | Defense selection (check, catch, evade) |
-| **Haptic** | Contact quality | Confirming defense effectiveness |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "What range were you at for that kick?" This develops their perception of distance management for different lead leg tools.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Using the lead leg to control distance, disrupt rhythm, and find openings—the quickest kicking tool for range management.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Weapon** | All strikes available | Lead leg only | Isolated |
-| **Defense** | Full defense + counters | Defense only (Level 1) | Simplified |
-| **Targets** | All targets | All targets | Full |
-| **Consequence** | Damage/disruption | Role switch | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Lead leg only | Isolates the fastest, lowest-commitment kicking weapon |
-| No hands or rear leg | Forces exploration of lead leg variety |
-| No counters at Level 1 | Allows focus on range and timing development |
-
-!!! note "Transfer Expectation"
-    Athletes who develop lead leg proficiency here transfer to [Land the Target](land-the-target.md) where all weapons integrate. The range management and quick-fire skills transfer directly to combination offense.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Defender** | Rotate training partners | Different defensive styles to solve |
-| **Kick emphasis** | Teep sessions, round kick sessions, side kick sessions | Complete lead leg development |
-| **Target emphasis** | Body-focused, leg-focused, head-focused | Full target repertoire |
-| **Distance** | Closer (round kicks), further (teeps) | Range adaptability |
-| **Tempo** | Fast bursts, patient single shots | Timing adaptability |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Lead leg only | Core constraint defining the game |
-| No hands/rear leg | Forces lead leg creativity |
-| Kicking range | Maintains lead leg viability |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Uses multiple kick types | Weapon variety developing |
-| Varies targets (body, leg, head) | Target selection improving |
-| Manages range effectively | Distance awareness developing |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Lands lead leg strikes consistently (50%+ success)
-- [ ] Uses at least 3 different lead leg tools (teep, round kick, side kick)
-- [ ] Varies targets without prompting
-- [ ] Maintains balance after kicking
-- [ ] Manages distance to set up kicks
-
-### Ready to Exit Game (Move to Land the Target) When
-
-- [ ] Level 2+ competence (handles counter threat)
-- [ ] Lead leg kicks integrate naturally into offense
-- [ ] Expresses desire to add hands/rear leg
-- [ ] Lead leg success maintains across varied defenders
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Only throws teeps | Limited variety | Introduce round kick/side kick focus |
-| Only targets body | Incomplete development | Leg and head-focused rounds |
-| Loses balance after kicks | Recovery underdeveloped | Slower tempo, emphasize structure |
-| Range is consistently wrong | Distance perception lacking | More range-finding practice |
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — controlled kicks
-- **Stop conditions:** Loss of composure, excessive force
-- **Coach intervention:** Reset if attacker uses non-lead-leg weapons
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Lead Leg Offense] --> B[Land the Target]
-    B --> C[Touch Game]
-
-    style A fill:#FF5722,color:#fff
-```
-
-- **Prerequisite games:** None — this is foundational
-- **Follow-on games:** [Land the Target](land-the-target.md) (integrates all weapons)
-- **Related concepts:** [Three Zones of Attack](../concepts/three-zones.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as offensive skill isolation patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None — this is foundational</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../land-the-target/">Land the Target</a> (integrates all weapons)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/three-zones/">Three Zones of Attack</a></span></div>
+    </div>

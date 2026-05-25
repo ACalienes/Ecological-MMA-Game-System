@@ -71,7 +71,7 @@ This is an **asymmetric game** with roles that switch on a win. The objective sh
 
 ### Defense
 - Maintain a tight shell; absorb on arms/gloves, not exposed targets
-- Keep eye contact on **center mass** to read incoming strikes (see [Close-Range Defense](close-range-defense.md#reading-center-mass))
+- Keep eye contact on **center mass** to read incoming strikes (see [Close-Range Defense](close-range-defense.md))
 - **Base down — bend the knees, create suspension** so strike force doesn't rob your counters
 - Use hand controls to interrupt the opponent's boxing; redirect directional force rather than absorb it
 - Stay conscious of where your feet are relative to the boundary

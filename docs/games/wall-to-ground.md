@@ -27,293 +27,159 @@ tags:
 
 # Wall Pin → Ground Control
 
-!!! info "Game Identity"
-    - **Problem:** Converting vertical control to horizontal control
-    - **Environment:** Wall → Ground
-    - **Stage:** Stabilize → Exploit
+<div class="emma-meta"><span>Wall → Ground</span><span>Wrestling</span><span>Offensive</span><span>Intermediate</span><span>Stabilize → Exploit</span></div>
+
+Convert vertical control into horizontal control. From an established wall pin, bring the opponent down safely and land in hip-and-shoulder control — the first game where the ground becomes the dominant environment. The point is the controlled transition, not the takedown itself.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Established wall pin — attacker in control, defender's escape options limited.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to bring the opponent down with control intact; the defender is trying to scramble, stand, or exploit a sloppy descent.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Hip + shoulder control for 2–3s → attacker wins · Scramble, stand, or reverse → defender wins.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through your grips, and the moment the opponent's base goes</i> — the load through the clinch that tells you their weight is committed and a descent is available, versus when it must be forced. That changing resistance specifies <i>when</i> to go and <i>where</i> the weight wants to fall — not a memorized takedown entry.</p>
 
-This game teaches the **transition from standing wall control to ground control**. It is the first game where the ground becomes the dominant environment.
+<p class="emma-glabel">The Starting Position</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Start from an established wall pin with the attacker in control and the defender's escape options limited.
-    - **Attacker:** Bring the opponent to ground safely and establish hip/shoulder control — off-balance first, no dumping bodyweight.
-    - **Defender:** Scramble during the descent, use the wall to stand, or exploit sloppy transitions.
-    - **Win:** Attacker wins with controlled hip and shoulder control on the ground (2–3 seconds); defender wins by scrambling to neutral, standing up, or reversing.
-    - **Why it matters:** Develops the controlled transition from wall to ground — control precedes gravity.
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one attacker transitioning to ground, one defender contesting the descent.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Established wall pin — attacker in control, defender's escape options already limited.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A wall or cage within a marked perimeter, transitioning onto mats. The wall starts dominant, then the ground takes over.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker brings the opponent down and establishes ground control; defender scrambles, uses the wall to stand, or exploits a sloppy transition.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates the transition from the pin. Reset if the defender fully escapes to standing or the attacker loses control completely.</div>
+</div>
 
----
+<p class="emma-glabel">The Matchup</p>
 
-## Goal
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🤼</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to bring the opponent to ground safely and establish hip and shoulder control.</p>
+    <span class="emma-pop">Off-balance first, then descend — control precedes gravity, no dumping bodyweight. Shorten the scramble window and land in control, not on top of a scramble.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to scramble during the descent, use the wall to stand, or exploit sloppy transitions.</p>
+    <span class="emma-pop">The transition opens a scramble window — exploit it. Use the wall to stand, attack a dropping head with DNS during the descent, or beat the attacker to control.</span>
+  </div>
+</div>
 
-This is an **asymmetric game** focused on positional transition.
+<p class="emma-glabel">The Rules</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Bring opponent to ground safely and establish hip/shoulder control |
-| **Defender** | Scramble during descent, use wall to stand, or exploit sloppy transitions |
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛑</span> No dumping bodyweight<span class="emma-chip__detail"><strong>Safety-critical, prescriptive.</strong> Control precedes gravity — the attacker may not force the descent by dropping bodyweight or momentum. Connection stays maintained all the way down.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚖️</span> Off-balance before descent<span class="emma-chip__detail"><strong>Prescriptive.</strong> The takedown is created, not forced — the base must be compromised before the descent begins.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🌀</span> Scrambles allowed<span class="emma-chip__detail">Scrambles are expected during the transition. The scramble window is a contested period where both athletes have opportunities.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> 2–3 second ground control<span class="emma-chip__detail">Ground control means hips and shoulders controlled, stable for 2–3 seconds — a control threshold, lower than a TKO pin's dominance.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens against a wall or cage within a marked perimeter — any shape — transitioning onto mats. Both players stay inside it.</span></span>
+</div>
 
-The objective is **controlled transition**, not the takedown itself.
+<p class="emma-glabel">How to Win</p>
 
----
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> When the attacker lands in controlled hip and shoulder control on the ground and holds it 2–3 seconds — the attacker wins.<span class="emma-pop">The defender can't easily stand or reverse, and the position is stable. This is control, not yet dominance.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> When the defender scrambles back to neutral, stands up using the wall, or reverses — the defender wins.<span class="emma-pop">Any of the three exits the position before the attacker can consolidate control.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">The Levels</p>
 
-- Start from established wall pin (attacker has control)
-- Defender's escape options are limited
-- Attacker initiates transition to ground
-- Reset if defender fully escapes to standing or attacker loses control completely
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Controlled descent</b>Bring them down safely.<span class="emma-pop emma-pop--l">No strikes. Success is a descent with maintained connection — the controlled-descent mechanic itself.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Deny scramble</b>Follow and control.<span class="emma-pop emma-pop--l">Defender actively scrambles during descent; attacker must follow and establish control. Success is control despite the scramble attempt.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>TKO pin threat</b>Add the exploit layer.<span class="emma-pop emma-pop--l">After ground control, attacker works toward TKO pin access; strike threats become available. Introduces the exploitation layer.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Strikes throughout.<span class="emma-pop emma-pop--l">Light strikes throughout the transition — attacker to set up and maintain control, defender during the scramble window. Wall-to-ground under realistic striking pressure.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Invariants
+??? note "Task focus &amp; coaching cues"
 
-!!! danger "Safety-Critical Invariants"
-    1. **No dumping bodyweight** — control precedes gravity
-    2. **Off-balancing precedes descent** — takedown is created, not forced
-    3. Scrambles are allowed and expected
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Attacker</div><p>Off-balance, then descend with connection maintained; shorten the scramble window; establish hip and shoulder control immediately on landing.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Exploit the scramble window — use the wall to stand, attack a dropping head, or beat the attacker to control.</p></div>
+    </div>
 
-## Key Logic: Controlled Descent vs Dumping
+    <p class="emma-sub">Coaching cues</p>
 
-| Type | Characteristics | Outcome |
-|------|-----------------|---------|
-| **Controlled descent** | Connection maintained, base compromised first, attacker lands in position | Attacker advantage |
-| **Dumping** | Bodyweight or momentum forces descent, control lost | Scramble favors defender |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Base compromised?</div><p>Ask attackers: "Was their base compromised before you went?" Controlled descent requires reading balance, not forcing through strength.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Scramble window</div><p>The transition is a contested window — posture and balance decide it, and DNS threats are most dangerous here. Attackers shorten it; defenders exploit it.</p></div>
+    </div>
 
-The game explicitly rewards controlled descent and punishes dumping through scramble outcomes.
+??? abstract "Constraints-Led analysis"
 
-### The Scramble Window
+    <p class="emma-sub">Constraints → Affordances</p>
 
-The transition from wall to ground creates a **scramble window** — a period where control is contested.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Control precedes gravity (no dumping)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops controlled descent, not forcing</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Off-balance before descent</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates earned, not forced, takedowns</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Scrambles allowed and expected</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Realistic transition dynamics</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">2–3s hip + shoulder control</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Clear success definition</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Wall → ground transition</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">First environment-change game</span></div>
+    </div>
 
-During this window:
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — develops transition-affordance perception: reading when descent is <i>available</i> versus when it must be forced. The scramble window becomes a shared learning arena.</p>
 
-- Both athletes have opportunities
-- Posture and balance determine outcomes
-- DNS threats are most dangerous
+    <p class="emma-sub">What the players read</p>
 
-Athletes learn to **shorten the scramble window** (attackers) or **exploit it** (defenders).
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Attacker: defender's base stability → when descent is available; connection quality → where to follow. Defender: descent initiation → scramble timing.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Attacker: scramble direction → anticipate and counter. Defender: wall position → stand-up; attacker head → DNS during scramble.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Attacker: own balance during transition → controlled vs. falling.</p></div>
+    </div>
 
-### Ground Control Criteria
+    <p class="emma-sub">What we measure (order parameter)</p>
 
-Ground control is established when:
+    <p class="emma-hl">Whether the attacker keeps the opponent's <b>shoulders and hips pinned flat vs. free to rotate</b> through the descent and into the landing — track whether control survives the scramble window. The press→pin-or-scramble phase transition is the order parameter; the skill has formed when controlled descents consistently end in immediate control.</p>
 
-- [x] Attacker controls defender's hips and shoulders
-- [x] Defender cannot easily stand or reverse
-- [x] Position is stable for 2–3 seconds
+    <p class="emma-sub">Representativeness</p>
 
-!!! note "Lower Threshold than TKO Pin"
-    This represents **control**, not **dominance**.
+    <p class="emma-hl"><b>Models:</b> taking an opponent from cage to ground — controlled descent, scramble-window management, and DNS threats, identical to competition.</p>
 
----
+    <div class="emma-meta"><span>Simplified: start from pin</span><span>no strikes at L1</span><span>2–3s control criteria</span></div>
 
-## Win Conditions
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">First environment-transition game; builds on <a href="../wall-control/">Wall Control</a> and feeds <a href="../standup-loop/">Stand-Up Loop</a>.</p>
 
-| Role | Win Condition |
-|------|---------------|
-| Attacker | Controlled hip and shoulder control on ground (2–3 seconds) |
-| Defender | Scramble (return to neutral), stand-up (using wall), or reversal |
+    <p class="emma-sub">Readiness to progress</p>
 
----
+    <ul class="emma-checklist">
+      <li>Descents are controlled, not dumped</li>
+      <li>Connection maintained through the transition</li>
+      <li>Scrambles won consistently</li>
+      <li>Ground control established in 2–3 seconds</li>
+      <li>Can describe: "I felt their base go so I…"</li>
+    </ul>
 
-## Levels
+    <p class="emma-sub">Warning signs</p>
 
-=== "Level 1 — Controlled Descent"
-    - Focus on bringing opponent to ground safely
-    - No strikes
-    - Success = descent with maintained connection
+    <div class="emma-warns">
+      <span class="emma-warn">Dumps opponents</span>
+      <span class="emma-warn">Loses position in the scramble</span>
+      <span class="emma-warn">Gets DNS'd during descent</span>
+      <span class="emma-warn">Controlled but not controlling</span>
+    </div>
 
-=== "Level 2 — Deny Scramble"
-    - Defender actively scrambles during descent
-    - Attacker must follow and establish control
-    - Success = control despite scramble attempt
+??? note "Safety &amp; related games"
 
-=== "Level 3 — Establish TKO Pin Threat"
-    - After ground control, attacker works toward TKO pin access
-    - Strike threats become available
-    - Introduces the exploitation layer
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Controlled landings — no dumping bodyweight</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on uncontrolled descent or slam</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the attacker forces through strength</span>
+    </div>
 
-=== "Level 4 — Full MMA Expression"
-    - Light strikes permitted throughout transition
-    - Attacker can use strikes to set up takedown and maintain control
-    - Defender can use strikes during scramble window
-    - Focus: Wall-to-ground transition under realistic striking pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+    <p class="emma-sub">Where it sits</p>
 
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Control precedes gravity (no dumping) | Develops controlled descent, not forcing |
-| **Task** | Off-balancing precedes descent | Creates earned takedowns |
-| **Task** | Scrambles allowed and expected | Realistic transition dynamics |
-| **Task** | Ground control criteria (hips + shoulders, 2-3 seconds) | Clear success definition |
-| **Individual** | Prerequisite: Wall Control | Has wall pin skill |
-| **Environmental** | Wall → Ground transition | First environment change game |
-
-!!! info "Theoretical Foundation"
-    This game develops **transition affordance perception**—reading when descent is available (base compromised) vs. when it must be forced. The "control precedes gravity" constraint prevents dumping and develops safe, controlled transitions. The **scramble window** becomes a key learning arena where both athletes explore solutions under dynamic conditions (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Defender's base stability | When descent is available |
-| **Haptic** | Connection quality during descent | Where to follow |
-| **Visual** | Defender's scramble direction | Anticipate and counter |
-| **Proprioceptive** | Own balance during transition | Controlled vs. falling |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Attacker's descent initiation | Scramble timing |
-| **Haptic** | Connection quality | Exploit gaps |
-| **Visual** | Wall position | Stand-up opportunity |
-| **Visual** | Attacker's head position | DNS during scramble |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "Was their base compromised before you went?" This develops the key perception—controlled descent requires reading balance, not forcing through strength.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Taking an opponent from cage to ground—a common MMA transition requiring controlled technique.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Controlled descent** | Required for advantage | Same | High |
-| **Scramble window** | Critical transition period | Same | High |
-| **DNS threats** | Most dangerous during scramble | Same | High |
-| **Ground control** | Hips and shoulders | Same | High |
-| **Strikes** | Available throughout | Progressive by level | Scaffolded |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Start from wall pin | Isolates transition from access |
-| No strikes at Level 1 | Develops mechanics first |
-| 2-3 second control criteria | Ensures stable control, not momentary |
-
-!!! note "Transfer Expectation"
-    Wall-to-ground transitions developed here transfer directly to MMA. The perception of "base compromised" and scramble window management are identical in competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Takedown type** | Trips, lifts, pulls | Multiple descent solutions |
-| **Defender resistance** | Passive, scrambling, explosive | Transition adaptability |
-| **Defender size** | Larger, smaller, equal | Adaptability |
-| **Wall angle** | Flat, corner, curved | Environmental variety |
-| **Intensity** | Drilling pace, live pace | Pressure calibration |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Control precedes gravity | Core safety and skill principle |
-| Off-balancing precedes descent | Prevents forcing |
-| Controlled landings | Safety |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Controlled descents consistently | Core principle understood |
-| Wins scrambles | Transition skill developing |
-| Ground control established quickly | Ready for exploitation |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Descents are controlled (not dumped)
-- [ ] Connection maintained through transition
-- [ ] Scrambles won consistently
-- [ ] Ground control established in 2-3 seconds
-- [ ] Can articulate: "I felt their base go so I..."
-
-### Ready to Exit Game When
-
-- [ ] Level 2+ competence (denies scrambles effectively)
-- [ ] Transition timing is instinctive
-- [ ] Ready to add exploitation (TKO pin threat)
-- [ ] Wall-to-ground appears in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Dumps opponents | Not reading base compromise | Slow down, emphasize control |
-| Loses position in scramble | Follow-through lacking | More reps on scramble denial |
-| Gets DNS'd during descent | Head position neglected | Focus on posture maintenance |
-| Controlled but not controlling | Transition incomplete | Focus on immediate ground establishment |
-
----
-
-## Advanced Expressions (Coach Context)
-
-**For attackers:**
-
-- Descent timing becomes intuitive
-- Scramble anticipation improves
-- Control on ground emerges immediately from transition
-- TKO pin access becomes available directly from descent
-
-**For defenders:**
-
-- Scramble timing becomes precise
-- Wall-assisted recovery becomes instinctive
-- DNS threats become tactical rather than desperate
-- Early posting prevents uncontrolled descent entirely
-
----
-
-## System Position
-
-```mermaid
-flowchart TD
-    A[Wall Control] --> B[Wall → Ground]
-    B --> C[Stand-Up Loop]
-    B -.-> D[TKO Pin emerges]
-
-    style B fill:#2196F3,color:#fff
-    style D fill:#FF5722,color:#fff
-```
-
-This is the **first environment transition game** in the system.
-
----
-
-!!! abstract "System Evolution Notice"
-    Descent mechanics may evolve for safety or realism.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-control/">Wall Control</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../standup-loop/">Stand-Up Loop</a> · TKO Pin emerges</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/tko-pin/">TKO Pin</a> · <a href="../../concepts/full-mma-expression/">Full MMA Expression</a></span></div>
+    </div>

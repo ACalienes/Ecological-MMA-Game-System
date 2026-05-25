@@ -23,336 +23,160 @@ tags:
 
 # Slip the Straight
 
-!!! info "Game Identity"
-    - **Problem:** Learning to evade straight punches using head movement
-    - **Environment:** Open Space
-    - **Stage:** Access (Defensive Skill Isolation)
+<div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Defensive</span><span>Beginner</span><span>Open Space</span></div>
+
+Learn to make straight punches miss with head movement. The defender can *only* slip — moving the head laterally offline — with no blocking, ducking, or backing up, which forces the slipping solution to develop on its own.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean straight to the head; the defender is trying to move the head offline so it misses.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean slip → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) of the incoming straight — how fast the glove grows as it travels toward the head — read via shoulder–hip motion at <b>center mass</b>, not the opponent's eyes or their absolute distance. That information specifies <i>when</i> the punch arrives and <i>which way</i> to move the head offline.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Close quarters — inside punching distance, no gap to retreat into.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the defender slips clean.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to center after each exchange.</div>
+</div>
 
-This is a **beginner skill isolation game** that teaches the slipping defensive solution. The defender can ONLY slip (move head offline), forcing them to develop this specific evasion skill.
+<p class="emma-glabel">The Matchup</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players in neutral standing at close quarters (striking range); reset to neutral after each exchange.
-    - **Attacker:** Land straight punches only — jab or cross — to the defender's head (no hooks, uppercuts, or loops).
-    - **Defender:** Slip only — move the head laterally offline to evade (no blocking, ducking, or backing up).
-    - **Win:** Defender wins by cleanly slipping a punch (full miss); attacker wins by landing a clean punch to the head.
-    - **Why it matters:** Develops the slip as a dedicated evasion skill — pattern recognition and timing over volume.
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to land a clean straight punch — jab or cross — to the defender's head.</p>
+    <span class="emma-pop">Straights to the head only — no hooks, uppercuts, or loops, no body shots. You set the problem: vary timing and which hand, add feints at higher levels, and ramp up only as the defender succeeds.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🌀</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to move the head laterally offline so each straight passes by clean.</p>
+    <span class="emma-pop">No blocking, no ducking, no backing up — pure slipping. Small, efficient movements beat large dramatic ones; absorb while you read, then commit when confident.</span>
+  </div>
+</div>
 
----
+<p class="emma-glabel">The Rules</p>
 
-## Goal
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Straights to the head only<span class="emma-chip__detail">The attacker throws only straight punches to the head — no hooks, uppercuts, or loops, and no body shots. Slipping works only on straight lines, and head targets keep the focus on head movement.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🌀</span> Slip only — no block, no duck<span class="emma-chip__detail">The defender may <strong>only</strong> move the head laterally offline. Blocking, ducking, parrying, and backing up are off-limits, so the slipping solution is forced to develop.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No continuous backing up<span class="emma-chip__detail">The defender can't keep retreating out of range to avoid exchanges — they must stay and solve the problem in the pocket.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset between strikes<span class="emma-chip__detail">At early levels the attacker pauses between strikes so the defender can recenter. Pressure becomes continuous as the levels rise.</span></span>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">How to Win</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Land straight punches (jab or cross) to defender's head |
-| **Defender** | Slip (move head laterally offline) to evade punches |
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the defender slips a punch cleanly — a full miss, not a graze — the players switch roles.<span class="emma-pop">The punch passed by the head without contact. The defender earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the attacker lands a clean punch to the head, reset to center — same roles.<span class="emma-pop">A clean, significant straight that got through. Begin again from a neutral stance, head on center.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+</div>
 
-The objective is **skill development**, not competition.
+<p class="emma-glabel">The Levels</p>
 
----
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Single punch, fixed tempo</b>One straight at a time, reset between.<span class="emma-pop emma-pop--l">Pure timing practice — one straight punch, fully reset between reps, no feints. Build the slip with zero time pressure.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Variable tempo</b>Single punches, no fixed reset.<span class="emma-pop emma-pop--l">The attacker varies timing with no guaranteed reset — the defender has to read rhythm and stay switched on.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add feints</b>Real vs. fake.<span class="emma-pop emma-pop--l">The attacker can feint before throwing. Slipping a feint is wasted movement — the defender must distinguish real from fake.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Two-punch combinations</b>Jab-cross.<span class="emma-pop emma-pop--l">Two-punch combos, still straights only — slip both punches and recover center between them.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Counter after slip</b>One counter allowed.<span class="emma-pop emma-pop--l">After a successful slip the defender may throw one counter — teaching the slip as a setup for offense, not just survival.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too — slip while denying the grappling entry, staying aware of all threats.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">Go Deeper</p>
 
-- Both players start in neutral standing position
-- Close quarters distance (striking range)
-- Roles are assigned; switch after 4 minutes
-- Reset to neutral after each exchange
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Land clean straights to the head; vary timing and which hand; scale difficulty to the partner.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Defender</div><p>Move the head left or right to make the punch miss; slip early; return to center after each slip.</p></div>
+    </div>
 
-1. Attacker throws **straight punches ONLY** (no hooks, uppercuts, or looping strikes)
-2. Defender can **ONLY slip** — no blocking, ducking, or backing up continuously
-3. Attacker allows reset between strikes (no continuous pressure at Level 1)
-4. Head strikes only (slipping body shots is not the skill being developed)
+    <p class="emma-sub">Coaching cues</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">See center mass</div><p>Don't track the gloves or the eyes. Center mass keeps shoulder &amp; hip motion in view — "the little X" — and shows which hand is loading. The eyes lie.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Miss, don't graze</div><p>The punch should pass by completely, not brush you. Small, efficient slips beat big dramatic ones — and one clean miss beats ten late ones.</p></div>
+    </div>
 
-## Task Focus
+??? abstract "Constraints-Led analysis"
 
-### Attacker
-- Land clean straight punches to the head
-- Vary timing and which hand to challenge defender
-- Incorporate feints at higher levels
+    <p class="emma-sub">Constraints → Affordances</p>
 
-### Defender
-- Move head laterally (left or right) to make the punch miss
-- Slip early — read the punch and move before it arrives
-- Return to center after each slip
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Straights only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Defender perceives slip-able attacks</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Slip-only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces exploration of head-movement solutions</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Head strikes only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Clear target zone for both roles</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Reset between exchanges</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Time to recenter and process</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Close range</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Slipping is necessary and viable</span></div>
+    </div>
 
-!!! question "Key Internal Questions"
-    - "Am I moving my head early enough?"
-    - "Is the punch actually missing, or am I getting grazed?"
-    - "Am I resetting to center after each slip?"
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — different fighters develop different slip patterns based on height, reaction time, and stance.</p>
 
----
+    <p class="emma-sub">What the defender reads</p>
 
-## Key Logic: Why Isolate Slipping?
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Shoulder rotation &amp; which hand loads → direction to slip (opposite side).</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Head position relative to centerline → confirming the evasion.</p></div>
+      <div class="emma-card"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Balance</div><p>Balance during and after the slip → recovery to neutral.</p></div>
+    </div>
 
-!!! note "Skill Isolation"
-    Slipping is a fundamental evasion skill. By constraining the defender to slipping only:
+    <p class="emma-sub">What we measure (order parameter)</p>
 
-    - Develops head movement timing and reflexes
-    - Learns to read straight punches early
-    - Builds habit of making punches miss rather than absorbing
+    <p class="emma-hl">Whether the defender's <b>slip lands in time with the punch</b> — track clean misses vs. shots eaten, and whether the head re-sets to center between strikes. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
-### Slipping Mechanics
+    <p class="emma-sub">Representativeness</p>
 
-- **Slip** = Moving head laterally offline (left or right)
-- Works for **straight punches only** (hooks require ducking)
-- The punch should pass by your head, not graze it
-- Small, efficient movements beat large, dramatic ones
+    <p class="emma-hl"><b>Models:</b> making straight punches miss with head movement in open-space exchanges.</p>
 
-### Why Slipping Only Works for Straights
+    <div class="emma-meta"><span>Simplified: straights only</span><span>head only</span><span>slip only</span></div>
 
-| Punch Type | Slip Effectiveness |
-|------------|-------------------|
-| Jab | Yes — moves along centerline |
-| Cross | Yes — moves along centerline |
-| Hook | No — follows you laterally |
-| Uppercut | No — comes from below |
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Isolates the solution before integration — transfers into <a href="../evade-the-punch/">Evade the Punch</a>.</p>
 
-!!! warning "Constraint Creates Skill"
-    By limiting to straight punches, the defender can focus entirely on the slip mechanic without worrying about punch recognition.
+    <p class="emma-sub">Readiness to progress</p>
 
----
+    <ul class="emma-checklist">
+      <li>Clean misses ~70%+ (not grazes)</li>
+      <li>Slips both jab and cross</li>
+      <li>Returns to center without being reminded</li>
+      <li>Can describe what they read ("I see the shoulder")</li>
+    </ul>
 
-## Win Conditions
+    <p class="emma-sub">Warning signs</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Defender** | Successfully slip a punch cleanly (full miss) |
-| **Attacker** | Land a clean punch to the head |
+    <div class="emma-warns">
+      <span class="emma-warn">Slips too late and gets grazed</span>
+      <span class="emma-warn">Only slips one direction</span>
+      <span class="emma-warn">Slips drift into blocking</span>
+    </div>
 
-**On defender win:** Roles switch — defender becomes attacker.
+??? note "Safety &amp; related games"
 
-**On attacker win:** Reset to neutral, same roles, attacker continues.
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on freezing, lost composure, or excessive force</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the defender starts blocking instead of slipping</span>
+    </div>
 
-!!! tip "The Strategic Insight"
-    You don't need to slip every punch. The defender can absorb strikes while reading the attacker's pattern and timing. When confidence is high, commit to the slip. This teaches:
+    <p class="emma-sub">Where it sits</p>
 
-    - **Pattern recognition** before commitment
-    - **Slipping as opportunity**, not just survival
-    - **Timing over volume** — one good slip beats ten bad ones
-
-**Duration:** Play until natural stopping point or time limit. Role switches keep both players engaged.
-
----
-
-## Levels
-
-=== "Level 1 — Single Punch, Fixed Tempo"
-    - One straight punch at a time
-    - 1-second reset between punches
-    - No feints
-    - Defender: slip only
-
-=== "Level 2 — Variable Tempo"
-    - Still single punches
-    - No reset requirement — attacker varies timing
-    - Defender must read rhythm
-
-=== "Level 3 — Add Feints"
-    - Attacker can feint before throwing
-    - Defender must distinguish real from fake
-    - Slipping a feint = wasted movement
-
-=== "Level 4 — Two-Punch Combinations"
-    - Attacker throws 2-punch combos (jab-cross)
-    - Still straight punches only
-    - Defender slips both punches
-
-=== "Level 5 — Counter After Slip"
-    - After successful slip, defender can throw one counter punch
-    - Teaches slip as setup for offense
-
-=== "Level 6 — Full MMA Expression"
-    - Attacker can throw straights AND shoot or establish clinch
-    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
-    - Defender must slip effectively AND deny grappling entry
-    - Focus: Slipping while remaining aware of all threats
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker throws straight punches only | Defender perceives slip-able attacks |
-| **Task** | Defender can only slip (no blocking, ducking) | Forces exploration of head movement solutions |
-| **Task** | Head strikes only | Clear target zone for both roles |
-| **Task** | Reset between exchanges (Level 1) | Time to recenter and process |
-| **Individual** | Skill level matching | Appropriate challenge zone |
-| **Environmental** | Close striking range | Slipping is necessary and viable |
-
-!!! info "Theoretical Foundation"
-    This game implements **Constrain to Afford** (Renshaw et al., 2019). The constraint (slip only, straights only) creates a narrow affordance landscape where the defender must develop head movement timing. Different fighters will develop slightly different slip patterns based on individual constraints (height, reaction time, stance).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's shoulder rotation | Early detection of punch initiation |
-| **Visual** | Which hand is loading | Direction to slip (opposite side) |
-| **Visual** | Punch trajectory toward head | Timing of slip execution |
-| **Proprioceptive** | Head position relative to centerline | Confirming successful evasion |
-| **Proprioceptive** | Balance during/after slip | Recovery to neutral position |
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's head position | Target selection |
-| **Visual** | Defender's slip timing patterns | When to throw to catch them |
-| **Haptic** | Contact (or lack of) | Whether punch landed or missed |
-
-!!! tip "Coaching Cue"
-    Don't tell defenders which way to slip. Ask: "Did that miss completely, or did it graze you?" This develops their perception of what a successful slip feels like.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Evading straight punches (jabs, crosses) in open space exchanges—making punches miss to avoid damage and create counter opportunities.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Attack type** | All punches possible | Straight punches only | Simplified |
-| **Defense options** | All evasions available | Slipping only | Isolated |
-| **Target zone** | Head and body | Head only | Simplified |
-| **Consequence** | Damage accumulation | Role switch | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Straight punches only | Slipping only works for straights; constraint matches technique |
-| Head strikes only | Slipping body shots isn't the skill being developed |
-| No blocking allowed | Forces commitment to evasion over absorption |
-
-!!! note "Transfer Expectation"
-    Athletes who develop slipping here transfer to [Evade the Punch](evade-the-punch.md) where ducking and pulling are added. The timing and reading skills transfer directly.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Attacker** | Rotate training partners | Different speeds, timing, tells |
-| **Hand emphasis** | Jab-heavy sessions, cross-heavy sessions | Bilateral slip development |
-| **Tempo** | Fast days, slow days | Timing adaptability |
-| **Intensity** | Light touch to moderate contact | Pressure calibration |
-| **Distance** | Slightly closer, slightly further | Range adaptability |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Straight punches only | Core constraint that makes slipping viable |
-| Defender can only slip | The skill being isolated |
-| Head targets only | Maintains focus on head movement |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Slips are clean (full miss, not graze) | Timing is developing |
-| Slips both jab and cross | Bilateral competence |
-| Returns to center automatically | Recovery pattern established |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] 70%+ of slips result in clean miss (not graze)
-- [ ] Slips both jab and cross effectively
-- [ ] Slip timing is early (not reactive/late)
-- [ ] Returns to center without being reminded
-- [ ] Can verbalize what they're reading ("I see the shoulder")
-
-### Ready to Exit Game (Move to Evade the Punch) When
-
-- [ ] Level 4+ competence (slips combinations)
-- [ ] Slipping is automatic, not deliberate
-- [ ] Expresses desire to add ducking/pulling
-- [ ] Slip success maintains across varied attackers
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Slips too late (gets grazed) | Reading not early enough | Slower tempo, emphasize shoulder tells |
-| Only slips one direction | Unilateral development | Emphasize neglected side |
-| Doesn't return to center | Pattern incomplete | Reset after every exchange, cue return |
-| Slips become blocking | Constraint breaking | Reset and reframe the game |
-
----
-
-## Advanced Expressions (Coach Context)
-
-As athletes develop:
-
-**For defenders:**
-- Slips become automatic and efficient
-- Counter opportunities are recognized instantly
-- Head movement integrates with footwork
-
-**For attackers:**
-- Learn to read slipping patterns
-- Develop timing to catch defenders mid-slip
-- Understand feint effectiveness
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — punches should land if not slipped, but not full power
-- **Stop conditions:** Loss of composure, defender freezing, excessive force
-- **Coach intervention:** Reset if defender starts blocking instead of slipping
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Slip the Straight] --> B[Evade the Punch]
-    B --> C[Close-Range Defense]
-
-    style A fill:#4CAF50,color:#fff
-```
-
-- **Prerequisite games:** None — this is foundational
-- **Follow-on games:** [Evade the Punch](evade-the-punch.md), [Close-Range Defense](close-range-defense.md)
-- **Related concepts:** [Defensive Solutions in Striking](../concepts/defensive-solutions.md) (Evasion)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as defensive skill development patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None — this is foundational</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../evade-the-punch/">Evade the Punch</a> · <a href="../close-range-defense/">Close-Range Defense</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/defensive-solutions/">Defensive Solutions</a></span></div>
+    </div>

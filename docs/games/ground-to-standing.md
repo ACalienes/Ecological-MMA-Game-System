@@ -27,291 +27,160 @@ tags:
 
 # Ground to Standing
 
-!!! info "Game Identity"
-    - **Problem:** Getting back to feet from ground position
-    - **Environment:** Ground → Open Space
-    - **Stage:** Counter (Defensive Grappling)
+<div class="emma-meta"><span>Ground → Open Space</span><span>Grappling</span><span>Defensive</span><span>Intermediate</span><span>Counter</span></div>
+
+Get back to your feet from the bottom — create separation, build base, clear the grips, and stand before they drag you back down. The ultimate ground escape in MMA.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>One fighter on bottom (guard, under side control, or turtle), one on top, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The bottom is trying to stand and disengage completely; the top is trying to keep them on the ground, following if they rise.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Bottom stands &amp; disengages → switch · Top keeps them down → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>felt weight distribution &amp; connection through contact</i> — which grips, hooks, or body-locks are keeping you tied to them, where the top's base loads and goes light — plus the top player's <b>posture and hip motion</b>. That inertial information specifies when separation is sufficient to stand <i>before</i> they re-engage, not the opponent's limbs in isolation.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, on the mat — one on bottom, one on top.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Bottom on the ground — open guard, under side control, or turtle, set by the level.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One bottom (defender), one top (attacker) — switched when the bottom stands and disengages.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the ground position; reset there after each round.</div>
+</div>
 
-This is a **defensive ground game** focused on standing up from bottom positions. The bottom player learns to create separation and get to their feet — the ultimate ground escape in MMA.
+<p class="emma-glabel">The Matchup</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Bottom player on the ground (guard, under side control, or turtle).
-    - **Bottom (Defender):** Stand up and disengage completely — both feet, clear of the opponent's control.
-    - **Top (Attacker):** Keep the opponent on the ground, following if they rise.
-    - **Win:** Bottom wins by standing and disengaging; top wins by preventing the standup for the set duration or establishing dominant control.
-    - **Why it matters:** Builds the skill of returning to standing, the ultimate ground escape in MMA.
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🤸</div>
+    <div class="emma-fighter__role">Bottom (Defender)</div>
+    <p class="emma-fighter__obj">Trying to stand up and disengage completely — both feet, clear of control.</p>
+    <span class="emma-pop">Create space, build base and posture, manage the grips while rising, and complete the standup cleanly. Sweeping to top is progress but not the win.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥋</div>
+    <div class="emma-fighter__role">Top (Attacker)</div>
+    <p class="emma-fighter__obj">Trying to keep the opponent on the ground, following if they rise.</p>
+    <span class="emma-pop">Maintain connection and weight, collapse standup attempts, drag them back down when they rise, and transition to a takedown if needed.</span>
+  </div>
+</div>
 
----
+<p class="emma-glabel">The Rules</p>
 
-## Goal
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧍</span> The goal is standing, not top<span class="emma-chip__detail">The bottom player's goal is standing, not the top position. A sweep is progress but doesn't end the round — this develops the distinct "wrestling up" skill.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🪨</span> Top keeps them grounded<span class="emma-chip__detail">The top player keeps the opponent down and follows if they rise — realistic resistance, not a passive partner.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎯</span> Standing = both feet, clear of control<span class="emma-chip__detail">A complete standup is both feet up and clear of the opponent's control. Standing while still connected gets dragged back down.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔗</span> Clear control before standing<span class="emma-chip__detail">Grips, hooks, and body-locks must be cleared before rising — standing while connected invites the drag-down. This forces grip clearing.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If a player rolls fully out of it, that player loses instantly — training mat-edge awareness.</span></span>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">How to Win</p>
 
-| Role | Objective |
-|------|-----------|
-| **Bottom (Defender)** | Stand up and disengage completely |
-| **Top (Attacker)** | Keep opponent on the ground |
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the bottom stands and disengages (both feet, no opponent control), the players switch roles.<span class="emma-pop">A clean standup, clear of all control — bottom wins and earns the top's keep-down role.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> When the top prevents the standup for the set duration or establishes dominant control, the top wins the round.<span class="emma-pop">Keep the opponent grounded for the duration, or advance to a dominant control — the top denies the standup.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the top prevents the standup or advances control, reset from the ground position — same roles.<span class="emma-pop">The round ends and resets from the ground position, keeping the same roles for another rep.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When a player rolls fully out of the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
+</div>
 
-The objective is **returning to standing**, not sweeping to top.
+<p class="emma-glabel">The Levels</p>
 
----
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>From Guard</b>Start in open guard; bottom works the technical standup.<span class="emma-pop emma-pop--l">Begin in open guard. Bottom works the technical standup — focus on creating space to stand.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>From Turtle</b>Start in turtle; bottom bases and stands.<span class="emma-pop emma-pop--l">Begin in turtle. Bottom works to base and stand — focus on standing up from a defensive position.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>From Under</b>Start under side control or mount; escape THEN stand.<span class="emma-pop emma-pop--l">Begin under side control or mount. Bottom must escape first, then stand — focus on chaining escape to standup.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Add strikes for both.<span class="emma-pop emma-pop--l">Top can strike to keep the bottom down; bottom can strike to create separation. Standup under MMA pressure.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">Go Deeper</p>
 
-- Start with bottom player on ground (guard, under side control, or turtle)
-- Bottom player works to stand
-- Top player works to keep them down
-- Reset when bottom stands OR top establishes dominant control
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🤸</div><div class="emma-card__t">Bottom (Defender)</div><p>Create space from the opponent; build base and posture; manage grips while rising; complete the standup cleanly.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🥋</div><div class="emma-card__t">Top (Attacker)</div><p>Maintain connection and weight; collapse standup attempts; drag back down when they rise; transition to a takedown if needed.</p></div>
+    </div>
 
-1. Bottom player's goal is **standing**, not top position
-2. Top player **keeps them grounded** — follows if they rise
-3. Standing = both feet, clear of opponent's control
-4. Sweep to top is progress but not the win condition
+    <p class="emma-sub">Coaching cues</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🔗</div><div class="emma-card__t">What's connecting you?</div><p>Ask: "What was keeping you connected?" This develops grip awareness — naming the tie before trying to break it.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧹</div><div class="emma-card__t">Clear, then rise</div><p>Ask: "Did you clear their control before standing?" Clearing before standing is essential — standing while connected gets dragged back down.</p></div>
+    </div>
 
-## Task Focus
+??? abstract "Constraints-Led analysis"
 
-### Bottom (Defender)
-- Create space from opponent
-- Build base and posture
-- Manage opponent's grips while rising
-- Complete standup cleanly
+    <p class="emma-sub">Constraints → Affordances</p>
 
-### Top (Attacker)
-- Maintain connection and weight
-- Collapse standup attempts
-- Drag back down when they rise
-- Transition to takedown if needed
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Goal is standing, not top position</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops standup-specific "wrestling up" skill</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Standing = both feet, clear of control</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Clear success definition</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Top follows and attempts to keep down</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Realistic resistance</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Progressive starting positions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scaffolded difficulty (guard → turtle → under)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Ground → standing transition</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Environment-change practice</span></div>
+    </div>
 
-!!! question "Key Internal Questions — Bottom"
-    - "Do I have space to build my base?"
-    - "What's keeping me connected to them?"
-    - "Can I clear their grip and stand?"
+    <p class="emma-hl">Develops <b>standup affordance perception</b> — recognizing when separation is sufficient to stand (Renshaw et al., 2019). The constraint distinguishing standup from sweeping develops the specific "wrestling up" skill, separate from guard work.</p>
 
----
+    <p class="emma-sub">What the bottom reads</p>
 
-## Key Logic: Standup Hierarchy
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Connection points &amp; top's weight distribution → what to clear and when to time the standup.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Space available → base-building opportunity.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own base position &amp; posture quality → standup method and readiness to rise.</p></div>
+    </div>
 
-!!! note "The Core Skill"
-    Standing up from ground follows stages:
+    <p class="emma-sub">What we measure (order parameter)</p>
 
-    | Stage | Goal |
-    |-------|------|
-    | Create space | Get distance from opponent |
-    | Build base | Hands/feet on ground, hips up |
-    | Clear grips | Break their control |
-    | Complete standup | Both feet, disengage |
+    <p class="emma-hl">Whether the bottom <b>recovers base and clears connection faster than the top can re-load weight</b> — track standups completed vs. drag-downs, and whether the grip is cleared before rising. That separation-recovery relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
-    The skill: Creating enough separation to stand before they can drag you back.
+    <p class="emma-sub">Representativeness</p>
 
-    This is often called "wrestling up" — it requires different skills than sweeping.
+    <p class="emma-hl"><b>Models:</b> "wrestling up" — getting back to feet from bottom, where standing is often preferable to staying down.</p>
 
----
+    <div class="emma-meta"><span>Simplified: focus on standing, not sweeping</span><span>start from various positions</span><span>clear success criteria</span></div>
 
-## Win Conditions
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Grip-clearing and base-building perception is identical to competition — returns to the Open Space games.</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Bottom** | Stand up and disengage (both feet, no opponent control) |
-| **Top** | Prevent standup for set duration OR establish dominant control |
+    <p class="emma-sub">Readiness to progress</p>
 
-**On bottom win:** Roles switch.
-**On top win:** Reset, same roles.
+    <ul class="emma-checklist">
+      <li>Stands from current level consistently</li>
+      <li>Clears grips before standing</li>
+      <li>Completes standup without being dragged back</li>
+      <li>Timing is appropriate (not forced)</li>
+    </ul>
 
----
+    <p class="emma-sub">Warning signs</p>
 
-## Levels
+    <div class="emma-warns">
+      <span class="emma-warn">Gets dragged back immediately</span>
+      <span class="emma-warn">Can't build base</span>
+      <span class="emma-warn">Only sweeps (doesn't stand)</span>
+      <span class="emma-warn">Stands into a takedown</span>
+    </div>
 
-=== "Level 1 — From Guard"
-    - Start in open guard
-    - Bottom works technical standup
-    - Focus: Creating space to stand
+??? note "Safety &amp; related games"
 
-=== "Level 2 — From Turtle"
-    - Start in turtle position
-    - Bottom works to base and stand
-    - Focus: Standup from defensive position
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Controlled grappling</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on slamming during standup attempts</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if positions stall</span>
+    </div>
 
-=== "Level 3 — From Under"
-    - Start under side control or mount
-    - Must escape THEN stand
-    - Focus: Chaining escape to standup
+    <p class="emma-sub">Where it sits</p>
 
-=== "Level 4 — Full MMA Expression"
-    - Top can use strikes to keep bottom down
-    - Bottom can strike to create separation
-    - Focus: Standup under MMA pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Safety
-
-- **Contact limits:** Controlled grappling
-- **Stop conditions:** Slamming during standup attempts
-- **Coach intervention:** Reset if positions stall
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Goal is standing, not top position | Develops standup-specific skill |
-| **Task** | Standing = both feet, clear of control | Clear success definition |
-| **Task** | Top follows and attempts to keep down | Realistic resistance |
-| **Task** | Progressive starting positions (guard → turtle → under) | Scaffolded difficulty |
-| **Individual** | Prerequisite: Ground Escape | Understands escape before standup |
-| **Environmental** | Ground → Standing transition | Environment change practice |
-
-!!! info "Theoretical Foundation"
-    This game develops **standup affordance perception**—recognizing when separation is sufficient to stand. The constraint distinguishing standup from sweeping develops specific "wrestling up" skill separate from guard work. Athletes learn to perceive **grip control**—what's keeping them connected and how to clear it. This is a critical MMA skill where standing is often preferable to sweeping (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Bottom (Standup) Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Connection points | What to clear |
-| **Haptic** | Top's weight distribution | Standup timing |
-| **Visual** | Space available | Base building opportunity |
-| **Proprioceptive** | Own base position | Standup method |
-| **Proprioceptive** | Posture quality | Readiness to rise |
-
-### Top (Keep Down) Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Base building attempts | Collapse timing |
-| **Haptic** | Connection strength | When to re-engage |
-| **Visual** | Bottom's hip position | Drag-down opportunity |
-| **Proprioceptive** | Own control points | Maintain connection |
-
-!!! tip "Coaching Cue"
-    Ask bottom: "What was keeping you connected?" This develops grip awareness. Ask: "Did you clear their control before standing?" Clearing before standing is essential—standing while connected gets dragged back down.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-"Wrestling up"—getting back to feet from bottom position. In MMA, standing is often preferable to staying on bottom.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Standup goal** | Return to striking range | Same | High |
-| **Grip clearing** | Essential for standup | Same | High |
-| **Top follows** | Opponent tries to keep down | Same | High |
-| **Progressive positions** | Various starting points | Scaffolded by level | Scaffolded |
-| **Strikes** | Available | Progressive by level | Scaffolded |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Focus on standing (not sweeping) | Develops specific standup skill |
-| Start from various positions | Isolates standup from escape |
-| Clear success criteria | Ensures complete standup |
-
-!!! note "Transfer Expectation"
-    Standup skill developed here transfers directly to MMA. The perception of grip clearing and base building is identical in competition. "Wrestling up" is a distinct skill set.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Starting position** | Guard, turtle, under side | Multiple standup problems |
-| **Top aggression** | Passive, following, aggressive | Adaptability |
-| **Top size** | Larger, smaller, equal | Standup calibration |
-| **Connection type** | Grips, hooks, body lock | Multiple clearing solutions |
-| **Intensity** | Drilling pace, live pace | Pressure calibration |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Standing as goal (not sweep) | Maintains game focus |
-| Must clear control | Prevents sloppy standup |
-| Complete standup required | No partial credit |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Stands from guard consistently | Basic skill developing |
-| Clears grips effectively | Perception developing |
-| Stands from turtle | Ready for harder positions |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Stands from current level consistently
-- [ ] Clears grips before standing
-- [ ] Completes standup without being dragged back
-- [ ] Timing is appropriate (not forced)
-- [ ] Can articulate: "I cleared their grip when..."
-
-### Ready to Exit Game When
-
-- [ ] Level 2+ competence (stands from turtle)
-- [ ] Grip clearing is automatic
-- [ ] Chains escape to standup (Level 3)
-- [ ] Wrestling up appears in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Gets dragged back immediately | Didn't clear control | Focus on grip clearing |
-| Can't build base | Mechanics lacking | Work on technical standup |
-| Only sweeps (doesn't stand) | Wrong goal | Constrain to standup only |
-| Stands into takedown | Timing/awareness poor | Work on posture during standup |
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Ground Escape] --> B[Ground to Standing]
-    B --> C[Open Space]
-
-    style B fill:#4CAF50,color:#fff
-```
-
-- **Prerequisite games:** [Ground Escape](ground-escape.md)
-- **Follow-on games:** Returns to Open Space games
-- **Related concepts:** [Decision States](../concepts/decision-states.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as ground-to-standing patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-escape/">Ground Escape</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Returns to the Open Space games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/decision-states/">Decision States</a></span></div>
+    </div>

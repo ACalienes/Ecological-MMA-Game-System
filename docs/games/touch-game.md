@@ -25,340 +25,162 @@ tags:
 
 # Touch and Don't Get Touched
 
-!!! info "Game Identity"
-    - **Problem:** Range awareness, timing, and first-contact literacy
-    - **Environment:** Open Space (no boundaries)
-    - **Stage:** Access (Pre-Space, Pre-Pressure)
+<div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Combined</span><span>Beginner</span><span>Foundational</span></div>
+
+The foundational engagement game — it exists *before* space control, pressure, or clinch logic. Both players try to touch and not be touched, building range honesty and the composure to recover initiative the instant contact lands.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters in neutral stance, open space, at a comfortable distance.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Both players are trying to touch the opponent, avoid being touched, and deny the response.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean touch → advantage · Touch + counter-touch → neutral · Touched with no answer → lost exchange. Reset.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>opponent's preferred distance</i> and the <i>rate the gap is closing</i> (τ on the entry) — near affords your touch and offense, far affords their escape. Read their weight shift and recovery after contact, <b>not</b> their absolute position or their eyes. That information specifies <i>whether you are truly in range</i> and <i>when you can answer back</i>.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance — a mirrored, symmetric matchup with no fixed attacker or defender.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>A comfortable distance — outside touching range, with room to enter and exit.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (circle, taped lines). Open space, no wall or circling requirement.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Mirrored — both players have the same job; there is no attacker or defender.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Either player may initiate; each exchange resolves quickly and resets to neutral distance.</div>
+</div>
 
-This is the **foundational engagement game** in the system. It exists before space control, pressure, or clinch logic.
+<p class="emma-glabel">The Matchup</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players in neutral stance in open space at a comfortable distance; reset to neutral after each exchange.
-    - **Players (mirrored):** Touch the opponent, avoid being touched, and deny their ability to respond — no sustained pressure, crashing, or takedowns.
-    - **Constraint:** Each exchange resolves quickly and resets; stay exploratory, not competitive.
-    - **Win:** No score — diagnostic game evaluated on clean touches, quality of counter-touches, and reduced panic after contact.
-    - **Why it matters:** Builds initiative management and range/timing — the foundation before space, pressure, and clinch.
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🤜</div>
+    <div class="emma-fighter__role">Players (mirrored)</div>
+    <p class="emma-fighter__obj">Trying to touch the opponent, avoid being touched, and deny their ability to respond.</p>
+    <span class="emma-pop">Both players share one job — this is about initiative management, not damage. Touch/light contact only, single strike or a max two-strike sequence, no flurries. Stay exploratory, not competitive.</span>
+  </div>
+  <div class="emma-matchup__vs">MIRROR</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">The counter-touch</div>
+    <p class="emma-fighter__obj">Trying to recover initiative immediately — one clean touch back inside the same exchange window.</p>
+    <span class="emma-pop">If you get touched, you have one immediate opportunity to touch back within the same window. No chasing once the moment has passed. This is the core mechanic.</span>
+  </div>
+</div>
 
----
+<p class="emma-glabel">The Rules</p>
 
-## Goal
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">👋</span> Touch / light contact only<span class="emma-chip__detail">All contact is touch/light — light touches to head or torso. Punches and kicks are allowed by level, but the goal is contact, not power. This removes fear so range can be explored honestly.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">2️⃣</span> Max two-strike sequence<span class="emma-chip__detail">A single strike or at most a two-strike sequence per entry. Probing jabs are encouraged, but no flurries — this rewards precision over volume.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↩️</span> One immediate counter-touch<span class="emma-chip__detail">If touched, you get exactly one opportunity to touch back, inside the same exchange window. No chasing once the moment passes — this trains composure and initiative recovery.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No sustained pressure or crashing<span class="emma-chip__detail">No forward crashing, collisions, or sustained pressure. No prolonged clinch unless a level permits it. Each exchange resolves on its own.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Resolve quickly and reset<span class="emma-chip__detail">Every exchange resolves fast and resets to neutral distance, giving both players time to perceive and recalibrate. Stay exploratory, not competitive.</span></span>
+</div>
 
-This is a **mirrored game**.
+<p class="emma-glabel">How to Win</p>
 
-Each player aims to:
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Advantage</span> When you land a clean touch and the opponent has no response, you win the exchange.<span class="emma-pop">A clean touch without an answer — the strongest outcome. It shows honest range and a clean entry.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Neutral</span> When a touch is met by an immediate counter-touch, the exchange is even (1-for-1).<span class="emma-pop">Composure under contact — you recovered initiative inside the window. Even result, reset and go again.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> No score is kept — success is read from clean touches, quality of counter-touches, and reduced panic after contact.<span class="emma-pop">This game is diagnostic, not score-driven. The coach evaluates range honesty, counter-touch quality, and composure rather than a points tally.</span></div>
+</div>
 
-- Touch the opponent
-- Avoid being touched
-- Deny or negate the opponent's ability to respond
+<p class="emma-glabel">The Levels</p>
 
-The objective is **initiative management**, not damage accumulation.
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Hands only</b>Punches only; jab range.<span class="emma-pop emma-pop--l">Punches only — focus on jab range and hand timing. The simplest range problem.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Hands + kicks</b>Add kicks; layered range.<span class="emma-pop emma-pop--l">Kicks are introduced, teaching layered range awareness — multiple weapons at multiple distances.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Counter emphasis</b>Punish poor entries.<span class="emma-pop emma-pop--l">The counter-touch is strongly emphasized — poor entries are punished immediately.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Hand control as denial</b>Hand fighting allowed.<span class="emma-pop emma-pop--l">Hand fighting and hand control allowed; brief two-on-one control permitted. Goal stays: touch and deny the response.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Clinch as denial</b>Clinch only as a response.<span class="emma-pop emma-pop--l">Clinch entry allowed only as an immediate response to touch — connected clinch, level change, or leg connection counts as denial, then the exchange ends.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA expression</b>Takedown threat as denial.<span class="emma-pop emma-pop--l">Takedown entry allowed as a denial response; brief continuation if clinch is established. Full denial toolkit under MMA reality.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Entry Condition
+??? note "Task focus &amp; coaching cues"
 
-- Both players start in open space
-- No wall, boundary, or circling requirement
-- Neutral stance at a comfortable distance
-- Reset to neutral distance after each resolved exchange
+    <p class="emma-sub">Each player's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🤜</div><div class="emma-card__t">Touch</div><p>Read distance honestly; time entry and exit cleanly; coordinate eyes, feet, and hands.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Deny &amp; recover</div><p>Maintain composure after contact; recover initiative immediately; take the one counter-touch when touched.</p></div>
+    </div>
 
-## Invariants
+    <p class="emma-sub">Coaching cues</p>
 
-1. No sustained pressure
-2. No forward crashing or collisions
-3. No takedowns unless explicitly permitted by level
-4. Each exchange resolves quickly and resets
-5. The game remains exploratory, not competitive
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">📏</div><div class="emma-card__t">Were you in range?</div><p>Ask: "Were you actually in range, or did you reach?" This develops honest range perception — the foundation for all striking.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧠</div><div class="emma-card__t">Answer back</div><p>"If you get touched, can you respond immediately?" Composure and initiative recovery matter more than the first touch.</p></div>
+    </div>
 
----
+??? abstract "Constraints-Led analysis"
 
-## Task Focus
+    <p class="emma-sub">Constraints → Affordances</p>
 
-### Both Players
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Touch contact only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Removes fear, invites exploration of range</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">No sustained pressure / flurries</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Each exchange resolves, allowing perception</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Counter-touch opportunity</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Teaches response composure after being hit</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Max two-strike sequence</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Prevents mindless volume, rewards precision</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Open space, no boundaries pressure</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Pure range and timing without pressure dynamics</span></div>
+    </div>
 
-- Read distance honestly
-- Coordinate eyes, feet, and hands
-- Time entry and exit cleanly
-- Maintain composure after contact
-- Recover initiative immediately when touched
+    <p class="emma-hl">Implements <b>Representative Learning Design</b> (Renshaw et al., 2019) — touch-without-being-touched mirrors the fundamental striking problem of MMA.</p>
 
-!!! question "Key Internal Questions"
-    - "Am I actually in range?"
-    - "Can I enter without being hit back?"
-    - "If I get touched, can I respond immediately?"
+    <p class="emma-sub">What both players read</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Distance, weight distribution, and recovery after contact → entry/exit and counter-touch timing.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own balance and range; position after being touched → recovery and counter-response.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Being touched → triggers the one counter-touch opportunity.</p></div>
+    </div>
 
-## Legal Actions
+    <p class="emma-sub">What we measure (order parameter)</p>
 
-- Light touches to head or torso
-- Punches and kicks allowed
-- Single strike or **maximum two-strike sequence**
-- Probing jabs encouraged
-- No flurries
-- No prolonged clinch unless allowed by level
+    <p class="emma-hl">Whether the <b>gap closes or stays open over time</b> — is the player entering at honest range and exiting clean, and does the sequence reach a clean touch or a counter-touch? Track clean touches, counter-touch quality, and reduced panic after contact. When honest range and immediate recovery stabilize, the skill has formed.</p>
 
-All contact is **touch/light only**.
+    <p class="emma-sub">Representativeness</p>
 
----
+    <p class="emma-hl"><b>Models:</b> open-space striking exchanges where both fighters seek to land without being countered.</p>
 
-## Counter-Touch Logic (Critical)
+    <div class="emma-meta"><span>Simplified: touch contact</span><span>no sustained pressure</span><span>resets between</span></div>
 
-!!! warning "This is the core mechanic of the game"
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Builds the perceptual and timing foundation for the system — transfers into <a href="../pressure-to-clinch/">Pressure to Clinch</a>, where pressure and space control are added.</p>
 
-If a player is touched:
+    <p class="emma-sub">Readiness to progress</p>
 
-- They are allowed **one immediate opportunity** to touch back
-- The counter-touch must occur within the same exchange window
-- No chasing once the moment has passed
+    <ul class="emma-checklist">
+      <li>Touches land cleanly — no reaching or lunging</li>
+      <li>Counter-touches occur naturally after being touched</li>
+      <li>Composure maintained after contact</li>
+      <li>Entry and exit are clean — not crashing</li>
+      <li>Can articulate range and timing decisions</li>
+    </ul>
 
-**Exchange outcomes:**
+    <p class="emma-sub">Warning signs</p>
 
-| Outcome | Result |
-|---------|--------|
-| Clean touch without response | Advantage |
-| Touch followed by immediate counter-touch | Neutral (1-for-1) |
-| Getting touched without response | Lost exchange |
+    <div class="emma-warns">
+      <span class="emma-warn">Reaching / lunging to touch</span>
+      <span class="emma-warn">Freezes after being touched</span>
+      <span class="emma-warn">Crashes forward on entry</span>
+      <span class="emma-warn">Chases after missed attempts</span>
+    </div>
 
-This logic rewards:
+??? note "Safety &amp; related games"
 
-- Composure under contact
-- Counter-striking awareness
-- Recovery of initiative
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">👋</span> Touch contact only</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> No forward collisions; coach pauses if structure degrades</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> No chasing after missed strikes — reset</span>
+    </div>
 
----
+    <p class="emma-sub">Where it sits</p>
 
-## Win Conditions
-
-This game is **diagnostic**, not score-driven.
-
-Success is evaluated by:
-
-- Frequency of clean touches
-- Quality of counter-touches
-- Reduced panic after contact
-- Improved range accuracy and timing
-
----
-
-## Levels
-
-=== "Level 1 — Hands Only"
-    - Punches only
-    - Focus on jab range and hand timing
-
-=== "Level 2 — Hands + Kicks"
-    - Kicks introduced
-    - Teaches layered range awareness
-
-=== "Level 3 — Counter Emphasis"
-    - Counter-touch strongly emphasized
-    - Poor entries are punished immediately
-
-=== "Level 4 — Hand Control as Denial"
-    - Hand fighting and hand control allowed
-    - Brief two-on-one control permitted
-    - Goal remains: touch and deny response
-
-=== "Level 5 — Clinch as Denial"
-    - Clinch entry allowed **only as an immediate response to touch**
-    - Hands-connected clinch, level change, or leg connection counts as denial
-    - Once denial is achieved, the exchange ends
-
-=== "Level 6 — Full MMA Expression"
-    - Takedown entry allowed as denial response (level change, shot)
-    - If clinch is established, brief continuation permitted
-    - Full MMA denial options: counter-touch, clinch, or takedown threat
-    - Focus: Complete denial toolkit under MMA reality
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Touch contact only | Removes fear, invites exploration of range |
-| **Task** | No sustained pressure/flurries | Each exchange resolves, allowing perception |
-| **Task** | Counter-touch opportunity | Teaches response composure after being hit |
-| **Task** | Maximum two-strike sequence | Prevents mindless volume, rewards precision |
-| **Task** | Reset after each exchange | Time to process and recalibrate |
-| **Individual** | Skill level matching | Appropriate challenge zone |
-| **Environmental** | Open space, no boundaries | Pure range and timing without pressure dynamics |
-
-!!! info "Theoretical Foundation"
-    This game implements **Representative Learning Design** (Renshaw et al., 2019). The core perception-action requirement—touch without being touched—mirrors the fundamental striking problem in MMA. The simplified contact level allows athletes to explore timing and range without fear-driven responses obscuring the learning.
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Both Players Perceive
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Distance to opponent | Determining if in range to touch |
-| **Visual** | Opponent's weight distribution | Timing of entry or exit |
-| **Visual** | Opponent's eye/hand movement | Attack initiation detection |
-| **Visual** | Opponent's recovery after contact | Counter-touch timing |
-| **Proprioceptive** | Own balance and range | Entry/exit execution |
-| **Proprioceptive** | Position after being touched | Recovery and counter-response |
-| **Haptic** | Contact (being touched) | Triggering counter-touch opportunity |
-
-!!! tip "Coaching Cue"
-    Ask: "Were you actually in range, or did you reach?" This develops honest range perception—the foundation for all striking.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Open-space striking exchanges where both fighters seek to land without being countered—the fundamental rhythm of striking in MMA.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Contact** | Full power strikes | Touch/light contact | Simplified |
-| **Pressure** | Sustained possible | No sustained pressure | Simplified |
-| **Weapons** | All available | Scaled by level | Progressive |
-| **Recovery** | Must recover under threat | Reset after exchange | Simplified |
-| **Objective** | Damage + control | Touch + deny response | Analogous |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Touch contact only | Allows exploration without fear responses |
-| Reset after exchange | Time to perceive and process |
-| No sustained pressure | Isolates single-exchange dynamics |
-
-!!! note "Transfer Expectation"
-    Athletes who develop range honesty and counter-touch composure here transfer to [Pressure to Clinch](pressure-to-clinch.md) where pressure and space control are added. The timing and initiative skills transfer directly.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Partner** | Rotate training partners | Different speeds, ranges, timing |
-| **Stance** | Orthodox vs. southpaw matchups | Angle variability |
-| **Emphasis** | Entry-focused rounds, counter-focused rounds | Skill breadth |
-| **Tempo** | Fast-paced days, deliberate days | Timing adaptability |
-| **Target area** | Head-only rounds, body-included rounds | Target perception |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Touch contact only | Core safety constraint |
-| No sustained pressure | Maintains exchange-based learning |
-| Counter-touch opportunity | Core mechanic of the game |
-| Quick resolution and reset | Allows processing time |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Range is honest (not reaching) | Distance perception developing |
-| Counter-touches happen naturally | Composure after contact improving |
-| Initiative recovery is automatic | Exchange dynamics understood |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Touches land cleanly (not reaching or lunging)
-- [ ] Counter-touches occur naturally after being touched
-- [ ] Composure maintained after contact
-- [ ] Entry and exit are clean (not crashing)
-- [ ] Can articulate range and timing decisions
-
-### Ready to Exit Game (Move to Pressure to Clinch) When
-
-- [ ] Level 3+ competence (counter emphasis internalized)
-- [ ] Range honesty is automatic
-- [ ] Initiative recovery is immediate
-- [ ] Expresses desire to add pressure dynamics
-- [ ] Maintains quality across varied partners
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Reaching/lunging to touch | Range perception lacking | Emphasize "wait for range" |
-| Freezes after being touched | Composure underdeveloped | More practice at lower tempo |
-| Crashes forward on entry | Exit not planned | Emphasize "in and out" |
-| Chases after missed attempts | Exchange boundaries unclear | Reset and reinforce structure |
-
----
-
-## Advanced Expressions (Coach Context)
-
-As athletes advance, the meaning of "don't get touched" expands.
-
-At higher skill levels, denying a response may include:
-
-- Controlling or interfering with the opponent's hands
-- Entering into clinch or level change
-- Removing the opponent's ability to strike at all
-
-These are treated as **solutions**, not objectives.
-
-!!! note "Core Problem Never Changes"
-    - Initiate contact
-    - Deny effective response
-
-    Clinching is not rewarded by default. It is rewarded **only insofar as it prevents a counter-touch**.
-
----
-
-## Safety
-
-- Touch contact only
-- No forward collisions
-- No chasing after missed strikes
-- Coach may pause play if structure degrades
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Touch Game] --> B[Pressure to Clinch]
-    B --> C[All downstream games]
-
-    style A fill:#4CAF50,color:#fff
-```
-
-This game precedes:
-
-- Pressure to Clinch
-- All pressure-based striking games
-- All clinch recognition games
-
-It builds the **perceptual and timing foundation** for the entire system.
-
----
-
-!!! abstract "System Evolution Notice"
-    This game reflects the current best understanding of engagement literacy. It may be revised as new insights or safety considerations emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None — this is foundational</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-clinch/">Pressure to Clinch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/full-mma-expression/">Full MMA Expression</a></span></div>
+    </div>

@@ -33,6 +33,10 @@ Learn to absorb strikes behind a tight shell. The defender can *only* block — 
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Survive → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
 </div>
 
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) of the incoming punch, plus the shoulder–hip motion at <b>center mass</b> — not the opponent's absolute distance or their eyes. That information specifies <i>when</i> and <i>where</i> the shot arrives.</p>
+
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
@@ -128,6 +132,10 @@ Learn to absorb strikes behind a tight shell. The defender can *only* block — 
       <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Impact on arms/gloves → confirms the block held.</p></div>
       <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Guard tightness &amp; balance → maintaining structure.</p></div>
     </div>
+
+    <p class="emma-sub">What we measure (order parameter)</p>
+
+    <p class="emma-hl">Whether the defender's <b>block lands in time with the punch</b> — track clean blocks vs. shots eaten, and whether the guard re-sets between strikes. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 

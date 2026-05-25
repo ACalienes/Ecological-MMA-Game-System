@@ -31,20 +31,42 @@ tags:
 
 Hold a dominant ground position against live escape attempts — control that keeps you on top *without* rushing to finish yet.
 
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>One fighter on top in a dominant ground position, one on bottom, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The top is trying to hold the position through escapes; the bottom is trying to escape to guard or stand up.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Hold for the duration → switch · Bottom escapes → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>felt resistance &amp; weight distribution through contact</i> — your base, your posts, the points of connection going light or loading up — plus the bottom player's <b>hip and frame motion</b>. That inertial information specifies the escape <i>before</i> it fully develops, not the opponent's limbs in isolation.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, on the mat — one on top, one on bottom.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>A dominant ground position — side control, mount, or back control, set by the level.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One top (attacker), one bottom (defender) — switched when the top holds the duration.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the dominant position; reset there after each round.</div>
+</div>
+
 <p class="emma-glabel">The Matchup</p>
 
 <div class="emma-matchup">
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🥋</div>
     <div class="emma-fighter__role">Top (Attacker)</div>
-    <p class="emma-fighter__obj">Maintain the dominant position through escape attempts — not submission.</p>
+    <p class="emma-fighter__obj">Trying to maintain the dominant position through escape attempts — not submission.</p>
     <span class="emma-pop">You must <strong>actively</strong> control, not just lie on top. Distribute weight, anticipate escapes, and transition between control positions as needed.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🤸</div>
     <div class="emma-fighter__role">Bottom (Defender)</div>
-    <p class="emma-fighter__obj">Escape to guard OR stand up.</p>
+    <p class="emma-fighter__obj">Trying to escape to guard or stand up.</p>
     <span class="emma-pop">Actively escape — never go passive. Create frames and space, bridge and shrimp, and threaten reversals to break the control.</span>
   </div>
 </div>
@@ -56,14 +78,16 @@ Hold a dominant ground position against live escape attempts — control that ke
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏃</span> Bottom actively escapes<span class="emma-chip__detail">The bottom player works escape sequences continuously — no passive waiting. This creates a realistic control challenge.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Submissions are not the goal<span class="emma-chip__detail">At this stage the objective is position maintenance, not finishing. Control comes before exploitation.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> Brief loss with recovery still counts<span class="emma-chip__detail">A brief position loss with immediate recovery still counts as control — modeling realistic control recovery.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If a player rolls fully out of it, that player loses instantly — training mat-edge awareness.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Top</span> Maintain the dominant position for the set duration — roles switch.<span class="emma-pop">Hold the dominant position for the set duration (e.g., 30 seconds). On a top win, the roles switch.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Bottom</span> Escape to guard, stand up, or reverse position.<span class="emma-pop">Break free to guard, get back to your feet, or reverse the position. On a bottom win, reset from the dominant position with the same roles.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Bottom escapes or top holds for the set duration.<span class="emma-pop">A round ends — and resets — when the bottom escapes or the top maintains for the set duration.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the top holds the dominant position for the set duration, the players switch roles.<span class="emma-pop">Hold the dominant position for the set duration (e.g., 30 seconds) — top wins and earns the bottom's escape role.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> When the bottom escapes to guard, stands up, or reverses, the bottom wins the round.<span class="emma-pop">Break free to guard, get back to your feet, or reverse the position — the bottom breaks the control.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the bottom escapes or the top holds for the set duration, reset from the dominant position — same roles.<span class="emma-pop">The round ends and resets from the dominant position, keeping the same roles for another rep.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When a player rolls fully out of the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
@@ -77,15 +101,7 @@ Hold a dominant ground position against live escape attempts — control that ke
 
 <p class="emma-glabel">Go Deeper</p>
 
-??? note "Setup &amp; task focus"
-
-    <p class="emma-sub">Entry</p>
-
-    <div class="emma-chips">
-      <span class="emma-chip"><span class="emma-chip__i">📍</span> Top in dominant position (side / mount / back)</span>
-      <span class="emma-chip"><span class="emma-chip__i">🔄</span> Reset on escape or held duration</span>
-      <span class="emma-chip"><span class="emma-chip__i">⏱️</span> Set duration (e.g., 30 seconds)</span>
-    </div>
+??? note "Task focus &amp; coaching cues"
 
     <p class="emma-sub">Each role's job</p>
 
@@ -122,6 +138,10 @@ Hold a dominant ground position against live escape attempts — control that ke
       <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Bottom's bridge setup → anticipate the reversal.</p></div>
       <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own weight distribution &amp; connection points → control adjustment.</p></div>
     </div>
+
+    <p class="emma-sub">What we measure (order parameter)</p>
+
+    <p class="emma-hl">Whether the top <b>stays connected to the bottom's hips through each escape attempt</b> — track time controlled vs. position lost, and whether the top re-loads weight before the escape completes. That control-connection relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 

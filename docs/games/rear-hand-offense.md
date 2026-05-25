@@ -20,282 +20,159 @@ tags:
 
 # Rear Hand Offense
 
-!!! info "Game Identity"
-    - **Problem:** Developing offensive capability with the rear hand only
-    - **Environment:** Skill Isolation
-    - **Stage:** Access (Offensive Skill Development)
+<div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
+
+Develop the rear (power) hand as a weapon. The attacker can *only* use the rear hand — cross, rear hook, rear uppercut — which forces the discovery of entries and setups for power shots, since the rear hand travels further and is easier to see. The defender resists without any counter-threat.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range, inside a marked perimeter, with the attacker restricted to the rear hand.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean rear hand strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the defender's <i>guard reactions to your feints &amp; level changes</i> — how their shell shifts when you threaten a zone — together with the <i>rate of expansion</i> (τ) of your committing cross toward the opening at <b>center mass</b>. The opening you read isn't where the guard <i>is</i>; it's where it <i>goes</i> when you make it move.</p>
 
-This is a **beginner offensive skill isolation game** that develops rear hand (power hand) offense. The attacker can ONLY use their rear hand, forcing them to find timing, entries, and setups for power shots.
+<p class="emma-glabel">The Starting Position</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players in neutral standing at striking range; reset to neutral after each attack.
-    - **Attacker:** Land clean strikes using the rear hand only — cross, rear hook, rear uppercut (no lead hand, no kicks).
-    - **Defender:** Defend against rear hand attacks using any defensive solution — no counters.
-    - **Win:** Attacker wins by landing a clean rear hand strike; defender has no win condition (success is defensive quality).
-    - **Why it matters:** Develops the rear (power) hand as a weapon — finding timing, entries, and setups for power shots.
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range — close enough that the rear hand is viable with a proper entry.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker lands a clean rear hand strike.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
+</div>
 
----
+<p class="emma-glabel">The Matchup</p>
 
-## Goal
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to land a clean rear hand strike — cross, rear hook, or rear uppercut — by reading the defense and creating openings.</p>
+    <span class="emma-pop">Rear hand only. With no jab to hide behind, you must build entries: feint to draw a reaction, change levels to open targets, manage distance for power.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to defend all rear hand attacks effectively. No countering.</p>
+    <span class="emma-pop">Defend naturally with the full toolkit (block, parry, slip, move). You have no win condition — your success is making the attacker work for every opening.</span>
+  </div>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">The Rules</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Land clean strikes using rear hand only |
-| **Defender** | Defend against rear hand attacks (defense only, no counter) |
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Rear hand only<span class="emma-chip__detail">The attacker uses <strong>only</strong> the rear hand — cross, rear hook, rear uppercut. No lead hand, no kicks. With the jab removed, entries and setups must be discovered.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Defender cannot counter<span class="emma-chip__detail">At Level 1 the defender plays pure defense. Removing the counter-threat lets the attacker focus entirely on setup development for the power shot.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎯</span> All targets allowed<span class="emma-chip__detail">Head and body are both fair game. Target variation invites level changes and misdirection within the rear-hand constraint.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Maintain striking range<span class="emma-chip__detail">Both players hold striking range so the rear hand stays viable with a proper entry — no drifting out to where power can't land.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset after each attack<span class="emma-chip__detail">Reset to a neutral stance after a clean strike lands or after a set time, so each rep begins from the same problem.</span></span>
+</div>
 
-The objective is **weapon development**, not competition.
+<p class="emma-glabel">How to Win</p>
 
----
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker lands a clean rear hand strike, the players switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or blocked shot. Land it and you become the defender.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the strike is whiffed, grazed, or blocked, reset to neutral — same roles — and read again.<span class="emma-pop">A failed attempt isn't a loss; it's information. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> When the defender denies every opening, that's a diagnostic success — the defender has no win condition.<span class="emma-pop">The defender's success is measured by quality of defense, not points. Forcing the attacker to set up and commit is the goal.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">The Levels</p>
 
-- Both players start in neutral standing position at striking range
-- Attacker can only use rear hand (cross, rear hook, rear uppercut)
-- Defender uses any defensive solution but cannot counter
-- Reset after clean strike lands or set time
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Defense only</b>Defender can't counter.<span class="emma-pop emma-pop--l">Pure offensive development — rear hand only against a defender who can't counter. Build timing and entries with zero counter-threat.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add counter threat</b>Counters after good defense.<span class="emma-pop emma-pop--l">The defender can fire counters once they defend successfully. You land the power shot while managing the counter risk.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the rear hand under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Invariants
+??? note "Task focus &amp; coaching cues"
 
-1. Attacker uses **rear hand ONLY** — no lead hand, no kicks
-2. Defender can **defend only** — no counters at Level 1
-3. Both players maintain striking range
-4. Reset to neutral after each successful attack
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Find openings for power; vary targets head/body; develop entries and setups for the rear hand; manage distance for power generation.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Defend all rear hand attacks with appropriate solutions; provide realistic resistance; never counter at Level 1.</p></div>
+    </div>
 
-## Task Focus
+    <p class="emma-sub">Coaching cues</p>
 
-### Attacker
-- Find openings for power hand strikes
-- Vary targets (head, body)
-- Develop entries and setups for the rear hand
-- Manage distance for power generation
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">"How did you create that opening?"</div><p>Ask after each rep. This develops understanding of setup-to-finish sequencing for power shots.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Land power when you need it</div><p>Cross head, cross body, rear hook, rear uppercut, feints to draw reactions, level changes to open targets. The rear hand requires setup because it travels further.</p></div>
+    </div>
 
-### Defender
-- Defend all rear hand attacks
-- Use appropriate defensive solutions
-- Provide realistic resistance
+??? abstract "Constraints-Led analysis"
 
-!!! question "Key Internal Questions — Attacker"
-    - "Am I in range for power?"
-    - "What setup can I use to land the rear hand?"
-    - "Can I use feints or level changes to create openings?"
+    <p class="emma-sub">Constraints → Affordances</p>
 
----
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Rear hand only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces development of power shot entries and setups</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender can't counter (L1)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Focus on setup development</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">No lead hand available</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Must create openings without jab setup</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">All rear-hand tools available</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Invites discovery of cross, hook, uppercut options</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Striking range maintained</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Rear hand is viable with proper entry</span></div>
+    </div>
 
-## Key Logic: Power Hand Development
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — removing the lead hand forces discovery of power-shot entries that would normally hide behind a jab.</p>
 
-!!! note "The Core Skill"
-    The rear hand requires setup because it travels further and is easier to see. Within the constraint:
+    <p class="emma-sub">What the attacker reads</p>
 
-    - Cross to head
-    - Cross to body
-    - Rear hook
-    - Rear uppercut
-    - Feints to draw defensive reactions
-    - Level changes to open targets
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Distance and stance, defensive posture, reaction to feints, hand position → range for power, where openings exist, target selection.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Contact quality → whether the power shot landed clean.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Weight transfer, rotation, range and balance → power generation, strike selection and commitment.</p></div>
+    </div>
 
-    This develops the ability to land power when you need it.
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the <b>committing rear-hand shot lands on the opening a feint or level change created</b> — track target-landed vs. attempts, and whether each landing followed a genuine read → open → commit cycle rather than a telegraphed lunge. That coupling of opening-read to committed strike is the order parameter; when it stabilizes, disguised power offense has formed.</p>
 
-## Win Conditions
+    <p class="emma-sub">Representativeness</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Land a clean rear hand strike |
-| **Defender** | No win condition — success is measured by quality of defense |
+    <p class="emma-hl"><b>Models:</b> landing power punches — crosses, rear hooks, rear uppercuts — in standing exchanges, the fight-ending shots that require setup and timing.</p>
 
-**On attacker win:** Roles switch — attacker becomes defender.
+    <div class="emma-meta"><span>Simplified: rear hand only</span><span>no counter (L1)</span><span>role switch on success</span></div>
 
----
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Setup and timing transfer directly into <a href="../land-the-target/">Land the Target</a>, where all weapons integrate.</p>
 
-## Levels
+    <p class="emma-sub">Readiness to progress</p>
 
-=== "Level 1 — Defense Only"
-    - Attacker: Rear hand only
-    - Defender: Defense only, no counters
-    - Focus: Develop rear hand timing and entries
+    <ul class="emma-checklist">
+      <li>Lands rear hand without obvious telegraph</li>
+      <li>Uses feints and level changes to open</li>
+      <li>Varies targets head/body</li>
+      <li>Manages distance to generate power</li>
+      <li>Composed under counter threat (L2)</li>
+    </ul>
 
-=== "Level 2 — Add Counter Threat"
-    - Defender can throw counters after successful defense
-    - Attacker must respect counter threat
-    - Focus: Landing power while managing risk
+    <p class="emma-sub">Warning signs</p>
 
-=== "Level 3 — Full MMA Expression"
-    - Defender can counter-strike OR shoot/clinch
-    - Attacker must land rear hand while respecting all threats
-    - Focus: Power offense under MMA pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+    <div class="emma-warns">
+      <span class="emma-warn">Loads up obviously</span>
+      <span class="emma-warn">Only throws the cross</span>
+      <span class="emma-warn">Rushes to close distance</span>
+      <span class="emma-warn">Power without control</span>
+    </div>
 
----
+??? note "Safety &amp; related games"
 
-## Constraints Analysis
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate — power shots especially controlled</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on excessive force or lost composure</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if attacker uses non-rear-hand weapons</span>
+    </div>
 
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
+    <p class="emma-sub">Where it sits</p>
 
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker uses rear hand only | Forces development of power shot entries and setups |
-| **Task** | Defender cannot counter (Level 1) | Attacker can focus on setup development |
-| **Task** | No lead hand available | Must create openings without jab setup |
-| **Task** | All rear hand tools available | Invites discovery of cross, hook, uppercut options |
-| **Individual** | Skill level matching | Appropriate challenge for development |
-| **Environmental** | Striking range maintained | Rear hand is viable with proper entry |
-
-!!! info "Theoretical Foundation"
-    This game implements **Constrain to Afford** (Renshaw et al., 2019). By removing the lead hand, the attacker must discover entries and setups for power shots that would normally be hidden behind a jab. This develops the ability to land power when the opportunity presents—a critical MMA skill.
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's distance and stance | Determining if in range for power |
-| **Visual** | Defender's defensive posture | Where openings exist |
-| **Visual** | Defender's reaction to feints | What setups will work |
-| **Visual** | Defender's hand position | Target selection |
-| **Proprioceptive** | Weight transfer and rotation | Power generation |
-| **Proprioceptive** | Range and balance | Strike selection and commitment |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's weight shift/hip rotation | Early detection of power shot |
-| **Visual** | Attacker's range closing | When attack is likely |
-| **Visual** | Feint vs. commitment tells | Distinguishing real from fake |
-| **Haptic** | Impact quality | Confirming defense effectiveness |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "How did you create that opening?" This develops their understanding of setup-to-finish sequencing for power shots.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Landing power punches (crosses, rear hooks, rear uppercuts) in standing exchanges—the fight-ending shots that require setup and timing.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Weapon** | All strikes available | Rear hand only | Isolated |
-| **Setup tools** | Jab, feints, movement | Feints, movement, level changes | Simplified |
-| **Defense** | Full defense + counters | Defense only (Level 1) | Simplified |
-| **Consequence** | Knockdown/damage | Role switch | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Rear hand only | Isolates power shot development specifically |
-| No lead hand | Forces discovery of alternative entries |
-| No counters at Level 1 | Allows focus on setup development |
-
-!!! note "Transfer Expectation"
-    Athletes who develop rear hand entries here transfer to [Land the Target](land-the-target.md) where all weapons integrate. The setup and timing skills transfer directly to combination offense.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Defender** | Rotate training partners | Different defensive styles to solve |
-| **Emphasis** | Cross sessions, rear hook sessions, body sessions | Complete rear hand development |
-| **Distance** | Start closer, start further | Entry adaptability |
-| **Tempo** | Patient days, aggressive days | Timing adaptability |
-| **Intensity** | Light to moderate contact | Control calibration for power shots |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Rear hand only | Core constraint defining the game |
-| No lead hand/kicks | Forces rear hand entry development |
-| Power shot intention | This is about landing power, not volume |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Lands rear hand without telegraph | Entry skills developing |
-| Uses multiple setups (feints, level changes) | Setup variety emerging |
-| Lands against varied defenders | Transferable skill developing |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Lands rear hand strikes without obvious telegraph
-- [ ] Uses feints and level changes to create openings
-- [ ] Varies targets (head and body) with rear hand
-- [ ] Manages distance to generate power
-- [ ] Maintains composure under counter threat (Level 2)
-
-### Ready to Exit Game (Move to Land the Target) When
-
-- [ ] Level 2+ competence (handles counter threat)
-- [ ] Rear hand entries are disguised and varied
-- [ ] Expresses desire to add lead hand/kicks
-- [ ] Power shot success maintains across varied defenders
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Loads up obviously | Telegraphing power | Practice disguised entries |
-| Only throws cross | Limited variety | Introduce rear hook/uppercut focus |
-| Rushes to close distance | Setup incomplete | Emphasize patience and timing |
-| Power without control | Contact management issue | Reduce intensity, focus on placement |
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — power shots especially should be controlled
-- **Stop conditions:** Loss of composure, excessive force
-- **Coach intervention:** Reset if attacker uses non-rear-hand weapons
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Rear Hand Offense] --> B[Land the Target]
-    B --> C[Touch Game]
-
-    style A fill:#FF5722,color:#fff
-```
-
-- **Prerequisite games:** None — this is foundational
-- **Follow-on games:** [Land the Target](land-the-target.md) (integrates all weapons)
-- **Related concepts:** [Three Zones of Attack](../concepts/three-zones.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as offensive skill isolation patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None — this is foundational</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../land-the-target/">Land the Target</a> (integrates all weapons)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/three-zones/">Three Zones of Attack</a></span></div>
+    </div>

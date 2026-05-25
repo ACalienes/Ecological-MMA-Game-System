@@ -28,286 +28,159 @@ tags:
 
 # Clinch Denial
 
-!!! info "Game Identity"
-    - **Problem:** Preventing opponent from establishing clinch connection
-    - **Environment:** Open Space
-    - **Stage:** Counter (Anti-Access)
+<div class="emma-meta"><span>Transition</span><span>Wrestling</span><span>Defensive</span><span>Intermediate</span><span>Open Space</span></div>
+
+Deny the clinch before it forms. The defender uses frames, hand fighting, and movement to keep open space — denying connection is far easier than escaping it once locked.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at mid-range in open space, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to lock a meaningful clinch; the defender is trying to deny connection &amp; keep space.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Deny for the round → switch · Clinch locks → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>felt frames</i> — the <b>inertial array</b> at the contact: how the attacker's reach and posture load against your hands and forearms as they close — not their eyes or their feet. That haptic information specifies <i>which grip is coming</i> and <i>which way to frame</i> before connection sets.</p>
 
-This is a **defensive wrestling game** focused on preventing clinch establishment. The defender learns to use frames, hand fighting, and movement to deny connection.
+<p class="emma-glabel">The Starting Position</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players standing at mid-range in open space.
-    - **Attacker:** Close distance and establish meaningful clinch connection (collar tie, underhook, or body lock).
-    - **Defender:** Deny the clinch using frames, hand fighting, and movement — keep open space.
-    - **Win:** Attacker wins by locking in meaningful clinch; defender wins by denying for the set time or creating significant space.
-    - **Why it matters:** Builds clinch-denial skill — strikers who frame and hand-fight early are harder to grapple.
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off standing at mid-range.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Mid-range — open space with room to read and react before contact.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the defender denies for the round.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates the entry; reset to mid-range after a clinch locks or space is created.</div>
+</div>
 
----
+<p class="emma-glabel">The Matchup</p>
 
-## Goal
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🤼</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to close distance and lock a meaningful clinch — collar tie, underhook, or body lock with control.</p>
+    <span class="emma-pop">Swim hands to connection; chain attempts when denied. Brief contact isn't a clinch — you need a meaningful, controlling grip. Scale pressure to the defender's success.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to deny connection and keep open space — frames, hand fighting, and movement, not escape.</p>
+    <span class="emma-pop">Post and frame, hand-fight the grips, circle and angle off entries. No striking at Level 1 — pure denial tools. Stop them before they connect, not after.</span>
+  </div>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">The Rules</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Establish meaningful clinch connection (hands locked, collar tie, body lock) |
-| **Defender** | Deny clinch and maintain open space |
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤼</span> Attacker must attempt clinch<span class="emma-chip__detail">The attacker must seek a clinch entry — no striking-only pressure. This keeps the defender's reading problem focused on connection denial.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛡️</span> Denial tools only — no strikes (L1)<span class="emma-chip__detail">At Level 1 the defender uses frames, hand fighting, and movement only — no strikes. This isolates the pure denial solution before striking is integrated.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔗</span> Meaningful connection only<span class="emma-chip__detail">Brief hand contact is not a clinch. The attacker must establish a controlling grip — collar tie, underhook, or body lock — for it to count.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏁</span> Game ends on clinch<span class="emma-chip__detail">Play ends the moment a meaningful clinch is established — this game trains denial, not escape from a locked clinch (a different game).</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
+</div>
 
-The objective is **connection denial**, not escape from clinch.
+<p class="emma-glabel">How to Win</p>
 
----
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the defender denies the clinch for the set time or creates significant space, the players switch roles.<span class="emma-pop">The defender kept open space for the full round or broke clean — and earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the attacker locks a meaningful clinch, reset to mid-range — same roles.<span class="emma-pop">Both hands connected with control — collar tie, underhook, or body lock. Then begin again from mid-range.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">The Levels</p>
 
-- Both players start standing at mid-range
-- Attacker attempts to close distance and establish clinch
-- Defender uses frames, hand fighting, and movement
-- Reset when clinch is established OR defender creates significant space
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>No strikes</b>Pure entry vs. denial.<span class="emma-pop emma-pop--l">Pure clinch entry against pure denial — no strikes either side. Build hand fighting and framing with no other pressure.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Attacker pressures</b>Forward drive to close space.<span class="emma-pop emma-pop--l">The attacker adds forward pressure to close space. The defender must deny while being backed up.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add movement</b>Footwork and angles.<span class="emma-pop emma-pop--l">The defender uses footwork and angles to deny; the attacker must cut off and close. Movement-based denial.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Strike to create space.<span class="emma-pop emma-pop--l">The defender can strike to create space; the attacker must close through the strike threat. Clinch denial under <a href="../../concepts/full-mma-expression/">full MMA pressure</a>.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Invariants
+??? note "Task focus &amp; coaching cues"
 
-1. Attacker **must attempt clinch** — no striking-only pressure
-2. Defender **cannot strike** at Level 1 — denial tools only
-3. Brief hand contact is not clinch — must be meaningful connection
-4. Game ends on clinch establishment, not continuation
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Attacker</div><p>Close distance; swim hands to connection; use collar ties, underhooks, body lock attempts; chain when denied.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Post and frame to create distance; hand-fight grips; circle and angle off entries; push off and disengage.</p></div>
+    </div>
 
-## Task Focus
+    <p class="emma-sub">Coaching cues</p>
 
-### Attacker
-- Close distance
-- Swim hands to connection
-- Use collar ties, underhooks, body lock attempts
-- Chain attempts when denied
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Stop them before they connect</div><p>"Are you stopping them before they connect or after?" Early denial — frames and hand fighting before the clinch sets. Late denial becomes escape, which is harder.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Frame, don't just push</div><p>"Am I framing effectively or just pushing?" A frame redirects and creates an angle; a shove only delays. Feel which grip is coming and meet it.</p></div>
+    </div>
 
-### Defender
-- Post and frame to create distance
-- Hand fight to deny grips
-- Circle and angle to prevent direct entry
-- Push off and disengage
+??? abstract "Constraints-Led analysis"
 
-!!! question "Key Internal Questions — Defender"
-    - "Am I stopping their hands before they connect?"
-    - "Can I create an angle before they close distance?"
-    - "Am I framing effectively or just pushing?"
+    <p class="emma-sub">Constraints → Affordances</p>
 
----
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Attacker must attempt clinch</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Consistent clinch attempts to defend</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender can't strike (L1)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Isolates hand fighting &amp; framing skill</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Game ends on clinch (not escape)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Focuses on denial, not escape after connection</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Progressive tools (frames → movement → strikes)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scaffolded learning of denial options</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Mid-range start</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Time to read and react before contact</span></div>
+    </div>
 
-## Key Logic: Deny Before Connected
+    <p class="emma-hl">Develops <b>clinch-denial affordances</b> — perceiving entry attempts and selecting denial tools. Denial is easier than escape; this game exploits that principle (Renshaw et al., 2019).</p>
 
-!!! note "The Core Skill"
-    Clinch denial is easier than clinch escape. The progression:
+    <p class="emma-sub">What the defender reads</p>
 
-    | Stage | Difficulty | Tools |
-    |-------|------------|-------|
-    | Before they reach | Easiest | Movement, distance |
-    | As they reach | Medium | Frames, hand fighting |
-    | After they connect | Hardest | Clinch escape (different game) |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Entry angle, hand targeting, distance closure, head position → frame direction &amp; movement timing.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Grip attempts &amp; reach loading on the frames → which hand to fight.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own frame position &amp; strength → denial effectiveness.</p></div>
+    </div>
 
-    This game focuses on the first two stages.
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the defender <b>meets the entry in time</b> — frame and hand-fight arriving before the grip sets, so they stay free rather than getting clinched. Track clean denials vs. clinches locked, and whether the frame re-sets between attempts. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
-## Win Conditions
+    <p class="emma-sub">Representativeness</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Establish meaningful clinch (both hands connected with control) |
-| **Defender** | Deny clinch for set time OR create significant space |
+    <p class="emma-hl"><b>Models:</b> a striker keeping a wrestler or clinch-fighter from establishing connection to keep the fight at distance.</p>
 
-**On defender win:** Roles switch.
-**On attacker win:** Reset, same roles.
+    <div class="emma-meta"><span>Simplified: no strikes (L1)</span><span>ends on clinch</span><span>denial not escape</span></div>
 
----
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Hand fighting and framing here transfer to any clinch-denial situation — opposite perspective to <a href="../wall-control/">Wall Control</a>.</p>
 
-## Levels
+    <p class="emma-sub">Readiness to progress</p>
 
-=== "Level 1 — No Strikes"
-    - Pure clinch entry vs. denial
-    - No strikes from either player
-    - Focus: Hand fighting and framing
+    <ul class="emma-checklist">
+      <li>Denies ~70%+ vs. varied attackers</li>
+      <li>Uses frames, hand fighting &amp; push-offs</li>
+      <li>Can describe: "I stopped their underhook by…"</li>
+      <li>Composed under forward pressure</li>
+    </ul>
 
-=== "Level 2 — Attacker Uses Pressure"
-    - Attacker can use forward pressure to close space
-    - Defender must manage being backed up
-    - Focus: Denial under pressure
+    <p class="emma-sub">Warning signs</p>
 
-=== "Level 3 — Add Movement"
-    - Defender can use footwork and angles
-    - Attacker must cut off and close
-    - Focus: Movement-based denial
+    <div class="emma-warns">
+      <span class="emma-warn">Gets clinched consistently</span>
+      <span class="emma-warn">Only uses one denial tool</span>
+      <span class="emma-warn">Backs up without framing</span>
+      <span class="emma-warn">Panics when grips are attempted</span>
+    </div>
 
-=== "Level 4 — Full MMA Expression"
-    - Defender can strike to create space
-    - Attacker must close through strike threat
-    - Focus: Clinch denial under MMA pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
+??? note "Safety &amp; related games"
 
----
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light contact on frames &amp; hand fighting</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on excessive force or frustration</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if neither player is progressing</span>
+    </div>
 
-## Constraints Analysis
+    <p class="emma-sub">Where it sits</p>
 
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker must attempt clinch (no striking) | Creates consistent clinch attempts to defend |
-| **Task** | Defender cannot strike (Level 1) | Isolates hand fighting and framing skill |
-| **Task** | Game ends on clinch (not escape) | Focuses on denial, not escape after connection |
-| **Task** | Progressive defender tools (frames → movement → strikes) | Scaffolded learning of denial options |
-| **Individual** | Prerequisite: Pressure to Clinch | Understands clinch objectives from attacker perspective |
-| **Environmental** | Mid-range starting position | Defender has time to read and react |
-
-!!! info "Theoretical Foundation"
-    This game develops **clinch denial affordances**—perceiving entry attempts and selecting appropriate denial tools. The constraint isolating hand fighting (no strikes at Level 1) forces the defender to develop pure denial skill before integrating striking. Denial is easier than escape; this game exploits that principle (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's entry angle | Frame direction |
-| **Visual** | Attacker's hand targeting | Hand fighting priority |
-| **Visual** | Attacker's distance closure | Movement timing |
-| **Visual** | Attacker's head position | Push/frame opportunity |
-| **Haptic** | Attacker's grip attempts | Which hand to fight |
-| **Proprioceptive** | Own frame position and strength | Denial effectiveness |
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's hand position | Entry path |
-| **Visual** | Defender's movement pattern | Cutting angle |
-| **Haptic** | Frame resistance | Where to swim or circle |
-
-!!! tip "Coaching Cue"
-    Ask defenders: "Are you stopping them before they connect or after?" The goal is early denial—frames and hand fighting before full clinch is established. Late denial becomes clinch escape, which is harder.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Preventing a wrestler or clinch-fighter from establishing connection—a key skill for strikers who want to keep the fight at distance.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Clinch attempts** | Various entries | Multiple entry types | High |
-| **Denial tools** | Frames, hand fighting, movement, strikes | Progressive by level | Scaffolded |
-| **Pressure** | Forward drive possible | Added at Level 2 | Progressive |
-| **Consequence** | Clinch leads to wrestling/wall | Game ends on clinch | Analogous |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| No strikes at Level 1 | Isolates hand fighting skill |
-| Game ends on clinch | Focuses on denial; escape is a different skill |
-| Clear role separation | Develops specific denial skill |
-
-!!! note "Transfer Expectation"
-    Hand fighting and framing developed here transfer directly to any clinch-denial situation. Strikers who develop these skills are harder to grapple.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Attacker style** | Aggressive closers, patient setups | Multiple denial solutions |
-| **Entry type** | Collar tie seekers, underhook hunters, body lock seekers | Full denial vocabulary |
-| **Attacker size** | Longer arms, compact build | Frame adaptability |
-| **Pressure level** | Light pressure, heavy pressure | Intensity calibration |
-| **Duration** | 30-second rounds, 2-minute rounds | Endurance development |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Attacker seeks clinch (not strikes) | Core constraint defining the game |
-| Defender denies (not escapes) | Maintains denial focus |
-| Clear win conditions | Structure for evaluation |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Denial consistent against current entry types | Ready for more pressure |
-| Uses multiple denial tools | Degeneracy developing |
-| Maintains distance effectively | Ready for movement addition |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Denies clinch consistently (70%+) against varied attackers
-- [ ] Uses frames, hand fighting, and push-offs appropriately
-- [ ] Can verbalize: "I stopped their underhook by..."
-- [ ] Maintains composure under forward pressure
-- [ ] Recovery to denial position is quick
-
-### Ready to Exit Game When
-
-- [ ] Level 3+ competence (uses movement effectively)
-- [ ] Denial is instinctive, not deliberate
-- [ ] Can integrate striking with denial (Level 4)
-- [ ] Clinch denial appears in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Gets clinched consistently | Denial not effective | Slow down attacker, more reps |
-| Only uses one denial tool | Limited solutions | Constrain that tool, force others |
-| Backs up without framing | Using distance instead of denial | Reduce space, enforce framing |
-| Panics when grips are attempted | Composure lacking | Slower pace, build confidence |
-
----
-
-## Safety
-
-- **Contact limits:** Light contact on frames and hand fighting
-- **Stop conditions:** Excessive force, frustration
-- **Coach intervention:** Reset if neither player is progressing
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Pressure to Clinch] --> B[Clinch Denial]
-
-    style B fill:#4CAF50,color:#fff
-```
-
-- **Prerequisite games:** [Pressure to Clinch](pressure-to-clinch.md)
-- **Follow-on games:** [Wall Control](wall-control.md) (opposite perspective)
-- **Related concepts:** [Hand Controls](../concepts/hand-controls.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as clinch denial patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-clinch/">Pressure to Clinch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-control/">Wall Control</a> (opposite perspective)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/hand-controls/">Hand Controls</a></span></div>
+    </div>

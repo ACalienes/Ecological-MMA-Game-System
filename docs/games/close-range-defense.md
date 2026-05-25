@@ -29,329 +29,168 @@ tags:
 
 # Close-Range Defense
 
-!!! info "Game Identity"
-    - **Problem:** Defending strikes at close range using multiple defensive solutions
-    - **Environment:** Open Space (Close Quarters)
-    - **Stage:** Access / Counter
+<div class="emma-meta"><span>Integration</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Close Quarters</span></div>
+
+Mix the defensive solutions under pressure. The defender stays in the pocket and layers blocking, parrying, and dodging — learning *when* to use *which*. This is a diagnostic game: no winner, just quality of defense.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter — attacker with a slight pressure advantage.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to find openings and land strikes; the defender is trying to defend without exiting, picking the right solution each time.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>No winner — reset after a defended sequence or a clean strike. Leave the perimeter → loss.</b></div>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) of each incoming strike in the combination — how fast it grows and along which path — read via shoulder–hip motion at <b>center mass</b>, not the opponent's eyes or their absolute distance. Shoulder motion is the punch line; hip motion is power and kicks — "the little X" holds both at once and tells you which defense to pick.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off — attacker in a slight winning position, defender in a losing position.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Close quarters — inside striking range, no distance buffer.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). The defender cannot exit freely.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — this is a diagnostic, so roles are held and rotated by the coach.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker presses; reset after a defended sequence or a clean strike lands.</div>
+</div>
+
+<p class="emma-glabel">The Matchup</p>
 
-This is a **scaling defensive game** that progressively opens up defensive options. The defender learns to mix between blocking, parrying, and dodging based on what the situation demands.
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to compromise the defender's openings and land strikes through the guard.</p>
+    <span class="emma-pop">Throw combinations and allow resets — don't crowd or overwhelm. Start narrow (head only, or straights only) and scale variety, speed, and combo length only as the defender succeeds.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to defend every strike without exiting — mixing tight blocking, parrying, and static dodging.</p>
+    <span class="emma-pop">Can't exit the pocket. The toolkit opens up level by level — block first, then parry, then dodge, then counter. Pick the defense the strike calls for.</span>
+  </div>
+</div>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players at close quarters; attacker has slight pressure advantage, defender cannot exit freely.
-    - **Attacker:** Compromise the defender's openings and land strikes (throw combinations, allow resets).
-    - **Defender:** Defend without exiting, mixing tight blocking, parrying, and static dodging.
-    - **Win:** No winner — diagnostic game scored on strikes defended and quality of defensive selection.
-    - **Why it matters:** Builds defensive adaptability — learning when to use which defensive solution.
+<p class="emma-glabel">The Rules</p>
 
----
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Defender cannot exit<span class="emma-chip__detail">The defender must stay and defend in the pocket — no backing up continuously. This prevents the footwork-escape habit and forces real defensive skill.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Combinations with reset<span class="emma-chip__detail">The attacker throws combinations but must allow a reset between them — no continuous overwhelming pressure, so the defender has processing time to learn.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Reasonable distance<span class="emma-chip__detail">The attacker must strike from reasonable range and can't crowd the defender — keeping the defensive problem readable.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧰</span> Tools open progressively<span class="emma-chip__detail">The defender's available solutions unlock by level — block, then parry, then dodge, then counter — so each is layered in rather than dumped at once.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If both feet leave it, you lose instantly — training cage-edge awareness.</span></span>
+</div>
 
-## Goal
+<p class="emma-glabel">How to Win</p>
 
-This is an **asymmetric game** with distinct roles.
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> No winner — this game is scored, not won. Success is the percentage of strikes defended and the quality of defensive selection.<span class="emma-pop">The point is learning when to use which solution, not beating the partner. The coach reads selection quality, not a tally of points.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When a sequence is defended cleanly or a clean strike lands, reset to the start position — same roles.<span class="emma-pop">Either outcome ends the rep; begin again from the close-range start so the next combination can be read fresh.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">In the confined-perimeter variant, crossing the line ends it instantly, regardless of the exchange — training the boundary awareness a fighter needs near the cage.</span></div>
+</div>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Compromise defender's openings and land strikes |
-| **Defender** | Defend strikes using defensive principles (tight blocking, parrying, static dodging) |
+<p class="emma-glabel">The Levels</p>
 
-The objective is **defensive adaptability** — learning when to use which solution.
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Tight blocking only</b>Shell up; straights to the head.<span class="emma-pop emma-pop--l">The defender can only block; the attacker throws straight head punches only. Absorb and reset.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add parrying</b>Block or parry; add body shots.<span class="emma-pop emma-pop--l">The defender can now block or parry; the attacker adds body strikes. Choose the appropriate defense for each strike.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add dodging</b>Block, parry, or dodge; add hooks.<span class="emma-pop emma-pop--l">Static head movement joins the toolkit; the attacker adds hooks and varied combinations. Full defensive integration.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Add counter opportunity</b>One counter after defense.<span class="emma-pop emma-pop--l">After a successful defense the defender may throw one counter; the attacker must respect the threat. Defense as a setup for offense.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Turn the corner</b>Reposition for angle.<span class="emma-pop emma-pop--l">The defender can work to turn the corner on the attacker, creating an angle for counter-attack or escape — defensive footwork integration.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too — defend strikes while denying the grappling entry. Shelling up without posture invites takedowns.</span></div>
+</div>
 
----
+<p class="emma-glabel">Go Deeper</p>
 
-## Entry Condition
+??? note "Task focus &amp; coaching cues"
 
-- Both players start at close quarters (inside striking range)
-- Attacker in "winning position" (slight pressure advantage)
-- Defender in "losing position" (must defend, cannot exit freely)
-- Reset after successful defensive sequence or clean strike lands
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Compromise openings and land strikes; start narrow (head or straights only); scale difficulty to the partner's success.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Mix defenses as the toolkit opens; block first, then layer parrying and dodging; stay in the pocket.</p></div>
+    </div>
 
-## Invariants
+    <p class="emma-sub">Coaching cues</p>
 
-1. Defender **cannot exit** — must stay and defend (no backing up continuously)
-2. Attacker must throw combinations and **allow for reset** (no continuous overwhelming pressure)
-3. Attacker must strike in reasonable distance (can't crowd the defender)
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">See center mass</div><p>Keep eye contact on center mass, not the head — the head carries no information and the eyes lie. Center mass holds shoulder (punch line) and hip (power, kicks) at once: "the little X."</p></div>
+      <div class="emma-card"><div class="emma-card__i">⚓</div><div class="emma-card__t">Base under fire</div><p>Strike force off-balances you — that's what defeats the counter, not the damage. Bend the knees, create suspension "like an ATV over bumps," and keep energy to drive forward.</p></div>
+    </div>
 
----
+    <p class="emma-sub">Trade-offs to feel</p>
 
-## Task Focus
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🤲</div><div class="emma-card__t">Hands close</div><p>Easier to defend strikes, harder to counter.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👐</div><div class="emma-card__t">Hands out</div><p>More compromised, but can disrupt the attacker or counter.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Dodging</div><p>More offline head = more exposed to significant strikes.</p></div>
+    </div>
 
-### Attacker
-- Compromise defender's openings and land strikes
-- Start with only head strikes or only straight punches
-- Scale difficulty to partner — increase challenge with successful defense
+??? abstract "Constraints-Led analysis"
 
-### Defender
-- Mix between different kinds of defense as task focus opens up
-- Start with only tight blocking
-- Progress to blocking with parrying, then add dodging
+    <p class="emma-sub">Constraints → Affordances</p>
 
-!!! warning "Defensive Trade-offs"
-    - **Hands closer to face** = easier to defend strikes, harder to counter
-    - **Hands further out** = more compromised, but can disrupt attacker or counter
-    - **When dodging**, more offline head = more compromised for significant strikes
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Cannot exit</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces defensive engagement, no escape option</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Progressive tool unlock</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scaffolds learning of defensive integration</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Reset between combos</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Processing time for learning</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Close-quarters start</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Must defend immediately, no distance buffer</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">All solutions viable at range</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Defensive selection actually matters</span></div>
+    </div>
 
----
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — progressively unlocking solutions lets the defender discover which tool fits which attack. <i>Degeneracy</i> develops: multiple solutions for similar problems.</p>
 
-## Key Logic: Scaling Defensive Solutions
+    <p class="emma-sub">What the defender reads</p>
 
-The defender's available tools open up progressively:
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Punch type, trajectory &amp; combination rhythm → select block, parry, or dodge and anticipate follow-ups.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Strike impact location → adjust guard position.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Guard position &amp; coverage → gaps in defense.</p></div>
+    </div>
 
-| Level | Blocking | Parrying | Dodging | Counter |
-|-------|:--------:|:--------:|:-------:|:-------:|
-| 1 | Yes | — | — | — |
-| 2 | Yes | Yes | — | — |
-| 3 | Yes | Yes | Yes | — |
-| 4 | Yes | Yes | Yes | Yes |
+    <p class="emma-sub">What we measure (order parameter)</p>
 
-This teaches the defender to **layer** defensive solutions.
+    <p class="emma-hl">Whether the defender's <b>chosen defense lands in time with each strike</b> — track strikes defended vs. shots eaten, whether the <i>right</i> solution was selected, and whether the guard re-sets between combinations. That timing-and-selection relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
-### Attacker Scaling
+    <p class="emma-sub">Representativeness</p>
 
-The attacker scales difficulty based on defender success:
-- If defender handles current level → increase variety, speed, or combination length
-- If defender struggles → simplify until they find success
+    <p class="emma-hl"><b>Models:</b> being pressured in close quarters and defending multiple strikes while looking to counter or escape.</p>
 
-### Reading Center Mass
+    <div class="emma-meta"><span>Simplified: progressive unlock</span><span>resets between combos</span><span>stay in range</span></div>
 
-The "can I see the combinations coming?" question has a concrete answer: keep eye contact on **center mass**, not the head. The head carries no information about the hands or feet, and the eyes lie. Center-mass focus holds shoulder motion (the punch line) and hip motion (power and kicks) in view at once — "the little X." Dropping the head behind the guard blinds the defender and the openings get found.
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Integrates the isolated solutions — the confined-perimeter variant extends into clinch off-balancing and takedowns, see <a href="../the-square/">The Square</a>.</p>
 
-### Basing Under Fire
+    <p class="emma-sub">Readiness to progress</p>
 
-Strike force off-balances the defender, which is what actually defeats the counter — not just the damage. Bend the knees and create suspension ("like an ATV that maintains itself over bumps") so impact is absorbed without getting rocked, leaving energy available to drive a counter forward.
+    <ul class="emma-checklist">
+      <li>Right defense for the right strike (~70%+)</li>
+      <li>Smooth transitions between defensive tools</li>
+      <li>Composure held under combination pressure</li>
+      <li>Can articulate why they chose a defense</li>
+    </ul>
 
-### Confined-Square Variant
+    <p class="emma-sub">Warning signs</p>
 
-Instead of the soft "cannot exit" invariant, run the game inside a marked square and make **both feet leaving the square an automatic loss**. This removes the footwork-escape habit, forces the solution into the pocket, and trains the boundary awareness a fighter needs near the cage. From here the game extends into clinch off-balancing and takedowns — see [The Square](the-square.md) for the full layered build.
+    <div class="emma-warns">
+      <span class="emma-warn">Only uses one defensive tool</span>
+      <span class="emma-warn">Panics under combinations</span>
+      <span class="emma-warn">Backs up despite the constraint</span>
+    </div>
 
----
+??? note "Safety &amp; related games"
 
-## Win Conditions
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact — felt, not damaging</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on overwhelming pressure or lost composure</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the attacker isn't allowing defensive opportunities</span>
+    </div>
 
-**No winning condition** — this is a diagnostic game.
+    <p class="emma-sub">Where it sits</p>
 
-Success is evaluated by:
-- **Defender:** Percentage of strikes defended, quality of defensive selection
-- **Attacker:** Ability to find openings, appropriate scaling
-
----
-
-## Levels
-
-=== "Level 1 — Tight Blocking Only"
-    - Defender can only use tight blocking (shell up)
-    - Attacker throws head strikes only, straight punches only
-    - Focus: Absorb and reset
-
-=== "Level 2 — Add Parrying"
-    - Defender can now block OR parry
-    - Attacker adds body strikes
-    - Focus: Choose appropriate defense for each strike
-
-=== "Level 3 — Add Dodging"
-    - Defender can block, parry, or dodge (static head movement)
-    - Attacker adds hooks and varied combinations
-    - Focus: Full defensive toolkit integration
-
-=== "Level 4 — Add Counter Opportunity"
-    - After successful defense, defender can throw one counter strike
-    - Attacker must respect the counter threat
-    - Focus: Defense as setup for offense
-
-=== "Level 5 — Turn the Corner"
-    - Defender can work to reposition (turn the corner on attacker)
-    - Creates angle for counter-attack or escape
-    - Focus: Defensive footwork integration
-
-=== "Level 6 — Full MMA Expression"
-    - Attacker can throw strikes AND shoot or establish clinch
-    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
-    - Defender must defend strikes AND deny grappling entry
-    - Focus: Full defensive toolkit under realistic MMA pressure
-    - Shelling up without posture awareness creates takedown opportunities
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Defender cannot exit (must stay in range) | Forces defensive engagement, no escape option |
-| **Task** | Progressive tool availability (block → parry → dodge → counter) | Scaffolded learning of defensive integration |
-| **Task** | Attacker must allow reset between combinations | Processing time for learning |
-| **Task** | Close quarters starting position | No distance buffer—must defend immediately |
-| **Individual** | Prerequisite: Skill isolation games | Foundation of individual defensive tools |
-| **Environmental** | Open space, close range | Defensive selection matters (all solutions viable) |
-
-!!! info "Theoretical Foundation"
-    This game implements **Constrain to Afford** (Renshaw et al., 2019). By progressively unlocking defensive solutions, the defender naturally discovers which tools work for which attacks. The constraint of staying in range prevents the common escape response and forces true defensive skill development. **Degeneracy** develops as the defender learns multiple solutions for similar problems.
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Punch type and trajectory | Select block, parry, or dodge |
-| **Visual** | Combination rhythm | Anticipate follow-up strikes |
-| **Visual** | Attacker's weight shift | Timing of defensive action |
-| **Visual** | Openings after attacker commits | Counter timing |
-| **Proprioceptive** | Guard position and coverage | Gaps in defense |
-| **Haptic** | Strike impact location | Adjustment of guard position |
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's guard position | Where openings exist |
-| **Visual** | Defender's defensive pattern | What they favor (block vs. parry) |
-| **Visual** | Defender's posture and balance | When to press, when to reset |
-
-!!! tip "Coaching Cue"
-    Ask defenders: "Which defense did you use? Why that one?" This develops conscious awareness of selection, which becomes unconscious with practice.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Being pressured in close quarters and needing to defend multiple strikes while looking for opportunities to counter or escape.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Attack variety** | Full arsenal including grappling | Strikes scaled by level | Simplified |
-| **Defensive options** | All available | Progressively unlocked | Scaffolded |
-| **Exit option** | Can move away | Cannot exit at lower levels | Simplified |
-| **Pressure intensity** | Continuous possible | Reset between combos | Reduced |
-| **Consequence** | Damage, knockdown | Diagnostic (no scoring) | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Progressive tool unlocking | Allows focus on learning each defensive solution |
-| Mandatory reset between combos | Processing time for deliberate practice |
-| Staying in range required | Develops true defensive skill, not escape reliance |
-
-!!! note "Transfer Expectation"
-    Athletes who develop defensive selection here transfer directly to live striking exchanges. The perception-action coupling—seeing a strike type and selecting appropriate defense—is identical to competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Attacker** | Different partners with different styles | Exposure to varied attack patterns |
-| **Combination length** | 2-punch, 3-punch, 4-punch sequences | Defensive endurance and selection |
-| **Attack type emphasis** | Body-focused sessions, head-focused sessions | Complete defensive vocabulary |
-| **Tempo** | Fast combinations, slow combinations | Timing adaptability |
-| **Intensity** | Light touch, moderate contact | Pressure calibration |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| No exit allowed | Core constraint defining the game |
-| Progressive tool unlocking | Scaffolded learning structure |
-| Reset between combinations | Maintains processing opportunity |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Appropriate defense selection 70%+ | Decision-making developing |
-| Smooth transitions between defensive tools | Integration occurring |
-| Defensive posture maintained between combos | Recovery skill established |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Current tool set used appropriately (right defense for right strike)
-- [ ] Smooth transitions between defensive solutions
-- [ ] Composure maintained under attack pressure
-- [ ] Can articulate why they chose specific defenses
-- [ ] Recovery to good position after each combo
-
-### Ready to Exit Game When
-
-- [ ] Level 4+ competence (uses counters effectively)
-- [ ] Defensive selection is automatic, not deliberate
-- [ ] Can defend varied attackers with different styles
-- [ ] Ready to integrate with footwork (Evasive Movement) or striking (Touch Game)
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Only uses one defensive tool | Selection not developing | Constrain: "This round, no blocking—parry or dodge only" |
-| Panics under combinations | Overwhelmed at current level | Reduce combo length, slow tempo |
-| Takes clean shots frequently | Defense not effective | Return to previous level |
-| Backs up despite constraint | Escape response dominating | Reinforce constraint, add boundary |
-
----
-
-## Advanced Expressions (Coach Context)
-
-As athletes develop:
-
-**For defenders:**
-- Defensive selection becomes automatic
-- Movement between blocking, parrying, and dodging becomes fluid
-- Counter opportunities are recognized instantly
-
-**For attackers:**
-- Learn to read defensive habits and exploit them
-- Develop combination intelligence
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — strikes should be felt but not damaging
-- **Stop conditions:** Overwhelming pressure, loss of composure
-- **Coach intervention:** Reset if attacker is not allowing defensive opportunities
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Parry the Straight] --> B[Close-Range Defense]
-    B --> C[Touch and Don't Get Touched]
-    B --> D[Pressure to Takedown]
-
-    style B fill:#2196F3,color:#fff
-```
-
-- **Prerequisite games:** [Parry the Straight](parry-the-straight.md) (and other skill isolation games)
-- **Follow-on games:** [Touch and Don't Get Touched](touch-game.md), [Pressure to Takedown](pressure-to-takedown.md)
-- **Related concepts:** [Defensive Solutions in Striking](../concepts/defensive-solutions.md), [Hand Controls](../concepts/hand-controls.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as defensive integration patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../parry-the-straight/">Parry the Straight</a> (and other skill-isolation games)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../touch-game/">Touch and Don't Get Touched</a> · <a href="../pressure-to-takedown/">Pressure to Takedown</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/defensive-solutions/">Defensive Solutions</a> · <a href="../../concepts/hand-controls/">Hand Controls</a></span></div>
+    </div>
