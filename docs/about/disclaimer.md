@@ -1,103 +1,85 @@
 # Disclaimer
 
-Important information about using this system safely and responsibly.
+<div class="emma-meta"><span>About</span><span>Read Before Training</span><span>Safety &amp; Responsibility</span></div>
 
----
+<p class="emma-hl"><b>Train under qualified supervision. Choose your coaches carefully. Accept responsibility for your decisions. Stay safe.</b></p>
 
-## Coach Supervision Required
+<p class="emma-glabel">Coach Supervision Required</p>
 
-!!! warning "Critical Safety Notice"
-    **All gameplay in this system should be conducted under the supervision of a qualified coach or experienced practitioner.**
+<div class="emma-warns">
+  <span class="emma-warn emma-has-pop" tabindex="0">All gameplay must be supervised by a qualified coach or experienced practitioner<span class="emma-pop">These games involve physical contact, striking, grappling, and submissions — activities that carry inherent risk of injury. Supervision is not optional.</span></span>
+</div>
 
-The games in this system involve physical contact, striking, grappling, and submissions. These activities carry inherent risk of injury. Proper supervision is essential for:
+<p class="emma-sub">Proper supervision is essential to</p>
 
-- Ensuring appropriate intensity levels
-- Monitoring safety during play
-- Providing technical guidance
-- Intervening when necessary
-- Adapting games to participant skill levels
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🎚️</div><div class="emma-card__t">Set intensity</div><p>Ensure appropriate intensity levels.</p></div>
+  <div class="emma-card"><div class="emma-card__i">👀</div><div class="emma-card__t">Monitor safety</div><p>Watch for danger during play.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Guide technically</div><p>Provide technical guidance.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🛑</div><div class="emma-card__t">Intervene</div><p>Step in when necessary.</p></div>
+  <div class="emma-card"><div class="emma-card__i">⚙️</div><div class="emma-card__t">Adapt games</div><p>Scale to participant skill levels.</p></div>
+</div>
 
----
+<p class="emma-glabel">What Makes a "Qualified Coach"?</p>
 
-## What Constitutes a "Qualified Coach"?
+<p class="emma-hl">This system <b>does not certify coaches</b> or define qualification standards. Whether someone is qualified is <b>subjective</b>, <b>contextual</b>, and ultimately <b>your responsibility</b> — you choose who you trust to guide your training.</p>
 
-This system does not certify coaches or define qualification standards. The determination of whether someone is qualified to supervise training is:
+<p class="emma-sub">Factors to weigh</p>
 
-- **Subjective** — Based on the judgment of participants
-- **Contextual** — Depends on the specific activities being conducted
-- **The participant's responsibility** — You choose who you trust to guide your training
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏳</span> Experience<span class="emma-chip__detail">How long have they trained? Competed? Coached?</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📖</span> Knowledge<span class="emma-chip__detail">Do they understand the techniques and the safety considerations behind them?</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏅</span> Track record<span class="emma-chip__detail">What is their history with student safety and development?</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">💬</span> Communication<span class="emma-chip__detail">Can they explain concepts clearly and adapt to different learners?</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏟️</span> Environment<span class="emma-chip__detail">Is the training space safe and appropriately equipped?</span></span>
+</div>
 
-Consider these factors when evaluating a coach:
+<div class="emma-warns">
+  <span class="emma-warn emma-has-pop" tabindex="0">Your responsibility<span class="emma-pop">If you choose to learn from someone, you accept responsibility for that choice. This system provides the games — it does not evaluate or endorse any particular coach or gym.</span></span>
+</div>
 
-| Factor | Questions to Ask |
-|--------|-----------------|
-| **Experience** | How long have they trained? Competed? Coached? |
-| **Knowledge** | Do they understand the techniques and safety considerations? |
-| **Track Record** | What is their history with student safety and development? |
-| **Communication** | Can they explain concepts clearly and adapt to different learners? |
-| **Environment** | Is the training space safe and appropriately equipped? |
-
-!!! info "Your Responsibility"
-    If you choose to learn from someone, you are accepting responsibility for that choice. This system provides the games — it does not evaluate or endorse any particular coach or gym.
-
----
-
-## Assumption of Risk
+<p class="emma-glabel">Assumption of Risk</p>
 
 By using this system, you acknowledge:
 
-1. **Combat sports are inherently dangerous** — Injury can occur even with proper technique and supervision
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">⚠️</div><div class="emma-card__t">Combat sports are dangerous</div><p>Injury can occur even with proper technique and supervision.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🙋</div><div class="emma-card__t">You participate voluntarily</div><p>No one is forcing you to train.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🤝</div><div class="emma-card__t">You accept responsibility</div><p>For your choice of partners, coaches, and facilities.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🎓</div><div class="emma-card__t">This is educational material</div><p>Not a substitute for professional instruction.</p></div>
+</div>
 
-2. **You participate voluntarily** — No one is forcing you to train
+<p class="emma-glabel">Not Medical Advice</p>
 
-3. **You accept responsibility** — For your own safety decisions, including choice of training partners, coaches, and facilities
+<div class="emma-warns">
+  <span class="emma-warn emma-has-pop" tabindex="0">This system provides no medical guidance<span class="emma-pop">No medical advice, no injury treatment protocols, no rehabilitation guidance, no concussion protocols.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">If you are injured, consult medical professionals<span class="emma-pop">Do not rely on training partners, coaches, or this documentation for medical decisions.</span></span>
+</div>
 
-4. **This is educational material** — Not a substitute for professional instruction
+<p class="emma-glabel">Age &amp; Experience Considerations</p>
 
----
+<p class="emma-hl">Games here are designed for <b>adults with foundational martial arts experience</b>. Consider carefully before applying them to higher-risk participants.</p>
 
-## Not Medical Advice
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Minors</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Require additional supervision and modified intensity</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Complete beginners</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">May need prerequisite skill development first</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Those with injuries or conditions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Medical clearance may be necessary</span></div>
+</div>
 
-This system does not provide:
-
-- Medical advice
-- Injury treatment protocols
-- Rehabilitation guidance
-- Concussion protocols
-
-If you are injured, consult appropriate medical professionals. Do not rely on training partners, coaches, or this documentation for medical decisions.
-
----
-
-## Age and Experience Considerations
-
-Games in this system are designed for adults with foundational martial arts experience. Consider carefully before applying to:
-
-- **Minors** — Require additional supervision and modified intensity
-- **Complete beginners** — May need prerequisite skill development first
-- **Those with injuries or conditions** — Medical clearance may be necessary
-
----
-
-## Liability
+<p class="emma-glabel">Liability</p>
 
 This system is provided as-is for educational purposes. The creators and contributors:
 
-- Make no guarantees about safety or effectiveness
-- Are not responsible for injuries incurred during training
-- Do not endorse any specific gym, coach, or training methodology
-- Provide this material freely without warranty
+<ul class="emma-checklist">
+  <li>Make <b>no guarantees</b> about safety or effectiveness</li>
+  <li>Are <b>not responsible</b> for injuries incurred during training</li>
+  <li>Do <b>not endorse</b> any specific gym, coach, or methodology</li>
+  <li>Provide this material <b>freely, without warranty</b></li>
+</ul>
 
----
+<p class="emma-glabel">The Bottom Line</p>
 
-## Summary
+<p class="emma-hl">Combat sports can be practiced <b>safely and beneficially</b> when approached with proper respect for the risks involved. This system provides structured games that develop real skills — but the responsibility for safe implementation lies with <b>you and your training community</b>.</p>
 
-!!! quote "The Bottom Line"
-    **Train under qualified supervision. Choose your coaches carefully. Accept responsibility for your decisions. Stay safe.**
-
-Combat sports can be practiced safely and beneficially when approached with proper respect for the risks involved. This system aims to provide structured games that develop real skills — but the responsibility for safe implementation lies with you and your training community.
-
----
-
-!!! abstract "Questions?"
-    If you have questions about implementing this system safely, consult with qualified professionals in your area. This documentation cannot replace hands-on guidance from experienced practitioners.
+??? abstract "Questions?"
+    If you have questions about implementing this system safely, consult with qualified professionals in your area. This documentation cannot replace hands-on guidance from experienced practitioners. For the system's intent and design rules, see <a href="../context/">Project Context &amp; Goals</a>.

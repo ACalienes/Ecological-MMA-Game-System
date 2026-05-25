@@ -1,201 +1,202 @@
 # Sources & Theoretical Foundations
 
-This system is built on established research in motor learning, ecological psychology, and sports coaching. This page documents the theoretical lineage and key sources that inform our approach.
+<div class="emma-meta"><span>Reference</span><span>Theoretical Lineage</span><span>Motor Learning Research</span></div>
 
----
+<p class="emma-hl">This system is built on established research in <b>motor learning, ecological psychology, and sports coaching</b>. This page documents the theoretical lineage and the key sources that inform our approach.</p>
 
-## Theoretical Lineage
+<p class="emma-glabel">Theoretical Lineage</p>
 
-```
-ECOLOGICAL PSYCHOLOGY (Gibson, 1979)
-         ↓
-COORDINATION DYNAMICS (Bernstein, 1967; Kelso, 1995)
-         ↓
-CONSTRAINTS MODEL (Newell, 1986)
-         ↓
-ECOLOGICAL DYNAMICS (Davids et al., 2008)
-         ↓
-NONLINEAR PEDAGOGY (Chow et al., 2011)
-         ↓
-CONSTRAINTS-LED APPROACH (Renshaw et al., 2019)
-         ↓
-THIS SYSTEM: Ecological MMA Games
-```
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Ecological Psychology</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Gibson, 1979</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Coordination Dynamics</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Bernstein, 1967 · Kelso, 1995</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Constraints Model</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Newell, 1986</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Ecological Dynamics</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Davids et al., 2008</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Nonlinear Pedagogy</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Chow et al., 2011</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Constraints-Led Approach</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Renshaw et al., 2019</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><b>This System</b></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>Ecological MMA Games</b></span></div>
+</div>
 
----
+<p class="emma-glabel">Primary Source</p>
 
-## Primary Source
+<p class="emma-hl">📖 <b>Renshaw, I., Davids, K., Newcombe, D., &amp; Roberts, W. (2019).</b> <i>The Constraints-Led Approach: Principles for Sports Coaching and Practice Design.</i> Routledge.</p>
 
-!!! quote "Core Text"
-    **Renshaw, I., Davids, K., Newcombe, D., & Roberts, W. (2019).** *The Constraints-Led Approach: Principles for Sports Coaching and Practice Design.* Routledge.
+This text provides the methodological framework for our entire system. Its four Environment Design Principles — Session Intention, Constrain to Afford, Representative Learning Design, Repetition Without Repetition — directly shape how every game is structured.
 
-This text provides the methodological framework for our entire system. The four Environment Design Principles (Session Intention, Constrain to Afford, Representative Learning Design, Repetition Without Repetition) directly shape how every game is structured.
+<p style="font-size:.85rem;margin:.6rem 0 0;">See: <a href="../../principles/cla/">CLA Knowledge Base</a></p>
 
-See: [CLA Knowledge Base](../principles/cla/index.md)
+<p class="emma-glabel">Foundational Theorists</p>
 
----
+??? quote "James J. Gibson (1904–1979) — Ecological psychology, affordances, direct perception"
 
-## Foundational Theorists
+    <p class="emma-sub">Key work</p>
 
-### James J. Gibson (1904-1979)
+    <p class="emma-hl">Gibson, J.J. (1979). <i>The Ecological Approach to Visual Perception.</i> Houghton Mifflin.</p>
 
-**Contribution:** Ecological psychology, affordances, direct perception
+    <p class="emma-sub">Core ideas</p>
 
-**Key Work:**
-- Gibson, J.J. (1979). *The Ecological Approach to Visual Perception.* Houghton Mifflin.
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🌍</div><div class="emma-card__t">Affordances</div><p>The environment offers action opportunities relative to the organism's capabilities.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Direct perception</div><p>Information specifies action possibilities without cognitive mediation.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🔁</div><div class="emma-card__t">Perception-action coupling</div><p>Perceiving and acting form a continuous loop, not separate processes.</p></div>
+    </div>
 
-**Core Ideas:**
-- Affordances: The environment offers opportunities for action relative to an organism's capabilities
-- Direct perception: Information specifies action possibilities without requiring cognitive mediation
-- Perception-action coupling: Perceiving and acting form a continuous loop, not separate processes
+    <p class="emma-sub">How we use it</p>
 
-**How We Use It:**
-- Games are designed around affordances (what the environment invites)
-- Athletes learn to perceive opportunities, not execute memorized techniques
-- Training maintains the perception-action link (no isolated drilling)
+    <ul class="emma-checklist">
+      <li>Games are designed around affordances (what the environment invites)</li>
+      <li>Athletes learn to perceive opportunities, not execute memorized techniques</li>
+      <li>Training maintains the perception-action link (no isolated drilling)</li>
+    </ul>
 
----
+??? quote "Nikolai Bernstein (1896–1966) — Motor coordination, degrees of freedom, dexterity"
 
-### Nikolai Bernstein (1896-1966)
+    <p class="emma-sub">Key work</p>
 
-**Contribution:** Motor coordination, degrees of freedom, dexterity
+    <p class="emma-hl">Bernstein, N.A. (1967). <i>The Co-ordination and Regulation of Movements.</i> Pergamon Press.</p>
 
-**Key Work:**
-- Bernstein, N.A. (1967). *The Co-ordination and Regulation of Movements.* Pergamon Press.
+    <p class="emma-sub">Core ideas</p>
 
-**Core Ideas:**
-- Degrees of freedom problem: The body has enormous movement possibilities that must be organized
-- Freezing → Releasing → Exploiting: Learners initially constrain movement, then progressively free it
-- Dexterity: The ability to find motor solutions that are correct, quick, rational, and resourceful
-- Repetition without repetition: Practice should repeat problem-solving, not identical movements
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🎚️</div><div class="emma-card__t">Degrees of freedom</div><p>The body's enormous movement possibilities must be organized.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧊</div><div class="emma-card__t">Freeze → Release → Exploit</div><p>Learners constrain movement, then progressively free it.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🤹</div><div class="emma-card__t">Dexterity</div><p>Finding solutions that are correct, quick, rational, resourceful.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🔄</div><div class="emma-card__t">Repetition without repetition</div><p>Repeat problem-solving, not identical movements.</p></div>
+    </div>
 
-**How We Use It:**
-- Games allow multiple solutions (building dexterity, not technique compliance)
-- Levels progress from constrained to open (freezing → exploiting)
-- Variability is built into practice (repetition without repetition)
+    <p class="emma-sub">How we use it</p>
 
----
+    <ul class="emma-checklist">
+      <li>Games allow multiple solutions (dexterity, not technique compliance)</li>
+      <li>Levels progress from constrained to open (freezing → exploiting)</li>
+      <li>Variability is built into practice (repetition without repetition)</li>
+    </ul>
 
-### Scott Kelso (b. 1947)
+??? quote "Scott Kelso (b. 1947) — Coordination dynamics, self-organization, phase transitions"
 
-**Contribution:** Coordination dynamics, self-organization, phase transitions
+    <p class="emma-sub">Key work</p>
 
-**Key Work:**
-- Kelso, J.A.S. (1995). *Dynamic Patterns: The Self-Organization of Brain and Behavior.* MIT Press.
+    <p class="emma-hl">Kelso, J.A.S. (1995). <i>Dynamic Patterns: The Self-Organization of Brain and Behavior.</i> MIT Press.</p>
 
-**Core Ideas:**
-- Self-organization: Coordinated patterns emerge spontaneously under constraints
-- Attractors: Stable coordination states that behavior tends toward
-- Phase transitions: Shifts between coordination patterns when control parameters change
-- Instability precedes change: Variability increases before new patterns emerge
+    <p class="emma-sub">Core ideas</p>
 
-**How We Use It:**
-- Techniques emerge from constraints, not instruction
-- Games create conditions for self-organization
-- Productive instability (amber zone) is necessary for learning
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Self-organization</div><p>Coordinated patterns emerge spontaneously under constraints.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧲</div><div class="emma-card__t">Attractors</div><p>Stable coordination states behavior tends toward.</p></div>
+      <div class="emma-card"><div class="emma-card__i">⚡</div><div class="emma-card__t">Phase transitions</div><p>Shifts between patterns when control parameters change.</p></div>
+      <div class="emma-card"><div class="emma-card__i">📉</div><div class="emma-card__t">Instability precedes change</div><p>Variability increases before new patterns emerge.</p></div>
+    </div>
 
----
+    <p class="emma-sub">How we use it</p>
 
-### Karl Newell (b. 1945)
+    <ul class="emma-checklist">
+      <li>Techniques emerge from constraints, not instruction</li>
+      <li>Games create conditions for self-organization</li>
+      <li>Productive instability (amber zone) is necessary for learning</li>
+    </ul>
 
-**Contribution:** Constraints model for motor development
+??? quote "Karl Newell (b. 1945) — Constraints model for motor development"
 
-**Key Work:**
-- Newell, K.M. (1986). Constraints on the development of coordination. In M.G. Wade & H.T.A. Whiting (Eds.), *Motor Development in Children: Aspects of Coordination and Control* (pp. 341-360). Martinus Nijhoff.
+    <p class="emma-sub">Key work</p>
 
-**Core Ideas:**
-- Three constraint categories: Individual (organismic), Task, Environmental
-- Behavior emerges from constraint interaction (not any single factor)
-- Constraint manipulation guides learning without prescribing movement
+    <p class="emma-hl">Newell, K.M. (1986). Constraints on the development of coordination. In M.G. Wade &amp; H.T.A. Whiting (Eds.), <i>Motor Development in Children: Aspects of Coordination and Control</i> (pp. 341–360). Martinus Nijhoff.</p>
 
-**How We Use It:**
-- Every game manipulates specific constraints
-- Rules (task constraints) shape what behaviors emerge
-- Individual differences are respected (not one-size-fits-all)
+    <p class="emma-sub">Core ideas</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🧍</div><div class="emma-card__t">Individual</div><p>Organismic constraints unique to the athlete.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Task</div><p>The rules and goals of the activity.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🌳</div><div class="emma-card__t">Environmental</div><p>The surrounding physical and social context.</p></div>
+    </div>
 
-### Michael Turvey (b. 1942)
+    <p class="emma-hl">Behavior emerges from the <b>interaction</b> of all three — not any single factor. Constraint manipulation guides learning without prescribing movement.</p>
 
-**Contribution:** Action systems, ecological realism
+    <p class="emma-sub">How we use it</p>
 
-**Key Works:**
-- Turvey, M.T. (1990). Coordination. *American Psychologist, 45*(8), 938-953.
-- Turvey, M.T., & Shaw, R.E. (1999). Ecological foundations of cognition. In R. Núñez & W.J. Freeman (Eds.), *Reclaiming Cognition* (pp. 95-110). Imprint Academic.
+    <ul class="emma-checklist">
+      <li>Every game manipulates specific constraints</li>
+      <li>Rules (task constraints) shape what behaviors emerge</li>
+      <li>Individual differences are respected (not one-size-fits-all)</li>
+    </ul>
 
-**Core Ideas:**
-- Intra-individual coordination: Organizing body parts relative to each other
-- Inter-individual coordination: Organizing body relative to environment/opponents
-- Action systems are temporarily assembled, task-specific organizations
+??? quote "Michael Turvey (b. 1942) — Action systems, ecological realism"
 
-**How We Use It:**
-- Games develop both types of coordination
-- Combat sports require continuous inter-individual coordination (reading opponent)
-- Synergies (movement solutions) are soft-assembled, not hardwired
+    <p class="emma-sub">Key works</p>
 
----
+    <p class="emma-hl">Turvey, M.T. (1990). Coordination. <i>American Psychologist, 45</i>(8), 938–953.<br>Turvey, M.T., &amp; Shaw, R.E. (1999). Ecological foundations of cognition. In R. Núñez &amp; W.J. Freeman (Eds.), <i>Reclaiming Cognition</i> (pp. 95–110). Imprint Academic.</p>
 
-## Secondary Sources
+    <p class="emma-sub">Core ideas</p>
 
-### Ecological Dynamics
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🧩</div><div class="emma-card__t">Intra-individual</div><p>Organizing body parts relative to each other.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🤝</div><div class="emma-card__t">Inter-individual</div><p>Organizing the body relative to environment/opponents.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛠️</div><div class="emma-card__t">Action systems</div><p>Temporarily assembled, task-specific organizations.</p></div>
+    </div>
 
-- Davids, K., Button, C., & Bennett, S. (2008). *Dynamics of Skill Acquisition: A Constraints-Led Approach.* Human Kinetics.
+    <p class="emma-sub">How we use it</p>
 
-- Araújo, D., Davids, K., & Hristovski, R. (2006). The ecological dynamics of decision making in sport. *Psychology of Sport and Exercise, 7*(6), 653-676.
+    <ul class="emma-checklist">
+      <li>Games develop both types of coordination</li>
+      <li>Combat sports require continuous inter-individual coordination (reading opponent)</li>
+      <li>Synergies (movement solutions) are soft-assembled, not hardwired</li>
+    </ul>
 
-### Nonlinear Pedagogy
+<p class="emma-glabel">Secondary Sources</p>
 
-- Chow, J.Y., Davids, K., Button, C., Shuttleworth, R., Renshaw, I., & Araújo, D. (2007). The role of nonlinear pedagogy in physical education. *Review of Educational Research, 77*(3), 251-278.
+=== "Ecological Dynamics"
 
-- Chow, J.Y., Davids, K., Hristovski, R., Araújo, D., & Passos, P. (2011). Nonlinear pedagogy: Learning design for self-organizing neurobiological systems. *New Ideas in Psychology, 29*(2), 189-200.
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">📕</div><div class="emma-card__t">Davids, Button &amp; Bennett (2008)</div><p><i>Dynamics of Skill Acquisition: A Constraints-Led Approach.</i> Human Kinetics.</p></div>
+      <div class="emma-card"><div class="emma-card__i">📄</div><div class="emma-card__t">Araújo, Davids &amp; Hristovski (2006)</div><p>The ecological dynamics of decision making in sport. <i>Psychology of Sport and Exercise, 7</i>(6), 653–676.</p></div>
+    </div>
 
-### Representative Learning Design
+=== "Nonlinear Pedagogy"
 
-- Pinder, R.A., Davids, K., Renshaw, I., & Araújo, D. (2011). Representative learning design and functionality of research and practice in sport. *Journal of Sport and Exercise Psychology, 33*(1), 146-155.
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">📄</div><div class="emma-card__t">Chow et al. (2007)</div><p>The role of nonlinear pedagogy in physical education. <i>Review of Educational Research, 77</i>(3), 251–278.</p></div>
+      <div class="emma-card"><div class="emma-card__i">📄</div><div class="emma-card__t">Chow et al. (2011)</div><p>Nonlinear pedagogy: Learning design for self-organizing neurobiological systems. <i>New Ideas in Psychology, 29</i>(2), 189–200.</p></div>
+    </div>
 
-### Combat Sports Research
+=== "Representative Design"
 
-- Hristovski, R., Davids, K., Araújo, D., & Button, C. (2006). How boxers decide to punch a target: Emergent behaviour in nonlinear dynamical movement systems. *Journal of Sports Science and Medicine, 5*(CSSI), 60-73.
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">📄</div><div class="emma-card__t">Pinder et al. (2011)</div><p>Representative learning design and functionality of research and practice in sport. <i>Journal of Sport and Exercise Psychology, 33</i>(1), 146–155.</p></div>
+    </div>
 
----
+=== "Combat Sports"
 
-## How This System Implements CLA
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Hristovski et al. (2006)</div><p>How boxers decide to punch a target: Emergent behaviour in nonlinear dynamical movement systems. <i>Journal of Sports Science and Medicine, 5</i>(CSSI), 60–73.</p></div>
+    </div>
 
-| CLA Principle | System Implementation |
-|---------------|----------------------|
-| **Constraints shape behavior** | Game rules (task constraints) create the learning environment |
-| **Affordances invite action** | Scoring systems reward target behaviors without prescribing technique |
-| **Self-organization** | Athletes discover solutions; coaches don't dictate movement |
-| **Perception-action coupling** | Games include opponents and context; no isolated drilling |
-| **Representative design** | Games model real MMA decision states |
-| **Repetition without repetition** | Levels and variability guidelines ensure varied practice |
-| **Individual differences** | Constraints can be adjusted for each athlete |
+<p class="emma-glabel">How This System Implements CLA</p>
 
----
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Constraints shape behavior</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Game rules (task constraints) create the learning environment</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Affordances invite action</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scoring rewards target behaviors without prescribing technique</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Self-organization</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Athletes discover solutions; coaches don't dictate movement</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Perception-action coupling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Games include opponents and context; no isolated drilling</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Representative design</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Games model real MMA decision states</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Repetition without repetition</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Levels and variability guidelines ensure varied practice</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Individual differences</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Constraints can be adjusted for each athlete</span></div>
+</div>
 
-## Citation Format Used in This System
+<p class="emma-glabel">Citation Format Used in This System</p>
 
-Throughout this documentation, we reference CLA principles using this format:
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">💬</div><div class="emma-card__t">For CLA principles</div><p>"Quoted principle or concept" — Renshaw et al., 2019</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔗</div><div class="emma-card__t">For foundational concepts</div><p>This implements <b>perception-action coupling</b> (Gibson, 1979) through…</p></div>
+</div>
 
-> "Quoted principle or concept" — Renshaw et al., 2019
+<p style="font-size:.85rem;margin:.6rem 0 0;">For full theoretical background on any concept, see the <a href="../../principles/cla/">CLA Knowledge Base</a>.</p>
 
-Or for foundational concepts:
+<p class="emma-glabel">Further Reading</p>
 
-> This implements **perception-action coupling** (Gibson, 1979) through...
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Start here</b>Renshaw et al. (2019) — the primary CLA text.<span class="emma-pop emma-pop--l">The most direct, practice-oriented entry point into the approach.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>For theory</b>Gibson (1979) — dense but foundational.<span class="emma-pop emma-pop--l">The origin of affordances and direct perception.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>For application</b>Davids, Button &amp; Bennett (2008) — practical skill acquisition.<span class="emma-pop emma-pop--l">Bridges theory and the practice floor.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>For combat sports</b>Hristovski et al. (2006) — boxing-specific research.<span class="emma-pop emma-pop--l">Emergent striking behavior under constraints.</span></div>
+</div>
 
-For full theoretical background on any concept, see the [CLA Knowledge Base](../principles/cla/index.md).
-
----
-
-## Further Reading
-
-For coaches wanting to deepen their understanding:
-
-1. **Start here:** Renshaw et al. (2019) - The primary CLA text
-2. **For theory:** Gibson (1979) - Dense but foundational
-3. **For application:** Davids, Button, & Bennett (2008) - Practical skill acquisition
-4. **For combat sports:** Hristovski et al. (2006) - Boxing-specific research
-
----
-
-*This system stands on the shoulders of decades of motor learning research. We gratefully acknowledge the scientists whose work made this approach possible.*
+??? abstract "Acknowledgement"
+    This system stands on the shoulders of decades of motor learning research. We gratefully acknowledge the scientists whose work made this approach possible.

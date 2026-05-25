@@ -1,273 +1,176 @@
 # Quick Reference Cards
 
-> **Navigation:** ← [Glossary](glossary.md) | [CLA Index](index.md)
+<div class="emma-meta"><span>CLA Methodology</span><span>Cheat Sheet</span><span>Checklists · Dials · Diagnostics</span></div>
 
----
+<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../glossary/">Glossary</a> · <a href="../index/">CLA Index</a></p>
 
-## Session Planning Checklist
+<p class="emma-hl"><b>Everything on one page.</b> The plan, the dials, the diagnostics — at-a-glance cards to grab mid-session.</p>
 
-```
-□ Session intention established and clear
-□ Athlete skill level assessed (Coordination/Adaptability)
-□ Affordances to design-in identified
-□ Constraints selected (Task/Individual/Environment)
-□ RLD level determined (Low/Medium/High)
-□ Variability level determined (Green/Amber/Red)
-□ Success criteria defined
-□ Practice environment prepared
-□ Athletes mentally prepared
-```
+<p class="emma-glabel">Session Planning Checklist</p>
 
----
+<ul class="emma-checklist">
+  <li>Session intention established and clear</li>
+  <li>Athlete skill level assessed (Coordination / Adaptability)</li>
+  <li>Affordances to design-in identified</li>
+  <li>Constraints selected (Task / Individual / Environment)</li>
+  <li>RLD level determined (Low / Medium / High)</li>
+  <li>Variability level determined (Green / Amber / Red)</li>
+  <li>Success criteria defined</li>
+  <li>Practice environment prepared</li>
+  <li>Athletes mentally prepared</li>
+</ul>
 
-## The Five Ws of Constraint Manipulation
+<p class="emma-glabel">The Five Ws of Constraint Manipulation</p>
 
-```
-┌────────────────────────────────────────────────┐
-│         CONSTRAINT MANIPULATION GUIDE          │
-├────────────────────────────────────────────────┤
-│                                                │
-│  WHAT constraints to use?                      │
-│  → Task / Individual / Environment             │
-│                                                │
-│  WHY use these constraints?                    │
-│  → Connection to session intention             │
-│                                                │
-│  WHEN to apply/remove them?                    │
-│  → Timing within and between sessions          │
-│                                                │
-│  HOW to manipulate them?                       │
-│  → Degree and direction of change              │
-│                                                │
-│  WHOM is this appropriate for?                 │
-│  → Individual athlete considerations           │
-│                                                │
-└────────────────────────────────────────────────┘
-```
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">📦</div><div class="emma-card__t">WHAT</div><p>Task / Individual / Environment.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">WHY</div><p>Connection to session intention.</p></div>
+  <div class="emma-card"><div class="emma-card__i">⏱️</div><div class="emma-card__t">WHEN</div><p>Timing within and between sessions.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🎚️</div><div class="emma-card__t">HOW</div><p>Degree and direction of change.</p></div>
+  <div class="emma-card"><div class="emma-card__i">👤</div><div class="emma-card__t">WHOM</div><p>Individual athlete considerations.</p></div>
+</div>
 
----
+<p class="emma-glabel">Dialling Challenge Up / Down</p>
 
-## Constraint Manipulation Quick Guide
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🔺</div><div class="emma-card__t">Increase challenge</div><p>Add opponents/partners · increase time pressure · reduce space · add consequences · increase variability · raise intensity · add cognitive load.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔻</div><div class="emma-card__t">Decrease challenge</div><p>Remove opponents/partners · relax time pressure · increase space · reduce consequences · decrease variability · lower intensity · simplify decisions.</p></div>
+</div>
 
-### To Increase Challenge
+<p class="emma-glabel">The Four Environment Design Principles</p>
 
-- Add opponents/partners
-- Increase time pressure
-- Reduce space
-- Add consequences
-- Increase variability
-- Raise intensity
-- Add cognitive load
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">1️⃣</div><div class="emma-card__t">Session Intention</div><p>What is the overriding goal?</p></div>
+  <div class="emma-card"><div class="emma-card__i">2️⃣</div><div class="emma-card__t">Constrain to Afford</div><p>What constraints will invite target behavior?</p></div>
+  <div class="emma-card"><div class="emma-card__i">3️⃣</div><div class="emma-card__t">Representative Learning Design</div><p>Does practice look AND feel like competition?</p></div>
+  <div class="emma-card"><div class="emma-card__i">4️⃣</div><div class="emma-card__t">Repetition Without Repetition</div><p>Are we repeating problem-solving, not movement?</p></div>
+</div>
 
-### To Decrease Challenge
+<p class="emma-glabel">GROW Model</p>
 
-- Remove opponents/partners
-- Relax time pressure
-- Increase space
-- Reduce consequences
-- Decrease variability
-- Lower intensity
-- Simplify decisions
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">G — Goal</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What is the session intention? <i>Define clear focus.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">R — Reality</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Where is the athlete now? <i>Assess current level.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">O — Options</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What activities bridge the gap? <i>Design constraints.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">W — Way Forward</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">How will you implement? <i>Prepare environment.</i></span></div>
+</div>
 
----
+<p class="emma-glabel">Variability Zones</p>
 
-## The Four Environment Design Principles
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🟢</div><div class="emma-card__t">Green Zone</div><p>High success likelihood · promotes exploration.<span class="emma-pop"><b>Use for:</b> beginners, warm-up, consolidation.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🟠</div><div class="emma-card__t">Amber Zone</div><p>Productive instability · requires new solutions.<span class="emma-pop"><b>Use for:</b> main learning, adaptation.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔴</div><div class="emma-card__t">Red Zone</div><p>Excessive chaos · overwhelm/breakdown.<span class="emma-pop"><b>Use:</b> sparingly, for stress testing.</span></p></div>
+</div>
 
-```
-┌─────────────────────────────────────────────────────┐
-│  1. SESSION INTENTION                               │
-│     What is the overriding goal?                    │
-├─────────────────────────────────────────────────────┤
-│  2. CONSTRAIN TO AFFORD                             │
-│     What constraints will invite target behavior?   │
-├─────────────────────────────────────────────────────┤
-│  3. REPRESENTATIVE LEARNING DESIGN                  │
-│     Does practice look AND feel like competition?   │
-├─────────────────────────────────────────────────────┤
-│  4. REPETITION WITHOUT REPETITION                   │
-│     Are we repeating problem-solving, not movement? │
-└─────────────────────────────────────────────────────┘
-```
+<p class="emma-glabel">Session Flow Pattern</p>
 
----
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Green</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Build confidence</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Amber</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Challenge, adapt</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Green</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Consolidate, end well</span></div>
+</div>
 
-## GROW Model Quick Reference
+<p class="emma-glabel">RLD Assessment — Quick Check</p>
 
-| Step | Question | Action |
-|------|----------|--------|
-| **G** - Goal | What is the session intention? | Define clear focus |
-| **R** - Reality | Where is the athlete now? | Assess current level |
-| **O** - Options | What activities bridge the gap? | Design constraints |
-| **W** - Way Forward | How will you implement? | Prepare environment |
+<ul class="emma-checklist">
+  <li>Are relevant information sources present?</li>
+  <li>Is perception coupled with action?</li>
+  <li>Are decisions similar to competition?</li>
+  <li>Are live partners included?</li>
+  <li>Is appropriate pressure present?</li>
+  <li>Is time representative?</li>
+  <li>Is space representative?</li>
+</ul>
 
----
+<p class="emma-glabel">Simplification vs. Decomposition</p>
 
-## Variability Zones
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Scale the whole task ✓</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Break into parts ✗</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Keep perception-action coupled ✓</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Separate reading from reacting ✗</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Adjust difficulty ✓</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Remove context ✗</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Slower tempo, whole technique ✓</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Isolated technical drilling ✗</span></div>
+</div>
 
-```
-┌─────────────────────────────────────────────────┐
-│  GREEN ZONE                                     │
-│  • High success likelihood                      │
-│  • Promotes exploration                         │
-│  • Use for: Beginners, warm-up, consolidation   │
-├─────────────────────────────────────────────────┤
-│  AMBER ZONE                                     │
-│  • Productive instability                       │
-│  • Requires new solutions                       │
-│  • Use for: Main learning, adaptation           │
-├─────────────────────────────────────────────────┤
-│  RED ZONE                                       │
-│  • Excessive chaos                              │
-│  • Overwhelm/breakdown                          │
-│  • Use: Sparingly, for stress testing           │
-└─────────────────────────────────────────────────┘
-```
+<p class="emma-glabel">Feedback Types</p>
 
----
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">📋</div><div class="emma-card__t">Knowledge of Results</div><p>After attempt — "That landed clean".</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔍</div><div class="emma-card__t">Knowledge of Performance</div><p>After attempt — "You read the setup early".</p></div>
+  <div class="emma-card"><div class="emma-card__i">⚡</div><div class="emma-card__t">Concurrent</div><p>During — "Now!", "There!".</p></div>
+  <div class="emma-card"><div class="emma-card__i">❓</div><div class="emma-card__t">Questions</div><p>After exploration — "What did you notice?".</p></div>
+</div>
 
-## Session Flow Pattern
+<p class="emma-glabel">External vs. Internal Focus</p>
 
-```
-START → GREEN → AMBER → GREEN → END
-        (Build    (Challenge,  (Consolidate,
-        confidence) adapt)      end well)
-```
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Effect on environment ✓</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Body part position ✗</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Target / outcome ✓</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Muscle activation ✗</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Opponent / partner ✓</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Joint angles ✗</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">"Hit the target" ✓</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">"Rotate your hip" ✗</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">"Move them" ✓</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">"Engage your core" ✗</span></div>
+</div>
 
----
+<p class="emma-glabel">Learning Stage Quick Guide</p>
 
-## RLD Assessment Quick Check
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔎</div><div class="emma-card__t">Coordination</div><p>Searching, exploring, rigid.<span class="emma-pop"><b>Coach focus:</b> guide toward solutions, lower variability.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌊</div><div class="emma-card__t">Adaptability</div><p>Refining, flexible, stable.<span class="emma-pop"><b>Coach focus:</b> challenge with variability, stress-test.</span></p></div>
+</div>
 
-| Question | ✓/✗ |
-|----------|-----|
-| Are relevant information sources present? | |
-| Is perception coupled with action? | |
-| Are decisions similar to competition? | |
-| Are live partners included? | |
-| Is appropriate pressure present? | |
-| Is time representative? | |
-| Is space representative? | |
+<p class="emma-glabel">Common Pitfalls — Quick Diagnostic</p>
 
----
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">No exploration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Over-constraining · loosen constraints</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Aimless sessions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Under-constraining · add clear intention</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Skills don't transfer</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Low RLD · increase representativeness</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Coach feels useless</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Passive interpretation · be active architect</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Some athletes stagnate</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ignoring individuals · individualize</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Athletes are lost</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No instruction · add attention cues</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Random sessions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No structure · use GROW/EDP</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">No stability</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Too much variability · allow consolidation</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Parts don't integrate</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Decomposition · use simplification</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Freeze under pressure</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No affective design · add emotional demands</span></div>
+</div>
 
-## Task Simplification vs. Decomposition
+<p class="emma-glabel">The Three Constraint Categories</p>
 
-| Simplification (DO) | Decomposition (DON'T) |
-|---------------------|----------------------|
-| Scale the whole task | Break into parts |
-| Keep perception-action coupled | Separate reading from reacting |
-| Adjust difficulty | Remove context |
-| Slower tempo, whole technique | Isolated technical drilling |
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">👤</div><div class="emma-card__t">Individual</div><p>Physical (reach, etc.) · psychological · experiential · biological.</p></div>
+  <div class="emma-card"><div class="emma-card__i">📋</div><div class="emma-card__t">Task</div><p>Goals · rules · equipment · space/time.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🌍</div><div class="emma-card__t">Environmental</div><p>Physical · social · cultural · historical.</p></div>
+</div>
 
----
+<p class="emma-hl">All three categories interact to produce <b>emergent behavior</b> — no single category dictates the solution.</p>
 
-## Feedback Types Quick Reference
+<p class="emma-glabel">Position-Specific Affordances (MMA)</p>
 
-| Type | When | Example |
-|------|------|---------|
-| **Knowledge of Results** | After attempt | "That landed clean" |
-| **Knowledge of Performance** | After attempt | "You read the setup early" |
-| **Concurrent** | During | "Now!" "There!" |
-| **Questions** | After exploration | "What did you notice?" |
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🧍</div><div class="emma-card__t">Standing</div><p>Strike-ability, clinch-ability, level changes.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Clinch</div><p>Takedown angles, dirty boxing, breaks.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Guard</div><p>Sweeps, submissions, stand-up.</p></div>
+  <div class="emma-card"><div class="emma-card__i">📐</div><div class="emma-card__t">Side Control</div><p>Transitions, submissions, pins.</p></div>
+  <div class="emma-card"><div class="emma-card__i">⬆️</div><div class="emma-card__t">Mount</div><p>Finishes, position retention, setups.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔙</div><div class="emma-card__t">Back</div><p>Chokes, retention, escape paths.</p></div>
+</div>
 
----
+<p class="emma-glabel">Periodization Quick Guide</p>
 
-## External vs. Internal Focus
+<div class="emma-stepper">
+  <div class="emma-step"><span class="emma-step__n">1</span><b>Off-Season</b>Lower RLD · higher variability · exploration.</div>
+  <div class="emma-step"><span class="emma-step__n">2</span><b>Pre-Camp</b>Moderate RLD · moderate variability · building patterns.</div>
+  <div class="emma-step"><span class="emma-step__n">3</span><b>Fight Camp</b>Higher RLD · lower variability · specific refinement.</div>
+  <div class="emma-step"><span class="emma-step__n">4</span><b>Fight Week</b>Highest RLD · lowest variability · execution.</div>
+</div>
 
-| External (USE) | Internal (AVOID) |
-|----------------|------------------|
-| Effect on environment | Body part position |
-| Target/outcome | Muscle activation |
-| Opponent/partner | Joint angles |
-| "Hit the target" | "Rotate your hip" |
-| "Move them" | "Engage your core" |
+<p class="emma-glabel">Session Debrief Questions</p>
 
----
+<ol class="emma-checklist">
+  <li>What were the goals and expectations?</li>
+  <li>What actually happened?</li>
+  <li>What went well and why?</li>
+  <li>What can be improved?</li>
+  <li>Key takeaways: 3 to continue, 3 to change.</li>
+</ol>
 
-## Learning Stage Quick Guide
-
-| Stage | Characteristics | Coach Focus |
-|-------|-----------------|-------------|
-| **Coordination** | Searching, exploring, rigid | Guide toward solutions, lower variability |
-| **Adaptability** | Refining, flexible, stable | Challenge with variability, stress-test |
-
----
-
-## Common Pitfalls Quick Diagnostic
-
-| If you see... | It might be... | Try... |
-|---------------|----------------|--------|
-| No exploration | Over-constraining | Loosen constraints |
-| Aimless sessions | Under-constraining | Add clear intention |
-| Skills don't transfer | Low RLD | Increase representativeness |
-| Coach feels useless | Passive interpretation | Be active architect |
-| Some athletes stagnate | Ignoring individuals | Individualize |
-| Athletes are lost | No instruction | Add attention cues |
-| Random sessions | No structure | Use GROW/EDP |
-| No stability | Too much variability | Allow consolidation |
-| Parts don't integrate | Decomposition | Use simplification |
-| Freeze under pressure | No affective design | Add emotional demands |
-
----
-
-## The Three Constraint Categories
-
-```
-         INDIVIDUAL CONSTRAINTS
-        ┌─────────────────────────┐
-        │ • Physical (reach, etc) │
-        │ • Psychological         │
-        │ • Experiential          │
-        │ • Biological            │
-        └───────────┬─────────────┘
-                    │
-                    ▼
-            EMERGENT BEHAVIOR
-                    ▲
-        ┌───────────┴─────────────┐
-        │                         │
-┌───────┴───────┐       ┌─────────┴─────────┐
-│    TASK       │       │   ENVIRONMENTAL   │
-│ • Goals       │       │ • Physical        │
-│ • Rules       │       │ • Social          │
-│ • Equipment   │       │ • Cultural        │
-│ • Space/Time  │       │ • Historical      │
-└───────────────┘       └───────────────────┘
-```
-
----
-
-## Position-Specific Affordances (MMA)
-
-| Position | Look For |
-|----------|----------|
-| **Standing** | Strike-ability, clinch-ability, level changes |
-| **Clinch** | Takedown angles, dirty boxing, breaks |
-| **Guard** | Sweeps, submissions, stand-up |
-| **Side Control** | Transitions, submissions, pins |
-| **Mount** | Finishes, position retention, setups |
-| **Back** | Chokes, retention, escape paths |
-
----
-
-## Periodization Quick Guide
-
-| Phase | RLD | Variability | Focus |
-|-------|-----|-------------|-------|
-| **Off-Season** | Lower | Higher | Exploration |
-| **Pre-Camp** | Moderate | Moderate | Building patterns |
-| **Fight Camp** | Higher | Lower | Specific refinement |
-| **Fight Week** | Highest | Lowest | Execution |
-
----
-
-## Session Debrief Questions
-
-1. What were the goals and expectations?
-2. What actually happened?
-3. What went well and why?
-4. What can be improved?
-5. Key takeaways: 3 to continue, 3 to change
-
----
-
-*Return to: [CLA Index](index.md)*
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1.4rem 0 0;">Return to · <a href="../index/">CLA Index</a>.</p>

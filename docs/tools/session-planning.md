@@ -1,128 +1,83 @@
 # Session Planning Guide
 
-This guide provides considerations for coaches planning training sessions. Sessions are **game-based from start to finish** — there is no prescribed structure.
+<div class="emma-meta"><span>Coaching Tool</span><span>Game-Based</span><span>No Fixed Template</span></div>
 
----
+<p class="emma-hl">Sessions are <b>game-based from start to finish</b> — there is no prescribed structure. What you run depends entirely on the training goal in front of you.</p>
 
-## Core Philosophy
+<p class="emma-glabel">Core Philosophy</p>
 
-!!! warning "No Universal Session Template"
-    Session structure is **entirely dependent on the training goal**. What you work on depends on:
+!!! warning "No universal session template"
+    Session structure is **entirely dependent on the training goal**. There is no "typical session" pattern to follow.
 
-    - The specific skill or problem being addressed
-    - The athletes present and their current development
-    - Whether this is general training or fight-specific preparation
-    - Time available and equipment constraints
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">The problem</div><p>The specific skill or problem being addressed.</p></div>
+  <div class="emma-card"><div class="emma-card__i">👥</div><div class="emma-card__t">The athletes</div><p>Who's present and their current development.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">The context</div><p>General training vs. fight-specific preparation.</p></div>
+  <div class="emma-card"><div class="emma-card__i">⏱️</div><div class="emma-card__t">The constraints</div><p>Time available and equipment on hand.</p></div>
+</div>
 
-    There is no "typical session" pattern to follow.
+<p class="emma-glabel">Warm-Up Expectations</p>
 
----
+<p class="emma-hl"><b>Athletes should arrive ready to play.</b> Games start immediately — they <i>are</i> the training, not something that happens after a warm-up.</p>
 
-## Warm-Up Expectations
+!!! tip "Situational judgment, not a phase"
+    A coach who knows athletes haven't warmed up can start the first game at lower intensity, choose a less physically demanding game to open, or let athletes ease into full engagement. The system doesn't prescribe "warm-up games" as a structural phase.
 
-**Athletes should arrive ready to play.**
+<p class="emma-glabel">Planning Considerations</p>
 
-The expectation is that athletes warm up before class begins. Games start immediately — they are the training, not something that happens after warm-up.
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Goal-driven selection</b>Pick games that serve one clear objective.<span class="emma-pop emma-pop--l">Ask: what problem are we solving today? What skill are we developing? What does success look like? Don't run games just to fill time.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Prerequisite awareness</b>Confirm the foundations are in place.<span class="emma-pop emma-pop--l">Check the game's frontmatter for prerequisite concepts and games. If athletes lack them, address those first — simpler games prepare athletes for complex ones.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Role balance</b>Make sure athletes experience both sides.<span class="emma-pop emma-pop--l">In asymmetric games, switch roles regularly and track total time in each. Some athletes need more time in a specific role for their development.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Intensity management</b>Match effort to goal and readiness.<span class="emma-pop emma-pop--l">High intensity → shorter rounds, more rest. Skill development → moderate intensity, quality over volume. Technical work → lower intensity, more reps and feedback.</span></div>
+</div>
 
-!!! tip "Coach Awareness"
-    A coach may be aware that athletes haven't warmed up and can:
+<p class="emma-glabel">Common Mistakes</p>
 
-    - Start the first game at lower intensity
-    - Choose a less physically demanding game to begin
-    - Allow athletes to ease into full engagement
+<div class="emma-warns">
+  <span class="emma-warn emma-has-pop" tabindex="0">Too much variety<span class="emma-pop">Better to develop one skill deeply than touch many superficially.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Skipping prerequisites<span class="emma-pop">Complex games fail without the foundational skills underneath them.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Unbalanced roles<span class="emma-pop">Athletes need time on both sides of asymmetric games.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Ignoring fatigue<span class="emma-pop">Quality degrades when athletes are exhausted — adjust or end the session.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Rigid adherence to a plan<span class="emma-pop">If something isn't working, adapt. The plan serves the learning, not the reverse.</span></span>
+</div>
 
-    This is **situational judgment**, not a default session structure. The system doesn't prescribe "warm-up games" as a phase.
+<p class="emma-glabel">Adapting to Context</p>
 
----
+<p class="emma-sub">General class vs. fight camp</p>
 
-## Planning Considerations
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">General class</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Broader skill development, more variety across sessions</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Fight camp</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Focused on the specific problems this athlete needs to solve</span></div>
+</div>
 
-### 1. Goal-Driven Selection
+<p class="emma-sub">By athlete level</p>
 
-Every session should have a clear training objective:
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🟢</div><div class="emma-card__t">Beginners</div><p>Simpler games, more instruction, build vocabulary.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🟡</div><div class="emma-card__t">Intermediate</div><p>Progress through game levels, introduce combined games.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🟠</div><div class="emma-card__t">Advanced</div><p>Nuanced work, game modifications, more autonomy.</p></div>
+</div>
 
-- What problem are we solving today?
-- What skill are we developing?
-- What does success look like?
+<p class="emma-sub">By time available</p>
 
-Select games that address that objective. Don't run games just to fill time.
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Short session</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Focus on one game, work through its levels</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Long session</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Address related skills, more games in sequence</span></div>
+</div>
 
-### 2. Prerequisite Awareness
+<p class="emma-glabel">Using Game Metadata</p>
 
-Before running a game, ensure athletes have experience with its prerequisites:
+<p>Each game's frontmatter carries the information you need to choose well.</p>
 
-- Check the game's frontmatter for prerequisite concepts and games
-- If athletes lack prerequisites, address those first
-- Simpler games prepare athletes for complex ones
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔑</span> Prerequisites<span class="emma-chip__detail">What must athletes already know before this game works?</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📊</span> Difficulty<span class="emma-chip__detail">Is this appropriate for the group in front of you?</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Duration<span class="emma-chip__detail">How long are typical rounds?</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧰</span> Equipment<span class="emma-chip__detail">What do you need on hand to run it?</span></span>
+</div>
 
-### 3. Role Balance
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1.4rem 0 0;">Ready to assemble a session? See the <a href="../lesson-generator/">Lesson Plan Generator</a> for templates and a randomized builder.</p>
 
-In asymmetric games, ensure athletes experience both sides:
-
-- Switch roles regularly
-- Track total time in each role
-- Some athletes may need more time in specific roles based on their development needs
-
-### 4. Intensity Management
-
-Match game intensity to session goals and athlete readiness:
-
-- **High intensity:** Shorter rounds, more rest between
-- **Skill development:** Moderate intensity, focus on quality over volume
-- **Technical work:** Lower intensity, more repetitions and feedback
-
----
-
-## Common Mistakes
-
-!!! warning "Avoid These Pitfalls"
-
-    - **Too much variety** — Better to develop one skill deeply than touch many superficially
-    - **Skipping prerequisites** — Complex games fail without foundational skills
-    - **Unbalanced roles** — Athletes need time on both sides of asymmetric games
-    - **Ignoring fatigue** — Quality degrades when athletes are exhausted; adjust or end the session
-    - **Rigid adherence to a plan** — If something isn't working, adapt
-
----
-
-## Adapting to Context
-
-### General Class vs. Fight Camp
-
-| Context | Considerations |
-|---------|----------------|
-| **General class** | Broader skill development, more variety across sessions |
-| **Fight camp** | Focused on specific problems the athlete needs to solve |
-
-### Athlete Level
-
-| Level | Considerations |
-|-------|----------------|
-| **Beginners** | Simpler games, more instruction, build vocabulary |
-| **Intermediate** | Progress through game levels, introduce combined games |
-| **Advanced** | Nuanced work, game modifications, more autonomy |
-
-### Time Available
-
-| Time | Considerations |
-|------|----------------|
-| **Short session** | Focus on one game, work through levels |
-| **Long session** | Can address related skills, more games in sequence |
-
----
-
-## Using Game Metadata
-
-Each game's frontmatter includes useful planning information:
-
-- **Prerequisites** — What must athletes already know?
-- **Difficulty** — Is this appropriate for the group?
-- **Duration** — How long are typical rounds?
-- **Equipment** — What do we need?
-
-Use this metadata to make informed game selections.
-
----
-
-!!! abstract "Development Notice"
+??? abstract "Development notice"
     This guide may be refined based on coaching feedback and experience.

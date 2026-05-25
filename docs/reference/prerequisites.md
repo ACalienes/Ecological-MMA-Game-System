@@ -1,96 +1,89 @@
 # Prerequisite Map
 
-How games connect through prerequisites and progressions.
+<div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>34-Game System</span></div>
 
----
+<p class="emma-hl"><b>How games connect.</b> Every game has an entry point and a path forward — this map shows the prerequisites, the chains they form, and the concepts each game leans on.</p>
 
-## Entry Points (No Prerequisites)
+<p class="emma-glabel">Entry Points — No Prerequisites</p>
 
-Start here — these games have no prerequisites:
+Start here. These games ask nothing before you play them.
 
-| Game | Best For | Why Start Here |
-|------|----------|----------------|
-| [Parry the Straight](../games/parry-the-straight.md) | Striking defense | Simplest defensive mechanic |
-| [Tight Block](../games/tight-block.md) | Striking defense | Pure absorption skill |
-| [Slip the Straight](../games/slip-the-straight.md) | Head movement | Single evasion type |
-| [Lead Hand Offense](../games/lead-hand-offense.md) | Striking offense | Single weapon isolation |
-| [Rear Hand Offense](../games/rear-hand-offense.md) | Striking offense | Single weapon isolation |
-| [Lead Leg Offense](../games/lead-leg-offense.md) | Kicking offense | Single weapon isolation |
-| [Rear Leg Offense](../games/rear-leg-offense.md) | Kicking offense | Single weapon isolation |
-| [Touch Game](../games/touch-game.md) | Range and timing | Foundational engagement |
-| [Ground Escape](../games/ground-escape.md) | Ground defense | Basic bottom position |
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t"><a href="../../games/parry-the-straight/">Parry the Straight</a></div><p>Striking defense — simplest defensive mechanic.<span class="emma-pop">A single deflection skill, isolated and clean.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🛡️</div><div class="emma-card__t"><a href="../../games/tight-block/">Tight Block</a></div><p>Striking defense — pure absorption skill.<span class="emma-pop">Block-only behind a tight shell, no parry or head movement.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">↪️</div><div class="emma-card__t"><a href="../../games/slip-the-straight/">Slip the Straight</a></div><p>Head movement — a single evasion type.<span class="emma-pop">Isolates slipping before layering other solutions.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">👊</div><div class="emma-card__t"><a href="../../games/lead-hand-offense/">Lead Hand Offense</a></div><p>Striking offense — single weapon isolation.<span class="emma-pop">Creativity from one tool, the lead hand.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤜</div><div class="emma-card__t"><a href="../../games/rear-hand-offense/">Rear Hand Offense</a></div><p>Striking offense — single weapon isolation.<span class="emma-pop">Creativity from one tool, the rear hand.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦵</div><div class="emma-card__t"><a href="../../games/lead-leg-offense/">Lead Leg Offense</a></div><p>Kicking offense — single weapon isolation.<span class="emma-pop">Creativity from one tool, the lead leg.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦶</div><div class="emma-card__t"><a href="../../games/rear-leg-offense/">Rear Leg Offense</a></div><p>Kicking offense — single weapon isolation.<span class="emma-pop">Creativity from one tool, the rear leg.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t"><a href="../../games/touch-game/">Touch Game</a></div><p>Range and timing — foundational engagement.<span class="emma-pop">Manage distance before adding strikes or grappling.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤼</div><div class="emma-card__t"><a href="../../games/ground-escape/">Ground Escape</a></div><p>Ground defense — basic bottom position.<span class="emma-pop">The foundational ground game; no prerequisites.</span></p></div>
+</div>
 
----
+<p class="emma-glabel">Prerequisite Chains by Environment</p>
 
-## By Environment
+=== "Skill Isolation (8)"
 
-### Skill Isolation (8 games)
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/parry-the-straight/">Parry the Straight</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/tight-block/">Tight Block</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/slip-the-straight/">Slip the Straight</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/evade-the-punch/">Evade the Punch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/evade-the-punch/">Evade the Punch</a> <small>(needs Slip)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/lead-hand-offense/">Lead Hand</a> · <a href="../../games/rear-hand-offense/">Rear Hand</a> · <a href="../../games/lead-leg-offense/">Lead Leg</a> · <a href="../../games/rear-leg-offense/">Rear Leg</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a></span></div>
+    </div>
 
-| Game | Prerequisites | Leads To |
-|------|---------------|----------|
-| Parry the Straight | None | Close-Range Defense |
-| Tight Block | None | Close-Range Defense |
-| Slip the Straight | None | Evade the Punch |
-| Evade the Punch | Slip the Straight | Close-Range Defense |
-| Lead Hand Offense | None | Land the Target |
-| Rear Hand Offense | None | Land the Target |
-| Lead Leg Offense | None | Land the Target |
-| Rear Leg Offense | None | Land the Target |
+=== "Open Space — Striking (7)"
 
-### Open Space — Striking (7 games)
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/touch-game/">Touch Game</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/close-range-defense/">Close-Range Defense</a> <small>(needs Skill Isolation defense)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/counter-striking/">Counter-Striking</a> · <a href="../../games/evasive-movement/">Evasive Movement</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/evasive-movement/">Evasive Movement</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/counter-striking/">Counter-Striking</a> <small>(needs CRD + Land the Target)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/takedown-defense/">Takedown Defense</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/land-the-target/">Land the Target</a> <small>(needs Three Zones)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/sustained-offense/">Sustained Offense</a> · <a href="../../games/touch-game/">Touch Game</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/sustained-offense/">Sustained Offense</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">KO / TKO finish</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a> · <a href="../../games/clinch-denial/">Clinch Denial</a> · <a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
+    </div>
 
-| Game | Prerequisites | Leads To |
-|------|---------------|----------|
-| Touch Game | None | Pressure to Clinch |
-| Close-Range Defense | Skill Isolation (defensive) | Counter-Striking, Evasive Movement |
-| Evasive Movement | Close-Range Defense | Pressure to Clinch |
-| Counter-Striking | Close-Range Defense, Land the Target | Takedown Defense |
-| Land the Target | Three Zones concept | Sustained Offense, Touch Game |
-| Sustained Offense | Land the Target | KO/TKO finish |
-| Pressure to Clinch | Touch Game | Wall Control, Clinch Denial, Open Space Takedown |
+=== "Transition Zone (2)"
 
-### Transition Zone (2 games)
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/clinch-denial/">Clinch Denial</a> <small>(needs Pressure to Clinch + Hand Controls)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/counter-wrestling/">Counter-Wrestling</a> <small>(needs CRD + Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
+    </div>
 
-| Game | Prerequisites | Leads To |
-|------|---------------|----------|
-| Clinch Denial | Pressure to Clinch, Hand Controls | Wall Control |
-| Counter-Wrestling | Close-Range Defense, Pressure to Clinch | Open Space Takedown |
+=== "Open Space — Wrestling (4)"
 
-### Open Space — Wrestling (4 games)
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/takedown-defense/">Takedown Defense</a> <small>(needs Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-takedown/">Pressure to Takedown</a> <small>(needs CRD + Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a> · <a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-wall/">Pressure to Wall</a> <small>(needs Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/open-space-takedown/">Open Space Takedown</a> <small>(needs Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ground games</span></div>
+    </div>
 
-| Game | Prerequisites | Leads To |
-|------|---------------|----------|
-| Takedown Defense | Pressure to Clinch | Open Space Takedown |
-| Pressure to Takedown | Close-Range Defense, Pressure to Clinch | Wall Control, Open Space Takedown |
-| Pressure to Wall | Pressure to Clinch | Wall Control |
-| Open Space Takedown | Pressure to Clinch | Ground games |
+=== "Wall (6)"
 
-### Wall (6 games)
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-control/">Wall Control</a> <small>(needs Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-escape/">Wall Escape</a> · <a href="../../games/wall-to-ground/">Wall to Ground</a> · <a href="../../games/wall-grinding/">Wall Grinding</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-escape/">Wall Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/standup-loop/">Stand-Up Loop</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-defensive-submission/">Wall Defensive Submission</a> <small>(needs Wall Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Submission finish</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-to-ground/">Wall to Ground</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/standup-loop/">Stand-Up Loop</a> · Ground games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-grinding/">Wall Grinding</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">TKO finish</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/standup-loop/">Stand-Up Loop</a> <small>(needs Wall to Ground)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ground games</span></div>
+    </div>
 
-| Game | Prerequisites | Leads To |
-|------|---------------|----------|
-| Wall Control | Pressure to Clinch | Wall Escape, Wall to Ground, Wall Grinding |
-| Wall Escape | Wall Control | Stand-Up Loop |
-| Wall Defensive Submission | Wall Escape | Submission finish |
-| Wall to Ground | Wall Control | Stand-Up Loop, Ground games |
-| Wall Grinding | Wall Control | TKO finish |
-| Stand-Up Loop | Wall to Ground | Ground games |
+=== "Ground (7)"
 
-### Ground (7 games)
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-access/">Ground Access</a> <small>(needs Positional Battle)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/ground-control/">Ground Control</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-control/">Ground Control</a> <small>(needs Ground Access)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">TKO / Submission finish</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-escape/">Ground Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/leg-reclaim/">Leg Reclaim</a> · <a href="../../games/ground-to-standing/">Ground to Standing</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/leg-reclaim/">Leg Reclaim</a> <small>(needs Ground Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/positional-battle/">Positional Battle</a> · <a href="../../games/ground-to-standing/">Ground to Standing</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-to-standing/">Ground to Standing</a> <small>(needs Ground Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Return to standing</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-defensive-submission/">Ground Defensive Submission</a> <small>(needs Ground Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Submission finish</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/positional-battle/">Positional Battle</a> <small>(needs Ground Escape + Access)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Role reversal</span></div>
+    </div>
 
-| Game | Prerequisites | Leads To |
-|------|---------------|----------|
-| Ground Access | Positional Battle | Ground Control |
-| Ground Control | Ground Access | TKO/Submission finish |
-| Ground Escape | None | Leg Reclaim, Ground to Standing |
-| Leg Reclaim | Ground Escape | Positional Battle, Ground to Standing |
-| Ground to Standing | Ground Escape | Return to standing |
-| Ground Defensive Submission | Ground Escape | Submission finish |
-| Positional Battle | Ground Escape, Ground Access | Role reversal |
-
----
-
-## Progression Flowchart
+<p class="emma-glabel">Full Progression Flowchart</p>
 
 ```mermaid
 flowchart TD
@@ -199,86 +192,95 @@ flowchart TD
     PB --> GE
 ```
 
----
+<p class="emma-glabel">Pathway Guides</p>
 
-## Pathway Guides
+=== "Striking Defense"
 
-### Striking Defense Track
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Parry / Block / Slip</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/evade-the-punch/">Evade the Punch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/evade-the-punch/">Evade the Punch</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/close-range-defense/">Close-Range Defense</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/counter-striking/">Counter-Striking</a> · <a href="../../games/evasive-movement/">Evasive Movement</a></span></div>
+    </div>
 
-```
-Parry/Block/Slip → Evade the Punch → Close-Range Defense → Counter-Striking
-                                                        → Evasive Movement
-```
+=== "Striking Offense"
 
-### Striking Offense Track
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Weapon Isolation</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/land-the-target/">Land the Target</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/sustained-offense/">Sustained Offense</a> → KO/TKO</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/land-the-target/">Land the Target</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/touch-game/">Touch Game</a> → <a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span></div>
+    </div>
 
-```
-Weapon Isolation → Land the Target → Sustained Offense → KO/TKO
-                                   → Touch Game → Pressure to Clinch
-```
+=== "Wrestling"
 
-### Wrestling Track
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-takedown/">Pressure to Takedown</a> → <a href="../../games/wall-control/">Wall Control</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/takedown-defense/">Takedown Defense</a> → <a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
+    </div>
 
-```
-Pressure to Clinch → Pressure to Takedown → Wall Control
-                   → Takedown Defense      → Open Space Takedown
-```
+=== "Ground"
 
-### Ground Track
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Offensive</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a> → <a href="../../games/ground-access/">Ground Access</a> → <a href="../../games/ground-control/">Ground Control</a> → TKO/Sub</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defensive</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/ground-escape/">Ground Escape</a> → <a href="../../games/leg-reclaim/">Leg Reclaim</a> → <a href="../../games/ground-to-standing/">Ground to Standing</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Combined</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/positional-battle/">Positional Battle</a> (role reversal possible)</span></div>
+    </div>
 
-```
-Offensive: Open Space Takedown → Ground Access → Ground Control → TKO/Submission
-Defensive: Ground Escape → Leg Reclaim → Ground to Standing → Return to feet
-Combined:  Positional Battle (role reversal possible)
-```
+<p class="emma-glabel">Concept Prerequisites</p>
 
----
+Some games require understanding a specific concept first.
 
-## Concept Prerequisites
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/three-zones/">Three Zones</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a> · <a href="../../games/sustained-offense/">Sustained Offense</a> · <a href="../../games/evasive-movement/">Evasive Movement</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/confidence-rating/">Confidence Rating</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a> · <a href="../../games/sustained-offense/">Sustained Offense</a> · <a href="../../games/counter-striking/">Counter-Striking</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/tko-pin/">TKO Pin</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a> · <a href="../../games/wall-to-ground/">Wall to Ground</a> · <a href="../../games/wall-grinding/">Wall Grinding</a> · <a href="../../games/pressure-to-takedown/">Pressure to Takedown</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/defensive-solutions/">Defensive Solutions</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">All Skill Isolation games</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/hand-controls/">Hand Controls</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a> · <a href="../../games/clinch-denial/">Clinch Denial</a> · <a href="../../games/counter-wrestling/">Counter-Wrestling</a> · Pressure games</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/decision-states/">Decision States</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">All Ground games · <a href="../../games/positional-battle/">Positional Battle</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/full-mma-expression/">Full MMA Expression</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Highest level of any game</span></div>
+</div>
 
-Some games require understanding specific concepts:
+<p class="emma-glabel">Readiness Checklists</p>
 
-| Concept | Required For |
-|---------|--------------|
-| [Three Zones](../concepts/three-zones.md) | Land the Target, Sustained Offense, Evasive Movement |
-| [Confidence Rating](../concepts/confidence-rating.md) | Land the Target, Sustained Offense, Counter-Striking |
-| [TKO Pin](../concepts/tko-pin.md) | Wall Control, Wall to Ground, Wall Grinding, Pressure to Takedown |
-| [Defensive Solutions](../concepts/defensive-solutions.md) | All Skill Isolation games |
-| [Hand Controls](../concepts/hand-controls.md) | Close-Range Defense, Clinch Denial, Counter-Wrestling, Pressure games |
-| [Decision States](../concepts/decision-states.md) | All Ground games, Positional Battle |
-| [Full MMA Expression](../concepts/full-mma-expression.md) | Highest level of any game |
+??? note "Before Close-Range Defense"
 
----
+    <ul class="emma-checklist">
+      <li>Can parry straight punches consistently</li>
+      <li>Can slip with good timing</li>
+      <li>Can absorb on a tight guard</li>
+      <li>Understands defensive solution trade-offs</li>
+    </ul>
 
-## Readiness Checklists
+??? note "Before Land the Target"
 
-### Before Close-Range Defense
-- [ ] Can parry straight punches consistently
-- [ ] Can slip with good timing
-- [ ] Can absorb on tight guard
-- [ ] Understands defensive solution trade-offs
+    <ul class="emma-checklist">
+      <li>Understands the Three Zones concept</li>
+      <li>Can identify defensive patterns</li>
+      <li>Has weapon isolation experience</li>
+    </ul>
 
-### Before Land the Target
-- [ ] Understands Three Zones concept
-- [ ] Can identify defensive patterns
-- [ ] Has weapon isolation experience
+??? note "Before Pressure to Takedown"
 
-### Before Pressure to Takedown
-- [ ] Competent at Close-Range Defense
-- [ ] Competent at Pressure to Clinch
-- [ ] Can chain strikes while moving forward
+    <ul class="emma-checklist">
+      <li>Competent at Close-Range Defense</li>
+      <li>Competent at Pressure to Clinch</li>
+      <li>Can chain strikes while moving forward</li>
+    </ul>
 
-### Before Ground Games
-- [ ] Completed Open Space Takedown OR Wall to Ground
-- [ ] Understands Decision States
-- [ ] Comfortable with positional hierarchy
+??? note "Before Ground Games"
 
-### Before Full MMA Expression
-- [ ] Proficient at lower levels of the game
-- [ ] Primary skill feels automatic
-- [ ] Ready for cross-domain pressure
+    <ul class="emma-checklist">
+      <li>Completed Open Space Takedown or Wall to Ground</li>
+      <li>Understands Decision States</li>
+      <li>Comfortable with the positional hierarchy</li>
+    </ul>
 
----
+??? note "Before Full MMA Expression"
 
-!!! abstract "System Evolution Notice"
+    <ul class="emma-checklist">
+      <li>Proficient at lower levels of the game</li>
+      <li>Primary skill feels automatic</li>
+      <li>Ready for cross-domain pressure</li>
+    </ul>
+
+??? abstract "System evolution notice"
     This map reflects the current 34-game system and will update as games are added.

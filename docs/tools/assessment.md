@@ -1,154 +1,125 @@
 # Assessment Rubrics
 
-Criteria for evaluating athlete performance and ensuring system integrity.
+<div class="emma-meta"><span>Coaching Tool</span><span>Evaluation</span><span>System Integrity</span></div>
 
----
+<p class="emma-hl">Criteria for evaluating athlete performance — and for checking that the <i>games themselves</i> are still doing their job. Each rubric runs from <b>⭐ emerging</b> to <b>⭐⭐⭐⭐ mastery</b>.</p>
 
-## Offensive Rubrics
+<p class="emma-glabel">Offensive Rubrics</p>
 
-### Stabilize Before Exploit
+??? note "Stabilize Before Exploit"
 
-| Level | Behavior |
-|-------|----------|
-| ⭐ | Attempts exploitation without establishing control |
-| ⭐⭐ | Establishes control but rushes to exploit |
-| ⭐⭐⭐ | Consistent stabilize → exploit sequence |
-| ⭐⭐⭐⭐ | Dynamic stabilization with immediate exploit recognition |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Attempts exploitation without establishing control</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Establishes control but rushes to exploit</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Consistent stabilize → exploit sequence</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Dynamic stabilization with immediate exploit recognition</span></div>
+    </div>
 
-### Control Before Strike
+??? note "Control Before Strike"
 
-| Level | Behavior |
-|-------|----------|
-| ⭐ | Strikes without positional advantage |
-| ⭐⭐ | Establishes position, loses it when striking |
-| ⭐⭐⭐ | Maintains control while threatening strikes |
-| ⭐⭐⭐⭐ | Oscillates fluidly between control and strike access |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Strikes without positional advantage</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Establishes position, loses it when striking</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Maintains control while threatening strikes</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Oscillates fluidly between control and strike access</span></div>
+    </div>
 
-### Respect Counters
+??? note "Respect Counters"
 
-| Level | Behavior |
-|-------|----------|
-| ⭐ | Ignores DNS and escape threats |
-| ⭐⭐ | Reacts to counters after they're applied |
-| ⭐⭐⭐ | Anticipates and prevents counters |
-| ⭐⭐⭐⭐ | Uses counter-threat awareness to set up attacks |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ignores DNS and escape threats</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Reacts to counters after they're applied</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Anticipates and prevents counters</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Uses counter-threat awareness to set up attacks</span></div>
+    </div>
 
----
+<p class="emma-glabel">Defensive Rubrics</p>
 
-## Defensive Rubrics
+??? note "Act Early"
 
-### Act Early
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Waits until fully controlled to act</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Attempts escape after position consolidates</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Acts during transition / before consolidation</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Prevents control establishment entirely</span></div>
+    </div>
 
-| Level | Behavior |
-|-------|----------|
-| ⭐ | Waits until fully controlled to act |
-| ⭐⭐ | Attempts escape after position consolidates |
-| ⭐⭐⭐ | Acts during transition / before consolidation |
-| ⭐⭐⭐⭐ | Prevents control establishment entirely |
+??? note "Use Structure"
 
-### Use Structure
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Uses strength / desperation to escape</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates frames but doesn't use them effectively</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Structural escapes with proper sequencing</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Frames and structure are pre-positioned</span></div>
+    </div>
 
-| Level | Behavior |
-|-------|----------|
-| ⭐ | Uses strength/desperation to escape |
-| ⭐⭐ | Creates frames but doesn't use them effectively |
-| ⭐⭐⭐ | Structural escapes with proper sequencing |
-| ⭐⭐⭐⭐ | Frames and structure are pre-positioned |
+??? note "Disengage with Intent"
 
-### Disengage with Intent
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Escapes in any direction without plan</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates space but remains vulnerable</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Turns to face before disengaging</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">⭐⭐⭐⭐</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Disengages to an advantageous position</span></div>
+    </div>
 
-| Level | Behavior |
-|-------|----------|
-| ⭐ | Escapes in any direction without plan |
-| ⭐⭐ | Creates space but remains vulnerable |
-| ⭐⭐⭐ | Turns to face before disengaging |
-| ⭐⭐⭐⭐ | Disengages to advantageous position |
+<p class="emma-glabel">System Integrity Checks</p>
 
----
+!!! danger "Read the game, not just the athlete"
+    If you observe these patterns, the **constraints are mis-set** — not the athlete failing.
 
-## System Integrity Checks
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">💪</div><div class="emma-card__t">Brute force domination</div><p>Skill mismatch or intensity too high.<span class="emma-pop">Lower intensity or re-pair athletes so technique, not strength, decides the exchange.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔁</div><div class="emma-card__t">Memorized repetitions</div><p>The game is too predictable.<span class="emma-pop">Add variability so the athlete must read and adapt rather than run a script.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔥</div><div class="emma-card__t">Ego escalation</div><p>Competitive framing instead of learning.<span class="emma-pop">Reset the frame: the game is a problem to solve, not a fight to win.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">❓</div><div class="emma-card__t">Confusion about goals</div><p>Win conditions are unclear.<span class="emma-pop">Restate the observable win condition before restarting.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🚫</div><div class="emma-card__t">No defensive success</div><p>Constraints favor offense too heavily.<span class="emma-pop">Rebalance so the defender has a real, winnable problem.</span></p></div>
+</div>
 
-!!! danger "Red Flags"
-    If you observe these patterns, the **constraints are mis-set**, not the athlete.
+<p class="emma-sub">Diagnosis protocol when red flags appear</p>
 
-| Red Flag | Likely Cause |
-|----------|--------------|
-| Brute force domination | Skill mismatch or intensity too high |
-| Memorized repetitions | Game is too predictable |
-| Ego escalation | Competitive framing instead of learning |
-| Confusion about goals | Win conditions unclear |
-| No defensive success | Constraints favor offense too heavily |
+<div class="emma-stepper">
+  <div class="emma-step"><span class="emma-step__n">1</span><b>Stop the game</b>Pause play immediately.</div>
+  <div class="emma-step"><span class="emma-step__n">2</span><b>Review</b>Constraints and invariants.</div>
+  <div class="emma-step"><span class="emma-step__n">3</span><b>Check</b>Intensity levels.</div>
+  <div class="emma-step"><span class="emma-step__n">4</span><b>Clarify</b>Win conditions.</div>
+  <div class="emma-step"><span class="emma-step__n">5</span><b>Restart</b>Adjust and resume.</div>
+</div>
 
-### Diagnosis Protocol
+<p class="emma-glabel">Game-Specific Assessments</p>
 
-When red flags appear:
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">👆</div><div class="emma-card__t">Touch Game</div><p><b>Range honesty</b> — knows when in range · <b>Composure</b> after being touched · <b>Counter-touch</b> immediacy · <b>Initiative recovery</b> — how fast they reset mentally.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Wall Control</div><p><b>Rotation denial</b> of shoulder turn · <b>Balance maintenance</b> of own structure · <b>DNS respect</b> — protects head position · <b>Early escape</b> — defender acts before consolidation.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔻</div><div class="emma-card__t">Transitions</div><p><b>Control through transition</b> — connection maintained · <b>Scramble anticipation</b> · <b>Base compromise</b> — takedown created, not forced · <b>Safety compliance</b> — controlled descent.</p></div>
+</div>
 
-1. **Stop the game**
-2. Review constraints and invariants
-3. Check intensity levels
-4. Clarify win conditions
-5. Adjust and restart
+<p class="emma-glabel">Progress Tracking</p>
 
----
+<p class="emma-sub">Level progression criteria</p>
 
-## Game-Specific Assessments
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Level 1 → 2</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Consistent success at current level</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Level 2 → 3</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Can handle increased resistance</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Level 3 → Open play</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Integrates skill under realistic conditions</span></div>
+</div>
 
-### Touch Game
+<p class="emma-sub">Ready for the next level</p>
 
-| Criterion | What to Look For |
-|-----------|------------------|
-| Range honesty | Does athlete know when they're in range? |
-| Composure | How do they respond after being touched? |
-| Counter-touch | Can they respond immediately? |
-| Initiative recovery | How quickly do they reset mentally? |
+<ul class="emma-checklist">
+  <li>Consistent success (&gt;70% of attempts)</li>
+  <li>Maintains composure under pressure</li>
+  <li>Can articulate what they're doing and why</li>
+  <li>No safety violations</li>
+</ul>
 
-### Wall Control
+<p class="emma-sub">Not ready yet</p>
 
-| Criterion | What to Look For |
-|-----------|------------------|
-| Rotation denial | Can attacker prevent shoulder rotation? |
-| Balance maintenance | Does attacker maintain own structure? |
-| DNS respect | Does attacker protect head position? |
-| Early escape | Does defender act before consolidation? |
+<div class="emma-warns">
+  <span class="emma-warn">Success is inconsistent</span>
+  <span class="emma-warn">Relies on athleticism over technique</span>
+  <span class="emma-warn">Shows frustration or ego response</span>
+  <span class="emma-warn">Safety lapses occur</span>
+</div>
 
-### Transitions
-
-| Criterion | What to Look For |
-|-----------|------------------|
-| Control through transition | Is connection maintained? |
-| Scramble anticipation | Does attacker read defender's movement? |
-| Base compromise | Is takedown created, not forced? |
-| Safety compliance | Is descent controlled? |
-
----
-
-## Progress Tracking
-
-### Level Progression Criteria
-
-| From | To | Requirement |
-|------|-----|-------------|
-| Level 1 | Level 2 | Consistent success at current level |
-| Level 2 | Level 3 | Can handle increased resistance |
-| Level 3 | Open play | Integrates skill under realistic conditions |
-
-### Readiness Indicators
-
-**Ready for next level:**
-
-- [x] Consistent success (>70% of attempts)
-- [x] Maintains composure under pressure
-- [x] Can articulate what they're doing and why
-- [x] No safety violations
-
-**Not ready:**
-
-- [ ] Success is inconsistent
-- [ ] Relies on athleticism over technique
-- [ ] Shows frustration or ego response
-- [ ] Safety lapses occur
-
----
-
-!!! abstract "System Evolution Notice"
-    Assessment criteria may be refined as patterns emerge.
+??? abstract "System evolution notice"
+    Assessment criteria may be refined as patterns emerge across the games. See the [Change Log](../reference/changelog.md) for revisions.
