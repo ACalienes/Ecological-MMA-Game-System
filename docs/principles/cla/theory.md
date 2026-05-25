@@ -29,7 +29,7 @@ An integrated framework incorporating:
 | **Individual-Environment Mutuality** | Performer and environment are inseparable (Gibson, 1979) | Fighter technique cannot be understood apart from opponent/context |
 | **Complex Adaptive Systems** | Athletes are networks of integrated subsystems (Davids et al., 2008) | Fighter = physical + cognitive + emotional + tactical subsystems |
 | **Self-Organization** | Spontaneous emergence of coordinated patterns (Kelso, 1995) | Combinations emerge from constraints, not memorization |
-| **Nonlinearity** | Small changes can produce large effects (and vice versa) | Minor rule changes can revolutionize fighting styles |
+| **Nonlinearity** | A **control parameter** pushed past a **critical value** triggers a nonlinear **phase transition** — the behavior reorganizes abruptly, not smoothly (HKB; Blau & Wagman, 2022 — p. 250) | "Minor rule changes revolutionize fighting styles" because a rule shifts a control parameter past its critical threshold — not vague butterfly-effect nonlinearity (see below) |
 | **Emergence** | Novel behaviors arise from component interactions | New techniques emerge from training environments |
 
 ---
@@ -93,6 +93,16 @@ An integrated framework incorporating:
 - Variability increases at transition points (instability precedes change)
 
 **For MMA:** A fighter's stance is a stable attractor; under pressure (control parameter), they may transition to a different stance or position.
+
+#### Dynamical-systems precision (Blau & Wagman, 2022)
+
+The vocabulary above is loose without these distinctions. Treat a skill as an **attractor layout** — a landscape of stable behaviors that the coach reshapes (p. 234–242):
+
+- **Skill = an attractor layout.** A fighter's habitual patterns are **attractors** (basins that "attract nearby behaviors the way a magnet attracts iron"); the *deepest* attractor is the most stable and usually the most efficient — the default that surfaces under pressure (p. 237). The coach's job is to **reshape the layout**: deepen a desired attractor or destabilize an unwanted one.
+- **Learning vs. adaptation are different operations** (p. 241). **Learning = the *birth* of a new attractor** — acquiring a genuinely new coordination pattern (expect exploration and instability). **Adaptation = the *movement* of an existing attractor** — adjusting a skill you already have to a new context/opponent (fight-camp work). Do not use "adaptation" to mean both.
+- **Control parameter vs. order parameter.** A **control parameter** is a variable that, when changed, *reorganizes the layout* (speed, pressure, range, fatigue, number of opponents — e.g., in HKB, increasing movement speed makes the anti-phase attractor *vanish*, p. 250). A control parameter does not dictate the new behavior; it changes which behaviors are stable. The **order parameter** is the macro variable you *measure* to read the coordination state (e.g., relative phase / timing between fighter and opponent).
+
+**Why this matters for the nonlinearity claim above:** "minor rule changes revolutionize styles" is precise once framed as a control-parameter-driven phase transition past a critical value (HKB, p. 250). A rule change shifts a control parameter; past its critical threshold the attractor layout reorganizes abruptly. This makes the claim falsifiable and designable rather than mystical. (See the [Ecological Psychology](../ecological-psychology/index.md) section for the full model.)
 
 ---
 

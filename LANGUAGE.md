@@ -50,12 +50,13 @@ Domain-driven controlled vocabulary. The agent rejects synonym substitution. Bor
 
 Games in the Ecological Games Library follow consistent name patterns. When Alex invents a game on the spot, he describes the **constraints** (not a name) on the mic; the name is derived afterward from the patterns below.
 
-### Five things to narrate on the mic (the naming inputs)
+### Six things to narrate on the mic (the naming inputs)
 1. **Environment / position** — open space, wall, square, ground, clinch
 2. **Roles** — who is offense / defense; is it asymmetric?
 3. **Core constraint** — what is forbidden or forced (the invariant that defines the game)
 4. **Win condition** — how each side wins
 5. **Terminal goal** — where the game is meant to lead (takedown, pin, survival, etc.)
+6. **The information the athlete must attune to** — the *invariant that specifies the affordance*: **τ (time-to-contact)** on a closing strike/shot, **global optic flow** for self-motion/cage approach, the **inertial array (resistance-to-rotation)** through grips/clinch, or the **preferred distance** that affords offense vs. defense. "Reading" must name *what* is read, not just "see the opening." (Blau & Wagman, 2022 — p. 82, 123–127, 165–166, 188–189; see `docs/principles/cla/key-concepts.md`.)
 
 ### Name patterns
 
@@ -72,6 +73,16 @@ Games in the Ecological Games Library follow consistent name patterns. When Alex
 2. Improvised / not-yet-blessed games get a **`[WIP]` prefix** in the filename and title (e.g., `[WIP] The Square — Close Defense to Takedown`) until Alex confirms or renames them. This keeps invented-on-the-spot games visually distinct from the canonical library.
 3. Names use **approved vocabulary** — no synonym substitution (a "pin" is a pin, not a "hold").
 4. Filenames keep the existing `# GAME_ <name>.md` form.
+5. **Reserve "adaptation" vs. "learning" precisely.** Use **"learning"** only for *acquiring a new coordination pattern* (the *birth* of a new attractor) and **"adaptation"** only for *moving an existing attractor* — adjusting a skill you already have to a new opponent/context. Do not use "adaptation" to mean both. (Blau & Wagman, 2022 — p. 241; see `docs/principles/cla/theory.md`.)
+
+## Game content conventions
+
+How every game page is written (applied across the board):
+
+1. **Boundary = "marked perimeter," never "square."** The confined space is a *marked perimeter* of any shape — square mats, a circle, taped lines, the cage. "Square" is one gym's instance; don't bake it into the rule. Write "inside the marked perimeter" / "both feet leave the perimeter." (List square/circle only as *examples*.)
+2. **State goals as intentions.** Each role's objective reads "[Role] is trying to / attempting to ___" — e.g., "The attacker is trying to land a clean shot."
+3. **State outcomes as consequence ← condition.** "When [condition], [consequence]" where the consequence is **win / loss / switch roles / reset** — e.g., "When both feet leave the perimeter, that player loses."
+4. **Lead with the start, end with the finish.** Every game page runs **Start → Goal → Finish**: a one-glance arc ribbon, a prominent detailed **Starting Position**, clear role intentions, then explicit end conditions.
 
 ## Why this exists
 

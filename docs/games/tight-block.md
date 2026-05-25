@@ -25,20 +25,38 @@ tags:
 
 Learn to absorb strikes behind a tight shell. The defender can *only* block — no parrying, no head movement — which forces the blocking solution to develop on its own.
 
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean shot; the defender is trying to block &amp; survive.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Survive → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Close quarters — inside punching distance, no gap to retreat into.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the defender survives.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
+</div>
+
 <p class="emma-glabel">The Matchup</p>
 
 <div class="emma-matchup">
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🥊</div>
     <div class="emma-fighter__role">Attacker</div>
-    <p class="emma-fighter__obj">Land one clean punch — head or body — inside a 1–3 punch combination.</p>
+    <p class="emma-fighter__obj">Trying to land one clean punch — head or body — inside a 1–3 punch combination.</p>
     <span class="emma-pop">Boxing only — straights and hooks, scaled to level. You set the problem: vary targets and rhythm, and ramp up only as the defender succeeds.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🛡️</div>
     <div class="emma-fighter__role">Defender</div>
-    <p class="emma-fighter__obj">Block everything behind a tight shell. Survive the sequence.</p>
+    <p class="emma-fighter__obj">Trying to block everything behind a tight shell and survive the sequence.</p>
     <span class="emma-pop">No countering, no head movement, no footwork escape — pure blocking. Your only job is to stay structured and composed while reading the attack.</span>
   </div>
 </div>
@@ -49,16 +67,16 @@ Learn to absorb strikes behind a tight shell. The defender can *only* block — 
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Straights &amp; hooks<span class="emma-chip__detail">The attacker throws only straight punches and hooks, scaled to the level — no kicks or knees. This keeps the defender's reading problem focused on hand defense.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛡️</span> Block only — no parry, no dodge<span class="emma-chip__detail">The defender may <strong>only</strong> block with a tight guard. Parrying, slipping, head movement, and footwork escapes are all off-limits, so the blocking solution is forced to develop.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No continuous backing up<span class="emma-chip__detail">The defender can't keep retreating out of range to avoid exchanges — they must stay and solve the problem in the pocket.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the square<span class="emma-chip__detail">Play happens inside a marked square. If both feet leave it, you lose instantly — training the cage-edge awareness a fighter needs.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset between strikes<span class="emma-chip__detail">At early levels the attacker pauses between strikes so the defender can reorganize the guard. Pressure becomes continuous as the levels rise.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Survive the sequence without getting hit clean → roles switch.<span class="emma-pop">Block a full attacking sequence with no clean shot landing. Succeed and you take over on offense — you earn the attacking role.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Land the required clean shots — start at 1, escalate to 2.<span class="emma-pop">Land your target number of clean, significant shots inside a ≤3-punch combo — 1 to start, 2 for stronger partners. Then reset, same roles.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Instant loss</span> Both feet leave the square — whoever you are.<span class="emma-pop">If both feet cross the boundary, you lose immediately — regardless of the exchange. This trains the cage-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the defender survives the sequence without getting hit clean, the players switch roles.<span class="emma-pop">The defender blocked a full attacking sequence with no clean shot landing — and earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the attacker lands the required clean shots (1, then 2 for stronger partners), reset to neutral — same roles.<span class="emma-pop">A clean, significant shot inside a ≤3-punch combo. Then begin again from a neutral stance.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
@@ -73,15 +91,7 @@ Learn to absorb strikes behind a tight shell. The defender can *only* block — 
 
 <p class="emma-glabel">Go Deeper</p>
 
-??? note "Setup &amp; task focus"
-
-    <p class="emma-sub">Entry</p>
-
-    <div class="emma-chips">
-      <span class="emma-chip"><span class="emma-chip__i">📍</span> Neutral start, close range</span>
-      <span class="emma-chip"><span class="emma-chip__i">🔄</span> Reset after each exchange</span>
-      <span class="emma-chip"><span class="emma-chip__i">🎚️</span> Defender earns the switch</span>
-    </div>
+??? note "Task focus &amp; coaching cues"
 
     <p class="emma-sub">Each role's job</p>
 

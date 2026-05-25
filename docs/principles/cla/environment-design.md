@@ -75,6 +75,14 @@ These four principles guide every coaching decision in the ecological approach.
 2. **INVITE** engagement through exaggeration/emphasis
 3. **AVOID** over-constraining (forcing vs. inviting)
 
+!!! tip "The outlet analogy — a good constraint affords, it does not prescribe"
+    Ecological psychology gives the cleanest test for a good constraint (Blau & Wagman, 2022 — p. 271). Compare two ways to wire a building:
+
+    - **"Put an outlet exactly here"** — *other-organization*. One acceptable outcome, dictated from outside.
+    - **"There should be outlets every 12 feet"** — a *local rule*. An infinite number of valid layouts, and "the solution will emerge."
+
+    A good constraint is always the second kind. "Defend the takedown — points for staying standing" is "outlets every 12 feet"; "when they shoot you must sprawl" is "outlet exactly here." If a constraint forces one specific solution, it is over-constraining. (See the [Ecological Psychology](../ecological-psychology/index.md) section.)
+
 ---
 
 ### Constraining Strategies
@@ -229,6 +237,9 @@ LOW REPRESENTATIVENESS ←──────────────────
 > — Bernstein, 1967
 
 **Meaning:** Repeat the process of solving problems, not identical movements.
+
+!!! example "Variability is the feature, not the bug — the infant-walking robot tournament"
+    The strongest evidence that *variable* practice beats *regular* practice comes from a simulation tournament (Blau & Wagman, 2022 — p. 169–170). Robots trained on highly **variable** infant-walking paths were pitted against robots trained on **regular**, repetitive paths in a 4,000-game tournament. The variable-trained robots won **2,888 to 75**. Variability does not degrade the skill — it builds the adaptable, degenerate system that copes with novelty. This grounds why the goal is "repetition without repetition," not drilling identical reps. (See the [Ecological Psychology](../ecological-psychology/index.md) section.)
 
 ---
 

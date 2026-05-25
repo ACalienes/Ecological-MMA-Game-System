@@ -28,298 +28,150 @@ tags:
 
 # Wall Control — Establish the Pin
 
-!!! info "Game Identity"
-    - **Problem:** Immobilizing opponent against the wall
-    - **Environment:** Wall
-    - **Stage:** Stabilize
+<div class="emma-meta"><span>Wall</span><span>Wrestling</span><span>Offensive</span><span>Intermediate</span><span>Stabilize</span></div>
+
+Teach vertical control — the wall becomes the dominant constraint, limiting the defender's options and creating opportunities for organized control.
+
+<p class="emma-glabel">The Matchup</p>
+
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🤼</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Establish a functional wall pin — hips and shoulders controlled, rotation denied.</p>
+    <span class="emma-pop">You start with initial connection but no control yet. No immediate takedowns — stabilize first, then organize the pin against the wall.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🧱</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Prevent the pin or disengage before being flattened.</p>
+    <span class="emma-pop">Active resistance only — no passive drilling. Work rotation, frames, and defensive neck submissions to keep the attacker honest.</span>
+  </div>
+</div>
 
-This game teaches **vertical control**. The wall becomes the dominant constraint — it limits the defender's options and creates opportunities for organized control.
+<p class="emma-glabel">The Rules</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Start from clinch with the defender positioned 1–2 feet from the wall; attacker has initial connection but no control yet.
-    - **Attacker:** Establish a functional wall pin — hips and shoulders controlled, rotation denied (no immediate takedowns).
-    - **Defender:** Prevent the pin or disengage before being flattened (active resistance, no passive drilling).
-    - **Win:** Attacker wins by holding a functional pin for 5 seconds; defender wins by disengaging (creating space) or reversing.
-    - **Why it matters:** Develops vertical stabilization — using the wall as the dominant constraint to organize control.
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall is the dominant constraint<span class="emma-chip__detail">All control is relative to the wall. It limits the defender's options and is the structure the attacker organizes the pin around.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No immediate takedowns<span class="emma-chip__detail">Stabilize before advancing. The game is about establishing control, not shooting for the takedown right away.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚡</span> Defender actively resists<span class="emma-chip__detail">No passive drilling — the defender works real escapes, frames, and rotation so the control problem is genuine.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤐</span> DNS permitted for the defender<span class="emma-chip__detail">Defensive neck submissions — guillotine threats and front headlock entries — are allowed. They punish poor posture, over-commitment, and head-position errors without changing the game's focus.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📍</span> Start 1–2 feet from the wall<span class="emma-chip__detail">Begin from clinch with the defender positioned between attacker and wall. Reset if the defender creates significant space or fully disengages.</span></span>
+</div>
 
----
+<p class="emma-glabel">How to Win</p>
 
-## Goal
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Hold a functional pin for 5 seconds.<span class="emma-pop">A functional pin: shoulders substantially flat to the wall, hips controlled or compromised, no free rotation, with the attacker keeping structure and balance. The 5-second hold ensures the pin is stable, not momentary.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Disengage (create space) or reverse position.<span class="emma-pop">Break free by creating significant space, or turn the position around. Either ends the attacker's control attempt.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Just pressing</span> Pressure without organized control is not a pin.<span class="emma-pop">If the defender can still rotate their shoulders, it isn't a pin — only pressure. Organized structure that denies rotation is what counts.</span></div>
+</div>
 
-This is an **asymmetric game** focused on control establishment.
+<p class="emma-glabel">The Levels</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Establish a functional wall pin (hips and shoulders controlled, rotation denied) |
-| **Defender** | Prevent pin establishment or disengage before being flattened |
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Establish Pin</b>Flat shoulders and hip control, no strikes.<span class="emma-pop emma-pop--l">Focus on achieving flat shoulders and hip control. No strikes. The defender resists but does not counter-attack.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Deny Rotation</b>Defender works rotation; attacker re-pins.<span class="emma-pop emma-pop--l">The defender actively works rotation escapes and the attacker must adjust and re-pin. Light strikes permitted.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Threaten TKO Pin Access</b>Release a control point to simulate strike access.<span class="emma-pop emma-pop--l">The attacker may briefly release one control point to simulate strike access, then re-establish the pin. Introduces the trade-off between control and damage.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Light strikes for both; knees from control.<span class="emma-pop emma-pop--l">Light strikes permitted for both players. The attacker softens resistance and maintains the pin; the defender strikes to create escapes. Knee strikes available for the attacker from control.</span></div>
+</div>
 
-The objective is **stabilization**, not damage or advancement.
+<p class="emma-glabel">Go Deeper</p>
 
----
+??? note "Setup &amp; task focus"
 
-## Entry Condition
+    <p class="emma-sub">Entry</p>
 
-- Start from clinch with defender positioned between attacker and wall
-- Distance: 1–2 feet from wall
-- Attacker has initial connection but not yet established control
-- Reset if defender creates significant space or fully disengages
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">📍</span> Clinch, defender between attacker &amp; wall</span>
+      <span class="emma-chip"><span class="emma-chip__i">📏</span> 1–2 feet from the wall</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔄</span> Reset on significant space or disengage</span>
+    </div>
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Attacker</div><p>Establish a functional pin — shoulders flat, hips controlled, rotation denied — while keeping your own balance and structure.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Defender</div><p>Prevent the pin or disengage before being flattened. Resist actively; use frames, rotation, and DNS.</p></div>
+    </div>
 
-1. Wall is dominant constraint — all control is relative to it
-2. No immediate takedowns — stabilize before advancing
-3. Defender actively resists — no passive drilling
+    <p class="emma-sub">Coaching cues</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Are their shoulders flat?</div><p>Ask: "Are their shoulders flat? Can they rotate?" This develops pin recognition — control is organized structure, not just pressure.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🔃</div><div class="emma-card__t">Deny the rotation</div><p>Shoulder rotation is the primary escape — it lets the defender frame, generate hip movement, and access angles. Denying it is the attacker's primary task.</p></div>
+    </div>
 
-## Key Logic: What Constitutes a Pin?
+??? abstract "Constraints-Led analysis"
 
-!!! warning "A pin is NOT just pressing someone against the wall"
+    <p class="emma-sub">Constraints → Affordances</p>
 
-A functional wall pin exists when:
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Functional pin required</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops organized control, not just pressing</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">5-second hold</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ensures stable control, not momentary</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">DNS allowed for defender</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Punishes poor posture, keeps attacker honest</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">No immediate takedowns</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops control before advancement</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Wall as dominant constraint</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">All control relative to wall structure</span></div>
+    </div>
 
-- [x] Defender's shoulders are substantially flat to wall
-- [x] Defender's hips are controlled or compromised
-- [x] Defender cannot rotate freely
-- [x] Attacker maintains structure and balance
+    <p class="emma-hl">Develops <b>pinning affordance perception</b> — reading when control is organized vs. merely pressing. The defender develops early escape timing through the scramble window (Renshaw et al., 2019).</p>
 
-It requires **organized control**.
+    <p class="emma-sub">What the attacker reads</p>
 
-### The Rotation Problem
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Shoulder position (flat vs. rotated), hip movement, and frame attempts → control quality, re-pinning direction, denial method.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Defender's rotation setup → anticipate and prevent it.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own balance and structure → maintain position without over-committing.</p></div>
+    </div>
 
-The primary escape mechanism is **shoulder rotation**. If the defender can turn their shoulders, they can:
+    <p class="emma-sub">What the defender reads</p>
 
-- Create frames
-- Generate hip movement
-- Threaten reversals
-- Access escape angles
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Attacker's control points &amp; weight distribution → where to frame, which way to rotate.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Attacker's head position → DNS opportunity.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own shoulder and hip position → current escape options.</p></div>
+    </div>
 
-The attacker's primary task is **denying rotation** while maintaining their own balance.
+    <p class="emma-sub">Representativeness</p>
 
-### DNS as Defensive Pressure
+    <p class="emma-hl"><b>Models:</b> establishing wall control for dirty boxing, grinding, or takedown setup — a dominant position in MMA cage fighting.</p>
 
-!!! note "Defensive Neck Submissions"
-    DNS (guillotine threats, front headlock entries) are permitted for the defender. This punishes:
+    <div class="emma-meta"><span>Simplified: 5-second hold win</span><span>no immediate takedowns</span><span>progressive striking</span></div>
 
-    - Poor posture from the attacker
-    - Over-commitment to control
-    - Head position errors
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Wall control developed here transfers directly to cage fighting — "organized control" vs. "just pressing" is identical in competition.</p>
 
-    DNS keeps the attacker honest without changing the game's focus.
+    <p class="emma-sub">Readiness to progress</p>
 
----
+    <ul class="emma-checklist">
+      <li>Establishes functional pin consistently</li>
+      <li>Maintains pin under active resistance</li>
+      <li>Can articulate: "They couldn't rotate because…"</li>
+      <li>Respects DNS (maintains good posture)</li>
+      <li>5-second holds achieved reliably</li>
+    </ul>
 
-## Win Conditions
+    <p class="emma-sub">Warning signs</p>
 
-| Role | Win Condition |
-|------|---------------|
-| Attacker | Holding functional pin for 5 seconds |
-| Defender | Disengaging (creating space) or reversing position |
+    <div class="emma-warns">
+      <span class="emma-warn">Just pressing, not controlling</span>
+      <span class="emma-warn">Gets DNS'd frequently</span>
+      <span class="emma-warn">Pin breaks immediately</span>
+      <span class="emma-warn">Exhausted quickly — using strength</span>
+    </div>
 
-5-second hold requirement ensures the pin is stable, not momentary.
+??? note "Safety &amp; related games"
 
----
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🧱</span> Use mats and a controlled wall surface</span>
+      <span class="emma-chip"><span class="emma-chip__i">🤐</span> DNS threats stay controlled — no cranking</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔄</span> Reset on significant space or disengage</span>
+    </div>
 
-## Levels
+    <p class="emma-sub">Where it sits</p>
 
-=== "Level 1 — Establish Pin"
-    - Focus on achieving flat shoulders and hip control
-    - No strikes
-    - Defender resists but does not counter-attack
-
-=== "Level 2 — Deny Rotation"
-    - Defender actively works rotation escapes
-    - Attacker must adjust and re-pin
-    - Light strikes permitted
-
-=== "Level 3 — Threaten TKO Pin Access"
-    - Attacker may briefly release one control point to simulate strike access
-    - Pin must be re-established after strike threat
-    - Introduces trade-off between control and damage
-
-=== "Level 4 — Full MMA Expression"
-    - Light strikes permitted for both players
-    - Attacker can use strikes to soften resistance and maintain pin
-    - Defender can use strikes to create escape opportunities
-    - Knee strikes available for attacker from control
-    - Focus: Wall control under realistic striking pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Establish functional pin (shoulders flat, hips controlled, rotation denied) | Develops organized control, not just pressing |
-| **Task** | 5-second hold requirement | Ensures stable control, not momentary |
-| **Task** | DNS allowed for defender | Punishes poor posture, keeps attacker honest |
-| **Task** | No immediate takedowns (stabilize first) | Develops control before advancement |
-| **Individual** | Prerequisite: Pressure to Clinch | Understands clinch and pressure dynamics |
-| **Environmental** | Wall is dominant constraint | All control relative to wall structure |
-
-!!! info "Theoretical Foundation"
-    This game develops **pinning affordance perception**—reading when control is organized vs. merely pressing. The wall constraint simplifies the control problem (one fewer dimension of escape) while the rotation denial focus develops **structured grappling** rather than strength-based holding. The defender develops early escape timing through the **scramble window** concept (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Defender's shoulder position (flat vs. rotated) | Control quality assessment |
-| **Haptic** | Defender's hip movement | Re-pinning direction |
-| **Haptic** | Defender's frame attempts | Denial method |
-| **Visual** | Defender's rotation setup | Anticipate and prevent |
-| **Proprioceptive** | Own balance and structure | Maintain position without over-committing |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Attacker's control points | Where to create frames |
-| **Haptic** | Attacker's weight distribution | Rotation direction |
-| **Visual** | Attacker's head position | DNS opportunity |
-| **Proprioceptive** | Own shoulder and hip position | Current escape options |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "Are their shoulders flat? Can they rotate?" This develops the pin recognition—control isn't just pressure, it's organized structure that denies movement options.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Establishing wall control for dirty boxing, grinding, or takedown setup—a dominant position in MMA cage fighting.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Wall pin** | Shoulders flat, hips controlled | Same | High |
-| **Control criteria** | Organized structure | Same | High |
-| **DNS threat** | Always present | Same | High |
-| **Strikes** | Available | Progressive by level | Scaffolded |
-| **Consequence** | Damage accumulation or takedown setup | 5-second hold win | Analogous |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| 5-second hold win condition | Provides clear success criteria |
-| No immediate takedowns | Develops control before advancement |
-| Progressive striking | Builds control foundation first |
-
-!!! note "Transfer Expectation"
-    Wall control developed here transfers directly to MMA cage fighting. The perception of "organized control" vs. "just pressing" is identical in competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Defender resistance level** | Passive, active, explosive | Multiple control solutions |
-| **Starting clinch type** | Over-under, double unders, collar tie | Various pin pathways |
-| **Defender size** | Larger, smaller, equal | Adaptability |
-| **Wall angle** | Flat wall, corner, curved cage | Environmental flexibility |
-| **Intensity** | Drilling pace, live pace | Pressure calibration |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Functional pin criteria | Core definition of success |
-| 5-second hold requirement | Ensures stable control |
-| DNS availability for defender | Maintains attacker discipline |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Pins consistently achieved | Basic control developing |
-| Rotation denied effectively | Understanding pin structure |
-| Maintains control under resistance | Ready for striking addition |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Establishes functional pin consistently (shoulders flat, rotation denied)
-- [ ] Maintains pin under active resistance
-- [ ] Can articulate: "They couldn't rotate because..."
-- [ ] Respects DNS (maintains good posture)
-- [ ] 5-second holds achieved reliably
-
-### Ready to Exit Game When
-
-- [ ] Level 2+ competence (denies active rotation escapes)
-- [ ] Pin feels organized, not forced
-- [ ] Ready to add exploitation (Wall Grinding) or transition (Wall to Ground)
-- [ ] Wall control appears in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Just pressing (not controlling) | Not understanding structure | Slow down, focus on rotation denial |
-| Gets DNS'd frequently | Posture neglected | Emphasize head position, stay at current level |
-| Pin breaks immediately | Control not organized | More reps, focus on structure |
-| Exhausted quickly | Using strength, not structure | Develop efficient control |
-
----
-
-## Advanced Expressions (Coach Context)
-
-**For attackers:**
-
-- Pin becomes a platform, not an endpoint
-- Control becomes dynamic — adjustments without losing position
-- Strike threats emerge from stable control
-- TKO pin access becomes available at Level 3+
-
-**For defenders:**
-
-- Early rotation becomes instinctive
-- Frames become structural rather than desperate
-- DNS threats become genuine tactical options
-- Escape timing improves — act before consolidation
-
----
-
-## System Position
-
-```mermaid
-flowchart TD
-    A[Pressure to Clinch] --> B[Wall Control]
-    B --> C[Wall Escape]
-    B --> D[Wall → Ground]
-
-    style B fill:#2196F3,color:#fff
-```
-
-This is the **first true grappling control game** in the system.
-
----
-
-!!! abstract "System Evolution Notice"
-    Pin definitions may evolve as control models refine.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-clinch/">Pressure to Clinch</a> · <a href="../../concepts/tko-pin/">TKO Pin</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-escape/">Wall Escape</a> · <a href="../wall-to-ground/">Wall to Ground</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-grinding/">Wall Grinding</a></span></div>
+    </div>

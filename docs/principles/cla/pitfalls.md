@@ -144,9 +144,13 @@ Running all athletes through identical sessions regardless of their size, backgr
 
 Know each athlete's history, current level, and needs. Adjust constraints individually.
 
+**How to individualize — scale by critical π ratios, not absolutes.** Saying "individualize" is not enough; the mechanism is **body-scaling**. Warren's stair-climbing studies showed that whether a step is "step-on-able" depends not on its absolute height but on the **ratio of step height to leg length** — plotted against the ratio, tall and short people fall on the *same* curve, crossing a single critical π value (≈0.88) where the action becomes impossible, and people *perceive* that boundary accurately (Blau & Wagman, 2022 — p. 79–81). The same logic governs crossing gaps (leg length), passing through apertures (shoulder width, critical ratio ≈1.16–1.3), and reaching (arm length).
+
+**Apply it:** when a game sets a distance, target height, aperture, or range, define it as a **ratio of the athlete's reach / leg length / shoulder width** rather than a fixed number. That way a 5'5" wrestler and a 6'2" kickboxer face the *same relational problem* — for example, a "close range" start scaled to each defender's arm length, so blocking is the live affordance for both. (See the [Ecological Psychology](../ecological-psychology/index.md) section.)
+
 **Considerations:**
 
-- Physical attributes (reach, weight, mobility)
+- Physical attributes (reach, weight, mobility) — set constraints as **critical ratios** of these
 - Technical background (grappling vs. striking base)
 - Psychological profile (aggressive vs. reactive)
 - Current learning stage (coordination vs. adaptability)

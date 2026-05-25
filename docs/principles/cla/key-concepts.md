@@ -170,6 +170,18 @@ Perception and action are not separate sequential processes—they form a contin
 | **Proprioceptive** | Body position, balance, orientation | Base awareness during grappling |
 | **Acoustic** | Corner instructions, crowd noise, impacts | Adjusting strategy mid-fight |
 
+#### The Specific Invariants (what actually specifies the affordance)
+
+Modalities are the *channels*; the information they carry is a set of **higher-order invariants**. Ecological psychology shows that perception detects these invariants directly — there is nothing to "compute," only something to attune to (Blau & Wagman, 2022 — p. 82). For combat sports, three named invariants matter most:
+
+| Invariant | What it specifies | MMA Application |
+|-----------|-------------------|-----------------|
+| **τ (tau / time-to-contact)** | The relative rate of optical expansion of an object's texture — specifies *time-to-arrival*, assuming current conditions continue | A closing strike, shot, or level change: the defender attunes to the *rate of expansion* of the opponent (and their limbs), **not** absolute distance or speed (Blau & Wagman, 2022 — p. 74, 165–166) |
+| **Global optic flow** | Self-motion and how to control it — rate of flow = movement speed | The fighter's own closing pressure and cage-edge approach (Blau & Wagman, 2022 — p. 147–148) |
+| **Inertial array / resistance-to-rotation** (the inertia tensor) | For dynamic/effortful touch — resistance to rotation at a grasp point specifies length, orientation, and "off-balance-able-ness" of what is held | Grips, frames, clinch: what the hands *feel* through contact (Blau & Wagman, 2022 — p. 123–127) |
+
+**Coaching consequence:** "Reading" should mean *attuning to a named invariant* (e.g., τ on a closing punch, the inertial array through a grip), not vaguely "seeing openings." See the [Ecological Psychology](../ecological-psychology/index.md) section for the full treatment.
+
 ---
 
 ### Implications for Training
@@ -190,6 +202,15 @@ Perception and action are not separate sequential processes—they form a contin
 ### Self-Organization Principles
 
 **Definition:** Spontaneous tendencies for system components to form coordinated patterns without external micromanagement (Kelso, 1995).
+
+**The complete definition** (Blau & Wagman, 2022 — p. 270–272). "Spontaneous emergence" is shorthand; self-organization has four load-bearing requirements, all of which must hold:
+
+1. **Not other-organized** — no external leader, blueprint, or rigid hierarchy directing the parts.
+2. **Minimally-intelligent components** — the parts follow simple local rules; no "loan of intelligence" is required (nothing in the system has to already be smart).
+3. **Local rules + constant mutual interaction** — rules are followed using only *local* information, which requires components to *continuously interact*. Remove the interaction and the pattern stops (metronomes on a non-transmitting surface never synchronize — p. 271–272).
+4. **Emergence at a larger scale** — a nonrandom pattern that is comprehensible only at a *larger scale* than the parts, and *not predictable* from the parts alone.
+
+**For MMA, this means:** the "components" are the fighter's synergies and the two-fighter dyad; the "local rules" are the game's constraints; the emergent pattern is the fighting style. The coach supplies rules and lets the pattern emerge — they do not choreograph it (see [Implementation](implementation.md) and the [Ecological Psychology](../ecological-psychology/index.md) section).
 
 **Biological Examples:**
 
@@ -272,6 +293,9 @@ Two dimensions of coordination (Turvey, 1990):
 > — Edelman & Gally, 2001; applied to motor learning by Davids et al., 2008
 
 **MMA Example:** Multiple ways to achieve a takedown (single leg, double leg, body lock, trips) from the same starting position.
+
+!!! note "Degeneracy ↔ Multirealizability"
+    Degeneracy is the same phenomenon ecological psychology calls **multirealizability** — the property of self-organizing systems whereby the *same parts reorganize for many goals*, and *many different organizations achieve the same goal* (your legs can walk, kick, skate, or arabesque; many takedown entries reach the same finish) (Blau & Wagman, 2022 — p. 274). Building degeneracy in training *is* building a multirealizable system. See the [Ecological Psychology](../ecological-psychology/index.md) section.
 
 **Why It Matters:**
 

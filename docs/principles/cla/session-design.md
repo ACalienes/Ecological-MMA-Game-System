@@ -140,6 +140,11 @@ GREEN → AMBER → GREEN
 - Amber zone provides the productive instability needed for learning
 - Returning to green zone allows consolidation and ends session positively
 
+!!! info "The amber zone is *functional noise* — and the flow respects hysteresis"
+    The "productive instability" of the amber zone is what ecological psychology calls **functional noise** (Blau & Wagman, 2022 — p. 242–243). Noise is not error: it constantly perturbs the system and is precisely what lets the "ball" escape a *shallow, local* attractor (a comfortable-but-suboptimal habit) and settle into a *deeper, better* one. In one study, *added noise made participants more likely to discover the efficient strategy* (p. 243). The amber zone is therefore deliberate, useful perturbation — not chaos to be avoided.
+
+    The **GREEN → AMBER → GREEN** flow also respects **hysteresis** (p. 250): a system's current state depends on its *history/trajectory*, not just present conditions. A pattern entered under amber-zone pressure persists, so the order in which you pass through the zones matters — you cannot treat a session as path-independent. (See the [Ecological Psychology](../ecological-psychology/index.md) section.)
+
 ---
 
 ## Scaling Difficulty
@@ -165,6 +170,9 @@ Stable/Predictable    Productive          Too much chaos
 ```
 
 **Use Together:** High RLD + Amber Zone = maximum learning transfer. Low RLD + Green Zone = safe exploration for beginners.
+
+!!! note "The two dials are control parameters"
+    In dynamical-systems terms, the representativeness dial and the variability dial are **control parameters** — variables that, when turned, reorganize the fighter's **attractor layout** (Blau & Wagman, 2022 — p. 250). Turning them does not dictate the new behavior; it changes which behaviors are stable. Other control parameters you turn in a session include speed, pressure, range, fatigue, and number of opponents. Expect that pushing one *past a critical value* produces an abrupt, **nonlinear** reorganization (a stance or rhythm suddenly switches) rather than a smooth change — design for that switch rather than being surprised by it. (See [Theory](theory.md) and the [Ecological Psychology](../ecological-psychology/index.md) section.)
 
 ---
 
@@ -287,12 +295,15 @@ Stable/Predictable    Productive          Too much chaos
 
 ## Integration with Training Periodization
 
-| Phase | RLD Level | Variability | Focus |
-|-------|-----------|-------------|-------|
-| **Off-Season** | Lower | Higher | Exploration, new skills |
-| **Pre-Camp** | Moderate | Moderate | Building specific patterns |
-| **Fight Camp** | Higher | Lower | Refining for specific opponent |
-| **Fight Week** | Highest | Lowest | Execution, confidence |
+| Phase | RLD Level | Variability | Focus | Attractor operation |
+|-------|-----------|-------------|-------|---------------------|
+| **Off-Season** | Lower | Higher | Exploration, new skills | **Learning** — *birth* of new attractors |
+| **Pre-Camp** | Moderate | Moderate | Building specific patterns | **Learning → adaptation** transition |
+| **Fight Camp** | Higher | Lower | Refining for specific opponent | **Adaptation** — *moving* an existing attractor to this opponent's context |
+| **Fight Week** | Highest | Lowest | Execution, confidence | **Adaptation** — stabilize the moved attractor |
+
+!!! note "Learning vs. adaptation across the cycle"
+    Periodization maps cleanly onto the dynamical distinction (Blau & Wagman, 2022 — p. 241). Off-season is **learning** — the *birth of a new attractor* — so expect exploration and temporary instability. Fight camp is **adaptation** — the *movement of an existing attractor* to fit a specific opponent — not the acquisition of something new. Reserve the words accordingly: do not call fight-camp refinement "learning," and do not expect off-season instability during fight week. (See [Theory](theory.md).)
 
 ---
 

@@ -26,352 +26,142 @@ tags:
 
 # Pressure to Clinch
 
-!!! info "Game Identity"
-    - **Problem:** Controlling space and converting pressure into clinch
-    - **Environment:** Open Space with Boundary
-    - **Stage:** Access → Transition
+<div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Combined</span><span>Beginner</span><span>Access → Transition</span></div>
+
+The primary space-control game: manage distance through movement and pressure, then convert successful pressure into the clinch and wall pin.
 
-This is the **primary space-control game** in the system. It teaches athletes to manage distance through movement and pressure, with the clinch as the natural completion of successful pressure. This game develops the full sequence: pressure → boundary → clinch → wall pin.
+<p class="emma-glabel">The Matchup</p>
 
-!!! tip "How to Play — 30 seconds"
-    - **Setup:** Both players in open space with a circular boundary (ring, tape, cones, or wall)
-    - **Outside Player (Attacker):** Apply pressure to control space, cut off escape routes, and convert pressure into clinch and wall pin
-    - **Inside Player (Defender):** Maintain access to open space, escape pressure, and prevent the clinch
-    - **Win:** Attacker establishes the clinch / wall pin (per level); Defender escapes, reverses the attacker to the wall side, or prevents the pin
-    - **Why it matters:** Develops winning the circle — managing distance and converting spatial control into the clinch
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Outside Player (Attacker)</div>
+    <p class="emma-fighter__obj">Apply pressure to control space, close distance, and establish the clinch.</p>
+    <span class="emma-pop">Corral the opponent toward the boundary, cut off lateral escapes, and convert pressure to clinch and clinch to wall pin. Cut angles — don't chase.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🦶</div>
+    <div class="emma-fighter__role">Inside Player (Defender)</div>
+    <p class="emma-fighter__obj">Maintain access to open space, escape pressure, and prevent the clinch.</p>
+    <span class="emma-pop">Keep space through movement, avoid being flattened against the boundary, and escape or reverse if the clinch is initiated.</span>
+  </div>
+</div>
 
----
+<p class="emma-glabel">The Rules</p>
 
-## Goal
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⭕</span> Visible circular boundary<span class="emma-chip__detail">Play happens inside a visible or imagined circular boundary — a training ring, tape, cones, or wall. The boundary creates spatial awareness and urgency.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No takedowns until Level 5<span class="emma-chip__detail">Takedowns are off-limits until the final level, keeping the focus on completing the clinch and wall-pin sequence.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> Movement is continuous<span class="emma-chip__detail">Static exchanges reset — both players must keep moving so the spatial battle stays live.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤼</span> Clinch from controlling position<span class="emma-chip__detail">The clinch must be established from a controlling position with the attacker on the outside. If the attacker gets reversed to the wall side, the defender wins the exchange.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">👊</span> No flurries<span class="emma-chip__detail">Strikes are limited to 2–3 strike sequences. They are tools — they create reactions and measure distance, not damage.</span></span>
+</div>
 
-This is an **asymmetric game** with distinct roles.
+<p class="emma-glabel">How to Win</p>
 
-| Role | Objective |
-|------|-----------|
-| **Outside Player (Attacker)** | Apply pressure to control space, close distance, and establish clinch |
-| **Inside Player (Defender)** | Maintain access to open space, escape pressure, prevent clinch |
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Establish the clinch / wall pin, per level.<span class="emma-pop">Level 2: establish clinch in a controlling position. Level 3: achieve a wall pin. Level 4: hold the pin 3–5 seconds. Level 5: wall pin or takedown.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Escape, reverse to the wall side, or prevent the pin.<span class="emma-pop">Escape the pressure or clinch, reverse the attacker to the wall side, or prevent the pin — scaled by level. At Level 5 a counter-strike to reset also counts.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Level 1</span> Time-based — no winner.<span class="emma-pop">The opening level is time-based with no winner. Both players experience pressure and escape patterns before contact is added. Rounds run 60–90 seconds.</span></div>
+</div>
 
-The objective is **winning the circle** — the ongoing battle for spatial control.
+<p class="emma-glabel">The Levels</p>
 
----
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Touch-based, pattern recognition</b>Touch/tag only, time-based, no winner.<span class="emma-pop emma-pop--l">Touch/tag contact only — no striking; the defender can parry or block tags. Both players learn spatial dynamics before adding contact.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Striking + clinch entry</b>Light strikes; attacker establishes clinch.<span class="emma-pop emma-pop--l">Light strikes permitted. Attacker wins by establishing the clinch in a controlling position; defender wins by escaping or reversing to the wall side. Pressure creates clinch opportunity.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Clinch to wall pin</b>Moderate strikes; achieve the wall pin.<span class="emma-pop emma-pop--l">Moderate strikes permitted. The attacker must achieve a wall pin, not just a clinch; the defender can accept the clinch but fight the pin. Completing the full sequence.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Pin maintenance</b>Hold the pin for 3–5 seconds.<span class="emma-pop emma-pop--l">Same as Level 3, but the attacker must maintain the pin for 3–5 seconds while the defender actively works to escape. Controlling position, not just achieving it.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full MMA expression</b>Full contact; takedowns allowed.<span class="emma-pop emma-pop--l">Full striking contact and takedowns from the clinch. Attacker wins by wall pin or takedown; defender can counter-strike to create escape windows. The complete transition under MMA reality.</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">Go Deeper</p>
 
-- Both players start in open space
-- A visible or imagined circular boundary exists (training ring, tape, cones, or wall)
-- Roles are assigned and switch between rounds
-- Reset to neutral distance after each resolved exchange
+??? note "Setup &amp; task focus"
 
----
+    <p class="emma-sub">Entry</p>
 
-## Invariants
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">📍</span> Both start in open space</span>
+      <span class="emma-chip"><span class="emma-chip__i">⭕</span> Visible or imagined circular boundary</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔄</span> Roles switch between rounds; reset to neutral distance</span>
+    </div>
 
-1. No takedowns until Level 5
-2. Movement is continuous — static exchanges reset
-3. Clinch must be established from controlling position (attacker on outside)
-4. If attacker gets reversed to wall side during clinch entry, defender wins the exchange
+    <p class="emma-sub">Each role's job</p>
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Outside Player (Attacker)</div><p>Apply intelligent forward pressure; use footwork, feints, and strikes to corral toward the boundary; cut off lateral escapes; convert pressure to clinch, clinch to wall pin.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🦶</div><div class="emma-card__t">Inside Player (Defender)</div><p>Maintain space through movement; avoid being crowded or flattened against the boundary; recognize shrinking space; escape or reverse if the clinch is initiated.</p></div>
+    </div>
 
-## Task Focus
+    <p class="emma-sub">Coaching cues</p>
 
-### Outside Player (Attacker)
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">✂️</div><div class="emma-card__t">Cut, don't chase</div><p>Ask attackers: "Were you cutting angles or chasing?" Pressure makes movement predictable and shrinks escape routes — chasing just reacts to movement.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Feel space early</div><p>Ask defenders: "Did you feel space shrinking before it happened?" This develops anticipatory perception of pressure.</p></div>
+    </div>
 
-- Apply intelligent forward pressure
-- Use footwork, feints, and strikes to corral opponent toward boundary
-- Cut off lateral escape routes
-- Recognize when clinch entry is available
-- Convert pressure to clinch, clinch to wall pin
+??? abstract "Constraints-Led analysis"
 
-### Inside Player (Defender)
+    <p class="emma-sub">Constraints → Affordances</p>
 
-- Maintain space through movement
-- Avoid being crowded or flattened against boundary
-- Recognize when space is shrinking
-- Escape or reverse if clinch is initiated
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Visible boundary</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates spatial awareness and urgency</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Asymmetric roles</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Defines distinct movement solutions</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Clinch as win condition</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Gives purpose to pressure (not just pushing)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Wall pin as complete success</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Teaches full sequence completion</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Reversal = defender win</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Prevents reckless clinch entries</span></div>
+    </div>
 
-!!! question "Key Internal Questions"
-    - "Am I controlling the center or being pushed to the edge?"
-    - "Can I escape laterally, or are my routes being cut?"
-    - "Is my pressure creating clinch opportunities, or am I just chasing?"
+    <p class="emma-hl">Implements <b>Representative Learning Design</b> (Renshaw et al., 2019) — the full pressure → clinch → pin sequence represents how space control works in MMA.</p>
 
----
+    <p class="emma-sub">What athletes read</p>
 
-## Legal Actions
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual (Attacker)</div><p>Defender's position to the boundary, escape routes, weight distribution, and clinch posture → pressure direction, angle to cut, and when to drive the pin.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual (Defender)</div><p>Available space, the attacker's cutting angles, and clinch-entry timing → urgency of escape and when to frame or reverse.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own balance, position relative to center, and balance during clinch → composure under pressure, spatial awareness, and reversal opportunity.</p></div>
+    </div>
 
-| Level | Strikes | Clinch | Wall Pin |
-|-------|---------|--------|----------|
-| Level 1 | Touch/tag only | No | No |
-| Level 2+ | Light to moderate strikes | Yes | Per level |
+    <p class="emma-sub">Representativeness</p>
 
-No flurries (max 2-3 strike sequences). Strikes are tools — they create reactions and measure distance.
+    <p class="emma-hl"><b>Models:</b> cage/ring dynamics where one fighter pressures the other against the boundary, converts to clinch, and achieves wall control.</p>
 
----
+    <div class="emma-meta"><span>Touch-only at Level 1</span><span>no takedowns until Level 5</span><span>time-limited rounds</span></div>
 
-## Key Logic: Pressure → Clinch → Pin
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Athletes who develop the full sequence transfer directly to <a href="../wall-control/">Wall Control</a> and cage wrestling.</p>
 
-!!! warning "Critical Progression"
+    <p class="emma-sub">Readiness to progress</p>
 
-    This game teaches a complete sequence, not isolated skills:
+    <ul class="emma-checklist">
+      <li>Attacker cuts angles rather than chases</li>
+      <li>Defender anticipates pressure before space closes</li>
+      <li>Clinch entries are timed, not forced</li>
+      <li>Composure maintained throughout rounds</li>
+    </ul>
 
-    1. **Pressure** limits escape options
-    2. **Boundary contact** creates clinch opportunity
-    3. **Clinch** closes the distance
-    4. **Wall pin** completes space domination
+    <p class="emma-sub">Warning signs</p>
 
-### Pressure vs. Chasing
+    <div class="emma-warns">
+      <span class="emma-warn">Attacker chases instead of cutting</span>
+      <span class="emma-warn">Clinch entries get reversed</span>
+      <span class="emma-warn">Can't maintain the wall pin</span>
+      <span class="emma-warn">Defender panics near boundary</span>
+    </div>
 
-| Pressure (Correct) | Chasing (Incorrect) |
-|-------------------|---------------------|
-| Opponent's movement becomes predictable | Lunging forward without cutting angles |
-| Escape routes visibly shrink | Reacting to movement instead of anticipating |
-| Attacker maintains composure and structure | Losing balance or posture during pursuit |
+??? note "Safety &amp; related games"
 
-### What Is a Wall Pin?
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Touch at Level 1; light-to-moderate strikes higher</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on loss of control or excessive clinch force</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if exchanges go static or pressure turns to aggression</span>
+    </div>
 
-A wall pin is the **complete isolation of movement** between the opponent's hips and shoulders using your hips and shoulders. Their back is against the wall, posture is broken, and they cannot simply push off or maintain distance.
+    <p class="emma-sub">Where it sits</p>
 
----
-
-## Win Conditions
-
-| Level | Attacker Wins By | Defender Wins By |
-|-------|------------------|------------------|
-| **Level 1** | Time-based, no winner | Time-based, no winner |
-| **Level 2** | Establish clinch (controlling position) | Escape OR reverse attacker to wall side |
-| **Level 3** | Establish wall pin | Escape clinch OR prevent pin |
-| **Level 4** | Wall pin + maintain 3-5 seconds | Escape the pin |
-| **Level 5** | Wall pin OR takedown | Escape, reverse, or counter-strike to reset |
-
-Typical round length: 60–90 seconds.
-
----
-
-## Levels
-
-=== "Level 1 — Touch-Based, Pattern Recognition"
-    - Touch/tag contact only (no striking)
-    - Defender can parry/block tags
-    - Time-based rounds, no winner
-    - Focus: Experience pressure/escape patterns
-    - Both players learn spatial dynamics before adding contact
-
-=== "Level 2 — Striking + Clinch Entry"
-    - Light strikes permitted
-    - Attacker wins by establishing clinch in controlling position
-    - Defender wins by escaping OR reversing attacker to wall side
-    - Focus: Pressure creates clinch opportunity
-
-=== "Level 3 — Clinch to Wall Pin"
-    - Moderate strikes permitted
-    - Attacker must achieve wall pin (not just clinch)
-    - Defender can accept clinch but fight the pin
-    - Focus: Completing the full pressure sequence
-
-=== "Level 4 — Pin Maintenance"
-    - Same as Level 3, but attacker must maintain pin for 3-5 seconds
-    - Defender actively works to escape the pin
-    - Focus: Controlling position, not just achieving it
-
-=== "Level 5 — Full MMA Expression"
-    - Full striking contact permitted
-    - Takedowns allowed from clinch
-    - Attacker wins by: wall pin OR takedown
-    - Defender can counter-strike to create escape opportunities
-    - Focus: Complete transition sequence under MMA reality
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Visible boundary | Creates spatial awareness and urgency |
-| **Task** | Asymmetric roles | Defines distinct movement solutions |
-| **Task** | Clinch as win condition | Gives purpose to pressure (not just pushing) |
-| **Task** | Wall pin as complete success | Teaches full sequence completion |
-| **Task** | Reversal = defender win | Prevents reckless clinch entries |
-| **Individual** | Skill level matching | Appropriate challenge zone |
-| **Environmental** | Defined space with boundary | Spatial pressure becomes perceivable |
-
-!!! info "Theoretical Foundation"
-    This game implements **Representative Learning Design** (Renshaw et al., 2019). The full sequence (pressure → clinch → pin) represents how space control works in MMA. The levels scaffold complexity while keeping the complete perception-action coupling intact.
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Outside Player (Attacker) Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's position relative to boundary | Pressure direction |
-| **Visual** | Defender's escape routes | Which angle to cut |
-| **Visual** | Defender's weight distribution | When to initiate clinch |
-| **Visual** | Defender's posture during clinch | When to drive to wall pin |
-| **Proprioceptive** | Own balance and positioning | Composure during pressure |
-
-### Inside Player (Defender) Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Available space (distance to boundary) | Urgency of escape |
-| **Visual** | Attacker's cutting angles | Which routes remain open |
-| **Visual** | Attacker's clinch entry timing | When to frame or reverse |
-| **Proprioceptive** | Position relative to center | Spatial awareness |
-| **Proprioceptive** | Balance during clinch | Reversal opportunity |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "Were you cutting angles or chasing?" Ask defenders: "Did you feel space shrinking before it happened?" This develops anticipatory perception.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Cage/ring dynamics where one fighter applies pressure to trap the other against the boundary, converts to clinch, and achieves wall control.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Boundary** | Cage/ring | Training circle or wall | Full |
-| **Pressure** | All tools | Scaled by level | Progressive |
-| **Clinch entry** | Full options | From pressure only | Representative |
-| **Wall pin** | Full control | Same definition | Full |
-| **Consequence** | Damage, control | Round win | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Touch-only at Level 1 | Allows pattern learning without fear |
-| No takedowns until Level 5 | Keeps focus on clinch completion |
-| Time-limited rounds | Clear structure for practice |
-
-!!! note "Transfer Expectation"
-    Athletes who develop this full sequence transfer directly to wall work and cage wrestling. The pressure-to-clinch-to-pin pattern is foundational for MMA grappling.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Partner** | Rotate training partners | Different pressure/escape styles |
-| **Circle size** | Smaller (more pressure), larger (more space) | Urgency calibration |
-| **Role emphasis** | Attacker-focused rounds, defender-focused rounds | Complete skill development |
-| **Starting position** | Center start, boundary start | Situational variety |
-| **Environment** | Open circle vs. actual wall | Transfer preparation |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Visible boundary | Core constraint creating spatial awareness |
-| Clinch must be from controlling position | Prevents reckless entries |
-| Wall pin definition | Consistent success criteria |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Pressure creates predictable movement | Angle-cutting developing |
-| Clinch entries are clean (not scrambles) | Timing developing |
-| Wall pins are achieved, not fought to | Full sequence emerging |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Attacker cuts angles rather than chases
-- [ ] Defender anticipates pressure before space closes
-- [ ] Movement is efficient and controlled
-- [ ] Clinch entries are timed, not forced
-- [ ] Composure maintained throughout rounds
-
-### Ready to Exit Game (Move to Wall Control) When
-
-- [ ] Level 4+ competence (maintains wall pin)
-- [ ] Full pressure-to-pin sequence is fluid
-- [ ] Can articulate spatial decisions
-- [ ] Expresses desire to add wall work options
-- [ ] Quality maintains across varied partners
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Attacker chases instead of cutting | Pressure pattern underdeveloped | More Level 1 time, emphasize angles |
-| Clinch entries get reversed | Timing or positioning off | Slow down, read defender posture |
-| Can't maintain wall pin | Pin mechanics incomplete | Isolate wall pin practice |
-| Defender panics near boundary | Composure lacking | Larger circle, slower tempo |
-
----
-
-## Advanced Expressions (Coach Context)
-
-As athletes develop, the game reveals deeper layers:
-
-**For attackers:**
-
-- Pressure becomes rhythmic rather than constant
-- Feints create backward movement without real strikes
-- Clinch entry flows directly from pressure recognition
-- Wall pin becomes the expected outcome, not a struggle
-
-**For defenders:**
-
-- Movement becomes smaller and earlier
-- Reversal opportunities are recognized instantly
-- Defensive clinch acceptance becomes a viable strategy
-- Counter-striking creates escape windows
-
-!!! tip "Advanced Insight"
-    At advanced levels, the boundary becomes less relevant — the athlete has internalized spatial awareness. The game can then transition to open sparring with positional goals.
-
----
-
-## Safety
-
-- **Contact limits:** Touch at Level 1; light to moderate strikes at higher levels
-- **Stop conditions:** Loss of control, chasing collisions, excessive force in clinch
-- **Coach intervention:** Reset if exchanges become static or if pressure degrades into aggression
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Touch Game] --> B[Pressure to Clinch]
-    B --> C[Wall Control]
-    B --> D[Open Space Takedown]
-
-    style B fill:#4CAF50,color:#fff
-```
-
-- **Prerequisite:** [Touch and Don't Get Touched](touch-game.md)
-- **Leads to:** [Wall Control](wall-control.md), [Open Space Takedown](open-space-takedown.md)
-- **Related concepts:** [Winning the Circle](../concepts/winning-the-circle.md), [Wall Pin](../games/wall-control.md)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game reflects the current best understanding of space control dynamics. It may be revised as new insights emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../touch-game/">Touch and Don't Get Touched</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-control/">Wall Control</a> · <a href="../open-space-takedown/">Open Space Takedown</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/winning-the-circle/">Winning the Circle</a> · <a href="../../concepts/full-mma-expression/">Full MMA Expression</a></span></div>
+    </div>

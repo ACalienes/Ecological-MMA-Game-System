@@ -142,6 +142,12 @@ nav:
     - Winning the Circle: concepts/winning-the-circle.md
   - Principles:
     - Training Mindset: principles/training-mindset.md
+    - Ecological Psychology:
+      - principles/ecological-psychology/index.md
+      - The Principles: principles/ecological-psychology/principles.md
+      - Landmark Studies: principles/ecological-psychology/landmark-studies.md
+      - Design Rules: principles/ecological-psychology/design-rules.md
+      - Glossary: principles/ecological-psychology/glossary.md
     - Constraints-Led Approach:
       - Overview: principles/cla/index.md
       - Theory: principles/cla/theory.md
