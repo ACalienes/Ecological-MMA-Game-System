@@ -102,6 +102,18 @@ A key learning in this game:
 
 Athletes learn there is no "correct" position — only trade-offs.
 
+### Reading Center Mass
+
+The "can I see the combinations coming?" question has a concrete answer: keep eye contact on **center mass**, not the head. The head carries no information about the hands or feet, and the eyes lie. Center-mass focus holds shoulder motion (the punch line) and hip motion (power and kicks) in view at once — "the little X." Dropping the head behind the guard blinds the defender and the openings get found.
+
+### Basing Under Fire
+
+Strike force off-balances the defender, which is what actually defeats the counter — not just the damage. Bend the knees and create suspension ("like an ATV that maintains itself over bumps") so impact is absorbed without getting rocked, leaving energy available to drive a counter forward.
+
+### Confined-Square Variant
+
+Instead of the soft "cannot exit" invariant, run the game inside a marked square and make **both feet leaving the square an automatic loss**. This removes the footwork-escape habit entirely, forces the solution into the pocket, and trains the same boundary awareness a fighter needs near the cage. From here the game can extend into clinch off-balancing and takedowns — see *[WIP] The Square — Close Defense to Takedown Progression* for the full layered build.
+
 ---
 
 ## WIN CONDITIONS
@@ -176,7 +188,7 @@ At advanced levels, this game approaches light sparring with defensive focus.
 Where does this game sit in the overall system?
 
 - Prerequisite games: Parry the Straight (and other skill isolation games)
-- Follow-on games: Touch and Don't Get Touched, Winning the Circle
+- Follow-on games: Touch and Don't Get Touched, Winning the Circle; [WIP] The Square — Close Defense to Takedown Progression
 - Related concepts: Defensive Solutions in Striking, Hand Controls
 
 This game **bridges** skill isolation and open striking games by combining defensive solutions.

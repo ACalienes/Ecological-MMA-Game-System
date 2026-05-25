@@ -21,3 +21,6 @@ venv/
 .vscode/
 *.swp
 *.swo
+
+# Raw class audio (contains student voices) — never commit
+audio-ingest/

@@ -51,6 +51,8 @@ Key internal questions:
 - "Is my guard tight enough to protect my head?"
 - "Are my elbows covering my body?"
 - "Am I absorbing on my arms or getting hit clean?"
+- "Can I still see center mass, or am I blind behind my own gloves?"
+- "Am I based and balanced, or getting jostled off balance by the impact?"
 
 ---
 
@@ -86,20 +88,27 @@ Blocking is the most fundamental defensive solution. By constraining the defende
 | Energy | Absorbs impact | Deflects impact |
 | Counter setup | Minimal | Creates opening |
 
+### Seeing Through the Guard
+
+The danger of shelling up is going blind — dropping the head behind the gloves ("ostrich in the sand"), at which point the attacker eventually finds the hole. Keep eye contact on **center mass**, not the head: the head gives no information about the hands or feet, and the eyes lie. Center-mass focus keeps both shoulder motion (previews the punch line) and hip motion (previews power and kicks) inside the field of view — "the little X."
+
+### Basing Under Fire
+
+Incoming strikes don't only hurt — they knock the defender off balance, which is what actually breaks the guard and prevents recovery. Bend the knees and create suspension ("like an ATV that bounces and maintains itself") so impact is absorbed without getting rocked. A based defender holds the shell; an off-balance one collapses it.
+
 ---
 
 ## WIN CONDITIONS
 
-**FLAGGED FOR REVIEW:** Win conditions for blocking games require different logic than parrying/slipping games. Blocking is survival-oriented rather than opportunity-creating.
+*(Resolved from live play, class 2026-05-25 — previously flagged for review.)*
 
-Possible approaches:
-- Time-based: 4 minutes defensive, then switch roles (8 minute round)
-- Combination-based: Absorb X combinations without getting hit clean
-- Accumulation: First to land Y clean strikes wins
+Run it as a **scored, role-switching game** inside a confined square:
 
-Needs further development to determine best gamification approach.
+- **Offense wins** by landing the required number of significant shots — start at **1**, escalate to **2 distinct impacts** in a combination for stronger partners. On a win, offense and defense switch.
+- **Defense wins** by surviving the sequence without getting hit clean. The defender's standing goal is simply to *stay on defense as long as possible*.
+- **Boundary loss:** in the confined-square variant, **both feet leaving the square = automatic loss**, whoever you are. This converts the boundary into a live constraint and removes footwork escape.
 
-**Current structure:** 4 minutes per role, then switch. Success evaluated by percentage of strikes absorbed on guard.
+Difficulty self-regulates by the shot requirement (1 → 2 → open to 4 max if the combination length is the limiter). This replaces the earlier time-only structure; rounds are short and reset-driven rather than fixed 4-minute blocks.
 
 ---
 
@@ -160,7 +169,7 @@ As athletes develop:
 Where does this game sit in the overall system?
 
 - Prerequisite games: None — this is foundational
-- Follow-on games: Close-Range Defense
+- Follow-on games: Close-Range Defense; [WIP] The Square — Close Defense to Takedown Progression
 - Related concepts: Defensive Solutions in Striking (Blocking)
 
 This is a **skill isolation game** that develops one of the four core defensive solutions.
