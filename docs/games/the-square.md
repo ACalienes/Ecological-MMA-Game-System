@@ -37,6 +37,13 @@ tags:
 
 This is a **progression game**, not a single fixed game. It begins as close-range blocking defense inside a confined square and is layered live — one constraint at a time — until it becomes a full striking-to-takedown game. It is the in-class bridge between [Tight Block](tight-block.md), [Close-Range Defense](close-range-defense.md), and [Pressure to Takedown](pressure-to-takedown.md).
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Two players, close range, inside a marked square (no footwork escape).
+    - **Offense:** Land significant strikes — and, as phases unlock, leg attacks and takedowns.
+    - **Defense:** Block and survive — then earn counters, clinch off-balancing, and finishes as the game layers up.
+    - **Win:** Phase-dependent (survive → counter → off-balance → finish); **both feet out of the square = you lose.**
+    - **Why it matters:** One constraint set scaled live from survival to finishing — the bridge from striking defense to takedowns.
+
 ---
 
 ## Goal

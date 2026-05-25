@@ -27,6 +27,13 @@ tags:
 
 This is a **beginner offensive skill isolation game** that develops rear hand (power hand) offense. The attacker can ONLY use their rear hand, forcing them to find timing, entries, and setups for power shots.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral standing at striking range; reset to neutral after each attack.
+    - **Attacker:** Land clean strikes using the rear hand only — cross, rear hook, rear uppercut (no lead hand, no kicks).
+    - **Defender:** Defend against rear hand attacks using any defensive solution — no counters.
+    - **Win:** Attacker wins by landing a clean rear hand strike; defender has no win condition (success is defensive quality).
+    - **Why it matters:** Develops the rear (power) hand as a weapon — finding timing, entries, and setups for power shots.
+
 ---
 
 ## Goal

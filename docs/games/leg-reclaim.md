@@ -32,6 +32,13 @@ tags:
 
 This is a **positional recovery game** — the defensive skill of getting your legs back between you and the opponent. From mounted to legs in, from side control to guard, from flattened to feet on hips. Each level represents reduced control by the top player.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Bottom player in a compromised position (mounted, side control) with legs NOT between the players.
+    - **Bottom (Defender):** Get legs/knees between self and opponent — half guard, full guard, or feet on hips.
+    - **Top (Controller):** Actively control and prevent leg recovery — not just sit in position.
+    - **Win:** Bottom wins by reaching the next level of leg separation; top wins by preventing recovery for the set duration or advancing position.
+    - **Why it matters:** Builds incremental position recovery — creating separation with the legs.
+
 ---
 
 ## Goal

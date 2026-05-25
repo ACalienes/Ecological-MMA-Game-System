@@ -35,6 +35,13 @@ tags:
 
 This is a **combined ground game** where both players fight for positional advantage. Unlike asymmetric games, both players have the same goal: achieve and maintain dominant position.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Neutral ground position — both in guard or a scramble
+    - **Both Players:** Achieve and maintain dominant position; deny the opponent's advancement (no submission focus)
+    - **Hierarchy:** Back > Mount > Side Control > Top Half > Guard > Bottom
+    - **Win:** Establish a dominant position (side control, mount, or back) and hold it for the set duration; reset if neither dominates in time
+    - **Why it matters:** Builds positional value awareness and the ability to win scrambles and consolidate position
+
 ---
 
 ## Goal
@@ -287,13 +294,14 @@ flowchart LR
     A[Ground Escape] --> B[Positional Battle]
     C[Ground Access] --> B
     B --> D[Ground Control]
-    B --> E[Ground Finish]
+    B --> E[TKO / Submission]
 
     style B fill:#2196F3,color:#fff
 ```
 
 - **Prerequisite games:** [Ground Escape](ground-escape.md), [Ground Access](ground-access.md)
-- **Follow-on games:** [Ground Control](ground-control.md), Ground Finish
+- **Follow-on games:** [Ground Control](ground-control.md)
+- **Finish path:** TKO via [Ground Control](ground-control.md) and Submission
 - **Related concepts:** [Decision States](../concepts/decision-states.md)
 
 ---

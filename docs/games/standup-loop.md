@@ -34,6 +34,13 @@ tags:
 
 This game teaches the **cyclical nature of wall fighting**. Positions near the wall rarely resolve in a single action — athletes cycle between ground control, stand-up attempts, and re-pinning.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Defender in a compromised ground position near the wall (seated, turtle, elbow-post); attacker has partial control, wall accessible.
+    - **Defender:** Stand using the wall, turn to face, and disengage or reverse.
+    - **Attacker:** Prevent disengagement — re-pin, flatten to re-establish control, or reach a TKO pin (control re-earned after each stand-up).
+    - **Win:** Defender wins by standing and disengaging or reversing; attacker wins by re-pinning, flattening, or a TKO pin.
+    - **Why it matters:** Builds loop management — understanding how wall positions cycle rather than resolve in one action.
+
 ---
 
 ## Goal

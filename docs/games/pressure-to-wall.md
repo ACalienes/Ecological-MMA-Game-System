@@ -36,6 +36,13 @@ tags:
 
 This is an **offensive game** that chains strikes to wall control. Unlike Pressure to Takedown, the goal is wall position for damage (dirty boxing, grinding), not transitioning to ground.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in open space at striking range with a wall/cage available.
+    - **Attacker:** Use strikes and pressure to drive the opponent to the wall and establish control for damage (knees, dirty boxing) — not a takedown.
+    - **Defender:** Avoid the wall, escape pressure, or reverse position (can't back up infinitely).
+    - **Win:** Attacker wins by establishing wall control AND landing damage; defender wins by escaping the wall cleanly or reversing position.
+    - **Why it matters:** Develops wall dominance — chaining strikes into a controlling, damaging wall position.
+
 ---
 
 ## Goal

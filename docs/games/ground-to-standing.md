@@ -34,6 +34,13 @@ tags:
 
 This is a **defensive ground game** focused on standing up from bottom positions. The bottom player learns to create separation and get to their feet — the ultimate ground escape in MMA.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Bottom player on the ground (guard, under side control, or turtle).
+    - **Bottom (Defender):** Stand up and disengage completely — both feet, clear of the opponent's control.
+    - **Top (Attacker):** Keep the opponent on the ground, following if they rise.
+    - **Win:** Bottom wins by standing and disengaging; top wins by preventing the standup for the set duration or establishing dominant control.
+    - **Why it matters:** Builds the skill of returning to standing, the ultimate ground escape in MMA.
+
 ---
 
 ## Goal

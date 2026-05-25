@@ -34,6 +34,13 @@ tags:
 
 This is a **defensive ground game** focused on escaping bad positions. The bottom player learns to create space, execute escapes, and recover to safer positions.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** On the ground with the top player in a dominant position (side control, mount, or back)
+    - **Bottom (Defender):** Create space and escape to guard, neutral, or standing — not submission
+    - **Top (Attacker):** Maintain position and prevent the escape (no submissions)
+    - **Win:** Bottom escapes to guard, reverses, or stands up; Top holds the dominant position for the set duration
+    - **Why it matters:** Builds the escape hierarchy and the ability to read weight and pressure to get out of bad spots
+
 ---
 
 ## Goal
@@ -273,7 +280,7 @@ Being taken down and controlled in side control, mount, or back control—needin
 ### Ready to Exit Game When
 
 - [ ] Competent escapes from all three major positions
-- [ ] Escapes integrate with [Guard Recovery](leg-reclaim.md) and [Ground to Standing](ground-to-standing.md)
+- [ ] Escapes integrate with [Leg Reclaim](leg-reclaim.md) and [Ground to Standing](ground-to-standing.md)
 - [ ] Escape skills appear in open grappling rounds
 
 ### Warning Signs (Not Ready to Progress)
@@ -299,14 +306,14 @@ Being taken down and controlled in side control, mount, or back control—needin
 
 ```mermaid
 flowchart LR
-    A[Ground Escape] --> B[Guard Recovery]
+    A[Ground Escape] --> B[Leg Reclaim]
     A --> C[Ground to Standing]
 
     style A fill:#4CAF50,color:#fff
 ```
 
 - **Prerequisite games:** None (fundamental defensive game)
-- **Follow-on games:** Guard Recovery, [Ground to Standing](ground-to-standing.md)
+- **Follow-on games:** [Leg Reclaim](leg-reclaim.md), [Ground to Standing](ground-to-standing.md)
 - **Related concepts:** [Decision States](../concepts/decision-states.md)
 
 ---

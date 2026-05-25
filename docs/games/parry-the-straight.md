@@ -30,6 +30,13 @@ tags:
 
 This is a **beginner skill isolation game** that teaches the parrying defensive solution. The defender can ONLY parry, forcing them to develop this specific skill.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral standing at close quarters (striking range); reset to neutral after each exchange.
+    - **Attacker:** Land straight punches only — jab or cross — to the head or belly (no hooks, uppercuts, or loops).
+    - **Defender:** Parry only — deflect punches with hands or forearms (no blocking, dodging, or backing up).
+    - **Win:** Defender wins by cleanly parrying a punch (full deflection); attacker wins by landing a clean strike to head or body.
+    - **Why it matters:** Develops the parry as a dedicated defensive skill — pattern recognition and timing over volume.
+
 ---
 
 ## Goal

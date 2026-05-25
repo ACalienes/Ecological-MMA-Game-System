@@ -35,6 +35,13 @@ tags:
 
 This is the **defensive counterpart** to Wall Control. Every offensive layer requires a defensive response.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Start from a functional wall pin — defender's shoulders substantially flat to the wall, rotation compromised.
+    - **Defender (primary focus):** Break the pin and return to space or reverse position — active escape, no passive survival.
+    - **Attacker:** Maintain the pin and deny escape (no takedowns — focus is holding the pin).
+    - **Win:** Defender wins by escaping (space + facing attacker) or reversing; attacker wins by sustaining the pin for 10 seconds.
+    - **Why it matters:** Develops escape and reversal off the wall — the defensive answer to wall control.
+
 ---
 
 ## Goal

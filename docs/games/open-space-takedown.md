@@ -33,6 +33,13 @@ tags:
 
 This game teaches **takedowns from connected position without wall assistance**. The defender has more escape routes, and DNS threats are at their most dangerous.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Start from a clinched position (50/50, single leg, body lock) with hands already connected, in open space — no wall.
+    - **Attacker:** Compromise the defender's base and bring them to ground with hip and shoulder control (no immediate dumping).
+    - **Defender:** Maintain balance, then scramble, disengage, reverse, or exploit poor entries with DNS.
+    - **Win:** Attacker wins with a controlled takedown; defender wins by scrambling to standing, breaking the clinch, reversing, or hitting a DNS submission/advantage.
+    - **Why it matters:** Develops controlled open-space takedowns where escape routes and DNS threats are at their most dangerous.
+
 ---
 
 ## Goal

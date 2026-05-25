@@ -35,6 +35,13 @@ tags:
 
 This is an **offensive development game** that teaches the attacker to read defensive patterns, use the Three Zones principle, and land specific targets through setup and misdirection. The defender provides real resistance without counter-threat.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral standing at striking range; attacker has a predetermined target in mind
+    - **A Side (Attacker):** Probe, read the defense, and land a predetermined target shot by creating openings
+    - **B Side (Defender):** Defend all three zones (head, body, legs) effectively — cannot counter
+    - **Win:** Attacker lands their declared target cleanly (roles then switch); Defender has no win condition — success is making the attacker work
+    - **Why it matters:** Builds target selection, combination construction, and misdirection without the pressure of a counter-threat
+
 ---
 
 ## Goal
@@ -410,7 +417,7 @@ flowchart LR
 
 **Follow-on games:** [Touch and Don't Get Touched](touch-game.md) (adds counter-threat, combines offensive and defensive skills)
 
-**Related concepts:** [Three Zones](../concepts/three-zones.md), [Confidence Rating](../concepts/confidence-rating.md), Misdirection Principle
+**Related concepts:** [Three Zones](../concepts/three-zones.md), [Confidence Rating](../concepts/confidence-rating.md), [Misdirection Principle](../concepts/three-zones.md#the-misdirection-principle)
 
 ---
 

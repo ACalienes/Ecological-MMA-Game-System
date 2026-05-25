@@ -30,6 +30,13 @@ tags:
 
 This is a **beginner skill isolation game** that teaches the slipping defensive solution. The defender can ONLY slip (move head offline), forcing them to develop this specific evasion skill.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral standing at close quarters (striking range); reset to neutral after each exchange.
+    - **Attacker:** Land straight punches only — jab or cross — to the defender's head (no hooks, uppercuts, or loops).
+    - **Defender:** Slip only — move the head laterally offline to evade (no blocking, ducking, or backing up).
+    - **Win:** Defender wins by cleanly slipping a punch (full miss); attacker wins by landing a clean punch to the head.
+    - **Why it matters:** Develops the slip as a dedicated evasion skill — pattern recognition and timing over volume.
+
 ---
 
 ## Goal

@@ -34,6 +34,13 @@ tags:
 
 This is an **offensive ground game** focused on holding dominant position. The top player learns to maintain control through active escape attempts without transitioning to finish yet.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Top player in a dominant position (side control, mount, or back)
+    - **Top (Attacker):** Maintain the dominant position through escape attempts — not submission
+    - **Bottom (Defender):** Escape to guard OR stand up
+    - **Win:** Top holds the dominant position for the set duration (e.g., 30 seconds); Bottom escapes to guard, stands, or reverses
+    - **Why it matters:** Trains the Stabilize stage — control that holds while creating openings to finish
+
 ---
 
 ## Goal
@@ -97,7 +104,7 @@ The objective is **position maintenance**, not submission.
     |-------|------|
     | Access | Get past guard (Ground Access) |
     | Stabilize | Hold position against resistance |
-    | Exploit | Deal damage (Ground Finish) |
+    | Exploit | Deal damage (Exploit / finish) |
 
     This game focuses on the STABILIZE stage — holding what you've achieved.
 
@@ -294,13 +301,13 @@ Holding dominant ground position through escape attempts—essential for ground-
 ```mermaid
 flowchart LR
     A[Ground Access] --> B[Ground Control]
-    B --> C[Ground Finish]
+    B --> C[TKO / Submission]
 
     style B fill:#FF5722,color:#fff
 ```
 
 - **Prerequisite games:** [Ground Access](ground-access.md)
-- **Follow-on games:** Ground Finish
+- **Finish path:** TKO via [Ground Control](ground-control.md) and Submission
 - **Related concepts:** [Decision States](../concepts/decision-states.md), [TKO Pin](../concepts/tko-pin.md)
 
 ---

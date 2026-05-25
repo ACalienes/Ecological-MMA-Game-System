@@ -35,6 +35,13 @@ tags:
 
 This is a **defensive grappling game** where the pinned player uses submission threats to deter control and create escape opportunities. Submissions from defensive wall position serve as both threat and escape tool.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Defender pinned against the wall; controller has established wall control.
+    - **Defender (Pinned):** Threaten or complete a submission from defensive position — not just escape.
+    - **Controller:** Maintain wall control while avoiding submission danger — keep intent to control, not just defend.
+    - **Win:** Defender wins by completing a submission or using the threat to escape; controller wins by holding control and defending submissions for the set duration.
+    - **Why it matters:** Develops submission as a defensive weapon — making the controller's wall position dangerous.
+
 ---
 
 ## Goal

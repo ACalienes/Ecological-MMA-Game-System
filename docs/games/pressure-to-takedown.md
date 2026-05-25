@@ -37,6 +37,13 @@ tags:
 
 This is a **full-sequence offensive game** that teaches the attacker to chain strikes, distance closure, and takedowns. The defender learns to manage all three threats simultaneously.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral standing at close quarters; attacker has initiative, defender must manage pressure.
+    - **Attacker (Offense):** Use strikes to close distance, establish control, and take the defender down to meaningful top control.
+    - **Defender:** Defend strikes, prevent distance closure, break control, defend the takedown, and scramble back to standing.
+    - **Win:** Attacker wins by executing a takedown AND establishing meaningful top pinning control; defender has no win condition (success is strikes/closure/takedowns defended).
+    - **Why it matters:** Trains chaining strikes to a takedown — and managing all three threats at once on defense.
+
 ---
 
 ## Goal

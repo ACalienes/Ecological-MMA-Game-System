@@ -28,6 +28,13 @@ tags:
 
 This is a **beginner offensive skill isolation game** that develops lead hand offense. The attacker can ONLY use their lead hand, forcing them to find variety, timing, and openings within that constraint.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral standing at striking range; reset to neutral after each attack.
+    - **Attacker:** Land clean strikes using the lead hand only — jab, lead hook, lead uppercut (no rear hand, no kicks).
+    - **Defender:** Defend against lead hand attacks using any defensive solution — no counters.
+    - **Win:** Attacker wins by landing a clean lead hand strike; defender has no win condition (success is defensive quality).
+    - **Why it matters:** Develops the lead hand as a weapon — finding variety and timing within a tight constraint.
+
 ---
 
 ## Goal

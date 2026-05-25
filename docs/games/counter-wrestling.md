@@ -37,6 +37,13 @@ tags:
 
 This is a **defensive game that changes domains** — instead of defending strikes with strikes or evasion, the defender uses wrestling (clinch, level change, takedown) to neutralize striking offense. It's the transition from striking defense to wrestling offense.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players at striking range; the striker leads with offense
+    - **Counter-Wrestler (Defender):** Read the striking initiation and time reactive clinch entries or level changes to neutralize it — not strikes
+    - **Striker (Attacker):** Maintain striking distance and offense, punishing wrestling attempts to keep the fight in the striking domain
+    - **Win:** Counter-Wrestler establishes a clinch or completes a takedown; Striker lands clean offense and keeps the striking domain
+    - **Why it matters:** Trains domain change as defense — recognizing when wrestling beats staying in a striking exchange
+
 ---
 
 ## Goal
@@ -301,7 +308,7 @@ flowchart LR
 
 - **Prerequisite games:** [Close-Range Defense](close-range-defense.md), [Pressure to Clinch](pressure-to-clinch.md)
 - **Follow-on games:** [Open Space Takedown](open-space-takedown.md)
-- **Related concepts:** [Hand Controls](../concepts/hand-controls.md), Level Change
+- **Related concepts:** [Hand Controls](../concepts/hand-controls.md)
 
 ---
 

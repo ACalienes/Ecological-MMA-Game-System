@@ -35,6 +35,13 @@ tags:
 
 This is a **defensive game with offensive tools** — the counter-striker uses strikes to interrupt, punish, and deter the opponent's offense. It sits in the Transition Zone because it's the defensive answer that keeps the fight in the striking domain.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players at striking range; initiator leads, counter-striker waits.
+    - **Counter-Striker:** Interrupt or punish the opponent's offense with well-timed, reactive counters (don't lead).
+    - **Initiator:** Land clean offense despite the counter threat (must initiate).
+    - **Win:** Counter-striker wins by landing clean counters that interrupt offense; initiator wins by landing clean offense without being countered.
+    - **Why it matters:** Develops offensive defense — using strikes to stop strikes.
+
 ---
 
 ## Goal

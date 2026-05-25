@@ -394,6 +394,18 @@ body, .md-typeset {
 .emma-cat__num { font-family: var(--font-display); color: var(--fog-faint); font-size: 1rem; }
 .emma-cat__name { font-family: var(--font-head); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--fog); font-size: 1.15rem; margin: 0.4rem 0; }
 .emma-cat__desc { color: var(--fog-dim); font-size: 0.85rem; line-height: 1.5; }
+.emma-cat__cover {
+  display: block;
+  width: calc(100% + 2.8rem);
+  height: 132px;
+  object-fit: cover;
+  margin: -1.6rem -1.4rem 1.2rem;
+  filter: contrast(1.05) saturate(1.05);
+  -webkit-mask-image: linear-gradient(180deg, #000 72%, rgba(0,0,0,0.7));
+  mask-image: linear-gradient(180deg, #000 72%, rgba(0,0,0,0.7));
+  transition: transform var(--t);
+}
+.emma-cat--img:hover .emma-cat__cover { transform: scale(1.04); }
 
 /* CTA band */
 .emma-cta-band {

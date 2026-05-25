@@ -35,6 +35,13 @@ tags:
 
 This is an **offensive wall game** focused on dealing damage from wall position. Unlike Wall to Ground, the goal is NOT to transition — it's to damage the opponent while maintaining wall control.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Start from established wall control with the attacker in position.
+    - **Attacker:** Maintain wall control AND deal damage — dirty boxing, knees, grinding (just holding doesn't count; don't transition to ground).
+    - **Defender:** Escape the wall or nullify the damage output (active resistance).
+    - **Win:** Attacker wins with sustained damage output from the wall (multiple clean strikes); defender wins by escaping to open space or nullifying damage for an extended period.
+    - **Why it matters:** Develops damage from wall position while keeping control — distinct from transitioning to ground.
+
 ---
 
 ## Goal

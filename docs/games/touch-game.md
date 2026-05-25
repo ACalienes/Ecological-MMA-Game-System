@@ -32,6 +32,13 @@ tags:
 
 This is the **foundational engagement game** in the system. It exists before space control, pressure, or clinch logic.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral stance in open space at a comfortable distance; reset to neutral after each exchange.
+    - **Players (mirrored):** Touch the opponent, avoid being touched, and deny their ability to respond — no sustained pressure, crashing, or takedowns.
+    - **Constraint:** Each exchange resolves quickly and resets; stay exploratory, not competitive.
+    - **Win:** No score — diagnostic game evaluated on clean touches, quality of counter-touches, and reduced panic after contact.
+    - **Why it matters:** Builds initiative management and range/timing — the foundation before space, pressure, and clinch.
+
 ---
 
 ## Goal

@@ -36,6 +36,13 @@ tags:
 
 This is a **scaling defensive game** that progressively opens up defensive options. The defender learns to mix between blocking, parrying, and dodging based on what the situation demands.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players at close quarters; attacker has slight pressure advantage, defender cannot exit freely.
+    - **Attacker:** Compromise the defender's openings and land strikes (throw combinations, allow resets).
+    - **Defender:** Defend without exiting, mixing tight blocking, parrying, and static dodging.
+    - **Win:** No winner — diagnostic game scored on strikes defended and quality of defensive selection.
+    - **Why it matters:** Builds defensive adaptability — learning when to use which defensive solution.
+
 ---
 
 ## Goal

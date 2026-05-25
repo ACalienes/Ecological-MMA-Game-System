@@ -35,6 +35,13 @@ tags:
 
 This is a **defensive wrestling game** focused on preventing clinch establishment. The defender learns to use frames, hand fighting, and movement to deny connection.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players standing at mid-range in open space.
+    - **Attacker:** Close distance and establish meaningful clinch connection (collar tie, underhook, or body lock).
+    - **Defender:** Deny the clinch using frames, hand fighting, and movement — keep open space.
+    - **Win:** Attacker wins by locking in meaningful clinch; defender wins by denying for the set time or creating significant space.
+    - **Why it matters:** Builds clinch-denial skill — strikers who frame and hand-fight early are harder to grapple.
+
 ---
 
 ## Goal

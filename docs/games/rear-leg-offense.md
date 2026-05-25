@@ -27,6 +27,13 @@ tags:
 
 This is a **beginner offensive skill isolation game** that develops rear leg (power leg) offense. The attacker can ONLY use their rear leg, forcing them to find timing, setups, and entries for power kicks.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral standing at kicking range; reset to neutral after each attack.
+    - **Attacker:** Land clean strikes using the rear leg only — rear round kick, rear teep (no hands, no lead leg).
+    - **Defender:** Defend against rear leg attacks using any defensive solution — no counters.
+    - **Win:** Attacker wins by landing a clean rear leg strike; defender has no win condition (success is defensive quality).
+    - **Why it matters:** Develops the rear (power) leg as a weapon — finding timing, setups, and entries for power kicks.
+
 ---
 
 ## Goal

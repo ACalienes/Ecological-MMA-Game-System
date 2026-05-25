@@ -35,6 +35,13 @@ tags:
 
 This is an **intermediate offensive game** that teaches maintaining attack through resistance. The attacker learns to continue striking when the opponent attempts to counter, escape, or nullify — without losing rhythm or resetting.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Attacker starts with initiative (slight forward pressure); defender in defensive posture.
+    - **Attacker:** Maintain continuous striking offense through defensive attempts — single shots that reset don't count.
+    - **Defender:** Actively interrupt the attacker's rhythm with counters, movement, or clinch — not passive defense.
+    - **Win:** Attacker wins with a sustained offensive sequence (e.g., 10+ seconds of continuous pressure); defender wins by forcing a full reset and re-engage.
+    - **Why it matters:** Develops sustained pressure — maintaining attack through resistance rather than single-shot landing.
+
 ---
 
 ## Goal

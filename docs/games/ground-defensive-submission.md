@@ -34,6 +34,13 @@ tags:
 
 This is a **defensive ground game** where the bottom player uses submission threats to deter top control, create escapes, or finish the fight. In MMA, top position is generally advantageous, but submission threats from bottom create risk for the top player.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Bottom player under established top control (side control, mount, or back taken).
+    - **Bottom (Defender):** Threaten or complete a submission from bottom — not just escape.
+    - **Top (Controller):** Maintain control while avoiding submission danger.
+    - **Win:** Bottom wins by completing a submission or using the threat to escape/reverse; top wins by controlling and defending submissions for the set duration.
+    - **Why it matters:** Develops submission as a defensive weapon from bottom position.
+
 ---
 
 ## Goal

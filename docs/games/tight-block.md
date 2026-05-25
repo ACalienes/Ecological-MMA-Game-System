@@ -28,6 +28,13 @@ tags:
 
 This is a **beginner skill isolation game** that teaches the blocking defensive solution. The defender can ONLY block using a tight shell, forcing them to develop this foundational skill.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Two players at close range, inside a marked square.
+    - **Attacker:** Throw 1–3 punch combinations; land one clean significant shot.
+    - **Defender:** Block only — tight shell, no parrying, no head movement, stay in the square.
+    - **Win:** Defender survives the sequence → roles switch · Attacker lands clean → reset · **both feet out of the square = you lose.**
+    - **Why it matters:** Builds the blocking shell and composure under fire.
+
 ---
 
 ## Goal

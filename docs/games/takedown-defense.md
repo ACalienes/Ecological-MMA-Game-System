@@ -32,6 +32,13 @@ tags:
 
 This is a **defensive wrestling game** focused on stopping takedown attempts. The defender learns to recognize shots, sprawl effectively, and recover position after defending.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players standing at clinch range; attacker initiates takedowns (shots, trips, throws).
+    - **Attacker:** Complete a takedown to ground control.
+    - **Defender:** Deny the takedown with wrestling defense and return to standing neutral — no striking at Level 1; DNS allowed.
+    - **Win:** Attacker wins by completing a takedown with control on the ground; defender wins by denying it and disengaging to standing.
+    - **Why it matters:** Builds takedown denial — recognizing shots, sprawling, and recovering position (not ground escape).
+
 ---
 
 ## Goal

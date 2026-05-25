@@ -35,6 +35,13 @@ tags:
 
 This is a **defensive striking game** focused on avoiding conflict through movement — "getting on your bike." Unlike Close-Range Defense which handles incoming strikes, this game is about preventing engagement entirely through superior footwork and ring generalship.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players start at medium range, with a ring/cage boundary in play
+    - **Evader (Defender):** Keep moving — use footwork and angles to avoid engagement and maintain distance (no striking at Level 1)
+    - **Pursuer (Attacker):** Close distance, cut off angles, and herd the evader toward the boundary
+    - **Win:** Evader maintains distance for the set duration; Pursuer establishes striking range or corners the evader against the boundary
+    - **Why it matters:** Develops footwork, distance management, and ring awareness to avoid being trapped
+
 ---
 
 ## Goal
@@ -302,7 +309,7 @@ flowchart LR
 
 - **Prerequisite games:** [Close-Range Defense](close-range-defense.md)
 - **Follow-on games:** [Pressure to Clinch](pressure-to-clinch.md) (when evasion reaches boundary)
-- **Related concepts:** [Three Zones](../concepts/three-zones.md), Ring Generalship
+- **Related concepts:** [Three Zones](../concepts/three-zones.md), [Winning the Circle](../concepts/winning-the-circle.md)
 
 ---
 

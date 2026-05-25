@@ -30,6 +30,13 @@ tags:
 
 This is an **intermediate skill integration game** that teaches punch-type recognition and appropriate evasion selection. The defender must read whether a punch is straight or hooking and apply the correct evasive movement.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral standing at close quarters (striking range); reset to neutral after each exchange.
+    - **Attacker:** Land head punches — straights and/or hooks (head strikes only, allow resets).
+    - **Defender:** Evade only — slip straights, duck hooks (no blocking, parrying, or backing up).
+    - **Win:** Defender wins by evading a punch with correct technique; attacker wins by landing a clean head punch.
+    - **Why it matters:** Builds skill integration — matching the right evasion to the punch type under pressure.
+
 ---
 
 ## Goal

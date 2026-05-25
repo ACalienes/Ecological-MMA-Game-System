@@ -27,6 +27,13 @@ tags:
 
 This is a **beginner offensive skill isolation game** that develops lead leg offense. The attacker can ONLY use their lead leg, forcing them to find range, timing, and variety with kicks from the front leg.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in neutral standing at kicking range; reset to neutral after each attack.
+    - **Attacker:** Land clean strikes using the lead leg only — teep, lead round kick, lead side kick (no hands, no rear leg).
+    - **Defender:** Defend against lead leg attacks using any defensive solution — no counters.
+    - **Win:** Attacker wins by landing a clean lead leg strike; defender has no win condition (success is defensive quality).
+    - **Why it matters:** Develops the lead leg as a weapon — finding range, timing, and variety within a tight constraint.
+
 ---
 
 ## Goal

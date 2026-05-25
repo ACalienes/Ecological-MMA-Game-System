@@ -33,6 +33,13 @@ tags:
 
 This is the **primary space-control game** in the system. It teaches athletes to manage distance through movement and pressure, with the clinch as the natural completion of successful pressure. This game develops the full sequence: pressure → boundary → clinch → wall pin.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Both players in open space with a circular boundary (ring, tape, cones, or wall)
+    - **Outside Player (Attacker):** Apply pressure to control space, cut off escape routes, and convert pressure into clinch and wall pin
+    - **Inside Player (Defender):** Maintain access to open space, escape pressure, and prevent the clinch
+    - **Win:** Attacker establishes the clinch / wall pin (per level); Defender escapes, reverses the attacker to the wall side, or prevents the pin
+    - **Why it matters:** Develops winning the circle — managing distance and converting spatial control into the clinch
+
 ---
 
 ## Goal
@@ -362,7 +369,7 @@ flowchart LR
 
 - **Prerequisite:** [Touch and Don't Get Touched](touch-game.md)
 - **Leads to:** [Wall Control](wall-control.md), [Open Space Takedown](open-space-takedown.md)
-- **Related concepts:** [Winning the Circle](../concepts/winning-the-circle.md), Wall Pin
+- **Related concepts:** [Winning the Circle](../concepts/winning-the-circle.md), [Wall Pin](../games/wall-control.md)
 
 ---
 

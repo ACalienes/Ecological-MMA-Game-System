@@ -102,7 +102,7 @@ Exploit is the payoff — where control becomes damage or finish. This is the pu
 **Games focused on Exploit:**
 - Sustained Offense
 - Wall Grinding
-- Ground Finish
+- Ground finishing: TKO via [Ground Control](../games/ground-control.md) and Submission
 
 **Key Skills:**
 - Recognizing finishing opportunities
@@ -171,7 +171,7 @@ Every game in the system can be mapped to decision states:
 | **Striking** | Touch Game | Sustained Offense | KO/TKO | Close-Range Defense |
 | **Wrestling** | Pressure to Clinch, Takedowns | Wall Control | Ground transitions | Takedown Defense |
 | **Wall** | Pressure to Wall | Wall Control | Wall Grinding | Wall Escape |
-| **Ground** | Ground Access | Ground Control | Ground Finish | Ground Escape, Leg Reclaim |
+| **Ground** | Ground Access | Ground Control | TKO via Ground Control + Submission | Ground Escape, Leg Reclaim |
 
 ---
 

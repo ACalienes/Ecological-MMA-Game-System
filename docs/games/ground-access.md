@@ -35,6 +35,13 @@ tags:
 
 This is an **offensive ground game** focused on passing guard and advancing position. The top player learns to access dominant positions against active bottom resistance.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Top player inside the bottom player's guard (closed, open, or half)
+    - **Top (Attacker):** Pass the guard and establish a dominant position — not submission
+    - **Bottom (Defender):** Retain guard OR sweep to top
+    - **Win:** Top establishes dominant position (side control, mount, back); Bottom sweeps to top or retains guard for an extended period
+    - **Why it matters:** Develops guard passing and position advancement — the Access stage before control and finishing
+
 ---
 
 ## Goal
@@ -98,7 +105,7 @@ The objective is **position advancement**, not submission.
     |-------|------|
     | Access | Get past guard to dominant position |
     | Stabilize | Hold position (Ground Control) |
-    | Exploit | Deal damage (Ground Finish) |
+    | Exploit | Deal damage (Exploit / finish) |
 
     This game focuses purely on the ACCESS stage — getting to the position.
 
@@ -294,7 +301,7 @@ Passing guard to achieve dominant ground position—the fundamental skill of gro
 flowchart LR
     A[Positional Battle] --> B[Ground Access]
     B --> C[Ground Control]
-    C --> D[Ground Finish]
+    C --> D[TKO / Submission]
 
     style B fill:#FF5722,color:#fff
 ```

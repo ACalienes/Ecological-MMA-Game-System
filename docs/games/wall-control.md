@@ -35,6 +35,13 @@ tags:
 
 This game teaches **vertical control**. The wall becomes the dominant constraint — it limits the defender's options and creates opportunities for organized control.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Start from clinch with the defender positioned 1–2 feet from the wall; attacker has initial connection but no control yet.
+    - **Attacker:** Establish a functional wall pin — hips and shoulders controlled, rotation denied (no immediate takedowns).
+    - **Defender:** Prevent the pin or disengage before being flattened (active resistance, no passive drilling).
+    - **Win:** Attacker wins by holding a functional pin for 5 seconds; defender wins by disengaging (creating space) or reversing.
+    - **Why it matters:** Develops vertical stabilization — using the wall as the dominant constraint to organize control.
+
 ---
 
 ## Goal

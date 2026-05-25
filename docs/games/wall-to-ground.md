@@ -34,6 +34,13 @@ tags:
 
 This game teaches the **transition from standing wall control to ground control**. It is the first game where the ground becomes the dominant environment.
 
+!!! tip "How to Play — 30 seconds"
+    - **Setup:** Start from an established wall pin with the attacker in control and the defender's escape options limited.
+    - **Attacker:** Bring the opponent to ground safely and establish hip/shoulder control — off-balance first, no dumping bodyweight.
+    - **Defender:** Scramble during the descent, use the wall to stand, or exploit sloppy transitions.
+    - **Win:** Attacker wins with controlled hip and shoulder control on the ground (2–3 seconds); defender wins by scrambling to neutral, standing up, or reversing.
+    - **Why it matters:** Develops the controlled transition from wall to ground — control precedes gravity.
+
 ---
 
 ## Goal
