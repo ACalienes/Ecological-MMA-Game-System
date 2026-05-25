@@ -21,6 +21,11 @@
   --orange-deep:  #C63A08;
   --orange-glow:  rgba(249, 75, 12, 0.18);
 
+  /* Surfaces & semantic */
+  --raised:       #1E212B;   /* raised surface — popovers, tooltips */
+  --good:         #36C28B;   /* win / ready */
+  --bad:          #E8533A;   /* loss / warning */
+
   /* Typography */
   --font-display: 'Anton', 'Oswald', Impact, sans-serif;
   --font-head:    'Oswald', 'Inter', system-ui, sans-serif;
@@ -431,3 +436,195 @@ body, .md-typeset {
   .reveal { opacity: 1; transform: none; transition: none; }
   .emma-hero__scroll { animation: none; }
 }
+
+/* ==========================================================================
+   GAME INFOGRAPHIC COMPONENTS (visual-first game pages)
+   ========================================================================== */
+.md-typeset .emma-glabel {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.74rem;
+  color: var(--orange);
+  margin: 2.2rem 0 0.9rem;
+  display: flex; align-items: center; gap: 0.6rem;
+}
+.md-typeset .emma-glabel::after { content: ""; flex: 1; height: 1px; background: var(--steel); }
+
+/* meta chip row under the title */
+.md-typeset .emma-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 1.6rem; }
+.md-typeset .emma-meta span {
+  font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.08em;
+  font-size: 0.66rem; color: var(--fog-dim);
+  border: 1px solid var(--steel); border-radius: 999px; padding: 0.3rem 0.8rem; background: var(--charcoal);
+}
+
+/* THE MATCHUP — fight-card */
+.md-typeset .emma-matchup {
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch; gap: 0;
+  border: 1px solid var(--steel); border-radius: var(--radius-lg); background: var(--charcoal);
+  box-shadow: var(--shadow-sm);
+}
+.md-typeset .emma-fighter { padding: 1.6rem 1.4rem; text-align: center; }
+.md-typeset .emma-fighter--atk { border-radius: var(--radius-lg) 0 0 var(--radius-lg); }
+.md-typeset .emma-fighter--def { border-radius: 0 var(--radius-lg) var(--radius-lg) 0; }
+.md-typeset .emma-fighter--atk { background: linear-gradient(180deg, rgba(249,75,12,0.12), transparent); }
+.md-typeset .emma-fighter--def { background: linear-gradient(180deg, rgba(170,197,217,0.08), transparent); }
+.emma-fighter__icon { font-size: 2.2rem; line-height: 1; }
+.md-typeset .emma-fighter__role { font-family: var(--font-display); text-transform: uppercase; font-size: 1.5rem; margin: 0.5rem 0 0.4rem; }
+.emma-fighter--atk .emma-fighter__role { color: var(--orange-bright); }
+.md-typeset .emma-fighter__obj { font-size: 0.85rem; color: var(--fog-dim); line-height: 1.45; margin: 0; }
+.emma-matchup__vs {
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 1.1rem; color: var(--fog-faint);
+  padding: 0 0.6rem; border-left: 1px solid var(--steel); border-right: 1px solid var(--steel); background: var(--ink);
+}
+
+/* generic hover-reveal popover for any visual block */
+.md-typeset .emma-has-pop { position: relative; cursor: help; outline: none; }
+.emma-has-pop::after {
+  content: "+"; position: absolute; top: 0.5rem; right: 0.65rem; z-index: 3;
+  font-family: var(--font-head); font-size: 0.8rem; line-height: 1; color: var(--fog-faint);
+  transition: color var(--t-fast), transform var(--t-fast);
+}
+.emma-has-pop:hover::after, .emma-has-pop:focus::after, .emma-has-pop:focus-within::after { color: var(--orange); transform: rotate(45deg); }
+.md-typeset .emma-has-pop:hover, .md-typeset .emma-has-pop:focus, .md-typeset .emma-has-pop:focus-within { z-index: 50; }
+.md-typeset .emma-pop {
+  position: absolute; left: 50%; top: calc(100% + 9px); z-index: 40;
+  width: max-content; max-width: 270px;
+  background: var(--raised); border: 1px solid var(--steel-2); border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg); padding: 0.75rem 0.9rem;
+  font-size: 0.8rem; color: var(--fog-dim); line-height: 1.5; text-align: left;
+  text-transform: none; letter-spacing: normal; font-weight: 400;
+  opacity: 0; transform: translateX(-50%) translateY(-6px); pointer-events: none;
+  transition: opacity var(--t), transform var(--t);
+}
+.emma-pop::before { content: ""; position: absolute; left: 50%; margin-left: -4px; top: -5px; width: 9px; height: 9px; background: var(--raised); border-left: 1px solid var(--steel-2); border-top: 1px solid var(--steel-2); transform: rotate(45deg); }
+.md-typeset .emma-has-pop:hover .emma-pop, .md-typeset .emma-has-pop:focus .emma-pop, .md-typeset .emma-has-pop:focus-within .emma-pop { opacity: 1; transform: translateX(-50%); pointer-events: auto; }
+/* left-aligned variant (for narrow items like level steps) */
+.md-typeset .emma-pop--l { left: -1px; transform: translateY(-6px); }
+.emma-pop--l::before { left: 1.1rem; margin-left: 0; }
+.md-typeset .emma-has-pop:hover .emma-pop--l, .md-typeset .emma-has-pop:focus .emma-pop--l, .md-typeset .emma-has-pop:focus-within .emma-pop--l { transform: none; }
+@media (max-width: 720px) {
+  .md-typeset .emma-fighter--atk { border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
+  .md-typeset .emma-fighter--def { border-radius: 0 0 var(--radius-lg) var(--radius-lg); }
+}
+
+/* RULE CHIPS */
+.md-typeset .emma-chips { display: flex; flex-wrap: wrap; gap: 0.7rem; margin: 0; padding: 0; }
+.md-typeset .emma-chip {
+  position: relative;
+  display: flex; align-items: center; gap: 0.6rem;
+  background: var(--charcoal); border: 1px solid var(--steel); border-left: 3px solid var(--orange);
+  border-radius: var(--radius-md); padding: 0.7rem 1rem; font-size: 0.88rem; color: var(--fog);
+  transition: transform var(--t-fast), border-color var(--t-fast);
+}
+.md-typeset .emma-chip:hover,
+.md-typeset .emma-chip:focus,
+.md-typeset .emma-chip:focus-within { transform: translateY(-2px); border-color: var(--orange); z-index: 50; }
+.emma-chip__i { font-size: 1.15rem; line-height: 1; }
+
+/* interactive chip — reveal detail on hover / focus (tap on mobile) */
+.md-typeset .emma-chip--info { cursor: help; padding-right: 1.9rem; outline: none; }
+.emma-chip--info::after {
+  content: "+"; position: absolute; right: 0.65rem; top: 50%; transform: translateY(-50%);
+  width: 1.05rem; height: 1.05rem; line-height: 0.95rem; text-align: center;
+  font-family: var(--font-head); font-size: 0.82rem; color: var(--orange);
+  border: 1px solid var(--steel-2); border-radius: 50%;
+  transition: transform var(--t-fast), background var(--t-fast), color var(--t-fast), border-color var(--t-fast);
+}
+.emma-chip--info:hover::after, .emma-chip--info:focus::after, .emma-chip--info:focus-within::after {
+  background: var(--orange); color: #fff; border-color: var(--orange); transform: translateY(-50%) rotate(45deg);
+}
+.md-typeset .emma-chip__detail {
+  position: absolute; left: -1px; top: calc(100% + 9px); z-index: 40;
+  width: max-content; max-width: 290px;
+  background: var(--raised); border: 1px solid var(--steel-2); border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg); padding: 0.75rem 0.9rem;
+  font-size: 0.8rem; color: var(--fog-dim); line-height: 1.5;
+  opacity: 0; transform: translateY(-6px); pointer-events: none;
+  transition: opacity var(--t), transform var(--t);
+}
+.emma-chip__detail::before {
+  content: ""; position: absolute; left: 1.1rem; top: -5px; width: 9px; height: 9px;
+  background: var(--raised); border-left: 1px solid var(--steel-2); border-top: 1px solid var(--steel-2);
+  transform: rotate(45deg);
+}
+.md-typeset .emma-chip:hover .emma-chip__detail,
+.md-typeset .emma-chip:focus .emma-chip__detail,
+.md-typeset .emma-chip:focus-within .emma-chip__detail {
+  opacity: 1; transform: none; pointer-events: auto;
+}
+
+/* WIN / LOSE OUTCOMES */
+.md-typeset .emma-outcomes { display: grid; gap: 0.7rem; margin: 0; }
+.md-typeset .emma-outcome {
+  display: flex; align-items: center; gap: 0.8rem; padding: 0.9rem 1.1rem;
+  border-radius: var(--radius-md); font-size: 0.9rem; border: 1px solid var(--steel); background: var(--charcoal);
+}
+.emma-outcome__tag { font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 5px; white-space: nowrap; }
+.md-typeset .emma-outcome--win { border-left: 3px solid var(--good); }
+.emma-outcome--win .emma-outcome__tag { background: rgba(54,194,139,0.15); color: var(--good); }
+.md-typeset .emma-outcome--lose { border-left: 3px solid var(--bad); }
+.emma-outcome--lose .emma-outcome__tag { background: rgba(232,83,58,0.15); color: var(--bad); }
+
+/* LEVEL STEPPER */
+.md-typeset .emma-stepper { display: flex; flex-wrap: wrap; gap: 0; margin: 0; counter-reset: step; }
+.md-typeset .emma-step {
+  flex: 1 1 0; min-width: 120px; position: relative;
+  background: var(--charcoal); border: 1px solid var(--steel); border-right: 0;
+  padding: 1rem 0.9rem 1rem 1rem; font-size: 0.82rem; color: var(--fog-dim);
+}
+.md-typeset .emma-step:first-child { border-radius: var(--radius-md) 0 0 var(--radius-md); }
+.md-typeset .emma-step:last-child { border-right: 1px solid var(--steel); border-radius: 0 var(--radius-md) var(--radius-md) 0; }
+.emma-step__n {
+  display: inline-flex; align-items: center; justify-content: center; width: 1.5rem; height: 1.5rem;
+  font-family: var(--font-display); font-size: 0.9rem; color: var(--orange);
+  border: 1px solid var(--orange); border-radius: 50%; margin-bottom: 0.5rem;
+}
+.emma-step b { display: block; color: var(--fog); font-weight: 600; }
+
+@media (max-width: 720px) {
+  .md-typeset .emma-matchup { grid-template-columns: 1fr; }
+  .emma-matchup__vs { padding: 0.5rem; border: 0; border-top: 1px solid var(--steel); border-bottom: 1px solid var(--steel); }
+  .md-typeset .emma-step { flex-basis: 100%; border-right: 1px solid var(--steel); border-bottom: 0; border-radius: 0; }
+}
+
+/* --- deep-dive visual components --- */
+
+/* constraint -> affordance flow */
+.md-typeset .emma-flow { display: grid; gap: 0.6rem; margin: 0; }
+.md-typeset .emma-flow__row {
+  display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1.3fr); align-items: center; gap: 0.9rem;
+  background: var(--charcoal); border: 1px solid var(--steel); border-radius: var(--radius-md); padding: 0.7rem 1rem;
+}
+.emma-flow__from { font-family: var(--font-head); font-weight: 600; font-size: 0.84rem; color: var(--fog); }
+.emma-flow__arr { color: var(--orange); font-weight: 700; font-size: 1.1rem; }
+.emma-flow__to { font-size: 0.84rem; color: var(--fog-dim); }
+@media (max-width: 620px) { .md-typeset .emma-flow__row { grid-template-columns: 1fr; gap: 0.3rem; } .emma-flow__arr { display: none; } }
+
+/* icon cards (perception, coaching cues) */
+.md-typeset .emma-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px,1fr)); gap: 0.8rem; margin: 0; }
+.md-typeset .emma-card { background: var(--charcoal); border: 1px solid var(--steel); border-radius: var(--radius-md); padding: 1.1rem; transition: transform var(--t-fast), border-color var(--t-fast); }
+.md-typeset .emma-card:hover { transform: translateY(-2px); border-color: var(--steel-2); }
+.emma-card__i { font-size: 1.5rem; line-height: 1; }
+.md-typeset .emma-card__t { font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; color: var(--fog); margin: 0.5rem 0 0.3rem; }
+.md-typeset .emma-card p { font-size: 0.82rem; color: var(--fog-dim); margin: 0; line-height: 1.45; }
+
+/* readiness checklist */
+.md-typeset .emma-checklist { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.45rem; }
+.md-typeset .emma-checklist li { position: relative; padding-left: 1.7rem; font-size: 0.86rem; color: var(--fog); }
+.md-typeset .emma-checklist li::before { content: "✓"; position: absolute; left: 0.1rem; top: -0.05rem; color: var(--good); font-weight: 700; }
+
+/* warning chips */
+.md-typeset .emma-warns { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0; }
+.md-typeset .emma-warn { font-size: 0.8rem; color: var(--fog-dim); background: rgba(232,83,58,0.08); border: 1px solid rgba(232,83,58,0.3); border-radius: 999px; padding: 0.35rem 0.8rem; }
+.emma-warn::before { content: "⚠ "; }
+
+/* highlight strip (key point / "what it models") */
+.md-typeset .emma-hl { border-left: 3px solid var(--orange); background: var(--charcoal); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: 0.9rem 1.1rem; font-size: 0.9rem; color: var(--fog); margin: 0 0 0.8rem; }
+.md-typeset .emma-hl b { color: var(--orange-bright); }
+
+/* sub-label inside an accordion (tighter than emma-glabel) */
+.md-typeset .emma-sub { font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.68rem; color: var(--fog-faint); margin: 1.3rem 0 0.6rem; }
+.md-typeset .emma-sub:first-child { margin-top: 0; }
