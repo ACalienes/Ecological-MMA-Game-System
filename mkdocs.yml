@@ -58,6 +58,14 @@ plugins:
 
 nav:
   - Home: index.md
+  - Learning Paths:
+    - paths/index.md
+    - Foundations First: paths/foundations-first.md
+    - Striking Offense: paths/striking-offense.md
+    - Closing the Distance: paths/closing-the-distance.md
+    - The Wall Game: paths/wall-game.md
+    - The Ground Game: paths/ground-game.md
+    - The Complete Fight: paths/complete-fight.md
   - System Overview:
     - Overview: system/overview.md
     - System Map: system/map.md
