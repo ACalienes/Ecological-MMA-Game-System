@@ -4,6 +4,8 @@ site_author: Ecological MMA
 
 theme:
   name: material
+  custom_dir: overrides
+  font: false
   palette:
     - scheme: slate
       primary: deep orange
@@ -22,8 +24,9 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.top
+    - navigation.indexes
+    - toc.follow
     - search.highlight
     - search.share
     - content.tabs.link
@@ -96,6 +99,7 @@ nav:
       - Initiate:
         - Pressure to Takedown: games/pressure-to-takedown.md
         - Open Space Takedown: games/open-space-takedown.md
+        - The Square (WIP): games/the-square.md
     - Wall:
       - Escape & Defend:
         - Wall Escape: games/wall-escape.md
@@ -127,8 +131,20 @@ nav:
     - TKO Pin: concepts/tko-pin.md
     - Defensive Solutions: concepts/defensive-solutions.md
     - Hand Controls: concepts/hand-controls.md
+    - Winning the Circle: concepts/winning-the-circle.md
   - Principles:
     - Training Mindset: principles/training-mindset.md
+    - Constraints-Led Approach:
+      - Overview: principles/cla/index.md
+      - Theory: principles/cla/theory.md
+      - Key Concepts: principles/cla/key-concepts.md
+      - Environment Design: principles/cla/environment-design.md
+      - Session Design: principles/cla/session-design.md
+      - Implementation: principles/cla/implementation.md
+      - MMA Applications: principles/cla/mma-applications.md
+      - Pitfalls: principles/cla/pitfalls.md
+      - Quick Reference: principles/cla/quick-reference.md
+      - CLA Glossary: principles/cla/glossary.md
   - Coach Tools:
     - Safety & Intensity: tools/safety.md
     - Assessment Rubrics: tools/assessment.md
@@ -140,16 +156,19 @@ nav:
     - Prerequisite Map: reference/prerequisites.md
     - FAQ & Troubleshooting: reference/faq.md
     - Change Log: reference/changelog.md
+    - Sources: reference/sources.md
   - About:
     - Project Context: about/context.md
     - Design Rules: about/levels-vs-games.md
     - Disclaimer: about/disclaimer.md
 
 extra_css:
+  - stylesheets/theme.css
   - stylesheets/diagram.css
 
 extra_javascript:
   - javascripts/mermaid-init.js
+  - javascripts/landing.js
 
 extra:
   social:

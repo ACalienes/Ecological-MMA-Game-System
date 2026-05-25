@@ -300,9 +300,9 @@ flowchart LR
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Close-Range Defense
-- **Follow-on games:** Pressure to Clinch (when evasion reaches boundary)
-- **Related concepts:** Three Zones, Ring Generalship
+- **Prerequisite games:** [Close-Range Defense](close-range-defense.md)
+- **Follow-on games:** [Pressure to Clinch](pressure-to-clinch.md) (when evasion reaches boundary)
+- **Related concepts:** [Three Zones](../concepts/three-zones.md), Ring Generalship
 
 ---
 

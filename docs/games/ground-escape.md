@@ -306,8 +306,8 @@ flowchart LR
 ```
 
 - **Prerequisite games:** None (fundamental defensive game)
-- **Follow-on games:** Guard Recovery, Ground to Standing
-- **Related concepts:** Decision States
+- **Follow-on games:** Guard Recovery, [Ground to Standing](ground-to-standing.md)
+- **Related concepts:** [Decision States](../concepts/decision-states.md)
 
 ---
 

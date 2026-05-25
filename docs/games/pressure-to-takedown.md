@@ -339,9 +339,9 @@ flowchart TD
     style B fill:#9C27B0,color:#fff
 ```
 
-- **Prerequisite games:** Close-Range Defense, Pressure to Clinch
-- **Follow-on games:** Wall Control, Open Space Takedown
-- **Related concepts:** Defensive Solutions, Hand Controls, TKO Pin
+- **Prerequisite games:** [Close-Range Defense](close-range-defense.md), [Pressure to Clinch](pressure-to-clinch.md)
+- **Follow-on games:** [Wall Control](wall-control.md), [Open Space Takedown](open-space-takedown.md)
+- **Related concepts:** [Defensive Solutions](../concepts/defensive-solutions.md), [Hand Controls](../concepts/hand-controls.md), [TKO Pin](../concepts/tko-pin.md)
 
 ---
 

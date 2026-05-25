@@ -302,9 +302,9 @@ flowchart LR
     style B fill:#FF5722,color:#fff
 ```
 
-- **Prerequisite games:** Land the Target
-- **Follow-on games:** Pressure to Takedown, Pressure to Wall
-- **Related concepts:** Three Zones, Confidence Rating
+- **Prerequisite games:** [Land the Target](land-the-target.md)
+- **Follow-on games:** [Pressure to Takedown](pressure-to-takedown.md), [Pressure to Wall](pressure-to-wall.md)
+- **Related concepts:** [Three Zones](../concepts/three-zones.md), [Confidence Rating](../concepts/confidence-rating.md)
 
 ---
 

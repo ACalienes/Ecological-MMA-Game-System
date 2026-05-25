@@ -404,13 +404,13 @@ flowchart LR
     style C fill:#FF5722,color:#fff
 ```
 
-**Prerequisite concepts:** Three Zones of Attack (required), Confidence Rating (recommended)
+**Prerequisite concepts:** [Three Zones of Attack](../concepts/three-zones.md) (required), [Confidence Rating](../concepts/confidence-rating.md) (recommended)
 
 **Recommended experience:** Defensive skill isolation games (helps when playing defender role)
 
-**Follow-on games:** Touch and Don't Get Touched (adds counter-threat, combines offensive and defensive skills)
+**Follow-on games:** [Touch and Don't Get Touched](touch-game.md) (adds counter-threat, combines offensive and defensive skills)
 
-**Related concepts:** Three Zones, Confidence Rating, Misdirection Principle
+**Related concepts:** [Three Zones](../concepts/three-zones.md), [Confidence Rating](../concepts/confidence-rating.md), Misdirection Principle
 
 ---
 

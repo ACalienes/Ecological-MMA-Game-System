@@ -292,9 +292,9 @@ flowchart LR
     style B fill:#2196F3,color:#fff
 ```
 
-- **Prerequisite games:** Ground Escape, Ground Access
-- **Follow-on games:** Ground Control, Ground Finish
-- **Related concepts:** Decision States
+- **Prerequisite games:** [Ground Escape](ground-escape.md), [Ground Access](ground-access.md)
+- **Follow-on games:** [Ground Control](ground-control.md), Ground Finish
+- **Related concepts:** [Decision States](../concepts/decision-states.md)
 
 ---
 

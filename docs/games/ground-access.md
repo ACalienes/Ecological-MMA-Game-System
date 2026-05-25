@@ -299,9 +299,9 @@ flowchart LR
     style B fill:#FF5722,color:#fff
 ```
 
-- **Prerequisite games:** Positional Battle
-- **Follow-on games:** Ground Control
-- **Related concepts:** Decision States
+- **Prerequisite games:** [Positional Battle](positional-battle.md)
+- **Follow-on games:** [Ground Control](ground-control.md)
+- **Related concepts:** [Decision States](../concepts/decision-states.md)
 
 ---
 

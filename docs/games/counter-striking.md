@@ -298,9 +298,9 @@ flowchart LR
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Close-Range Defense, Land the Target
-- **Follow-on games:** Can lead to Takedown Defense if opponent shoots
-- **Related concepts:** Confidence Rating, Defensive Solutions
+- **Prerequisite games:** [Close-Range Defense](close-range-defense.md), [Land the Target](land-the-target.md)
+- **Follow-on games:** Can lead to [Takedown Defense](takedown-defense.md) if opponent shoots
+- **Related concepts:** [Confidence Rating](../concepts/confidence-rating.md), [Defensive Solutions](../concepts/defensive-solutions.md)
 
 ---
 

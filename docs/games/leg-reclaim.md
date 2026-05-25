@@ -306,9 +306,9 @@ flowchart LR
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Ground Escape
-- **Follow-on games:** Ground to Standing, Positional Battle, Ground Defensive Submission
-- **Related concepts:** Decision States
+- **Prerequisite games:** [Ground Escape](ground-escape.md)
+- **Follow-on games:** [Ground to Standing](ground-to-standing.md), [Positional Battle](positional-battle.md), [Ground Defensive Submission](ground-defensive-submission.md)
+- **Related concepts:** [Decision States](../concepts/decision-states.md)
 
 ---
 

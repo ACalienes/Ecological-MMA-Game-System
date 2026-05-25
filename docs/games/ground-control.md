@@ -299,9 +299,9 @@ flowchart LR
     style B fill:#FF5722,color:#fff
 ```
 
-- **Prerequisite games:** Ground Access
+- **Prerequisite games:** [Ground Access](ground-access.md)
 - **Follow-on games:** Ground Finish
-- **Related concepts:** Decision States, TKO Pin
+- **Related concepts:** [Decision States](../concepts/decision-states.md), [TKO Pin](../concepts/tko-pin.md)
 
 ---
 

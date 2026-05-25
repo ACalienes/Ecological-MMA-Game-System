@@ -300,9 +300,9 @@ flowchart LR
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Ground Escape
+- **Prerequisite games:** [Ground Escape](ground-escape.md)
 - **Follow-on games:** Returns to Open Space games
-- **Related concepts:** Decision States
+- **Related concepts:** [Decision States](../concepts/decision-states.md)
 
 ---
 

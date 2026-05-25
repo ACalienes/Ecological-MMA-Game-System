@@ -106,6 +106,18 @@ The attacker scales difficulty based on defender success:
 - If defender handles current level → increase variety, speed, or combination length
 - If defender struggles → simplify until they find success
 
+### Reading Center Mass
+
+The "can I see the combinations coming?" question has a concrete answer: keep eye contact on **center mass**, not the head. The head carries no information about the hands or feet, and the eyes lie. Center-mass focus holds shoulder motion (the punch line) and hip motion (power and kicks) in view at once — "the little X." Dropping the head behind the guard blinds the defender and the openings get found.
+
+### Basing Under Fire
+
+Strike force off-balances the defender, which is what actually defeats the counter — not just the damage. Bend the knees and create suspension ("like an ATV that maintains itself over bumps") so impact is absorbed without getting rocked, leaving energy available to drive a counter forward.
+
+### Confined-Square Variant
+
+Instead of the soft "cannot exit" invariant, run the game inside a marked square and make **both feet leaving the square an automatic loss**. This removes the footwork-escape habit, forces the solution into the pocket, and trains the boundary awareness a fighter needs near the cage. From here the game extends into clinch off-balancing and takedowns — see [The Square](the-square.md) for the full layered build.
+
 ---
 
 ## Win Conditions
@@ -328,9 +340,9 @@ flowchart LR
     style B fill:#2196F3,color:#fff
 ```
 
-- **Prerequisite games:** Parry the Straight (and other skill isolation games)
-- **Follow-on games:** Touch and Don't Get Touched, Pressure to Takedown
-- **Related concepts:** Defensive Solutions in Striking, Hand Controls
+- **Prerequisite games:** [Parry the Straight](parry-the-straight.md) (and other skill isolation games)
+- **Follow-on games:** [Touch and Don't Get Touched](touch-game.md), [Pressure to Takedown](pressure-to-takedown.md)
+- **Related concepts:** [Defensive Solutions in Striking](../concepts/defensive-solutions.md), [Hand Controls](../concepts/hand-controls.md)
 
 ---
 

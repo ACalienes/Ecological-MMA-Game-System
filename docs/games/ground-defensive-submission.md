@@ -311,9 +311,9 @@ flowchart LR
     style C fill:#D32F2F,color:#fff
 ```
 
-- **Prerequisite games:** Ground Escape (understand escape first)
-- **Follow-on games:** End state (Submission) if completed, Leg Reclaim if threat creates space
-- **Related concepts:** Decision States
+- **Prerequisite games:** [Ground Escape](ground-escape.md) (understand escape first)
+- **Follow-on games:** End state (Submission) if completed, [Leg Reclaim](leg-reclaim.md) if threat creates space
+- **Related concepts:** [Decision States](../concepts/decision-states.md)
 
 ---
 

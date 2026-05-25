@@ -296,9 +296,9 @@ flowchart LR
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Pressure to Clinch
-- **Follow-on games:** Wall Control (opposite perspective)
-- **Related concepts:** Hand Controls
+- **Prerequisite games:** [Pressure to Clinch](pressure-to-clinch.md)
+- **Follow-on games:** [Wall Control](wall-control.md) (opposite perspective)
+- **Related concepts:** [Hand Controls](../concepts/hand-controls.md)
 
 ---
 

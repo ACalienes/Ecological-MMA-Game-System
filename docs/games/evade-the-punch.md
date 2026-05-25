@@ -342,9 +342,9 @@ flowchart LR
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Slip the Straight (recommended)
-- **Follow-on games:** Close-Range Defense
-- **Related concepts:** Defensive Solutions in Striking (Evasion)
+- **Prerequisite games:** [Slip the Straight](slip-the-straight.md) (recommended)
+- **Follow-on games:** [Close-Range Defense](close-range-defense.md)
+- **Related concepts:** [Defensive Solutions in Striking](../concepts/defensive-solutions.md) (Evasion)
 
 ---
 

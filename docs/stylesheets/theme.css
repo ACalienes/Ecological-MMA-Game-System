@@ -1,0 +1,421 @@
+/* ==========================================================================
+   Ecological MMA System — Combat Theme
+   Design-token layer + MkDocs Material overrides.
+   Identity: deep ink base, warm off-white text, orange used sparingly,
+   bold condensed display type. Built on the craft from the Kameha repos.
+   ========================================================================== */
+
+/* ---------- 1. Design tokens -------------------------------------------- */
+:root {
+  /* Palette — combat */
+  --ink:          #0E0F13;   /* page background */
+  --charcoal:     #16181F;   /* surfaces / cards */
+  --charcoal-2:   #1E212B;   /* raised surfaces */
+  --steel:        #2A2E3A;   /* borders / hairlines */
+  --steel-2:      #3A3F4D;
+  --fog:          #ECEAE4;   /* primary text */
+  --fog-dim:      #AEB2BD;   /* secondary text */
+  --fog-faint:    #717684;   /* tertiary / labels */
+  --orange:       #F94B0C;   /* accent — use sparingly (~2-3%) */
+  --orange-bright:#FF6A33;
+  --orange-deep:  #C63A08;
+  --orange-glow:  rgba(249, 75, 12, 0.18);
+
+  /* Typography */
+  --font-display: 'Anton', 'Oswald', Impact, sans-serif;
+  --font-head:    'Oswald', 'Inter', system-ui, sans-serif;
+  --font-body:    'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, monospace;
+
+  /* Spacing scale */
+  --space-xs: 0.5rem;  --space-sm: 1rem;   --space-md: 2rem;
+  --space-lg: 4rem;    --space-xl: 8rem;   --space-xxl: 12rem;
+
+  /* Radius */
+  --radius-sm: 6px;  --radius-md: 12px;  --radius-lg: 20px;  --radius-xl: 28px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.30);
+  --shadow-md: 0 8px 30px rgba(0,0,0,0.40);
+  --shadow-lg: 0 20px 60px rgba(0,0,0,0.55);
+  --shadow-glow: 0 0 50px var(--orange-glow);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-fast: 0.18s var(--ease);
+  --t: 0.32s var(--ease);
+  --t-slow: 0.6s var(--ease);
+}
+
+/* ---------- 2. Material variable remap ---------------------------------- */
+/* Dark (slate) — the primary combat look */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color:          var(--ink);
+  --md-default-fg-color:          var(--fog);
+  --md-default-fg-color--light:   var(--fog-dim);
+  --md-default-fg-color--lighter: var(--fog-faint);
+  --md-default-fg-color--lightest: rgba(255,255,255,0.07);
+
+  --md-primary-fg-color:          var(--ink);
+  --md-primary-fg-color--light:   var(--charcoal);
+  --md-primary-fg-color--dark:    #000;
+  --md-primary-bg-color:          var(--fog);
+  --md-primary-bg-color--light:   var(--fog-dim);
+
+  --md-accent-fg-color:           var(--orange-bright);
+  --md-accent-fg-color--transparent: var(--orange-glow);
+
+  --md-typeset-color:             var(--fog);
+  --md-typeset-a-color:           var(--orange-bright);
+
+  --md-code-bg-color:             #0A0B0E;
+  --md-code-fg-color:             #D7DAE0;
+
+  --md-footer-bg-color:           #090A0D;
+  --md-footer-bg-color--dark:     #060708;
+  --md-footer-fg-color:           var(--fog-dim);
+
+  --md-typeset-table-color:       var(--steel);
+}
+
+/* Light scheme — warm paper variant */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color:          #FAF9F6;
+  --md-default-fg-color:          #1A1B1F;
+  --md-primary-fg-color:          #16181F;
+  --md-primary-bg-color:          #FAF9F6;
+  --md-accent-fg-color:           var(--orange-deep);
+  --md-typeset-a-color:           var(--orange-deep);
+}
+
+/* ---------- 3. Typography ----------------------------------------------- */
+body, .md-typeset {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-family: var(--font-head);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.12;
+}
+.md-typeset h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--fog);
+}
+.md-typeset h2 {
+  margin-top: 2.4em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--steel);
+}
+.md-typeset h3, .md-typeset h4 {
+  font-family: var(--font-head);
+  font-weight: 500;
+}
+/* Accent rule under page titles */
+.md-typeset h1::after {
+  content: "";
+  display: block;
+  width: 64px; height: 3px;
+  margin-top: 0.5rem;
+  background: var(--orange);
+  border-radius: 2px;
+}
+
+/* ---------- 4. Header & navigation -------------------------------------- */
+.md-header {
+  background: rgba(14,15,19,0.85);
+  backdrop-filter: saturate(140%) blur(12px);
+  border-bottom: 1px solid var(--steel);
+  box-shadow: none;
+}
+.md-header__title { font-family: var(--font-head); font-weight: 600; letter-spacing: 0.02em; }
+
+.md-tabs {
+  background: transparent;
+  border-bottom: 1px solid var(--steel);
+}
+.md-tabs__link { font-family: var(--font-head); font-weight: 500; opacity: 0.72; transition: opacity var(--t-fast); }
+.md-tabs__link:hover, .md-tabs__link--active { opacity: 1; }
+
+/* Active nav item gets an orange marker */
+.md-nav__link--active {
+  color: var(--orange-bright) !important;
+  font-weight: 600;
+}
+.md-nav__item .md-nav__link:hover { color: var(--orange-bright); }
+
+/* ---------- 5. Search --------------------------------------------------- */
+.md-search__form {
+  background: var(--charcoal-2);
+  border: 1px solid var(--steel);
+  border-radius: var(--radius-md);
+  box-shadow: none;
+}
+.md-search__form:hover { background: var(--charcoal-2); border-color: var(--steel-2); }
+[data-md-toggle=search]:checked ~ .md-header .md-search__form { box-shadow: var(--shadow-md); }
+
+/* ---------- 6. Content polish ------------------------------------------- */
+.md-typeset a { transition: color var(--t-fast); }
+
+/* Tables → card-like, bordered */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--steel);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  font-size: 0.78rem;
+}
+.md-typeset table:not([class]) th {
+  background: var(--charcoal-2);
+  font-family: var(--font-head);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.7rem;
+  color: var(--fog);
+}
+.md-typeset table:not([class]) tr:hover { background: rgba(255,255,255,0.02); }
+
+/* Admonitions — flat, branded */
+.md-typeset .admonition,
+.md-typeset details {
+  border: 1px solid var(--steel);
+  border-left-width: 3px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  background: var(--charcoal);
+}
+.md-typeset .admonition-title { font-family: var(--font-head); letter-spacing: 0.02em; }
+
+/* Inline + block code */
+.md-typeset code { border-radius: var(--radius-sm); }
+.md-typeset pre > code { border-radius: var(--radius-md); }
+
+/* Blockquote */
+.md-typeset blockquote {
+  border-left: 3px solid var(--orange);
+  background: var(--charcoal);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  color: var(--fog-dim);
+}
+
+/* Buttons */
+.md-typeset .md-button {
+  font-family: var(--font-head);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border-radius: var(--radius-md);
+  border-width: 1px;
+  transition: transform var(--t-fast), box-shadow var(--t-fast), background var(--t-fast);
+}
+.md-typeset .md-button--primary {
+  background: var(--orange);
+  border-color: var(--orange);
+  color: #fff;
+}
+.md-typeset .md-button--primary:hover {
+  background: var(--orange-bright);
+  border-color: var(--orange-bright);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+.md-typeset .md-button:hover { transform: translateY(-2px); }
+
+/* ---------- 7. Material card grids (.grid.cards) ------------------------ */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border: 1px solid var(--steel);
+  border-radius: var(--radius-lg);
+  background: var(--charcoal);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--t), box-shadow var(--t), border-color var(--t);
+}
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid > .card:hover {
+  transform: translateY(-4px);
+  border-color: var(--orange);
+  box-shadow: var(--shadow-md), var(--shadow-glow);
+}
+
+/* ---------- 8. Footer --------------------------------------------------- */
+.md-footer-meta { border-top: 1px solid var(--steel); }
+
+/* ---------- 9. Scrollbar ------------------------------------------------ */
+* { scrollbar-width: thin; scrollbar-color: var(--steel-2) transparent; }
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb { background: var(--steel-2); border-radius: 10px; }
+*::-webkit-scrollbar-thumb:hover { background: var(--orange-deep); }
+
+/* ==========================================================================
+   10. HOME LANDING  (used by overrides/home.html)
+   ========================================================================== */
+.emma-home .md-content__inner { margin: 0; padding: 0; }
+.emma-home .md-content__inner::before { display: none; }
+.emma-home .md-main__inner { margin-top: 0; }
+
+/* Section frame */
+.emma-section {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: var(--space-lg) 1.2rem;
+}
+.emma-eyebrow {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.72rem;
+  color: var(--orange);
+  margin-bottom: 0.8rem;
+}
+
+/* HERO */
+.emma-hero {
+  position: relative;
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 6rem 1.2rem 4rem;
+  overflow: hidden;
+  background:
+    radial-gradient(60% 80% at 50% 0%, rgba(249,75,12,0.10), transparent 60%),
+    linear-gradient(180deg, var(--ink) 0%, #0a0b0e 100%);
+}
+/* faint grid texture */
+.emma-hero::before {
+  content: "";
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(70% 70% at 50% 40%, #000, transparent 80%);
+  pointer-events: none;
+}
+.emma-hero > * { position: relative; z-index: 1; }
+.emma-hero__kicker {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 0.8rem;
+  color: var(--fog-dim);
+  margin-bottom: 1.4rem;
+}
+.emma-hero__title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(3rem, 9vw, 7.5rem);
+  line-height: 0.92;
+  letter-spacing: 0.01em;
+  color: var(--fog);
+  margin: 0;
+}
+.emma-hero__title .accent { color: var(--orange); }
+.emma-hero__sub {
+  max-width: 42rem;
+  margin: 1.6rem auto 0;
+  font-size: clamp(1.05rem, 2.2vw, 1.4rem);
+  line-height: 1.5;
+  color: var(--fog-dim);
+}
+.emma-hero__cta { margin-top: 2.4rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+.emma-btn {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.9rem 1.8rem;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: transform var(--t-fast), box-shadow var(--t-fast), background var(--t-fast), border-color var(--t-fast);
+  border: 1px solid transparent;
+  display: inline-flex; align-items: center; gap: 0.5rem;
+}
+.emma-btn--primary { background: var(--orange); color: #fff; }
+.emma-btn--primary:hover { background: var(--orange-bright); transform: translateY(-2px); box-shadow: var(--shadow-glow); }
+.emma-btn--ghost { border-color: var(--steel-2); color: var(--fog); }
+.emma-btn--ghost:hover { border-color: var(--orange); color: var(--orange-bright); transform: translateY(-2px); }
+.emma-hero__scroll {
+  position: absolute; bottom: 1.4rem; left: 50%; transform: translateX(-50%);
+  color: var(--fog-faint); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+  animation: emma-bob 2.4s var(--ease) infinite;
+}
+@keyframes emma-bob { 0%,100%{transform:translateX(-50%) translateY(0);} 50%{transform:translateX(-50%) translateY(6px);} }
+
+/* STATS strip */
+.emma-stats {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1px; background: var(--steel);
+  border-top: 1px solid var(--steel); border-bottom: 1px solid var(--steel);
+}
+.emma-stat { background: var(--ink); padding: 2.4rem 1rem; text-align: center; }
+.emma-stat__num { font-family: var(--font-display); font-size: clamp(2.4rem, 6vw, 4rem); color: var(--orange); line-height: 1; }
+.emma-stat__label { font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem; color: var(--fog-dim); margin-top: 0.6rem; }
+
+/* PHILOSOPHY split */
+.emma-philosophy { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+.emma-philosophy h2 {
+  font-family: var(--font-display); text-transform: uppercase;
+  font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1; margin: 0.4rem 0 0; border: 0;
+}
+.emma-philosophy p { color: var(--fog-dim); font-size: 1.05rem; line-height: 1.6; }
+.emma-quote {
+  font-family: var(--font-head); font-weight: 500;
+  font-size: clamp(1.4rem, 3vw, 2rem); line-height: 1.3; color: var(--fog);
+  border-left: 3px solid var(--orange); padding-left: 1.4rem;
+}
+
+/* CATEGORY GRID */
+.emma-cats { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 2rem; }
+.emma-cat {
+  position: relative; display: block; text-decoration: none;
+  background: var(--charcoal); border: 1px solid var(--steel);
+  border-radius: var(--radius-lg); padding: 1.6rem 1.4rem;
+  transition: transform var(--t), border-color var(--t), box-shadow var(--t);
+  overflow: hidden;
+}
+.emma-cat::after {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: var(--orange); transform: scaleY(0); transform-origin: top;
+  transition: transform var(--t);
+}
+.emma-cat:hover { transform: translateY(-4px); border-color: var(--steel-2); box-shadow: var(--shadow-md); }
+.emma-cat:hover::after { transform: scaleY(1); }
+.emma-cat__num { font-family: var(--font-display); color: var(--fog-faint); font-size: 1rem; }
+.emma-cat__name { font-family: var(--font-head); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--fog); font-size: 1.15rem; margin: 0.4rem 0; }
+.emma-cat__desc { color: var(--fog-dim); font-size: 0.85rem; line-height: 1.5; }
+
+/* CTA band */
+.emma-cta-band {
+  text-align: center;
+  background: radial-gradient(70% 120% at 50% 0%, rgba(249,75,12,0.12), transparent 70%), var(--charcoal);
+  border-top: 1px solid var(--steel); border-bottom: 1px solid var(--steel);
+}
+.emma-cta-band h2 { font-family: var(--font-display); text-transform: uppercase; font-size: clamp(2rem,6vw,3.6rem); border:0; margin:0 0 0.6rem; }
+
+/* Reveal-on-scroll */
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity var(--t-slow), transform var(--t-slow); }
+.reveal.is-visible { opacity: 1; transform: none; }
+
+/* Responsive */
+@media (max-width: 800px) {
+  .emma-philosophy { grid-template-columns: 1fr; gap: 1.5rem; }
+  .emma-stats { grid-template-columns: 1fr; }
+  .emma-stat { padding: 1.6rem 1rem; }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .emma-hero__scroll { animation: none; }
+}

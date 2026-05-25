@@ -313,8 +313,8 @@ flowchart LR
 ```
 
 - **Prerequisite games:** None — this is foundational
-- **Follow-on games:** Close-Range Defense, Touch and Don't Get Touched
-- **Related concepts:** Defensive Solutions in Striking (Parrying)
+- **Follow-on games:** [Close-Range Defense](close-range-defense.md), [Touch and Don't Get Touched](touch-game.md)
+- **Related concepts:** [Defensive Solutions in Striking](../concepts/defensive-solutions.md) (Parrying)
 
 ---
 

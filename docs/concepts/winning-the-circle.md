@@ -162,5 +162,5 @@ The fighter who wins the circle doesn't just accumulate position — they accumu
 ---
 
 !!! abstract "Related Concepts"
-    - [Wall Pin](wall-pin.md) — The completion of winning the circle for the attacker
+    - [Wall Control — Establish the Pin](../games/wall-control.md) — The completion of winning the circle for the attacker
     - [Pressure to Clinch](../games/pressure-to-clinch.md) — The primary game for developing this skill

@@ -299,9 +299,9 @@ flowchart LR
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Close-Range Defense, Pressure to Clinch
-- **Follow-on games:** Open Space Takedown
-- **Related concepts:** Hand Controls, Level Change
+- **Prerequisite games:** [Close-Range Defense](close-range-defense.md), [Pressure to Clinch](pressure-to-clinch.md)
+- **Follow-on games:** [Open Space Takedown](open-space-takedown.md)
+- **Related concepts:** [Hand Controls](../concepts/hand-controls.md), Level Change
 
 ---
 

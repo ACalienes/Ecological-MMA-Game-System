@@ -285,8 +285,8 @@ flowchart LR
 ```
 
 - **Prerequisite games:** None — this is foundational
-- **Follow-on games:** Land the Target (integrates all weapons)
-- **Related concepts:** Three Zones of Attack
+- **Follow-on games:** [Land the Target](land-the-target.md) (integrates all weapons)
+- **Related concepts:** [Three Zones of Attack](../concepts/three-zones.md)
 
 ---
 

@@ -76,6 +76,8 @@ The objective is **skill development**, not competition.
     - "Is my guard tight enough to protect my head?"
     - "Are my elbows covering my body?"
     - "Am I absorbing on my arms or getting hit clean?"
+    - "Can I still see center mass, or am I blind behind my own gloves?"
+    - "Am I based and balanced, or getting jostled off balance by the impact?"
 
 ---
 
@@ -103,27 +105,39 @@ The objective is **skill development**, not competition.
 | Energy | Absorbs impact | Deflects impact |
 | Counter setup | Minimal | Creates opening |
 
+### Seeing Through the Guard
+
+The danger of shelling up is going blind — dropping the head behind the gloves ("ostrich in the sand"), at which point the attacker eventually finds the hole. Keep eye contact on **center mass**, not the head: the head gives no information about the hands or feet, and the eyes lie. Center-mass focus keeps both shoulder motion (previews the punch line) and hip motion (previews power and kicks) in view — "the little X."
+
+### Basing Under Fire
+
+Incoming strikes don't only hurt — they knock the defender off balance, which is what actually breaks the guard and prevents recovery. Bend the knees and create suspension ("like an ATV that bounces and maintains itself over bumps") so impact is absorbed without getting rocked. A based defender holds the shell; an off-balance one collapses it.
+
 ---
 
 ## Win Conditions
 
+*Resolved from live play (class 2026-05-25) — this scored, boundary-aware structure replaces the earlier provisional version.*
+
+Run it as a **scored, role-switching game inside a confined square:**
+
 | Role | Win Condition |
 |------|---------------|
-| **Defender** | Absorb the attack sequence on guard (no clean contact to exposed targets) |
-| **Attacker** | Land a clean strike to head or body (not absorbed on arms/gloves) |
+| **Attacker** | Land the required number of significant shots — start at **1**, escalate to **2 distinct impacts** in a combination for stronger partners |
+| **Defender** | Survive the sequence without getting hit clean — stay on defense as long as possible |
 
-**On defender win:** Roles switch — defender becomes attacker.
+!!! warning "Boundary Rule"
+    Both players stay inside a marked square. **If both of a player's feet leave the square, they lose** — whoever they are. This removes footwork escape, forces the solution into the pocket, and trains the same awareness a fighter needs near the cage edge.
 
-**On attacker win:** Reset to neutral, same roles, attacker continues.
+**On defender win:** roles switch — defender becomes attacker (you **earn** the offensive position by proving you can block).
+**On attacker win:** reset to neutral, same roles.
 
-The defender must **earn** the offensive position by proving they can block effectively.
+Difficulty self-regulates by the shot requirement (1 → 2, or open to 4 max if combination length is the limiter). Rounds are short and reset-driven.
 
 !!! tip "The Strategic Insight"
     You don't need to perfectly block every strike. You can take some contact while reading the attacker's rhythm and adjusting your guard. When you successfully absorb a complete attack sequence without getting hit clean — that's the skill demonstration.
 
     At higher levels (combinations), this means surviving the entire combination on your guard. One clean defensive success earns the role switch.
-
-**Duration:** Play until natural stopping point or time limit. Role switches keep both players engaged.
 
 ---
 
@@ -317,8 +331,8 @@ flowchart LR
 ```
 
 - **Prerequisite games:** None — this is foundational
-- **Follow-on games:** Close-Range Defense
-- **Related concepts:** Defensive Solutions in Striking (Blocking)
+- **Follow-on games:** [Close-Range Defense](close-range-defense.md)
+- **Related concepts:** [Defensive Solutions in Striking](../concepts/defensive-solutions.md) (Blocking)
 
 ---
 

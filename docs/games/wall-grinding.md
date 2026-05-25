@@ -300,9 +300,9 @@ flowchart LR
     style B fill:#FF5722,color:#fff
 ```
 
-- **Prerequisite games:** Wall Control
+- **Prerequisite games:** [Wall Control](wall-control.md)
 - **Follow-on games:** N/A (this is an end-state game)
-- **Related concepts:** TKO Pin (ground equivalent)
+- **Related concepts:** [TKO Pin](../concepts/tko-pin.md) (ground equivalent)
 
 ---
 

@@ -1,3 +1,11 @@
+---
+template: home.html
+title: Ecological MMA Games System
+hide:
+  - navigation
+  - toc
+---
+
 # Ecological MMA Games System
 
 A constraints-led, game-based training framework for MMA.

@@ -305,9 +305,9 @@ flowchart LR
     style D fill:#D32F2F,color:#fff
 ```
 
-- **Prerequisite games:** Wall Escape (understand wall defense first)
+- **Prerequisite games:** [Wall Escape](wall-escape.md) (understand wall defense first)
 - **Follow-on games:** End state (Submission) if completed
-- **Related concepts:** DNS, Defensive Solutions
+- **Related concepts:** DNS, [Defensive Solutions](../concepts/defensive-solutions.md)
 
 ---
 

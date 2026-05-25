@@ -24,3 +24,6 @@ venv/
 
 # Raw class audio (contains student voices) — never commit
 audio-ingest/
+
+# Playwright preview artifacts
+.playwright-mcp/

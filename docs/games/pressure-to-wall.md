@@ -300,9 +300,9 @@ flowchart LR
     style B fill:#FF5722,color:#fff
 ```
 
-- **Prerequisite games:** Pressure to Clinch
-- **Follow-on games:** Wall Grinding, Wall Control
-- **Related concepts:** Hand Controls
+- **Prerequisite games:** [Pressure to Clinch](pressure-to-clinch.md)
+- **Follow-on games:** [Wall Grinding](wall-grinding.md), [Wall Control](wall-control.md)
+- **Related concepts:** [Hand Controls](../concepts/hand-controls.md)
 
 ---
 

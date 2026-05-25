@@ -342,8 +342,8 @@ flowchart LR
 ```
 
 - **Prerequisite games:** None — this is foundational
-- **Follow-on games:** Evade the Punch, Close-Range Defense
-- **Related concepts:** Defensive Solutions in Striking (Evasion)
+- **Follow-on games:** [Evade the Punch](evade-the-punch.md), [Close-Range Defense](close-range-defense.md)
+- **Related concepts:** [Defensive Solutions in Striking](../concepts/defensive-solutions.md) (Evasion)
 
 ---
 

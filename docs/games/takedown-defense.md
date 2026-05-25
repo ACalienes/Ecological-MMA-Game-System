@@ -293,8 +293,8 @@ flowchart LR
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite games:** Pressure to Clinch (recommended)
-- **Follow-on games:** Open Space Takedown (combined perspective)
+- **Prerequisite games:** [Pressure to Clinch](pressure-to-clinch.md) (recommended)
+- **Follow-on games:** [Open Space Takedown](open-space-takedown.md) (combined perspective)
 - **Related concepts:** DNS
 
 ---

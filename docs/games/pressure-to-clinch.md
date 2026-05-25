@@ -360,9 +360,9 @@ flowchart LR
     style B fill:#4CAF50,color:#fff
 ```
 
-- **Prerequisite:** Touch and Don't Get Touched
-- **Leads to:** Wall Control, Open Space Takedown
-- **Related concepts:** Winning the Circle, Wall Pin
+- **Prerequisite:** [Touch and Don't Get Touched](touch-game.md)
+- **Leads to:** [Wall Control](wall-control.md), [Open Space Takedown](open-space-takedown.md)
+- **Related concepts:** [Winning the Circle](../concepts/winning-the-circle.md), Wall Pin
 
 ---
 
