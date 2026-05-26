@@ -25,18 +25,26 @@ tags:
   - positional-sparring
 ---
 
-# Ground Escape
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/ground-escape.png" alt="Ground Escape">
+  <div class="emma-phero__cap"><span class="k">Ground · Grappling</span><span class="h">Ground Escape</span></div>
+</div>
 
 <div class="emma-meta"><span>Ground</span><span>Grappling</span><span>Defensive</span><span>Intermediate</span><span>Counter</span></div>
 
-Escape from under a dominant position — create space, read the weight, and recover to guard, neutral, or your feet before damage accumulates.
+Escape from under a dominant position before damage accumulates.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>One fighter on bottom under a dominant position, one on top, inside a marked perimeter.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Bottom under a dominant position, inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The bottom is trying to escape to guard, neutral, or standing; the top is trying to maintain the position and prevent the escape.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Bottom escapes to guard, neutral, or standing; top holds and prevents it.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Bottom escapes → switch · Top holds the duration → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Escapes start in the space —<br><span class="accent">go where the weight isn't.</span></p>
+  <p class="emma-statement__sub">Read the pressure, then move. <b>Frames and knees go where the connection is light.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -46,11 +54,11 @@ Escape from under a dominant position — create space, read the weight, and rec
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, on the mat — one on bottom, one on top.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>A dominant top position — side control, mount, or back, set by the level.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One bottom (defender), one top (attacker) — switched when the bottom escapes.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the dominant position; reset there after each round.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one bottom, one top.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>A dominant top position.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One bottom (defender), one top (attacker).</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the dominant position; reset after each round.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -84,10 +92,10 @@ Escape from under a dominant position — create space, read the weight, and rec
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the bottom escapes to guard, reverses, or stands up, the players switch roles.<span class="emma-pop">The bottom breaks free to a safer position — bottom wins and earns the top's maintenance role.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> When the top maintains the dominant position for the set duration, the top wins the round.<span class="emma-pop">Hold the dominant position for the set duration — the top denies the escape.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the top holds for the set duration, reset from the dominant position — same roles.<span class="emma-pop">The round ends and resets from the dominant position, keeping the same roles for another rep.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When a player rolls fully out of the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Bottom escapes, reverses, or stands → switch roles.<span class="emma-pop">The bottom breaks free to a safer position — bottom wins and earns the top's maintenance role.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> Top holds the position for the set duration → top wins.<span class="emma-pop">Hold the dominant position for the set duration — the top denies the escape.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Top holds for the set duration → reset, same roles.<span class="emma-pop">The round ends and resets from the dominant position, keeping the same roles for another rep.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Roll fully out of the perimeter → that player loses.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

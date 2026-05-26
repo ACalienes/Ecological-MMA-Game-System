@@ -26,18 +26,26 @@ tags:
   - high-intensity
 ---
 
-# Positional Battle
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/positional-battle.png" alt="Positional Battle">
+  <div class="emma-phero__cap"><span class="k">Ground · Grappling</span><span class="h">Positional Battle</span></div>
+</div>
 
 <div class="emma-meta"><span>Ground</span><span>Grappling</span><span>Combined</span><span>Intermediate</span><span>Scramble</span></div>
 
-Both players fight for the same prize: a dominant ground position. Win scrambles, climb the hierarchy, and consolidate — no submission focus, just position.
+Both players fight for the same prize: a dominant ground position.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters in a neutral ground position — both in guard or a scramble — inside a marked perimeter.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two in a neutral ground position — guard or scramble — inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Both players are trying to achieve and hold a dominant position while denying the opponent's advancement.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Both achieve and hold a dominant position while denying the opponent's.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Establish dominance for the duration → win · Neither dominates in time → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Momentary position doesn't count —<br><span class="accent">establish it and hold it.</span></p>
+  <p class="emma-statement__sub">A symmetric race up the hierarchy, no submission focus. <b>Win the scramble, then consolidate.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -47,11 +55,11 @@ Both players fight for the same prize: a dominant ground position. Win scrambles
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, on the mat — symmetric roles, both competing for position.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>A neutral ground position — both in guard, or a scramble position, set by the level.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Symmetric — roles don't switch; both players always compete for dominant position.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the neutral position; reset there after a position is held or time runs out.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, on the mat — symmetric roles.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Neutral ground — both in guard, or a scramble, set by the level.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Symmetric — roles don't switch.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin neutral; reset there after a position is held or time runs out.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -85,9 +93,9 @@ Both players fight for the same prize: a dominant ground position. Win scrambles
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> When a player establishes a dominant position (side control, mount, or back) and holds it for the set duration, that player wins.<span class="emma-pop">A stabilized dominant position held for the duration — that player wins the exchange. Roles don't switch; reset and battle again.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When neither player establishes dominance within the time limit, reset from neutral.<span class="emma-pop">If the battle stalls with no clear dominant position, reset from the neutral starting position and run it again.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When a player rolls fully out of the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the exchange instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> Establish a dominant position &amp; hold for the duration → win.<span class="emma-pop">A stabilized dominant position — side control, mount, or back — held for the set duration wins the exchange. Roles don't switch; reset and battle again.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Neither dominates in time → reset from neutral.<span class="emma-pop">If the battle stalls with no clear dominant position, reset from the neutral starting position and run it again.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Roll fully out of the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the exchange instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

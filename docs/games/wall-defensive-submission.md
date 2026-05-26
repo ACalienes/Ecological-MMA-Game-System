@@ -26,18 +26,26 @@ tags:
   - counter
 ---
 
-# Wall Defensive Submission
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/wall-defensive-submission.png" alt="Wall Defensive Submission">
+  <div class="emma-phero__cap"><span class="k">Wall · Grappling</span><span class="h">Wall Defensive Submission</span></div>
+</div>
 
 <div class="emma-meta"><span>Wall</span><span>Grappling</span><span>Defensive</span><span>Advanced</span><span>Counter</span></div>
 
-Turn a defensive wall position into a threat. Pinned against the wall, the defender uses submission threats — guillotine, Kimura, front headlock — to deter control and create escapes. The submission is both weapon and escape tool: it makes the controller's own position dangerous.
+Turn a defensive wall position into a threat — submission as weapon and escape tool.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender pinned against the wall; controller has established wall control.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The defender is trying to threaten or finish a submission; the controller is trying to hold control while staying safe.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Defender threatens or finishes a submission; controller holds control safely.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Submission or threat-to-escape → defender wins, switch · Control held &amp; subs defended → controller wins, reset.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Pinned isn't beaten —<br><span class="accent">make their control dangerous.</span></p>
+  <p class="emma-statement__sub">Guillotine, Kimura, front headlock from the bottom of the pin. <b>The threat creates the escape even when it doesn't finish.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -47,11 +55,11 @@ Turn a defensive wall position into a threat. Pinned against the wall, the defen
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one pinned defender threatening submissions, one controller holding wall control.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Defender pinned against the wall; controller has established wall control.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A wall or cage within a marked perimeter, on mats. The wall position remains the environment throughout.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender threatens or completes submissions from defensive position; controller maintains control while avoiding submission danger.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the pin. Reset when a submission is achieved, defended, or the controller disengages.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one pinned defender, one controller.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Defender pinned against the wall; controller has wall control.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A wall or cage within a marked perimeter, on mats.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender threatens submissions; controller holds control while staying safe.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the pin; reset when a submission lands, is defended, or the controller disengages.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -85,8 +93,8 @@ Turn a defensive wall position into a threat. Pinned against the wall, the defen
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> When the defender completes a submission or uses the threat to escape, the defender wins and roles switch.<span class="emma-pop">A finish or a threat-created escape both count — the submission threat opens space even when it doesn't finish.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Controller</span> When the controller maintains control while defending the submissions for the set duration, the controller wins; reset, same roles.<span class="emma-pop">Hold position and stay out of danger for the full duration — control intact, neck and arms safe.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Complete a submission or use the threat to escape → defender wins, switch.<span class="emma-pop">A finish or a threat-created escape both count — the submission threat opens space even when it doesn't finish.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Controller</span> Hold control &amp; defend subs for the duration → controller wins, reset.<span class="emma-pop">Hold position and stay out of danger for the full set duration — control intact, neck and arms safe; same roles.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

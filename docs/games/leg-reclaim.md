@@ -23,18 +23,26 @@ tags:
   - positional-sparring
 ---
 
-# Leg Reclaim
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/leg-reclaim.png" alt="Leg Reclaim">
+  <div class="emma-phero__cap"><span class="k">Ground · Grappling</span><span class="h">Leg Reclaim</span></div>
+</div>
 
 <div class="emma-meta"><span>Ground</span><span>Grappling</span><span>Defensive</span><span>Intermediate</span><span>Counter</span></div>
 
-Get your legs back between you and the opponent — one level at a time. From mounted to a knee in, from side control to guard, from flattened to feet on hips. Each level reclaims a little control.
+Get your legs back between you and the opponent — one level at a time.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>One fighter on bottom in a compromised position with legs NOT between the players, one on top, inside a marked perimeter.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Bottom compromised with legs NOT between the players, one on top, inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The bottom is trying to get legs or knees between self and opponent; the top is trying to control and prevent the leg recovery.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Bottom gets legs or knees between; top prevents the recovery.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Bottom reaches the next level of separation → reset &amp; continue · Top prevents recovery → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Don't chase the full escape —<br><span class="accent">reclaim one level at a time.</span></p>
+  <p class="emma-statement__sub">Get a knee or foot back between you and them. <b>Each level wins back a little control.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -45,10 +53,10 @@ Get your legs back between you and the opponent — one level at a time. From mo
 
 <div class="emma-setup">
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, on the mat — one on bottom, one on top.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>A compromised bottom position — mounted or side control, legs NOT between the players, set by the level.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One bottom (defender), one top (controller) — roles hold; reset at the new position on a bottom win.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the compromised position; reset at the new level reached, or the same position on a top win.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Compromised bottom — mounted or side control, legs NOT between the players, set by the level.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One bottom (defender), one top (controller) — roles hold.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin compromised; reset at the new level on a bottom win, same position on a top win.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -82,10 +90,10 @@ Get your legs back between you and the opponent — one level at a time. From mo
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Advance</span> When the bottom reaches the next level of leg separation (defined at the start), the bottom wins the rep — reset at the new position and continue.<span class="emma-pop">Half guard, full guard, or feet on hips reached — the bottom advances one level and the game continues from there.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> When the top prevents leg recovery for the set duration or advances position, the top wins the rep.<span class="emma-pop">Deny the recovery for the duration, or advance to a more dominant position — the top wins.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> On a top win, reset at the same position — same roles.<span class="emma-pop">The rep ends and resets from the same compromised position, keeping the same roles.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When a player rolls fully out of the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the rep instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Advance</span> Bottom reaches the next level of separation → reset there &amp; continue.<span class="emma-pop">Half guard, full guard, or feet on hips reached (the level defined at the start) — the bottom advances one level and the game continues from there.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> Top denies recovery for the duration → top wins.<span class="emma-pop">Deny the recovery for the set duration, or advance to a more dominant position — the top wins the rep.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Top wins → reset, same position, same roles.<span class="emma-pop">The rep ends and resets from the same compromised position, keeping the same roles.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Roll fully out of the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the rep instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

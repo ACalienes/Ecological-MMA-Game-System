@@ -25,18 +25,26 @@ tags:
   - positional-sparring
 ---
 
-# Ground Control
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/ground-control.png" alt="Ground Control">
+  <div class="emma-phero__cap"><span class="k">Ground · Grappling</span><span class="h">Ground Control</span></div>
+</div>
 
 <div class="emma-meta"><span>Ground</span><span>Grappling</span><span>Offensive</span><span>Intermediate</span><span>Stabilize</span></div>
 
-Hold a dominant ground position against live escape attempts — control that keeps you on top *without* rushing to finish yet.
+Hold a dominant ground position against live escape attempts.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>One fighter on top in a dominant ground position, one on bottom, inside a marked perimeter.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Top in a dominant ground position, inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The top is trying to hold the position through escapes; the bottom is trying to escape to guard or stand up.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Top holds through escapes; bottom escapes to guard or stands up.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Hold for the duration → switch · Bottom escapes → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Control is weight, not muscle —<br><span class="accent">feel the escape before it leaves.</span></p>
+  <p class="emma-statement__sub">Hold the position without rushing to finish. <b>Anticipate the hips, not the limbs.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -46,11 +54,11 @@ Hold a dominant ground position against live escape attempts — control that ke
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, on the mat — one on top, one on bottom.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>A dominant ground position — side control, mount, or back control, set by the level.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One top (attacker), one bottom (defender) — switched when the top holds the duration.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the dominant position; reset there after each round.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one top, one bottom.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>A dominant ground position.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One top (attacker), one bottom (defender).</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the dominant position; reset after each round.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -84,10 +92,10 @@ Hold a dominant ground position against live escape attempts — control that ke
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the top holds the dominant position for the set duration, the players switch roles.<span class="emma-pop">Hold the dominant position for the set duration (e.g., 30 seconds) — top wins and earns the bottom's escape role.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> When the bottom escapes to guard, stands up, or reverses, the bottom wins the round.<span class="emma-pop">Break free to guard, get back to your feet, or reverse the position — the bottom breaks the control.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the bottom escapes or the top holds for the set duration, reset from the dominant position — same roles.<span class="emma-pop">The round ends and resets from the dominant position, keeping the same roles for another rep.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When a player rolls fully out of the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Top holds for the set duration → switch roles.<span class="emma-pop">Hold the dominant position for the set duration (e.g., 30 seconds) — top wins and earns the bottom's escape role.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> Bottom escapes, stands, or reverses → bottom wins.<span class="emma-pop">Break free to guard, get back to your feet, or reverse the position — the bottom breaks the control.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Bottom escapes or top holds the duration → reset, same roles.<span class="emma-pop">The round ends and resets from the dominant position, keeping the same roles for another rep.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Roll fully out of the perimeter → that player loses.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

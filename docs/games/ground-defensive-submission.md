@@ -25,18 +25,26 @@ tags:
   - counter
 ---
 
-# Ground Defensive Submission
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/ground-defensive-submission.png" alt="Ground Defensive Submission">
+  <div class="emma-phero__cap"><span class="k">Ground · Grappling</span><span class="h">Ground Defensive Submission</span></div>
+</div>
 
 <div class="emma-meta"><span>Ground</span><span>Grappling</span><span>Defensive</span><span>Advanced</span><span>Counter</span></div>
 
-Turn the bottom into a threat. Use submissions to deter top control, create escapes, or finish — making a disadvantaged position dangerous for the player on top.
+Turn the bottom into a threat — submit, escape, or deter the top from a disadvantaged position.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>One fighter on bottom under established top control (side control, mount, or back taken), one on top, inside a marked perimeter.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Bottom under established top control, inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The bottom is trying to threaten or complete a submission; the top is trying to maintain control while avoiding submission danger.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Bottom threatens or completes a submission; top controls while avoiding danger.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Bottom finishes or threatens to escape/reverse → switch · Top controls &amp; defends the duration → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">A bad position isn't a safe one —<br><span class="accent">make the top pay to stay there.</span></p>
+  <p class="emma-statement__sub">Even from underneath, the threat is real. <b>The threat itself buys the escape.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -46,11 +54,11 @@ Turn the bottom into a threat. Use submissions to deter top control, create esca
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, on the mat — one on bottom, one on top.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Bottom under established top control — guard, half guard, side control, mount, or back taken, set by the level.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One bottom (defender), one top (controller) — switched when the bottom finishes or uses the threat to escape/reverse.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the top-control position; reset there after each round.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one bottom, one top.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Bottom under established top control.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One bottom (defender), one top (controller).</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from top control; reset after each round.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -84,10 +92,10 @@ Turn the bottom into a threat. Use submissions to deter top control, create esca
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the bottom completes a submission or uses the threat to escape or reverse, the players switch roles.<span class="emma-pop">A finish, or a threat that buys the escape/reversal — bottom wins and earns the top's control role.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> When the top maintains control while defending submissions for the set duration, the top wins the round.<span class="emma-pop">Hold position and stay safe from submissions for the duration — the top wins.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the submission is defended or the position changes significantly, reset from the top-control position — same roles.<span class="emma-pop">The round ends and resets from the top-control position, keeping the same roles for another rep.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When a player rolls fully out of the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Bottom finishes or threatens to escape/reverse → switch roles.<span class="emma-pop">A finish, or a threat that buys the escape/reversal — bottom wins and earns the top's control role.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> Top controls &amp; defends the duration → top wins.<span class="emma-pop">Hold position and stay safe from submissions for the duration — the top wins.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Submission defended or position shifts significantly → reset, same roles.<span class="emma-pop">The round ends and resets from the top-control position, keeping the same roles for another rep.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Roll fully out of the perimeter → that player loses.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
