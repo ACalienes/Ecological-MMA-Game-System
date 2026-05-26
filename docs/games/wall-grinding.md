@@ -48,6 +48,12 @@ Deal damage from wall control without losing the control — dirty boxing, knees
   <p class="emma-statement__sub">Just holding doesn't count, but neither does winging shots that cost you position. <b>Control AND damage at once.</b></p>
 </div>
 
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through your grips and frames</i> — when the pin feels solid enough to free a hand for a knee or short shot, versus when striking would loosen control. That balance of load at the shoulders and hips specifies <i>when</i> damage is safe — not a fixed combination or a memorized rhythm.</p>

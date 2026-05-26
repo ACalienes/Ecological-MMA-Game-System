@@ -47,6 +47,12 @@ Convert vertical control into horizontal — bring the opponent down from the wa
   <p class="emma-statement__sub">Off-balance first, then descend with connection intact. <b>Control precedes gravity — never dump bodyweight.</b></p>
 </div>
 
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through your grips, and the moment the opponent's base goes</i> — the load through the clinch that tells you their weight is committed and a descent is available, versus when it must be forced. That changing resistance specifies <i>when</i> to go and <i>where</i> the weight wants to fall — not a memorized takedown entry.</p>

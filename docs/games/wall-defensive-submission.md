@@ -48,6 +48,12 @@ Turn a defensive wall position into a threat — submission as weapon and escape
   <p class="emma-statement__sub">Guillotine, Kimura, front headlock from the bottom of the pin. <b>The threat creates the escape even when it doesn't finish.</b></p>
 </div>
 
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through your grips and the controller's posture</i> — where the controller's head and arms sit against your frames, and the moment their control loosens. That changing load specifies <i>which</i> submission is available (head low → guillotine, arm exposed → Kimura) and <i>when</i> the threat opens an escape — not a memorized sequence.</p>

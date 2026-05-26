@@ -48,6 +48,12 @@ Start pinned, shoulders flat to the wall — break free by actively escaping or 
   <p class="emma-statement__sub">Survival doesn't count here. <b>Only an active escape or reversal wins.</b></p>
 </div>
 
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through your frames and grips</i> — the load the attacker's weight places on your shoulders and hips, and especially the <b>moment it slackens</b>. That changing resistance specifies <i>which way</i> to rotate and <i>when</i> the pin can be broken — not the attacker's face or a memorized step.</p>

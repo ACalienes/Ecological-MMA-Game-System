@@ -46,6 +46,13 @@ Manage distance through movement and pressure, then convert pressure into the cl
   <p class="emma-statement__sub">Cut angles to shrink open space, then convert pressure into clinch and clinch into the wall pin. <b>Corral, don't chase.</b></p>
 </div>
 
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚖️</span> 50/50 clinch<span class="emma-chip__detail">Each fighter has one overhook and one underhook (mirror grips, one per side), starting chest to chest — symmetric and neutral. Whoever first wins inside control or the angle gains the advantage.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>global optic flow of closing pressure</i> — how fast the gap is shrinking and which way space is collapsing — plus the <i>rate of closure</i> (τ) on clinch entries. <b>Near</b> distance affords the clinch and offense; <b>far</b> affords escape and defense. Read the <i>shrinking of open space</i>, not the opponent's hands or feet — that information specifies <i>when</i> the pin is on and <i>where</i> the escape lane still lives.</p>

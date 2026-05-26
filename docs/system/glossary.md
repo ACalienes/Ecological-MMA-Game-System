@@ -8,10 +8,18 @@
 
 <div class="emma-cards">
   <div class="emma-card"><div class="emma-card__i">📌</div><div class="emma-card__t">Pin</div><p>A control position where the defender's movement is significantly limited by the attacker's body position and pressure. Distinct from TKO Pin.</p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧱</div><div class="emma-card__t">Wall Pin</div><p>An opponent held to the wall/cage by <b>at least two points of pinning control</b> — hips <i>and</i> upper body rendered immobile and flat.<span class="emma-pop">Distinct from merely pressing them into the wall: if the shoulders can still rotate, it's pressure, not a pin. Two-plus pinning points flatten and immobilize both the hips and the upper body.</span></p></div>
   <div class="emma-card"><div class="emma-card__i">⬆️</div><div class="emma-card__t">Top Control</div><p>Ground position where the attacker is above the defender, managing hips and shoulders.</p></div>
   <a class="emma-card emma-has-pop" href="../../concepts/tko-pin/" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">TKO Pin</div><p>A control <i>state</i> — not just a position — that compromises posture and mobility.<span class="emma-pop">Hips and shoulders meaningfully controlled · posture &amp; mobility compromised · at least one limb free to strike · defender options are high-cost.</span></p></a>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌀</div><div class="emma-card__t">Scramble</div><p>A transition state where control is contested and neither athlete has position.<span class="emma-pop">Outcome depends on hip mobility, base recovery, and positional awareness.</span></p></div>
   <div class="emma-card"><div class="emma-card__i">🚪</div><div class="emma-card__t">Disengagement</div><p>Breaking contact and returning to a neutral position with defensive posture established.</p></div>
+</div>
+
+<p class="emma-glabel">Clinch Positions</p>
+
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤼</div><div class="emma-card__t">Clinch</div><p>A close-range position where fighters control each other with grips — too close to strike freely. <b>Always name the type</b> (50/50, body-lock, collar-tie…).<span class="emma-pop">"Clinch" is a category, not one position — the grip configuration decides who's dominant. So a clinch is never referenced generically; always specify which.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚖️</div><div class="emma-card__t">50/50 Clinch</div><p>Each fighter has <b>one overhook and one underhook</b> (mirror grips, one per side), starting <b>chest to chest</b>. Symmetric and neutral — neither dominant.<span class="emma-pop">Also called the over-under clinch. It's up for grabs: whoever first wins inside control or the angle gains the advantage.</span></p></div>
 </div>
 
 <p class="emma-glabel">Decision States</p>

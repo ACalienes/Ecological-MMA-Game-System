@@ -48,6 +48,12 @@ Deny the clinch before it forms — frames, hand fighting, and movement keep ope
   <p class="emma-statement__sub">Frames, hand fighting, and movement keep open space. <b>Denying connection is far easier than escaping it once locked.</b></p>
 </div>
 
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚖️</span> 50/50 clinch<span class="emma-chip__detail">Each fighter has one overhook and one underhook (mirror grips, one per side), starting chest to chest — symmetric and neutral. Whoever first wins inside control or the angle gains the advantage.</span></span>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>felt frames</i> — the <b>inertial array</b> at the contact: how the attacker's reach and posture load against your hands and forearms as they close — not their eyes or their feet. That haptic information specifies <i>which grip is coming</i> and <i>which way to frame</i> before connection sets.</p>

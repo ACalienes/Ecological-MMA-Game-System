@@ -49,6 +49,12 @@ Chain strikes to wall control — the destination is the wall itself, for dirty 
   <p class="emma-statement__sub">The wall is the destination, not a takedown. <b>Strikes that herd, then grind.</b></p>
 </div>
 
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>rate the open space closes</i> as you cut angles (global optic flow) and the <i>defender's preferred distance</i> — near affords your clinch and grinding, far affords their escape. Read their escape-angle attempts and weight distribution, plus the gap to the wall behind them (with <b>τ</b> on the clinch entry), <b>not</b> their eyes. That information specifies <i>which strike moves them</i> and <i>when wall contact is imminent</i>.</p>

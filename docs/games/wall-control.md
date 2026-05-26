@@ -48,6 +48,12 @@ Teach vertical control — the wall becomes the dominant constraint that organiz
   <p class="emma-statement__sub">A pin is organized structure, not muscle. <b>If their shoulders can turn, it's only pressure.</b></p>
 </div>
 
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation</i> through your grips and frames — the <b>inertial array</b> at the shoulders and hips, plus where the defender's weight wants to escape. That resistance (or its sudden absence) specifies whether the pin is organized or merely pressing — not how hard you are pushing or what their face is doing.</p>

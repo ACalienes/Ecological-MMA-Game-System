@@ -47,6 +47,12 @@ Wall positions cycle rather than resolve — the defender stands and disengages 
   <p class="emma-statement__sub">Each stand-up forces control to be re-earned. <b>Win by living where the cycle favors you.</b></p>
 </div>
 
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through the attacker's grips and the looseness in their control</i> — the moments the load eases as they adjust their grip or shift weight. That changing resistance specifies <i>when</i> to initiate the stand-up and <i>which way</i> to turn — not the attacker's eyes or a fixed count.</p>
