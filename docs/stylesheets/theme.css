@@ -880,3 +880,32 @@ body, .md-typeset {
 .md-typeset a .emma-done-tick {
   display: inline-block; margin-left: 0.4rem; color: var(--good); font-weight: 700; font-size: 0.85em;
 }
+
+/* ============================================================
+   RECALL CHECK (retrieval practice, self-assessed, no JS)
+   ============================================================ */
+.md-typeset .emma-recall { display: grid; gap: 0.6rem; margin: 1.2rem 0; }
+.md-typeset .emma-recall__lead { font-size: 0.86rem; color: var(--fog-dim); margin: 0 0 0.2rem; }
+/* card shell (override the default details/admonition look) */
+.md-typeset .emma-recall details.emma-recall__item {
+  border: 1px solid var(--steel); border-left: 3px solid var(--orange);
+  border-radius: var(--radius-md); background: var(--charcoal); box-shadow: none; padding: 0; margin: 0;
+}
+.md-typeset .emma-recall__item > summary {
+  list-style: none; cursor: pointer; padding: 0.85rem 2.6rem 0.85rem 1.1rem;
+  display: flex; align-items: center; gap: 0.75rem;
+  font-family: var(--font-head); font-size: 0.95rem; color: var(--fog); letter-spacing: 0.01em;
+}
+.md-typeset .emma-recall__item > summary::-webkit-details-marker { display: none; }
+/* hide Material's default details note-icon (the blue ::before) */
+.md-typeset .emma-recall__item > summary::before { display: none; }
+/* real inline Q badge (avoids fighting Material's summary pseudo-elements) */
+.md-typeset .emma-recall__q {
+  flex: 0 0 auto; display: inline-grid; place-items: center; width: 1.55rem; height: 1.55rem; border-radius: 50%;
+  background: var(--orange-glow); color: var(--orange-bright);
+  font-family: var(--font-head); font-size: 0.78rem; line-height: 1;
+}
+.md-typeset .emma-recall__item[open] > summary { border-bottom: 1px solid var(--steel); }
+.md-typeset .emma-recall__item[open] .emma-recall__q { background: var(--orange); color: #fff; }
+.md-typeset .emma-recall__a { padding: 0.85rem 1.1rem 0.95rem 3.4rem; font-size: 0.86rem; color: var(--fog-dim); line-height: 1.5; }
+.md-typeset .emma-recall__a b { color: var(--fog); }

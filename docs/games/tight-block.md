@@ -101,6 +101,28 @@ Absorb strikes behind a tight shell, block only, no parry, no head movement.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, block while denying the grappling entry. Shelling up without posture invites takedowns.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to time the block?</summary>
+    <div class="emma-recall__a">The <b>rate of expansion (τ)</b> of the incoming punch plus the shoulder and hip motion at <b>center mass</b>. Not the opponent's eyes, and not their absolute distance.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The defender may only block: no parry, no head movement. Why strip those away?</summary>
+    <div class="emma-recall__a">The constraint forces the <b>blocking solution to develop on its own</b>. With no escape route, the shell has to organize and hold.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> You can't avoid every shot, so what is the defender actually trying to do?</summary>
+    <div class="emma-recall__a">Make the shots <b>cost nothing</b>: absorb on the guard, stay based, and survive the sequence without getting hit clean.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What breaks the guard under fire, and how do you prevent it?</summary>
+    <div class="emma-recall__a">Getting <b>knocked off balance</b> breaks it, not the damage itself. Bend the knees and create suspension (the "ATV over bumps") so impact is absorbed without getting rocked.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"
