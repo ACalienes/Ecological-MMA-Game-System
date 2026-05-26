@@ -7,6 +7,7 @@ difficulty: intermediate
 duration: medium
 min_players: 2
 equipment: mats
+status: wip
 prerequisites:
   concepts:
     - decision-states
@@ -14,6 +15,7 @@ prerequisites:
     - ground-escape
     - ground-access
 tags:
+  - wip
   - ground
   - combined
   - positional
@@ -30,6 +32,9 @@ tags:
   <img src="../../assets/img/heroes/positional-battle.png" alt="Positional Battle">
   <div class="emma-phero__cap"><span class="k">Ground · Grappling</span><span class="h">Positional Battle</span></div>
 </div>
+
+!!! warning "Provisional (WIP): under re-evaluation"
+    This game is flawed as a standalone game: the ground is inherently asymmetric, so a "symmetric neutral start" was defined three incompatible ways and never clarified where to begin. Decision (2026-05-26): **demote it to a positional-sparring FORMAT** layered on the other ground games, rather than its own game. The live battle is being folded into [Ground Control](ground-control.md) and [Ground Access](ground-access.md) as a live level; this standalone page is slated for retirement. Treat the content below as provisional.
 
 <div class="emma-meta"><span>Ground</span><span>Grappling</span><span>Combined</span><span>Intermediate</span><span>Scramble</span></div>
 
