@@ -64,7 +64,7 @@ It matters most for **advanced striking exchanges**, **clinch initiation**, and 
   <div class="emma-flow__row"><span class="emma-flow__from">All grappling games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Controlling the defender's frames</span></div>
 </div>
 
-<p class="emma-glabel">It Emerges, It Isn't Taught</p>
+<p class="emma-glabel">It Emerges: It Isn't Taught</p>
 
 <p class="emma-hl"><b>Design philosophy:</b> hand control should <b>emerge naturally through constraints</b>, not be forced as a technique. When games constrain options appropriately, hand control appears as a <i>solution</i>, because it solves the problem the game presents.</p>
 

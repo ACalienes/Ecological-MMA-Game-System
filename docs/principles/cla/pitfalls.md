@@ -26,7 +26,7 @@
 
 <p class="emma-glabel">Each Pitfall, In Depth</p>
 
-??? danger "1 · Over-Constraining, forcing behavior rather than inviting it"
+??? danger "1 · Over-Constraining: forcing behavior rather than inviting it"
     <p class="emma-sub">Signs</p>
     <div class="emma-warns">
       <span class="emma-warn">Athletes have no decisions to make</span>
@@ -40,7 +40,7 @@
       <div class="emma-flow__row"><span class="emma-flow__from">Better ✓</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">"Defend my attack, then counter. Points for clean counters." The athlete chooses the defense and counter based on what they perceive.</span></div>
     </div>
 
-??? danger "2 · Under-Constraining, environment too vague"
+??? danger "2 · Under-Constraining: environment too vague"
     <p class="emma-sub">Signs</p>
     <div class="emma-warns">
       <span class="emma-warn">Athletes don't know what to focus on</span>
@@ -54,7 +54,7 @@
       <div class="emma-flow__row"><span class="emma-flow__from">Better ✓</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">"Spar with a focus on creating angles after your opponent attacks. Points for landing while off the center line."</span></div>
     </div>
 
-??? danger "3 · Low Representative Design, practice doesn't transfer"
+??? danger "3 · Low Representative Design: practice doesn't transfer"
     <p class="emma-sub">Signs</p>
     <div class="emma-warns">
       <span class="emma-warn">Techniques work in training, fail in fights</span>
@@ -68,7 +68,7 @@
       <div class="emma-flow__row"><span class="emma-flow__from">Better ✓</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Attacker can shoot anytime within a round; may or may not shoot. Defender must read the level change and react.</span></div>
     </div>
 
-??? danger "4 · 'Game is the Teacher' Misinterpretation, coach too passive"
+??? danger "4 · 'Game is the Teacher' Misinterpretation: coach too passive"
     <p class="emma-sub">Signs</p>
     <div class="emma-warns">
       <span class="emma-warn">Vague practice without purpose</span>
@@ -88,7 +88,7 @@
       <li>Create progressions that challenge and develop</li>
     </ul>
 
-??? danger "5 · Ignoring Individual Differences, one-size-fits-all"
+??? danger "5 · Ignoring Individual Differences: one-size-fits-all"
     <p class="emma-sub">Signs</p>
     <div class="emma-warns">
       <span class="emma-warn">Same drills for all athletes</span>
@@ -110,7 +110,7 @@
       <div class="emma-card"><div class="emma-card__i">📈</div><div class="emma-card__t">Learning stage</div><p>Coordination vs. adaptability.</p></div>
     </div>
 
-??? danger "6 · Eliminating All Instruction, misunderstanding CLA"
+??? danger "6 · Eliminating All Instruction: misunderstanding CLA"
     <p class="emma-sub">Signs</p>
     <div class="emma-warns">
       <span class="emma-warn">Athletes have no context</span>
@@ -126,7 +126,7 @@
       <div class="emma-card"><div class="emma-card__i">🚫</div><div class="emma-card__t">Not good</div><p>"When they do X, you must do Y." · "Your elbow needs to be at this angle." · "Execute the technique exactly like this."</p></div>
     </div>
 
-??? danger "7 · Abandoning Structure, chaos isn't CLA"
+??? danger "7 · Abandoning Structure: chaos isn't CLA"
     <p class="emma-sub">Signs</p>
     <div class="emma-warns">
       <span class="emma-warn">No session intention</span>
@@ -144,7 +144,7 @@
       <li><b>Connected</b>, build on previous sessions</li>
     </ul>
 
-??? danger "8 · Misunderstanding Variability, randomness without purpose"
+??? danger "8 · Misunderstanding Variability: randomness without purpose"
     <p class="emma-sub">Signs</p>
     <div class="emma-warns">
       <span class="emma-warn">Constant change with no rationale</span>
@@ -179,7 +179,7 @@
       <div class="emma-card"><div class="emma-card__i">🔢</div><div class="emma-card__t">Limited options</div><p>…but the whole decision process.</p></div>
     </div>
 
-??? danger "10 · Neglecting Affective Design, looks like competition, doesn't feel like it"
+??? danger "10 · Neglecting Affective Design: looks like competition, doesn't feel like it"
     <p class="emma-sub">Signs</p>
     <div class="emma-warns">
       <span class="emma-warn">Perform well in training, freeze in competition</span>

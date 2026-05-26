@@ -29,7 +29,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔄</div><div class="emma-card__t">Counter</div><p><i>"Can I escape or reverse?"</i>, deny the opponent's exploitation.<span class="emma-pop">The defensive phase: defending strikes, escaping positions, reversing control, standing up. Success returns you to Access.</span></p></div>
 </div>
 
-<p class="emma-glabel">Access, The Entry Phase</p>
+<p class="emma-glabel">Access: The Entry Phase</p>
 
 <p class="emma-hl"><b>"Can I get to them?"</b> Getting where you need to be: closing striking distance, establishing clinch, completing a takedown, passing guard, achieving mount.</p>
 
@@ -38,7 +38,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/touch-game/">Touch &amp; Don't Get Touched</a> · <a href="../../games/pressure-to-clinch/">Pressure to Clinch</a> · <a href="../../games/ground-access/">Ground Access</a></span></div>
 </div>
 
-<p class="emma-glabel">Stabilize, The Control Phase</p>
+<p class="emma-glabel">Stabilize: The Control Phase</p>
 
 <p class="emma-hl"><b>"Can I hold this?"</b> Making your position stick. Without stabilization, access is temporary and exploitation is impossible: establish grips/hooks, kill hips, control posture, prevent frames.</p>
 
@@ -47,7 +47,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a> · <a href="../../games/ground-control/">Ground Control</a> · position maintenance in any game</span></div>
 </div>
 
-<p class="emma-glabel">Exploit, The Finish Phase</p>
+<p class="emma-glabel">Exploit: The Finish Phase</p>
 
 <p class="emma-hl"><b>"Can I finish from here?"</b> Where control becomes damage or finish, the purpose of Access and Stabilize: striking from dominant position, submission attempts, ground and pound, TKO accumulation.</p>
 
@@ -56,7 +56,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/sustained-offense/">Sustained Offense</a> · <a href="../../games/wall-grinding/">Wall Grinding</a> · ground finishing via <a href="../../games/ground-control/">Ground Control</a> + Submission</span></div>
 </div>
 
-<p class="emma-glabel">Counter, The Defensive Phase</p>
+<p class="emma-glabel">Counter: The Defensive Phase</p>
 
 <p class="emma-hl"><b>"Can I escape or reverse?"</b> What happens on the wrong side of the exchange, defending strikes, escaping positions, reversing control, standing up from bottom. Success returns you to Access (your own, or neutral).</p>
 

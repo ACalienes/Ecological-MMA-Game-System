@@ -139,8 +139,8 @@ Match the evasion to the punch, slip straights, duck hooks. Head movement only.
     <p class="emma-sub">What the defender reads</p>
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual, path</div><p>Straight vs. arcing trajectory; extended vs. bent elbow → slip or duck.</p></div>
-      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Visual, timing</div><p>Shoulder rotation &amp; weight shift → when to move and which hand.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual: path</div><p>Straight vs. arcing trajectory; extended vs. bent elbow → slip or duck.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Visual: timing</div><p>Shoulder rotation &amp; weight shift → when to move and which hand.</p></div>
       <div class="emma-card"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Proprioceptive</div><p>Own head position &amp; balance → execution and recovery readiness.</p></div>
     </div>
 

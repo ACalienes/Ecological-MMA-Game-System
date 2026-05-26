@@ -25,7 +25,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌍</div><div class="emma-card__t">Environmental</div><p>Global features external to the task.<span class="emma-pop">Physical, social, and historical conditions, the broad context the task sits inside.</span></p></div>
 </div>
 
-??? note "Individual constraints, examples & MMA specifics"
+??? note "Individual constraints: examples & MMA specifics"
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Physical</b>, height, weight, limb length, flexibility</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Reach advantage, weight class, body type</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Psychological</b>, cognitions, emotions, motivation, intentions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Fight IQ, aggression management, mental toughness</span></div>
@@ -33,7 +33,7 @@
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Biological</b>, genes, fatigue, injury status</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Recovery capacity, injury history</span></div>
     </div>
 
-??? note "Task constraints, examples & MMA specifics"
+??? note "Task constraints: examples & MMA specifics"
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Task goals</b>, score, win, learn technique</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Win by KO, survive round, work takedown defense</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Rules</b>, competition regulations</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Unified rules, organization-specific rules</span></div>
@@ -42,7 +42,7 @@
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Temporal</b>, time limits, round duration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Round length, rest periods</span></div>
     </div>
 
-??? note "Environmental constraints, examples & MMA specifics"
+??? note "Environmental constraints: examples & MMA specifics"
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Physical</b>, temperature, altitude, surface, lighting</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Arena conditions, mat texture, humidity</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Social</b>, cultural expectations, team dynamics</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Gym culture, corner communication</span></div>
@@ -93,7 +93,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔊</div><div class="emma-card__t">Acoustic</div><p>Corner instructions, crowd, impacts.<span class="emma-pop">Adjusting strategy mid-fight.</span></p></div>
 </div>
 
-??? abstract "The specific invariants, what actually specifies the affordance"
+??? abstract "The specific invariants: what actually specifies the affordance"
 
     Modalities are the *channels*; the information they carry is a set of **higher-order invariants**. Ecological psychology shows perception detects these directly, there is nothing to "compute, " only something to attune to (Blau &amp; Wagman, 2022, p. 82). Three named invariants matter most for combat sports:
 

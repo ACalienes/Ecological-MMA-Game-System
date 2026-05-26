@@ -71,7 +71,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Green</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Consolidate, end well</span></div>
 </div>
 
-<p class="emma-glabel">RLD Assessment, Quick Check</p>
+<p class="emma-glabel">RLD Assessment: Quick Check</p>
 
 <ul class="emma-checklist">
   <li>Are relevant information sources present?</li>
@@ -118,7 +118,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌊</div><div class="emma-card__t">Adaptability</div><p>Refining, flexible, stable.<span class="emma-pop"><b>Coach focus:</b> challenge with variability, stress-test.</span></p></div>
 </div>
 
-<p class="emma-glabel">Common Pitfalls, Quick Diagnostic</p>
+<p class="emma-glabel">Common Pitfalls: Quick Diagnostic</p>
 
 <div class="emma-flow">
   <div class="emma-flow__row"><span class="emma-flow__from">No exploration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Over-constraining · loosen constraints</span></div>

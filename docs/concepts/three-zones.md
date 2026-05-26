@@ -62,7 +62,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Protect legs (checking, weight shifted)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Head and body open</span></div>
 </div>
 
-<p class="emma-glabel">Guard Positions, Every One Is a Trade</p>
+<p class="emma-glabel">Guard Positions: Every One Is a Trade</p>
 
 <p class="emma-hl">There is no guard that protects all three zones. Every stance is a choice about what to prioritize and what to leave vulnerable. <b>When you see an opponent's guard, you're seeing their priorities, and their holes.</b></p>
 
@@ -78,7 +78,7 @@
 
 <p class="emma-hl">The best combinations don't just throw multiple strikes, early strikes <b>shape the defensive response</b> to open the target you actually want. The last strike is the plan; everything before it is setup.</p>
 
-<p class="emma-sub">When you attack a zone, the defender reacts, opening another</p>
+<p class="emma-sub">When you attack a zone, the defender reacts: opening another</p>
 
 <div class="emma-flow">
   <div class="emma-flow__row"><span class="emma-flow__from">Attack head</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Hands up, chin tucked → body, legs open</span></div>

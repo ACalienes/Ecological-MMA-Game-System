@@ -65,7 +65,7 @@
 
 <p class="emma-glabel">Technique Tags</p>
 
-??? note "🥊 Striking, Offense"
+??? note "🥊 Striking: Offense"
 
     <div class="emma-chips">
       <span class="emma-chip emma-chip--info" tabindex="0"><code>jab</code><span class="emma-chip__detail">Lead hand straight punch.</span></span>
@@ -82,7 +82,7 @@
       <span class="emma-chip emma-chip--info" tabindex="0"><code>elbow</code><span class="emma-chip__detail">Elbow strike.</span></span>
     </div>
 
-??? note "🛡️ Striking, Defense"
+??? note "🛡️ Striking: Defense"
 
     <div class="emma-chips">
       <span class="emma-chip emma-chip--info" tabindex="0"><code>parry</code><span class="emma-chip__detail">Deflecting strikes with the hands.</span></span>
@@ -173,7 +173,7 @@
   <div class="emma-card"><div class="emma-card__i">💨</div><div class="emma-card__t">Evade the Punch</div><p>Striking · Defensive · Intermediate</p></div>
 </div>
 
-<p class="emma-sub">Open Space, Striking</p>
+<p class="emma-sub">Open Space: Striking</p>
 
 <div class="emma-cards">
   <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Touch and Don't Get Touched</div><p>Striking · Combined · Beginner</p></div>
@@ -181,7 +181,7 @@
   <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Land the Target</div><p>Striking · Offensive · Intermediate</p></div>
 </div>
 
-<p class="emma-sub">Open Space, Wrestling</p>
+<p class="emma-sub">Open Space: Wrestling</p>
 
 <div class="emma-cards">
   <div class="emma-card"><div class="emma-card__i">➡️</div><div class="emma-card__t">Pressure to Clinch</div><p>Wrestling · Combined · Beginner</p></div>

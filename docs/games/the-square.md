@@ -29,7 +29,7 @@ tags:
   <div class="emma-phero__cap"><span class="k">Progression · Mixed (Striking → Grappling)</span><span class="h">The Square, Close Defense to Takedown Progression</span></div>
 </div>
 
-!!! warning "Provisional (WIP), derived from class recording 2026-05-25"
+!!! warning "Provisional (WIP): derived from class recording 2026-05-25"
     This game was captured live from a class and is **pending review on the platform**.
     Name and structure may change. Remove the WIP status once confirmed.
 

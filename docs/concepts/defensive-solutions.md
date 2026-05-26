@@ -47,7 +47,7 @@ The four categories are functionally distinct but **not mutually exclusive**, mo
 
 ??? note "What about countering?"
 
-    <p class="emma-sub">Countering is sometimes proposed as a fifth defensive solution. In this system it is not, it's an <b>offensive response</b>, not a defence in itself.</p>
+    <p class="emma-sub">Countering is sometimes proposed as a fifth defensive solution. In this system it is not: it's an <b>offensive response</b>, not a defence in itself.</p>
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">A defence succeeds</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">block / parry / evade / enter lands first</span></div>
@@ -56,7 +56,7 @@ The four categories are functionally distinct but **not mutually exclusive**, mo
 
     <p class="emma-hl">A counter only exists <b>after</b> one of the four defences has succeeded, so countering is not listed as a primary defensive category.</p>
 
-<p class="emma-glabel">No Universal Best, Context Decides</p>
+<p class="emma-glabel">No Universal Best: Context Decides</p>
 
 <p class="emma-hl"><b>No defensive solution is universally superior.</b> The system teaches athletes to <b>select</b>, not memorise, their defence.</p>
 

@@ -74,11 +74,11 @@ flowchart TD
     style PC2 fill:#FF9800, color:#fff
 ```
 
-<p class="emma-glabel">Find by Training Goal, Defense</p>
+<p class="emma-glabel">Find by Training Goal: Defense</p>
 
 === "Against Punches"
 
-    <p class="emma-sub">Beginner, start here</p>
+    <p class="emma-sub">Beginner: start here</p>
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Deflect punches with the hands</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/parry-the-straight/">Parry the Straight</a></span></div>
@@ -86,7 +86,7 @@ flowchart TD
       <div class="emma-flow__row"><span class="emma-flow__from">Absorb on a tight guard</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/tight-block/">Tight Block</a></span></div>
     </div>
 
-    <p class="emma-sub">Intermediate, build on foundations</p>
+    <p class="emma-sub">Intermediate: build on foundations</p>
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Match evasion to punch type</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/evade-the-punch/">Evade the Punch</a></span></div>
@@ -107,7 +107,7 @@ flowchart TD
       <div class="emma-flow__row"><span class="emma-flow__from">Get up when taken down near the wall</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/standup-loop/">Stand-Up Loop</a></span></div>
     </div>
 
-<p class="emma-glabel">Find by Training Goal, Offense</p>
+<p class="emma-glabel">Find by Training Goal: Offense</p>
 
 === "Striking"
 
@@ -129,7 +129,7 @@ flowchart TD
       <div class="emma-flow__row"><span class="emma-flow__from">Transition pin to ground control</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-to-ground/">Wall Pin to Ground</a></span></div>
     </div>
 
-<p class="emma-glabel">Find by Training Goal, Fundamentals &amp; Integration</p>
+<p class="emma-glabel">Find by Training Goal: Fundamentals &amp; Integration</p>
 
 === "Fundamentals"
 
@@ -152,9 +152,9 @@ flowchart TD
 <p class="emma-glabel">Find by Time Available</p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Short, 15–20 min</div><p>Pick <b>one</b> game, work levels 1–3: a skill-isolation game (Parry, Slip, Block, Evade), Touch Game, or Pressure to Clinch.<span class="emma-pop">One focused problem, repeated cleanly, beats spreading thin across many games.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏳</div><div class="emma-card__t">Medium, 30–45 min</div><p>Pair <b>two</b> related games and let one feed the other.<span class="emma-pop">Skill Isolation → Close-Range Defense · Touch Game → Pressure to Clinch · Wall Control → Wall Escape.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🕐</div><div class="emma-card__t">Full, 60+ min</div><p>Run a full <b>pathway</b> from isolation to integration.<span class="emma-pop">Skill Isolation → Close-Range Defense → Land the Target · Touch Game → Pressure to Clinch → Wall Control · Wall Control → Wall Escape → Wall to Ground.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Short: 15–20 min</div><p>Pick <b>one</b> game, work levels 1–3: a skill-isolation game (Parry, Slip, Block, Evade), Touch Game, or Pressure to Clinch.<span class="emma-pop">One focused problem, repeated cleanly, beats spreading thin across many games.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏳</div><div class="emma-card__t">Medium: 30–45 min</div><p>Pair <b>two</b> related games and let one feed the other.<span class="emma-pop">Skill Isolation → Close-Range Defense · Touch Game → Pressure to Clinch · Wall Control → Wall Escape.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🕐</div><div class="emma-card__t">Full: 60+ min</div><p>Run a full <b>pathway</b> from isolation to integration.<span class="emma-pop">Skill Isolation → Close-Range Defense → Land the Target · Touch Game → Pressure to Clinch → Wall Control · Wall Control → Wall Escape → Wall to Ground.</span></p></div>
 </div>
 
 <p class="emma-glabel">Find by Equipment</p>

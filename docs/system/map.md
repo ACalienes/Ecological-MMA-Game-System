@@ -65,7 +65,7 @@ flowchart LR
 
 ---
 
-<p class="emma-glabel">🏗️ Foundation, Skill Isolation</p>
+<p class="emma-glabel">🏗️ Foundation: Skill Isolation</p>
 
 Skills developed in isolation before integration into live fighting.
 
@@ -215,7 +215,7 @@ Horizontal grappling. You arrive via takedown or knockdown.
 
 ---
 
-<p class="emma-glabel">The Complete Cycle, In &amp; Out</p>
+<p class="emma-glabel">The Complete Cycle: In &amp; Out</p>
 
 Every position has a way IN and a way OUT.
 

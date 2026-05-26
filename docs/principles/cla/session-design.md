@@ -12,19 +12,19 @@
 <p class="emma-glabel">The GROW Model</p>
 
 <div class="emma-flow">
-  <div class="emma-flow__row"><span class="emma-flow__from">G, Goal</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What is the intention for this session? <i>Establish primary focus.</i></span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">R, Reality</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Where is the athlete now? <i>Assess current skill level.</i></span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">O, Options</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What activities will bridge the gap? <i>Select practice environments.</i></span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">W, Way Forward</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">How will you implement? <i>Plan delivery and preparation.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">G: Goal</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What is the intention for this session? <i>Establish primary focus.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">R: Reality</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Where is the athlete now? <i>Assess current skill level.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">O: Options</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What activities will bridge the gap? <i>Select practice environments.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">W: Way Forward</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">How will you implement? <i>Plan delivery and preparation.</i></span></div>
 </div>
 
 <p class="emma-glabel">GROW: The Detail</p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">G, Goal</div><p>The intention for the session and how it links to the overall goal.<span class="emma-pop"><b>Ask:</b> What is the goal/intention for this session? How does it link to the overall goal? What is the focus for learning?<br><b>Consider:</b> align coach &amp; athlete intentions · connect to long-term development · identify the "rate limiter."</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📍</div><div class="emma-card__t">R, Reality</div><p>Where the athlete is now and what affordances to design in.<span class="emma-pop"><b>Ask:</b> What is the current skill level (Coordination or Adaptability)? What affordances need to be designed-in? Which? Why? When?<br><b>Assess</b> via observation, video, performance data, across physical, technical, tactical, psychological factors.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧩</div><div class="emma-card__t">O, Options</div><p>The activities and constraints that bridge the gap.<span class="emma-pop"><b>Ask:</b> What practice activities bridge the gap? Which practice environment? What constraints, and how will you manipulate them? How will you measure performance?</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🚀</div><div class="emma-card__t">W, Way Forward</div><p>How you prepare and deliver.<span class="emma-pop"><b>Ask:</b> How will you prepare the practice environment? How will you prepare the performers? Anything else needed to be ready?<br><b>Prepare:</b> physical setup · mental framing · cultural environment (values, beliefs, climate).</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">G: Goal</div><p>The intention for the session and how it links to the overall goal.<span class="emma-pop"><b>Ask:</b> What is the goal/intention for this session? How does it link to the overall goal? What is the focus for learning?<br><b>Consider:</b> align coach &amp; athlete intentions · connect to long-term development · identify the "rate limiter."</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📍</div><div class="emma-card__t">R: Reality</div><p>Where the athlete is now and what affordances to design in.<span class="emma-pop"><b>Ask:</b> What is the current skill level (Coordination or Adaptability)? What affordances need to be designed-in? Which? Why? When?<br><b>Assess</b> via observation, video, performance data, across physical, technical, tactical, psychological factors.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧩</div><div class="emma-card__t">O: Options</div><p>The activities and constraints that bridge the gap.<span class="emma-pop"><b>Ask:</b> What practice activities bridge the gap? Which practice environment? What constraints, and how will you manipulate them? How will you measure performance?</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🚀</div><div class="emma-card__t">W: Way Forward</div><p>How you prepare and deliver.<span class="emma-pop"><b>Ask:</b> How will you prepare the practice environment? How will you prepare the performers? Anything else needed to be ready?<br><b>Prepare:</b> physical setup · mental framing · cultural environment (values, beliefs, climate).</span></p></div>
 </div>
 
 <p class="emma-glabel">Success Criteria (under Options)</p>
@@ -56,12 +56,12 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Green Zone</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>Consolidation</b>, lock in the pattern, end the session positively</span></div>
 </div>
 
-??? info "Why this pattern, functional noise, and hysteresis"
+??? info "Why this pattern: functional noise, and hysteresis"
     The "productive instability" of the amber zone is what ecological psychology calls <b>functional noise</b> (Blau &amp; Wagman, 2022, p. 242–243). Noise is not error: it constantly perturbs the system and is precisely what lets the "ball" escape a <i>shallow, local</i> attractor (a comfortable-but-suboptimal habit) and settle into a <i>deeper, better</i> one. In one study, <i>added noise made participants more likely to discover the efficient strategy</i> (p. 243). The amber zone is therefore deliberate, useful perturbation, not chaos to be avoided.
 
     The <b>GREEN → AMBER → GREEN</b> flow also respects <b>hysteresis</b> (p. 250): a system's current state depends on its <i>history/trajectory</i>, not just present conditions. A pattern entered under amber-zone pressure persists, so the order in which you pass through the zones matters, you cannot treat a session as path-independent. (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
 
-<p class="emma-glabel">Scaling Difficulty, The Two Dials</p>
+<p class="emma-glabel">Scaling Difficulty: The Two Dials</p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📡</div><div class="emma-card__t">Representativeness Dial (RLD)</div><p>1 → 10. Low = modified, simplified. High = full competition.<span class="emma-pop">How closely practice samples the information of the competition environment. Turn it up to demand more competition-like reading and pressure.</span></p></div>
@@ -98,7 +98,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎚️</div><div class="emma-card__t">Attuning</div><p>Calibrating to a specific environment/opponent.<span class="emma-pop">Very high RLD (specific simulation) · green zone · familiarization · confidence building · used pre-competition.</span></p></div>
 </div>
 
-<p class="emma-glabel">Session Debrief, Five Questions</p>
+<p class="emma-glabel">Session Debrief: Five Questions</p>
 
 <ol class="emma-checklist">
   <li><b>What were the goals and expectations?</b> Intended affordances · success criteria.</li>

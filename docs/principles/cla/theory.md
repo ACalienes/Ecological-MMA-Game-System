@@ -41,7 +41,7 @@
   <div class="emma-card"><div class="emma-card__i">📐</div><div class="emma-card__t">Newell</div><p>The constraints model.</p></div>
 </div>
 
-??? note "James Gibson (1904–1979), Affordances & perception-action coupling"
+??? note "James Gibson (1904–1979): Affordances & perception-action coupling"
 
     !!! quote "Key Work"
         Gibson, J.J. (1979). *The Ecological Approach to Visual Perception.* Houghton Mifflin.
@@ -58,7 +58,7 @@
 
     <p class="emma-hl"><b>For MMA:</b> Fighters directly perceive opportunities to strike, take down, or submit based on opponent positioning, they don't calculate these opportunities, they see them.</p>
 
-??? note "Nikolai Bernstein (1896–1966), Degrees of freedom & dexterity"
+??? note "Nikolai Bernstein (1896–1966): Degrees of freedom & dexterity"
 
     !!! quote "Key Work"
         Bernstein, N.A. (1967). *The Co-ordination and Regulation of Movements.* Pergamon Press.
@@ -75,7 +75,7 @@
 
     <p class="emma-hl"><b>For MMA:</b> A beginner freezes their hips when punching (reducing complexity). An expert exploits hip rotation for power (using the freed degrees of freedom).</p>
 
-??? note "Scott Kelso (b. 1947), Coordination dynamics"
+??? note "Scott Kelso (b. 1947): Coordination dynamics"
 
     !!! quote "Key Work"
         Kelso, J.A.S. (1995). *Dynamic Patterns: The Self-Organization of Brain and Behavior.* MIT Press.
@@ -101,7 +101,7 @@
 
     <p class="emma-hl"><b>Why this matters for the nonlinearity claim:</b> "minor rule changes revolutionize styles" is precise once framed as a control-parameter-driven phase transition past a critical value (HKB, p. 250). A rule change shifts a control parameter; past its critical threshold the attractor layout reorganizes abruptly, falsifiable and designable rather than mystical. See the <a href="../ecological-psychology/index/">Ecological Psychology</a> section.</p>
 
-??? note "Michael Turvey (b. 1942), Action systems"
+??? note "Michael Turvey (b. 1942): Action systems"
 
     !!! quote "Key Work"
         Turvey, M.T. (1990). Coordination. *American Psychologist, 45*(8), 938–953.
@@ -115,7 +115,7 @@
 
     <p class="emma-hl"><b>For MMA:</b> A takedown defense involves both intra-individual coordination (sprawl mechanics) and inter-individual coordination (timing relative to the opponent's shot).</p>
 
-??? note "Karl Newell (b. 1945), The constraints model"
+??? note "Karl Newell (b. 1945): The constraints model"
 
     !!! quote "Key Work"
         Newell, K.M. (1986). Constraints on the development of coordination. In M.G. Wade &amp; H.T.A. Whiting (Eds.), *Motor Development in Children* (pp. 341–360). Martinus Nijhoff.

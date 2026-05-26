@@ -42,7 +42,7 @@
 
 <p class="emma-hl">If you change <b>≥2 of these</b>, it's probably a <b>new game</b>: environment · entry condition · win condition · roles · primary decision state.</p>
 
-<p class="emma-glabel">Example 1, One Game, Three Levels</p>
+<p class="emma-glabel">Example 1: One Game, Three Levels</p>
 
 The Wall Stand-Up progression is a **single game** with **three levels**, the environment, roles, and core decision (escape vs maintain) stay constant.
 
@@ -52,7 +52,7 @@ The Wall Stand-Up progression is a **single game** with **three levels**, the en
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Stand-up + reversal</b>Highest difficulty.<span class="emma-pop emma-pop--l">Same problem, top standard, stand, escape, and turn the tables.</span></div>
 </div>
 
-<p class="emma-glabel">Example 2, Two Different Games</p>
+<p class="emma-glabel">Example 2: Two Different Games</p>
 
 Wall Control and Wall Escape are **two different games**, not levels, the roles, goals, and decision states are inverted.
 

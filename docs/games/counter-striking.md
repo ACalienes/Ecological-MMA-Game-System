@@ -150,8 +150,8 @@ Offense as defense, wait, read the lead, punish it with a timed counter.
     <p class="emma-sub">What the counter-striker reads</p>
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual, initiation</div><p>Weight shift &amp; shoulder rotation → attack initiation detection.</p></div>
-      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Visual, window</div><p>Trajectory, timing &amp; recovery position → select counter type and timing.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual: initiation</div><p>Weight shift &amp; shoulder rotation → attack initiation detection.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Visual: window</div><p>Trajectory, timing &amp; recovery position → select counter type and timing.</p></div>
       <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own balance and positioning → counter execution readiness.</p></div>
     </div>
 

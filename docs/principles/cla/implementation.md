@@ -18,7 +18,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Source of solutions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Facilitator of discovery</span></div>
 </div>
 
-??? quote "The house-building philosophy, give rules, not a blueprint"
+??? quote "The house-building philosophy: give rules, not a blueprint"
     The single best one-line articulation of the coach's role comes from the self-organizing house-building robots (Blau &amp; Wagman, 2022, p. 284): give the contractors <b>a list of rules and let them adapt to local circumstances</b>, rather than a single rigid blueprint, <i>"the houses will be far more adapted to their circumstances… and you (the divine architect) will have to do a lot less work."</i> The coach supplies local rules (constraints); the fighting style self-organizes. (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
 
 <p class="emma-glabel">Five Questions for Constraint Manipulation</p>
@@ -65,7 +65,7 @@
   <span class="emma-warn emma-has-pop" tabindex="0">Position, "Keep your hands at chin level"<span class="emma-pop">Poor cue, internal, mechanical.</span></span>
 </div>
 
-<p class="emma-glabel">Feedback, Types</p>
+<p class="emma-glabel">Feedback: Types</p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📋</div><div class="emma-card__t">Knowledge of Results (KR)</div><p>After attempts, outcome information: "That landed", "You escaped".<span class="emma-pop">Tells the athlete <b>what happened</b> as an outcome.</span></p></div>
@@ -77,7 +77,7 @@
 ??? note "Feedback serves *calibration*"
     What feedback (KR/KP, questioning, and especially <i>fading feedback over time</i>) is actually tuning is <b>calibration</b>, the learner's mapping between the detected information and the scaled response (Blau &amp; Wagman, 2022, p. 206). Calibration is <i>how to use</i> a perceived invariant correctly (how hard to commit given this τ, how much to redirect given this felt resistance). Reducing feedback over time forces the athlete to own that mapping. Crucially, <b>calibration is action-mode-specific and does not transfer</b> (see Transfer Assessment below). (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
 
-<p class="emma-glabel">Feedback, Frequency</p>
+<p class="emma-glabel">Feedback: Frequency</p>
 
 <div class="emma-flow">
   <div class="emma-flow__row"><span class="emma-flow__from">Beginner</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>More frequent</b>, need guidance, can't self-assess well</span></div>
@@ -94,7 +94,7 @@
   <div class="emma-card"><div class="emma-card__i">🌱</div><div class="emma-card__t">Why it works</div><p>Develops the athlete's perception · builds self-assessment · promotes ownership of solutions · creates knowledge OF through reflection.</p></div>
 </div>
 
-<p class="emma-glabel">Assessment, What to Measure</p>
+<p class="emma-glabel">Assessment: What to Measure</p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🏁</div><div class="emma-card__t">Outcome</div><p>Success rate, win/loss.<span class="emma-pop"><b>Methods:</b> competition results, drill completion.</span></p></div>
@@ -103,7 +103,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">➡️</div><div class="emma-card__t">Transfer</div><p>Competition performance.<span class="emma-pop"><b>Methods:</b> match analysis vs. training performance.</span></p></div>
 </div>
 
-<p class="emma-glabel">Observation Framework, What to Watch For</p>
+<p class="emma-glabel">Observation Framework: What to Watch For</p>
 
 <ol class="emma-checklist">
   <li><b>Search behaviors</b>, is the athlete exploring options?</li>
@@ -117,7 +117,7 @@
 
 <p class="emma-hl"><b>Key question:</b> does training performance transfer to competition? Do not assume, test it.</p>
 
-??? warning "Transfer is mode-specific and fragile, do not assume it"
+??? warning "Transfer is mode-specific and fragile: do not assume it"
     The deepest reason to <i>test</i> transfer rather than assume it: ecological psychology shows that calibration and affordance-perception <b>do not transfer across action modes</b> (Blau &amp; Wagman, 2022, p. 160, 206). Infants who learned which slopes afforded safe <i>crawling</i> started over "from zero" when they began <i>walking</i>, the information is entirely different (different limbs, optic flow, base of support). Subjects calibrated to an optic-flow drift while <i>walking</i> did <b>not</b> carry that calibration to <i>throwing or kicking</i>. <b>Implication for our library:</b> a fighter who has learned to read τ for <i>striking</i> defense has <b>not</b> thereby learned to read τ for <i>takedown</i> defense. Build <b>separate learning paths per action mode</b> and <b>verify transfer empirically</b>, this is exactly why phase-scaffolding (striking → clinch → takedown) works: it re-educates attention at each new mode rather than assuming carry-over. (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
 
 <div class="emma-flow">
@@ -149,7 +149,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Unproductive frustration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>RED zone</b>, leads to shutdown or regression; tighten constraints. Verbally acknowledge the challenge.</span></div>
 </div>
 
-<p class="emma-glabel">The Five Ws, Quick Reference</p>
+<p class="emma-glabel">The Five Ws: Quick Reference</p>
 
 <div class="emma-cards">
   <div class="emma-card"><div class="emma-card__i">📦</div><div class="emma-card__t">WHAT</div><p>Task / Individual / Environment.</p></div>

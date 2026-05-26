@@ -26,7 +26,7 @@ This text provides the methodological framework for our entire system. Its four 
 
 <p class="emma-glabel">Foundational Theorists</p>
 
-??? quote "James J. Gibson (1904–1979), Ecological psychology, affordances, direct perception"
+??? quote "James J. Gibson (1904–1979): Ecological psychology, affordances, direct perception"
 
     <p class="emma-sub">Key work</p>
 
@@ -48,7 +48,7 @@ This text provides the methodological framework for our entire system. Its four 
       <li>Training maintains the perception-action link (no isolated drilling)</li>
     </ul>
 
-??? quote "Nikolai Bernstein (1896–1966), Motor coordination, degrees of freedom, dexterity"
+??? quote "Nikolai Bernstein (1896–1966): Motor coordination, degrees of freedom, dexterity"
 
     <p class="emma-sub">Key work</p>
 
@@ -71,7 +71,7 @@ This text provides the methodological framework for our entire system. Its four 
       <li>Variability is built into practice (repetition without repetition)</li>
     </ul>
 
-??? quote "Scott Kelso (b. 1947), Coordination dynamics, self-organization, phase transitions"
+??? quote "Scott Kelso (b. 1947): Coordination dynamics, self-organization, phase transitions"
 
     <p class="emma-sub">Key work</p>
 
@@ -94,7 +94,7 @@ This text provides the methodological framework for our entire system. Its four 
       <li>Productive instability (amber zone) is necessary for learning</li>
     </ul>
 
-??? quote "Karl Newell (b. 1945), Constraints model for motor development"
+??? quote "Karl Newell (b. 1945): Constraints model for motor development"
 
     <p class="emma-sub">Key work</p>
 
@@ -118,7 +118,7 @@ This text provides the methodological framework for our entire system. Its four 
       <li>Individual differences are respected (not one-size-fits-all)</li>
     </ul>
 
-??? quote "Michael Turvey (b. 1942), Action systems, ecological realism"
+??? quote "Michael Turvey (b. 1942): Action systems, ecological realism"
 
     <p class="emma-sub">Key works</p>
 

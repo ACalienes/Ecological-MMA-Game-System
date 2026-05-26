@@ -47,7 +47,7 @@ The most MMA-relevant finding in ecological psychology is that **the same lawful
 
 <p class="emma-hl">Win conditions should reward reading the opponent's affordances, e.g., recognizing the instant the opponent's stance affords <b>them</b> a shot, not just executing your own offense.</p>
 
-<p class="emma-glabel">Two Preferred Distances, and the Dead Middle</p>
+<p class="emma-glabel">Two Preferred Distances: and the Dead Middle</p>
 
 The combat-sport gem: in kendo, competitors settle into **two preferred interpersonal distances** and **avoid the middle that affords neither** (Blau &amp; Wagman, 2022, p. 188–189). A **near** range affords *offense*; a **far** range affords *defense*; the neutral middle affords nothing useful and is a trap. A fighter's choice to step in or out is driven by **perceived affordances for striking that opponent**. More-experienced competitors spend **more** time in the near (offensive) range because they can enter striking position faster.
 
@@ -69,7 +69,7 @@ Perceiving an opponent's affordances is **learned by watching them move**, but o
   <div class="emma-card"><div class="emma-card__i">🚫</div><div class="emma-card__t">Irrelevant motion</div><p>Feints that <em>don't</em> share force dynamics with a real threat carry no affordance information, train athletes to discount them.</p></div>
 </div>
 
-<p class="emma-glabel">Social Synergies, Break the Rhythm</p>
+<p class="emma-glabel">Social Synergies: Break the Rhythm</p>
 
 The two-fighter dyad **self-organizes into a synergy that spans both people**, the same in-phase/anti-phase dynamics that govern a single body (Blau &amp; Wagman, 2022, p. 186–188). People rocking in chairs synchronize *unintentionally* when they can see each other; people walking together fall into a shared gait. Fighters fall into rhythm with an opponent the same way.
 

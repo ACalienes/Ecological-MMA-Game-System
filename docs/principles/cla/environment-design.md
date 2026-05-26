@@ -55,7 +55,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Avoid</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Over-constraining (forcing vs. inviting)</span></div>
 </div>
 
-!!! tip "The outlet analogy, a good constraint affords, it does not prescribe"
+!!! tip "The outlet analogy: a good constraint affords, it does not prescribe"
     Ecological psychology gives the cleanest test for a good constraint (Blau &amp; Wagman, 2022, p. 271). Compare two ways to wire a building:
 
     <div class="emma-cards">
@@ -126,8 +126,8 @@
 <p class="emma-sub">Task simplification vs. task decomposition</p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">✅</div><div class="emma-card__t">Simplification, preferred</div><p>Scale difficulty while keeping the task whole.<span class="emma-pop">Maintains perception-action coupling, preserves essential information flows. Example: smaller cage, slower pace.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚠️</div><div class="emma-card__t">Decomposition, problematic</div><p>Break the task into isolated parts.<span class="emma-pop">Decouples perception from action, removes context and information. Example: shadow boxing without a target.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">✅</div><div class="emma-card__t">Simplification: preferred</div><p>Scale difficulty while keeping the task whole.<span class="emma-pop">Maintains perception-action coupling, preserves essential information flows. Example: smaller cage, slower pace.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚠️</div><div class="emma-card__t">Decomposition: problematic</div><p>Break the task into isolated parts.<span class="emma-pop">Decouples perception from action, removes context and information. Example: shadow boxing without a target.</span></p></div>
 </div>
 
 <p class="emma-hl"><b>Key distinction:</b> Simplification keeps the task intact but adjusts difficulty. Decomposition breaks the task apart, destroying the perception-action relationship.</p>
@@ -158,7 +158,7 @@
 
 <p class="emma-hl"><b>"Practice is a particular type of repetition without repetition."</b> <i>, Bernstein, 1967.</i> Repeat the <b>process of solving problems</b>, not identical movements. Design-in the appropriate amount of variability and (in)stability.</p>
 
-!!! example "Variability is the feature, not the bug, the infant-walking robot tournament"
+!!! example "Variability is the feature, not the bug: the infant-walking robot tournament"
     The strongest evidence that *variable* practice beats *regular* practice comes from a simulation tournament (Blau &amp; Wagman, 2022, p. 169–170). Robots trained on highly **variable** infant-walking paths were pitted against robots trained on **regular**, repetitive paths in a 4,000-game tournament. The variable-trained robots won **2,888 to 75**. Variability does not degrade the skill, it builds the adaptable, degenerate system that copes with novelty. See the [Ecological Psychology](../ecological-psychology/index.md) section.
 
 <p class="emma-sub">Types of practice variability</p>
@@ -169,7 +169,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧍</div><div class="emma-card__t">Individual variability</div><p>Varying performer state.<span class="emma-pop">Fatigued, fresh, stressed.</span></p></div>
 </div>
 
-??? note "Sources of variability, how to implement"
+??? note "Sources of variability: how to implement"
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Task goals</b>, vary objectives</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Submit vs. survive vs. control</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><b>Rules</b>, modify regulations</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No takedowns, no striking</span></div>

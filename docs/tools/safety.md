@@ -37,7 +37,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔴</div><div class="emma-card__t">Maximum Cap · 80%</div><p>Never exceed in training games.<span class="emma-pop">Even advanced athletes stay under 80% in ecological games, beyond it, learning gives way to survival and risk.</span></p></div>
 </div>
 
-<p class="emma-glabel">Red Flags, Stop Immediately</p>
+<p class="emma-glabel">Red Flags: Stop Immediately</p>
 
 <div class="emma-warns">
   <span class="emma-warn emma-has-pop" tabindex="0">Brute force without technique<span class="emma-pop">Indicates the <b>constraints are mis-set</b>, the game is rewarding strength over skill.</span></span>

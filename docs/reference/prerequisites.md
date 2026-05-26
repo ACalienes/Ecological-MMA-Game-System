@@ -4,7 +4,7 @@
 
 <p class="emma-hl"><b>How games connect.</b> Every game has an entry point and a path forward, this map shows the prerequisites, the chains they form, and the concepts each game leans on.</p>
 
-<p class="emma-glabel">Entry Points, No Prerequisites</p>
+<p class="emma-glabel">Entry Points: No Prerequisites</p>
 
 Start here. These games ask nothing before you play them.
 

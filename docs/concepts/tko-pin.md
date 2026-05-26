@@ -81,7 +81,7 @@ flowchart LR
   <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/standup-loop/">Stand-Up Loop</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Attacker win condition</span></div>
 </div>
 
-<p class="emma-glabel">Related Concept, DNS</p>
+<p class="emma-glabel">Related Concept: DNS</p>
 
 <p class="emma-hl"><b>Defensive Neck Submissions (DNS)</b> are the primary defensive counter to TKO pin attempts, they keep attackers honest, and are allowed in all games where TKO pin is relevant.</p>
 

@@ -41,8 +41,8 @@ tags:
 <p class="emma-glabel">The Two Perspectives</p>
 
 <div class="emma-cards">
-  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Outside, Pressuring</div><p>Escape routes shrinking · their movement turns predictable · you hold centre while they near the boundary · you dictate range &amp; timing.<br><b>Success:</b> opponent reaches the boundary with limited options → clinch → wall pin.</p></div>
-  <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Inside, Escaping</div><p>You keep access to open space · you move laterally without being cut off · you control when &amp; where engagements happen · they chase instead of cutting angles.<br><b>Success:</b> return to centre, reset distance, regain freedom.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Outside: Pressuring</div><p>Escape routes shrinking · their movement turns predictable · you hold centre while they near the boundary · you dictate range &amp; timing.<br><b>Success:</b> opponent reaches the boundary with limited options → clinch → wall pin.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Inside: Escaping</div><p>You keep access to open space · you move laterally without being cut off · you control when &amp; where engagements happen · they chase instead of cutting angles.<br><b>Success:</b> return to centre, reset distance, regain freedom.</p></div>
 </div>
 
 <p class="emma-glabel">The "Circle" Is Available Space</p>
@@ -65,7 +65,7 @@ Fighters who consistently win the circle control the fight's geography, tactical
   <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Win it defending</div><p>You choose when to engage · you strike and move freely · you avoid being trapped · you deny their game plan.</p></div>
 </div>
 
-<p class="emma-glabel">Winning vs. Losing, A Continuous Battle</p>
+<p class="emma-glabel">Winning vs. Losing: A Continuous Battle</p>
 
 The circle can be won and lost many times in a single exchange. It is a continuous battle, not a single event.
 
@@ -76,15 +76,15 @@ The circle can be won and lost many times in a single exchange. It is a continuo
   <div class="emma-flow__row"><span class="emma-flow__from">You set the terms</span><span class="emma-flow__arr">vs</span><span class="emma-flow__to">Opponent sets the terms</span></div>
 </div>
 
-??? warning "Key insight, winning the fight ≠ winning the circle"
+??? warning "Key insight: winning the fight ≠ winning the circle"
 
     <p class="emma-hl">You can be "winning" a fight (landing strikes, scoring points) while <i>losing</i> the circle. If the opponent is steadily taking space, your options shrink even as you land shots. Eventually it catches up, you end up pinned to the cage or taken down.</p>
 
 <p class="emma-glabel">How to Win It</p>
 
 <div class="emma-cards">
-  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Outside, Pressure</div><p>Cut angles, don't chase, move where they're going · use feints &amp; strikes as pressure without overcommitting · keep composure &amp; structure · recognise when clinch is available, then convert.</p></div>
-  <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Inside, Escape</div><p>Move early, before space closes · circle laterally instead of backing up · strike to create space · recognise early when you're losing, awareness beats panic.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Outside: Pressure</div><p>Cut angles, don't chase, move where they're going · use feints &amp; strikes as pressure without overcommitting · keep composure &amp; structure · recognise when clinch is available, then convert.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Inside: Escape</div><p>Move early, before space closes · circle laterally instead of backing up · strike to create space · recognise early when you're losing, awareness beats panic.</p></div>
 </div>
 
 <p class="emma-glabel">Developed Through Games</p>
