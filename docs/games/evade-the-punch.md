@@ -104,6 +104,24 @@ Match the evasion to the punch, slip straights, duck hooks. Head movement only.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, evade while denying the grappling entry, staying aware of all threats.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What tells you whether to slip or duck?</summary>
+    <div class="emma-recall__a">The <b>path</b> of the punch read via the elbow at <b>center mass</b>: arm stays straight means slip, elbow bends and the arm arcs means duck. Not the eyes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why is the defender held to head movement only, no block or parry?</summary>
+    <div class="emma-recall__a">With <b>no fallback</b>, the evasion solutions have to explore and develop on their own instead of leaning on the guard.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does using the wrong evasion get you hit?</summary>
+    <div class="emma-recall__a">Each evasion only beats one path: a <b>slip won't beat a hook</b>. The skill is recognizing punch type first, then committing. One correct evasion beats ten wrong ones.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

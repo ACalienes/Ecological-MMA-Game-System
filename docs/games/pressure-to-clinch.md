@@ -113,6 +113,28 @@ Manage distance through movement and pressure, then convert pressure into the cl
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full MMA expression</b>Full contact; takedowns allowed.<span class="emma-pop emma-pop--l">Full striking contact and takedowns from the clinch. Attacker wins by wall pin or takedown; defender can counter-strike to create escape windows. The complete transition under MMA reality.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the attacker reading to drive the pressure?</summary>
+    <div class="emma-recall__a">The <b>global optic flow of closing pressure</b> (how fast the gap shrinks and which way space collapses) plus the <b>rate of closure (τ)</b> on clinch entries. Read the shrinking of open space, not the opponent's hands or feet.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Pressure isn't pushing. What is it, and what's the difference between cutting and chasing?</summary>
+    <div class="emma-recall__a">Pressure is <b>collapsing their space</b>. Cutting angles corrals the opponent and shrinks escape lanes; chasing just reacts to their movement. Corral, don't chase.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What do near vs. far distance each afford?</summary>
+    <div class="emma-recall__a"><b>Near affords the clinch and offense</b>; <b>far affords escape and defense</b>. The distance you keep specifies when the pin is on and where the escape lane still lives.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does reversing the attacker to the wall side count as a defender win?</summary>
+    <div class="emma-recall__a">The clinch must come from a <b>controlling position</b>. Rewarding the reversal <b>prevents reckless clinch entries</b>: a forced, off-balance entry gets punished.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

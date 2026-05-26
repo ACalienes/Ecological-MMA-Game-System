@@ -110,6 +110,28 @@ A full-sequence offensive game: chain strikes, distance closure, and takedowns i
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full expression</b>Both strike freely; DNS allowed.<span class="emma-pop emma-pop--l">Both players strike freely; the attacker chains strikes to takedowns, the defender can counter or disengage. DNS allowed defensively.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Where does the takedown sit in the sequence, and what makes it appear?</summary>
+    <div class="emma-recall__a">It is the <b>end of the chain</b>, never the entry: strikes open the closure, closure becomes the shot. The takedown <b>emerges from pressure</b>, it is never forced.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know when closure and the shot are available?</summary>
+    <div class="emma-recall__a">The <b>rate the distance closes</b> as strikes land (global optic flow) and the defender's <b>preferred distance</b>, near affords your clinch and shot, far affords their escape. Plus the level-change opening, with <b>τ</b> on the shot entry. Not the eyes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the cost of aggressive forward motion?</summary>
+    <div class="emma-recall__a">The more aggressive the forward motion, the more <b>open you are to the defender's counter</b>. Closure must be paid for, so it has to be set up with strikes and feints, not bulled through.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> As the defender with no win state, what does success look like, and how do hand position trade-offs work?</summary>
+    <div class="emma-recall__a">Success is <b>each layer defended in turn</b>: strikes, closure, clinch, takedown, scramble. <b>Hands closer</b> defend strikes better but make closure harder to stop; <b>hands further out</b> disrupt closure and takedowns but leave you open to strikes.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

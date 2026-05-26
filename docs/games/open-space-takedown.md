@@ -105,6 +105,28 @@ Takedowns from a connected position with no wall, more escape routes, and DNS th
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA expression</b>Light strikes permitted.<span class="emma-pop emma-pop--l">Light strikes during clinch and ground phases; the attacker can use strikes to set up takedowns, the defender to create scrambles. Control under realistic striking threat.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What must be true before you descend, and what are you reading to know it?</summary>
+    <div class="emma-recall__a">The defender's <b>base must be compromised before descent</b>. Read their <b>weight displacement and hip position by feel</b>, near and off-balance affords your finish, recovered base affords their escape. Not the eyes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why are DNS threats at their most dangerous in this game?</summary>
+    <div class="emma-recall__a">There is <b>no wall to brace against</b>, so the neck is always live. Over-commitment or poor head position lets the defender hunt a <b>front headlock or guillotine</b>, which is a win condition here.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What separates a clean takedown from a forced one?</summary>
+    <div class="emma-recall__a">A clean finish flows from a <b>compromised base</b>: weight displaced, hips controlled, descent controlled to <b>top control</b>. A forced takedown is muscled through strength, and it over-commits and invites the guillotine.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> As the defender, when do you hunt the DNS?</summary>
+    <div class="emma-recall__a">The moment the <b>attacker's posture breaks</b>: actively go for the front headlock or guillotine off poor head position and over-commitment, rather than only defending the base.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

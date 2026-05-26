@@ -112,6 +112,28 @@ Deal damage from wall control without losing the control, dirty boxing, knees an
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Ground option opens.<span class="emma-pop emma-pop--l">Attacker may transition to ground if advantageous; defender may shoot to escape. Focus: wall fighting under full MMA options.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know when it is safe to free a hand and strike?</summary>
+    <div class="emma-recall__a">The <b>felt resistance to rotation</b> through your grips and frames: when the pin feels <b>solid enough to free a hand</b> for a knee or short shot, versus when striking would loosen control. Not a fixed combination or memorized rhythm.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Holding isn't the win here, so what is, and what is the failure on either side of it?</summary>
+    <div class="emma-recall__a"><b>Control AND damage at once</b>: sustained output, multiple clean strikes, while the <b>wall pin</b> holds. If damage drops, control is too tight; if control drops, you over-committed to strikes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why must you grind economically?</summary>
+    <div class="emma-recall__a"><b>Grinding is work.</b> Spend energy on openings that actually exist, not on muscling shots that cost you position and gas you out.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What distinguishes this game from Wall to Ground?</summary>
+    <div class="emma-recall__a">You <b>stay on the wall</b>: no transition to the ground. The whole focus is dirty boxing, knees, and grinding from the standing pin.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

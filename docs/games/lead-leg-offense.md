@@ -98,6 +98,24 @@ Develop the lead leg as a weapon. The attacker may *only* use the lead leg, teep
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the lead leg under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What opening are you reading off your lead-leg probes?</summary>
+    <div class="emma-recall__a">Not where the guard <b>is</b>, but where it <b>goes</b> when you threaten a level. Read the shell and weight shift, then the τ of your committing teep or round kick.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does the lead leg demand range management more than the lead hand?</summary>
+    <div class="emma-recall__a">Each tool <b>lives at its own range</b>: closer for round kicks, further for teeps. Wrong distance and the kick whiffs or never reaches.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why restrict the attacker to only the lead leg?</summary>
+    <div class="emma-recall__a">It forces <b>range management and variety</b> with the fastest, lowest-commitment kicking tool: teep, round kick, side kick across head, body, and legs.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

@@ -109,6 +109,28 @@ Change the domain to defend, time reactive clinch entries and level changes that
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Striker sprawls and continues.<span class="emma-pop emma-pop--l">The striker can sprawl and keep striking; the counter-wrestler must complete the wrestling. Domain change under <a href="../../concepts/full-mma-expression/">full MMA</a> resistance.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What opens the window to enter, and what are you reading to find it?</summary>
+    <div class="emma-recall__a">The <b>rate of closure (τ)</b> of the striker's <b>committed strike</b>: the forward commitment and balance shift as they extend on a shot. Not their eyes, not a count of exchanges.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why must the entry be reactive, never a preemptive shoot?</summary>
+    <div class="emma-recall__a">The skill is recognizing <b>when wrestling beats staying in the exchange</b>. Timing the entry off the opponent's commitment uses their offense against them; a preplanned shoot trains nothing about reading.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The whole point is not to trade strikes, so what are you trying to do instead?</summary>
+    <div class="emma-recall__a"><b>Change the domain.</b> Establish a clinch or complete a takedown, turning the striker's offense into your wrestling, rather than striking back.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> When do you favor a clinch entry over a level change?</summary>
+    <div class="emma-recall__a"><b>Forward pressure invites a clinch</b>; a <b>committed power shot opens a level change underneath</b>. Read which the striker gives you.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

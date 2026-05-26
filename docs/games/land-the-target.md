@@ -106,6 +106,28 @@ Land one declared target by reading the defense and opening it with setup and mi
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA expression</b>Counters plus clinch denial.<span class="emma-pop emma-pop--l">The defender adds clinch to deny your offense. Land the target under realistic MMA pressure, counters and clinch both live.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What opening are you actually reading?</summary>
+    <div class="emma-recall__a">Not where the guard <b>is</b>, but where it <b>goes</b> when you make it move. Read the defender's guard reactions to your probes, then the τ of your committing shot.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does a single declared target make this harder, not easier?</summary>
+    <div class="emma-recall__a">You only win on that <b>one chosen shot</b>, so offense becomes a read-and-setup problem, not volume. You must earn the opening with misdirection.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why can the defender not counter, and why do they have no win condition?</summary>
+    <div class="emma-recall__a">Removing the counter-threat lets the attacker focus on <b>reading patterns and building setups</b>. The defender succeeds by denying openings and forcing the work.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the cycle that should precede every committed shot?</summary>
+    <div class="emma-recall__a"><b>Probe, read, setup, commit.</b> Probes gather info; the target is the goal. Intent separates the two, not the technique itself.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

@@ -110,6 +110,28 @@ Layer block, parry, and dodge in the pocket, learning *when* to use *which*.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, defend strikes while denying the grappling entry. Shelling up without posture invites takedowns.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What tells you which defense the strike calls for?</summary>
+    <div class="emma-recall__a">The <b>rate of expansion (τ)</b> and path of each strike, read via shoulder and hip motion at <b>center mass</b>: shoulder is the punch line, hip is power and kicks. Not the eyes, not absolute distance.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why is the defender barred from exiting the pocket?</summary>
+    <div class="emma-recall__a">It kills the <b>footwork-escape habit</b> and forces real defensive selection: block, parry, or dodge in place instead of running.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why do the tools (block, parry, dodge, counter) unlock one level at a time?</summary>
+    <div class="emma-recall__a">So each is <b>layered in</b>, not dumped at once. The defender builds <b>degeneracy</b>: multiple solutions for similar problems, picking the one the shot calls for.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the trade-off when you dodge instead of block?</summary>
+    <div class="emma-recall__a">Going <b>offline with the head</b> can open a counter, but more offline means more <b>exposed to significant strikes</b>. Hands close defend better; hands out counter better.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

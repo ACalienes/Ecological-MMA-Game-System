@@ -98,6 +98,28 @@ Land the rear hand alone, cross, rear hook, rear uppercut, forcing you to build 
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the rear hand under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The opening you read isn't where the guard is. Where is it?</summary>
+    <div class="emma-recall__a">It's where the guard <b>goes when you make it move</b>. You read the defender's reactions to your feints and level changes, then commit the cross to that opening.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> With no jab to hide behind, how do you create the opening for the rear hand?</summary>
+    <div class="emma-recall__a">You <b>build your own entries</b>: feint to draw a reaction, change levels to open targets, and manage distance for power. The power shot must earn its own opening.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The defender has no win condition. What does their success look like, and what is a whiffed shot?</summary>
+    <div class="emma-recall__a">Defender success is <b>quality of defense</b>: making you work for every opening. A whiff or blocked shot is <b>information, not a loss</b>: reset and re-run the probe, read, setup, commit cycle.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why must you maintain striking range, not drift out?</summary>
+    <div class="emma-recall__a">The rear hand <b>travels further</b> and needs power. Holding striking range keeps it viable with a proper entry; drifting out kills the power and telegraphs the lunge.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

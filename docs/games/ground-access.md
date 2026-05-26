@@ -108,6 +108,28 @@ Pass the guard to a dominant position against an active bottom.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Add ground strikes for both.<span class="emma-pop emma-pop--l">Top can use ground strikes to open the guard; bottom can strike from guard. Guard passing under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What information tells you the guard is about to open?</summary>
+    <div class="emma-recall__a">The <b>felt weight distribution and base through contact</b>: your posts loading and unloading, grips going light or tight, plus the bottom's <b>hip and frame motion</b>. Not the opponent's limbs in isolation.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The goal is the pass, not the submission. Why draw that line?</summary>
+    <div class="emma-recall__a"><b>Access comes before control.</b> Isolating the pass develops active, complete passing instead of rushing a finish before the position is even secured.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> When does a pass actually count?</summary>
+    <div class="emma-recall__a">When the dominant position is <b>established and stabilized</b>, not just touched momentarily. You must re-load weight to hold it before the guard recovers.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What gets the top swept mid-pass, and how do you prevent it?</summary>
+    <div class="emma-recall__a">Losing the <b>connection to the bottom's hips</b>. Control the hips before passing so the pass completes rather than feeding a sweep.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

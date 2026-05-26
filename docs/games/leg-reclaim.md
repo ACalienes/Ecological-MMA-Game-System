@@ -105,6 +105,28 @@ Get your legs back between you and the opponent, one level at a time.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Top can strike from position.<span class="emma-pop emma-pop--l">Top can strike from position; bottom must time recovery around the ground-and-pound. Leg reclaim under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Don't chase the full escape. What is the actual goal?</summary>
+    <div class="emma-recall__a">Get a <b>knee or foot back between you and them, one level at a time</b>. Each level wins back a little control: trapped, half, full, feet on hips, distance.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What information shows you where the next level opens?</summary>
+    <div class="emma-recall__a">The <b>felt weight and pressure through contact</b>: where the top's base loads, which knee or hip is pinned, where the connection goes <b>light enough to insert a knee</b>, plus the top's hip and frame motion.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does any leg recovery count as a win?</summary>
+    <div class="emma-recall__a">Multiple success paths keep the focus on <b>separation, not a single technique</b>. Half guard, full guard, or feet on hips all count, so you progress incrementally.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the key mechanic the whole game turns on?</summary>
+    <div class="emma-recall__a">Getting the <b>knee inside</b> before the top re-pins, driven by an efficient hip escape. If the knee never gets inside, recovery stalls.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

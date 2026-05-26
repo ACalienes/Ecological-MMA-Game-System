@@ -99,6 +99,24 @@ Develop the lead hand as a weapon. The attacker may *only* use the lead hand, ja
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the lead hand under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What opening are you reading off your lead-hand probes?</summary>
+    <div class="emma-recall__a">Not where the guard <b>is</b>, but where it <b>goes</b> when you threaten a zone. Read the shell's reactions to probes and feints, then the τ of your committing jab or lead hook.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why lock the attacker to a single tool?</summary>
+    <div class="emma-recall__a">The constraint forces <b>timing, feints, and target variety</b> to emerge: the lead hand isn't just a jab. Creativity grows inside the limit.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What does variety within the lead hand actually look like?</summary>
+    <div class="emma-recall__a">Jab head, <b>jab body</b>, lead hook, lead uppercut, feint any of them, double or triple up, change rhythm. Different tools and levels, one hand.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

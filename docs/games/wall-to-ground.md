@@ -111,6 +111,28 @@ Convert vertical control into horizontal, bring the opponent down from the wall 
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Strikes throughout.<span class="emma-pop emma-pop--l">Light strikes throughout the transition, attacker to set up and maintain control, defender during the scramble window. Wall-to-ground under realistic striking pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know when to descend and where the weight wants to fall?</summary>
+    <div class="emma-recall__a">The <b>felt resistance to rotation</b> through your grips and <b>the moment the opponent's base goes</b>: the load through the clinch that tells you their weight is committed and a descent is available, versus when it must be forced. Not a memorized takedown entry.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The takedown isn't the point. What is, and what is the safety-critical rule?</summary>
+    <div class="emma-recall__a">The <b>controlled descent</b> is. <b>Control precedes gravity</b>: off-balance first, then descend with connection intact. Never dump bodyweight or momentum to force it.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the scramble window, and what does each player do with it?</summary>
+    <div class="emma-recall__a">The contested period during the transition where both have opportunities. The <b>attacker shortens it</b> and lands in control; the <b>defender exploits it</b>, using the wall to stand, attacking a dropping head with a DNS, or beating the attacker to control.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What counts as the attacker's win, and how is it different from a TKO pin?</summary>
+    <div class="emma-recall__a"><b>Hip and shoulder control held 2 to 3 seconds</b>: the defender can't easily stand or reverse. This is <b>control, not yet dominance</b>, a lower threshold than a TKO pin.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

@@ -112,6 +112,28 @@ Turn a defensive wall position into a threat, submission as weapon and escape to
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Controller strikes.<span class="emma-pop emma-pop--l">Controller can strike during wall control; defender must time submissions around the strikes. Focus: defensive submissions under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Pinned against the wall, what tells you which submission is available?</summary>
+    <div class="emma-recall__a">The <b>felt resistance to rotation and the controller's posture</b>: head low specifies a <b>guillotine</b>, an exposed arm specifies a <b>Kimura</b>. You read the changing load, not a memorized sequence.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Pinned isn't beaten. What is the threat for?</summary>
+    <div class="emma-recall__a">To make their control <b>dangerous</b>. The threat creates the escape even when it doesn't finish, so it works as both a weapon and an escape tool.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What actually defines a wall pin you are attacking from?</summary>
+    <div class="emma-recall__a">At least <b>two points of pinning control</b>, hips and upper body held flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is being measured to know the skill has formed?</summary>
+    <div class="emma-recall__a">The <b>press to pin-or-escape phase transition</b>: whether the controller keeps shoulders and hips pinned flat vs. free to rotate. The skill has formed when threats reliably loosen control and open escapes.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

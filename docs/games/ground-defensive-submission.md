@@ -107,6 +107,28 @@ Turn the bottom into a threat, submit, escape, or deter the top from a disadvant
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Top can use ground strikes.<span class="emma-pop emma-pop--l">Top can use ground strikes; bottom must time submissions around the ground-and-pound. Bottom submissions under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> From the bottom, what tells you a submission has opened?</summary>
+    <div class="emma-recall__a">The <b>felt weight and pressure through contact</b>: where the top's posture breaks, which limb extends or posts, where connection goes light, plus the top's <b>head and hip motion</b>. It opens before the top re-postures.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> A bad position is not a safe one. What does the bottom actually do with that?</summary>
+    <div class="emma-recall__a">Make the top <b>pay to stay there</b>. Even when it does not finish, the <b>threat itself buys the escape</b> or improves position.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The position hierarchy still holds, so what is the real decision?</summary>
+    <div class="emma-recall__a">The <b>risk-reward of submission vs. escape</b>. Top stays generally advantageous, so prioritize escape unless the sub is high percentage, you are confident, escapes are exhausted, or the position is about to get worse anyway.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why must attacks fit the position?</summary>
+    <div class="emma-recall__a">To keep selection <b>reality-based</b>: guard offers the most options, under mount offers very few. No fantasy techniques, only what the position genuinely affords.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

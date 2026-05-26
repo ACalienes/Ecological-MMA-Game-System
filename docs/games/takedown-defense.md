@@ -104,6 +104,28 @@ Stop the shot and get back to neutral, denial, not ground escape.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Strike and sprawl.<span class="emma-pop emma-pop--l">The defender can strike and sprawl; the attacker must shoot through the strike threat. Takedown defense under <a href="../../concepts/full-mma-expression/">full MMA pressure</a>.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know when the shot arrives and when to sprawl?</summary>
+    <div class="emma-recall__a">The <b>rate of closure (τ)</b> of the level change or shot: the <b>hip and level drop</b> as the attacker commits. Not their feet, not their eyes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does this game end the moment the takedown completes?</summary>
+    <div class="emma-recall__a">It trains <b>denial, not ground escape</b>. The skill is stopping the shot and getting back to neutral standing, not recovering from a finished takedown.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Beyond the sprawl, what tools does the defender have, and what does the DNS punish?</summary>
+    <div class="emma-recall__a"><b>Whizzer, crossface, and frames</b> off the sprawl, then a clean disengage. The <b>guillotine or front headlock (DNS)</b> punishes <b>poor head position</b> on the shot.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What does a good sprawl actually do?</summary>
+    <div class="emma-recall__a"><b>Hips back, weight down on the attacker</b>, meeting the shot in time. Then choose: fight the position or disengage to neutral. A late sprawl means you get driven back.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

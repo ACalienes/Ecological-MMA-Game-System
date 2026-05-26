@@ -114,6 +114,28 @@ Chain strikes to wall control, the destination is the wall itself, for dirty box
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA expression</b>Counter, clinch, or shoot.<span class="emma-pop emma-pop--l">The defender can counter, clinch, or shoot; the attacker must reach the wall while managing all threats. Wall pressure under MMA reality.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the destination of this game, and why does that matter?</summary>
+    <div class="emma-recall__a">The <b>wall itself</b>, not the ground. You herd them there for <b>dirty boxing and grinding</b>, not a takedown. This is what separates it from Pressure to Takedown.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know which strike moves them and when wall contact is imminent?</summary>
+    <div class="emma-recall__a">The <b>rate the open space closes</b> as you cut angles (global optic flow), the defender's <b>preferred distance</b>, their escape-angle attempts and weight, plus the <b>gap to the wall behind them</b> (with τ on the clinch entry). Not the eyes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the difference between strikes that move them and strikes that just hit them?</summary>
+    <div class="emma-recall__a">Purposeful strikes <b>herd the defender toward the wall</b>, cutting angles to close space. Just hitting is volume that does not change position. The diagnostic is whether the strikes move them.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why can't the defender simply keep backing up, and what should they do instead?</summary>
+    <div class="emma-recall__a">The <b>wall exists</b>: back-up alone runs them into it. They must <b>circle and create angles before being trapped</b>, and if they reach the wall, escape or reverse, plus counter to discourage the pressure.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

@@ -107,6 +107,28 @@ Keep striking through the defender's counters, escapes, and clinches, continue, 
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA expression</b>Counter, move, clinch, OR shoot.<span class="emma-pop emma-pop--l">The defender adds the takedown threat. Sustain offense under MMA reality with all interruptions live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> How should you read the defender's counter, movement, or clinch?</summary>
+    <div class="emma-recall__a">Each defensive move is itself a <b>read that opens the next strike</b>. The rhythm is a <b>chain of openings</b>, not a single one: read the guard shift, then commit the next shot to where it goes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> One shot and stop loses. What actually wins the exchange?</summary>
+    <div class="emma-recall__a"><b>Sustaining the sequence</b> through resistance: counters slipped, movement followed, clinches shed, without a full reset. A single shot that resets to one-and-done doesn't count.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Brief defensive moments are allowed. When does one become a defender win?</summary>
+    <div class="emma-recall__a">A slip, absorb, or frame mid-flow is fine: defense within offense is expected. It becomes a defender win only when the rhythm is <b>fully broken</b> and you re-engage from scratch.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What's the diagnostic question after each exchange?</summary>
+    <div class="emma-recall__a"><b>"Did you continue or reset?"</b> ("I slipped and continued" vs. "I got hit and reset"). The goal is <b>continuity, not perfection</b>, and not chasing or throwing blindly through resistance.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

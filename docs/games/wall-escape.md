@@ -113,6 +113,28 @@ Start pinned, shoulders flat to the wall, break free by actively escaping or rev
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Light strikes both ways.<span class="emma-pop emma-pop--l">Attacker uses strikes to maintain pin pressure; defender uses strikes to create escapes. Escape becomes urgent under realistic striking pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know which way to rotate and when the pin can be broken?</summary>
+    <div class="emma-recall__a">The <b>felt resistance to rotation</b> through your frames and grips, the load the attacker's weight places on your shoulders and hips, and especially <b>the moment it slackens</b>. Not their face or a memorized step.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does surviving the hold not count as a win here?</summary>
+    <div class="emma-recall__a">Only an <b>active escape or reversal</b> wins: shoulders no longer flat and facing the attacker with space, or turning the position. Passive survival just lets the pin consolidate.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the escape sequence, and why does order matter?</summary>
+    <div class="emma-recall__a"><b>Rotate, frame, move hips, turn to face, then disengage.</b> Trying to disengage before rotating typically fails, you expose the back and the pin re-sets.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why escape early rather than late, and how does the DNS help?</summary>
+    <div class="emma-recall__a"><b>Early escapes, before the pin consolidates</b>, take far less effort and expose you to less damage. A <b>dropping attacker head</b> opens a guillotine or front-headlock threat that creates decision pressure and buys the escape, it need not finish.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

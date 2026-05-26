@@ -107,6 +107,28 @@ Both players fight for the same prize: a dominant ground position.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Strikes allowed from any position.<span class="emma-pop emma-pop--l">Strikes allowed from any position; positional value shifts with strike threat. Positional fighting under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Momentary position doesn't count. So what wins the exchange?</summary>
+    <div class="emma-recall__a">A dominant position that is <b>established and held for the duration</b>. Win the scramble, then consolidate; a fleeting advantage earns nothing.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the position hierarchy you fight toward?</summary>
+    <div class="emma-recall__a"><b>Back &gt; Mount &gt; Side Control &gt; Top Half &gt; Guard &gt; Bottom.</b> Knowing the value system tells you which way to fight mid-scramble.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What do you read to know who is winning a scramble before it resolves?</summary>
+    <div class="emma-recall__a">The <b>felt weight and base through contact</b>: the opponent's balance loading or going light, your base over or under theirs, control points strengthening or breaking, plus their <b>hip and frame motion</b>.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why are both roles symmetric and non-switching?</summary>
+    <div class="emma-recall__a">The symmetric goal creates a <b>true competitive dyadic system</b>: both athletes co-adapt in real time, fighting for the same prize rather than playing fixed attacker and defender roles.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

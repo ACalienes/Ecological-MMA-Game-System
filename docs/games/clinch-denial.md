@@ -113,6 +113,28 @@ Deny the clinch before it forms, frames, hand fighting, and movement keep open s
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Strike to create space.<span class="emma-pop emma-pop--l">The defender can strike to create space; the attacker must close through the strike threat. Clinch denial under <a href="../../concepts/full-mma-expression/">full MMA pressure</a>.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know which grip is coming and which way to frame?</summary>
+    <div class="emma-recall__a">The <b>felt frames</b>, the <b>inertial array</b> at the contact: how the attacker's reach and posture load against your hands and forearms as they close. Not their eyes or their feet. That haptic information arrives <b>before connection sets</b>.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does this game end the moment a clinch locks rather than letting you escape?</summary>
+    <div class="emma-recall__a">It trains <b>denial, not escape</b>. Denying connection is far easier than escaping a locked clinch, so the whole skill lives in stopping them <b>before they connect</b>.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What counts as a real clinch here, and what doesn't?</summary>
+    <div class="emma-recall__a">A <b>meaningful, controlling grip</b>: a collar tie, underhook, or body lock. <b>Brief hand contact is not a clinch.</b> The attacker has to establish control for it to count.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the difference between framing and just pushing?</summary>
+    <div class="emma-recall__a">A <b>frame redirects and creates an angle</b>; a shove only delays the entry. Feel which grip is coming and meet it, don't just brace against forward pressure.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

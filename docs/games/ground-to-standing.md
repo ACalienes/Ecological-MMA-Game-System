@@ -107,6 +107,28 @@ Get back to your feet from the bottom before they drag you down.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Add strikes for both.<span class="emma-pop emma-pop--l">Top can strike to keep the bottom down; bottom can strike to create separation. Standup under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Standing while connected gets you dragged down. What must happen first?</summary>
+    <div class="emma-recall__a"><b>Clear the grips, hooks, and body-locks before rising.</b> Name what is tying you to them, then break it, then stand.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What exactly counts as a win here?</summary>
+    <div class="emma-recall__a"><b>Both feet up and clear of control.</b> Separation, not a sweep. Sweeping to top is progress but does not end the round.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know separation is enough to stand?</summary>
+    <div class="emma-recall__a">The <b>felt connection through contact</b>: which grips keep you tied, where the top's base loads and goes light, plus the top's <b>posture and hip motion</b>. It specifies the window before they re-engage.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why is this trained as its own skill instead of as a sweep?</summary>
+    <div class="emma-recall__a">Because "<b>wrestling up</b>" is distinct from guard work: getting back to the feet is often preferable to staying down, so the standup affordance gets its own development.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

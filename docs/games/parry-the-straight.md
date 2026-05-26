@@ -104,6 +104,28 @@ Deflect straight punches with the hands. The defender may *only* parry, no block
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, parry while denying the grappling entry, staying aware of all threats.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to time the parry, and what does it tell you?</summary>
+    <div class="emma-recall__a">The <b>rate of expansion (τ)</b> of the straight (how fast the glove grows) read via shoulder and hip motion at <b>center mass</b>, not the eyes or absolute distance. It specifies <b>when</b> the punch arrives and <b>which way</b> to deflect it.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> No block, no slip, no retreat: why strip everything down to the parry alone?</summary>
+    <div class="emma-recall__a">It forces the <b>deflection to develop on its own</b>. With no other escape, you have to stay in the pocket and solve the straight with your hands.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Should you try to parry every punch?</summary>
+    <div class="emma-recall__a">No. <b>Read the pattern first, then commit</b>. Absorb while you read, and one good parry beats ten bad ones: timing over volume.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why is the attacker restricted to straights only?</summary>
+    <div class="emma-recall__a">Parrying only works on <b>straight lines</b>. Removing hooks, uppercuts, and loops keeps the defender's problem matched to the parrying solution being trained.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

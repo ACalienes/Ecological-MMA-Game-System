@@ -107,6 +107,28 @@ Escape from under a dominant position before damage accumulates.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Top can threaten strikes.<span class="emma-pop emma-pop--l">Top can threaten strikes; bottom must escape while defending them. Escape under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Escapes start in the space. What are you reading to find it?</summary>
+    <div class="emma-recall__a">The <b>felt weight distribution and pressure through contact</b>: where the top's base loads and unloads, which limbs are pinned, where the <b>connection goes light</b>. Frames and knees go where the weight isn't.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does the top maintain only, with no submissions, at Levels 1 to 3?</summary>
+    <div class="emma-recall__a">So the bottom can <b>focus on escape mechanics</b>, not submission defense. It isolates the escape task while keeping the live weight-reading loop intact.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What three outcomes count as a successful escape?</summary>
+    <div class="emma-recall__a"><b>Guard recovery, a reversal to top, or standing up.</b> A clear, hierarchical definition of success, not just surviving in place.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is being measured to know the escape skill has formed?</summary>
+    <div class="emma-recall__a">Whether you <b>recover space and frames faster than the top can re-load weight</b>, and whether frames stay live as the top adjusts. When that space-recovery relationship stabilizes, the skill has formed.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

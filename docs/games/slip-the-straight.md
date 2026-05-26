@@ -104,6 +104,28 @@ Make straight punches miss with head movement, slip only, no block, no duck, no 
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, slip while denying the grappling entry, staying aware of all threats.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to time the slip, and what does it tell you?</summary>
+    <div class="emma-recall__a">The <b>rate of expansion (τ)</b> of the straight (how fast the glove grows) read via shoulder and hip motion at <b>center mass</b>, not the eyes or absolute distance. It specifies <b>when</b> the punch arrives and <b>which way</b> to move the head offline.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Don't block it, don't run from it: so what is the defender's only job?</summary>
+    <div class="emma-recall__a"><b>Move the head laterally offline</b> so the straight passes by clean. Stripping away block, duck, and retreat forces the slip to develop on its own.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What's the difference between a clean slip and a graze, and why does size of movement matter?</summary>
+    <div class="emma-recall__a">A clean slip is a <b>full miss</b>, the punch passes completely. A graze doesn't count. <b>Small, efficient slips beat big dramatic ones</b>, and recover to center faster.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Which way do you slip, and off what cue?</summary>
+    <div class="emma-recall__a">Slip to the <b>opposite side of the loading hand</b>: read the shoulder rotation and which hand loads at center mass to pick the direction.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

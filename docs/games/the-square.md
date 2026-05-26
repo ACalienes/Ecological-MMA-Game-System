@@ -110,6 +110,28 @@ A single constraint set, layered live one variable at a time, that grows from cl
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Single-leg takedown finish</b>Grappling to the ground.<span class="emma-pop emma-pop--l">Start from a single-leg position, inside grip, alternating to outside. Offense gets the hips to the ground (hands down / feet up = on track); no scrambling once hips land. Defense separates and gets out, strikes at any level, redirects to top, or finishes with a neck strangle / guillotine. Back exposure = bonus.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What you attune to shifts as the game evolves. From what to what?</summary>
+    <div class="emma-recall__a">Early, the <b>rate of expansion (τ)</b> of the punch and shoulder-hip motion at <b>center mass</b>, when and where the shot arrives. As it opens to the clinch, the <b>felt resistance, the inertial array</b> of the opponent's weight and directional force through your hand controls.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> In the clinch, the opponent's forward push is not a problem. What is it?</summary>
+    <div class="emma-recall__a">It is the <b>information you redirect</b> to off-balance and finish. Redirect the directional force, don't absorb it; being bullied forward is the opportunity, not a foul.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why is only one variable layered at a time?</summary>
+    <div class="emma-recall__a">So each constraint <b>does its work before the next layers on</b>. Earlier constraints persist unless lifted; resist enriching the game before the current one has formed the skill.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Defense earns the right to finish in what order?</summary>
+    <div class="emma-recall__a"><b>Survive first</b>, behind a block-only shell, then counter (one strike, later a body kick), then <b>clinch off-balance</b>, then a takedown / top neck strangle finish. Survival is the base everything layers on.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

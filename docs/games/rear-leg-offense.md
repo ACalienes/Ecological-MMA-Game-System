@@ -98,6 +98,28 @@ Land the rear leg alone, round kick, teep, side kick, forcing you to build your 
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the rear leg under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to set up the rear leg, and where is the real opening?</summary>
+    <div class="emma-recall__a">The defender's <b>guard and stance reactions to your feints and distance changes</b>, plus the <b>rate of expansion (τ)</b> of your committing round kick at <b>center mass</b>. The opening is where the guard <b>goes</b> when you make it move, not where it sits.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does the rear leg need more setup than other weapons?</summary>
+    <div class="emma-recall__a">It's the <b>power weapon but the slowest</b>: with the hands and lead leg stripped away, you must feint, manage distance, and commit only when the opening appears. You earn every power kick.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> A kick gets checked or whiffs. What does that mean for the rep?</summary>
+    <div class="emma-recall__a">It's <b>information, not a loss</b>. Reset to neutral, same roles, and re-enter the probe, read, setup, commit cycle. A telegraphed swing teaches you to disguise the next one.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The defender has no win condition. What is their job?</summary>
+    <div class="emma-recall__a">Defend naturally with the <b>full toolkit (check, catch, evade, move)</b> and provide realistic resistance. Their success is <b>denying every opening</b> so the attacker has to genuinely set up and commit.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

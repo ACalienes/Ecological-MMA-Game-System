@@ -111,6 +111,28 @@ Wall positions cycle rather than resolve, the defender stands and disengages whi
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Strikes both ways.<span class="emma-pop emma-pop--l">Light strikes, attacker discourages stand-up and re-establishes control, defender creates stand-up openings. Ground-and-pound threat makes cycling urgent.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> As the defender, what are you reading to know when to stand and which way to turn?</summary>
+    <div class="emma-recall__a">The <b>felt resistance to rotation through the attacker's grips and the looseness in their control</b>: the moments the load eases as they adjust their grip or shift weight. Not their eyes or a fixed count.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why turn to face before disengaging?</summary>
+    <div class="emma-recall__a">Disengaging while <b>facing away exposes the back</b> to a re-clinch and striker access. Turn to face first, then create space.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The position loops rather than ends. What does that mean for how you win?</summary>
+    <div class="emma-recall__a">Control is <b>re-earned every cycle</b>: each stand-up resets the contest. You win by <b>living where the cycle favors you</b>, not by expecting a single clean resolution.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> As the attacker, what decides whether you re-pin or flatten?</summary>
+    <div class="emma-recall__a">The <b>defender's facing direction</b>: re-pin them to the wall or flatten them back to the ground based on how they have turned. Follow the stand-up <b>under control</b>, not desperately.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

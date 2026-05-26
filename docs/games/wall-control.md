@@ -113,6 +113,28 @@ Teach vertical control, the wall becomes the dominant constraint that organizes 
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Light strikes for both; knees from control.<span class="emma-pop emma-pop--l">Light strikes permitted for both players. The attacker softens resistance and maintains the pin; the defender strikes to create escapes. Knee strikes available for the attacker from control.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the difference between pressing and a real wall pin?</summary>
+    <div class="emma-recall__a">A <b>wall pin</b> is at least <b>two points of pinning control</b>, hips and upper body held immobile and flat to the wall, with <b>rotation denied</b>. If the shoulders can still rotate, it is only pressure, not a pin.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know whether the pin is organized or just muscle?</summary>
+    <div class="emma-recall__a">The <b>felt resistance to rotation</b> through your grips and frames, the <b>inertial array</b> at the shoulders and hips, plus where the defender's weight wants to escape. Not how hard you push or what their face does.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why is denying shoulder rotation the attacker's primary task?</summary>
+    <div class="emma-recall__a"><b>Shoulder rotation is the primary escape</b>: it lets the defender frame, generate hip movement, and access angles. Deny it and the position crosses from pressing into a pin.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why no immediate takedowns, and what keeps the attacker honest?</summary>
+    <div class="emma-recall__a"><b>Stabilize before advancing</b>: the game develops control before the shot. The defender's <b>DNS</b> (guillotine, front headlock) punishes <b>poor posture, over-commitment, and head-position errors</b>.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

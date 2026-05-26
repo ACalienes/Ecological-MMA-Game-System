@@ -107,6 +107,28 @@ Hold a dominant ground position against live escape attempts.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Add strike threats for both.<span class="emma-pop emma-pop--l">Top can threaten strikes to maintain control; bottom can strike to create escape opportunities. Position control under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What do you read to feel an escape before it leaves?</summary>
+    <div class="emma-recall__a">The <b>felt resistance and weight distribution through contact</b>, connection points going light or loading, plus the bottom's <b>hip and frame motion</b>. The escape shows in the hips before it shows in the limbs.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Control is weight, not muscle. Why does that matter?</summary>
+    <div class="emma-recall__a"><b>Weight-based control is sustainable</b>; strength-based control gasses you out. Distribute weight and anticipate, do not grip and squeeze.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> If you briefly lose the position but recover instantly, did you fail?</summary>
+    <div class="emma-recall__a">No. A <b>brief loss with immediate recovery still counts as control</b>, modeling realistic control recovery rather than a single fixed pin.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is being measured to know the skill has formed?</summary>
+    <div class="emma-recall__a">Whether you <b>stay connected to the bottom's hips through each escape attempt</b> and re-load weight before the escape completes. When that connection stabilizes, control has formed.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

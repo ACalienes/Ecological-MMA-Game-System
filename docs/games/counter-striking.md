@@ -107,6 +107,28 @@ Offense as defense, wait, read the lead, punish it with a timed counter.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The initiator can shoot or clinch if countered; the counter-striker must manage the wrestling threat. Counter-striking under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to time the counter?</summary>
+    <div class="emma-recall__a">The <b>rate of expansion (τ)</b> of the initiator's strike via shoulder and hip motion at <b>center mass</b>. It tells you when the strike commits and which counter window is open.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The counter-striker can't lead. Why strip that away?</summary>
+    <div class="emma-recall__a">It eliminates preemptive offense and isolates the <b>reactive skill</b>: counters must be responses to a committed strike, not anticipatory guesses.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Name the three counter windows.</summary>
+    <div class="emma-recall__a"><b>Intercept</b> (before their strike lands), <b>simultaneous</b> (as it extends), and <b>punish</b> (after it misses). The read picks which one the moment affords.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the hardest part of the counter-striker's job?</summary>
+    <div class="emma-recall__a">Staying <b>calm and ready while waiting</b>, not leading. Patience is the skill: see it, don't guess.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

@@ -106,6 +106,28 @@ The foundational engagement game, touch, don't get touched, and answer back the 
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA expression</b>Takedown threat as denial.<span class="emma-pop emma-pop--l">Takedown entry allowed as a denial response; brief continuation if clinch is established. Full denial toolkit under MMA reality.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know whether you can touch, and what does near vs. far afford?</summary>
+    <div class="emma-recall__a">The opponent's <b>preferred distance</b> and the <b>rate the gap is closing (τ)</b> on the entry, plus their weight shift and recovery after contact, not their absolute position or eyes. <b>Near affords your touch and offense; far affords their escape.</b></div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> If you get touched, what is the one thing you must do, and when?</summary>
+    <div class="emma-recall__a">Take your <b>one immediate counter-touch inside the same exchange window</b>. Recover initiative now, not the next exchange. No chasing once the moment passes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The three outcomes are advantage, neutral, and lost exchange. What separates them?</summary>
+    <div class="emma-recall__a">Clean touch with <b>no answer</b> = advantage (honest range, clean entry). Touch met by an immediate <b>counter-touch</b> = neutral, 1-for-1 (composure under contact). Touched with no answer = lost exchange.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why touch contact only and no flurries, and what's the coaching question?</summary>
+    <div class="emma-recall__a">It <b>removes fear so range can be explored honestly</b> and rewards precision over volume. The cue: <b>"Were you actually in range, or did you reach?"</b></div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

@@ -107,6 +107,28 @@ Prevent engagement entirely through footwork and ring generalship, "getting on y
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA expression</b>Shot / clinch threat.<span class="emma-pop emma-pop--l">The pursuer can shoot or clinch; the evader must manage all threats while moving. Evasion under MMA pressure.</span></div>
 </div>
 
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know when to pivot vs. circle?</summary>
+    <div class="emma-recall__a">The <b>rate the open space is closing</b> (global optic flow), the pursuer's angle and weight commitment, and the gap to the perimeter behind you. Not their eyes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why must the evader keep moving, with static defense not counting?</summary>
+    <div class="emma-recall__a">The whole job is <b>movement and ring generalship</b>, winning the space, not absorbing strikes. Standing and blocking is not a solution here.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does the marked perimeter exist if it limits the evader?</summary>
+    <div class="emma-recall__a">It prevents <b>endless retreat</b> and forces decision points: evasion must be purposeful, and getting cornered against it is the loss.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the pursuer actually trying to do?</summary>
+    <div class="emma-recall__a">Not chase, but <b>cut angles and herd</b> the evader toward the boundary, closing the space without overcommitting until they are trapped.</div>
+  </details>
+</div>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"
