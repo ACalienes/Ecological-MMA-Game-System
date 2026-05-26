@@ -48,7 +48,7 @@ Domain-driven controlled vocabulary. The agent rejects synonym substitution. Bor
 
 ## Game naming convention
 
-Games in the Ecological Games Library follow consistent name patterns. When Alex invents a game on the spot, he describes the **constraints** (not a name) on the mic; the name is derived afterward from the patterns below.
+Games in the library follow consistent name patterns. When Alex invents a game on the spot, he describes the **constraints** (not a name) on the mic; the name is derived afterward from the patterns below.
 
 ### Six things to narrate on the mic (the naming inputs)
 1. **Environment / position** — open space, wall, square, ground, clinch

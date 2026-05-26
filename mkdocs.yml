@@ -56,6 +56,11 @@ plugins:
   - search
   - tags
 
+# Staging area for raw class-recording mining; reviewed and merged into live
+# pages, never published. See docs/_drafts/README.md.
+exclude_docs: |
+  _drafts/
+
 nav:
   - Home: index.md
   - Learning Paths:

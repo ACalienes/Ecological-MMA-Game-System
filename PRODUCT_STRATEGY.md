@@ -52,9 +52,11 @@ The current game pages fail by mixing four content types into one dense spec. Sp
 | **Reference** | look up facts | Game Finder, Prerequisite Map, Glossary, full game spec |
 | **Explanation** | understand *why* | **Concepts** — eco-dynamics theory pulled OUT of game pages |
 
-- **Single source of truth:** consolidate the `docs/` and `Ecological Games Library/`
-  trees — author once, publish everywhere. (They have drifted; the site currently lags
-  real work. This is foundational and blocks everything else.)
+- **Single source of truth:** ✅ DONE (2026-05-26, Lane A‑1). `docs/` is canonical; the
+  drifted `Ecological Games Library/` tree was retired (its content already lived in
+  `docs/`; recoverable from git history). Class-recording mining now stages into
+  `docs/_drafts/` (excluded from the build) and is merged into the live pages, so the
+  trees can't drift again.
 - Declutter game pages: actionable content on top, academic framing linked out to Concepts.
 
 ## 5. Engagement system (what makes it sticky)
@@ -107,7 +109,7 @@ Markdown stays the single source of truth throughout; Phase 2 renders the gated 
 from the same content.
 
 ## 8. Immediate next actions (Phase 0)
-1. Consolidate to one content tree (decide `docs/` as canonical) and sync today's work.
+1. ✅ Consolidate to one content tree (`docs/` canonical; old tree retired; `docs/_drafts/` staging). See ROADMAP.html.
 2. Auto-link prerequisite/follow-on games across the library.
 3. Nav cleanup: collapse, de-orphan, fix broken link.
 
