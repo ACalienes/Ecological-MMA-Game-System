@@ -83,114 +83,18 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/positional-battle/">Positional Battle</a> <small>(needs Ground Escape + Access)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Role reversal</span></div>
     </div>
 
-<p class="emma-glabel">Full Progression Flowchart</p>
+<p class="emma-glabel">The Macro Progression</p>
 
-```mermaid
-flowchart TD
-    subgraph SKILL["SKILL ISOLATION"]
-        P[Parry] --> CRD
-        TB[Block] --> CRD
-        SS[Slip] --> EP[Evade]
-        EP --> CRD
-        LH[Lead Hand] --> LT
-        RH[Rear Hand] --> LT
-        LL[Lead Leg] --> LT
-        RL[Rear Leg] --> LT
-    end
+The whole system flows through six stages to a finish. The per-game chains above fill in each stage; this is the spine they hang on.
 
-    subgraph STRIKING["STRIKING"]
-        CRD[Close-Range Defense]
-        LT[Land the Target]
-        TG[Touch Game]
-        PC[Pressure to Clinch]
-        EM[Evasive Movement]
-        CS[Counter-Striking]
-        SO[Sustained Offense]
-    end
-
-    subgraph TRANSITION["TRANSITION"]
-        CD[Clinch Denial]
-        CW[Counter-Wrestling]
-    end
-
-    subgraph WRESTLING["WRESTLING"]
-        TDD[Takedown Defense]
-        PTT[Pressure to Takedown]
-        PTW[Pressure to Wall]
-        OST[Open Space Takedown]
-    end
-
-    subgraph WALL["WALL"]
-        WCon[Wall Control]
-        WE[Wall Escape]
-        WDS[Wall Def Sub]
-        WG[Wall to Ground]
-        WGr[Wall Grinding]
-        SUL[Stand-Up Loop]
-    end
-
-    subgraph GROUND["GROUND"]
-        GA[Ground Access]
-        GC[Ground Control]
-        GE[Ground Escape]
-        LR[Leg Reclaim]
-        GTS[Ground to Standing]
-        GDS[Ground Def Sub]
-        PB[Positional Battle]
-    end
-
-    subgraph FINISH["END STATES"]
-        KO((KO))
-        TKO((TKO))
-        SUB((Submission))
-    end
-
-    CRD --> TG
-    CRD --> EM
-    CRD --> CS
-    LT --> TG
-    LT --> SO
-    TG --> PC
-    PC --> WCon
-    PC --> CD
-    PC --> OST
-    EM --> PC
-    CS --> TDD
-    CRD --> CW
-    CW --> OST
-
-    SO --> KO
-    SO --> TKO
-
-    PTT --> OST
-    PTT --> WCon
-    PTW --> WCon
-
-    WCon --> WE
-    WCon --> WG
-    WCon --> WGr
-    WE --> SUL
-    WDS --> SUB
-    WG --> SUL
-    WGr --> TKO
-
-    OST --> GA
-    OST --> GE
-    SUL --> GA
-    SUL --> GE
-
-    GA --> GC
-    GA --> PB
-    GC --> TKO
-    GC --> SUB
-    GE --> LR
-    GE --> GTS
-    GE --> GDS
-    LR --> PB
-    GDS --> SUB
-    PB --> GC
-    PB --> GE
-```
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">① Skill Isolation</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Single defenses and single weapons, built clean</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">② Open Space Striking</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Integrate defense and offense at range</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">③ Transitions and Wrestling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Clinch entries, takedowns, and their denials</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">④ Wall</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Pin, grind, escape, transition down</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">⑤ Ground</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Access, control, escape, reclaim</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">⑥ Finish</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">KO · TKO · Submission</span></div>
+</div>
 
 <p class="emma-glabel">Pathway Guides</p>
 

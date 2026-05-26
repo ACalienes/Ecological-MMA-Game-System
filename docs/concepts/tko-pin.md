@@ -23,15 +23,10 @@ All four conditions must hold at once:
   <li>Defender options are high-cost, damage, exposure, reversal risk.</li>
 </ul>
 
-```mermaid
-flowchart LR
-    A[Control Position] --> B{Free limb to strike?}
-    B -->|Yes| C[TKO Pin]
-    B -->|No| D[Standard Pin]
-    C --> E[Exploitation possible]
-
-    style C fill:#FF5722, color:#fff
-```
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Control + a limb free to strike</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>TKO Pin</b>, exploitation is possible</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Control, no limb free</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Standard Pin, control only</span></div>
+</div>
 
 <p class="emma-glabel">Key Properties</p>
 
@@ -53,18 +48,15 @@ flowchart LR
 
 The system trains the TKO pin as a four-phase loop:
 
-```mermaid
-flowchart LR
-    A[Create] --> B[Capture]
-    B --> C[Stabilize]
-    C --> D[Re-acquire]
-    D --> A
-
-    style A fill:#4CAF50, color:#fff
-    style B fill:#2196F3, color:#fff
-    style C fill:#FF9800, color:#fff
-    style D fill:#9C27B0, color:#fff
-```
+<div class="emma-cycle">
+  <div class="emma-cycle__ring">
+    <div class="emma-cycle__node"><span class="n">1</span><span class="t">Create</span><span class="d">Open the pin</span></div>
+    <div class="emma-cycle__node"><span class="n">2</span><span class="t">Capture</span><span class="d">Seize the control</span></div>
+    <div class="emma-cycle__node"><span class="n">3</span><span class="t">Stabilize</span><span class="d">Hold it if you can</span></div>
+    <div class="emma-cycle__node"><span class="n">4</span><span class="t">Re-acquire</span><span class="d">Recover it when lost</span></div>
+  </div>
+  <p class="emma-cycle__loop">A fleeting state: lose it, re-acquire, repeat</p>
+</div>
 
 <div class="emma-stepper">
   <div class="emma-step"><span class="emma-step__n">1</span><b>Create</b>Earn the position through control and transitions.</div>

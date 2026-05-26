@@ -234,41 +234,20 @@ tags:
 
 <p class="emma-glabel">Tag Relationships</p>
 
-```mermaid
-flowchart TD
-    subgraph Environment
-        SI[Skill Isolation]
-        OS[Open Space]
-        W[Wall]
-        G[Ground]
-        T[Transitions]
-    end
+<p class="emma-sub">Environment maps to domain</p>
 
-    subgraph Domain
-        ST[Striking]
-        WR[Wrestling]
-        TR[Transitions]
-    end
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Skill Isolation</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Striking</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Open Space</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Striking + Wrestling</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Wall</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Wrestling</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Ground</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Wrestling</span></div>
+</div>
 
-    subgraph Focus
-        OFF[Offensive]
-        DEF[Defensive]
-        COM[Combined]
-    end
+<p class="emma-sub">And every domain splits into the three focuses</p>
 
-    SI --> ST
-    OS --> ST
-    OS --> WR
-    W --> WR
-    G --> WR
-
-    ST --> OFF
-    ST --> DEF
-    ST --> COM
-    WR --> OFF
-    WR --> DEF
-    WR --> COM
-```
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Striking · Wrestling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Offensive · Defensive · Combined</span></div>
+</div>
 
 ??? abstract "System evolution notice"
     Tags and taxonomy may expand as the game library grows.

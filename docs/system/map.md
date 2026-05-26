@@ -6,30 +6,25 @@
 
 <p class="emma-glabel">Fight States &amp; Transitions</p>
 
-```mermaid
-flowchart LR
-    OS[Open Space] -->|Clinch| W[Wall]
-    OS -->|Takedown| G[Ground]
-    W -->|Takedown| G
-    W -.->|Escape| OS
-    G -.->|Stand Up| OS
-
-    OS --> KO((KO))
-    OS --> TKO((TKO))
-    OS --> SUB((SUB))
-    W --> KO
-    W --> TKO
-    W --> SUB
-    G --> TKO
-    G --> SUB
-
-    style OS fill:#2196F3, color:#fff
-    style W fill:#FF9800, color:#fff
-    style G fill:#795548, color:#fff
-    style KO fill:#D32F2F, color:#fff
-    style TKO fill:#FF5722, color:#fff
-    style SUB fill:#E91E63, color:#fff
-```
+<div class="emma-statemap">
+  <div class="emma-state emma-state--os">
+    <div class="emma-state__h"><span class="i">🥊</span> Open Space</div>
+    <p class="emma-state__d">Standing at distance. Every fight starts here.</p>
+    <div class="emma-state__fin"><span>KO</span><span>TKO</span><span>SUB</span></div>
+  </div>
+  <div class="emma-statemap__link"><span class="fwd">Clinch / Takedown →</span><span class="back">← Escape</span></div>
+  <div class="emma-state emma-state--wall">
+    <div class="emma-state__h"><span class="i">🧱</span> Wall</div>
+    <p class="emma-state__d">Clinch against the cage.</p>
+    <div class="emma-state__fin"><span>KO</span><span>TKO</span><span>SUB</span></div>
+  </div>
+  <div class="emma-statemap__link"><span class="fwd">Takedown →</span><span class="back">← Stand Up</span></div>
+  <div class="emma-state emma-state--ground">
+    <div class="emma-state__h"><span class="i">🤼</span> Ground</div>
+    <p class="emma-state__d">Horizontal grappling.</p>
+    <div class="emma-state__fin"><span>TKO</span><span>SUB</span></div>
+  </div>
+</div>
 
 <p class="emma-glabel">How to Read the Map</p>
 

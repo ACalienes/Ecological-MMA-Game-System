@@ -48,6 +48,20 @@ Both players fight for the same prize: a dominant ground position.
   <p class="emma-statement__sub">A symmetric race up the hierarchy, no submission focus. <b>Win the scramble, then consolidate.</b></p>
 </div>
 
+<p class="emma-glabel">The Position Hierarchy</p>
+
+<p class="emma-hl">This is the value system you fight toward. Mid-scramble, it tells you which way is "up."</p>
+
+<div class="emma-posmap">
+  <div class="emma-posmap__axis"><span>Dominant</span><span>Inferior</span></div>
+  <div class="emma-pos emma-pos--dom"><div class="emma-pos__rank">1</div><div class="emma-pos__name">Back Control<span class="d">Hooks in behind the opponent. The most dominant position.</span></div><span class="emma-pos__tag">Dominant</span></div>
+  <div class="emma-pos emma-pos--dom"><div class="emma-pos__rank">2</div><div class="emma-pos__name">Mount<span class="d">Sitting on the torso, full top control.</span></div><span class="emma-pos__tag">Dominant</span></div>
+  <div class="emma-pos emma-pos--neu"><div class="emma-pos__rank">3</div><div class="emma-pos__name">Side Control<span class="d">Perpendicular top pin.</span></div><span class="emma-pos__tag">Top</span></div>
+  <div class="emma-pos emma-pos--neu"><div class="emma-pos__rank">4</div><div class="emma-pos__name">Top Half Guard<span class="d">On top, one leg trapped. Working to pass.</span></div><span class="emma-pos__tag">Top</span></div>
+  <div class="emma-pos emma-pos--inf"><div class="emma-pos__rank">5</div><div class="emma-pos__name">Guard<span class="d">On bottom with legs engaged. Defensive, but live.</span></div><span class="emma-pos__tag">Bottom</span></div>
+  <div class="emma-pos emma-pos--inf"><div class="emma-pos__rank">6</div><div class="emma-pos__name">Bottom / Flattened<span class="d">Pinned with no leg engagement. The most inferior position.</span></div><span class="emma-pos__tag">Inferior</span></div>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>Attune to</b> the <i>felt weight distribution &amp; base through contact</i>, the opponent's balance loading and going light, your own base over or under theirs, the control points that strengthen or break, plus the opponent's <b>hip and frame motion</b> mid-scramble. That inertial information specifies the positional advantage <i>before</i> the scramble resolves, not the opponent's limbs in isolation.</p>

@@ -19,18 +19,15 @@ MMA interactions repeat predictable decision patterns. The system is designed ar
 
 Every exchange cycles through the same four states, and every state loops back to the next access.
 
-```mermaid
-flowchart LR
-    A[ACCESS] --> B[STABILIZE]
-    B --> C[EXPLOIT]
-    C --> D[COUNTER]
-    D --> A
-
-    style A fill:#4CAF50, color:#fff
-    style B fill:#2196F3, color:#fff
-    style C fill:#FF5722, color:#fff
-    style D fill:#9C27B0, color:#fff
-```
+<div class="emma-cycle">
+  <div class="emma-cycle__ring">
+    <div class="emma-cycle__node"><span class="n">1</span><span class="t">Access</span><span class="d">Connect or engage</span></div>
+    <div class="emma-cycle__node"><span class="n">2</span><span class="t">Stabilize</span><span class="d">Prevent escape or reversal</span></div>
+    <div class="emma-cycle__node"><span class="n">3</span><span class="t">Exploit</span><span class="d">Strike, submit, or advance</span></div>
+    <div class="emma-cycle__node"><span class="n">4</span><span class="t">Counter</span><span class="d">Escape or reverse</span></div>
+  </div>
+  <p class="emma-cycle__loop">Every state loops back to the next Access</p>
+</div>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤝</div><div class="emma-card__t">Access</div><p><i>Can I connect or engage?</i><span class="emma-pop">Example: closing distance, initiating the clinch.</span></p></div>

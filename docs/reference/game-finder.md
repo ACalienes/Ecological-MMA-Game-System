@@ -6,73 +6,13 @@
 
 <p class="emma-glabel">Quick Decision Tree</p>
 
-```mermaid
-flowchart TD
-    START[What do you want to work on?] --> STRIKING[Striking]
-    START --> WRESTLING[Wrestling/Grappling]
-    START --> BOTH[Both Together]
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Want striking</div><p><b>Defense (beginner):</b> <a href="../../games/parry-the-straight/">Parry</a>, <a href="../../games/slip-the-straight/">Slip</a>, <a href="../../games/tight-block/">Block</a> → <a href="../../games/evade-the-punch/">Evade</a>, <a href="../../games/close-range-defense/">Close-Range Defense</a>.<br><b>Offense:</b> <a href="../../games/land-the-target/">Land the Target</a>.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Want wrestling</div><p><b>Open space:</b> <a href="../../games/pressure-to-clinch/">Pressure to Clinch</a>, <a href="../../games/open-space-takedown/">Open Space Takedown</a>, <a href="../../games/pressure-to-takedown/">Pressure to Takedown</a>.<br><b>Wall:</b> <a href="../../games/wall-control/">Wall Control</a>, <a href="../../games/wall-escape/">Wall Escape</a>, <a href="../../games/standup-loop/">Stand-Up Loop</a>.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🥋</div><div class="emma-card__t">Want both together</div><p>Start with <a href="../../games/touch-game/">Touch Game</a>, then <a href="../../games/pressure-to-clinch/">Pressure to Clinch</a>.</p></div>
+</div>
 
-    STRIKING --> S_FOCUS[Offense or Defense?]
-    S_FOCUS --> S_DEF[Defense]
-    S_FOCUS --> S_OFF[Offense]
-    S_FOCUS --> S_BOTH[Both]
-
-    S_DEF --> S_DEF_LEVEL[Skill level?]
-    S_DEF_LEVEL --> S_DEF_BEG[Beginner]
-    S_DEF_LEVEL --> S_DEF_INT[Intermediate+]
-
-    S_DEF_BEG --> PARRY[Parry the Straight]
-    S_DEF_BEG --> SLIP[Slip the Straight]
-    S_DEF_BEG --> TIGHT[Tight Block]
-
-    S_DEF_INT --> EVADE[Evade the Punch]
-    S_DEF_INT --> CRD[Close-Range Defense]
-
-    S_OFF --> LT[Land the Target]
-
-    S_BOTH --> TOUCH[Touch Game]
-
-    WRESTLING --> W_ENV[Environment?]
-    W_ENV --> W_OPEN[Open Space]
-    W_ENV --> W_WALL[Wall]
-
-    W_OPEN --> W_OPEN_Q[What aspect?]
-    W_OPEN_Q --> W_SPACE[Space Control]
-    W_OPEN_Q --> W_TD[Takedowns]
-    W_OPEN_Q --> W_FULL[Full Sequence]
-
-    W_SPACE --> PC[Pressure to Clinch]
-    W_TD --> OST[Open Space Takedown]
-    W_FULL --> PTT[Pressure to Takedown]
-
-    W_WALL --> W_WALL_Q[Offense or Defense?]
-    W_WALL_Q --> W_WALL_OFF[Offense]
-    W_WALL_Q --> W_WALL_DEF[Defense]
-    W_WALL_Q --> W_WALL_BOTH[Both]
-
-    W_WALL_OFF --> WCON[Wall Control]
-    W_WALL_OFF --> WG[Wall to Ground]
-    W_WALL_DEF --> WE[Wall Escape]
-    W_WALL_BOTH --> SUL[Stand-Up Loop]
-
-    BOTH --> PC2[Pressure to Clinch]
-
-    style PARRY fill:#4CAF50, color:#fff
-    style SLIP fill:#4CAF50, color:#fff
-    style TIGHT fill:#4CAF50, color:#fff
-    style EVADE fill:#4CAF50, color:#fff
-    style CRD fill:#4CAF50, color:#fff
-    style LT fill:#FF5722, color:#fff
-    style TOUCH fill:#9C27B0, color:#fff
-    style PC fill:#9C27B0, color:#fff
-    style OST fill:#9C27B0, color:#fff
-    style PTT fill:#FF5722, color:#fff
-    style WCON fill:#FF5722, color:#fff
-    style WG fill:#FF5722, color:#fff
-    style WE fill:#4CAF50, color:#fff
-    style SUL fill:#9C27B0, color:#fff
-    style PC2 fill:#FF9800, color:#fff
-```
+<p class="emma-sub">Narrow it down by goal, time, equipment, or partner below.</p>
 
 <p class="emma-glabel">Find by Training Goal: Defense</p>
 
