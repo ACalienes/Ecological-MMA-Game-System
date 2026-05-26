@@ -1,4 +1,4 @@
-# _drafts — class-recording staging area
+# _drafts, class-recording staging area
 
 **Not published.** This folder is excluded from the built site (`exclude_docs` in `mkdocs.yml`). It is the single landing zone for raw content mined from class recordings, before it is reviewed and merged into the live, visual game/concept pages.
 

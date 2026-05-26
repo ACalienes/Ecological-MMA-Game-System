@@ -23,6 +23,13 @@
     els.forEach(function (el) { io.observe(el); });
   }
 
-  if (document.readyState !== "loading") init();
-  else document.addEventListener("DOMContentLoaded", init);
+  // Material instant navigation swaps content without firing DOMContentLoaded,
+  // so re-run on every page via document$ (with safe fallbacks).
+  if (window.document$ && typeof window.document$.subscribe === "function") {
+    window.document$.subscribe(init);
+  } else if (document.readyState !== "loading") {
+    init();
+  } else {
+    document.addEventListener("DOMContentLoaded", init);
+  }
 })();
