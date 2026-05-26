@@ -26,18 +26,26 @@ tags:
   - positional-sparring
 ---
 
-# Wall Escape — Anti-Pin
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/wall-escape.png" alt="Wall Escape — Anti-Pin">
+  <div class="emma-phero__cap"><span class="k">Wall · Wrestling</span><span class="h">Wall Escape — Anti-Pin</span></div>
+</div>
 
 <div class="emma-meta"><span>Wall</span><span>Wrestling</span><span>Defensive</span><span>Intermediate</span><span>Counter</span></div>
 
-The defensive counterpart to Wall Control. Start already pinned — shoulders flat to the wall — and break free by actively escaping or reversing, never by waiting it out. Every offensive layer of wall control needs a defensive answer, and this is it.
+Start pinned, shoulders flat to the wall — break free by actively escaping or reversing, never by waiting it out.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender pinned against the wall, shoulders substantially flat, rotation compromised.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender pinned, shoulders flat, rotation compromised.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The defender is trying to break the pin and escape or reverse; the attacker is trying to hold it.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Defender breaks the pin to escape or reverse; attacker holds it.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Escape or reverse → defender wins · Pin held 10s → attacker wins · Reset on full disengage.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Pinned isn't pinned for good —<br><span class="accent">break it before it sets.</span></p>
+  <p class="emma-statement__sub">Survival doesn't count here. <b>Only an active escape or reversal wins.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -47,11 +55,11 @@ The defensive counterpart to Wall Control. Start already pinned — shoulders fl
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one pinned defender (primary focus), one attacker holding the pin.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>A functional wall pin already established — defender's shoulders flat, rotation initially shut down.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A wall or cage within a marked perimeter. The wall is the dominant constraint; both stay inside the perimeter.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender escapes or reverses; attacker maintains the pin and denies escape — no takedowns.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the established pin. Reset if the attacker loses control completely or the defender fully disengages.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — pinned defender (focus), attacker holding the pin.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Wall pin already established — shoulders flat.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Wall or cage within a marked perimeter.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender escapes or reverses; attacker holds the pin — no takedowns.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the pin; reset on lost control or full disengage.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -85,9 +93,9 @@ The defensive counterpart to Wall Control. Start already pinned — shoulders fl
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> When the defender breaks free into space facing the attacker, or reverses to put the attacker on the wall — the defender wins.<span class="emma-pop">Shoulders no longer flat, defender facing the attacker with space, or a clean reversal. The escape is complete, not merely attempted.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> When the attacker sustains the pin for 10 seconds, the attacker wins.<span class="emma-pop">The longer 10-second hold reflects the disadvantaged starting position the defender begins in.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the attacker loses control completely or the defender fully disengages, reset to the starting pin.<span class="emma-pop">Begin again from the established pin so the escape skill keeps getting reps.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Break free facing the attacker, or reverse → defender wins.<span class="emma-pop">Shoulders no longer flat, defender facing the attacker with space, or a clean reversal. The escape is complete, not merely attempted.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Pin held 10 seconds → attacker wins.<span class="emma-pop">The longer 10-second hold reflects the disadvantaged starting position the defender begins in.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Attacker loses control or defender fully disengages → reset to the pin.<span class="emma-pop">Begin again from the established pin so the escape skill keeps getting reps.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

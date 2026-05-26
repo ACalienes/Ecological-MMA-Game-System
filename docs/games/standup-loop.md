@@ -25,18 +25,26 @@ tags:
   - high-intensity
 ---
 
-# Wall Stand-Up & Re-Pin Loop
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/standup-loop.png" alt="Wall Stand-Up &amp; Re-Pin Loop">
+  <div class="emma-phero__cap"><span class="k">Wall / Ground · Wrestling</span><span class="h">Wall Stand-Up &amp; Re-Pin Loop</span></div>
+</div>
 
 <div class="emma-meta"><span>Wall / Ground</span><span>Wrestling</span><span>Combined</span><span>Advanced</span><span>Counter ↔ Stabilize</span></div>
 
-Wall positions rarely resolve in a single action — they cycle. From a compromised ground position near the wall, the defender stands and disengages while the attacker re-pins or flattens. The skill is loop management: recognizing which part of the cycle favors you and working to stay there.
+Wall positions cycle rather than resolve — the defender stands and disengages while the attacker re-pins or flattens, and the skill is staying in the part of the loop that favors you.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender in a compromised ground position near the wall; attacker has partial control, wall accessible.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender compromised on the ground near the wall; attacker has partial control.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The defender is trying to stand, face, and disengage or reverse; the attacker is trying to re-pin, flatten, or reach a TKO pin.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Defender stands, faces, disengages or reverses; attacker re-pins, flattens, or pins for TKO.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Stand &amp; disengage or reverse → defender wins · Re-pin, flatten, or TKO pin → attacker wins.</b></div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Stand &amp; disengage or reverse → defender · Re-pin, flatten, or TKO pin → attacker.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">The position doesn't end —<br><span class="accent">it loops.</span></p>
+  <p class="emma-statement__sub">Each stand-up forces control to be re-earned. <b>Win by living where the cycle favors you.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -46,11 +54,11 @@ Wall positions rarely resolve in a single action — they cycle. From a compromi
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one defender standing up (and possibly reversing), one attacker preventing it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Defender in a compromised ground position — seated, turtle, or elbow-post — near the wall; attacker has partial control, not a full pin.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A wall or cage within a marked perimeter, on mats. The wall is a double-edged constraint — it helps both players.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender stands, faces, and disengages or reverses; attacker re-pins, flattens, or reaches a TKO pin — control is re-earned after each stand-up.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the compromised position. Reset if the defender fully disengages or the attacker establishes a TKO pin.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one defender standing up, one attacker preventing it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Defender compromised — seated, turtle, or elbow-post — near the wall; attacker has partial control.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Wall or cage within a marked perimeter, on mats.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender stands, faces, disengages or reverses; attacker re-pins, flattens, or pins for TKO.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin compromised; reset on full disengage or TKO pin.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -84,8 +92,8 @@ Wall positions rarely resolve in a single action — they cycle. From a compromi
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> When the defender stands and disengages — facing the attacker with space — or reverses to a dominant position, the defender wins.<span class="emma-pop">Standing and facing with space to reset, or a clean reversal that puts the attacker on the defensive.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> When the attacker re-pins to the wall, flattens back to ground control, or reaches a TKO pin — the attacker wins.<span class="emma-pop">Multiple win conditions reflect the cyclical nature of the position — the attacker can win at any point in the loop.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Stand &amp; disengage facing, or reverse → defender wins.<span class="emma-pop">Standing and facing the attacker with space to reset, or a clean reversal that puts the attacker on the defensive.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Re-pin, flatten, or TKO pin → attacker wins.<span class="emma-pop">When the attacker re-pins to the wall, flattens back to ground control, or reaches a TKO pin. Multiple win conditions reflect the cyclical nature of the position — the attacker can win at any point in the loop.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

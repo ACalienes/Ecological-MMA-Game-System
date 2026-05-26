@@ -26,18 +26,26 @@ tags:
   - pressure
 ---
 
-# Clinch Denial
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/clinch-denial.png" alt="Clinch Denial">
+  <div class="emma-phero__cap"><span class="k">Transition · Wrestling</span><span class="h">Clinch Denial</span></div>
+</div>
 
 <div class="emma-meta"><span>Transition</span><span>Wrestling</span><span>Defensive</span><span>Intermediate</span><span>Open Space</span></div>
 
-Deny the clinch before it forms. The defender uses frames, hand fighting, and movement to keep open space — denying connection is far easier than escaping it once locked.
+Deny the clinch before it forms — frames, hand fighting, and movement keep open space.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at mid-range in open space, inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to lock a meaningful clinch; the defender is trying to deny connection &amp; keep space.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker locks a clinch; defender denies connection &amp; keeps space.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Deny for the round → switch · Clinch locks → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Don't escape the clinch —<br><span class="accent">never let it form.</span></p>
+  <p class="emma-statement__sub">Frames, hand fighting, and movement keep open space. <b>Denying connection is far easier than escaping it once locked.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -47,11 +55,11 @@ Deny the clinch before it forms. The defender uses frames, hand fighting, and mo
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off standing at mid-range.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Mid-range — open space with room to read and react before contact.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the defender denies for the round.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates the entry; reset to mid-range after a clinch locks or space is created.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off at mid-range.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Mid-range, open space.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset after a clinch locks or space is created.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -85,9 +93,9 @@ Deny the clinch before it forms. The defender uses frames, hand fighting, and mo
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the defender denies the clinch for the set time or creates significant space, the players switch roles.<span class="emma-pop">The defender kept open space for the full round or broke clean — and earns the attacking role.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the attacker locks a meaningful clinch, reset to mid-range — same roles.<span class="emma-pop">Both hands connected with control — collar tie, underhook, or body lock. Then begin again from mid-range.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Deny for the round or create space → switch roles.<span class="emma-pop">When the defender denies the clinch for the set time or creates significant space, the players switch roles. The defender kept open space for the full round or broke clean — and earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Clinch locks → reset, same roles.<span class="emma-pop">When the attacker locks a meaningful clinch, reset to mid-range — same roles. Both hands connected with control — collar tie, underhook, or body lock. Then begin again from mid-range.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">When both of a player's feet leave the perimeter, that player loses — whoever they are. Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

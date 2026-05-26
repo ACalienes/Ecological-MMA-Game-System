@@ -28,18 +28,26 @@ tags:
   - reaction
 ---
 
-# Counter-Wrestling
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/counter-wrestling.png" alt="Counter-Wrestling">
+  <div class="emma-phero__cap"><span class="k">Transition · Wrestling</span><span class="h">Counter-Wrestling</span></div>
+</div>
 
 <div class="emma-meta"><span>Transition</span><span>Wrestling</span><span>Defensive</span><span>Intermediate</span><span>Striking → Wrestling</span></div>
 
-Change the domain to defend. Instead of answering strikes with strikes or evasion, the counter-wrestler times reactive clinch entries and level changes to turn the striker's offense into wrestling.
+Change the domain to defend — time reactive clinch entries and level changes that turn the striker's offense into wrestling.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range, inside a marked perimeter; the striker leads.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The striker is trying to land clean offense &amp; keep the striking domain; the counter-wrestler is trying to clinch or take down off the initiation.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Striker keeps the striking domain; counter-wrestler clinches or takes down off the initiation.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Wrestling established → transition · Striker keeps the domain → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Don't trade strikes —<br><span class="accent">change the domain.</span></p>
+  <p class="emma-statement__sub">Time the entry off the striker's commitment, not your own count. <b>Turn their offense into your wrestling.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -50,10 +58,10 @@ Change the domain to defend. Instead of answering strikes with strikes or evasio
 
 <div class="emma-setup">
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off at striking range.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range transitioning to clinch — entry timing is critical.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One striker (attacker), one counter-wrestler (defender) — roles transition on a counter-wrestler win.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The striker leads with offense; reset when wrestling is established or the striker keeps the domain.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range into clinch.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One striker, one counter-wrestler.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Striker leads; reset when wrestling is established or the striker keeps the domain.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -87,9 +95,9 @@ Change the domain to defend. Instead of answering strikes with strikes or evasio
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Transition</span> When the counter-wrestler establishes a clinch or completes a takedown, move on to wrestling games.<span class="emma-pop">The counter-wrestler changed the domain — clinch locked or takedown finished. Transition to Open Space Takedown and related wrestling games.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the striker lands clean offense and keeps the striking domain, reset — same roles.<span class="emma-pop">The striker punished the entry or kept distance and stayed striking. Then begin again at striking range.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Transition</span> Clinch or takedown established → move to wrestling games.<span class="emma-pop">When the counter-wrestler establishes a clinch or completes a takedown, move on to wrestling games. The counter-wrestler changed the domain — clinch locked or takedown finished. Transition to Open Space Takedown and related wrestling games.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Striker keeps the domain → reset, same roles.<span class="emma-pop">When the striker lands clean offense and keeps the striking domain, reset — same roles. The striker punished the entry or kept distance and stayed striking. Then begin again at striking range.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">When both of a player's feet leave the perimeter, that player loses — whoever they are. Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

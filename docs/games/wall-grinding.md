@@ -26,18 +26,26 @@ tags:
   - high-intensity
 ---
 
-# Wall Grinding
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/wall-grinding.png" alt="Wall Grinding">
+  <div class="emma-phero__cap"><span class="k">Wall · Wrestling</span><span class="h">Wall Grinding</span></div>
+</div>
 
 <div class="emma-meta"><span>Wall</span><span>Wrestling</span><span>Offensive</span><span>Intermediate</span><span>Exploit</span></div>
 
-Deal damage from wall control without losing the control. Unlike Wall to Ground, the goal is NOT to transition — it's dirty boxing, knees and grinding while the pin holds. Just holding doesn't count, but neither does winging shots that cost you position.
+Deal damage from wall control without losing the control — dirty boxing, knees and grinding while the pin holds.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Attacker has established wall control; defender pinned, ready to resist.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Attacker has wall control; defender pinned, ready to resist.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to damage while holding the pin; the defender is trying to escape or nullify the damage.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker damages while holding the pin; defender escapes or nullifies it.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Sustained damage → attacker wins, switch · Escape or nullify → defender wins, reset.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Holding isn't the win —<br><span class="accent">make the pin hurt.</span></p>
+  <p class="emma-statement__sub">Just holding doesn't count, but neither does winging shots that cost you position. <b>Control AND damage at once.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -47,11 +55,11 @@ Deal damage from wall control without losing the control. Unlike Wall to Ground,
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one attacker grinding from control, one defender resisting.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Established wall control — attacker in position with shoulders flattened and hips controlled.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A wall or cage within a marked perimeter. The wall position is where all the work happens; stay on it — no ground transition.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker maintains control and deals damage; defender escapes the wall or nullifies the damage output.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from established control. Reset when the defender escapes or sufficient damage is dealt; reset if the attacker loses wall control completely.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — attacker grinding from control, defender resisting.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Established wall control — shoulders flattened, hips controlled.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Wall or cage within a marked perimeter — no ground transition.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker controls and damages; defender escapes or nullifies the damage.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from control; reset on escape, sufficient damage, or lost control.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -85,8 +93,8 @@ Deal damage from wall control without losing the control. Unlike Wall to Ground,
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> When the attacker lands sustained damage from the wall — multiple clean strikes while holding control — the attacker wins and roles switch.<span class="emma-pop">Sustained output, not a single lucky shot. Controlling AND damaging at once is the skill being rewarded.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> When the defender escapes to open space or nullifies the damage for an extended period — the defender wins; reset, same roles.<span class="emma-pop">Either break free into space, or shut the damage down long enough that grinding fails.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Sustained damage while holding control → attacker wins, switch.<span class="emma-pop">Sustained output — multiple clean strikes while holding control — not a single lucky shot. Controlling AND damaging at once is the skill being rewarded.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Escape to space or nullify the damage → defender wins, reset.<span class="emma-pop">Either break free into open space, or shut the damage down long enough that grinding fails.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

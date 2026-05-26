@@ -27,18 +27,26 @@ tags:
   - cage-cut
 ---
 
-# Pressure to Wall
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/pressure-to-wall.png" alt="Pressure to Wall">
+  <div class="emma-phero__cap"><span class="k">Open Space → Wall · Wrestling</span><span class="h">Pressure to Wall</span></div>
+</div>
 
 <div class="emma-meta"><span>Open Space → Wall</span><span>Wrestling</span><span>Offensive</span><span>Advanced</span><span>Wall Dominance</span></div>
 
-An offensive game that chains strikes to wall control. Unlike Pressure to Takedown, the destination is the wall itself — for dirty boxing and grinding, not a transition to the ground.
+Chain strikes to wall control — the destination is the wall itself, for dirty boxing and grinding, not the ground.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters in open space at striking range, with a wall available.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Open space, striking range, wall available.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to herd to the wall and damage; the defender is trying to escape or reverse.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker herds to the wall &amp; damages; defender escapes or reverses.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Wall control + damage → switch · Escape clean or reverse → reset to open space.</b></div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Wall control + damage → switch · Escape or reverse → reset.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Don't just hit them —<br><span class="accent">move them to the wall.</span></p>
+  <p class="emma-statement__sub">The wall is the destination, not a takedown. <b>Strikes that herd, then grind.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -48,11 +56,11 @@ An offensive game that chains strikes to wall control. Unlike Pressure to Takedo
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off — one attacker, one defender.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range in open space, with room to herd toward the wall.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter with a wall/cage as the destination — flat wall or curved cage. The wall is the point of the game.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker establishes wall control and lands damage.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates the pressure; reset to open space when wall control is established or the defender escapes cleanly.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one attacker, one defender.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range, open space.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Marked perimeter with a wall/cage as the destination.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker vs. defender — switch on wall control + damage.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset to open space on wall control or clean escape.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -86,9 +94,9 @@ An offensive game that chains strikes to wall control. Unlike Pressure to Takedo
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker establishes wall control AND lands damage (knees, dirty boxing), the players switch roles.<span class="emma-pop">The space fully closed onto the wall and the attacker exploited the position with damage — and earns the defending role.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the defender escapes the wall cleanly OR reverses position, reset to open space — same roles.<span class="emma-pop">The defender re-opened the space — circled out clean or turned the attacker onto the wall. Begin again in open space.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Watch whether the strikes actually move the defender, or just hit them — purposeful herding vs. volume.<span class="emma-pop">Beyond the win, the coach reads whether striking is herding the defender and whether damage flows from the wall position.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Wall control + damage → switch roles.<span class="emma-pop">When the attacker establishes wall control AND lands damage (knees, dirty boxing), the space fully closed onto the wall and the attacker exploited the position — and earns the defending role.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Clean escape or reverse → reset, same roles.<span class="emma-pop">The defender re-opened the space — circled out clean or turned the attacker onto the wall. Begin again in open space.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Do the strikes move them, or just hit them?<span class="emma-pop">Beyond the win, the coach reads whether striking is purposefully herding the defender — not just volume — and whether damage flows from the wall position.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

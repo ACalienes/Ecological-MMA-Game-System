@@ -25,18 +25,26 @@ tags:
   - level-change
 ---
 
-# Wall Pin → Ground Control
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/wall-to-ground.png" alt="Wall Pin → Ground Control">
+  <div class="emma-phero__cap"><span class="k">Wall → Ground · Wrestling</span><span class="h">Wall Pin → Ground Control</span></div>
+</div>
 
 <div class="emma-meta"><span>Wall → Ground</span><span>Wrestling</span><span>Offensive</span><span>Intermediate</span><span>Stabilize → Exploit</span></div>
 
-Convert vertical control into horizontal control. From an established wall pin, bring the opponent down safely and land in hip-and-shoulder control — the first game where the ground becomes the dominant environment. The point is the controlled transition, not the takedown itself.
+Convert vertical control into horizontal — bring the opponent down from the wall pin and land in hip-and-shoulder control.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Established wall pin — attacker in control, defender's escape options limited.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Established wall pin — attacker in control, defender's escapes limited.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to bring the opponent down with control intact; the defender is trying to scramble, stand, or exploit a sloppy descent.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker brings them down with control intact; defender scrambles, stands, or exploits a sloppy descent.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Hip + shoulder control for 2–3s → attacker wins · Scramble, stand, or reverse → defender wins.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">The takedown isn't the point —<br><span class="accent">the controlled descent is.</span></p>
+  <p class="emma-statement__sub">Off-balance first, then descend with connection intact. <b>Control precedes gravity — never dump bodyweight.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -46,11 +54,11 @@ Convert vertical control into horizontal control. From an established wall pin, 
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one attacker transitioning to ground, one defender contesting the descent.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Established wall pin — attacker in control, defender's escape options already limited.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A wall or cage within a marked perimeter, transitioning onto mats. The wall starts dominant, then the ground takes over.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker brings the opponent down and establishes ground control; defender scrambles, uses the wall to stand, or exploits a sloppy transition.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates the transition from the pin. Reset if the defender fully escapes to standing or the attacker loses control completely.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — attacker transitioning to ground, defender contesting the descent.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Established wall pin — defender's escapes already limited.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Wall or cage within a marked perimeter, transitioning onto mats.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker brings them down and establishes ground control; defender scrambles, stands off the wall, or exploits a sloppy transition.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates from the pin; reset on full stand-up escape or lost control.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -84,8 +92,8 @@ Convert vertical control into horizontal control. From an established wall pin, 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> When the attacker lands in controlled hip and shoulder control on the ground and holds it 2–3 seconds — the attacker wins.<span class="emma-pop">The defender can't easily stand or reverse, and the position is stable. This is control, not yet dominance.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> When the defender scrambles back to neutral, stands up using the wall, or reverses — the defender wins.<span class="emma-pop">Any of the three exits the position before the attacker can consolidate control.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Hip + shoulder control held 2–3s → attacker wins.<span class="emma-pop">The defender can't easily stand or reverse, and the position is stable. This is control, not yet dominance.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Scramble to neutral, stand off the wall, or reverse → defender wins.<span class="emma-pop">Any of the three exits the position before the attacker can consolidate control.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

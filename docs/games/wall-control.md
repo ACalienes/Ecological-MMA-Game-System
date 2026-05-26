@@ -26,18 +26,26 @@ tags:
   - positional-sparring
 ---
 
-# Wall Control — Establish the Pin
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/wall-control.png" alt="Wall Control — Establish the Pin">
+  <div class="emma-phero__cap"><span class="k">Wall · Wrestling</span><span class="h">Wall Control — Establish the Pin</span></div>
+</div>
 
 <div class="emma-meta"><span>Wall</span><span>Wrestling</span><span>Offensive</span><span>Intermediate</span><span>Stabilize</span></div>
 
-Teach vertical control — the wall becomes the dominant constraint, limiting the defender's options and creating opportunities for organized control.
+Teach vertical control — the wall becomes the dominant constraint that organizes the pin.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two grapplers clinched, the defender between the attacker and the wall, inside a marked perimeter.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two grapplers clinched, defender pinned between attacker and wall.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to organize a functional pin; the defender is trying to rotate out or disengage.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker organizes a functional pin; defender rotates out or disengages.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Hold the pin 5s → attacker wins · Disengage or reverse → defender wins · Only pressing → no pin.</b></div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Hold pin 5s → attacker · Disengage or reverse → defender · Only pressing → no pin.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Pressing isn't pinning —<br><span class="accent">deny the rotation.</span></p>
+  <p class="emma-statement__sub">A pin is organized structure, not muscle. <b>If their shoulders can turn, it's only pressure.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -47,11 +55,11 @@ Teach vertical control — the wall becomes the dominant constraint, limiting th
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two grapplers, clinched with initial connection but no control yet.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range/position</span>Tied up at the wall, 1–2 feet out — the defender pinned between the attacker and the wall.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>The wall (or cage) is the dominant constraint, set inside a marked perimeter — any shape (square, circle, taped lines).</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two grapplers, clinched with connection but no control yet.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range/position</span>Tied up at the wall, 1–2 feet out — defender pinned against it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>The wall (or cage) is the dominant constraint, inside a marked perimeter.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker establishing the pin, one defender resisting and escaping.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the clinch; reset to neutral if the defender creates significant space or fully disengages.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from clinch; reset on significant space or full disengage.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -85,9 +93,9 @@ Teach vertical control — the wall becomes the dominant constraint, limiting th
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker wins</span> When the attacker holds a functional pin for 5 seconds, the attacker wins the exchange.<span class="emma-pop">A functional pin: shoulders substantially flat to the wall, hips controlled or compromised, no free rotation, with the attacker keeping structure and balance. The 5-second hold ensures the pin is stable, not momentary.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender wins</span> When the defender disengages (creates space) or reverses position, the defender wins the exchange.<span class="emma-pop">Break free by creating significant space, or turn the position around. Either ends the attacker's control attempt.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No pin</span> When the defender can still rotate their shoulders, it counts as pressing — not a pin.<span class="emma-pop">If the defender can still rotate their shoulders, it isn't a pin — only pressure. Organized structure that denies rotation is what counts.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker wins</span> Hold a functional pin for 5 seconds → attacker wins.<span class="emma-pop">A functional pin: shoulders substantially flat to the wall, hips controlled or compromised, no free rotation, with the attacker keeping structure and balance. The 5-second hold ensures the pin is stable, not momentary.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender wins</span> Disengage or reverse → defender wins.<span class="emma-pop">Break free by creating significant space, or turn the position around. Either ends the attacker's control attempt.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No pin</span> Shoulders can still rotate → pressing, not a pin.<span class="emma-pop">If the defender can still rotate their shoulders, it isn't a pin — only pressure. Organized structure that denies rotation is what counts.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

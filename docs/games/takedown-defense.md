@@ -23,18 +23,26 @@ tags:
   - reaction
 ---
 
-# Takedown Defense
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/takedown-defense.png" alt="Takedown Defense">
+  <div class="emma-phero__cap"><span class="k">Open Space · Wrestling</span><span class="h">Takedown Defense</span></div>
+</div>
 
 <div class="emma-meta"><span>Open Space</span><span>Wrestling</span><span>Defensive</span><span>Intermediate</span><span>Mats</span></div>
 
-Stop the shot and get back to neutral. The defender learns to recognize the level change, sprawl in time, fight the position, and disengage to standing — denial, not ground escape.
+Stop the shot and get back to neutral — denial, not ground escape.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters standing at clinch range, inside a marked perimeter.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at clinch range, inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to complete a takedown to control; the defender is trying to deny it &amp; return to standing.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker completes a takedown; defender denies it &amp; returns to standing.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Deny &amp; disengage → switch · Takedown completes → reset · Leave the perimeter → loss.</b></div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Deny &amp; disengage → switch · Takedown completes → reset · Leave perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Don't escape the takedown —<br><span class="accent">deny it.</span></p>
+  <p class="emma-statement__sub">Once it completes, the game's over. <b>Read the shot, sprawl in time, get back to neutral.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -44,11 +52,11 @@ Stop the shot and get back to neutral. The defender learns to recognize the leve
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off standing at clinch range.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Clinch range / wrestling distance — close enough that shot recognition is critical.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the defender denies and disengages.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates the takedown; reset when it completes or the defender fully disengages.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off at clinch range.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Clinch / wrestling distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker vs. defender — switch when the defender denies and disengages.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset on takedown or full disengage.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -82,9 +90,9 @@ Stop the shot and get back to neutral. The defender learns to recognize the leve
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the defender denies the takedown and disengages to standing, the players switch roles.<span class="emma-pop">The defender stopped the shot and got back to neutral standing — and earns the attacking role.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the attacker completes a takedown with control on the ground, reset to standing — same roles.<span class="emma-pop">A takedown finished with control. Then begin again from standing at clinch range.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Deny &amp; disengage to standing → switch roles.<span class="emma-pop">The defender stopped the shot and got back to neutral standing — and earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Takedown completes with control → reset, same roles.<span class="emma-pop">A takedown finished with control on the ground. Then begin again from standing at clinch range.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

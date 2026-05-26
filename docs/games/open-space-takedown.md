@@ -24,18 +24,26 @@ tags:
   - timing
 ---
 
-# Open Space Control → Takedown
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/open-space-takedown.png" alt="Open Space Control → Takedown">
+  <div class="emma-phero__cap"><span class="k">Open Space · Wrestling</span><span class="h">Open Space Control → Takedown</span></div>
+</div>
 
 <div class="emma-meta"><span>Open Space</span><span>Wrestling</span><span>Combined</span><span>Intermediate</span><span>Clinch → Takedown</span></div>
 
-Takedowns from a connected position without wall assistance. The defender has more escape routes, and DNS (defensive neck submission) threats are at their most dangerous in the whole system.
+Takedowns from a connected position with no wall — more escape routes, and DNS threats at their most dangerous in the system.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters clinched in open space — hands already connected, no wall.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to compromise the base and finish; the defender is trying to scramble, reverse, or hit a DNS.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker compromises the base and finishes; defender scrambles, reverses, or hits a DNS.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Controlled takedown → switch · Scramble up, disengage, reverse, or DNS → reset.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">No wall to brace —<br><span class="accent">the neck is always live.</span></p>
+  <p class="emma-statement__sub">The base must be compromised before descent; force it and you over-commit. <b>In open space, DNS threats are at their most dangerous in the system.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -45,11 +53,11 @@ Takedowns from a connected position without wall assistance. The defender has mo
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, already clinched — one attacker, one defender.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Clinch range — hands already connected (50/50, single leg, body lock, collar tie). No shooting from distance.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter in open space — no wall involvement, so pure body mechanics decide scrambles.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker lands a controlled takedown.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin already connected; reset if the clinch breaks cleanly or the defender fully disengages.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, already clinched.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Clinch range, hands connected — no shooting from distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter in open space — no wall.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin connected; reset if the clinch breaks cleanly or the defender disengages.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -83,9 +91,9 @@ Takedowns from a connected position without wall assistance. The defender has mo
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker lands a controlled takedown with hips and shoulders controlled on the ground, the players switch roles.<span class="emma-pop">The space closed cleanly: base compromised, descent controlled, top control established. The attacker earns the defending role.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the defender scrambles to standing, disengages, reverses, or hits a DNS, the position re-opens — reset.<span class="emma-pop">The defender re-opened the space — recovered base, broke the clinch, turned the position, or caught the neck. Begin again from the clinch.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Watch whether the base was truly compromised before the descent, or whether the takedown was forced through strength.<span class="emma-pop">DNS is a win condition here, reflecting its importance. Beyond the outcome, the coach reads base-compromise timing and head-position discipline.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Controlled takedown → switch roles.<span class="emma-pop">When the attacker lands a controlled takedown with hips and shoulders controlled on the ground, the players switch roles. The space closed cleanly: base compromised, descent controlled, top control established. The attacker earns the defending role.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Scramble up, disengage, reverse, or DNS → reset.<span class="emma-pop">When the defender scrambles to standing, disengages, reverses, or hits a DNS, the position re-opens — reset. The defender re-opened the space — recovered base, broke the clinch, turned the position, or caught the neck. Begin again from the clinch.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Was the base compromised, or was the takedown forced?<span class="emma-pop">Watch whether the base was truly compromised before the descent, or whether the takedown was forced through strength. DNS is a win condition here, reflecting its importance. Beyond the outcome, the coach reads base-compromise timing and head-position discipline.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

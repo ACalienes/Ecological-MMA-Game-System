@@ -28,18 +28,26 @@ tags:
   - timing
 ---
 
-# Pressure to Takedown
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/pressure-to-takedown.png" alt="Pressure to Takedown">
+  <div class="emma-phero__cap"><span class="k">Open Space · Wrestling</span><span class="h">Pressure to Takedown</span></div>
+</div>
 
 <div class="emma-meta"><span>Open Space</span><span>Wrestling</span><span>Offensive</span><span>Advanced</span><span>Striking → Grappling</span></div>
 
-A full-sequence offensive game that teaches the attacker to chain strikes, distance closure, and takedowns into one flow. The defender learns to manage all three threats at once.
+A full-sequence offensive game: chain strikes, distance closure, and takedowns into one flow while the defender manages all three threats at once.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters in neutral standing at close quarters — attacker has initiative.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to chain strikes to a takedown; the defender is trying to defend all three layers.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker chains strikes to a takedown; defender defends all three layers.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Takedown + meaningful top control → reset · Defender survives strikes, closure &amp; takedown → success (no win state).</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">The takedown isn't the entry —<br><span class="accent">it's the end of the chain.</span></p>
+  <p class="emma-statement__sub">Strikes open the closure; closure becomes the shot. <b>The takedown emerges from pressure, never forced.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
@@ -49,11 +57,11 @@ A full-sequence offensive game that teaches the attacker to chain strikes, dista
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one attacker (initiative), one defender managing the pressure.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Neutral standing at close quarters — inside the range where strikes set up closure.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — open space, with an optional wall available as a pathway.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — the defender has no win state; success is measured by threats defended.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates with strikes; reset if the defender escapes cleanly or the attacker establishes top control.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one attacker, one defender.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Neutral standing at close quarters.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, open space — optional wall as a pathway.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — defender has no win state.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates with strikes; reset if the defender escapes cleanly or the attacker establishes top control.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -87,9 +95,9 @@ A full-sequence offensive game that teaches the attacker to chain strikes, dista
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker scores</span> When the attacker executes a takedown AND establishes meaningful top pinning control, the sequence is won — reset.<span class="emma-pop">The space fully closed and the chain completed: strikes set up closure, closure became a takedown, and the takedown became control. Then reset.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender (no win state)</span> The defender has no win condition — success is measured by strikes defended, closure prevented, and takedowns defended.<span class="emma-pop">This is an offensive-development game. The defender wins nothing outright; the coach reads how well each layer was defended.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the defender escapes cleanly or scrambles back to standing, the space re-opens — reset to neutral.<span class="emma-pop">The defender broke the chain — denied closure, defended the shot, or scrambled up. Begin again at close quarters.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker scores</span> Takedown + meaningful top control → reset.<span class="emma-pop">When the attacker executes a takedown AND establishes meaningful top pinning control, the sequence is won — reset. The space fully closed and the chain completed: strikes set up closure, closure became a takedown, and the takedown became control. Then reset.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender (no win state)</span> Success = threats defended, not a win.<span class="emma-pop">The defender has no win condition — success is measured by strikes defended, closure prevented, and takedowns defended. This is an offensive-development game. The defender wins nothing outright; the coach reads how well each layer was defended.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Defender escapes or scrambles up → reset to neutral.<span class="emma-pop">When the defender escapes cleanly or scrambles back to standing, the space re-opens — reset to neutral. The defender broke the chain — denied closure, defended the shot, or scrambled up. Begin again at close quarters.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
