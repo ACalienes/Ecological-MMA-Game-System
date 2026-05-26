@@ -21,7 +21,10 @@ tags:
   - skill-isolation
 ---
 
-# Slip the Straight
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/slip-the-straight.png" alt="Slip the Straight">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Slip the Straight</span></div>
+</div>
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Defensive</span><span>Beginner</span><span>Open Space</span></div>
 
@@ -33,6 +36,11 @@ Learn to make straight punches miss with head movement. The defender can *only* 
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean straight to the head; the defender is trying to move the head offline so it misses.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean slip → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Don't block it. Don't run from it —<br><span class="accent">move your head and make it miss.</span></p>
+  <p class="emma-statement__sub">Take away every defense but the slip and head movement is forced to develop on its own. <b>Read the rate the glove grows, not the eyes, and move offline in time.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

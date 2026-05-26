@@ -19,7 +19,10 @@ tags:
   - skill-isolation
 ---
 
-# Lead Hand Offense
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/lead-hand-offense.png" alt="Lead Hand Offense">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Lead Hand Offense</span></div>
+</div>
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
 
@@ -31,6 +34,11 @@ Develop the lead hand as a weapon. The attacker can *only* use the lead hand —
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean lead hand strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">One hand, endless problems —<br><span class="accent">the lead hand isn't just a jab.</span></p>
+  <p class="emma-statement__sub">Locking the attacker to a single tool forces timing, feints, and target variety to emerge. <b>Creativity grows inside the constraint.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

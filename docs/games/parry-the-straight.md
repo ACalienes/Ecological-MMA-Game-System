@@ -21,7 +21,10 @@ tags:
   - skill-isolation
 ---
 
-# Parry the Straight
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/parry-the-straight.png" alt="Parry the Straight">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Parry the Straight</span></div>
+</div>
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Defensive</span><span>Beginner</span><span>Open Space</span></div>
 
@@ -33,6 +36,11 @@ Learn to deflect straight punches with the hands. The defender can *only* parry 
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean straight; the defender is trying to deflect it off the centerline.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean parry → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">No block, no slip, no retreat —<br><span class="accent">only the parry.</span></p>
+  <p class="emma-statement__sub">Stripping away every other defense forces the deflection to develop on its own. <b>Stay in the pocket and solve the straight with your hands.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

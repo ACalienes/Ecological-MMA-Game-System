@@ -26,7 +26,10 @@ tags:
   - angle
 ---
 
-# Land the Target
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/land-the-target.png" alt="Land the Target">
+  <div class="emma-phero__cap"><span class="k">Open Space · Striking</span><span class="h">Land the Target</span></div>
+</div>
 
 <div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Offensive</span><span>Intermediate</span><span>Access</span></div>
 
@@ -38,6 +41,11 @@ An offensive development game that teaches the attacker to read defensive patter
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land the declared target by reading &amp; opening the defense; the defender is trying to protect all three zones.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land the target → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Pick the shot first —<br><span class="accent">then make the defense open it.</span></p>
+  <p class="emma-statement__sub">A declared target turns offense into a read-and-setup problem, not volume. <b>You only win when your one chosen shot lands clean.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

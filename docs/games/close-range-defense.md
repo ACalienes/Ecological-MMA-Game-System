@@ -27,7 +27,10 @@ tags:
   - high-intensity
 ---
 
-# Close-Range Defense
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/close-range-defense.png" alt="Close-Range Defense">
+  <div class="emma-phero__cap"><span class="k">Integration · Striking</span><span class="h">Close-Range Defense</span></div>
+</div>
 
 <div class="emma-meta"><span>Integration</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Close Quarters</span></div>
 
@@ -39,6 +42,11 @@ Mix the defensive solutions under pressure. The defender stays in the pocket and
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to find openings and land strikes; the defender is trying to defend without exiting, picking the right solution each time.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>No winner — reset after a defended sequence or a clean strike. Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Don't pick one defense —<br><span class="accent">pick the one the shot calls for.</span></p>
+  <p class="emma-statement__sub">Stay in the pocket and layer block, parry, and dodge under pressure. <b>The skill is knowing when to use which.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

@@ -18,7 +18,10 @@ tags:
   - skill-isolation
 ---
 
-# Rear Leg Offense
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/rear-leg-offense.png" alt="Rear Leg Offense">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Rear Leg Offense</span></div>
+</div>
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
 
@@ -30,6 +33,11 @@ Develop the rear (power) leg as a weapon. The attacker can *only* use the rear l
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean rear leg strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">The hardest weapon you own —<br><span class="accent">and the one that needs the most setup.</span></p>
+  <p class="emma-statement__sub">Take away the hands and the lead leg and the fighter must earn every power kick. <b>Feint, manage distance, and commit only when the opening appears.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

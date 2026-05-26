@@ -23,7 +23,10 @@ tags:
   - low-intensity
 ---
 
-# Touch and Don't Get Touched
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/touch-game.png" alt="Touch and Don't Get Touched">
+  <div class="emma-phero__cap"><span class="k">Open Space · Striking</span><span class="h">Touch and Don't Get Touched</span></div>
+</div>
 
 <div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Combined</span><span>Beginner</span><span>Foundational</span></div>
 
@@ -35,6 +38,11 @@ The foundational engagement game — it exists *before* space control, pressure,
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Both players are trying to touch the opponent, avoid being touched, and deny the response.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean touch → advantage · Touch + counter-touch → neutral · Touched with no answer → lost exchange. Reset.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Touch, don't get touched —<br><span class="accent">and if you do, answer back now.</span></p>
+  <p class="emma-statement__sub">The most basic engagement game in the system, built on honest range and composure under contact. <b>Recover initiative in the same window, not the next exchange.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

@@ -26,7 +26,10 @@ tags:
   - pressure
 ---
 
-# Evasive Movement
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/evasive-movement.png" alt="Evasive Movement">
+  <div class="emma-phero__cap"><span class="k">Open Space · Striking</span><span class="h">Evasive Movement</span></div>
+</div>
 
 <div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Footwork</span></div>
 
@@ -38,6 +41,11 @@ Avoid conflict through movement — "getting on your bike." Unlike Close-Range D
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The evader is trying to keep distance; the pursuer is trying to close it and corner them.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Keep distance for the duration → switch · Establish range or corner the evader → reset.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">The best defense —<br><span class="accent">is the fight that never starts.</span></p>
+  <p class="emma-statement__sub">Avoid engagement through footwork and ring generalship, not by absorbing strikes. <b>Win the space, don't get cornered.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

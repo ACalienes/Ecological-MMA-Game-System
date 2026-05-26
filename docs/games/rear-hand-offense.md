@@ -18,7 +18,10 @@ tags:
   - skill-isolation
 ---
 
-# Rear Hand Offense
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/rear-hand-offense.png" alt="Rear Hand Offense">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Rear Hand Offense</span></div>
+</div>
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
 
@@ -30,6 +33,11 @@ Develop the rear (power) hand as a weapon. The attacker can *only* use the rear 
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean rear hand strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">No jab to hide behind —<br><span class="accent">the power shot must build its own opening.</span></p>
+  <p class="emma-statement__sub">Strip away every weapon but the rear hand and the fighter is forced to discover entries. <b>Read the guard, make it move, commit to where it goes.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

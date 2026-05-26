@@ -24,7 +24,10 @@ tags:
   - angle
 ---
 
-# Pressure to Clinch
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/pressure-to-clinch.png" alt="Pressure to Clinch">
+  <div class="emma-phero__cap"><span class="k">Open Space · Striking</span><span class="h">Pressure to Clinch</span></div>
+</div>
 
 <div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Combined</span><span>Beginner</span><span>Access → Transition</span></div>
 
@@ -36,6 +39,11 @@ The primary space-control game: manage distance through movement and pressure, t
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The outside player is trying to pressure &amp; clinch; the inside player is trying to keep space &amp; escape.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clinch / wall pin → attacker scores · Escape or reverse → defender scores · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Pressure isn't pushing —<br><span class="accent">it's collapsing their space.</span></p>
+  <p class="emma-statement__sub">Cut angles to shrink open space, then convert pressure into clinch and clinch into the wall pin. <b>Corral, don't chase.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

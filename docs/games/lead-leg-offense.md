@@ -18,7 +18,10 @@ tags:
   - skill-isolation
 ---
 
-# Lead Leg Offense
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/lead-leg-offense.png" alt="Lead Leg Offense">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Lead Leg Offense</span></div>
+</div>
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
 
@@ -30,6 +33,11 @@ Develop the lead leg as a weapon. The attacker can *only* use the lead leg — t
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean lead leg strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">The fastest weapon you own —<br><span class="accent">if you master the range.</span></p>
+  <p class="emma-statement__sub">Teep, round kick, side kick from the lead leg control distance and rhythm at low commitment. <b>Every tool lives at its own range.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

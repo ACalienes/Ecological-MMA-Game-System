@@ -26,7 +26,10 @@ tags:
   - high-intensity
 ---
 
-# Sustained Offense
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/sustained-offense.png" alt="Sustained Offense">
+  <div class="emma-phero__cap"><span class="k">Open Space · Striking</span><span class="h">Sustained Offense</span></div>
+</div>
 
 <div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Offensive</span><span>Intermediate</span><span>Access → Stabilize</span></div>
 
@@ -38,6 +41,11 @@ Maintain offensive rhythm through the opponent's defensive attempts. The attacke
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to sustain continuous offense through resistance; the defender is trying to actively break the rhythm and force a reset.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Sustain the sequence → switch · Rhythm fully broken → reset, same roles · Single shots that reset don't count.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">One shot and stop loses —<br><span class="accent">don't break the rhythm.</span></p>
+  <p class="emma-statement__sub">Every defensive move the opponent makes is the next opening, not a reason to reset. <b>Slip, follow, shed the clinch — and keep striking through it.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

@@ -26,7 +26,10 @@ tags:
   - pressure
 ---
 
-# Counter-Striking
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/counter-striking.png" alt="Counter-Striking">
+  <div class="emma-phero__cap"><span class="k">Counter · Striking</span><span class="h">Counter-Striking</span></div>
+</div>
 
 <div class="emma-meta"><span>Counter</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Transition Zone</span></div>
 
@@ -38,6 +41,11 @@ Use offense as defense. The counter-striker can't lead — they wait, read the i
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The initiator is trying to land clean offense; the counter-striker is trying to time a reactive counter that interrupts or punishes it.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean counter → switch · Clean offense, uncountered → reset.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Don't lead —<br><span class="accent">make them pay for committing.</span></p>
+  <p class="emma-statement__sub">The counter-striker can't initiate; they wait, read the lead, and punish it. <b>Offense becomes the defense.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

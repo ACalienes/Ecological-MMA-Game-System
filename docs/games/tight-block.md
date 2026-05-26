@@ -19,7 +19,10 @@ tags:
   - skill-isolation
 ---
 
-# Tight Block
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/tight-block.png" alt="Tight Block">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Tight Block</span></div>
+</div>
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Defensive</span><span>Beginner</span><span>Open Space</span></div>
 
@@ -31,6 +34,11 @@ Learn to absorb strikes behind a tight shell. The defender can *only* block — 
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean shot; the defender is trying to block &amp; survive.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Survive → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">You can't avoid every shot —<br><span class="accent">so make them cost nothing.</span></p>
+  <p class="emma-statement__sub">The defender may only block — no parry, no head movement. <b>The shell has to solve it alone.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>

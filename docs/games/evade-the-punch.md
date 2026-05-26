@@ -21,7 +21,10 @@ tags:
   - skill-isolation
 ---
 
-# Evade the Punch
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/evade-the-punch.png" alt="Evade the Punch">
+  <div class="emma-phero__cap"><span class="k">Skill Integration · Striking</span><span class="h">Evade the Punch</span></div>
+</div>
 
 <div class="emma-meta"><span>Skill Integration</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Open Space</span></div>
 
@@ -33,6 +36,11 @@ Learn to match the evasion to the punch — slip straights, duck hooks. The defe
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean head punch; the defender is trying to read its type and evade with the matching movement.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Correct evasion → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Read the path first —<br><span class="accent">slip straights, duck hooks.</span></p>
+  <p class="emma-statement__sub">Head movement only, so the evasion must match the punch type. <b>One right evasion beats ten wrong ones.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
