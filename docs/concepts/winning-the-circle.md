@@ -17,13 +17,26 @@ tags:
   - foundational-concept
 ---
 
-# Winning the Circle
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/winning-the-circle.png" alt="Winning the Circle">
+  <div class="emma-phero__cap"><span class="k">Spatial Control · All Domains</span><span class="h">Winning the Circle</span></div>
+</div>
 
 <div class="emma-meta"><span>Spatial Control</span><span>All Domains</span><span>Foundational</span><span>Continuous Battle</span></div>
 
-**Every moment, one fighter is winning the circle — shrinking space by pressure, or keeping it open by escape. Whoever owns the space owns the options.**
-
 <p class="emma-hl"><b>Winning the Circle</b> is the outcome of a spatial exchange where one fighter holds the positional advantage. The <b>outside</b> fighter wins by cutting off escape and corralling the opponent to the boundary; the <b>inside</b> fighter wins by escaping to open space and regaining freedom.</p>
+
+<div class="emma-band">
+  <p class="emma-statement">Whoever owns the space —<br><span class="accent">owns the options.</span></p>
+  <p class="emma-statement__sub">Every moment, one fighter is winning the circle: shrinking space by pressure, or keeping it open by escape.</p>
+</div>
+
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚖️</span> 50/50 clinch<span class="emma-chip__detail">Each fighter has one overhook and one underhook (mirror grips, one per side), starting chest to chest — symmetric and neutral. Whoever first wins inside control or the angle gains the advantage.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
 
 <p class="emma-glabel">The Two Perspectives</p>
 

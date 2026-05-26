@@ -1,10 +1,18 @@
-# Hand Controls
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/hand-controls.png" alt="Hand Controls">
+  <div class="emma-phero__cap"><span class="k">Core Concept · Bridge Skill</span><span class="h">Hand Controls</span></div>
+</div>
 
 <div class="emma-meta"><span>Core Concept</span><span>Bridge Skill</span><span>All Ranges</span></div>
 
 **Hand control is the bridge between striking and grappling — it stops the tool before the strike, not the strike after it leaves.**
 
 <p class="emma-hl"><b>Hand control</b> is any intentional use of the hands or arms to interfere with an opponent's ability to strike, frame, or maneuver effectively. It is <b>not a position — it is a functional interaction.</b></p>
+
+<div class="emma-band">
+  <p class="emma-statement">Stop the tool —<br><span class="accent">not the strike after it leaves.</span></p>
+  <p class="emma-statement__sub">A functional interaction, not a position. <b>It's the bridge from striking into grappling.</b></p>
+</div>
 
 <p class="emma-glabel">What It Buys You</p>
 

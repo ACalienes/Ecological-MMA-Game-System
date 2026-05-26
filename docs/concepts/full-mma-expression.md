@@ -2,11 +2,19 @@
 title: Full MMA Expression
 ---
 
-# Full MMA Expression
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/full-mma-expression.png" alt="Full MMA Expression">
+  <div class="emma-phero__cap"><span class="k">Highest Level · All Games</span><span class="h">Full MMA Expression</span></div>
+</div>
 
 <div class="emma-meta"><span>Highest Level</span><span>All Games</span><span>Multi-Threat Pressure</span></div>
 
 <p class="emma-hl"><b>Every game can be played at a Full MMA Expression level</b> — the highest level, where complications from other domains are introduced while the game keeps its core focus.</p>
+
+<div class="emma-band">
+  <p class="emma-statement">Master the skill in isolation —<br><span class="accent">then stress it under every threat.</span></p>
+  <p class="emma-statement__sub">The game keeps its core focus, but other domains complicate it. <b>The ceiling, not the default.</b></p>
+</div>
 
 <p class="emma-glabel">The Pattern</p>
 

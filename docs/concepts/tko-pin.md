@@ -1,8 +1,16 @@
-# TKO Pin
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/tko-pin.png" alt="TKO Pin">
+  <div class="emma-phero__cap"><span class="k">Control Concept · Wall + Ground</span><span class="h">TKO Pin</span></div>
+</div>
 
 <div class="emma-meta"><span>Control Concept</span><span>Wall + Ground</span><span>Fleeting State</span></div>
 
 <p class="emma-hl"><b>A TKO Pin is a control <i>state</i>, not a position.</b> It exists the moment you control the opponent's frame while keeping a limb free to strike — and it can vanish just as fast.</p>
+
+<div class="emma-band">
+  <p class="emma-statement">Control the frame, free a limb —<br><span class="accent">strike before it slips away.</span></p>
+  <p class="emma-statement__sub">It's a fleeting state, not a held position. <b>Create it, capture it, stabilize it, re-acquire it.</b></p>
+</div>
 
 <p class="emma-glabel">When a TKO Pin Exists</p>
 

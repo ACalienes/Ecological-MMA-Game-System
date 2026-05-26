@@ -1,15 +1,32 @@
-# Three Zones of Attack
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/three-zones.png" alt="Three Zones of Attack">
+  <div class="emma-phero__cap"><span class="k">Striking Concept · Offense + Defense</span><span class="h">Three Zones of Attack</span></div>
+</div>
 
 <div class="emma-meta"><span>Striking Concept</span><span>Offense + Defense</span><span>Misdirection</span></div>
 
 <p class="emma-hl"><b>There are only three zones you can attack.</b> Every strike targets one; every defense protects one or more. You cannot fully protect all three at once — and that is the whole game.</p>
 
+<div class="emma-band">
+  <p class="emma-statement">No guard covers all three —<br><span class="accent">hit them where they're not.</span></p>
+  <p class="emma-statement__sub">Head, body, legs. Every stance is a trade; their guard shows you their holes.</p>
+</div>
+
 <p class="emma-glabel">The Three Zones</p>
 
-<div class="emma-cards">
-  <div class="emma-card"><div class="emma-card__i">🧠</div><div class="emma-card__t">Head</div><p>Chin, temple, nose, ear.</p></div>
-  <div class="emma-card"><div class="emma-card__i">🫁</div><div class="emma-card__t">Body</div><p>Liver, solar plexus, ribs, floating ribs.</p></div>
-  <div class="emma-card"><div class="emma-card__i">🦵</div><div class="emma-card__t">Legs</div><p>Thigh (inside/outside), calf, knee.</p></div>
+<div class="emma-bodymap">
+  <div class="emma-zone emma-zone--high">
+    <div class="emma-zone__label"><span class="lv">High</span><span class="lk">Head</span></div>
+    <div class="emma-zone__body"><span class="t">Head</span><span class="d">Chin, temple, nose, ear.</span></div>
+  </div>
+  <div class="emma-zone emma-zone--mid">
+    <div class="emma-zone__label"><span class="lv">Mid</span><span class="lk">Body</span></div>
+    <div class="emma-zone__body"><span class="t">Body</span><span class="d">Liver, solar plexus, ribs, floating ribs.</span></div>
+  </div>
+  <div class="emma-zone emma-zone--low">
+    <div class="emma-zone__label"><span class="lv">Low</span><span class="lk">Legs</span></div>
+    <div class="emma-zone__body"><span class="t">Legs</span><span class="d">Thigh (inside/outside), calf, knee.</span></div>
+  </div>
 </div>
 
 <p class="emma-glabel">The Misdirection Principle</p>

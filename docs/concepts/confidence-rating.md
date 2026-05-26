@@ -1,10 +1,16 @@
-# Confidence Rating
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/confidence-rating.png" alt="Confidence Rating">
+  <div class="emma-phero__cap"><span class="k">Core Concept · Perceptual Foundation</span><span class="h">Confidence Rating</span></div>
+</div>
 
 <div class="emma-meta"><span>Core Concept</span><span>Perceptual Foundation</span><span>Offense + Defense</span><span>The Information War</span></div>
 
 **The longer you engage, the more you read — and the more you read, the more you can commit. Confidence is information, not emotion.**
 
-<p class="emma-hl"><b>Confidence Rating</b> links exposure time, pattern recognition, and commitment quality. It is not "feeling confident" — it is having <b>sufficient information</b> to make a high-probability prediction and commit.</p>
+<div class="emma-band">
+  <p class="emma-statement">Confidence isn't a feeling —<br><span class="accent">it's sufficient information to commit.</span></p>
+  <p class="emma-statement__sub">It links exposure, pattern recognition, and commitment quality. <b>Enough data for a high-probability prediction, then commit.</b></p>
+</div>
 
 <div class="emma-flow">
   <div class="emma-flow__row"><span class="emma-flow__from">Exposure</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Pattern recognition</span></div>

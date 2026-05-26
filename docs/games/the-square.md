@@ -24,7 +24,10 @@ tags:
   - class-derived
 ---
 
-# The Square — Close Defense to Takedown Progression
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/the-square.png" alt="The Square — Close Defense to Takedown Progression">
+  <div class="emma-phero__cap"><span class="k">Progression · Mixed (Striking → Grappling)</span><span class="h">The Square — Close Defense to Takedown Progression</span></div>
+</div>
 
 !!! warning "Provisional (WIP) — derived from class recording 2026-05-25"
     This game was captured live from a class and is **pending review on the platform**.
@@ -42,6 +45,11 @@ A single constraint set, layered live one variable at a time, that grows from cl
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Survive / counter / off-balance / finish → win · Leave the perimeter → loss.</b></div>
 </div>
 
+<div class="emma-band">
+  <p class="emma-statement">One game, layered live —<br><span class="accent">survive first, then earn the right to finish.</span></p>
+  <p class="emma-statement__sub">It starts as block-only survival in the pocket and grows, one variable at a time, into a full striking-to-takedown game. <b>Counter, clinch off-balance, finish.</b></p>
+</div>
+
 <p class="emma-glabel">What to Read</p>
 
 <p class="emma-hl"><b>What you attune to shifts as the game evolves.</b> Early, in the striking phases, read the <i>rate of expansion</i> (τ) of the incoming punch and the shoulder–hip motion at <b>center mass</b> — that specifies <i>when</i> and <i>where</i> the shot arrives. As the game opens into the clinch and becomes grappling, attune instead to the <b>felt resistance — the inertial array</b> of the opponent's weight and directional force through your hand controls. That felt push is no longer something to absorb; it is the information you redirect to off-balance and finish.</p>
@@ -49,11 +57,11 @@ A single constraint set, layered live one variable at a time, that grows from cl
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off at close range in a neutral fighting stance.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Close quarters — inside punching distance, with no gap to retreat into.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it; the edge is live, like a cage edge.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One offense, one defense — asymmetric, and switched on a win.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The offense initiates; reset to neutral after each exchange. New phases are layered one variable at a time.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, neutral stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Close quarters — no gap to retreat into.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside; the edge is live.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One offense, one defense — switched on a win.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Offense initiates; reset after each exchange. Phases layer one variable at a time.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -87,9 +95,9 @@ A single constraint set, layered live one variable at a time, that grows from cl
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defense wins</span> When the defender survives, lands a clean counter (one strike, later a body kick), off-balances the offense in the clinch, or establishes a top neck strangle, the defense wins.<span class="emma-pop">The phase-dependent defensive win — survival early, then counter, then clinch off-balancing, then a takedown / strangle finish as the game layers up. Winning switches roles.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Offense wins</span> When the offense lands the required significant strikes (1 → 2), or connects a leg attack / double-under and finishes to the ground, the offense wins.<span class="emma-pop">Significant shots with front-two-knuckle contact; later, hips to the ground (hands down / feet up = on track), no scrambling once the hips land. A caught kick does not count as landed.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses instantly, regardless of the exchange. A caught kick used to push or take a player out leaves the kicker liable — training cage-edge awareness.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defense wins</span> Survive, counter, off-balance, or finish → win.<span class="emma-pop">The phase-dependent defensive win — survival early, then counter (one strike, later a body kick), then clinch off-balancing, then a takedown / top neck strangle finish as the game layers up. Winning switches roles.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Offense wins</span> Land the required strikes, or take it to the ground → win.<span class="emma-pop">Significant shots with front-two-knuckle contact (1 → 2 required); later, connect a leg attack / double-under and get the hips to the ground (hands down / feet up = on track), no scrambling once the hips land. A caught kick does not count as landed.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses instantly, regardless of the exchange — whoever you are. A caught kick used to push or take a player out leaves the kicker liable — training cage-edge awareness.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

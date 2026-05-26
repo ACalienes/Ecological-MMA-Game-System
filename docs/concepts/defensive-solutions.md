@@ -1,10 +1,18 @@
-# Defensive Solutions in Striking
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/defensive-solutions.png" alt="Defensive Solutions in Striking">
+  <div class="emma-phero__cap"><span class="k">Core Concept · Striking</span><span class="h">Defensive Solutions in Striking</span></div>
+</div>
 
 <div class="emma-meta"><span>Core Concept</span><span>Striking</span><span>4 Solutions</span><span>Context-Driven</span></div>
 
 **There are four functionally distinct ways to defend a strike — and the skill is selecting, not memorizing, the right one.**
 
 <p class="emma-hl"><b>Defense</b> is any action that meaningfully reduces the opponent's ability to land effective strikes — nothing more, nothing less.</p>
+
+<div class="emma-band">
+  <p class="emma-statement">Four ways to defend a strike —<br><span class="accent">the skill is choosing, not memorizing.</span></p>
+  <p class="emma-statement__sub">Block, parry, evade, enter. <b>No solution is universally best — context decides.</b></p>
+</div>
 
 <p class="emma-glabel">The Four Core Solutions</p>
 

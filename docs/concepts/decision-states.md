@@ -1,21 +1,26 @@
-# Decision States
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/decision-states.png" alt="Decision States">
+  <div class="emma-phero__cap"><span class="k">Universal Framework · All Environments</span><span class="h">Decision States</span></div>
+</div>
 
 <div class="emma-meta"><span>Universal Framework</span><span>All Environments</span><span>Four Phases</span></div>
 
 <p class="emma-hl"><b>Every moment in a fight is one of four decision states.</b> Knowing which one you're in determines your immediate priority — and the cycle never stops turning.</p>
 
-```mermaid
-flowchart LR
-    A[Access] --> B[Stabilize]
-    B --> C[Exploit]
-    C --> D[Counter]
-    D --> A
+<div class="emma-band">
+  <p class="emma-statement">You're always in one of four states —<br><span class="accent">know it, and you know your next move.</span></p>
+  <p class="emma-statement__sub">Access · Stabilize · Exploit · Counter — then the loop begins again. <b>The cycle never stops turning.</b></p>
+</div>
 
-    style A fill:#2196F3,color:#fff
-    style B fill:#4CAF50,color:#fff
-    style C fill:#FF5722,color:#fff
-    style D fill:#9C27B0,color:#fff
-```
+<div class="emma-cycle">
+  <div class="emma-cycle__ring">
+    <div class="emma-cycle__node"><span class="n">1</span><span class="t">Access</span><span class="d">"Can I get to them?"</span></div>
+    <div class="emma-cycle__node"><span class="n">2</span><span class="t">Stabilize</span><span class="d">"Can I hold this?"</span></div>
+    <div class="emma-cycle__node"><span class="n">3</span><span class="t">Exploit</span><span class="d">"Can I finish from here?"</span></div>
+    <div class="emma-cycle__node"><span class="n">4</span><span class="t">Counter</span><span class="d">"Can I escape or reverse?"</span></div>
+  </div>
+  <p class="emma-cycle__loop">Counter returns you to Access — the loop never breaks</p>
+</div>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🚪</div><div class="emma-card__t">Access</div><p><i>"Can I get to them?"</i> — establish connection or position.<span class="emma-pop">The entry phase: closing distance, establishing clinch, completing a takedown, passing guard, achieving mount.</span></p></div>
