@@ -425,4 +425,4 @@ function generateLessonPlan() {
 </style>
 
 ??? abstract "Session planning philosophy"
-    The best sessions balance challenge and success. Players should succeed enough to build confidence while being pushed enough to grow. Adjust games and levels based on what you observe during play. For the reasoning behind game selection, see the [Session Planning Guide](../session-planning/).
+    The best sessions balance challenge and success. Players should succeed enough to build confidence while being pushed enough to grow. Adjust games and levels based on what you observe during play. For the reasoning behind game selection, see the [Session Planning Guide](session-planning.md).
