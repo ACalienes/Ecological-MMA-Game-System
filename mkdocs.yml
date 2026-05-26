@@ -26,6 +26,7 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.indexes
+    - navigation.footer
     - toc.follow
     - search.highlight
     - search.share
@@ -188,6 +189,7 @@ extra_css:
 extra_javascript:
   - javascripts/mermaid-init.js
   - javascripts/landing.js
+  - javascripts/progress.js
 
 extra:
   social:

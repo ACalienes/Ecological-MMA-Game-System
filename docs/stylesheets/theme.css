@@ -836,3 +836,47 @@ body, .md-typeset {
 @media (max-width: 560px) {
   .md-typeset .emma-landscape__basins { grid-template-columns: 1fr; gap: 0.7rem; }
 }
+
+/* ============================================================
+   PROGRESS TRACKING (client-side, progress.js)
+   ============================================================ */
+/* mark-complete toggle on game pages */
+.md-typeset .emma-progress-toggle {
+  display: inline-flex; align-items: center; gap: 0.55rem; cursor: pointer;
+  margin: 0 0 1.2rem; padding: 0.5rem 1.1rem; border-radius: 999px;
+  background: var(--charcoal); border: 1px solid var(--steel); color: var(--fog-dim);
+  font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem;
+  transition: all var(--t-fast);
+}
+.md-typeset .emma-progress-toggle:hover { border-color: var(--orange); color: var(--fog); }
+.md-typeset .emma-progress-toggle .ico {
+  display: inline-grid; place-items: center; width: 1.2rem; height: 1.2rem; border-radius: 50%;
+  border: 1.5px solid currentColor; font-size: 0.7rem; line-height: 1;
+}
+.md-typeset .emma-progress-toggle.is-done {
+  background: rgba(54,194,139,0.12); border-color: var(--good); color: var(--good);
+}
+.md-typeset .emma-progress-toggle.is-done .ico { border-color: var(--good); background: var(--good); color: #fff; }
+
+/* progress bar on learning-path pages */
+.md-typeset .emma-progress-bar {
+  margin: 1.4rem 0 1.8rem; padding: 1rem 1.2rem; background: var(--charcoal);
+  border: 1px solid var(--steel); border-left: 3px solid var(--orange); border-radius: var(--radius-md);
+}
+.md-typeset .emma-progress-bar.is-complete { border-left-color: var(--good); }
+.emma-progress-bar__meta {
+  display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.55rem;
+  font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.7rem; color: var(--fog-faint);
+}
+.emma-progress-bar__count { color: var(--orange-bright); }
+.is-complete .emma-progress-bar__count { color: var(--good); }
+.emma-progress-bar__track { height: 8px; border-radius: 999px; background: var(--char2, var(--charcoal-2)); overflow: hidden; }
+.emma-progress-bar__fill {
+  height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--orange-deep), var(--orange-bright));
+  box-shadow: 0 0 16px var(--orange-glow); transition: width 0.5s var(--ease);
+}
+.is-complete .emma-progress-bar__fill { background: linear-gradient(90deg, var(--good), #5fe0aa); }
+/* completion tick on game links within paths */
+.md-typeset a .emma-done-tick {
+  display: inline-block; margin-left: 0.4rem; color: var(--good); font-weight: 700; font-size: 0.85em;
+}
