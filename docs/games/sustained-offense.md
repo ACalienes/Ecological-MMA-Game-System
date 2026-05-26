@@ -33,12 +33,12 @@ tags:
 
 <div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Offensive</span><span>Intermediate</span><span>Access → Stabilize</span></div>
 
-Maintain offensive rhythm through the opponent's defensive attempts. The attacker keeps striking when the defender tries to counter, escape, or clinch — continuing without a full reset rather than landing one shot and stopping.
+Keep striking through the defender's counters, escapes, and clinches — continue, never reset to one-and-done.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>The attacker holds initiative with slight forward pressure inside a marked perimeter; the defender sits in a defensive posture.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Attacker presses forward inside a marked perimeter; defender sits in a defensive posture.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to sustain continuous offense through resistance; the defender is trying to actively break the rhythm and force a reset.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker sustains offense through resistance; defender breaks the rhythm to force a reset.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Sustain the sequence → switch · Rhythm fully broken → reset, same roles · Single shots that reset don't count.</b></div>
 </div>
@@ -55,11 +55,11 @@ Maintain offensive rhythm through the opponent's defensive attempts. The attacke
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, with the attacker starting on the front foot and the defender in a defensive posture.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range in open space — close enough to pressure, with room for the defender to move and the attacker to follow.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker sustains a full offensive sequence.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates with forward pressure; reset to neutral only when the rhythm is fully broken or the defender escapes.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — attacker on the front foot, defender in a defensive posture.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range, open space.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switch on a sustained sequence.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset to neutral only when the rhythm is fully broken.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -93,9 +93,9 @@ Maintain offensive rhythm through the opponent's defensive attempts. The attacke
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker sustains a continuous offensive sequence (e.g., 10+ seconds of unbroken pressure), the players switch roles.<span class="emma-pop">A sustained sequence means rhythm maintained through resistance — counters slipped, movement followed, clinches shed — without a full reset. Sustain it and you become the defender.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the defender forces the attacker to fully reset and re-engage, reset to neutral — same roles — and the defender keeps trying to break rhythm.<span class="emma-pop">A broken rhythm isn't a loss of the game; it's information. Reset to neutral and re-enter with pressure, reading where the next opening lives.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Whether each defensive moment was absorbed-and-continued or turned into a stop is the read — "I slipped and continued" vs. "I got hit and reset."<span class="emma-pop">The goal is continuity, not perfection. Brief defensive moments within offense are expected; the question is whether the attacker continued through them or broke off.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Sustain the sequence → switch roles.<span class="emma-pop">When the attacker sustains a continuous offensive sequence (e.g., 10+ seconds of unbroken pressure), the players switch roles. A sustained sequence means rhythm maintained through resistance — counters slipped, movement followed, clinches shed — without a full reset.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Rhythm fully broken → reset, same roles.<span class="emma-pop">When the defender forces the attacker to fully reset and re-engage, reset to neutral — same roles — and the defender keeps trying to break rhythm. A broken rhythm isn't a loss of the game; it's information. Re-enter with pressure, reading where the next opening lives.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Continued vs. stopped is the read.<span class="emma-pop">Whether each defensive moment was absorbed-and-continued or turned into a stop — "I slipped and continued" vs. "I got hit and reset." The goal is continuity, not perfection. Brief defensive moments within offense are expected; the question is whether the attacker continued through them or broke off.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

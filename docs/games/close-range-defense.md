@@ -34,14 +34,14 @@ tags:
 
 <div class="emma-meta"><span>Integration</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Close Quarters</span></div>
 
-Mix the defensive solutions under pressure. The defender stays in the pocket and layers blocking, parrying, and dodging — learning *when* to use *which*. This is a diagnostic game: no winner, just quality of defense.
+Layer block, parry, and dodge in the pocket — learning *when* to use *which*.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter — attacker with a slight pressure advantage.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range inside a marked perimeter; attacker pressing.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to find openings and land strikes; the defender is trying to defend without exiting, picking the right solution each time.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker finds openings; defender picks the right defense without exiting.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>No winner — reset after a defended sequence or a clean strike. Leave the perimeter → loss.</b></div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>No winner — reset each rep. Leave the perimeter → loss.</b></div>
 </div>
 
 <div class="emma-band">
@@ -56,11 +56,11 @@ Mix the defensive solutions under pressure. The defender stays in the pocket and
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off — attacker in a slight winning position, defender in a losing position.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Close quarters — inside striking range, no distance buffer.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). The defender cannot exit freely.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — this is a diagnostic, so roles are held and rotated by the coach.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker presses; reset after a defended sequence or a clean strike lands.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — attacker slightly ahead, defender behind.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Inside striking range.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — defender can't exit freely.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — coach rotates.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker presses; reset after a defended sequence or a clean strike.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -94,9 +94,9 @@ Mix the defensive solutions under pressure. The defender stays in the pocket and
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> No winner — this game is scored, not won. Success is the percentage of strikes defended and the quality of defensive selection.<span class="emma-pop">The point is learning when to use which solution, not beating the partner. The coach reads selection quality, not a tally of points.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When a sequence is defended cleanly or a clean strike lands, reset to the start position — same roles.<span class="emma-pop">Either outcome ends the rep; begin again from the close-range start so the next combination can be read fresh.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">In the confined-perimeter variant, crossing the line ends it instantly, regardless of the exchange — training the boundary awareness a fighter needs near the cage.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Scored, not won — % defended + selection quality.<span class="emma-pop">No winner — the point is learning when to use which solution, not beating the partner. The coach reads selection quality, not a tally of points.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Sequence defended or strike lands → reset, same roles.<span class="emma-pop">Either outcome ends the rep; begin again from the close-range start so the next combination can be read fresh.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">In the confined-perimeter variant, crossing the line ends it instantly, regardless of the exchange — training the boundary awareness a fighter needs near the cage.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

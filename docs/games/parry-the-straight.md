@@ -28,7 +28,7 @@ tags:
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Defensive</span><span>Beginner</span><span>Open Space</span></div>
 
-Learn to deflect straight punches with the hands. The defender can *only* parry — no blocking, no head movement, no backing up — which forces the parrying solution to develop on its own.
+Deflect straight punches with the hands. The defender may *only* parry — no blocking, no head movement, no backing up — which forces the parry to develop on its own.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter.</b></div>
@@ -51,10 +51,10 @@ Learn to deflect straight punches with the hands. The defender can *only* parry 
 
 <div class="emma-setup">
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Close quarters — inside punching distance, no gap to retreat into.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the defender parries clean.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Inside punching distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter. Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switch on a clean parry.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset to neutral after each exchange.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -88,9 +88,9 @@ Learn to deflect straight punches with the hands. The defender can *only* parry 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the defender parries a punch cleanly — a full deflection off the centerline — the players switch roles.<span class="emma-pop">A clean deflection, not a graze and not an absorbed shot. The defender earns the attacking role.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the attacker lands a clean punch to the head or body, reset to neutral — same roles.<span class="emma-pop">A clean, significant straight that got through. Begin again from a neutral stance.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Clean parry → switch roles.<span class="emma-pop">A full deflection off the centerline — not a graze and not an absorbed shot. The defender earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Land clean to head or body → reset.<span class="emma-pop">A clean, significant straight that got through — same roles. Begin again from a neutral stance.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

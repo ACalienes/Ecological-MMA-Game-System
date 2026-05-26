@@ -28,12 +28,12 @@ tags:
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Defensive</span><span>Beginner</span><span>Open Space</span></div>
 
-Learn to make straight punches miss with head movement. The defender can *only* slip — moving the head laterally offline — with no blocking, ducking, or backing up, which forces the slipping solution to develop on its own.
+Make straight punches miss with head movement — slip only, no block, no duck, no backing up.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean straight to the head; the defender is trying to move the head offline so it misses.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker lands a clean straight to the head; defender moves the head offline so it misses.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean slip → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
 </div>
@@ -51,9 +51,9 @@ Learn to make straight punches miss with head movement. The defender can *only* 
 
 <div class="emma-setup">
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Close quarters — inside punching distance, no gap to retreat into.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the defender slips clean.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Inside punching distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switch on a clean slip.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to center after each exchange.</div>
 </div>
 
@@ -88,9 +88,9 @@ Learn to make straight punches miss with head movement. The defender can *only* 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the defender slips a punch cleanly — a full miss, not a graze — the players switch roles.<span class="emma-pop">The punch passed by the head without contact. The defender earns the attacking role.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the attacker lands a clean punch to the head, reset to center — same roles.<span class="emma-pop">A clean, significant straight that got through. Begin again from a neutral stance, head on center.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Slip clean → switch roles.<span class="emma-pop">When the defender slips a punch cleanly — a full miss, not a graze — the players switch roles. The punch passed by the head without contact, and the defender earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Land clean → reset to center.<span class="emma-pop">When the attacker lands a clean punch to the head, reset to center — same roles. A clean, significant straight that got through. Begin again from a neutral stance, head on center.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Leave the perimeter → loss.<span class="emma-pop">When both of a player's feet leave the perimeter, that player loses — whoever they are. Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

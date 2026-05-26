@@ -31,7 +31,7 @@ tags:
 
 <div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Combined</span><span>Beginner</span><span>Access → Transition</span></div>
 
-The primary space-control game: manage distance through movement and pressure, then convert successful pressure into the clinch and wall pin.
+Manage distance through movement and pressure, then convert pressure into the clinch and wall pin.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters in open space at neutral distance, inside a marked perimeter.</b></div>
@@ -53,11 +53,11 @@ The primary space-control game: manage distance through movement and pressure, t
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, in open space at neutral distance — one outside, one inside.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking distance with room to move — a gap exists to be closed or kept.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (circle, square, taped lines, cones, or wall). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One outside player (attacker), one inside player (defender) — switched between rounds.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Both begin at neutral distance; reset to neutral after each exchange or score.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two at neutral distance — one outside, one inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking distance with room to move.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter. Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One outside (attacker), one inside (defender) — switch between rounds.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Both begin at neutral distance; reset after each exchange or score.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -91,9 +91,9 @@ The primary space-control game: manage distance through movement and pressure, t
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> When the attacker establishes the clinch / wall pin per level, the attacker scores.<span class="emma-pop">Level 2: establish clinch in a controlling position. Level 3: achieve a wall pin. Level 4: hold the pin 3–5 seconds. Level 5: wall pin or takedown.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> When the defender escapes, reverses to the wall side, or prevents the pin, the defender scores.<span class="emma-pop">Escape the pressure or clinch, reverse the attacker to the wall side, or prevent the pin — scaled by level. At Level 5 a counter-strike to reset also counts.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Level 1</span> Time-based — no winner; both players experience the pressure and escape patterns.<span class="emma-pop">The opening level is time-based with no winner. Both players experience pressure and escape patterns before contact is added. Rounds run 60–90 seconds.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Establish the clinch / wall pin per level → attacker scores.<span class="emma-pop">Level 2: establish clinch in a controlling position. Level 3: achieve a wall pin. Level 4: hold the pin 3–5 seconds. Level 5: wall pin or takedown.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Escape, reverse to the wall side, or prevent the pin → defender scores.<span class="emma-pop">Escape the pressure or clinch, reverse the attacker to the wall side, or prevent the pin — scaled by level. At Level 5 a counter-strike to reset also counts.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Level 1</span> Time-based → no winner.<span class="emma-pop">The opening level is time-based with no winner. Both players experience pressure and escape patterns before contact is added. Rounds run 60–90 seconds.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

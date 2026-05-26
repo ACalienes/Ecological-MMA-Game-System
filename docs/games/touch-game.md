@@ -30,12 +30,12 @@ tags:
 
 <div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Combined</span><span>Beginner</span><span>Foundational</span></div>
 
-The foundational engagement game — it exists *before* space control, pressure, or clinch logic. Both players try to touch and not be touched, building range honesty and the composure to recover initiative the instant contact lands.
+The foundational engagement game — touch, don't get touched, and answer back the instant contact lands.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters in neutral stance, open space, at a comfortable distance.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Both players are trying to touch the opponent, avoid being touched, and deny the response.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Both players touch the opponent, avoid being touched, and deny the response.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean touch → advantage · Touch + counter-touch → neutral · Touched with no answer → lost exchange. Reset.</b></div>
 </div>
@@ -52,11 +52,11 @@ The foundational engagement game — it exists *before* space control, pressure,
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance — a mirrored, symmetric matchup with no fixed attacker or defender.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>A comfortable distance — outside touching range, with room to enter and exit.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (circle, taped lines). Open space, no wall or circling requirement.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Mirrored — both players have the same job; there is no attacker or defender.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Either player may initiate; each exchange resolves quickly and resets to neutral distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, mirrored — no fixed attacker or defender.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Outside touching range, room to enter and exit.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — open space, no wall.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Mirrored — same job for both.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Either initiates; each exchange resolves fast and resets to neutral.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -90,9 +90,9 @@ The foundational engagement game — it exists *before* space control, pressure,
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Advantage</span> When you land a clean touch and the opponent has no response, you win the exchange.<span class="emma-pop">A clean touch without an answer — the strongest outcome. It shows honest range and a clean entry.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Neutral</span> When a touch is met by an immediate counter-touch, the exchange is even (1-for-1).<span class="emma-pop">Composure under contact — you recovered initiative inside the window. Even result, reset and go again.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> No score is kept — success is read from clean touches, quality of counter-touches, and reduced panic after contact.<span class="emma-pop">This game is diagnostic, not score-driven. The coach evaluates range honesty, counter-touch quality, and composure rather than a points tally.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Advantage</span> Clean touch, no answer → win the exchange.<span class="emma-pop">When you land a clean touch and the opponent has no response, you win the exchange — the strongest outcome. It shows honest range and a clean entry.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Neutral</span> Touch + counter-touch → even (1-for-1).<span class="emma-pop">When a touch is met by an immediate counter-touch, the exchange is even — composure under contact, you recovered initiative inside the window. Reset and go again.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> No score kept — read from touch and counter quality.<span class="emma-pop">Success is read from clean touches, quality of counter-touches, and reduced panic after contact. This game is diagnostic, not score-driven — the coach evaluates range honesty, counter-touch quality, and composure rather than a points tally.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

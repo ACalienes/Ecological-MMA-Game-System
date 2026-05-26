@@ -25,12 +25,12 @@ tags:
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
 
-Develop the lead leg as a weapon. The attacker can *only* use the lead leg — teep, lead round kick, lead side kick — which forces range management, timing, and variety with the fastest, lowest-commitment kicking tool. The defender resists without any counter-threat.
+Develop the lead leg as a weapon. The attacker may *only* use the lead leg — teep, lead round kick, lead side kick — forcing range management and variety with the fastest kicking tool while the defender resists without countering.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at kicking range, inside a marked perimeter, with the attacker restricted to the lead leg.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at kicking range inside a marked perimeter; attacker restricted to the lead leg.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean lead leg strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker opens the defense to land a clean lead leg strike; defender defends without countering.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
 </div>
@@ -48,10 +48,10 @@ Develop the lead leg as a weapon. The attacker can *only* use the lead leg — t
 
 <div class="emma-setup">
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Kicking range — far enough for the lead leg to reach, with room to adjust distance.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker lands a clean lead leg strike.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Kicking range, with room to adjust distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter. Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switch on a clean lead leg strike.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset to neutral after each exchange.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -85,9 +85,9 @@ Develop the lead leg as a weapon. The attacker can *only* use the lead leg — t
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker lands a clean lead leg strike, the players switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or checked kick. Land it and you become the defender.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the kick is whiffed, grazed, or defended, reset to neutral — same roles — and read again.<span class="emma-pop">A failed attempt isn't a loss; it's information. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> When the defender denies every opening, that's a diagnostic success — the defender has no win condition.<span class="emma-pop">The defender's success is measured by quality of defense, not points. Forcing the attacker to read, set up, and commit is the goal.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land a clean lead leg strike → switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or checked kick. Land it and you become the defender.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Whiffed, grazed, or defended → reset, read again.<span class="emma-pop">A failed attempt isn't a loss; it's information — same roles. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> Defender denies every opening → diagnostic success.<span class="emma-pop">The defender has no win condition. Success is measured by quality of defense, not points. Forcing the attacker to read, set up, and commit is the goal.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

@@ -25,12 +25,12 @@ tags:
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
 
-Develop the rear (power) hand as a weapon. The attacker can *only* use the rear hand — cross, rear hook, rear uppercut — which forces the discovery of entries and setups for power shots, since the rear hand travels further and is easier to see. The defender resists without any counter-threat.
+Land the rear hand alone — cross, rear hook, rear uppercut — forcing you to build your own entries.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range, inside a marked perimeter, with the attacker restricted to the rear hand.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range inside a marked perimeter; attacker restricted to the rear hand.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean rear hand strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker lands a clean rear hand by opening the defense; defender survives without countering.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
 </div>
@@ -48,9 +48,9 @@ Develop the rear (power) hand as a weapon. The attacker can *only* use the rear 
 
 <div class="emma-setup">
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range — close enough that the rear hand is viable with a proper entry.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker lands a clean rear hand strike.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switch on a clean rear hand.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
 </div>
 
@@ -85,9 +85,9 @@ Develop the rear (power) hand as a weapon. The attacker can *only* use the rear 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker lands a clean rear hand strike, the players switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or blocked shot. Land it and you become the defender.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the strike is whiffed, grazed, or blocked, reset to neutral — same roles — and read again.<span class="emma-pop">A failed attempt isn't a loss; it's information. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> When the defender denies every opening, that's a diagnostic success — the defender has no win condition.<span class="emma-pop">The defender's success is measured by quality of defense, not points. Forcing the attacker to set up and commit is the goal.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land clean → switch roles.<span class="emma-pop">When the attacker lands a clean rear hand strike, the players switch roles. A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or blocked shot.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Whiffed or blocked → reset, read again.<span class="emma-pop">When the strike is whiffed, grazed, or blocked, reset to neutral — same roles. A failed attempt isn't a loss; it's information. Re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> Defender denies every opening → diagnostic success.<span class="emma-pop">The defender has no win condition. Their success is measured by quality of defense, not points — forcing the attacker to set up and commit is the goal.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

@@ -25,12 +25,12 @@ tags:
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
 
-Develop the rear (power) leg as a weapon. The attacker can *only* use the rear leg — rear round kick, rear teep, rear side kick — which forces the discovery of timing, setups, and entries for power kicks, since the rear leg hits hard but needs more setup. The defender resists without any counter-threat.
+Land the rear leg alone — round kick, teep, side kick — forcing you to build your own setups.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at kicking range, inside a marked perimeter, with the attacker restricted to the rear leg.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at kicking range inside a marked perimeter; attacker restricted to the rear leg.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean rear leg strike by reading &amp; opening the defense; the defender is trying to defend without countering.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker lands a clean rear leg by opening the defense; defender survives without countering.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
 </div>
@@ -48,9 +48,9 @@ Develop the rear (power) leg as a weapon. The attacker can *only* use the rear l
 
 <div class="emma-setup">
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Kicking range — close enough that rear leg power is viable with a proper setup.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switched when the attacker lands a clean rear leg strike.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Kicking range.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switch on a clean rear leg.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
 </div>
 
@@ -85,9 +85,9 @@ Develop the rear (power) leg as a weapon. The attacker can *only* use the rear l
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the attacker lands a clean rear leg strike, the players switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or checked kick. Land it and you become the defender.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the kick is whiffed, grazed, or defended, reset to neutral — same roles — and read again.<span class="emma-pop">A failed attempt isn't a loss; it's information. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> When the defender denies every opening, that's a diagnostic success — the defender has no win condition.<span class="emma-pop">The defender's success is measured by quality of defense, not points. Forcing the attacker to set up and commit is the goal.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land clean → switch roles.<span class="emma-pop">When the attacker lands a clean rear leg strike, the players switch roles. A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or checked kick.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Whiffed or defended → reset, read again.<span class="emma-pop">When the kick is whiffed, grazed, or defended, reset to neutral — same roles. A failed attempt isn't a loss; it's information. Re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> Defender denies every opening → diagnostic success.<span class="emma-pop">The defender has no win condition. Their success is measured by quality of defense, not points — forcing the attacker to set up and commit is the goal.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

@@ -33,12 +33,12 @@ tags:
 
 <div class="emma-meta"><span>Counter</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Transition Zone</span></div>
 
-Use offense as defense. The counter-striker can't lead — they wait, read the initiation, and punish it with a well-timed strike. This is the defensive answer that keeps the fight in the striking domain.
+Offense as defense — wait, read the lead, punish it with a timed counter.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range, inside a marked perimeter — initiator leads, counter-striker waits.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range inside a marked perimeter; initiator leads, counter-striker waits.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The initiator is trying to land clean offense; the counter-striker is trying to time a reactive counter that interrupts or punishes it.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Initiator lands clean offense; counter-striker times a reactive counter.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean counter → switch · Clean offense, uncountered → reset.</b></div>
 </div>
@@ -55,11 +55,11 @@ Use offense as defense. The counter-striker can't lead — they wait, read the i
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance — one set to lead, one to wait.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range — close enough to counter, not so close it's a clinch.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (square, circle, taped lines). Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One initiator, one counter-striker — switched when the counter-striker lands a clean counter.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The initiator leads; reset when a clean exchange occurs or the initiator lands cleanly.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, neutral stance — one leads, one waits.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range, not clinch.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One initiator, one counter-striker.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Initiator leads; reset on a clean exchange or clean lead.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -93,9 +93,9 @@ Use offense as defense. The counter-striker can't lead — they wait, read the i
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the counter-striker lands a clean counter that interrupts or punishes the offense, the players switch roles.<span class="emma-pop">A reactive counter that landed clean off a real initiation — the counter-striker earns the initiating role.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the initiator lands clean offense without getting countered — or a clean exchange occurs — reset to neutral, same roles.<span class="emma-pop">The initiation got through the counter threat. Begin again from a neutral stance.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> When both of a player's feet leave the perimeter, that player loses — whoever they are.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land a clean counter → switch roles.<span class="emma-pop">A reactive counter that interrupted or punished the offense, landing clean off a real initiation — the counter-striker earns the initiating role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Clean offense, uncountered → reset, same roles.<span class="emma-pop">The initiation got through the counter threat — or a clean exchange occurred. Begin again from a neutral stance.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>

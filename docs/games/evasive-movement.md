@@ -33,12 +33,12 @@ tags:
 
 <div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Footwork</span></div>
 
-Avoid conflict through movement — "getting on your bike." Unlike Close-Range Defense, which handles incoming strikes, this game is about preventing engagement entirely through superior footwork and ring generalship.
+Prevent engagement entirely through footwork and ring generalship — "getting on your bike."
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at medium range, with a marked perimeter in play.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at medium range inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The evader is trying to keep distance; the pursuer is trying to close it and corner them.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Evader keeps distance; pursuer closes it and corners them.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Keep distance for the duration → switch · Establish range or corner the evader → reset.</b></div>
 </div>
@@ -55,11 +55,11 @@ Avoid conflict through movement — "getting on your bike." Unlike Close-Range D
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off — one evader, one pursuer.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Medium range — outside engagement, with room to move and manage distance.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — any shape (ring, cage, taped lines). The boundary forces decision points and prevents endless retreat.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One evader, one pursuer — switched when the evader keeps distance for the set duration.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The pursuer initiates the closure; reset when range is established or the duration elapses.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one evader, one pursuer.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Medium range, outside engagement.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — prevents endless retreat.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One evader, one pursuer.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Pursuer closes; reset when range is established or time elapses.</div>
 </div>
 
 <p class="emma-glabel">The Matchup</p>
@@ -93,9 +93,9 @@ Avoid conflict through movement — "getting on your bike." Unlike Close-Range D
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> When the evader maintains distance and avoids engagement for the set duration, the players switch roles.<span class="emma-pop">The evader kept the space open the whole round — ring generalship demonstrated — and earns the pursuing role.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> When the pursuer establishes striking range OR corners the evader against the perimeter, reset to medium range — same roles.<span class="emma-pop">The space closed: the pursuer cut the angle and trapped the evader, or closed to engagement. Begin again at medium range.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Watch whether movement is economical and purposeful — angles and pivots, not frantic circling or gassing.<span class="emma-pop">Beyond the win, the coach reads movement quality: economy, use of angles, and composure under pursuit.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Keep distance for the duration → switch roles.<span class="emma-pop">The evader avoided engagement and kept the space open the whole round — ring generalship demonstrated — and earns the pursuing role.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Pursuer establishes range or corners → reset, same roles.<span class="emma-pop">The space closed: the pursuer cut the angle and trapped the evader against the perimeter, or closed to engagement. Begin again at medium range.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Watch movement quality — angles and pivots, not gassing.<span class="emma-pop">Beyond the win, the coach reads movement quality: economy, use of angles, and composure under pursuit — not frantic circling or gassing.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
