@@ -17,7 +17,7 @@ hide:
 2. **[Leg Reclaim](../games/leg-reclaim.md)**, Recover position incrementally, creating separation with the legs.
 3. **[Ground to Standing](../games/ground-to-standing.md)**, Return to standing, the ultimate ground escape in MMA.
 4. **[Ground Defensive Submission](../games/ground-defensive-submission.md)**, Use submission as a defensive weapon from bottom position.
-5. **[Positional Battle](../games/positional-battle.md)**, Build positional-value awareness and the ability to win scrambles and consolidate position.
+5. **[Positional Sparring](../games/positional-battle.md)**, Build positional-value awareness and the ability to win scrambles and consolidate position.
 6. **[Ground Access](../games/ground-access.md)**, Develop guard passing and position advancement, the Access stage before control.
 7. **[Ground Control](../games/ground-control.md)**, Train the Stabilize stage: control that holds while creating openings to finish.
 
@@ -26,7 +26,7 @@ hide:
 All ground games assume the [Decision States](../concepts/decision-states.md) concept. Ground Escape itself has no game prerequisites, so this path is enterable on its own; to *reach* the ground in a live fight, complete **[Closing the Distance](closing-the-distance.md)** (Open Space Takedown) or **[The Wall Game](wall-game.md)** (Wall to Ground / Stand-Up Loop) first.
 
 !!! note "Ordering note"
-    The documented prerequisites form a cycle (Ground Access ↔ Positional Battle), so a strict order is impossible. This path leads with the bottom/defensive games (which only require Ground Escape), then seats Positional Battle before Ground Access, see the report for detail.
+    The documented prerequisites form a cycle (Ground Access ↔ Positional Sparring), so a strict order is impossible. This path leads with the bottom/defensive games (which only require Ground Escape), then seats Positional Sparring before Ground Access, see the report for detail.
 
 ## Where this leads
 

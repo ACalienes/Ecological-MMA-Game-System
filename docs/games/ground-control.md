@@ -104,7 +104,8 @@ Hold a dominant ground position against live escape attempts.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Side Control</b>Start in side control; top maintains, bottom escapes.<span class="emma-pop emma-pop--l">Begin in side control. Focus on side control maintenance, top holds while bottom works to escape.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Mount</b>Start in mount, higher stakes for both.<span class="emma-pop emma-pop--l">Begin in mount. Higher stakes for both players, focus on mount control and escape.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Back Control</b>Start with the back taken, hooks in.<span class="emma-pop emma-pop--l">Begin with the back taken (hooks in). Top maintains back, bottom escapes, focus on back control retention.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Add strike threats for both.<span class="emma-pop emma-pop--l">Top can threaten strikes to maintain control; bottom can strike to create escape opportunities. Position control under MMA pressure.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Live Positional Sparring</b>From the starting position, both compete, no fixed roles.<span class="emma-pop emma-pop--l">The live <a href="../positional-battle/">Positional Sparring</a> layer: from the established position, both players fight for the better spot and it can change hands, rather than fixed top-holds and bottom-escapes.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full MMA Expression</b>Add strike threats for both.<span class="emma-pop emma-pop--l">Top can threaten strikes to maintain control; bottom can strike to create escape opportunities. Position control under MMA pressure.</span></div>
 </div>
 
 <p class="emma-glabel">Recall Check</p>
@@ -211,6 +212,6 @@ Hold a dominant ground position against live escape attempts.
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-access/">Ground Access</a></span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../positional-battle/">Positional Battle</a> · <a href="../ground-escape/">Ground Escape</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../positional-battle/">Positional Sparring</a> · <a href="../ground-escape/">Ground Escape</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/decision-states/">Decision States</a> · <a href="../../concepts/tko-pin/">TKO Pin</a></span></div>
     </div>

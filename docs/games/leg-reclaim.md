@@ -177,7 +177,7 @@ Get your legs back between you and the opponent, one level at a time.
 
     <div class="emma-meta"><span>Simplified: leg recovery focus, not escape</span><span>clear level progression</span><span>win = next level achieved</span></div>
 
-    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Recovery-opportunity perception and the knee-elbow connection are identical to competition, feeds <a href="../ground-to-standing/">Ground to Standing</a> and <a href="../positional-battle/">Positional Battle</a>.</p>
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Recovery-opportunity perception and the knee-elbow connection are identical to competition, feeds <a href="../ground-to-standing/">Ground to Standing</a> and <a href="../positional-battle/">Positional Sparring</a>.</p>
 
     <p class="emma-sub">Readiness to progress</p>
 
@@ -209,6 +209,6 @@ Get your legs back between you and the opponent, one level at a time.
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-escape/">Ground Escape</a></span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-to-standing/">Ground to Standing</a> · <a href="../positional-battle/">Positional Battle</a> · <a href="../ground-defensive-submission/">Ground Defensive Submission</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-to-standing/">Ground to Standing</a> · <a href="../positional-battle/">Positional Sparring</a> · <a href="../ground-defensive-submission/">Ground Defensive Submission</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/decision-states/">Decision States</a></span></div>
     </div>

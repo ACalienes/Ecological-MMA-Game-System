@@ -23,7 +23,7 @@ hide:
 
 ## Prerequisites
 
-This is the capstone, complete every prior path first: **[Foundations First](foundations-first.md)**, **[Striking Offense](striking-offense.md)**, **[Closing the Distance](closing-the-distance.md)**, **[The Wall Game](wall-game.md)**, and **[The Ground Game](ground-game.md)**. In particular, Ground Control sits at the end of the Ground Game's own chain (Ground Escape → Positional Battle → Ground Access → Ground Control), so that path must be complete before the finish here makes sense.
+This is the capstone, complete every prior path first: **[Foundations First](foundations-first.md)**, **[Striking Offense](striking-offense.md)**, **[Closing the Distance](closing-the-distance.md)**, **[The Wall Game](wall-game.md)**, and **[The Ground Game](ground-game.md)**. In particular, Ground Control sits at the end of the Ground Game's own chain (Ground Escape → Positional Sparring → Ground Access → Ground Control), so that path must be complete before the finish here makes sense.
 
 ## Where this leads
 

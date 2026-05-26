@@ -1,6 +1,6 @@
 # System Map
 
-<div class="emma-meta"><span>Visual Navigation</span><span>All 34 Games</span><span>Environment → Finish</span></div>
+<div class="emma-meta"><span>Visual Navigation</span><span>All 33 Games</span><span>Environment → Finish</span></div>
 
 <p class="emma-hl"><b>The fight is cyclical.</b> You move between environments until someone finishes, and every path has a reverse. This map routes you from foundation skills through every game to a finish.</p>
 
@@ -174,7 +174,7 @@ Standing against the cage. You arrive via clinch or pressure.
   <a class="emma-card" href="../../games/wall-to-ground/"><div class="emma-card__i">⬇️</div><div class="emma-card__t">Wall to Ground</div><p>Taking the fight to ground from the wall.</p></a>
 </div>
 
-<p class="emma-sub">Combined 🟣</p>
+<p class="emma-sub">Live Format 🟣</p>
 
 <div class="emma-cards">
   <a class="emma-card" href="../../games/standup-loop/"><div class="emma-card__i">🔁</div><div class="emma-card__t">Stand-Up Loop</div><p>Managing repeated stand-up / re-pin cycles.</p></a>
@@ -202,10 +202,10 @@ Horizontal grappling. You arrive via takedown or knockdown.
   <a class="emma-card" href="../../games/ground-control/"><div class="emma-card__i">📌</div><div class="emma-card__t">Ground Control</div><p>Maintaining dominant position.</p></a>
 </div>
 
-<p class="emma-sub">Combined 🟣</p>
+<p class="emma-sub">Live Format 🟣</p>
 
 <div class="emma-cards">
-  <a class="emma-card" href="../../games/positional-battle/"><div class="emma-card__i">⚔️</div><div class="emma-card__t">Positional Battle</div><p>Winning scrambles and exchanges.</p></a>
+  <a class="emma-card" href="../../games/positional-battle/"><div class="emma-card__i">⚔️</div><div class="emma-card__t">Positional Sparring</div><p>The live layer: both compete for position from any ground start.</p></a>
 </div>
 
 ---
@@ -229,8 +229,8 @@ Every position has a way IN and a way OUT.
   <div class="emma-stat"><span class="emma-stat__num">3</span><span class="emma-stat__label">Open → Wall</span></div>
   <div class="emma-stat"><span class="emma-stat__num">4</span><span class="emma-stat__label">Open → Ground</span></div>
   <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Wall</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">7</span><span class="emma-stat__label">Ground</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">34</span><span class="emma-stat__label">Total Games</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Ground</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">33</span><span class="emma-stat__label">Total Games</span></div>
 </div>
 
 <p class="emma-glabel">Concept Integration</p>

@@ -6,7 +6,7 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "34 Games Across 5 Environments"
+!!! tip "33 Games Across 5 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|
@@ -112,7 +112,7 @@ Games focused on horizontal grappling positions.
 | [Leg Reclaim](leg-reclaim.md) | Defensive | Intermediate | Get legs between you and opponent |
 | [Ground to Standing](ground-to-standing.md) | Defensive | Intermediate | Get back to feet from ground |
 | [Ground Defensive Submission](ground-defensive-submission.md) | Defensive | Advanced | Submissions from bottom position |
-| [Positional Battle](positional-battle.md) | Combined | Intermediate | Win positional exchanges |
+| [Positional Sparring](positional-battle.md) | Combined | Intermediate | Win positional exchanges |
 
 ---
 
@@ -170,7 +170,7 @@ Games focused on horizontal grappling positions.
     - Stand-Up Loop
 
     **Ground:**
-    - Positional Battle
+    - Positional Sparring
 
 ---
 
@@ -264,7 +264,7 @@ Pressure to Wall → Wall Control → Wall Grinding → TKO
 ```
 Offensive: Ground Access → Ground Control → TKO/Submission
 Defensive: Ground Escape → Leg Reclaim → Ground to Standing
-Combined: Positional Battle (role reversal possible)
+Combined: Positional Sparring (role reversal possible)
 ```
 
 ---

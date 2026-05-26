@@ -19,13 +19,13 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.2.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Environment Organization, wall environment, skill isolation</span></div>
   <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.3.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full MMA Expression &amp; weapon isolation, 31 games</span></div>
   <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.4.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">System Restructure, Transition Zone, renames, end states</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.5.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>CLA Documentation Rollout (current)</b>, 34 games</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.5.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>CLA Documentation Rollout (current)</b>, 33 games</span></div>
 </div>
 
 <p class="emma-glabel">v0.5.0: CLA Documentation Rollout <span style="font-weight:400;font-size:.8em;">(Current · Jan 2026)</span></p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📚</div><div class="emma-card__t">CLA sections on all games</div><p>Standardized Constraints-Led documentation added to all 34 games.<span class="emma-pop">Each game now carries Constraints Analysis, Information Structure (haptic/visual/proprioceptive), Representativeness, Variability Guidelines, and Readiness Indicators, referencing Renshaw et al., 2019 throughout.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📚</div><div class="emma-card__t">CLA sections on all games</div><p>Standardized Constraints-Led documentation added to all 33 games.<span class="emma-pop">Each game now carries Constraints Analysis, Information Structure (haptic/visual/proprioceptive), Representativeness, Variability Guidelines, and Readiness Indicators, referencing Renshaw et al., 2019 throughout.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔢</div><div class="emma-card__t">Game count verified at 34</div><p>A consistency-check script validates game counts.<span class="emma-pop">All cross-references verified and updated.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧹</div><div class="emma-card__t">Navigation cleanup</div><p>Removed deleted Boundary Trigger references; fixed Winning the Circle → Pressure to Clinch nav links.</p></div>
 </div>

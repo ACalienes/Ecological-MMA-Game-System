@@ -93,7 +93,7 @@
       <div class="emma-step"><span class="emma-step__n">2</span><b>Leg Reclaim</b>12 min · guard recovery mechanics</div>
       <div class="emma-step"><span class="emma-step__n">3</span><b>Ground to Standing</b>10 min · technical standup</div>
       <div class="emma-step"><span class="emma-step__n">4</span><b>Ground Defensive Submission</b>12 min · bottom submissions</div>
-      <div class="emma-step"><span class="emma-step__n">5</span><b>Positional Battle</b>14 min · full ground exchange</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Positional Sparring</b>14 min · full ground exchange</div>
     </div>
 
 ??? note "Template E · Offensive Ground Day"
@@ -104,7 +104,7 @@
       <div class="emma-step"><span class="emma-step__n">1</span><b>Open Space Takedown</b>12 min · entry to ground</div>
       <div class="emma-step"><span class="emma-step__n">2</span><b>Ground Access</b>12 min · passing, advancing</div>
       <div class="emma-step"><span class="emma-step__n">3</span><b>Ground Control</b>12 min · maintaining position</div>
-      <div class="emma-step"><span class="emma-step__n">4</span><b>Positional Battle</b>12 min · live positional work</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Positional Sparring</b>12 min · live positional work</div>
       <div class="emma-step"><span class="emma-step__n">5</span><b>Ground Control → Finish</b>12 min · control to TKO / submission</div>
     </div>
 
@@ -228,7 +228,7 @@
 
     **Offensive:** Ground Access, Ground Control
 
-    **Combined:** Positional Battle
+    **Combined:** Positional Sparring
 
 <script>
 const games = {
@@ -308,7 +308,7 @@ const games = {
             {name: 'Ground Control', link: '../games/ground-control.md', difficulty: 'intermediate'}
         ],
         'combined': [
-            {name: 'Positional Battle', link: '../games/positional-battle.md', difficulty: 'intermediate'}
+            {name: 'Positional Sparring', link: '../games/positional-battle.md', difficulty: 'intermediate'}
         ]
     }
 };

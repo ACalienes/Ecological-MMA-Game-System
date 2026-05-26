@@ -1,6 +1,6 @@
 # Prerequisite Map
 
-<div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>34-Game System</span></div>
+<div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>33-Game System</span></div>
 
 <p class="emma-hl"><b>How games connect.</b> Every game has an entry point and a path forward, this map shows the prerequisites, the chains they form, and the concepts each game leans on.</p>
 
@@ -71,16 +71,16 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/standup-loop/">Stand-Up Loop</a> <small>(needs Wall to Ground)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ground games</span></div>
     </div>
 
-=== "Ground (7)"
+=== "Ground (6)"
 
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-access/">Ground Access</a> <small>(needs Positional Battle)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/ground-control/">Ground Control</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-access/">Ground Access</a> <small>(needs Open Space Takedown / Wall to Ground)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/ground-control/">Ground Control</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-control/">Ground Control</a> <small>(needs Ground Access)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">TKO / Submission finish</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-escape/">Ground Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/leg-reclaim/">Leg Reclaim</a> · <a href="../../games/ground-to-standing/">Ground to Standing</a></span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/leg-reclaim/">Leg Reclaim</a> <small>(needs Ground Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/positional-battle/">Positional Battle</a> · <a href="../../games/ground-to-standing/">Ground to Standing</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/leg-reclaim/">Leg Reclaim</a> <small>(needs Ground Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/positional-battle/">Positional Sparring</a> · <a href="../../games/ground-to-standing/">Ground to Standing</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-to-standing/">Ground to Standing</a> <small>(needs Ground Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Return to standing</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-defensive-submission/">Ground Defensive Submission</a> <small>(needs Ground Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Submission finish</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/positional-battle/">Positional Battle</a> <small>(needs Ground Escape + Access)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Role reversal</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/positional-battle/">Positional Sparring</a> <small>(live format)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Run live on Ground Access &amp; Control</span></div>
     </div>
 
 <p class="emma-glabel">The Macro Progression</p>
@@ -126,7 +126,7 @@ The whole system flows through six stages to a finish. The per-game chains above
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Offensive</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a> → <a href="../../games/ground-access/">Ground Access</a> → <a href="../../games/ground-control/">Ground Control</a> → TKO/Sub</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Defensive</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/ground-escape/">Ground Escape</a> → <a href="../../games/leg-reclaim/">Leg Reclaim</a> → <a href="../../games/ground-to-standing/">Ground to Standing</a></span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">Combined</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/positional-battle/">Positional Battle</a> (role reversal possible)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Combined</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/positional-battle/">Positional Sparring</a> (role reversal possible)</span></div>
     </div>
 
 <p class="emma-glabel">Concept Prerequisites</p>
@@ -139,7 +139,7 @@ Some games require understanding a specific concept first.
   <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/tko-pin/">TKO Pin</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a> · <a href="../../games/wall-to-ground/">Wall to Ground</a> · <a href="../../games/wall-grinding/">Wall Grinding</a> · <a href="../../games/pressure-to-takedown/">Pressure to Takedown</a></span></div>
   <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/defensive-solutions/">Defensive Solutions</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">All Skill Isolation games</span></div>
   <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/hand-controls/">Hand Controls</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a> · <a href="../../games/clinch-denial/">Clinch Denial</a> · <a href="../../games/counter-wrestling/">Counter-Wrestling</a> · Pressure games</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/decision-states/">Decision States</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">All Ground games · <a href="../../games/positional-battle/">Positional Battle</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/decision-states/">Decision States</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">All Ground games · <a href="../../games/positional-battle/">Positional Sparring</a></span></div>
   <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../concepts/full-mma-expression/">Full MMA Expression</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Highest level of any game</span></div>
 </div>
 
@@ -187,4 +187,4 @@ Some games require understanding a specific concept first.
     </ul>
 
 ??? abstract "System evolution notice"
-    This map reflects the current 34-game system and will update as games are added.
+    This map reflects the current 33-game system and will update as games are added.

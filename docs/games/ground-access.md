@@ -105,7 +105,8 @@ Pass the guard to a dominant position against an active bottom.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Closed Guard</b>Start in closed guard; top opens and passes.<span class="emma-pop emma-pop--l">Begin in closed guard. Focus on breaking the closed guard open, the first barrier to access.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Open Guard</b>Start in open guard of the bottom's choice.<span class="emma-pop emma-pop--l">Begin in open guard. More dynamic passing required, focus on passing open guard variations.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Half Guard</b>Start in half guard; top clears and advances.<span class="emma-pop emma-pop--l">Begin in half guard. Top works to clear the trapped leg and advance, focus on half guard passing.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Add ground strikes for both.<span class="emma-pop emma-pop--l">Top can use ground strikes to open the guard; bottom can strike from guard. Guard passing under MMA pressure.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Live Positional Sparring</b>From guard, both compete, no fixed roles.<span class="emma-pop emma-pop--l">The live <a href="../positional-battle/">Positional Sparring</a> layer: from the starting guard, top passes while bottom sweeps or recovers and both fight for the better position, rather than fixed pass-vs-recover roles.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full MMA Expression</b>Add ground strikes for both.<span class="emma-pop emma-pop--l">Top can use ground strikes to open the guard; bottom can strike from guard. Guard passing under MMA pressure.</span></div>
 </div>
 
 <p class="emma-glabel">Recall Check</p>
@@ -211,7 +212,7 @@ Pass the guard to a dominant position against an active bottom.
     <p class="emma-sub">Where it sits</p>
 
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../positional-battle/">Positional Battle</a></span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-control/">Ground Control</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../open-space-takedown/">Open Space Takedown</a> · <a href="../wall-to-ground/">Wall to Ground</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-control/">Ground Control</a> · <a href="../positional-battle/">Positional Sparring</a> (live)</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/decision-states/">Decision States</a></span></div>
     </div>
