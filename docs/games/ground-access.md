@@ -44,20 +44,20 @@ Pass the guard to a dominant position against an active bottom.
 </div>
 
 <div class="emma-band">
-  <p class="emma-statement">Get past the legs first —<br><span class="accent">finishing comes later.</span></p>
+  <p class="emma-statement">Get past the legs first, <br><span class="accent">finishing comes later.</span></p>
   <p class="emma-statement__sub">The goal is the pass, not the submission. <b>Access comes before control.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
 
-<p class="emma-hl"><b>Attune to</b> the <i>felt weight distribution &amp; base through contact</i> — your posts loading and unloading, the guard grips going light or tight, your own balance over the legs — plus the bottom player's <b>hip and frame motion</b>. That inertial information specifies where the guard opens <i>before</i> the pass is available, not the opponent's limbs in isolation.</p>
+<p class="emma-hl"><b>Attune to</b> the <i>felt weight distribution &amp; base through contact</i>, your posts loading and unloading, the guard grips going light or tight, your own balance over the legs, plus the bottom player's <b>hip and frame motion</b>. That inertial information specifies where the guard opens <i>before</i> the pass is available, not the opponent's limbs in isolation.</p>
 
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one top, one bottom.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, one top, one bottom.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Top inside the bottom's guard.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, both stay inside.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One top (attacker), one bottom (defender).</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the guard; reset after each round.</div>
 </div>
@@ -68,7 +68,7 @@ Pass the guard to a dominant position against an active bottom.
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🥋</div>
     <div class="emma-fighter__role">Top (Attacker)</div>
-    <p class="emma-fighter__obj">Trying to pass the guard and establish a dominant position — not submission.</p>
+    <p class="emma-fighter__obj">Trying to pass the guard and establish a dominant position, not submission.</p>
     <span class="emma-pop">Break grips and controls, create a passing angle, complete the pass, and stabilize. Position must be established, not just touched.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
@@ -76,35 +76,35 @@ Pass the guard to a dominant position against an active bottom.
     <div class="emma-fighter__icon">🤸</div>
     <div class="emma-fighter__role">Bottom (Defender)</div>
     <p class="emma-fighter__obj">Trying to retain guard or sweep to top.</p>
-    <span class="emma-pop">Actively defend — never go passive. Maintain guard structure, create frames and distance, and threaten sweeps to discourage the pass.</span>
+    <span class="emma-pop">Actively defend, never go passive. Maintain guard structure, create frames and distance, and threaten sweeps to discourage the pass.</span>
   </div>
 </div>
 
 <p class="emma-glabel">The Rules</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🪨</span> Top must advance position<span class="emma-chip__detail">The top player must <strong>advance</strong> position — just holding inside the guard doesn't count. This develops active passing, not stalling.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏃</span> Bottom actively defends<span class="emma-chip__detail">The bottom player works guard retention and sweep threats continuously — no passive waiting. This develops passing against real resistance.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🪨</span> Top must advance position<span class="emma-chip__detail">The top player must <strong>advance</strong> position, just holding inside the guard doesn't count. This develops active passing, not stalling.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏃</span> Bottom actively defends<span class="emma-chip__detail">The bottom player works guard retention and sweep threats continuously, no passive waiting. This develops passing against real resistance.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Submissions are not the goal<span class="emma-chip__detail">At this stage the objective is position advancement, not finishing. Access comes before control and exploitation.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📌</span> Position must be established<span class="emma-chip__detail">The pass only counts when the dominant position is stabilized — not just achieved momentarily. This ensures complete passes.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If a player rolls fully out of it, that player loses instantly — training mat-edge awareness.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📌</span> Position must be established<span class="emma-chip__detail">The pass only counts when the dominant position is stabilized, not just achieved momentarily. This ensures complete passes.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape (square, circle, taped lines). If a player rolls fully out of it, that player loses instantly, training mat-edge awareness.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Top establishes a dominant position → switch roles.<span class="emma-pop">Side control, mount, or back, stabilized past the guard — top wins and earns the bottom's retention role.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> Bottom sweeps or retains → bottom wins.<span class="emma-pop">Reverse to top, or keep the guard intact long enough that the pass is denied — the bottom defends successfully.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Top establishes a dominant position → switch roles.<span class="emma-pop">Side control, mount, or back, stabilized past the guard, top wins and earns the bottom's retention role.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> Bottom sweeps or retains → bottom wins.<span class="emma-pop">Reverse to top, or keep the guard intact long enough that the pass is denied, the bottom defends successfully.</span></div>
   <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Bottom sweeps or retains → reset, same roles.<span class="emma-pop">The round ends and resets from the guard, keeping the same roles for another rep.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Roll fully out of the perimeter → that player loses.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Roll fully out of the perimeter → that player loses.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position, training the mat-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
 
 <div class="emma-stepper">
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Closed Guard</b>Start in closed guard; top opens and passes.<span class="emma-pop emma-pop--l">Begin in closed guard. Focus on breaking the closed guard open — the first barrier to access.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Open Guard</b>Start in open guard of the bottom's choice.<span class="emma-pop emma-pop--l">Begin in open guard. More dynamic passing required — focus on passing open guard variations.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Half Guard</b>Start in half guard; top clears and advances.<span class="emma-pop emma-pop--l">Begin in half guard. Top works to clear the trapped leg and advance — focus on half guard passing.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Closed Guard</b>Start in closed guard; top opens and passes.<span class="emma-pop emma-pop--l">Begin in closed guard. Focus on breaking the closed guard open, the first barrier to access.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Open Guard</b>Start in open guard of the bottom's choice.<span class="emma-pop emma-pop--l">Begin in open guard. More dynamic passing required, focus on passing open guard variations.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Half Guard</b>Start in half guard; top clears and advances.<span class="emma-pop emma-pop--l">Begin in half guard. Top works to clear the trapped leg and advance, focus on half guard passing.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Add ground strikes for both.<span class="emma-pop emma-pop--l">Top can use ground strikes to open the guard; bottom can strike from guard. Guard passing under MMA pressure.</span></div>
 </div>
 
@@ -138,7 +138,7 @@ Pass the guard to a dominant position against an active bottom.
       <div class="emma-flow__row"><span class="emma-flow__from">Guard as obstacle</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates the passing problem-space</span></div>
     </div>
 
-    <p class="emma-hl">Develops <b>passing affordance perception</b> — recognizing when and where the guard can be passed (Renshaw et al., 2019). <b>Degeneracy</b> emerges as athletes discover multiple passing solutions for the same guard type.</p>
+    <p class="emma-hl">Develops <b>passing affordance perception</b>, recognizing when and where the guard can be passed (Renshaw et al., 2019). <b>Degeneracy</b> emerges as athletes discover multiple passing solutions for the same guard type.</p>
 
     <p class="emma-sub">What the top reads</p>
 
@@ -150,15 +150,15 @@ Pass the guard to a dominant position against an active bottom.
 
     <p class="emma-sub">What we measure (order parameter)</p>
 
-    <p class="emma-hl">Whether the top <b>stays connected to the bottom's hips through the pass</b> — track passes completed vs. swept, and whether the top re-loads weight to stabilize before the guard recovers. That control-connection relationship is the order parameter; when it stabilizes, the skill has formed.</p>
+    <p class="emma-hl">Whether the top <b>stays connected to the bottom's hips through the pass</b>, track passes completed vs. swept, and whether the top re-loads weight to stabilize before the guard recovers. That control-connection relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 
-    <p class="emma-hl"><b>Models:</b> passing guard to a dominant ground position — the fundamental skill of ground offense in MMA.</p>
+    <p class="emma-hl"><b>Models:</b> passing guard to a dominant ground position, the fundamental skill of ground offense in MMA.</p>
 
     <div class="emma-meta"><span>Simplified: start in guard</span><span>no submission focus</span><span>progressive guard complexity</span></div>
 
-    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Isolates passing from the takedown — passing-opportunity perception and hip control transfer directly into competition.</p>
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Isolates passing from the takedown, passing-opportunity perception and hip control transfer directly into competition.</p>
 
     <p class="emma-sub">Readiness to progress</p>
 

@@ -18,7 +18,7 @@
 
 <p class="emma-glabel">Principle 1 · Session Intention</p>
 
-<p class="emma-hl"><b>"The intentions of the session act as an overriding and organizational constraint."</b> <i>— Renshaw et al., 2019</i></p>
+<p class="emma-hl"><b>"The intentions of the session act as an overriding and organizational constraint."</b> <i>, Renshaw et al., 2019</i></p>
 
 <ul class="emma-checklist">
   <li>Intentions shape cognitions, perceptions, and actions.</li>
@@ -47,7 +47,7 @@
 
 <p class="emma-glabel">Principle 2 · Constrain to Afford</p>
 
-<p class="emma-hl"><b>"Design-in constraints to offer / invite / encourage learners to explore opportunities for action related to the session intention."</b> <i>— Renshaw et al., 2019</i></p>
+<p class="emma-hl"><b>"Design-in constraints to offer / invite / encourage learners to explore opportunities for action related to the session intention."</b> <i>, Renshaw et al., 2019</i></p>
 
 <div class="emma-flow">
   <div class="emma-flow__row"><span class="emma-flow__from">Offer</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Key affordances related to session intention</span></div>
@@ -55,15 +55,15 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Avoid</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Over-constraining (forcing vs. inviting)</span></div>
 </div>
 
-!!! tip "The outlet analogy — a good constraint affords, it does not prescribe"
-    Ecological psychology gives the cleanest test for a good constraint (Blau &amp; Wagman, 2022 — p. 271). Compare two ways to wire a building:
+!!! tip "The outlet analogy, a good constraint affords, it does not prescribe"
+    Ecological psychology gives the cleanest test for a good constraint (Blau &amp; Wagman, 2022, p. 271). Compare two ways to wire a building:
 
     <div class="emma-cards">
       <div class="emma-card"><div class="emma-card__i">📍</div><div class="emma-card__t">"Put an outlet exactly here"</div><p><i>Other-organization.</i> One acceptable outcome, dictated from outside.</p></div>
-      <div class="emma-card"><div class="emma-card__i">📐</div><div class="emma-card__t">"Outlets every 12 feet"</div><p>A <i>local rule.</i> Infinite valid layouts — "the solution will emerge."</p></div>
+      <div class="emma-card"><div class="emma-card__i">📐</div><div class="emma-card__t">"Outlets every 12 feet"</div><p>A <i>local rule.</i> Infinite valid layouts, "the solution will emerge."</p></div>
     </div>
 
-    A good constraint is always the second kind. "Defend the takedown — points for staying standing" is "outlets every 12 feet"; "when they shoot you must sprawl" is "outlet exactly here." If a constraint forces one specific solution, it is over-constraining. See the [Ecological Psychology](../ecological-psychology/index.md) section.
+    A good constraint is always the second kind. "Defend the takedown, points for staying standing" is "outlets every 12 feet"; "when they shoot you must sprawl" is "outlet exactly here." If a constraint forces one specific solution, it is over-constraining. See the [Ecological Psychology](../ecological-psychology/index.md) section.
 
 <p class="emma-sub">Constraining strategies</p>
 
@@ -83,11 +83,11 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Static, unopposed drilling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Dynamic, contextual practice</span></div>
 </div>
 
-<p class="emma-hl"><b>Co-adaptation principle:</b> Constrain the <i>opposition</i> to facilitate behavior change in your athletes. To develop counter-striking, constrain the attacker to initiate first — the defender (primary learner) must then read and respond. The constraint on one creates the learning opportunity for the other.</p>
+<p class="emma-hl"><b>Co-adaptation principle:</b> Constrain the <i>opposition</i> to facilitate behavior change in your athletes. To develop counter-striking, constrain the attacker to initiate first, the defender (primary learner) must then read and respond. The constraint on one creates the learning opportunity for the other.</p>
 
 <p class="emma-glabel">Principle 3 · Representative Learning Design (RLD)</p>
 
-<p class="emma-hl"><b>"Ensure that what learners are seeing, hearing, and feeling in the practice environment is similar to the performance environment."</b> <i>— Renshaw et al., 2019; RLD framework by Pinder, Davids, Renshaw &amp; Araújo (2011)</i></p>
+<p class="emma-hl"><b>"Ensure that what learners are seeing, hearing, and feeling in the practice environment is similar to the performance environment."</b> <i>, Renshaw et al., 2019; RLD framework by Pinder, Davids, Renshaw &amp; Araújo (2011)</i></p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">Action fidelity</div><p>The core concept.<span class="emma-pop">"The movement solutions performers develop in practice must be effective when transferred to the performance environment."</span></p></div>
@@ -109,25 +109,25 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Low representativeness<br><small>modified conditions, simplified context</small></span><span class="emma-flow__arr">↔</span><span class="emma-flow__to">High representativeness<br><small>full competition simulation</small></span></div>
 </div>
 
-<p class="emma-hl"><b>Neither extreme is always appropriate</b> — match RLD to athlete needs.</p>
+<p class="emma-hl"><b>Neither extreme is always appropriate</b>, match RLD to athlete needs.</p>
 
 ??? abstract "RLD assessment checklist"
 
     <ul class="emma-checklist">
-      <li><b>Information sources</b> — are relevant visual, haptic, acoustic cues present?</li>
-      <li><b>Perception-action coupling</b> — is perceiving and acting integrated (not separated)?</li>
-      <li><b>Decision-making</b> — are the decisions required similar to competition?</li>
-      <li><b>Opponents/partners</b> — are human interactions included (not static objects)?</li>
-      <li><b>Emotional intensity</b> — is appropriate pressure/consequence present?</li>
-      <li><b>Time constraints</b> — is temporal pressure representative?</li>
-      <li><b>Space constraints</b> — is the spatial setup representative?</li>
+      <li><b>Information sources</b>, are relevant visual, haptic, acoustic cues present?</li>
+      <li><b>Perception-action coupling</b>, is perceiving and acting integrated (not separated)?</li>
+      <li><b>Decision-making</b>, are the decisions required similar to competition?</li>
+      <li><b>Opponents/partners</b>, are human interactions included (not static objects)?</li>
+      <li><b>Emotional intensity</b>, is appropriate pressure/consequence present?</li>
+      <li><b>Time constraints</b>, is temporal pressure representative?</li>
+      <li><b>Space constraints</b>, is the spatial setup representative?</li>
     </ul>
 
 <p class="emma-sub">Task simplification vs. task decomposition</p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">✅</div><div class="emma-card__t">Simplification — preferred</div><p>Scale difficulty while keeping the task whole.<span class="emma-pop">Maintains perception-action coupling, preserves essential information flows. Example: smaller cage, slower pace.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚠️</div><div class="emma-card__t">Decomposition — problematic</div><p>Break the task into isolated parts.<span class="emma-pop">Decouples perception from action, removes context and information. Example: shadow boxing without a target.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">✅</div><div class="emma-card__t">Simplification, preferred</div><p>Scale difficulty while keeping the task whole.<span class="emma-pop">Maintains perception-action coupling, preserves essential information flows. Example: smaller cage, slower pace.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚠️</div><div class="emma-card__t">Decomposition, problematic</div><p>Break the task into isolated parts.<span class="emma-pop">Decouples perception from action, removes context and information. Example: shadow boxing without a target.</span></p></div>
 </div>
 
 <p class="emma-hl"><b>Key distinction:</b> Simplification keeps the task intact but adjusts difficulty. Decomposition breaks the task apart, destroying the perception-action relationship.</p>
@@ -152,14 +152,14 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Contextual drilling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Maintains perception-action coupling</span></div>
 </div>
 
-<p class="emma-hl"><b>Affective Learning Design (ALD):</b> "Does the practice look AND feel like the real thing?" Built on <b>Purpose</b> (clear, meaningful goals), <b>Consequence</b> (real outcomes for success/failure), and <b>Emotion</b> (representative intensity and pressure). Sparring looks like fighting — but adding scoring, consequences, or competition formats makes it <i>feel</i> like it.</p>
+<p class="emma-hl"><b>Affective Learning Design (ALD):</b> "Does the practice look AND feel like the real thing?" Built on <b>Purpose</b> (clear, meaningful goals), <b>Consequence</b> (real outcomes for success/failure), and <b>Emotion</b> (representative intensity and pressure). Sparring looks like fighting, but adding scoring, consequences, or competition formats makes it <i>feel</i> like it.</p>
 
 <p class="emma-glabel">Principle 4 · Repetition Without Repetition</p>
 
-<p class="emma-hl"><b>"Practice is a particular type of repetition without repetition."</b> <i>— Bernstein, 1967.</i> Repeat the <b>process of solving problems</b>, not identical movements. Design-in the appropriate amount of variability and (in)stability.</p>
+<p class="emma-hl"><b>"Practice is a particular type of repetition without repetition."</b> <i>, Bernstein, 1967.</i> Repeat the <b>process of solving problems</b>, not identical movements. Design-in the appropriate amount of variability and (in)stability.</p>
 
-!!! example "Variability is the feature, not the bug — the infant-walking robot tournament"
-    The strongest evidence that *variable* practice beats *regular* practice comes from a simulation tournament (Blau &amp; Wagman, 2022 — p. 169–170). Robots trained on highly **variable** infant-walking paths were pitted against robots trained on **regular**, repetitive paths in a 4,000-game tournament. The variable-trained robots won **2,888 to 75**. Variability does not degrade the skill — it builds the adaptable, degenerate system that copes with novelty. See the [Ecological Psychology](../ecological-psychology/index.md) section.
+!!! example "Variability is the feature, not the bug, the infant-walking robot tournament"
+    The strongest evidence that *variable* practice beats *regular* practice comes from a simulation tournament (Blau &amp; Wagman, 2022, p. 169–170). Robots trained on highly **variable** infant-walking paths were pitted against robots trained on **regular**, repetitive paths in a 4,000-game tournament. The variable-trained robots won **2,888 to 75**. Variability does not degrade the skill, it builds the adaptable, degenerate system that copes with novelty. See the [Ecological Psychology](../ecological-psychology/index.md) section.
 
 <p class="emma-sub">Types of practice variability</p>
 
@@ -169,23 +169,23 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧍</div><div class="emma-card__t">Individual variability</div><p>Varying performer state.<span class="emma-pop">Fatigued, fresh, stressed.</span></p></div>
 </div>
 
-??? note "Sources of variability — how to implement"
+??? note "Sources of variability, how to implement"
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Task goals</b> — vary objectives</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Submit vs. survive vs. control</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Rules</b> — modify regulations</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No takedowns, no striking</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Opponents</b> — different partners</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Size, style, skill level</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Environment</b> — change conditions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Cage vs. mats, fresh vs. fatigued</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Equipment</b> — alter gear</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Different glove weights</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Timing</b> — adjust duration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Round length, rest periods</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Intensity</b> — vary effort</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Light flow to hard sparring</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Task goals</b>, vary objectives</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Submit vs. survive vs. control</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Rules</b>, modify regulations</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No takedowns, no striking</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Opponents</b>, different partners</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Size, style, skill level</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Environment</b>, change conditions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Cage vs. mats, fresh vs. fatigued</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Equipment</b>, alter gear</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Different glove weights</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Timing</b>, adjust duration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Round length, rest periods</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Intensity</b>, vary effort</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Light flow to hard sparring</span></div>
     </div>
 
 <p class="emma-sub">Variability zones</p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🟢</div><div class="emma-card__t">Green · Optimal challenge</div><p>High success likelihood.<span class="emma-pop">Promotes exploration, enhances adaptability.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🟡</div><div class="emma-card__t">Amber · Productive instability</div><p>Requires search for new solutions.<span class="emma-pop">Promotes reorganization — the edge of chaos, optimal for learning.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔴</div><div class="emma-card__t">Red · Excessive chaos</div><p>Too much variability.<span class="emma-pop">Unmanageable / overwhelming — information overload.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🟡</div><div class="emma-card__t">Amber · Productive instability</div><p>Requires search for new solutions.<span class="emma-pop">Promotes reorganization, the edge of chaos, optimal for learning.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔴</div><div class="emma-card__t">Red · Excessive chaos</div><p>Too much variability.<span class="emma-pop">Unmanageable / overwhelming, information overload.</span></p></div>
 </div>
 
 <p class="emma-sub">Matching variability to skill level</p>
@@ -209,11 +209,11 @@
 
 <p class="emma-sub">Managing instability</p>
 
-<p class="emma-hl"><b>Deliberately move performers to less stable areas to promote reorganization.</b> Instability is necessary for learning — not a failure state.</p>
+<p class="emma-hl"><b>Deliberately move performers to less stable areas to promote reorganization.</b> Instability is necessary for learning, not a failure state.</p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📊</div><div class="emma-card__t">Instability indicators</div><p>How to recognize productive instability.<span class="emma-pop">Increased performance variability, temporary performance decrement, search behaviors (trying new solutions), frustration (productive when managed).</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧑‍🏫</div><div class="emma-card__t">Coach response</div><p>How to support the transition.<span class="emma-pop">Recognize instability as necessary for learning, support through the transition, allow time for reorganization, celebrate exploration — not just success.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧑‍🏫</div><div class="emma-card__t">Coach response</div><p>How to support the transition.<span class="emma-pop">Recognize instability as necessary for learning, support through the transition, allow time for reorganization, celebrate exploration, not just success.</span></p></div>
 </div>
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="session-design/">Session Design</a> — the GROW model and planning frameworks.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="session-design/">Session Design</a>, the GROW model and planning frameworks.</p>

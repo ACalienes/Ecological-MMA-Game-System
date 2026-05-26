@@ -17,7 +17,7 @@
       <div class="emma-card"><div class="emma-card__i">🔍</div><div class="emma-card__t">Exploration</div><p>Athletes discover solutions through guided play.</p></div>
     </div>
 
-    <p class="emma-hl">Games in this system are designed to create learning <i>conditions</i> — not to prescribe techniques.</p>
+    <p class="emma-hl">Games in this system are designed to create learning <i>conditions</i>, not to prescribe techniques.</p>
 
 ??? question "How is this different from traditional drilling?"
 
@@ -33,7 +33,7 @@
     Technique instruction can complement games, but:
 
     <ul class="emma-checklist">
-      <li>Games come first — they create the "why"</li>
+      <li>Games come first, they create the "why"</li>
       <li>Technique emerges from game play</li>
       <li>Explicit instruction fills gaps, it doesn't replace discovery</li>
       <li>Over-coaching can reduce learning</li>
@@ -54,7 +54,7 @@
 
 ??? question "When should athletes attempt Full MMA Expression levels?"
 
-    <p class="emma-hl"><b>Only after they're proficient at lower levels.</b> Don't rush it — the skill must be solid before adding complications.</p>
+    <p class="emma-hl"><b>Only after they're proficient at lower levels.</b> Don't rush it, the skill must be solid before adding complications.</p>
 
     Signs of readiness:
 
@@ -137,9 +137,9 @@
 ??? question "How hard should contact be?"
 
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Touch</b> — contact made, no force</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Skill isolation, beginners</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Light</b> — force felt, not damaging</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Most development games</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Moderate</b> — significant force, controlled</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Advanced games, integration</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Touch</b>, contact made, no force</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Skill isolation, beginners</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Light</b>, force felt, not damaging</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Most development games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Moderate</b>, significant force, controlled</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Advanced games, integration</span></div>
     </div>
 
     <p class="emma-hl">When in doubt, go lighter. Quality over intensity.</p>
@@ -197,7 +197,7 @@
 
 ??? question "What if I don't have the right equipment?"
 
-    Adapt as needed — the constraints matter more than the gear:
+    Adapt as needed, the constraints matter more than the gear:
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Wall / cage</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Marked perimeter, padded wall, corner</span></div>
@@ -229,7 +229,7 @@
       <div class="emma-step"><span class="emma-step__n">2</span><b>Ask</b>Get feedback from your partner or coach.</div>
       <div class="emma-step"><span class="emma-step__n">3</span><b>Simplify</b>Drop to an easier level.</div>
       <div class="emma-step"><span class="emma-step__n">4</span><b>Focus</b>Work on one thing at a time.</div>
-      <div class="emma-step"><span class="emma-step__n">5</span><b>Persist</b>Keep going — that's where it forms.</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Persist</b>Keep going, that's where it forms.</div>
     </div>
 
     <p style="font-size:.85rem;margin:.6rem 0 0;">Reference: Training Mindset principle</p>
@@ -272,9 +272,9 @@
 === "Contact Levels"
 
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Touch</b> — contact made, no force</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Skill isolation, beginners</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Light</b> — force felt, not damaging</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Most development games</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from"><b>Moderate</b> — significant force, controlled</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Advanced, integration</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Touch</b>, contact made, no force</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Skill isolation, beginners</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Light</b>, force felt, not damaging</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Most development games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Moderate</b>, significant force, controlled</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Advanced, integration</span></div>
     </div>
 
 === "Stop Conditions"
@@ -360,7 +360,7 @@
         <div class="emma-fighter__icon">🐣</div>
         <div class="emma-fighter__role">Less experienced</div>
         <p class="emma-fighter__obj">Focus on survival first, ask questions, celebrate small wins.</p>
-        <span class="emma-pop">Don't overreach — progress, not dominance, is the measure. Learn from the experience gap.</span>
+        <span class="emma-pop">Don't overreach, progress, not dominance, is the measure. Learn from the experience gap.</span>
       </div>
     </div>
 
@@ -378,12 +378,12 @@
 
 ??? question "Do I need to follow prerequisite chains strictly?"
 
-    <p class="emma-hl">Guidelines, not rules. Use judgment — you know your athletes.</p>
+    <p class="emma-hl">Guidelines, not rules. Use judgment, you know your athletes.</p>
 
     <ul class="emma-checklist">
-      <li>Prerequisites indicate logical progression — Skill A helps with Skill B</li>
-      <li>Experienced athletes can skip ahead — a wrestler doesn't need Takedown Defense basics</li>
-      <li>Return to prerequisites when stuck — regression often means foundation gaps</li>
+      <li>Prerequisites indicate logical progression, Skill A helps with Skill B</li>
+      <li>Experienced athletes can skip ahead, a wrestler doesn't need Takedown Defense basics</li>
+      <li>Return to prerequisites when stuck, regression often means foundation gaps</li>
     </ul>
 
     <p style="font-size:.85rem;margin:.6rem 0 0;">See: <a href="../prerequisites/">Prerequisite Map</a></p>
@@ -402,7 +402,7 @@
 
 ??? question "How do I track athlete progress across games?"
 
-    Simple methods — but avoid over-measuring; learning isn't always linear or visible:
+    Simple methods, but avoid over-measuring; learning isn't always linear or visible:
 
     <div class="emma-cards">
       <div class="emma-card"><div class="emma-card__i">🪜</div><div class="emma-card__t">Level tracking</div><p>Record highest level achieved per game.</p></div>

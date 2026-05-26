@@ -5,12 +5,12 @@
 
 <div class="emma-meta"><span>Core Concept</span><span>Bridge Skill</span><span>All Ranges</span></div>
 
-**Hand control is the bridge between striking and grappling — it stops the tool before the strike, not the strike after it leaves.**
+**Hand control is the bridge between striking and grappling, it stops the tool before the strike, not the strike after it leaves.**
 
-<p class="emma-hl"><b>Hand control</b> is any intentional use of the hands or arms to interfere with an opponent's ability to strike, frame, or maneuver effectively. It is <b>not a position — it is a functional interaction.</b></p>
+<p class="emma-hl"><b>Hand control</b> is any intentional use of the hands or arms to interfere with an opponent's ability to strike, frame, or maneuver effectively. It is <b>not a position, it is a functional interaction.</b></p>
 
 <div class="emma-band">
-  <p class="emma-statement">Stop the tool —<br><span class="accent">not the strike after it leaves.</span></p>
+  <p class="emma-statement">Stop the tool, <br><span class="accent">not the strike after it leaves.</span></p>
   <p class="emma-statement__sub">A functional interaction, not a position. <b>It's the bridge from striking into grappling.</b></p>
 </div>
 
@@ -28,11 +28,11 @@
 
 <div class="emma-chips">
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↗️</span> Parrying &amp; trapping<span class="emma-chip__detail">Redirecting a strike and momentarily holding the limb that threw it.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">✌️</span> Two-on-one control<span class="emma-chip__detail">Controlling one of the opponent's arms with both of your hands — temporary, not a held position.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">✌️</span> Two-on-one control<span class="emma-chip__detail">Controlling one of the opponent's arms with both of your hands, temporary, not a held position.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤚</span> Wrist / forearm interference<span class="emma-chip__detail">Blocking the striking tool before it is used.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧹</span> Clearing frames<span class="emma-chip__detail">Removing the opponent's defensive structures so you can advance.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> Redirecting guard position<span class="emma-chip__detail">Changing where the opponent's hands point, opening lines of attack.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📡</span> Tactile monitoring<span class="emma-chip__detail">Feeling the opponent's intent through sustained contact — these interactions may be brief or sustained depending on context.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📡</span> Tactile monitoring<span class="emma-chip__detail">Feeling the opponent's intent through sustained contact, these interactions may be brief or sustained depending on context.</span></span>
 </div>
 
 <p class="emma-glabel">Hand Control vs. Blocking</p>
@@ -64,9 +64,9 @@ It matters most for **advanced striking exchanges**, **clinch initiation**, and 
   <div class="emma-flow__row"><span class="emma-flow__from">All grappling games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Controlling the defender's frames</span></div>
 </div>
 
-<p class="emma-glabel">It Emerges — It Isn't Taught</p>
+<p class="emma-glabel">It Emerges, It Isn't Taught</p>
 
-<p class="emma-hl"><b>Design philosophy:</b> hand control should <b>emerge naturally through constraints</b>, not be forced as a technique. When games constrain options appropriately, hand control appears as a <i>solution</i> — because it solves the problem the game presents.</p>
+<p class="emma-hl"><b>Design philosophy:</b> hand control should <b>emerge naturally through constraints</b>, not be forced as a technique. When games constrain options appropriately, hand control appears as a <i>solution</i>, because it solves the problem the game presents.</p>
 
 ??? abstract "Integration map & evolution notice"
 
@@ -82,4 +82,4 @@ It matters most for **advanced striking exchanges**, **clinch initiation**, and 
 
     <p class="emma-sub">This concept may be refined as additional interaction patterns are identified.</p>
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Related · <a href="../defensive-solutions/">Defensive Solutions</a> — hand control as Enter &amp; Parry · <a href="../confidence-rating/">Confidence Rating</a> — tactile reads build confidence · Games · <a href="../../games/pressure-to-clinch/">Pressure to Clinch</a> · <a href="../../games/clinch-denial/">Clinch Denial</a></p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Related · <a href="../defensive-solutions/">Defensive Solutions</a>, hand control as Enter &amp; Parry · <a href="../confidence-rating/">Confidence Rating</a>, tactile reads build confidence · Games · <a href="../../games/pressure-to-clinch/">Pressure to Clinch</a> · <a href="../../games/clinch-denial/">Clinch Denial</a></p>

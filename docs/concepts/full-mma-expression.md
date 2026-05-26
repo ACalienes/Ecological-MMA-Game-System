@@ -9,19 +9,19 @@ title: Full MMA Expression
 
 <div class="emma-meta"><span>Highest Level</span><span>All Games</span><span>Multi-Threat Pressure</span></div>
 
-<p class="emma-hl"><b>Every game can be played at a Full MMA Expression level</b> — the highest level, where complications from other domains are introduced while the game keeps its core focus.</p>
+<p class="emma-hl"><b>Every game can be played at a Full MMA Expression level</b>, the highest level, where complications from other domains are introduced while the game keeps its core focus.</p>
 
 <div class="emma-band">
-  <p class="emma-statement">Master the skill in isolation —<br><span class="accent">then stress it under every threat.</span></p>
+  <p class="emma-statement">Master the skill in isolation, <br><span class="accent">then stress it under every threat.</span></p>
   <p class="emma-statement__sub">The game keeps its core focus, but other domains complicate it. <b>The ceiling, not the default.</b></p>
 </div>
 
 <p class="emma-glabel">The Pattern</p>
 
 <div class="emma-flow">
-  <div class="emma-flow__row"><span class="emma-flow__from">Lower levels (1–3)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Primary skill in isolation — single domain only</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Mid levels (3–4)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Primary skill with rising complexity — single domain, more variables</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Highest level</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Primary skill under full MMA pressure — multiple domains, realistic threats</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Lower levels (1–3)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Primary skill in isolation, single domain only</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Mid levels (3–4)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Primary skill with rising complexity, single domain, more variables</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Highest level</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Primary skill under full MMA pressure, multiple domains, realistic threats</span></div>
 </div>
 
 <p class="emma-glabel">Why This Matters</p>
@@ -37,7 +37,7 @@ title: Full MMA Expression
 <p class="emma-glabel">What Full MMA Expression Looks Like</p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Striking defense games</div><p>Adds <b>grappling threats</b>.<span class="emma-pop">Lower levels focus on the defensive solution (block, parry, slip, evade). At full expression the attacker can shoot or clinch, and the defender must defend strikes AND deny grappling entry — shelling up without posture awareness invites takedowns.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Striking defense games</div><p>Adds <b>grappling threats</b>.<span class="emma-pop">Lower levels focus on the defensive solution (block, parry, slip, evade). At full expression the attacker can shoot or clinch, and the defender must defend strikes AND deny grappling entry, shelling up without posture awareness invites takedowns.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚔️</div><div class="emma-card__t">Striking offense games</div><p>Adds <b>counter threats and clinch responses</b>.<span class="emma-pop">Lower levels focus on landing targets and reading defense. At full expression the defender can counter-strike or clinch as denial, and the attacker must land while respecting those responses.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤼</div><div class="emma-card__t">Wrestling / grappling games</div><p>Adds <b>striking threats</b>.<span class="emma-pop">Lower levels focus on control, escapes, or takedowns. At full expression light strikes become available, position must account for damage potential, and control without strike awareness is incomplete.</span></p></div>
 </div>
@@ -58,14 +58,14 @@ title: Full MMA Expression
 <p class="emma-glabel">The Teaching Logic</p>
 
 <div class="emma-stepper">
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Beginners — lower levels</b>Learn the primary skill without distraction.<span class="emma-pop emma-pop--l">Build correct movement patterns and develop confidence in the core mechanic.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Intermediate — progress through levels</b>Add tempo, combinations, feints.<span class="emma-pop emma-pop--l">Increase complexity within the domain and prepare for multi-threat environments.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Advanced — Full MMA Expression</b>Primary skill under realistic pressure.<span class="emma-pop emma-pop--l">Account for all relevant threats — the closest approximation to fight conditions within the game's constraints.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Beginners, lower levels</b>Learn the primary skill without distraction.<span class="emma-pop emma-pop--l">Build correct movement patterns and develop confidence in the core mechanic.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Intermediate, progress through levels</b>Add tempo, combinations, feints.<span class="emma-pop emma-pop--l">Increase complexity within the domain and prepare for multi-threat environments.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Advanced, Full MMA Expression</b>Primary skill under realistic pressure.<span class="emma-pop emma-pop--l">Account for all relevant threats, the closest approximation to fight conditions within the game's constraints.</span></div>
 </div>
 
 <p class="emma-glabel">Use It Sparingly</p>
 
-<p class="emma-hl">This level exists for athletes who have mastered the lower levels. <b>Most training will occur at levels 1–4 — the skill must be solid before adding complications.</b></p>
+<p class="emma-hl">This level exists for athletes who have mastered the lower levels. <b>Most training will occur at levels 1–4, the skill must be solid before adding complications.</b></p>
 
 <ul class="emma-checklist">
   <li>Athletes are proficient at lower levels.</li>

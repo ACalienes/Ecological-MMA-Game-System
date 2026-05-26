@@ -7,7 +7,7 @@
 <p class="emma-glabel">Coach Supervision Required</p>
 
 <div class="emma-warns">
-  <span class="emma-warn emma-has-pop" tabindex="0">All gameplay must be supervised by a qualified coach or experienced practitioner<span class="emma-pop">These games involve physical contact, striking, grappling, and submissions — activities that carry inherent risk of injury. Supervision is not optional.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">All gameplay must be supervised by a qualified coach or experienced practitioner<span class="emma-pop">These games involve physical contact, striking, grappling, and submissions, activities that carry inherent risk of injury. Supervision is not optional.</span></span>
 </div>
 
 <p class="emma-sub">Proper supervision is essential to</p>
@@ -22,7 +22,7 @@
 
 <p class="emma-glabel">What Makes a "Qualified Coach"?</p>
 
-<p class="emma-hl">This system <b>does not certify coaches</b> or define qualification standards. Whether someone is qualified is <b>subjective</b>, <b>contextual</b>, and ultimately <b>your responsibility</b> — you choose who you trust to guide your training.</p>
+<p class="emma-hl">This system <b>does not certify coaches</b> or define qualification standards. Whether someone is qualified is <b>subjective</b>, <b>contextual</b>, and ultimately <b>your responsibility</b>, you choose who you trust to guide your training.</p>
 
 <p class="emma-sub">Factors to weigh</p>
 
@@ -35,7 +35,7 @@
 </div>
 
 <div class="emma-warns">
-  <span class="emma-warn emma-has-pop" tabindex="0">Your responsibility<span class="emma-pop">If you choose to learn from someone, you accept responsibility for that choice. This system provides the games — it does not evaluate or endorse any particular coach or gym.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Your responsibility<span class="emma-pop">If you choose to learn from someone, you accept responsibility for that choice. This system provides the games, it does not evaluate or endorse any particular coach or gym.</span></span>
 </div>
 
 <p class="emma-glabel">Assumption of Risk</p>
@@ -79,7 +79,7 @@ This system is provided as-is for educational purposes. The creators and contrib
 
 <p class="emma-glabel">The Bottom Line</p>
 
-<p class="emma-hl">Combat sports can be practiced <b>safely and beneficially</b> when approached with proper respect for the risks involved. This system provides structured games that develop real skills — but the responsibility for safe implementation lies with <b>you and your training community</b>.</p>
+<p class="emma-hl">Combat sports can be practiced <b>safely and beneficially</b> when approached with proper respect for the risks involved. This system provides structured games that develop real skills, but the responsibility for safe implementation lies with <b>you and your training community</b>.</p>
 
 ??? abstract "Questions?"
     If you have questions about implementing this system safely, consult with qualified professionals in your area. This documentation cannot replace hands-on guidance from experienced practitioners. For the system's intent and design rules, see <a href="../context/">Project Context &amp; Goals</a>.

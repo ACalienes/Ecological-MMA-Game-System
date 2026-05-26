@@ -2,22 +2,22 @@
 
 <div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>34-Game System</span></div>
 
-<p class="emma-hl"><b>How games connect.</b> Every game has an entry point and a path forward — this map shows the prerequisites, the chains they form, and the concepts each game leans on.</p>
+<p class="emma-hl"><b>How games connect.</b> Every game has an entry point and a path forward, this map shows the prerequisites, the chains they form, and the concepts each game leans on.</p>
 
-<p class="emma-glabel">Entry Points — No Prerequisites</p>
+<p class="emma-glabel">Entry Points, No Prerequisites</p>
 
 Start here. These games ask nothing before you play them.
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t"><a href="../../games/parry-the-straight/">Parry the Straight</a></div><p>Striking defense — simplest defensive mechanic.<span class="emma-pop">A single deflection skill, isolated and clean.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🛡️</div><div class="emma-card__t"><a href="../../games/tight-block/">Tight Block</a></div><p>Striking defense — pure absorption skill.<span class="emma-pop">Block-only behind a tight shell, no parry or head movement.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">↪️</div><div class="emma-card__t"><a href="../../games/slip-the-straight/">Slip the Straight</a></div><p>Head movement — a single evasion type.<span class="emma-pop">Isolates slipping before layering other solutions.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">👊</div><div class="emma-card__t"><a href="../../games/lead-hand-offense/">Lead Hand Offense</a></div><p>Striking offense — single weapon isolation.<span class="emma-pop">Creativity from one tool, the lead hand.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤜</div><div class="emma-card__t"><a href="../../games/rear-hand-offense/">Rear Hand Offense</a></div><p>Striking offense — single weapon isolation.<span class="emma-pop">Creativity from one tool, the rear hand.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦵</div><div class="emma-card__t"><a href="../../games/lead-leg-offense/">Lead Leg Offense</a></div><p>Kicking offense — single weapon isolation.<span class="emma-pop">Creativity from one tool, the lead leg.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦶</div><div class="emma-card__t"><a href="../../games/rear-leg-offense/">Rear Leg Offense</a></div><p>Kicking offense — single weapon isolation.<span class="emma-pop">Creativity from one tool, the rear leg.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t"><a href="../../games/touch-game/">Touch Game</a></div><p>Range and timing — foundational engagement.<span class="emma-pop">Manage distance before adding strikes or grappling.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤼</div><div class="emma-card__t"><a href="../../games/ground-escape/">Ground Escape</a></div><p>Ground defense — basic bottom position.<span class="emma-pop">The foundational ground game; no prerequisites.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t"><a href="../../games/parry-the-straight/">Parry the Straight</a></div><p>Striking defense, simplest defensive mechanic.<span class="emma-pop">A single deflection skill, isolated and clean.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🛡️</div><div class="emma-card__t"><a href="../../games/tight-block/">Tight Block</a></div><p>Striking defense, pure absorption skill.<span class="emma-pop">Block-only behind a tight shell, no parry or head movement.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">↪️</div><div class="emma-card__t"><a href="../../games/slip-the-straight/">Slip the Straight</a></div><p>Head movement, a single evasion type.<span class="emma-pop">Isolates slipping before layering other solutions.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">👊</div><div class="emma-card__t"><a href="../../games/lead-hand-offense/">Lead Hand Offense</a></div><p>Striking offense, single weapon isolation.<span class="emma-pop">Creativity from one tool, the lead hand.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤜</div><div class="emma-card__t"><a href="../../games/rear-hand-offense/">Rear Hand Offense</a></div><p>Striking offense, single weapon isolation.<span class="emma-pop">Creativity from one tool, the rear hand.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦵</div><div class="emma-card__t"><a href="../../games/lead-leg-offense/">Lead Leg Offense</a></div><p>Kicking offense, single weapon isolation.<span class="emma-pop">Creativity from one tool, the lead leg.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦶</div><div class="emma-card__t"><a href="../../games/rear-leg-offense/">Rear Leg Offense</a></div><p>Kicking offense, single weapon isolation.<span class="emma-pop">Creativity from one tool, the rear leg.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t"><a href="../../games/touch-game/">Touch Game</a></div><p>Range and timing, foundational engagement.<span class="emma-pop">Manage distance before adding strikes or grappling.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤼</div><div class="emma-card__t"><a href="../../games/ground-escape/">Ground Escape</a></div><p>Ground defense, basic bottom position.<span class="emma-pop">The foundational ground game; no prerequisites.</span></p></div>
 </div>
 
 <p class="emma-glabel">Prerequisite Chains by Environment</p>
@@ -32,7 +32,7 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/lead-hand-offense/">Lead Hand</a> · <a href="../../games/rear-hand-offense/">Rear Hand</a> · <a href="../../games/lead-leg-offense/">Lead Leg</a> · <a href="../../games/rear-leg-offense/">Rear Leg</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a></span></div>
     </div>
 
-=== "Open Space — Striking (7)"
+=== "Open Space, Striking (7)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/touch-game/">Touch Game</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span></div>
@@ -51,7 +51,7 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/counter-wrestling/">Counter-Wrestling</a> <small>(needs CRD + Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
     </div>
 
-=== "Open Space — Wrestling (4)"
+=== "Open Space, Wrestling (4)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/takedown-defense/">Takedown Defense</a> <small>(needs Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>

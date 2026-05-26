@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>Coaching Tool</span><span>Game-Based</span><span>No Fixed Template</span></div>
 
-<p class="emma-hl">Sessions are <b>game-based from start to finish</b> — there is no prescribed structure. What you run depends entirely on the training goal in front of you.</p>
+<p class="emma-hl">Sessions are <b>game-based from start to finish</b>, there is no prescribed structure. What you run depends entirely on the training goal in front of you.</p>
 
 <p class="emma-glabel">Core Philosophy</p>
 
@@ -18,7 +18,7 @@
 
 <p class="emma-glabel">Warm-Up Expectations</p>
 
-<p class="emma-hl"><b>Athletes should arrive ready to play.</b> Games start immediately — they <i>are</i> the training, not something that happens after a warm-up.</p>
+<p class="emma-hl"><b>Athletes should arrive ready to play.</b> Games start immediately, they <i>are</i> the training, not something that happens after a warm-up.</p>
 
 !!! tip "Situational judgment, not a phase"
     A coach who knows athletes haven't warmed up can start the first game at lower intensity, choose a less physically demanding game to open, or let athletes ease into full engagement. The system doesn't prescribe "warm-up games" as a structural phase.
@@ -27,7 +27,7 @@
 
 <div class="emma-stepper">
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Goal-driven selection</b>Pick games that serve one clear objective.<span class="emma-pop emma-pop--l">Ask: what problem are we solving today? What skill are we developing? What does success look like? Don't run games just to fill time.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Prerequisite awareness</b>Confirm the foundations are in place.<span class="emma-pop emma-pop--l">Check the game's frontmatter for prerequisite concepts and games. If athletes lack them, address those first — simpler games prepare athletes for complex ones.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Prerequisite awareness</b>Confirm the foundations are in place.<span class="emma-pop emma-pop--l">Check the game's frontmatter for prerequisite concepts and games. If athletes lack them, address those first, simpler games prepare athletes for complex ones.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Role balance</b>Make sure athletes experience both sides.<span class="emma-pop emma-pop--l">In asymmetric games, switch roles regularly and track total time in each. Some athletes need more time in a specific role for their development.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Intensity management</b>Match effort to goal and readiness.<span class="emma-pop emma-pop--l">High intensity → shorter rounds, more rest. Skill development → moderate intensity, quality over volume. Technical work → lower intensity, more reps and feedback.</span></div>
 </div>
@@ -38,7 +38,7 @@
   <span class="emma-warn emma-has-pop" tabindex="0">Too much variety<span class="emma-pop">Better to develop one skill deeply than touch many superficially.</span></span>
   <span class="emma-warn emma-has-pop" tabindex="0">Skipping prerequisites<span class="emma-pop">Complex games fail without the foundational skills underneath them.</span></span>
   <span class="emma-warn emma-has-pop" tabindex="0">Unbalanced roles<span class="emma-pop">Athletes need time on both sides of asymmetric games.</span></span>
-  <span class="emma-warn emma-has-pop" tabindex="0">Ignoring fatigue<span class="emma-pop">Quality degrades when athletes are exhausted — adjust or end the session.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Ignoring fatigue<span class="emma-pop">Quality degrades when athletes are exhausted, adjust or end the session.</span></span>
   <span class="emma-warn emma-has-pop" tabindex="0">Rigid adherence to a plan<span class="emma-pop">If something isn't working, adapt. The plan serves the learning, not the reverse.</span></span>
 </div>
 

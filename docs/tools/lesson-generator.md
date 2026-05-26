@@ -173,11 +173,11 @@
 ### Focus: [Primary skill/environment]
 
 ### Games Played:
-1. [Game] — [Duration] — Notes:
-2. [Game] — [Duration] — Notes:
-3. [Game] — [Duration] — Notes:
-4. [Game] — [Duration] — Notes:
-5. [Game] — [Duration] — Notes:
+1. [Game], [Duration], Notes:
+2. [Game], [Duration], Notes:
+3. [Game], [Duration], Notes:
+4. [Game], [Duration], Notes:
+5. [Game], [Duration], Notes:
 
 ### Observations:
 - What worked:

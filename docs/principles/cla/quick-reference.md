@@ -4,7 +4,7 @@
 
 <p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../glossary/">Glossary</a> · <a href="../index/">CLA Index</a></p>
 
-<p class="emma-hl"><b>Everything on one page.</b> The plan, the dials, the diagnostics — at-a-glance cards to grab mid-session.</p>
+<p class="emma-hl"><b>Everything on one page.</b> The plan, the dials, the diagnostics, at-a-glance cards to grab mid-session.</p>
 
 <p class="emma-glabel">Session Planning Checklist</p>
 
@@ -49,10 +49,10 @@
 <p class="emma-glabel">GROW Model</p>
 
 <div class="emma-flow">
-  <div class="emma-flow__row"><span class="emma-flow__from">G — Goal</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What is the session intention? <i>Define clear focus.</i></span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">R — Reality</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Where is the athlete now? <i>Assess current level.</i></span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">O — Options</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What activities bridge the gap? <i>Design constraints.</i></span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">W — Way Forward</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">How will you implement? <i>Prepare environment.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">G, Goal</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What is the session intention? <i>Define clear focus.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">R, Reality</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Where is the athlete now? <i>Assess current level.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">O, Options</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What activities bridge the gap? <i>Design constraints.</i></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">W, Way Forward</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">How will you implement? <i>Prepare environment.</i></span></div>
 </div>
 
 <p class="emma-glabel">Variability Zones</p>
@@ -71,7 +71,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Green</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Consolidate, end well</span></div>
 </div>
 
-<p class="emma-glabel">RLD Assessment — Quick Check</p>
+<p class="emma-glabel">RLD Assessment, Quick Check</p>
 
 <ul class="emma-checklist">
   <li>Are relevant information sources present?</li>
@@ -95,10 +95,10 @@
 <p class="emma-glabel">Feedback Types</p>
 
 <div class="emma-cards">
-  <div class="emma-card"><div class="emma-card__i">📋</div><div class="emma-card__t">Knowledge of Results</div><p>After attempt — "That landed clean".</p></div>
-  <div class="emma-card"><div class="emma-card__i">🔍</div><div class="emma-card__t">Knowledge of Performance</div><p>After attempt — "You read the setup early".</p></div>
-  <div class="emma-card"><div class="emma-card__i">⚡</div><div class="emma-card__t">Concurrent</div><p>During — "Now!", "There!".</p></div>
-  <div class="emma-card"><div class="emma-card__i">❓</div><div class="emma-card__t">Questions</div><p>After exploration — "What did you notice?".</p></div>
+  <div class="emma-card"><div class="emma-card__i">📋</div><div class="emma-card__t">Knowledge of Results</div><p>After attempt, "That landed clean".</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔍</div><div class="emma-card__t">Knowledge of Performance</div><p>After attempt, "You read the setup early".</p></div>
+  <div class="emma-card"><div class="emma-card__i">⚡</div><div class="emma-card__t">Concurrent</div><p>During, "Now!", "There!".</p></div>
+  <div class="emma-card"><div class="emma-card__i">❓</div><div class="emma-card__t">Questions</div><p>After exploration, "What did you notice?".</p></div>
 </div>
 
 <p class="emma-glabel">External vs. Internal Focus</p>
@@ -118,7 +118,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌊</div><div class="emma-card__t">Adaptability</div><p>Refining, flexible, stable.<span class="emma-pop"><b>Coach focus:</b> challenge with variability, stress-test.</span></p></div>
 </div>
 
-<p class="emma-glabel">Common Pitfalls — Quick Diagnostic</p>
+<p class="emma-glabel">Common Pitfalls, Quick Diagnostic</p>
 
 <div class="emma-flow">
   <div class="emma-flow__row"><span class="emma-flow__from">No exploration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Over-constraining · loosen constraints</span></div>
@@ -141,7 +141,7 @@
   <div class="emma-card"><div class="emma-card__i">🌍</div><div class="emma-card__t">Environmental</div><p>Physical · social · cultural · historical.</p></div>
 </div>
 
-<p class="emma-hl">All three categories interact to produce <b>emergent behavior</b> — no single category dictates the solution.</p>
+<p class="emma-hl">All three categories interact to produce <b>emergent behavior</b>, no single category dictates the solution.</p>
 
 <p class="emma-glabel">Position-Specific Affordances (MMA)</p>
 

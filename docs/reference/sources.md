@@ -20,13 +20,13 @@
 
 <p class="emma-hl">📖 <b>Renshaw, I., Davids, K., Newcombe, D., &amp; Roberts, W. (2019).</b> <i>The Constraints-Led Approach: Principles for Sports Coaching and Practice Design.</i> Routledge.</p>
 
-This text provides the methodological framework for our entire system. Its four Environment Design Principles — Session Intention, Constrain to Afford, Representative Learning Design, Repetition Without Repetition — directly shape how every game is structured.
+This text provides the methodological framework for our entire system. Its four Environment Design Principles, Session Intention, Constrain to Afford, Representative Learning Design, Repetition Without Repetition, directly shape how every game is structured.
 
 <p style="font-size:.85rem;margin:.6rem 0 0;">See: <a href="../../principles/cla/">CLA Knowledge Base</a></p>
 
 <p class="emma-glabel">Foundational Theorists</p>
 
-??? quote "James J. Gibson (1904–1979) — Ecological psychology, affordances, direct perception"
+??? quote "James J. Gibson (1904–1979), Ecological psychology, affordances, direct perception"
 
     <p class="emma-sub">Key work</p>
 
@@ -48,7 +48,7 @@ This text provides the methodological framework for our entire system. Its four 
       <li>Training maintains the perception-action link (no isolated drilling)</li>
     </ul>
 
-??? quote "Nikolai Bernstein (1896–1966) — Motor coordination, degrees of freedom, dexterity"
+??? quote "Nikolai Bernstein (1896–1966), Motor coordination, degrees of freedom, dexterity"
 
     <p class="emma-sub">Key work</p>
 
@@ -71,7 +71,7 @@ This text provides the methodological framework for our entire system. Its four 
       <li>Variability is built into practice (repetition without repetition)</li>
     </ul>
 
-??? quote "Scott Kelso (b. 1947) — Coordination dynamics, self-organization, phase transitions"
+??? quote "Scott Kelso (b. 1947), Coordination dynamics, self-organization, phase transitions"
 
     <p class="emma-sub">Key work</p>
 
@@ -94,7 +94,7 @@ This text provides the methodological framework for our entire system. Its four 
       <li>Productive instability (amber zone) is necessary for learning</li>
     </ul>
 
-??? quote "Karl Newell (b. 1945) — Constraints model for motor development"
+??? quote "Karl Newell (b. 1945), Constraints model for motor development"
 
     <p class="emma-sub">Key work</p>
 
@@ -108,7 +108,7 @@ This text provides the methodological framework for our entire system. Its four 
       <div class="emma-card"><div class="emma-card__i">🌳</div><div class="emma-card__t">Environmental</div><p>The surrounding physical and social context.</p></div>
     </div>
 
-    <p class="emma-hl">Behavior emerges from the <b>interaction</b> of all three — not any single factor. Constraint manipulation guides learning without prescribing movement.</p>
+    <p class="emma-hl">Behavior emerges from the <b>interaction</b> of all three, not any single factor. Constraint manipulation guides learning without prescribing movement.</p>
 
     <p class="emma-sub">How we use it</p>
 
@@ -118,7 +118,7 @@ This text provides the methodological framework for our entire system. Its four 
       <li>Individual differences are respected (not one-size-fits-all)</li>
     </ul>
 
-??? quote "Michael Turvey (b. 1942) — Action systems, ecological realism"
+??? quote "Michael Turvey (b. 1942), Action systems, ecological realism"
 
     <p class="emma-sub">Key works</p>
 
@@ -183,7 +183,7 @@ This text provides the methodological framework for our entire system. Its four 
 <p class="emma-glabel">Citation Format Used in This System</p>
 
 <div class="emma-cards">
-  <div class="emma-card"><div class="emma-card__i">💬</div><div class="emma-card__t">For CLA principles</div><p>"Quoted principle or concept" — Renshaw et al., 2019</p></div>
+  <div class="emma-card"><div class="emma-card__i">💬</div><div class="emma-card__t">For CLA principles</div><p>"Quoted principle or concept", Renshaw et al., 2019</p></div>
   <div class="emma-card"><div class="emma-card__i">🔗</div><div class="emma-card__t">For foundational concepts</div><p>This implements <b>perception-action coupling</b> (Gibson, 1979) through…</p></div>
 </div>
 
@@ -192,10 +192,10 @@ This text provides the methodological framework for our entire system. Its four 
 <p class="emma-glabel">Further Reading</p>
 
 <div class="emma-stepper">
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Start here</b>Renshaw et al. (2019) — the primary CLA text.<span class="emma-pop emma-pop--l">The most direct, practice-oriented entry point into the approach.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>For theory</b>Gibson (1979) — dense but foundational.<span class="emma-pop emma-pop--l">The origin of affordances and direct perception.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>For application</b>Davids, Button &amp; Bennett (2008) — practical skill acquisition.<span class="emma-pop emma-pop--l">Bridges theory and the practice floor.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>For combat sports</b>Hristovski et al. (2006) — boxing-specific research.<span class="emma-pop emma-pop--l">Emergent striking behavior under constraints.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Start here</b>Renshaw et al. (2019), the primary CLA text.<span class="emma-pop emma-pop--l">The most direct, practice-oriented entry point into the approach.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>For theory</b>Gibson (1979), dense but foundational.<span class="emma-pop emma-pop--l">The origin of affordances and direct perception.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>For application</b>Davids, Button &amp; Bennett (2008), practical skill acquisition.<span class="emma-pop emma-pop--l">Bridges theory and the practice floor.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>For combat sports</b>Hristovski et al. (2006), boxing-specific research.<span class="emma-pop emma-pop--l">Emergent striking behavior under constraints.</span></div>
 </div>
 
 ??? abstract "Acknowledgement"

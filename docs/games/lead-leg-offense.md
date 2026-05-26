@@ -25,7 +25,7 @@ tags:
 
 <div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
 
-Develop the lead leg as a weapon. The attacker may *only* use the lead leg — teep, lead round kick, lead side kick — forcing range management and variety with the fastest kicking tool while the defender resists without countering.
+Develop the lead leg as a weapon. The attacker may *only* use the lead leg, teep, lead round kick, lead side kick, forcing range management and variety with the fastest kicking tool while the defender resists without countering.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at kicking range inside a marked perimeter; attacker restricted to the lead leg.</b></div>
@@ -36,13 +36,13 @@ Develop the lead leg as a weapon. The attacker may *only* use the lead leg — t
 </div>
 
 <div class="emma-band">
-  <p class="emma-statement">The fastest weapon you own —<br><span class="accent">if you master the range.</span></p>
+  <p class="emma-statement">The fastest weapon you own, <br><span class="accent">if you master the range.</span></p>
   <p class="emma-statement__sub">Teep, round kick, side kick from the lead leg control distance and rhythm at low commitment. <b>Every tool lives at its own range.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
 
-<p class="emma-hl"><b>Attune to</b> the defender's <i>guard &amp; stance reactions to your lead-leg probes &amp; feints</i> — how their shell and weight shift when you threaten a level — together with the <i>rate of expansion</i> (τ) of your committing teep or round kick toward the opening at <b>center mass</b>. The opening you read isn't where the guard <i>is</i>; it's where it <i>goes</i> when you make it move.</p>
+<p class="emma-hl"><b>Attune to</b> the defender's <i>guard &amp; stance reactions to your lead-leg probes &amp; feints</i>, how their shell and weight shift when you threaten a level, together with the <i>rate of expansion</i> (τ) of your committing teep or round kick toward the opening at <b>center mass</b>. The opening you read isn't where the guard <i>is</i>; it's where it <i>goes</i> when you make it move.</p>
 
 <p class="emma-glabel">The Starting Position</p>
 
@@ -50,7 +50,7 @@ Develop the lead leg as a weapon. The attacker may *only* use the lead leg — t
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Kicking range, with room to adjust distance.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter. Both stay inside it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — switch on a clean lead leg strike.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender, switch on a clean lead leg strike.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset to neutral after each exchange.</div>
 </div>
 
@@ -60,40 +60,40 @@ Develop the lead leg as a weapon. The attacker may *only* use the lead leg — t
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🦵</div>
     <div class="emma-fighter__role">Attacker</div>
-    <p class="emma-fighter__obj">Trying to land a clean lead leg strike — teep, lead round kick, or lead side kick — by reading the defense and managing range.</p>
-    <span class="emma-pop">Lead leg only. The fastest kicking weapon — find variety across levels: teep body/face, round kick leg/body/head, side kick. Manage distance for each tool.</span>
+    <p class="emma-fighter__obj">Trying to land a clean lead leg strike, teep, lead round kick, or lead side kick, by reading the defense and managing range.</p>
+    <span class="emma-pop">Lead leg only. The fastest kicking weapon, find variety across levels: teep body/face, round kick leg/body/head, side kick. Manage distance for each tool.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🛡️</div>
     <div class="emma-fighter__role">Defender</div>
     <p class="emma-fighter__obj">Trying to defend all lead leg attacks effectively. No countering.</p>
-    <span class="emma-pop">Defend naturally with the full toolkit (check, catch, evade, move). You have no win condition — your success is making the attacker work for every opening.</span>
+    <span class="emma-pop">Defend naturally with the full toolkit (check, catch, evade, move). You have no win condition, your success is making the attacker work for every opening.</span>
   </div>
 </div>
 
 <p class="emma-glabel">The Rules</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🦵</span> Lead leg only<span class="emma-chip__detail">The attacker uses <strong>only</strong> the lead leg — teep, lead round kick, lead side kick. No hands, no rear leg. This forces range management and variety with the fastest kicking tool.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🦵</span> Lead leg only<span class="emma-chip__detail">The attacker uses <strong>only</strong> the lead leg, teep, lead round kick, lead side kick. No hands, no rear leg. This forces range management and variety with the fastest kicking tool.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Defender cannot counter<span class="emma-chip__detail">At Level 1 the defender plays pure defense. Removing the counter-threat lets the attacker focus entirely on range and timing.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎯</span> All targets allowed<span class="emma-chip__detail">Head, body, and legs are all fair game. Multiple target levels invite level variation within the lead-leg constraint.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Maintain kicking range<span class="emma-chip__detail">Both players hold kicking range so the lead leg stays viable and effective — closer for round kicks, further for teeps.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Maintain kicking range<span class="emma-chip__detail">Both players hold kicking range so the lead leg stays viable and effective, closer for round kicks, further for teeps.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset after each attack<span class="emma-chip__detail">Reset to a neutral stance after a clean strike lands or after a set time, so each rep begins from the same problem.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land a clean lead leg strike → switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer — not a whiff, graze, or checked kick. Land it and you become the defender.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Whiffed, grazed, or defended → reset, read again.<span class="emma-pop">A failed attempt isn't a loss; it's information — same roles. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land a clean lead leg strike → switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer, not a whiff, graze, or checked kick. Land it and you become the defender.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Whiffed, grazed, or defended → reset, read again.<span class="emma-pop">A failed attempt isn't a loss; it's information, same roles. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
   <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> Defender denies every opening → diagnostic success.<span class="emma-pop">The defender has no win condition. Success is measured by quality of defense, not points. Forcing the attacker to read, set up, and commit is the goal.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
 
 <div class="emma-stepper">
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Defense only</b>Defender can't counter.<span class="emma-pop emma-pop--l">Pure offensive development — lead leg only against a defender who can't counter. Build timing and range with zero counter-threat.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Defense only</b>Defender can't counter.<span class="emma-pop emma-pop--l">Pure offensive development, lead leg only against a defender who can't counter. Build timing and range with zero counter-threat.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add counter threat</b>Counters after good defense.<span class="emma-pop emma-pop--l">The defender can fire counters once they defend successfully. You land kicks while managing the counter risk.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the lead leg under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
 </div>
@@ -128,7 +128,7 @@ Develop the lead leg as a weapon. The attacker may *only* use the lead leg — t
       <div class="emma-flow__row"><span class="emma-flow__from">Kicking range maintained</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Lead leg is viable and effective</span></div>
     </div>
 
-    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — different fighters develop different lead leg preferences based on hip flexibility, stance width, and balance.</p>
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019), different fighters develop different lead leg preferences based on hip flexibility, stance width, and balance.</p>
 
     <p class="emma-sub">What the attacker reads</p>
 
@@ -140,11 +140,11 @@ Develop the lead leg as a weapon. The attacker may *only* use the lead leg — t
 
     <p class="emma-sub">What we measure (order parameter)</p>
 
-    <p class="emma-hl">Whether the <b>committing lead-leg kick lands on the opening a probe created</b> — track target-landed vs. attempts, and whether each landing followed a genuine read → open → commit cycle rather than a repeated guess. That coupling of opening-read to committed kick is the order parameter; when it stabilizes, intentional lead-leg offense has formed.</p>
+    <p class="emma-hl">Whether the <b>committing lead-leg kick lands on the opening a probe created</b>, track target-landed vs. attempts, and whether each landing followed a genuine read → open → commit cycle rather than a repeated guess. That coupling of opening-read to committed kick is the order parameter; when it stabilizes, intentional lead-leg offense has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 
-    <p class="emma-hl"><b>Models:</b> using the lead leg to control distance, disrupt rhythm, and find openings — the quickest kicking tool for range management.</p>
+    <p class="emma-hl"><b>Models:</b> using the lead leg to control distance, disrupt rhythm, and find openings, the quickest kicking tool for range management.</p>
 
     <div class="emma-meta"><span>Simplified: lead leg only</span><span>no counter (L1)</span><span>role switch on success</span></div>
 
@@ -180,7 +180,7 @@ Develop the lead leg as a weapon. The attacker may *only* use the lead leg — t
     <p class="emma-sub">Where it sits</p>
 
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None — this is foundational</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None, this is foundational</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../land-the-target/">Land the Target</a> (integrates all weapons)</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/three-zones/">Three Zones of Attack</a></span></div>
     </div>

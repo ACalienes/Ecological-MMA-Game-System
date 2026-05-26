@@ -43,20 +43,20 @@ Escape from under a dominant position before damage accumulates.
 </div>
 
 <div class="emma-band">
-  <p class="emma-statement">Escapes start in the space —<br><span class="accent">go where the weight isn't.</span></p>
+  <p class="emma-statement">Escapes start in the space, <br><span class="accent">go where the weight isn't.</span></p>
   <p class="emma-statement__sub">Read the pressure, then move. <b>Frames and knees go where the connection is light.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
 
-<p class="emma-hl"><b>Attune to</b> the <i>felt weight distribution &amp; pressure through contact</i> — where the top's base loads and unloads, which limbs are pinned, where the connection goes light — plus the top player's <b>posture and frame motion</b>. That inertial information specifies which way the space opens <i>before</i> the escape window closes, not the opponent's limbs in isolation.</p>
+<p class="emma-hl"><b>Attune to</b> the <i>felt weight distribution &amp; pressure through contact</i>, where the top's base loads and unloads, which limbs are pinned, where the connection goes light, plus the top player's <b>posture and frame motion</b>. That inertial information specifies which way the space opens <i>before</i> the escape window closes, not the opponent's limbs in isolation.</p>
 
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one bottom, one top.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, one bottom, one top.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Position</span>A dominant top position.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, both stay inside.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One bottom (defender), one top (attacker).</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the dominant position; reset after each round.</div>
 </div>
@@ -67,43 +67,43 @@ Escape from under a dominant position before damage accumulates.
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🤸</div>
     <div class="emma-fighter__role">Bottom (Defender)</div>
-    <p class="emma-fighter__obj">Trying to escape to guard, neutral, or standing — not submission.</p>
+    <p class="emma-fighter__obj">Trying to escape to guard, neutral, or standing, not submission.</p>
     <span class="emma-pop">Create frames and space, execute bridges, shrimps, and turns, and chain attempts. Escape means guard recovery, reversal, or standing up.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🥋</div>
     <div class="emma-fighter__role">Top (Attacker)</div>
-    <p class="emma-fighter__obj">Trying to maintain the dominant position and prevent the escape — not submission.</p>
-    <span class="emma-pop">Maintain weight distribution, anticipate and counter escapes, and stay heavy without exhausting. Control only — no finishing.</span>
+    <p class="emma-fighter__obj">Trying to maintain the dominant position and prevent the escape, not submission.</p>
+    <span class="emma-pop">Maintain weight distribution, anticipate and counter escapes, and stay heavy without exhausting. Control only, no finishing.</span>
   </div>
 </div>
 
 <p class="emma-glabel">The Rules</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏃</span> Bottom must actively escape<span class="emma-chip__detail">The bottom player works escape sequences continuously — not just surviving or waiting. This forces exploration of escape solutions.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏃</span> Bottom must actively escape<span class="emma-chip__detail">The bottom player works escape sequences continuously, not just surviving or waiting. This forces exploration of escape solutions.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🪨</span> Top maintains, does not attack<span class="emma-chip__detail">The top player maintains control without submissions, so the bottom can focus on escape rather than submission defense.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎯</span> Escape = guard, reversal, or standing<span class="emma-chip__detail">A successful escape is guard recovery, a reversal to top, or standing up. This defines clear, hierarchical success.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No submissions from bottom<span class="emma-chip__detail">Submissions from bottom are not the focus here — the task is escape mechanics. Submission threats live in a separate game.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If a player rolls fully out of it, that player loses instantly — training mat-edge awareness.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No submissions from bottom<span class="emma-chip__detail">Submissions from bottom are not the focus here, the task is escape mechanics. Submission threats live in a separate game.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape (square, circle, taped lines). If a player rolls fully out of it, that player loses instantly, training mat-edge awareness.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Bottom escapes, reverses, or stands → switch roles.<span class="emma-pop">The bottom breaks free to a safer position — bottom wins and earns the top's maintenance role.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> Top holds the position for the set duration → top wins.<span class="emma-pop">Hold the dominant position for the set duration — the top denies the escape.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Bottom escapes, reverses, or stands → switch roles.<span class="emma-pop">The bottom breaks free to a safer position, bottom wins and earns the top's maintenance role.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Win</span> Top holds the position for the set duration → top wins.<span class="emma-pop">Hold the dominant position for the set duration, the top denies the escape.</span></div>
   <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Top holds for the set duration → reset, same roles.<span class="emma-pop">The round ends and resets from the dominant position, keeping the same roles for another rep.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Roll fully out of the perimeter → that player loses.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position — training the mat-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Roll fully out of the perimeter → that player loses.<span class="emma-pop">Crossing the marked perimeter loses the round instantly, regardless of position, training the mat-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
 
 <div class="emma-stepper">
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Side Control Escapes</b>Start under side control.<span class="emma-pop emma-pop--l">Begin under side control — the most fundamental escape position. Focus on frames, shrimp to guard, and the sit-up escape.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Mount Escapes</b>Start under mount — higher urgency.<span class="emma-pop emma-pop--l">Begin under mount. Higher urgency and fewer options — focus on bridge and roll and the elbow-knee escape.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Back Escapes</b>Start with the opponent on the back, hooks in.<span class="emma-pop emma-pop--l">Begin with the back taken (hooks in) — the highest-danger position. Focus on hand fighting and escaping to guard.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Side Control Escapes</b>Start under side control.<span class="emma-pop emma-pop--l">Begin under side control, the most fundamental escape position. Focus on frames, shrimp to guard, and the sit-up escape.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Mount Escapes</b>Start under mount, higher urgency.<span class="emma-pop emma-pop--l">Begin under mount. Higher urgency and fewer options, focus on bridge and roll and the elbow-knee escape.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Back Escapes</b>Start with the opponent on the back, hooks in.<span class="emma-pop emma-pop--l">Begin with the back taken (hooks in), the highest-danger position. Focus on hand fighting and escaping to guard.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA Expression</b>Top can threaten strikes.<span class="emma-pop emma-pop--l">Top can threaten strikes; bottom must escape while defending them. Escape under MMA pressure.</span></div>
 </div>
 
@@ -122,7 +122,7 @@ Escape from under a dominant position before damage accumulates.
 
     <div class="emma-cards">
       <div class="emma-card"><div class="emma-card__i">⚓</div><div class="emma-card__t">Where is the weight?</div><p>Ask: "Where is their weight?" This directs attention to the haptic information that matters, rather than prescribing a technique.</p></div>
-      <div class="emma-card"><div class="emma-card__i">🕳️</div><div class="emma-card__t">Find the space</div><p>Ask: "Where is the space?" Escapes start from felt space — frames and knees go where the connection is light.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🕳️</div><div class="emma-card__t">Find the space</div><p>Ask: "Where is the space?" Escapes start from felt space, frames and knees go where the connection is light.</p></div>
     </div>
 
 ??? abstract "Constraints-Led analysis"
@@ -137,7 +137,7 @@ Escape from under a dominant position before damage accumulates.
       <div class="emma-flow__row"><span class="emma-flow__from">Live, resisting opponent</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Keeps weight-reading perception intact</span></div>
     </div>
 
-    <p class="emma-hl">Implements <b>Task Simplification</b> (Renshaw et al., 2019) — isolates the escape task while keeping the essential perception-action loop intact. The bottom still reads weight distribution and timing from a real, resisting opponent.</p>
+    <p class="emma-hl">Implements <b>Task Simplification</b> (Renshaw et al., 2019), isolates the escape task while keeping the essential perception-action loop intact. The bottom still reads weight distribution and timing from a real, resisting opponent.</p>
 
     <p class="emma-sub">What the bottom reads</p>
 
@@ -149,7 +149,7 @@ Escape from under a dominant position before damage accumulates.
 
     <p class="emma-sub">What we measure (order parameter)</p>
 
-    <p class="emma-hl">Whether the bottom <b>recovers space and frames faster than the top can re-load weight</b> — track escapes completed vs. position held, and whether frames stay live as the top adjusts. That space-recovery relationship is the order parameter; when it stabilizes, the skill has formed.</p>
+    <p class="emma-hl">Whether the bottom <b>recovers space and frames faster than the top can re-load weight</b>, track escapes completed vs. position held, and whether frames stay live as the top adjusts. That space-recovery relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 
@@ -157,7 +157,7 @@ Escape from under a dominant position before damage accumulates.
 
     <div class="emma-meta"><span>Simplified: no strikes (L1–3)</span><span>no submissions by top</span><span>reset on time limit</span></div>
 
-    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Haptic perception of weight and pressure is identical to competition — transfers into <a href="../leg-reclaim/">Leg Reclaim</a> and <a href="../ground-to-standing/">Ground to Standing</a>.</p>
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Haptic perception of weight and pressure is identical to competition, transfers into <a href="../leg-reclaim/">Leg Reclaim</a> and <a href="../ground-to-standing/">Ground to Standing</a>.</p>
 
     <p class="emma-sub">Readiness to progress</p>
 
@@ -188,7 +188,7 @@ Escape from under a dominant position before damage accumulates.
     <p class="emma-sub">Where it sits</p>
 
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None — this is a fundamental defensive game</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None, this is a fundamental defensive game</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../leg-reclaim/">Leg Reclaim</a> · <a href="../ground-to-standing/">Ground to Standing</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/decision-states/">Decision States</a></span></div>
     </div>

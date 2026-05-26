@@ -5,10 +5,10 @@
 
 <div class="emma-meta"><span>Control Concept</span><span>Wall + Ground</span><span>Fleeting State</span></div>
 
-<p class="emma-hl"><b>A TKO Pin is a control <i>state</i>, not a position.</b> It exists the moment you control the opponent's frame while keeping a limb free to strike — and it can vanish just as fast.</p>
+<p class="emma-hl"><b>A TKO Pin is a control <i>state</i>, not a position.</b> It exists the moment you control the opponent's frame while keeping a limb free to strike, and it can vanish just as fast.</p>
 
 <div class="emma-band">
-  <p class="emma-statement">Control the frame, free a limb —<br><span class="accent">strike before it slips away.</span></p>
+  <p class="emma-statement">Control the frame, free a limb, <br><span class="accent">strike before it slips away.</span></p>
   <p class="emma-statement__sub">It's a fleeting state, not a held position. <b>Create it, capture it, stabilize it, re-acquire it.</b></p>
 </div>
 
@@ -20,7 +20,7 @@ All four conditions must hold at once:
   <li>The defender's hips and shoulders are meaningfully controlled.</li>
   <li>Posture and mobility are compromised.</li>
   <li><b>At least one limb is free to strike effectively.</b></li>
-  <li>Defender options are high-cost — damage, exposure, reversal risk.</li>
+  <li>Defender options are high-cost, damage, exposure, reversal risk.</li>
 </ul>
 
 ```mermaid
@@ -30,23 +30,23 @@ flowchart LR
     B -->|No| D[Standard Pin]
     C --> E[Exploitation possible]
 
-    style C fill:#FF5722,color:#fff
+    style C fill:#FF5722, color:#fff
 ```
 
 <p class="emma-glabel">Key Properties</p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏳</div><div class="emma-card__t">Often fleeting</div><p>Unlike a stable mount or back control, it's frequently a momentary state.<span class="emma-pop">It must be created, captured, stabilized if possible, and re-acquired when lost.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Control vs. strike access</div><p>To strike, you must release some control — skilled attackers <b>oscillate</b> between the two.<span class="emma-pop">Maximum control = minimal strike access. Maximum strike access = reduced control. The oscillation is the skill.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Control vs. strike access</div><p>To strike, you must release some control, skilled attackers <b>oscillate</b> between the two.<span class="emma-pop">Maximum control = minimal strike access. Maximum strike access = reduced control. The oscillation is the skill.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📍</div><div class="emma-card__t">Wall or ground</div><p>Emerges in multiple environments.<span class="emma-pop">Wall pin positions (Level 3), ground control (from Wall → Ground transition), and the Stand-Up Loop after a successful re-pin.</span></p></div>
 </div>
 
 <p class="emma-glabel">Quality Spectrum</p>
 
 <div class="emma-flow">
-  <div class="emma-flow__row"><span class="emma-flow__from">Threat</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Available but not stabilized — fleeting</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Stable</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Held for multiple seconds — strikes landing</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Dominant</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No viable escape — fight-ending territory</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Threat</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Available but not stabilized, fleeting</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Stable</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Held for multiple seconds, strikes landing</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Dominant</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No viable escape, fight-ending territory</span></div>
 </div>
 
 <p class="emma-glabel">Training Focus</p>
@@ -60,10 +60,10 @@ flowchart LR
     C --> D[Re-acquire]
     D --> A
 
-    style A fill:#4CAF50,color:#fff
-    style B fill:#2196F3,color:#fff
-    style C fill:#FF9800,color:#fff
-    style D fill:#9C27B0,color:#fff
+    style A fill:#4CAF50, color:#fff
+    style B fill:#2196F3, color:#fff
+    style C fill:#FF9800, color:#fff
+    style D fill:#9C27B0, color:#fff
 ```
 
 <div class="emma-stepper">
@@ -76,14 +76,14 @@ flowchart LR
 <p class="emma-glabel">Where TKO Pin Appears</p>
 
 <div class="emma-flow">
-  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-control/">Wall Control</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Level 3 — threaten TKO pin access</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-to-ground/">Wall → Ground</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Level 3 — establish TKO pin threat</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-control/">Wall Control</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Level 3, threaten TKO pin access</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-to-ground/">Wall → Ground</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Level 3, establish TKO pin threat</span></div>
   <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/standup-loop/">Stand-Up Loop</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Attacker win condition</span></div>
 </div>
 
-<p class="emma-glabel">Related Concept — DNS</p>
+<p class="emma-glabel">Related Concept, DNS</p>
 
-<p class="emma-hl"><b>Defensive Neck Submissions (DNS)</b> are the primary defensive counter to TKO pin attempts — they keep attackers honest, and are allowed in all games where TKO pin is relevant.</p>
+<p class="emma-hl"><b>Defensive Neck Submissions (DNS)</b> are the primary defensive counter to TKO pin attempts, they keep attackers honest, and are allowed in all games where TKO pin is relevant.</p>
 
 When an attacker reaches for the TKO pin and their posture breaks:
 

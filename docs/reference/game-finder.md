@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>Reference</span><span>Find Your Game</span><span>By Goal · Time · Gear · Partner</span></div>
 
-<p class="emma-hl"><b>Not sure which game to play?</b> Tell the finder what you want — it points you to the game that builds it. Start with the decision tree, then narrow by goal, time, equipment, or partner.</p>
+<p class="emma-hl"><b>Not sure which game to play?</b> Tell the finder what you want, it points you to the game that builds it. Start with the decision tree, then narrow by goal, time, equipment, or partner.</p>
 
 <p class="emma-glabel">Quick Decision Tree</p>
 
@@ -57,28 +57,28 @@ flowchart TD
 
     BOTH --> PC2[Pressure to Clinch]
 
-    style PARRY fill:#4CAF50,color:#fff
-    style SLIP fill:#4CAF50,color:#fff
-    style TIGHT fill:#4CAF50,color:#fff
-    style EVADE fill:#4CAF50,color:#fff
-    style CRD fill:#4CAF50,color:#fff
-    style LT fill:#FF5722,color:#fff
-    style TOUCH fill:#9C27B0,color:#fff
-    style PC fill:#9C27B0,color:#fff
-    style OST fill:#9C27B0,color:#fff
-    style PTT fill:#FF5722,color:#fff
-    style WCON fill:#FF5722,color:#fff
-    style WG fill:#FF5722,color:#fff
-    style WE fill:#4CAF50,color:#fff
-    style SUL fill:#9C27B0,color:#fff
-    style PC2 fill:#FF9800,color:#fff
+    style PARRY fill:#4CAF50, color:#fff
+    style SLIP fill:#4CAF50, color:#fff
+    style TIGHT fill:#4CAF50, color:#fff
+    style EVADE fill:#4CAF50, color:#fff
+    style CRD fill:#4CAF50, color:#fff
+    style LT fill:#FF5722, color:#fff
+    style TOUCH fill:#9C27B0, color:#fff
+    style PC fill:#9C27B0, color:#fff
+    style OST fill:#9C27B0, color:#fff
+    style PTT fill:#FF5722, color:#fff
+    style WCON fill:#FF5722, color:#fff
+    style WG fill:#FF5722, color:#fff
+    style WE fill:#4CAF50, color:#fff
+    style SUL fill:#9C27B0, color:#fff
+    style PC2 fill:#FF9800, color:#fff
 ```
 
-<p class="emma-glabel">Find by Training Goal — Defense</p>
+<p class="emma-glabel">Find by Training Goal, Defense</p>
 
 === "Against Punches"
 
-    <p class="emma-sub">Beginner — start here</p>
+    <p class="emma-sub">Beginner, start here</p>
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Deflect punches with the hands</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/parry-the-straight/">Parry the Straight</a></span></div>
@@ -86,7 +86,7 @@ flowchart TD
       <div class="emma-flow__row"><span class="emma-flow__from">Absorb on a tight guard</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/tight-block/">Tight Block</a></span></div>
     </div>
 
-    <p class="emma-sub">Intermediate — build on foundations</p>
+    <p class="emma-sub">Intermediate, build on foundations</p>
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Match evasion to punch type</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/evade-the-punch/">Evade the Punch</a></span></div>
@@ -107,7 +107,7 @@ flowchart TD
       <div class="emma-flow__row"><span class="emma-flow__from">Get up when taken down near the wall</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/standup-loop/">Stand-Up Loop</a></span></div>
     </div>
 
-<p class="emma-glabel">Find by Training Goal — Offense</p>
+<p class="emma-glabel">Find by Training Goal, Offense</p>
 
 === "Striking"
 
@@ -129,14 +129,14 @@ flowchart TD
       <div class="emma-flow__row"><span class="emma-flow__from">Transition pin to ground control</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-to-ground/">Wall Pin to Ground</a></span></div>
     </div>
 
-<p class="emma-glabel">Find by Training Goal — Fundamentals &amp; Integration</p>
+<p class="emma-glabel">Find by Training Goal, Fundamentals &amp; Integration</p>
 
 === "Fundamentals"
 
     <div class="emma-cards">
-      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t"><a href="../../games/touch-game/">Touch &amp; Don't Get Touched</a></div><p>Range, timing, composure under contact.<span class="emma-pop">The foundational engagement game — learn to manage distance before anything else.</span></p></div>
-      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧭</div><div class="emma-card__t"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></div><p>Space awareness, pressure vs. movement.<span class="emma-pop">Low contact, space-focused — teaches how to cut off the marked perimeter.</span></p></div>
-      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t"><a href="../../games/parry-the-straight/">Parry the Straight</a></div><p>Basic defensive mechanics.<span class="emma-pop">The simplest skill-isolation game — a clean first rep of defensive reading.</span></p></div>
+      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t"><a href="../../games/touch-game/">Touch &amp; Don't Get Touched</a></div><p>Range, timing, composure under contact.<span class="emma-pop">The foundational engagement game, learn to manage distance before anything else.</span></p></div>
+      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧭</div><div class="emma-card__t"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></div><p>Space awareness, pressure vs. movement.<span class="emma-pop">Low contact, space-focused, teaches how to cut off the marked perimeter.</span></p></div>
+      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t"><a href="../../games/parry-the-straight/">Parry the Straight</a></div><p>Basic defensive mechanics.<span class="emma-pop">The simplest skill-isolation game, a clean first rep of defensive reading.</span></p></div>
     </div>
 
 === "Realistic MMA Integration"
@@ -152,9 +152,9 @@ flowchart TD
 <p class="emma-glabel">Find by Time Available</p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Short — 15–20 min</div><p>Pick <b>one</b> game, work levels 1–3: a skill-isolation game (Parry, Slip, Block, Evade), Touch Game, or Pressure to Clinch.<span class="emma-pop">One focused problem, repeated cleanly, beats spreading thin across many games.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏳</div><div class="emma-card__t">Medium — 30–45 min</div><p>Pair <b>two</b> related games and let one feed the other.<span class="emma-pop">Skill Isolation → Close-Range Defense · Touch Game → Pressure to Clinch · Wall Control → Wall Escape.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🕐</div><div class="emma-card__t">Full — 60+ min</div><p>Run a full <b>pathway</b> from isolation to integration.<span class="emma-pop">Skill Isolation → Close-Range Defense → Land the Target · Touch Game → Pressure to Clinch → Wall Control · Wall Control → Wall Escape → Wall to Ground.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Short, 15–20 min</div><p>Pick <b>one</b> game, work levels 1–3: a skill-isolation game (Parry, Slip, Block, Evade), Touch Game, or Pressure to Clinch.<span class="emma-pop">One focused problem, repeated cleanly, beats spreading thin across many games.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏳</div><div class="emma-card__t">Medium, 30–45 min</div><p>Pair <b>two</b> related games and let one feed the other.<span class="emma-pop">Skill Isolation → Close-Range Defense · Touch Game → Pressure to Clinch · Wall Control → Wall Escape.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🕐</div><div class="emma-card__t">Full, 60+ min</div><p>Run a full <b>pathway</b> from isolation to integration.<span class="emma-pop">Skill Isolation → Close-Range Defense → Land the Target · Touch Game → Pressure to Clinch → Wall Control · Wall Control → Wall Escape → Wall to Ground.</span></p></div>
 </div>
 
 <p class="emma-glabel">Find by Equipment</p>
@@ -179,7 +179,7 @@ flowchart TD
     <div class="emma-chips">
       <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> <a href="../../games/wall-control/">Wall Control</a><span class="emma-chip__detail">Padded wall preferred for repeated pin work.</span></span>
       <span class="emma-chip"><span class="emma-chip__i">↩️</span> <a href="../../games/wall-escape/">Wall Escape</a></span>
-      <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬇️</span> <a href="../../games/wall-to-ground/">Wall Pin to Ground</a><span class="emma-chip__detail">Mats essential — play ends on the ground.</span></span>
+      <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬇️</span> <a href="../../games/wall-to-ground/">Wall Pin to Ground</a><span class="emma-chip__detail">Mats essential, play ends on the ground.</span></span>
       <span class="emma-chip"><span class="emma-chip__i">🔁</span> <a href="../../games/standup-loop/">Stand-Up Loop</a></span>
     </div>
 
@@ -203,15 +203,15 @@ flowchart TD
 
 === "Equal Partners"
 
-    <p class="emma-hl"><b>Any game works.</b> Progress through the levels together — both sides feed and learn in turn.</p>
+    <p class="emma-hl"><b>Any game works.</b> Progress through the levels together, both sides feed and learn in turn.</p>
 
 <p class="emma-glabel">Still Not Sure?</p>
 
 <div class="emma-flow">
-  <div class="emma-flow__row"><span class="emma-flow__from">Brand new to the system</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/touch-game/">Touch &amp; Don't Get Touched</a> — the foundational game</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Want striking defense</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/parry-the-straight/">Parry the Straight</a> — the simplest isolation game</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Want wrestling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a> — low contact, space-focused</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Want full MMA feel</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-takedown/">Pressure to Takedown</a> — chains everything together</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Brand new to the system</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/touch-game/">Touch &amp; Don't Get Touched</a>, the foundational game</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Want striking defense</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/parry-the-straight/">Parry the Straight</a>, the simplest isolation game</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Want wrestling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a>, low contact, space-focused</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Want full MMA feel</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-takedown/">Pressure to Takedown</a>, chains everything together</span></div>
 </div>
 
 ??? abstract "System evolution notice"

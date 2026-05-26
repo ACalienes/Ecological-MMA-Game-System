@@ -15,35 +15,35 @@
 <p class="emma-glabel">Version Timeline</p>
 
 <div class="emma-flow">
-  <div class="emma-flow__row"><span class="emma-flow__from">Dec 2025 · v0.1.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Initial System — core striking games &amp; concepts</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.2.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Environment Organization — wall environment, skill isolation</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.3.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full MMA Expression &amp; weapon isolation — 31 games</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.4.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">System Restructure — Transition Zone, renames, end states</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.5.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>CLA Documentation Rollout (current)</b> — 34 games</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Dec 2025 · v0.1.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Initial System, core striking games &amp; concepts</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.2.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Environment Organization, wall environment, skill isolation</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.3.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full MMA Expression &amp; weapon isolation, 31 games</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.4.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">System Restructure, Transition Zone, renames, end states</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.5.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>CLA Documentation Rollout (current)</b>, 34 games</span></div>
 </div>
 
-<p class="emma-glabel">v0.5.0 — CLA Documentation Rollout <span style="font-weight:400;font-size:.8em;">(Current · Jan 2026)</span></p>
+<p class="emma-glabel">v0.5.0, CLA Documentation Rollout <span style="font-weight:400;font-size:.8em;">(Current · Jan 2026)</span></p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📚</div><div class="emma-card__t">CLA sections on all games</div><p>Standardized Constraints-Led documentation added to all 34 games.<span class="emma-pop">Each game now carries Constraints Analysis, Information Structure (haptic/visual/proprioceptive), Representativeness, Variability Guidelines, and Readiness Indicators — referencing Renshaw et al., 2019 throughout.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📚</div><div class="emma-card__t">CLA sections on all games</div><p>Standardized Constraints-Led documentation added to all 34 games.<span class="emma-pop">Each game now carries Constraints Analysis, Information Structure (haptic/visual/proprioceptive), Representativeness, Variability Guidelines, and Readiness Indicators, referencing Renshaw et al., 2019 throughout.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔢</div><div class="emma-card__t">Game count verified at 34</div><p>A consistency-check script validates game counts.<span class="emma-pop">All cross-references verified and updated.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧹</div><div class="emma-card__t">Navigation cleanup</div><p>Removed deleted Boundary Trigger references; fixed Winning the Circle → Pressure to Clinch nav links.</p></div>
 </div>
 
-<p class="emma-glabel">v0.4.0 — System Restructure <span style="font-weight:400;font-size:.8em;">(Jan 2026)</span></p>
+<p class="emma-glabel">v0.4.0, System Restructure <span style="font-weight:400;font-size:.8em;">(Jan 2026)</span></p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔀</div><div class="emma-card__t">Transition Zone added</div><p>New environment between Striking and Wrestling.<span class="emma-pop">Added Clinch Denial, Counter-Striking, and Counter-Wrestling games.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🏷️</div><div class="emma-card__t">Winning the Circle → Pressure to Clinch</div><p>Renamed to describe the activity, not the outcome.<span class="emma-pop">"Winning the Circle" became a concept page; "Boundary Trigger" merged into Pressure to Clinch as higher levels.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦵</div><div class="emma-card__t">Guard Recovery → Leg Reclaim</div><p>Renamed to avoid technique-specific terminology.<span class="emma-pop">The new name describes the actual goal: getting legs between you and the opponent.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔒</div><div class="emma-card__t">Defensive Submissions added</div><p>Wall &amp; Ground Defensive Submission.<span class="emma-pop">Defensive options were incomplete without submission threats — these add a deterrent from the wall pin and attacks from the bottom.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔒</div><div class="emma-card__t">Defensive Submissions added</div><p>Wall &amp; Ground Defensive Submission.<span class="emma-pop">Defensive options were incomplete without submission threats, these add a deterrent from the wall pin and attacks from the bottom.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">End states made explicit</div><p>KO, TKO, Submission added as flowchart nodes.<span class="emma-pop">All pathways now visually lead to fight-ending outcomes.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">✂️</div><div class="emma-card__t">Ground Finish removed</div><p>Split into TKO (via Ground Control) and Submission.<span class="emma-pop">Clearer representation of the actual finishing paths.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🚲</div><div class="emma-card__t">Evasive Movement added</div><p>New striking defensive game for "getting on your bike."<span class="emma-pop">Distinct from Close-Range Defense — avoiding vs. defending.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🚲</div><div class="emma-card__t">Evasive Movement added</div><p>New striking defensive game for "getting on your bike."<span class="emma-pop">Distinct from Close-Range Defense, avoiding vs. defending.</span></p></div>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🅰️</div><div class="emma-card__t">Combined game roles clarified</div><p>Combined games have A/B roles, not necessarily mirrored.<span class="emma-pop">Documentation updated to reflect distinct objectives per side.</span></p></div>
 </div>
 
-<p class="emma-glabel">v0.3.0 — Full MMA Expression &amp; Offensive Skill Isolation <span style="font-weight:400;font-size:.8em;">(Jan 2026)</span></p>
+<p class="emma-glabel">v0.3.0, Full MMA Expression &amp; Offensive Skill Isolation <span style="font-weight:400;font-size:.8em;">(Jan 2026)</span></p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥋</div><div class="emma-card__t">Full MMA Expression level</div><p>Added a top level to all games.<span class="emma-pop">The highest level adds cross-domain threats.</span></p></div>
@@ -51,7 +51,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📈</div><div class="emma-card__t">Expanded to 31 games</div><p>Ground games and remaining wall games added.<span class="emma-pop">Ground Access/Control/Escape, Wall Grinding, Stand-Up Loop, and Sustained Offense.</span></p></div>
 </div>
 
-<p class="emma-glabel">v0.2.0 — Environment Organization <span style="font-weight:400;font-size:.8em;">(Jan 2026)</span></p>
+<p class="emma-glabel">v0.2.0, Environment Organization <span style="font-weight:400;font-size:.8em;">(Jan 2026)</span></p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🗂️</div><div class="emma-card__t">Environment → Domain → Focus</div><p>Reorganized the entire system by environment first.<span class="emma-pop">Clearer navigation and game discovery.</span></p></div>
@@ -59,7 +59,7 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t">Skill Isolation formalized</div><p>Parry, Block, Slip, Evade as the foundation.<span class="emma-pop">Defensive skill development before integration.</span></p></div>
 </div>
 
-<p class="emma-glabel">v0.1.0 — Initial System <span style="font-weight:400;font-size:.8em;">(Dec 2025)</span></p>
+<p class="emma-glabel">v0.1.0, Initial System <span style="font-weight:400;font-size:.8em;">(Dec 2025)</span></p>
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t">Core striking games</div><p>Touch &amp; Don't Get Touched, Pressure to Clinch, Land the Target, Close-Range Defense.</p></div>

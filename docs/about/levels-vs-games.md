@@ -7,8 +7,8 @@
 <p class="emma-glabel">The Two Definitions, Side by Side</p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎮</div><div class="emma-card__t">Game</div><p>A <b>distinct learning problem</b>: stable environment, clear goal, defined invariants, clear win conditions.<span class="emma-pop">Each game is its own learning unit — a self-contained problem the environment poses to the athlete.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📈</div><div class="emma-card__t">Level</div><p>Increased completion <b>inside the same problem</b>: same environment, same decision state, stricter success criteria.<span class="emma-pop">A level turns up the difficulty without changing what is being learned — the problem stays fixed.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎮</div><div class="emma-card__t">Game</div><p>A <b>distinct learning problem</b>: stable environment, clear goal, defined invariants, clear win conditions.<span class="emma-pop">Each game is its own learning unit, a self-contained problem the environment poses to the athlete.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📈</div><div class="emma-card__t">Level</div><p>Increased completion <b>inside the same problem</b>: same environment, same decision state, stricter success criteria.<span class="emma-pop">A level turns up the difficulty without changing what is being learned, the problem stays fixed.</span></p></div>
 </div>
 
 <p class="emma-glabel">The Decision Framework</p>
@@ -17,7 +17,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Environment changed?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Yes → <b>New game</b></span></div>
   <div class="emma-flow__row"><span class="emma-flow__from">Dominant constraint changed?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Yes → <b>New game</b></span></div>
   <div class="emma-flow__row"><span class="emma-flow__from">Win condition fundamentally different?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Yes → <b>New game</b></span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">None of the above — just harder?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>New level</b></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">None of the above, just harder?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>New level</b></span></div>
 </div>
 
 <p class="emma-glabel">When to Make Each</p>
@@ -42,19 +42,19 @@
 
 <p class="emma-hl">If you change <b>≥2 of these</b>, it's probably a <b>new game</b>: environment · entry condition · win condition · roles · primary decision state.</p>
 
-<p class="emma-glabel">Example 1 — One Game, Three Levels</p>
+<p class="emma-glabel">Example 1, One Game, Three Levels</p>
 
-The Wall Stand-Up progression is a **single game** with **three levels** — the environment, roles, and core decision (escape vs maintain) stay constant.
+The Wall Stand-Up progression is a **single game** with **three levels**, the environment, roles, and core decision (escape vs maintain) stay constant.
 
 <div class="emma-stepper">
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Stand-up only</b>The core problem.<span class="emma-pop emma-pop--l">Establish the base skill: getting back up off the wall.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Stand-up + disengage</b>Higher completion.<span class="emma-pop emma-pop--l">Same problem with a stricter standard — stand and break free cleanly.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Stand-up + reversal</b>Highest difficulty.<span class="emma-pop emma-pop--l">Same problem, top standard — stand, escape, and turn the tables.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Stand-up + disengage</b>Higher completion.<span class="emma-pop emma-pop--l">Same problem with a stricter standard, stand and break free cleanly.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Stand-up + reversal</b>Highest difficulty.<span class="emma-pop emma-pop--l">Same problem, top standard, stand, escape, and turn the tables.</span></div>
 </div>
 
-<p class="emma-glabel">Example 2 — Two Different Games</p>
+<p class="emma-glabel">Example 2, Two Different Games</p>
 
-Wall Control and Wall Escape are **two different games**, not levels — the roles, goals, and decision states are inverted.
+Wall Control and Wall Escape are **two different games**, not levels, the roles, goals, and decision states are inverted.
 
 <div class="emma-matchup">
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
@@ -68,7 +68,7 @@ Wall Control and Wall Escape are **two different games**, not levels — the rol
     <div class="emma-fighter__icon">🗝️</div>
     <div class="emma-fighter__role">Wall Escape</div>
     <p class="emma-fighter__obj">Defender · break the pin · create space or reverse.</p>
-    <span class="emma-pop">Stage: counter. The problem is undoing the pin — an inverted role and win condition.</span>
+    <span class="emma-pop">Stage: counter. The problem is undoing the pin, an inverted role and win condition.</span>
   </div>
 </div>
 
@@ -83,11 +83,11 @@ Wall Control and Wall Escape are **two different games**, not levels — the rol
 <p class="emma-glabel">Edge Cases</p>
 
 <div class="emma-flow">
-  <div class="emma-flow__row"><span class="emma-flow__from">Transition games (Wall → Ground)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Single game — the <i>transition</i> is the problem</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Loop games (Stand-Up Loop)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Single game — the <i>loop</i> is the learning unit</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Transition games (Wall → Ground)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Single game, the <i>transition</i> is the problem</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Loop games (Stand-Up Loop)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Single game, the <i>loop</i> is the learning unit</span></div>
 </div>
 
 <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">See also → <a href="../context/">Project Context &amp; Goals</a></p>
 
 ??? abstract "System evolution notice"
-    These design rules may be refined as the system grows — see the <a href="../changelog/">changelog</a>.
+    These design rules may be refined as the system grows, see the <a href="../changelog/">changelog</a>.

@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>Coaching Tool</span><span>Evaluation</span><span>System Integrity</span></div>
 
-<p class="emma-hl">Criteria for evaluating athlete performance — and for checking that the <i>games themselves</i> are still doing their job. Each rubric runs from <b>⭐ emerging</b> to <b>⭐⭐⭐⭐ mastery</b>.</p>
+<p class="emma-hl">Criteria for evaluating athlete performance, and for checking that the <i>games themselves</i> are still doing their job. Each rubric runs from <b>⭐ emerging</b> to <b>⭐⭐⭐⭐ mastery</b>.</p>
 
 <p class="emma-glabel">Offensive Rubrics</p>
 
@@ -65,7 +65,7 @@
 <p class="emma-glabel">System Integrity Checks</p>
 
 !!! danger "Read the game, not just the athlete"
-    If you observe these patterns, the **constraints are mis-set** — not the athlete failing.
+    If you observe these patterns, the **constraints are mis-set**, not the athlete failing.
 
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">💪</div><div class="emma-card__t">Brute force domination</div><p>Skill mismatch or intensity too high.<span class="emma-pop">Lower intensity or re-pair athletes so technique, not strength, decides the exchange.</span></p></div>
@@ -88,9 +88,9 @@
 <p class="emma-glabel">Game-Specific Assessments</p>
 
 <div class="emma-cards">
-  <div class="emma-card"><div class="emma-card__i">👆</div><div class="emma-card__t">Touch Game</div><p><b>Range honesty</b> — knows when in range · <b>Composure</b> after being touched · <b>Counter-touch</b> immediacy · <b>Initiative recovery</b> — how fast they reset mentally.</p></div>
-  <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Wall Control</div><p><b>Rotation denial</b> of shoulder turn · <b>Balance maintenance</b> of own structure · <b>DNS respect</b> — protects head position · <b>Early escape</b> — defender acts before consolidation.</p></div>
-  <div class="emma-card"><div class="emma-card__i">🔻</div><div class="emma-card__t">Transitions</div><p><b>Control through transition</b> — connection maintained · <b>Scramble anticipation</b> · <b>Base compromise</b> — takedown created, not forced · <b>Safety compliance</b> — controlled descent.</p></div>
+  <div class="emma-card"><div class="emma-card__i">👆</div><div class="emma-card__t">Touch Game</div><p><b>Range honesty</b>, knows when in range · <b>Composure</b> after being touched · <b>Counter-touch</b> immediacy · <b>Initiative recovery</b>, how fast they reset mentally.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Wall Control</div><p><b>Rotation denial</b> of shoulder turn · <b>Balance maintenance</b> of own structure · <b>DNS respect</b>, protects head position · <b>Early escape</b>, defender acts before consolidation.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔻</div><div class="emma-card__t">Transitions</div><p><b>Control through transition</b>, connection maintained · <b>Scramble anticipation</b> · <b>Base compromise</b>, takedown created, not forced · <b>Safety compliance</b>, controlled descent.</p></div>
 </div>
 
 <p class="emma-glabel">Progress Tracking</p>

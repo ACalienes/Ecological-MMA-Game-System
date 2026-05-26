@@ -34,32 +34,32 @@ tags:
 
 <div class="emma-meta"><span>Integration</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Close Quarters</span></div>
 
-Layer block, parry, and dodge in the pocket — learning *when* to use *which*.
+Layer block, parry, and dodge in the pocket, learning *when* to use *which*.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range inside a marked perimeter; attacker pressing.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker finds openings; defender picks the right defense without exiting.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>No winner — reset each rep. Leave the perimeter → loss.</b></div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>No winner, reset each rep. Leave the perimeter → loss.</b></div>
 </div>
 
 <div class="emma-band">
-  <p class="emma-statement">Don't pick one defense —<br><span class="accent">pick the one the shot calls for.</span></p>
+  <p class="emma-statement">Don't pick one defense, <br><span class="accent">pick the one the shot calls for.</span></p>
   <p class="emma-statement__sub">Stay in the pocket and layer block, parry, and dodge under pressure. <b>The skill is knowing when to use which.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
 
-<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) of each incoming strike in the combination — how fast it grows and along which path — read via shoulder–hip motion at <b>center mass</b>, not the opponent's eyes or their absolute distance. Shoulder motion is the punch line; hip motion is power and kicks — "the little X" holds both at once and tells you which defense to pick.</p>
+<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) of each incoming strike in the combination, how fast it grows and along which path, read via shoulder–hip motion at <b>center mass</b>, not the opponent's eyes or their absolute distance. Shoulder motion is the punch line; hip motion is power and kicks, "the little X" holds both at once and tells you which defense to pick.</p>
 
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — attacker slightly ahead, defender behind.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, attacker slightly ahead, defender behind.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Inside striking range.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — defender can't exit freely.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender — coach rotates.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, defender can't exit freely.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender, coach rotates.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker presses; reset after a defended sequence or a clean strike.</div>
 </div>
 
@@ -70,33 +70,33 @@ Layer block, parry, and dodge in the pocket — learning *when* to use *which*.
     <div class="emma-fighter__icon">🥊</div>
     <div class="emma-fighter__role">Attacker</div>
     <p class="emma-fighter__obj">Trying to compromise the defender's openings and land strikes through the guard.</p>
-    <span class="emma-pop">Throw combinations and allow resets — don't crowd or overwhelm. Start narrow (head only, or straights only) and scale variety, speed, and combo length only as the defender succeeds.</span>
+    <span class="emma-pop">Throw combinations and allow resets, don't crowd or overwhelm. Start narrow (head only, or straights only) and scale variety, speed, and combo length only as the defender succeeds.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🛡️</div>
     <div class="emma-fighter__role">Defender</div>
-    <p class="emma-fighter__obj">Trying to defend every strike without exiting — mixing tight blocking, parrying, and static dodging.</p>
-    <span class="emma-pop">Can't exit the pocket. The toolkit opens up level by level — block first, then parry, then dodge, then counter. Pick the defense the strike calls for.</span>
+    <p class="emma-fighter__obj">Trying to defend every strike without exiting, mixing tight blocking, parrying, and static dodging.</p>
+    <span class="emma-pop">Can't exit the pocket. The toolkit opens up level by level, block first, then parry, then dodge, then counter. Pick the defense the strike calls for.</span>
   </div>
 </div>
 
 <p class="emma-glabel">The Rules</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Defender cannot exit<span class="emma-chip__detail">The defender must stay and defend in the pocket — no backing up continuously. This prevents the footwork-escape habit and forces real defensive skill.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Combinations with reset<span class="emma-chip__detail">The attacker throws combinations but must allow a reset between them — no continuous overwhelming pressure, so the defender has processing time to learn.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Reasonable distance<span class="emma-chip__detail">The attacker must strike from reasonable range and can't crowd the defender — keeping the defensive problem readable.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧰</span> Tools open progressively<span class="emma-chip__detail">The defender's available solutions unlock by level — block, then parry, then dodge, then counter — so each is layered in rather than dumped at once.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If both feet leave it, you lose instantly — training cage-edge awareness.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Defender cannot exit<span class="emma-chip__detail">The defender must stay and defend in the pocket, no backing up continuously. This prevents the footwork-escape habit and forces real defensive skill.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Combinations with reset<span class="emma-chip__detail">The attacker throws combinations but must allow a reset between them, no continuous overwhelming pressure, so the defender has processing time to learn.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Reasonable distance<span class="emma-chip__detail">The attacker must strike from reasonable range and can't crowd the defender, keeping the defensive problem readable.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧰</span> Tools open progressively<span class="emma-chip__detail">The defender's available solutions unlock by level, block, then parry, then dodge, then counter, so each is layered in rather than dumped at once.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape (square, circle, taped lines). If both feet leave it, you lose instantly, training cage-edge awareness.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Scored, not won — % defended + selection quality.<span class="emma-pop">No winner — the point is learning when to use which solution, not beating the partner. The coach reads selection quality, not a tally of points.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Diagnostic</span> Scored, not won, % defended + selection quality.<span class="emma-pop">No winner, the point is learning when to use which solution, not beating the partner. The coach reads selection quality, not a tally of points.</span></div>
   <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Sequence defended or strike lands → reset, same roles.<span class="emma-pop">Either outcome ends the rep; begin again from the close-range start so the next combination can be read fresh.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">In the confined-perimeter variant, crossing the line ends it instantly, regardless of the exchange — training the boundary awareness a fighter needs near the cage.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">In the confined-perimeter variant, crossing the line ends it instantly, regardless of the exchange, training the boundary awareness a fighter needs near the cage.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
@@ -106,8 +106,8 @@ Layer block, parry, and dodge in the pocket — learning *when* to use *which*.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add parrying</b>Block or parry; add body shots.<span class="emma-pop emma-pop--l">The defender can now block or parry; the attacker adds body strikes. Choose the appropriate defense for each strike.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add dodging</b>Block, parry, or dodge; add hooks.<span class="emma-pop emma-pop--l">Static head movement joins the toolkit; the attacker adds hooks and varied combinations. Full defensive integration.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Add counter opportunity</b>One counter after defense.<span class="emma-pop emma-pop--l">After a successful defense the defender may throw one counter; the attacker must respect the threat. Defense as a setup for offense.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Turn the corner</b>Reposition for angle.<span class="emma-pop emma-pop--l">The defender can work to turn the corner on the attacker, creating an angle for counter-attack or escape — defensive footwork integration.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too — defend strikes while denying the grappling entry. Shelling up without posture invites takedowns.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Turn the corner</b>Reposition for angle.<span class="emma-pop emma-pop--l">The defender can work to turn the corner on the attacker, creating an angle for counter-attack or escape, defensive footwork integration.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, defend strikes while denying the grappling entry. Shelling up without posture invites takedowns.</span></div>
 </div>
 
 <p class="emma-glabel">Go Deeper</p>
@@ -124,8 +124,8 @@ Layer block, parry, and dodge in the pocket — learning *when* to use *which*.
     <p class="emma-sub">Coaching cues</p>
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">See center mass</div><p>Keep eye contact on center mass, not the head — the head carries no information and the eyes lie. Center mass holds shoulder (punch line) and hip (power, kicks) at once: "the little X."</p></div>
-      <div class="emma-card"><div class="emma-card__i">⚓</div><div class="emma-card__t">Base under fire</div><p>Strike force off-balances you — that's what defeats the counter, not the damage. Bend the knees, create suspension "like an ATV over bumps," and keep energy to drive forward.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">See center mass</div><p>Keep eye contact on center mass, not the head, the head carries no information and the eyes lie. Center mass holds shoulder (punch line) and hip (power, kicks) at once: "the little X."</p></div>
+      <div class="emma-card"><div class="emma-card__i">⚓</div><div class="emma-card__t">Base under fire</div><p>Strike force off-balances you, that's what defeats the counter, not the damage. Bend the knees, create suspension "like an ATV over bumps, " and keep energy to drive forward.</p></div>
     </div>
 
     <p class="emma-sub">Trade-offs to feel</p>
@@ -148,7 +148,7 @@ Layer block, parry, and dodge in the pocket — learning *when* to use *which*.
       <div class="emma-flow__row"><span class="emma-flow__from">All solutions viable at range</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Defensive selection actually matters</span></div>
     </div>
 
-    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — progressively unlocking solutions lets the defender discover which tool fits which attack. <i>Degeneracy</i> develops: multiple solutions for similar problems.</p>
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019), progressively unlocking solutions lets the defender discover which tool fits which attack. <i>Degeneracy</i> develops: multiple solutions for similar problems.</p>
 
     <p class="emma-sub">What the defender reads</p>
 
@@ -160,7 +160,7 @@ Layer block, parry, and dodge in the pocket — learning *when* to use *which*.
 
     <p class="emma-sub">What we measure (order parameter)</p>
 
-    <p class="emma-hl">Whether the defender's <b>chosen defense lands in time with each strike</b> — track strikes defended vs. shots eaten, whether the <i>right</i> solution was selected, and whether the guard re-sets between combinations. That timing-and-selection relationship is the order parameter; when it stabilizes, the skill has formed.</p>
+    <p class="emma-hl">Whether the defender's <b>chosen defense lands in time with each strike</b>, track strikes defended vs. shots eaten, whether the <i>right</i> solution was selected, and whether the guard re-sets between combinations. That timing-and-selection relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 
@@ -168,7 +168,7 @@ Layer block, parry, and dodge in the pocket — learning *when* to use *which*.
 
     <div class="emma-meta"><span>Simplified: progressive unlock</span><span>resets between combos</span><span>stay in range</span></div>
 
-    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Integrates the isolated solutions — the confined-perimeter variant extends into clinch off-balancing and takedowns, see <a href="../the-square/">The Square</a>.</p>
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Integrates the isolated solutions, the confined-perimeter variant extends into clinch off-balancing and takedowns, see <a href="../the-square/">The Square</a>.</p>
 
     <p class="emma-sub">Readiness to progress</p>
 
@@ -190,7 +190,7 @@ Layer block, parry, and dodge in the pocket — learning *when* to use *which*.
 ??? note "Safety &amp; related games"
 
     <div class="emma-chips">
-      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact — felt, not damaging</span>
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact, felt, not damaging</span>
       <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on overwhelming pressure or lost composure</span>
       <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the attacker isn't allowing defensive opportunities</span>
     </div>

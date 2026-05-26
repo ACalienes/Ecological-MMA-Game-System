@@ -5,10 +5,10 @@
 
 <div class="emma-meta"><span>Core Concept</span><span>Perceptual Foundation</span><span>Offense + Defense</span><span>The Information War</span></div>
 
-**The longer you engage, the more you read — and the more you read, the more you can commit. Confidence is information, not emotion.**
+**The longer you engage, the more you read, and the more you read, the more you can commit. Confidence is information, not emotion.**
 
 <div class="emma-band">
-  <p class="emma-statement">Confidence isn't a feeling —<br><span class="accent">it's sufficient information to commit.</span></p>
+  <p class="emma-statement">Confidence isn't a feeling, <br><span class="accent">it's sufficient information to commit.</span></p>
   <p class="emma-statement__sub">It links exposure, pattern recognition, and commitment quality. <b>Enough data for a high-probability prediction, then commit.</b></p>
 </div>
 
@@ -18,7 +18,7 @@
   <div class="emma-flow__row"><span class="emma-flow__from">Confidence</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Commitment</span></div>
 </div>
 
-<p class="emma-hl"><b>Critical insight:</b> confidence applies to BOTH sides at once. The fight is an information war — whoever builds <i>accurate</i> confidence faster gains the advantage.</p>
+<p class="emma-hl"><b>Critical insight:</b> confidence applies to BOTH sides at once. The fight is an information war, whoever builds <i>accurate</i> confidence faster gains the advantage.</p>
 
 <div class="emma-cards">
   <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Offense builds confidence in…</div><p>Which attack will work against <i>this</i> opponent's defense.</p></div>
@@ -28,12 +28,12 @@
 <p class="emma-glabel">The Confidence Cycle</p>
 
 <div class="emma-stepper">
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Low — Survival</b>Minimal data. Absorb &amp; gather.<span class="emma-pop emma-pop--l">You don't know their attacks, timing, or tells. Appropriate response: survive, absorb, gather information. Do NOT commit to high-risk defenses (slip, parry) or counters — the chance of reading wrong is too high.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Building — Recognition</b>Patterns emerge.<span class="emma-pop emma-pop--l">"They jab before the cross." "They change levels before shooting." "They have a tell before the hook." Each exchange adds data points to your mental model of the opponent.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>High — Commitment</b>Anticipate, don't react.<span class="emma-pop emma-pop--l">Reliable patterns identified. You can anticipate rather than react, commit to specific defenses, and time counters with precision. The probability is now high enough to justify the risk — commit.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Low, Survival</b>Minimal data. Absorb &amp; gather.<span class="emma-pop emma-pop--l">You don't know their attacks, timing, or tells. Appropriate response: survive, absorb, gather information. Do NOT commit to high-risk defenses (slip, parry) or counters, the chance of reading wrong is too high.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Building, Recognition</b>Patterns emerge.<span class="emma-pop emma-pop--l">"They jab before the cross." "They change levels before shooting." "They have a tell before the hook." Each exchange adds data points to your mental model of the opponent.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>High, Commitment</b>Anticipate, don't react.<span class="emma-pop emma-pop--l">Reliable patterns identified. You can anticipate rather than react, commit to specific defenses, and time counters with precision. The probability is now high enough to justify the risk, commit.</span></div>
 </div>
 
-<p class="emma-glabel">Offensive Confidence — Pick the Right Attack</p>
+<p class="emma-glabel">Offensive Confidence, Pick the Right Attack</p>
 
 When on offense, you read the opponent's **defensive** patterns:
 
@@ -45,7 +45,7 @@ When on offense, you read the opponent's **defensive** patterns:
   <div class="emma-flow__row"><span class="emma-flow__from">Recovery time</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">When to chain attacks</span></div>
 </div>
 
-??? note "Building offensive confidence — probe → recognize → commit"
+??? note "Building offensive confidence, probe → recognize → commit"
 
     <p class="emma-sub">Probe (low confidence)</p>
 
@@ -82,9 +82,9 @@ When on offense, you read the opponent's **defensive** patterns:
 
     <p class="emma-hl">You don't throw the same combinations against every opponent. You BUILD confidence in which attacks work against THIS opponent's defense.</p>
 
-<p class="emma-glabel">Defensive Confidence — Set the Trap</p>
+<p class="emma-glabel">Defensive Confidence, Set the Trap</p>
 
-<p class="emma-hl">Defensive confidence is NOT just surviving — it's <b>setting traps</b> based on the opponent's offensive patterns.</p>
+<p class="emma-hl">Defensive confidence is NOT just surviving, it's <b>setting traps</b> based on the opponent's offensive patterns.</p>
 
 When defending, you read the opponent's **offensive** patterns:
 
@@ -101,12 +101,12 @@ When defending, you read the opponent's **offensive** patterns:
     <p class="emma-sub">Survival → Recognition → Trap</p>
 
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from">Low — survival</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Block, absorb, don't counter, learn their game</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Low, survival</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Block, absorb, don't counter, learn their game</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Building</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">"Always jab-cross-hook" · "loads up before the power shot" · "shoots after the right hand" · "overcommits when they smell blood"</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">High — trap</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">You KNOW what's coming: prepare the counter, bait it, exploit the commitment</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">High, trap</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">You KNOW what's coming: prepare the counter, bait it, exploit the commitment</span></div>
     </div>
 
-    <p class="emma-sub">A trap needs HIGH confidence — you commit before the attack arrives</p>
+    <p class="emma-sub">A trap needs HIGH confidence, you commit before the attack arrives</p>
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Low confidence</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">See attack → react → defend</span></div>
@@ -132,34 +132,34 @@ When defending, you read the opponent's **offensive** patterns:
 
 <p class="emma-glabel">The Two-Way Game</p>
 
-Both players build confidence at once — the interaction creates a dynamic:
+Both players build confidence at once, the interaction creates a dynamic:
 
 <div class="emma-flow">
   <div class="emma-flow__row"><span class="emma-flow__from">Low ATK · Low DEF</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Tentative exchange, both probing</span></div>
   <div class="emma-flow__row"><span class="emma-flow__from">High ATK · Low DEF</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Attacker lands, defender survives</span></div>
   <div class="emma-flow__row"><span class="emma-flow__from">Low ATK · High DEF</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Defender sets traps, attacker cautious</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">High ATK · High DEF</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Technical exchange — best read wins</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">High ATK · High DEF</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Technical exchange, best read wins</span></div>
 </div>
 
 <p class="emma-hl"><b>The meta-game:</b> while building YOUR confidence, you also <b>deny</b> the opponent information (vary your patterns), <b>feed</b> them FALSE information (set up traps), and <b>disrupt</b> their confidence (break their rhythm).</p>
 
-<p class="emma-glabel">Commitment Risk — Confidence Justifies Risk</p>
+<p class="emma-glabel">Commitment Risk, Confidence Justifies Risk</p>
 
 Every commitment carries risk. Higher-commitment actions demand higher confidence.
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛡️</span> Tight block — low<span class="emma-chip__detail">Defensive commitment: low. Risk if wrong — absorb impact, but safe.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↗️</span> Parry — medium<span class="emma-chip__detail">Defensive commitment: medium. Risk if wrong — miss the deflection, get hit.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">💨</span> Slip — high<span class="emma-chip__detail">Defensive commitment: high. Risk if wrong — move into the punch, get hit harder.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔁</span> Counter — very high<span class="emma-chip__detail">Defensive commitment: very high. Risk if wrong — get caught while attacking.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛡️</span> Tight block, low<span class="emma-chip__detail">Defensive commitment: low. Risk if wrong, absorb impact, but safe.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↗️</span> Parry, medium<span class="emma-chip__detail">Defensive commitment: medium. Risk if wrong, miss the deflection, get hit.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">💨</span> Slip, high<span class="emma-chip__detail">Defensive commitment: high. Risk if wrong, move into the punch, get hit harder.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔁</span> Counter, very high<span class="emma-chip__detail">Defensive commitment: very high. Risk if wrong, get caught while attacking.</span></span>
 </div>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">👆</span> Jab / probe — low<span class="emma-chip__detail">Offensive commitment: low. Risk if wrong — miss, but recover easily.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Combination — medium<span class="emma-chip__detail">Offensive commitment: medium. Risk if wrong — miss, potentially off-balance.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">💥</span> Power shot — high<span class="emma-chip__detail">Offensive commitment: high. Risk if wrong — miss, exposed to counter.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤼</span> Takedown entry — very high<span class="emma-chip__detail">Offensive commitment: very high. Risk if wrong — stuffed, potentially guillotined.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🦅</span> Flying / jumping attack — extreme<span class="emma-chip__detail">Offensive commitment: extreme. Risk if wrong — miss, completely out of position.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">👆</span> Jab / probe, low<span class="emma-chip__detail">Offensive commitment: low. Risk if wrong, miss, but recover easily.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Combination, medium<span class="emma-chip__detail">Offensive commitment: medium. Risk if wrong, miss, potentially off-balance.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">💥</span> Power shot, high<span class="emma-chip__detail">Offensive commitment: high. Risk if wrong, miss, exposed to counter.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤼</span> Takedown entry, very high<span class="emma-chip__detail">Offensive commitment: very high. Risk if wrong, stuffed, potentially guillotined.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🦅</span> Flying / jumping attack, extreme<span class="emma-chip__detail">Offensive commitment: extreme. Risk if wrong, miss, completely out of position.</span></span>
 </div>
 
 ??? abstract "The confidence–commitment equation"
@@ -167,30 +167,30 @@ Every commitment carries risk. Higher-commitment actions demand higher confidenc
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Low conf · High commit</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Getting caught / stuffed</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">High conf · High commit</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Successful execution</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">Low conf · Low commit</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Appropriate — gathering information</span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">High conf · Low commit</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Missed opportunity — commit more</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Low conf · Low commit</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Appropriate, gathering information</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">High conf · Low commit</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Missed opportunity, commit more</span></div>
     </div>
 
-    <p class="emma-hl">This is why <b>blocking</b> exists though it's "passive" (appropriate when defensive confidence is low), why <b>probing jabs</b> exist (low offensive confidence), and why fighters <b>feel each other out</b> early — both building confidence before committing.</p>
+    <p class="emma-hl">This is why <b>blocking</b> exists though it's "passive" (appropriate when defensive confidence is low), why <b>probing jabs</b> exist (low offensive confidence), and why fighters <b>feel each other out</b> early, both building confidence before committing.</p>
 
 <p class="emma-glabel">How Constraints Manipulate Confidence</p>
 
 The game system uses constraints to set confidence levels for learning:
 
 <div class="emma-cards">
-  <div class="emma-card"><div class="emma-card__i">🔒</div><div class="emma-card__t">High constraint — given</div><p><b>Parry the Straight:</b> attacker can ONLY throw straights, so "what's coming" is ~100%. The defender focuses purely on timing and mechanics — no pattern-recognition load.</p></div>
-  <div class="emma-card"><div class="emma-card__i">🔓</div><div class="emma-card__t">Low constraint — earned</div><p><b>Close-Range Defense:</b> straights, hooks, body shots all live. The defender must READ what's coming, running the full cycle: exposure → recognition → confidence → commitment.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔒</div><div class="emma-card__t">High constraint, given</div><p><b>Parry the Straight:</b> attacker can ONLY throw straights, so "what's coming" is ~100%. The defender focuses purely on timing and mechanics, no pattern-recognition load.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔓</div><div class="emma-card__t">Low constraint, earned</div><p><b>Close-Range Defense:</b> straights, hooks, body shots all live. The defender must READ what's coming, running the full cycle: exposure → recognition → confidence → commitment.</p></div>
 </div>
 
 <div class="emma-flow">
-  <div class="emma-flow__row"><span class="emma-flow__from">High constraint</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Mechanics focus — confidence GIVEN</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Low constraint</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Recognition focus — confidence EARNED</span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Open play</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full integration — confidence VARIABLE</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">High constraint</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Mechanics focus, confidence GIVEN</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Low constraint</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Recognition focus, confidence EARNED</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Open play</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full integration, confidence VARIABLE</span></div>
 </div>
 
 <p class="emma-glabel">Reading Signals Across Domains</p>
 
-The confidence principle applies everywhere, not just striking — each signal predicts something.
+The confidence principle applies everywhere, not just striking, each signal predicts something.
 
 ??? note "Striking signals"
 
@@ -227,7 +227,7 @@ The confidence principle applies everywhere, not just striking — each signal p
       <div class="emma-flow__row"><span class="emma-flow__from">Breathing / tension</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Explosive movement coming</span></div>
     </div>
 
-<p class="emma-glabel">Feints — Weaponising the System</p>
+<p class="emma-glabel">Feints, Weaponising the System</p>
 
 Feints work by **exploiting the confidence system** against the defender:
 
@@ -239,7 +239,7 @@ Feints work by **exploiting the confidence system** against the defender:
   <div class="emma-step"><span class="emma-step__n">5</span><b>Caught</b>Defender gets hit.</div>
 </div>
 
-<p class="emma-hl"><b>Counter-strategy:</b> don't commit until the signal is confirmed. Real attacks differ from feints by <b>commitment level</b> (weight transfer), <b>follow-through</b>, and <b>recovery position</b>. This is why higher-level games add feints — they teach defenders to verify confidence before committing.</p>
+<p class="emma-hl"><b>Counter-strategy:</b> don't commit until the signal is confirmed. Real attacks differ from feints by <b>commitment level</b> (weight transfer), <b>follow-through</b>, and <b>recovery position</b>. This is why higher-level games add feints, they teach defenders to verify confidence before committing.</p>
 
 <p class="emma-glabel">Confidence vs. Time Pressure</p>
 
@@ -260,7 +260,7 @@ Confidence building needs time. Aggressive pressure is an attempt to **deny you 
   <li>Exploit that pattern when confidence is sufficient</li>
 </ul>
 
-<p class="emma-hl">You don't need to read everything — you need to read <b>ONE thing</b> with high confidence.</p>
+<p class="emma-hl">You don't need to read everything, you need to read <b>ONE thing</b> with high confidence.</p>
 
 <p class="emma-glabel">Training Implications</p>
 
@@ -278,19 +278,19 @@ Confidence building needs time. Aggressive pressure is an attempt to **deny you 
 ??? note "Offensive development"
 
     <ul class="emma-checklist">
-      <li><b>Probe before committing</b> — single strikes to test reactions</li>
-      <li><b>Read defensive patterns</b> — what do they do vs. the jab? the level change?</li>
-      <li><b>Select strategy from reads</b> — not the same combos against everyone</li>
-      <li><b>Build to commitment</b> — low-risk probes → medium combos → high-commitment attacks</li>
+      <li><b>Probe before committing</b>, single strikes to test reactions</li>
+      <li><b>Read defensive patterns</b>, what do they do vs. the jab? the level change?</li>
+      <li><b>Select strategy from reads</b>, not the same combos against everyone</li>
+      <li><b>Build to commitment</b>, low-risk probes → medium combos → high-commitment attacks</li>
     </ul>
 
 ??? note "Trap setting (counter-offense)"
 
     <ul class="emma-checklist">
-      <li><b>Survival buys time</b> — blocking gathers information</li>
-      <li><b>Patterns reveal traps</b> — their offense tells you what trap to set</li>
-      <li><b>Baiting is active</b> — give them the look they want to attack</li>
-      <li><b>Commit to the trap</b> — when confidence is high, trust your read</li>
+      <li><b>Survival buys time</b>, blocking gathers information</li>
+      <li><b>Patterns reveal traps</b>, their offense tells you what trap to set</li>
+      <li><b>Baiting is active</b>, give them the look they want to attack</li>
+      <li><b>Commit to the trap</b>, when confidence is high, trust your read</li>
     </ul>
 
 ??? note "Scaling games"
@@ -300,34 +300,34 @@ Confidence building needs time. Aggressive pressure is an attempt to **deny you 
     <ul class="emma-checklist">
       <li>Confidence must be earned, not given</li>
       <li>More variables = more exposure needed</li>
-      <li>Pattern recognition is trainable — both offensive and defensive reads</li>
+      <li>Pattern recognition is trainable, both offensive and defensive reads</li>
       <li>Reading speed improves with exposure</li>
     </ul>
 
-??? warning "Coaching — what to watch for"
+??? warning "Coaching, what to watch for"
 
     <p class="emma-sub">Defensive struggles</p>
 
     <div class="emma-warns">
-      <span class="emma-warn">Committing too early — not waiting for confidence</span>
-      <span class="emma-warn">Never committing — not recognising when confidence IS sufficient</span>
-      <span class="emma-warn">Caught by feints — committing to false signals</span>
+      <span class="emma-warn">Committing too early, not waiting for confidence</span>
+      <span class="emma-warn">Never committing, not recognising when confidence IS sufficient</span>
+      <span class="emma-warn">Caught by feints, committing to false signals</span>
     </div>
 
     <p class="emma-sub">Offensive struggles</p>
 
     <div class="emma-warns">
-      <span class="emma-warn">Same attacks every time — not reading patterns</span>
-      <span class="emma-warn">Never committing — stuck in probe mode</span>
-      <span class="emma-warn">Overcommitting early — not building confidence first</span>
+      <span class="emma-warn">Same attacks every time, not reading patterns</span>
+      <span class="emma-warn">Never committing, stuck in probe mode</span>
+      <span class="emma-warn">Overcommitting early, not building confidence first</span>
     </div>
 
     <p class="emma-sub">Counter-offense struggles</p>
 
     <div class="emma-warns">
-      <span class="emma-warn">Only surviving, never trapping — missing patterns to exploit</span>
-      <span class="emma-warn">Springing traps too early — low confidence = trap fails</span>
-      <span class="emma-warn">Telegraphing the trap — opponent reads your setup</span>
+      <span class="emma-warn">Only surviving, never trapping, missing patterns to exploit</span>
+      <span class="emma-warn">Springing traps too early, low confidence = trap fails</span>
+      <span class="emma-warn">Telegraphing the trap, opponent reads your setup</span>
     </div>
 
     <p class="emma-hl">Adjust constraint level to match pattern-recognition development on BOTH sides.</p>
@@ -352,4 +352,4 @@ Confidence building needs time. Aggressive pressure is an attempt to **deny you 
 
     <p class="emma-sub">This concept may be refined as pattern recognition training methods develop.</p>
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Related · <a href="../defensive-solutions/">Defensive Solutions</a> — each solution needs a different confidence level · <a href="../hand-controls/">Hand Controls</a> — gather tactile info to build confidence · Games · <a href="../../games/parry-the-straight/">Parry the Straight</a> (given) · <a href="../../games/close-range-defense/">Close-Range Defense</a> (earned) · <a href="../../games/counter-striking/">Counter Striking</a></p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Related · <a href="../defensive-solutions/">Defensive Solutions</a>, each solution needs a different confidence level · <a href="../hand-controls/">Hand Controls</a>, gather tactile info to build confidence · Games · <a href="../../games/parry-the-straight/">Parry the Straight</a> (given) · <a href="../../games/close-range-defense/">Close-Range Defense</a> (earned) · <a href="../../games/counter-striking/">Counter Striking</a></p>

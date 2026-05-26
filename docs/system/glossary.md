@@ -2,15 +2,15 @@
 
 <div class="emma-meta"><span>Shared Vocabulary</span><span>Terms Used System-Wide</span><span>Definitions &amp; Cross-Links</span></div>
 
-<p class="emma-hl">The shared language of the Ecological MMA Games System. Every game, concept, and coaching cue draws on these terms — hover any card with a marker for the deeper note.</p>
+<p class="emma-hl">The shared language of the Ecological MMA Games System. Every game, concept, and coaching cue draws on these terms, hover any card with a marker for the deeper note.</p>
 
 <p class="emma-glabel">Control States</p>
 
 <div class="emma-cards">
   <div class="emma-card"><div class="emma-card__i">📌</div><div class="emma-card__t">Pin</div><p>A control position where the defender's movement is significantly limited by the attacker's body position and pressure. Distinct from TKO Pin.</p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧱</div><div class="emma-card__t">Wall Pin</div><p>An opponent held to the wall/cage by <b>at least two points of pinning control</b> — hips <i>and</i> upper body rendered immobile and flat.<span class="emma-pop">Distinct from merely pressing them into the wall: if the shoulders can still rotate, it's pressure, not a pin. Two-plus pinning points flatten and immobilize both the hips and the upper body.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧱</div><div class="emma-card__t">Wall Pin</div><p>An opponent held to the wall/cage by <b>at least two points of pinning control</b>, hips <i>and</i> upper body rendered immobile and flat.<span class="emma-pop">Distinct from merely pressing them into the wall: if the shoulders can still rotate, it's pressure, not a pin. Two-plus pinning points flatten and immobilize both the hips and the upper body.</span></p></div>
   <div class="emma-card"><div class="emma-card__i">⬆️</div><div class="emma-card__t">Top Control</div><p>Ground position where the attacker is above the defender, managing hips and shoulders.</p></div>
-  <a class="emma-card emma-has-pop" href="../../concepts/tko-pin/" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">TKO Pin</div><p>A control <i>state</i> — not just a position — that compromises posture and mobility.<span class="emma-pop">Hips and shoulders meaningfully controlled · posture &amp; mobility compromised · at least one limb free to strike · defender options are high-cost.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/tko-pin/" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">TKO Pin</div><p>A control <i>state</i>, not just a position, that compromises posture and mobility.<span class="emma-pop">Hips and shoulders meaningfully controlled · posture &amp; mobility compromised · at least one limb free to strike · defender options are high-cost.</span></p></a>
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌀</div><div class="emma-card__t">Scramble</div><p>A transition state where control is contested and neither athlete has position.<span class="emma-pop">Outcome depends on hip mobility, base recovery, and positional awareness.</span></p></div>
   <div class="emma-card"><div class="emma-card__i">🚪</div><div class="emma-card__t">Disengagement</div><p>Breaking contact and returning to a neutral position with defensive posture established.</p></div>
 </div>
@@ -18,8 +18,8 @@
 <p class="emma-glabel">Clinch Positions</p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤼</div><div class="emma-card__t">Clinch</div><p>A close-range position where fighters control each other with grips — too close to strike freely. <b>Always name the type</b> (50/50, body-lock, collar-tie…).<span class="emma-pop">"Clinch" is a category, not one position — the grip configuration decides who's dominant. So a clinch is never referenced generically; always specify which.</span></p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚖️</div><div class="emma-card__t">50/50 Clinch</div><p>Each fighter has <b>one overhook and one underhook</b> (mirror grips, one per side), starting <b>chest to chest</b>. Symmetric and neutral — neither dominant.<span class="emma-pop">Also called the over-under clinch. It's up for grabs: whoever first wins inside control or the angle gains the advantage.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤼</div><div class="emma-card__t">Clinch</div><p>A close-range position where fighters control each other with grips, too close to strike freely. <b>Always name the type</b> (50/50, body-lock, collar-tie…).<span class="emma-pop">"Clinch" is a category, not one position, the grip configuration decides who's dominant. So a clinch is never referenced generically; always specify which.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚖️</div><div class="emma-card__t">50/50 Clinch</div><p>Each fighter has <b>one overhook and one underhook</b> (mirror grips, one per side), starting <b>chest to chest</b>. Symmetric and neutral, neither dominant.<span class="emma-pop">Also called the over-under clinch. It's up for grabs: whoever first wins inside control or the angle gains the advantage.</span></p></div>
 </div>
 
 <p class="emma-glabel">Decision States</p>
@@ -34,15 +34,15 @@
 <p class="emma-glabel">Submission Categories</p>
 
 <div class="emma-cards">
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔗</div><div class="emma-card__t">Defensive Neck Submissions (DNS)</div><p>Neck attacks used <b>defensively</b> to punish errors — allowed as a defensive tool, not a primary objective.<span class="emma-pop">Punishes poor posture, over-committed control attempts, and head-position errors.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔗</div><div class="emma-card__t">Defensive Neck Submissions (DNS)</div><p>Neck attacks used <b>defensively</b> to punish errors, allowed as a defensive tool, not a primary objective.<span class="emma-pop">Punishes poor posture, over-committed control attempts, and head-position errors.</span></p></div>
 </div>
 
 <p class="emma-glabel">Design Concepts</p>
 
 <div class="emma-cards">
-  <a class="emma-card emma-has-pop" href="../../concepts/full-mma-expression/" tabindex="0"><div class="emma-card__i">🌐</div><div class="emma-card__t">Full MMA Expression</div><p>The highest level of any game — cross-domain threats added while keeping the core focus.<span class="emma-pop">Striking games add grappling threats (shoot, clinch); wrestling games add striking threats. Tests skills under realistic pressure without overwhelming beginners.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/full-mma-expression/" tabindex="0"><div class="emma-card__i">🌐</div><div class="emma-card__t">Full MMA Expression</div><p>The highest level of any game, cross-domain threats added while keeping the core focus.<span class="emma-pop">Striking games add grappling threats (shoot, clinch); wrestling games add striking threats. Tests skills under realistic pressure without overwhelming beginners.</span></p></a>
   <div class="emma-card"><div class="emma-card__i">🌱</div><div class="emma-card__t">Representative Design</div><p>Training that mimics the decision-making context of competition. The environment creates the learning, not verbal instruction.</p></div>
-  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📏</div><div class="emma-card__t">Invariants</div><p>Fixed rules within a game that cannot be violated — they define the problem space.<span class="emma-pop">Example: "No clinching in open space" (Touch Game Level 1).</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📏</div><div class="emma-card__t">Invariants</div><p>Fixed rules within a game that cannot be violated, they define the problem space.<span class="emma-pop">Example: "No clinching in open space" (Touch Game Level 1).</span></p></div>
   <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Task Focus</div><p>The specific perceptual and motor challenges an athlete must solve within a game.</p></div>
   <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Constraints</div><p>Environmental, task, or rule limitations that shape behavior. In ecological training, constraints replace instructions.</p></div>
 </div>
@@ -61,14 +61,14 @@
 <div class="emma-cards">
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎮</div><div class="emma-card__t">Game</div><p>A distinct learning problem.<span class="emma-pop">Stable environment · clear goal · defined invariants · clear win conditions.</span></p></div>
   <a class="emma-card emma-has-pop" href="../../about/levels-vs-games/" tabindex="0"><div class="emma-card__i">🪜</div><div class="emma-card__t">Level</div><p>A progression <i>inside</i> the same game.<span class="emma-pop">Same environment · same core problem · stricter or more complete success criteria.</span></p></a>
-  <div class="emma-card"><div class="emma-card__i">🚦</div><div class="emma-card__t">Entry Condition</div><p>The starting setup for a game — positions, distances, and reset rules.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🚦</div><div class="emma-card__t">Entry Condition</div><p>The starting setup for a game, positions, distances, and reset rules.</p></div>
   <div class="emma-card"><div class="emma-card__i">🏁</div><div class="emma-card__t">Win Condition</div><p>How success is determined for each role in a game.</p></div>
 </div>
 
 <p class="emma-glabel">Safety Terms</p>
 
 <div class="emma-cards">
-  <div class="emma-card"><div class="emma-card__i">💡</div><div class="emma-card__t">Informational Strikes</div><p>Light contact used to measure distance, create reactions, or test control — not to cause damage.</p></div>
+  <div class="emma-card"><div class="emma-card__i">💡</div><div class="emma-card__t">Informational Strikes</div><p>Light contact used to measure distance, create reactions, or test control, not to cause damage.</p></div>
   <div class="emma-card"><div class="emma-card__i">🪂</div><div class="emma-card__t">Controlled Descent</div><p>Bringing an opponent down while maintaining connection and balance. Opposite of "dumping."</p></div>
   <div class="emma-card"><div class="emma-card__i">⚠️</div><div class="emma-card__t">Dumping</div><p>Forcing an opponent down with bodyweight or momentum without proper control. Unsafe and penalized.</p></div>
 </div>
@@ -103,7 +103,7 @@
   <div class="emma-card"><div class="emma-card__i">🤚</div><div class="emma-card__t">Parry</div><p>Redirecting a strike with a small hand movement.</p></div>
   <div class="emma-card"><div class="emma-card__i">↪️</div><div class="emma-card__t">Slip</div><p>Moving the head offline to avoid a straight punch.</p></div>
   <div class="emma-card"><div class="emma-card__i">🔄</div><div class="emma-card__t">Roll</div><p>Rotating shoulders / head to deflect hooks.</p></div>
-  <div class="emma-card"><div class="emma-card__i">⬇️</div><div class="emma-card__t">Sprawl</div><p>Hip defense against takedowns — driving hips back and down.</p></div>
+  <div class="emma-card"><div class="emma-card__i">⬇️</div><div class="emma-card__t">Sprawl</div><p>Hip defense against takedowns, driving hips back and down.</p></div>
   <div class="emma-card"><div class="emma-card__i">💪</div><div class="emma-card__t">Underhook</div><p>Arm positioned under opponent's armpit. Key clinch control.</p></div>
   <div class="emma-card"><div class="emma-card__i">🪢</div><div class="emma-card__t">Overhook (Whizzer)</div><p>Arm positioned over opponent's arm. Counter to the underhook.</p></div>
   <div class="emma-card"><div class="emma-card__i">🦴</div><div class="emma-card__t">Frame</div><p>Using skeletal structure (forearms, elbows) to create space. Not strength-dependent.</p></div>

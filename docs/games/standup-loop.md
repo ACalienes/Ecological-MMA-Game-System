@@ -32,7 +32,7 @@ tags:
 
 <div class="emma-meta"><span>Wall / Ground</span><span>Wrestling</span><span>Combined</span><span>Advanced</span><span>Counter ↔ Stabilize</span></div>
 
-Wall positions cycle rather than resolve — the defender stands and disengages while the attacker re-pins or flattens, and the skill is staying in the part of the loop that favors you.
+Wall positions cycle rather than resolve, the defender stands and disengages while the attacker re-pins or flattens, and the skill is staying in the part of the loop that favors you.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender compromised on the ground near the wall; attacker has partial control.</b></div>
@@ -43,25 +43,25 @@ Wall positions cycle rather than resolve — the defender stands and disengages 
 </div>
 
 <div class="emma-band">
-  <p class="emma-statement">The position doesn't end —<br><span class="accent">it loops.</span></p>
+  <p class="emma-statement">The position doesn't end, <br><span class="accent">it loops.</span></p>
   <p class="emma-statement__sub">Each stand-up forces control to be re-earned. <b>Win by living where the cycle favors you.</b></p>
 </div>
 
 <p class="emma-glabel">Key Positions</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control, the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
 </div>
 
 <p class="emma-glabel">What to Read</p>
 
-<p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through the attacker's grips and the looseness in their control</i> — the moments the load eases as they adjust their grip or shift weight. That changing resistance specifies <i>when</i> to initiate the stand-up and <i>which way</i> to turn — not the attacker's eyes or a fixed count.</p>
+<p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through the attacker's grips and the looseness in their control</i>, the moments the load eases as they adjust their grip or shift weight. That changing resistance specifies <i>when</i> to initiate the stand-up and <i>which way</i> to turn, not the attacker's eyes or a fixed count.</p>
 
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — one defender standing up, one attacker preventing it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Defender compromised — seated, turtle, or elbow-post — near the wall; attacker has partial control.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, one defender standing up, one attacker preventing it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Defender compromised, seated, turtle, or elbow-post, near the wall; attacker has partial control.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Wall or cage within a marked perimeter, on mats.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender stands, faces, disengages or reverses; attacker re-pins, flattens, or pins for TKO.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin compromised; reset on full disengage or TKO pin.</div>
@@ -74,13 +74,13 @@ Wall positions cycle rather than resolve — the defender stands and disengages 
     <div class="emma-fighter__icon">🛡️</div>
     <div class="emma-fighter__role">Defender</div>
     <p class="emma-fighter__obj">Trying to stand using the wall, turn to face, and disengage or reverse.</p>
-    <span class="emma-pop">Use the wall to build base and rise. Turn to face <em>before</em> disengaging — disengaging while facing away exposes the back. Time the stand-up to the attacker's adjustment moments.</span>
+    <span class="emma-pop">Use the wall to build base and rise. Turn to face <em>before</em> disengaging, disengaging while facing away exposes the back. Time the stand-up to the attacker's adjustment moments.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🧱</div>
     <div class="emma-fighter__role">Attacker</div>
-    <p class="emma-fighter__obj">Trying to prevent disengagement — re-pin, flatten, or reach a TKO pin.</p>
+    <p class="emma-fighter__obj">Trying to prevent disengagement, re-pin, flatten, or reach a TKO pin.</p>
     <span class="emma-pop">Follow the stand-up under control, not desperately. Decide between re-pinning to the wall or flattening back to the ground based on the defender's facing direction. Control is re-earned every cycle.</span>
   </div>
 </div>
@@ -88,27 +88,27 @@ Wall positions cycle rather than resolve — the defender stands and disengages 
 <p class="emma-glabel">The Rules</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall access always available<span class="emma-chip__detail">The wall is always reachable for the defender — the stand-up option always exists. It is the core environmental constraint of the game.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall access always available<span class="emma-chip__detail">The wall is always reachable for the defender, the stand-up option always exists. It is the core environmental constraint of the game.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚪</span> Disengagement ends the exchange<span class="emma-chip__detail">When the defender disengages, the exchange is over and the defender wins. This keeps the success criteria clear.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔁</span> Control is re-earned each cycle<span class="emma-chip__detail">After every stand-up attempt the attacker must re-earn control — this is what creates the cyclical, looping dynamic.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↪️</span> Turn to face before disengaging<span class="emma-chip__detail">Turn to face before attempting to disengage — disengaging while facing away exposes the back to re-clinch and striker access.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens against a wall or cage within a marked perimeter — any shape. Both players stay inside it.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔁</span> Control is re-earned each cycle<span class="emma-chip__detail">After every stand-up attempt the attacker must re-earn control, this is what creates the cyclical, looping dynamic.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↪️</span> Turn to face before disengaging<span class="emma-chip__detail">Turn to face before attempting to disengage, disengaging while facing away exposes the back to re-clinch and striker access.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens against a wall or cage within a marked perimeter, any shape. Both players stay inside it.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
   <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Stand &amp; disengage facing, or reverse → defender wins.<span class="emma-pop">Standing and facing the attacker with space to reset, or a clean reversal that puts the attacker on the defensive.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Re-pin, flatten, or TKO pin → attacker wins.<span class="emma-pop">When the attacker re-pins to the wall, flattens back to ground control, or reaches a TKO pin. Multiple win conditions reflect the cyclical nature of the position — the attacker can win at any point in the loop.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Re-pin, flatten, or TKO pin → attacker wins.<span class="emma-pop">When the attacker re-pins to the wall, flattens back to ground control, or reaches a TKO pin. Multiple win conditions reflect the cyclical nature of the position, the attacker can win at any point in the loop.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
 
 <div class="emma-stepper">
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Stand-up</b>Rise using the wall.<span class="emma-pop emma-pop--l">No strikes. Success is standing with the wall behind you — the rising-from-compromised mechanic itself.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Stand-up</b>Rise using the wall.<span class="emma-pop emma-pop--l">No strikes. Success is standing with the wall behind you, the rising-from-compromised mechanic itself.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Stand-up + disengage</b>Turn, face, create space.<span class="emma-pop emma-pop--l">Must turn to face and create space; attacker follows aggressively. Success is facing the attacker with space to reset.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Stand-up + reversal</b>Take the dominant position.<span class="emma-pop emma-pop--l">Defender attempts to pin the attacker. Highest difficulty — requires reading the attacker's balance.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Strikes both ways.<span class="emma-pop emma-pop--l">Light strikes — attacker discourages stand-up and re-establishes control, defender creates stand-up openings. Ground-and-pound threat makes cycling urgent.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Stand-up + reversal</b>Take the dominant position.<span class="emma-pop emma-pop--l">Defender attempts to pin the attacker. Highest difficulty, requires reading the attacker's balance.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Strikes both ways.<span class="emma-pop emma-pop--l">Light strikes, attacker discourages stand-up and re-establishes control, defender creates stand-up openings. Ground-and-pound threat makes cycling urgent.</span></div>
 </div>
 
 <p class="emma-glabel">Go Deeper</p>
@@ -125,7 +125,7 @@ Wall positions cycle rather than resolve — the defender stands and disengages 
     <p class="emma-sub">Coaching cues</p>
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">↪️</div><div class="emma-card__t">Turn before disengaging</div><p>Ask defenders: "Did you turn before disengaging?" Disengaging while facing away exposes the back — turn to face first.</p></div>
+      <div class="emma-card"><div class="emma-card__i">↪️</div><div class="emma-card__t">Turn before disengaging</div><p>Ask defenders: "Did you turn before disengaging?" Disengaging while facing away exposes the back, turn to face first.</p></div>
       <div class="emma-card"><div class="emma-card__i">🔀</div><div class="emma-card__t">Re-pin or flatten?</div><p>Ask attackers: "Did you re-pin or flatten?" to develop the decision between returning to the wall and returning to the ground.</p></div>
     </div>
 
@@ -141,7 +141,7 @@ Wall positions cycle rather than resolve — the defender stands and disengages 
       <div class="emma-flow__row"><span class="emma-flow__from">Wall / ground hybrid</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Both environmental constraints active at once</span></div>
     </div>
 
-    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — develops loop perception: positions cycle rather than resolve cleanly, and the wall affords different solutions to each player.</p>
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019), develops loop perception: positions cycle rather than resolve cleanly, and the wall affords different solutions to each player.</p>
 
     <p class="emma-sub">What the players read</p>
 
@@ -153,11 +153,11 @@ Wall positions cycle rather than resolve — the defender stands and disengages 
 
     <p class="emma-sub">What we measure (order parameter)</p>
 
-    <p class="emma-hl">Whether the attacker keeps the defender's <b>shoulders and hips pinned flat vs. free to rotate up and away</b> across each cycle — track control time held through the loop and whether the defender turns to face before disengaging. The press→pin-or-stand phase transition is the order parameter, repeating each cycle; the skill has formed when the defender consistently times the rise to the moments control loosens.</p>
+    <p class="emma-hl">Whether the attacker keeps the defender's <b>shoulders and hips pinned flat vs. free to rotate up and away</b> across each cycle, track control time held through the loop and whether the defender turns to face before disengaging. The press→pin-or-stand phase transition is the order parameter, repeating each cycle; the skill has formed when the defender consistently times the rise to the moments control loosens.</p>
 
     <p class="emma-sub">Representativeness</p>
 
-    <p class="emma-hl"><b>Models:</b> the grinding stand-up battle near the cage — positions cycling between ground control, stand-up attempts, and re-clinching, identical to competition.</p>
+    <p class="emma-hl"><b>Models:</b> the grinding stand-up battle near the cage, positions cycling between ground control, stand-up attempts, and re-clinching, identical to competition.</p>
 
     <div class="emma-meta"><span>Simplified: start compromised</span><span>clear win conditions</span><span>progressive striking</span></div>
 

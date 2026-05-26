@@ -4,7 +4,7 @@
 
 <p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../pitfalls/">Pitfalls</a> · <a href="../index/">CLA Index</a> · <a href="../quick-reference/">Quick Reference</a> →</p>
 
-<p class="emma-hl"><b>The shared vocabulary of the system.</b> Every term traces to ecological dynamics — affordances, synergies, constraints, attractors. Hover or tap any term for its full definition.</p>
+<p class="emma-hl"><b>The shared vocabulary of the system.</b> Every term traces to ecological dynamics, affordances, synergies, constraints, attractors. Hover or tap any term for its full definition.</p>
 
 ??? abstract "Sources"
     Definitions adapted from Renshaw et al. (2019), Gibson (1979), Bernstein (1967), Newell (1986), and Kelso (1995). For complete bibliography, see <a href="../../../reference/sources/">Sources &amp; Theoretical Foundations</a>.
@@ -140,4 +140,4 @@
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚦</span> Variability Zones<span class="emma-chip__detail">Categories (Green/Amber/Red) describing the challenge level of practice environments, from stable and predictable to chaotic and overwhelming.</span></span>
 </div>
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1.4rem 0 0;">Next · <a href="../quick-reference/">Quick Reference</a> — checklists, cards, and quick guides.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1.4rem 0 0;">Next · <a href="../quick-reference/">Quick Reference</a>, checklists, cards, and quick guides.</p>

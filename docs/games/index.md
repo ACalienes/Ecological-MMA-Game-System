@@ -45,7 +45,7 @@ Constrained games that develop single skills in isolation.
 
 ---
 
-### Open Space — Striking
+### Open Space, Striking
 
 Standing games focused on striking offense and defense.
 
@@ -63,7 +63,7 @@ Standing games focused on striking offense and defense.
 
 ### Transition Zone
 
-Games at the seam between striking and wrestling — handling domain changes.
+Games at the seam between striking and wrestling, handling domain changes.
 
 | Game | Focus | Difficulty | Core Problem |
 |------|-------|------------|--------------|
@@ -72,7 +72,7 @@ Games at the seam between striking and wrestling — handling domain changes.
 
 ---
 
-### Open Space — Wrestling
+### Open Space, Wrestling
 
 Standing games focused on takedowns and pressure.
 

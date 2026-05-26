@@ -6,17 +6,17 @@
 
 <p class="emma-glabel">Anatomy of a Game Page</p>
 
-<p>A complete game page moves top-to-bottom through eight sections — from identity to connections.</p>
+<p>A complete game page moves top-to-bottom through eight sections, from identity to connections.</p>
 
 <div class="emma-stepper">
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Game Identity</b>Problem · environment · stage<span class="emma-pop emma-pop--l">The identity box at the top: the core problem the game solves, where it takes place, and its decision stage.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Roles & Objectives</b>What each side is trying to do<span class="emma-pop emma-pop--l">Uses neutral A Side / B Side labels with a one-line objective each.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Setup</b>Starting position · reset trigger<span class="emma-pop emma-pop--l">Positions, distances, and the conditions that send play back to neutral.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Rules</b>Allowed · not allowed<span class="emma-pop emma-pop--l">The invariants that shape behavior toward the learning goal.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Win Conditions</b>Observable outcomes per side<span class="emma-pop emma-pop--l">Specific, observable conditions — no vague "controls the opponent".</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Levels</b>Progressive difficulty<span class="emma-pop emma-pop--l">Same problem, escalating constraints — from core skill to full expression.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Win Conditions</b>Observable outcomes per side<span class="emma-pop emma-pop--l">Specific, observable conditions, no vague "controls the opponent".</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Levels</b>Progressive difficulty<span class="emma-pop emma-pop--l">Same problem, escalating constraints, from core skill to full expression.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">7</span><b>Safety</b>Contact limits · stop conditions<span class="emma-pop emma-pop--l">Every game declares how hard contact may be and when play pauses.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">8</span><b>Connections</b>Prerequisites · leads to<span class="emma-pop emma-pop--l">How the game sits in the curriculum — what comes before and after.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">8</span><b>Connections</b>Prerequisites · leads to<span class="emma-pop emma-pop--l">How the game sits in the curriculum, what comes before and after.</span></div>
 </div>
 
 <p class="emma-glabel">Copy These Blocks</p>
@@ -94,9 +94,9 @@
     The identity box appears at the top of every game page.
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Problem</div><p>The core learning challenge in one sentence — e.g. "Defending strikes at close range."</p></div>
-      <div class="emma-card"><div class="emma-card__i">📍</div><div class="emma-card__t">Environment</div><p>The physical context — Open Space, Wall, or Ground.</p></div>
-      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Stage</div><p>The decision state — Access, Stabilize, Exploit, or Counter.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Problem</div><p>The core learning challenge in one sentence, e.g. "Defending strikes at close range."</p></div>
+      <div class="emma-card"><div class="emma-card__i">📍</div><div class="emma-card__t">Environment</div><p>The physical context, Open Space, Wall, or Ground.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Stage</div><p>The decision state, Access, Stabilize, Exploit, or Counter.</p></div>
     </div>
 
 ??? note "Roles & Objectives"
@@ -128,7 +128,7 @@
     Win conditions must be **specific and observable**.
 
     <div class="emma-outcomes">
-      <div class="emma-outcome emma-outcome--lose"><span class="emma-outcome__tag">Bad</span> "A Side wins by controlling B Side" — vague and unmeasurable.</div>
+      <div class="emma-outcome emma-outcome--lose"><span class="emma-outcome__tag">Bad</span> "A Side wins by controlling B Side", vague and unmeasurable.</div>
       <div class="emma-outcome emma-outcome--win"><span class="emma-outcome__tag">Good</span> "A Side wins by holding pin (flat shoulders, controlled hips) for 5 seconds."</div>
     </div>
 

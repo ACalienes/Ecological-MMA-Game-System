@@ -26,7 +26,7 @@ Instead of drilling techniques in isolation, athletes solve problems through str
 
 !!! tip "New to the System?"
 
-    **Step 1:** Read the [Training Mindset](principles/training-mindset.md) — this changes everything.
+    **Step 1:** Read the [Training Mindset](principles/training-mindset.md), this changes everything.
 
     **Step 2:** Start with a foundational game:
 
@@ -91,27 +91,27 @@ flowchart LR
     G --> TKO
     G --> SUB
 
-    style OS fill:#2196F3,color:#fff
-    style W fill:#FF9800,color:#fff
-    style G fill:#795548,color:#fff
-    style KO fill:#D32F2F,color:#fff
-    style TKO fill:#FF5722,color:#fff
-    style SUB fill:#E91E63,color:#fff
+    style OS fill:#2196F3, color:#fff
+    style W fill:#FF9800, color:#fff
+    style G fill:#795548, color:#fff
+    style KO fill:#D32F2F, color:#fff
+    style TKO fill:#FF5722, color:#fff
+    style SUB fill:#E91E63, color:#fff
 ```
 
 **The cycle:** Open Space → Wall or Ground → Escape back → Repeat until finish
 
 **Three positions:**
 
-- **Open Space** — Standing at distance (where every fight starts)
-- **Wall** — Clinch against the cage
-- **Ground** — Horizontal grappling
+- **Open Space**, Standing at distance (where every fight starts)
+- **Wall**, Clinch against the cage
+- **Ground**, Horizontal grappling
 
 **Three finishes:**
 
-- **KO** — Clean strike ends the fight
-- **TKO** — Accumulated damage overwhelms defense
-- **SUB** — Choke or joint lock forces tap
+- **KO**, Clean strike ends the fight
+- **TKO**, Accumulated damage overwhelms defense
+- **SUB**, Choke or joint lock forces tap
 
 For the full interactive diagram, see the **[System Map](system/map.md)**.
 
@@ -123,7 +123,7 @@ For the complete interactive map, see the [System Map](system/map.md).
 
 ---
 
-### FOUNDATION — Skill Isolation
+### FOUNDATION, Skill Isolation
 
 Skills developed in isolation before integration into live fighting.
 
@@ -140,7 +140,7 @@ Skills developed in isolation before integration into live fighting.
 
 ---
 
-### OPEN SPACE — Striking at Distance
+### OPEN SPACE, Striking at Distance
 
 This is where every fight starts.
 
@@ -155,7 +155,7 @@ This is where every fight starts.
 
 ---
 
-### POSITION CHANGES — Transitions Between States
+### POSITION CHANGES, Transitions Between States
 
 How you move from Open Space to Wall or Ground.
 
@@ -178,7 +178,7 @@ How you move from Open Space to Wall or Ground.
 
 ---
 
-### WALL — Standing Against Cage
+### WALL, Standing Against Cage
 
 You arrive via clinch or pressure. Exit by escaping or taking down.
 
@@ -193,7 +193,7 @@ You arrive via clinch or pressure. Exit by escaping or taking down.
 
 ---
 
-### GROUND — Horizontal Grappling
+### GROUND, Horizontal Grappling
 
 You arrive via takedown or knockdown. Exit by standing up, or finish.
 
@@ -224,11 +224,11 @@ You arrive via takedown or knockdown. Exit by standing up, or finish.
 
 ## Guiding Principles
 
-1. **The environment teaches** — Design constraints, not techniques
-2. **Finish while minimizing damage** — The fight philosophy
-3. **Offense needs defense** — Every attack has a counter
-4. **Struggle is learning** — Difficulty is the point
-5. **Games are academic** — Learning matters more than winning
+1. **The environment teaches**, Design constraints, not techniques
+2. **Finish while minimizing damage**, The fight philosophy
+3. **Offense needs defense**, Every attack has a counter
+4. **Struggle is learning**, Difficulty is the point
+5. **Games are academic**, Learning matters more than winning
 
 ---
 

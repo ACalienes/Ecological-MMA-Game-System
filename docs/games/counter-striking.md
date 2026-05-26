@@ -33,7 +33,7 @@ tags:
 
 <div class="emma-meta"><span>Counter</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Transition Zone</span></div>
 
-Offense as defense — wait, read the lead, punish it with a timed counter.
+Offense as defense, wait, read the lead, punish it with a timed counter.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range inside a marked perimeter; initiator leads, counter-striker waits.</b></div>
@@ -44,20 +44,20 @@ Offense as defense — wait, read the lead, punish it with a timed counter.
 </div>
 
 <div class="emma-band">
-  <p class="emma-statement">Don't lead —<br><span class="accent">make them pay for committing.</span></p>
+  <p class="emma-statement">Don't lead, <br><span class="accent">make them pay for committing.</span></p>
   <p class="emma-statement__sub">The counter-striker can't initiate; they wait, read the lead, and punish it. <b>Offense becomes the defense.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
 
-<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) of the initiator's strike — how fast it commits and travels — read via shoulder–hip motion at <b>center mass</b>, not the opponent's eyes or their absolute distance. That information specifies <i>when</i> the strike commits and <i>which counter window</i> is open — intercept, simultaneous, or punish.</p>
+<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) of the initiator's strike, how fast it commits and travels, read via shoulder–hip motion at <b>center mass</b>, not the opponent's eyes or their absolute distance. That information specifies <i>when</i> the strike commits and <i>which counter window</i> is open, intercept, simultaneous, or punish.</p>
 
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, neutral stance — one leads, one waits.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, neutral stance, one leads, one waits.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range, not clinch.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter — both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, both stay inside.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One initiator, one counter-striker.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Initiator leads; reset on a clean exchange or clean lead.</div>
 </div>
@@ -69,33 +69,33 @@ Offense as defense — wait, read the lead, punish it with a timed counter.
     <div class="emma-fighter__icon">🥊</div>
     <div class="emma-fighter__role">Initiator</div>
     <p class="emma-fighter__obj">Trying to land clean offense despite the counter threat.</p>
-    <span class="emma-pop">You must initiate — can't just stand there. Vary timing to avoid predictability, use feints to draw counters, and set traps to find clean entries.</span>
+    <span class="emma-pop">You must initiate, can't just stand there. Vary timing to avoid predictability, use feints to draw counters, and set traps to find clean entries.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">⚡</div>
     <div class="emma-fighter__role">Counter-Striker</div>
     <p class="emma-fighter__obj">Trying to interrupt or punish the initiation with a well-timed, reactive counter.</p>
-    <span class="emma-pop">Wait for the initiation — don't lead. Counters must be reactive, not preemptive offense. Read their favorite initiation, then make them pay for committing.</span>
+    <span class="emma-pop">Wait for the initiation, don't lead. Counters must be reactive, not preemptive offense. Read their favorite initiation, then make them pay for committing.</span>
   </div>
 </div>
 
 <p class="emma-glabel">The Rules</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏳</span> Counter-striker waits<span class="emma-chip__detail">The counter-striker may <strong>not</strong> lead — they must wait for the initiation. This eliminates preemptive offense and isolates the reactive skill.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Initiator must initiate<span class="emma-chip__detail">The initiator can't just stand there — they must lead with offense, providing reliable attacks to counter.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏳</span> Counter-striker waits<span class="emma-chip__detail">The counter-striker may <strong>not</strong> lead, they must wait for the initiation. This eliminates preemptive offense and isolates the reactive skill.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Initiator must initiate<span class="emma-chip__detail">The initiator can't just stand there, they must lead with offense, providing reliable attacks to counter.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↩️</span> Counters must be reactive<span class="emma-chip__detail">A counter is a response to a committed strike, not anticipatory offense thrown on a guess. Reading and responding, not predicting.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥋</span> Stay in the striking domain<span class="emma-chip__detail">Both players keep it striking — no wrestling — until Level 4, isolating counter-timing without grappling complexity.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter — any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥋</span> Stay in the striking domain<span class="emma-chip__detail">Both players keep it striking, no wrestling, until Level 4, isolating counter-timing without grappling complexity.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land a clean counter → switch roles.<span class="emma-pop">A reactive counter that interrupted or punished the offense, landing clean off a real initiation — the counter-striker earns the initiating role.</span></div>
-  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Clean offense, uncountered → reset, same roles.<span class="emma-pop">The initiation got through the counter threat — or a clean exchange occurred. Begin again from a neutral stance.</span></div>
-  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange — training the cage-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land a clean counter → switch roles.<span class="emma-pop">A reactive counter that interrupted or punished the offense, landing clean off a real initiation, the counter-striker earns the initiating role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Clean offense, uncountered → reset, same roles.<span class="emma-pop">The initiation got through the counter threat, or a clean exchange occurred. Begin again from a neutral stance.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange, training the cage-edge awareness a fighter needs.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
@@ -121,9 +121,9 @@ Offense as defense — wait, read the lead, punish it with a timed counter.
     <p class="emma-sub">Counter timing windows</p>
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Intercept</div><p>Before their strike lands — e.g. a jab over their jab.</p></div>
-      <div class="emma-card"><div class="emma-card__i">⚔️</div><div class="emma-card__t">Simultaneous</div><p>As their strike extends — e.g. a check hook vs. the cross.</p></div>
-      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Punish</div><p>After their strike misses — e.g. counter after a pull.</p></div>
+      <div class="emma-card"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Intercept</div><p>Before their strike lands, e.g. a jab over their jab.</p></div>
+      <div class="emma-card"><div class="emma-card__i">⚔️</div><div class="emma-card__t">Simultaneous</div><p>As their strike extends, e.g. a check hook vs. the cross.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Punish</div><p>After their strike misses, e.g. counter after a pull.</p></div>
     </div>
 
     <p class="emma-sub">Coaching cues</p>
@@ -145,19 +145,19 @@ Offense as defense — wait, read the lead, punish it with a timed counter.
       <div class="emma-flow__row"><span class="emma-flow__from">Striking range</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Counter timing is viable (not too close, not too far)</span></div>
     </div>
 
-    <p class="emma-hl">Develops <b>counter-timing affordance perception</b> (Hristovski et al., 2006) — the three timing windows emerge through exploration, not instruction, embodying self-organization under constraints.</p>
+    <p class="emma-hl">Develops <b>counter-timing affordance perception</b> (Hristovski et al., 2006), the three timing windows emerge through exploration, not instruction, embodying self-organization under constraints.</p>
 
     <p class="emma-sub">What the counter-striker reads</p>
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual — initiation</div><p>Weight shift &amp; shoulder rotation → attack initiation detection.</p></div>
-      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Visual — window</div><p>Trajectory, timing &amp; recovery position → select counter type and timing.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual, initiation</div><p>Weight shift &amp; shoulder rotation → attack initiation detection.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Visual, window</div><p>Trajectory, timing &amp; recovery position → select counter type and timing.</p></div>
       <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own balance and positioning → counter execution readiness.</p></div>
     </div>
 
     <p class="emma-sub">What we measure (order parameter)</p>
 
-    <p class="emma-hl">Whether the counter-striker's <b>counter lands in time with the initiation</b> — track clean counters that interrupt vs. getting hit or missing the window, and whether they stayed reactive rather than guessing. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
+    <p class="emma-hl">Whether the counter-striker's <b>counter lands in time with the initiation</b>, track clean counters that interrupt vs. getting hit or missing the window, and whether they stayed reactive rather than guessing. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 
@@ -165,7 +165,7 @@ Offense as defense — wait, read the lead, punish it with a timed counter.
 
     <div class="emma-meta"><span>Simplified: striking-only L1–3</span><span>single counter at L1</span><span>clear role split</span></div>
 
-    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Counter-timing transfers directly to live striking — and into the wrestling threat if the opponent shoots, see <a href="../takedown-defense/">Takedown Defense</a>.</p>
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Counter-timing transfers directly to live striking, and into the wrestling threat if the opponent shoots, see <a href="../takedown-defense/">Takedown Defense</a>.</p>
 
     <p class="emma-sub">Readiness to progress</p>
 

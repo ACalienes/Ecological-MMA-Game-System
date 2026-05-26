@@ -27,13 +27,13 @@ tags:
 ---
 
 <div class="emma-phero">
-  <img src="../../assets/img/heroes/wall-escape.png" alt="Wall Escape — Anti-Pin">
-  <div class="emma-phero__cap"><span class="k">Wall · Wrestling</span><span class="h">Wall Escape — Anti-Pin</span></div>
+  <img src="../../assets/img/heroes/wall-escape.png" alt="Wall Escape, Anti-Pin">
+  <div class="emma-phero__cap"><span class="k">Wall · Wrestling</span><span class="h">Wall Escape, Anti-Pin</span></div>
 </div>
 
 <div class="emma-meta"><span>Wall</span><span>Wrestling</span><span>Defensive</span><span>Intermediate</span><span>Counter</span></div>
 
-Start pinned, shoulders flat to the wall — break free by actively escaping or reversing, never by waiting it out.
+Start pinned, shoulders flat to the wall, break free by actively escaping or reversing, never by waiting it out.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender pinned, shoulders flat, rotation compromised.</b></div>
@@ -44,27 +44,27 @@ Start pinned, shoulders flat to the wall — break free by actively escaping or 
 </div>
 
 <div class="emma-band">
-  <p class="emma-statement">Pinned isn't pinned for good —<br><span class="accent">break it before it sets.</span></p>
+  <p class="emma-statement">Pinned isn't pinned for good, <br><span class="accent">break it before it sets.</span></p>
   <p class="emma-statement__sub">Survival doesn't count here. <b>Only an active escape or reversal wins.</b></p>
 </div>
 
 <p class="emma-glabel">Key Positions</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control — the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control, the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
 </div>
 
 <p class="emma-glabel">What to Read</p>
 
-<p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through your frames and grips</i> — the load the attacker's weight places on your shoulders and hips, and especially the <b>moment it slackens</b>. That changing resistance specifies <i>which way</i> to rotate and <i>when</i> the pin can be broken — not the attacker's face or a memorized step.</p>
+<p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through your frames and grips</i>, the load the attacker's weight places on your shoulders and hips, and especially the <b>moment it slackens</b>. That changing resistance specifies <i>which way</i> to rotate and <i>when</i> the pin can be broken, not the attacker's face or a memorized step.</p>
 
 <p class="emma-glabel">The Starting Position</p>
 
 <div class="emma-setup">
-  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two — pinned defender (focus), attacker holding the pin.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Wall pin already established — shoulders flat.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, pinned defender (focus), attacker holding the pin.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Wall pin already established, shoulders flat.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Wall or cage within a marked perimeter.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender escapes or reverses; attacker holds the pin — no takedowns.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender escapes or reverses; attacker holds the pin, no takedowns.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the pin; reset on lost control or full disengage.</div>
 </div>
 
@@ -75,14 +75,14 @@ Start pinned, shoulders flat to the wall — break free by actively escaping or 
     <div class="emma-fighter__icon">🛡️</div>
     <div class="emma-fighter__role">Defender (focus)</div>
     <p class="emma-fighter__obj">Trying to break the pin and return to space facing the attacker, or reverse the position.</p>
-    <span class="emma-pop">Escape or reversal — never passive survival. Rotate shoulders, build frames, move hips, turn to face, then disengage. A dropping attacker head opens a guillotine or front-headlock threat that buys the escape.</span>
+    <span class="emma-pop">Escape or reversal, never passive survival. Rotate shoulders, build frames, move hips, turn to face, then disengage. A dropping attacker head opens a guillotine or front-headlock threat that buys the escape.</span>
   </div>
   <div class="emma-matchup__vs">VS</div>
   <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🧱</div>
     <div class="emma-fighter__role">Attacker</div>
     <p class="emma-fighter__obj">Trying to maintain the pin and deny escape for the full hold.</p>
-    <span class="emma-pop">Hold the pin — no takedowns. Re-pin against rotation attempts, deny frames, and protect head position so the defender can't use a neck threat to escape.</span>
+    <span class="emma-pop">Hold the pin, no takedowns. Re-pin against rotation attempts, deny frames, and protect head position so the defender can't use a neck threat to escape.</span>
   </div>
 </div>
 
@@ -90,10 +90,10 @@ Start pinned, shoulders flat to the wall — break free by actively escaping or 
 
 <div class="emma-chips">
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall stays dominant<span class="emma-chip__detail">The wall remains the controlling constraint of the position. The whole problem is solved against it, not in open space.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏃</span> Active escape — no passive survival<span class="emma-chip__detail">The defender must actively attempt to break the pin. Simply riding out the clock or stalling under control does not count.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No takedowns<span class="emma-chip__detail">The attacker's only job is holding the pin — no takedowns yet. The focus stays on the press-vs-break of the wall pin itself.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏃</span> Active escape, no passive survival<span class="emma-chip__detail">The defender must actively attempt to break the pin. Simply riding out the clock or stalling under control does not count.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No takedowns<span class="emma-chip__detail">The attacker's only job is holding the pin, no takedowns yet. The focus stays on the press-vs-break of the wall pin itself.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> Rotate before disengaging<span class="emma-chip__detail">Escapes follow rotate → frame → move hips → turn to face → disengage. Trying to disengage before rotating typically fails.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens against a wall or cage within a marked perimeter — any shape. Both players stay inside it.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens against a wall or cage within a marked perimeter, any shape. Both players stay inside it.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
@@ -107,9 +107,9 @@ Start pinned, shoulders flat to the wall — break free by actively escaping or 
 <p class="emma-glabel">The Levels</p>
 
 <div class="emma-stepper">
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Escape</b>Break the pin, create space.<span class="emma-pop emma-pop--l">No strikes. Success is shoulders no longer flat and facing the attacker — pure pin-break mechanics.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Escape</b>Break the pin, create space.<span class="emma-pop emma-pop--l">No strikes. Success is shoulders no longer flat and facing the attacker, pure pin-break mechanics.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Escape + disengage</b>Return to striking range.<span class="emma-pop emma-pop--l">Create meaningful space and return to striking range with defensive posture. The attacker may follow and attempt to re-clinch.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Escape + reverse</b>Take the dominant position.<span class="emma-pop emma-pop--l">Defender now puts the attacker on the wall. Highest difficulty — requires reading the attacker's balance.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Escape + reverse</b>Take the dominant position.<span class="emma-pop emma-pop--l">Defender now puts the attacker on the wall. Highest difficulty, requires reading the attacker's balance.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Light strikes both ways.<span class="emma-pop emma-pop--l">Attacker uses strikes to maintain pin pressure; defender uses strikes to create escapes. Escape becomes urgent under realistic striking pressure.</span></div>
 </div>
 
@@ -127,8 +127,8 @@ Start pinned, shoulders flat to the wall — break free by actively escaping or 
     <p class="emma-sub">Coaching cues</p>
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Early vs late</div><p>Ask: "Did you escape early or late?" Early escapes — before the pin consolidates — require far less effort and expose you to less damage.</p></div>
-      <div class="emma-card"><div class="emma-card__i">🧠</div><div class="emma-card__t">DNS pressure</div><p>A dropping attacker head opens guillotine and front-headlock threats. DNS need not finish — it creates decision pressure that enables escape.</p></div>
+      <div class="emma-card"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Early vs late</div><p>Ask: "Did you escape early or late?" Early escapes, before the pin consolidates, require far less effort and expose you to less damage.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧠</div><div class="emma-card__t">DNS pressure</div><p>A dropping attacker head opens guillotine and front-headlock threats. DNS need not finish, it creates decision pressure that enables escape.</p></div>
     </div>
 
 ??? abstract "Constraints-Led analysis"
@@ -143,7 +143,7 @@ Start pinned, shoulders flat to the wall — break free by actively escaping or 
       <div class="emma-flow__row"><span class="emma-flow__from">Wall constraint</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces a structured rotate → frame → hip → face sequence</span></div>
     </div>
 
-    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019) — the rotate → frame → hip → face sequence emerges through exploration, not instruction, and DNS shows how a defensive tool creates offensive opportunity.</p>
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019), the rotate → frame → hip → face sequence emerges through exploration, not instruction, and DNS shows how a defensive tool creates offensive opportunity.</p>
 
     <p class="emma-sub">What the defender reads</p>
 
@@ -155,11 +155,11 @@ Start pinned, shoulders flat to the wall — break free by actively escaping or 
 
     <p class="emma-sub">What we measure (order parameter)</p>
 
-    <p class="emma-hl">Whether the attacker keeps the defender's <b>shoulders and hips pinned flat vs. free to rotate</b> — track control time held and whether the defender escapes <i>early</i> (before consolidation) or <i>late</i>. The press→pin-or-break phase transition is the order parameter; when early rotation stabilizes, the escape skill has formed.</p>
+    <p class="emma-hl">Whether the attacker keeps the defender's <b>shoulders and hips pinned flat vs. free to rotate</b>, track control time held and whether the defender escapes <i>early</i> (before consolidation) or <i>late</i>. The press→pin-or-break phase transition is the order parameter; when early rotation stabilizes, the escape skill has formed.</p>
 
     <p class="emma-sub">Representativeness</p>
 
-    <p class="emma-hl"><b>Models:</b> escaping cage immobilization — recognizing consolidation timing and the rotation sequence, identical to competition.</p>
+    <p class="emma-hl"><b>Models:</b> escaping cage immobilization, recognizing consolidation timing and the rotation sequence, identical to competition.</p>
 
     <div class="emma-meta"><span>Simplified: start from pin</span><span>no strikes at L1</span><span>clear win conditions</span></div>
 
@@ -195,7 +195,7 @@ Start pinned, shoulders flat to the wall — break free by actively escaping or 
     <p class="emma-sub">Where it sits</p>
 
     <div class="emma-flow">
-      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-control/">Wall Control</a> — understand a good pin first</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-control/">Wall Control</a>, understand a good pin first</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-defensive-submission/">Wall Defensive Submission</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/full-mma-expression/">Full MMA Expression</a></span></div>
     </div>

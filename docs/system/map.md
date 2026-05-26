@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>Visual Navigation</span><span>All 34 Games</span><span>Environment → Finish</span></div>
 
-<p class="emma-hl"><b>The fight is cyclical.</b> You move between environments until someone finishes — and every path has a reverse. This map routes you from foundation skills through every game to a finish.</p>
+<p class="emma-hl"><b>The fight is cyclical.</b> You move between environments until someone finishes, and every path has a reverse. This map routes you from foundation skills through every game to a finish.</p>
 
 <p class="emma-glabel">Fight States &amp; Transitions</p>
 
@@ -23,12 +23,12 @@ flowchart LR
     G --> TKO
     G --> SUB
 
-    style OS fill:#2196F3,color:#fff
-    style W fill:#FF9800,color:#fff
-    style G fill:#795548,color:#fff
-    style KO fill:#D32F2F,color:#fff
-    style TKO fill:#FF5722,color:#fff
-    style SUB fill:#E91E63,color:#fff
+    style OS fill:#2196F3, color:#fff
+    style W fill:#FF9800, color:#fff
+    style G fill:#795548, color:#fff
+    style KO fill:#D32F2F, color:#fff
+    style TKO fill:#FF5722, color:#fff
+    style SUB fill:#E91E63, color:#fff
 ```
 
 <p class="emma-glabel">How to Read the Map</p>
@@ -43,16 +43,16 @@ flowchart LR
 <div class="emma-chips">
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🟢</span> Defensive<span class="emma-chip__detail">Survive, escape, prevent transitions. The B Side is developing skills.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🟠</span> Offensive<span class="emma-chip__detail">Attack, control, initiate transitions. The A Side is developing skills.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🟣</span> Combined<span class="emma-chip__detail">Both roles active — scrambles and mixed situations where both sides have live objectives.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🟣</span> Combined<span class="emma-chip__detail">Both roles active, scrambles and mixed situations where both sides have live objectives.</span></span>
 </div>
 
 <p class="emma-glabel">The Cycle in Four Beats</p>
 
 <div class="emma-cards">
-  <div class="emma-card"><div class="emma-card__i">1️⃣</div><div class="emma-card__t">Start standing</div><p>Every fight starts in <b>Open Space</b> — standing at distance.</p></div>
+  <div class="emma-card"><div class="emma-card__i">1️⃣</div><div class="emma-card__t">Start standing</div><p>Every fight starts in <b>Open Space</b>, standing at distance.</p></div>
   <div class="emma-card"><div class="emma-card__i">2️⃣</div><div class="emma-card__t">Transition</div><p>From Open Space, move to <b>Wall</b> (clinch) or <b>Ground</b> (grappling).</p></div>
   <div class="emma-card"><div class="emma-card__i">3️⃣</div><div class="emma-card__t">Escape back</div><p>From Wall or Ground, you can <b>escape</b> to Open Space.</p></div>
-  <div class="emma-card"><div class="emma-card__i">4️⃣</div><div class="emma-card__t">Finish</div><p>Any position can lead to a <b>finish</b> — KO, TKO, or Submission.</p></div>
+  <div class="emma-card"><div class="emma-card__i">4️⃣</div><div class="emma-card__t">Finish</div><p>Any position can lead to a <b>finish</b>, KO, TKO, or Submission.</p></div>
 </div>
 
 <p class="emma-glabel">The Three End States</p>
@@ -65,7 +65,7 @@ flowchart LR
 
 ---
 
-<p class="emma-glabel">🏗️ Foundation — Skill Isolation</p>
+<p class="emma-glabel">🏗️ Foundation, Skill Isolation</p>
 
 Skills developed in isolation before integration into live fighting.
 
@@ -215,7 +215,7 @@ Horizontal grappling. You arrive via takedown or knockdown.
 
 ---
 
-<p class="emma-glabel">The Complete Cycle — In &amp; Out</p>
+<p class="emma-glabel">The Complete Cycle, In &amp; Out</p>
 
 Every position has a way IN and a way OUT.
 
@@ -254,4 +254,4 @@ Where the system's core concepts show up across the games.
 </div>
 
 ??? abstract "System evolution notice"
-    Games can be added infinitely — the fight states and transitions are the structure; games are the teaching tools. See the <a href="../../reference/changelog/">Change Log</a> for version history.
+    Games can be added infinitely, the fight states and transitions are the structure; games are the teaching tools. See the <a href="../../reference/changelog/">Change Log</a> for version history.
