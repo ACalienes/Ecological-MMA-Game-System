@@ -14,7 +14,6 @@ prerequisites:
 tags:
   - block
   - hook
-  - body-kick
   - beginner-friendly
   - skill-isolation
 ---

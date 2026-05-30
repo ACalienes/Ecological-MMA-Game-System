@@ -212,5 +212,5 @@ Escape from under a dominant position before damage accumulates.
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None, this is a fundamental defensive game</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../leg-reclaim/">Leg Reclaim</a> · <a href="../ground-to-standing/">Ground to Standing</a></span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/decision-states/">Decision States</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/decision-states/">Decision States</a> · <a href="../../concepts/guard-recovery/">Guard Recovery</a></span></div>
     </div>

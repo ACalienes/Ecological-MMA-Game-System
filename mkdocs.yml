@@ -98,8 +98,9 @@ nav:
       - Offensive:
         - Land the Target: games/land-the-target.md
         - Sustained Offense: games/sustained-offense.md
-      - Control:
+      - Combined:
         - Touch and Don't Get Touched: games/touch-game.md
+        - One Shot Discovery (WIP): games/one-shot-discovery.md
     - Open Space → Wall:
       - Prevent:
         - Clinch Denial: games/clinch-denial.md
@@ -128,6 +129,9 @@ nav:
     - Ground:
       - Escape & Defend:
         - Ground Escape: games/ground-escape.md
+        - Mount Escape: games/mount-escape.md
+        - Side-Control Escape: games/side-control-escape.md
+        - Back Escape: games/back-escape.md
         - Leg Reclaim: games/leg-reclaim.md
         - Ground to Standing: games/ground-to-standing.md
         - Ground Defensive Submission: games/ground-defensive-submission.md
@@ -135,6 +139,7 @@ nav:
         - Ground Access: games/ground-access.md
         - Ground Control: games/ground-control.md
       - Combined:
+        - Ground-and-Pound Defense (WIP): games/ground-and-pound-defense.md
         - Positional Sparring (format): games/positional-battle.md
   - Concepts:
     - Fight Philosophy: concepts/fight-philosophy.md
@@ -146,6 +151,7 @@ nav:
     - Defensive Solutions: concepts/defensive-solutions.md
     - Hand Controls: concepts/hand-controls.md
     - Winning the Circle: concepts/winning-the-circle.md
+    - Guard Recovery: concepts/guard-recovery.md
   - Principles:
     - Training Mindset: principles/training-mindset.md
     - Ecological Psychology:

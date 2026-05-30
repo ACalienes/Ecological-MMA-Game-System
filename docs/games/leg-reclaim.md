@@ -210,5 +210,5 @@ Get your legs back between you and the opponent, one level at a time.
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-escape/">Ground Escape</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-to-standing/">Ground to Standing</a> · <a href="../positional-battle/">Positional Sparring</a> · <a href="../ground-defensive-submission/">Ground Defensive Submission</a></span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/decision-states/">Decision States</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/decision-states/">Decision States</a> · <a href="../../concepts/guard-recovery/">Guard Recovery</a></span></div>
     </div>

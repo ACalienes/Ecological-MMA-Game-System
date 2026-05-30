@@ -28,7 +28,7 @@ tags:
 
 <div class="emma-meta"><span>Skill Integration</span><span>Striking</span><span>Defensive</span><span>Intermediate</span><span>Open Space</span></div>
 
-Match the evasion to the punch, slip straights, duck hooks. Head movement only.
+Match the evasion to the punch, slip straights, roll under hooks. Head movement only.
 
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter.</b></div>
@@ -39,13 +39,13 @@ Match the evasion to the punch, slip straights, duck hooks. Head movement only.
 </div>
 
 <div class="emma-band">
-  <p class="emma-statement">Read the path first, <br><span class="accent">slip straights, duck hooks.</span></p>
+  <p class="emma-statement">Read the path first, <br><span class="accent">slip straights, roll under hooks.</span></p>
   <p class="emma-statement__sub">Head movement only, so the evasion must match the punch type. <b>One right evasion beats ten wrong ones.</b></p>
 </div>
 
 <p class="emma-glabel">What to Read</p>
 
-<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) <i>and the path</i> of the incoming punch, straight line vs. arcing, read via shoulder–hip motion and the bending elbow at <b>center mass</b>, not the opponent's eyes or their absolute distance. That information specifies <i>when</i> it arrives and <i>whether to slip or duck</i>.</p>
+<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) <i>and the path</i> of the incoming punch, straight line vs. arcing, read via shoulder–hip motion and the bending elbow at <b>center mass</b>, not the opponent's eyes or their absolute distance. That information specifies <i>when</i> it arrives and <i>whether to slip or roll under</i>.</p>
 
 <p class="emma-glabel">The Starting Position</p>
 
@@ -70,7 +70,7 @@ Match the evasion to the punch, slip straights, duck hooks. Head movement only.
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🌀</div>
     <div class="emma-fighter__role">Defender</div>
-    <p class="emma-fighter__obj">Trying to evade each punch with the matching movement, slip straights, duck hooks.</p>
+    <p class="emma-fighter__obj">Trying to evade each punch with the matching movement, slip straights, roll under hooks.</p>
     <span class="emma-pop">No blocking, no parrying, no backing up, head movement only. Using the wrong evasion gets you hit; read the path early and commit when confident.</span>
   </div>
 </div>
@@ -79,7 +79,7 @@ Match the evasion to the punch, slip straights, duck hooks. Head movement only.
 
 <div class="emma-chips">
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Straights &amp; hooks, head only<span class="emma-chip__detail">The attacker throws straights and/or hooks to the head, scaled to the level, no uppercuts, kicks, or body shots. The mix forces the defender to recognize punch type, not just react.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🌀</span> Evade only, no block, no parry<span class="emma-chip__detail">The defender may <strong>only</strong> use head movement, slip or duck. Blocking, parrying, and backing up are off-limits, so the evasion solutions explore with no fallback.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🌀</span> Evade only, no block, no parry<span class="emma-chip__detail">The defender may <strong>only</strong> use head movement, slip or roll under. Blocking, parrying, and backing up are off-limits, so the evasion solutions explore with no fallback.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No continuous backing up<span class="emma-chip__detail">The defender can't keep retreating out of range to avoid exchanges, they must stay and solve the problem in the pocket.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset between strikes<span class="emma-chip__detail">At early levels the attacker pauses between strikes so the defender can reorganize. Pressure becomes continuous as the levels rise.</span></span>
@@ -88,7 +88,7 @@ Match the evasion to the punch, slip straights, duck hooks. Head movement only.
 <p class="emma-glabel">How to Win</p>
 
 <div class="emma-outcomes">
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Correct evasion, full miss → switch roles.<span class="emma-pop">The right evasion for the punch type, slip a straight or duck a hook, fully missing. The defender earns the attacking role.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Correct evasion, full miss → switch roles.<span class="emma-pop">The right evasion for the punch type, slip a straight or roll under a hook, fully missing. The defender earns the attacking role.</span></div>
   <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Clean head shot lands → reset, same roles.<span class="emma-pop">A clean head shot that got through, often the wrong evasion for the punch type. Begin again from a neutral stance.</span></div>
   <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange, training the cage-edge awareness a fighter needs.</span></div>
 </div>
@@ -109,8 +109,8 @@ Match the evasion to the punch, slip straights, duck hooks. Head movement only.
 <div class="emma-recall">
   <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
   <details class="emma-recall__item">
-    <summary><span class="emma-recall__q">Q</span> What tells you whether to slip or duck?</summary>
-    <div class="emma-recall__a">The <b>path</b> of the punch read via the elbow at <b>center mass</b>: arm stays straight means slip, elbow bends and the arm arcs means duck. Not the eyes.</div>
+    <summary><span class="emma-recall__q">Q</span> What tells you whether to slip or roll under?</summary>
+    <div class="emma-recall__a">The <b>path</b> of the punch read via the elbow at <b>center mass</b>: arm stays straight means slip, elbow bends and the arm arcs means roll under. Not the eyes.</div>
   </details>
   <details class="emma-recall__item">
     <summary><span class="emma-recall__q">Q</span> Why is the defender held to head movement only, no block or parry?</summary>
@@ -130,13 +130,13 @@ Match the evasion to the punch, slip straights, duck hooks. Head movement only.
 
     <div class="emma-cards">
       <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Land clean head punches; mix straights and hooks to force recognition; vary timing and rhythm.</p></div>
-      <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Defender</div><p>Slip straights (head laterally offline), duck/bob hooks (under the arc); read the path early and select.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Defender</div><p>Slip straights (head laterally offline), roll/weave under hooks (under the arc); read the path early and select.</p></div>
     </div>
 
     <p class="emma-sub">Coaching cues</p>
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Read the path</div><p>Arm stays straight → slip. Elbow bends and the arm arcs → duck. The bending elbow at center mass is the tell, not the eyes.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Read the path</div><p>Arm stays straight → slip. Elbow bends and the arm arcs → roll under. The bending elbow at center mass is the tell, not the eyes.</p></div>
       <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Right tool, full miss</div><p>The wrong evasion gets you hit, a slip won't beat a hook. Don't evade everything; recognize type first, then commit. One correct evasion beats ten wrong ones.</p></div>
     </div>
 
@@ -157,7 +157,7 @@ Match the evasion to the punch, slip straights, duck hooks. Head movement only.
     <p class="emma-sub">What the defender reads</p>
 
     <div class="emma-cards">
-      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual: path</div><p>Straight vs. arcing trajectory; extended vs. bent elbow → slip or duck.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual: path</div><p>Straight vs. arcing trajectory; extended vs. bent elbow → slip or roll under.</p></div>
       <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Visual: timing</div><p>Shoulder rotation &amp; weight shift → when to move and which hand.</p></div>
       <div class="emma-card"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Proprioceptive</div><p>Own head position &amp; balance → execution and recovery readiness.</p></div>
     </div>

@@ -11,7 +11,8 @@ prerequisites:
   concepts:
     - decision-states
   games:
-    - positional-battle
+    - open-space-takedown
+    - wall-to-ground
 tags:
   - ground
   - offense

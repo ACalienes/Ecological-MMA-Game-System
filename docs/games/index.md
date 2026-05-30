@@ -58,6 +58,7 @@ Standing games focused on striking offense and defense.
 | [Sustained Offense](sustained-offense.md) | Offensive | Intermediate | Maintain rhythm through defensive attempts |
 | [Touch and Don't Get Touched](touch-game.md) | Combined | Beginner | Range awareness and timing literacy |
 | [Pressure to Clinch](pressure-to-clinch.md) | Combined | Beginner | Space control and clinch entry |
+| [One Shot Discovery (WIP)](one-shot-discovery.md) | Combined | Intermediate | One shot, four tools, feint-and-commit in a tight perimeter |
 
 ---
 
@@ -109,9 +110,13 @@ Games focused on horizontal grappling positions.
 | [Ground Access](ground-access.md) | Offensive | Intermediate | Pass guard and advance position |
 | [Ground Control](ground-control.md) | Offensive | Intermediate | Maintain position through escape attempts |
 | [Ground Escape](ground-escape.md) | Defensive | Intermediate | Escape from under dominant position |
+| [Mount Escape](mount-escape.md) | Defensive | Intermediate | Frame, bridge, and recover from under mount |
+| [Side-Control Escape](side-control-escape.md) | Defensive | Intermediate | Frame and recover before side control advances |
+| [Back Escape](back-escape.md) | Defensive | Advanced | Defend the neck and turn to face before the choke |
 | [Leg Reclaim](leg-reclaim.md) | Defensive | Intermediate | Get legs between you and opponent |
 | [Ground to Standing](ground-to-standing.md) | Defensive | Intermediate | Get back to feet from ground |
 | [Ground Defensive Submission](ground-defensive-submission.md) | Defensive | Advanced | Submissions from bottom position |
+| [Ground-and-Pound Defense (WIP)](ground-and-pound-defense.md) | Defensive | Advanced | Escape the open-camped top via stand, reverse, or closed loop |
 | [Positional Sparring](positional-battle.md) | Combined | Intermediate | Win positional exchanges |
 
 ---

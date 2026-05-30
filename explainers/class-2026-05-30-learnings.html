@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>What I Learned from the 2026-05-30 Class</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{
+  --bg:#0b0b0e; --bg-2:#13131a; --raised:#1c1c25; --raised-2:#252531;
+  --fog:#cfd0d6; --fog-dim:#8d8e98; --fog-faint:#5a5b66;
+  --accent:#ff7733; --accent-2:#ffb45a; --amber:#f5a524;
+  --good:#22c98a; --warn:#f5a524; --bad:#ef5a5a;
+  --rim:rgba(255,119,51,.22); --line:rgba(255,255,255,.07);
+  --shadow:0 12px 40px rgba(0,0,0,.45);
+  --r:14px; --r-sm:8px;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --ui:-apple-system,BlinkMacSystemFont,Inter,Segoe UI,Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:radial-gradient(1200px 600px at 50% -10%,#1a0d05 0%,var(--bg) 60%) fixed;
+  color:var(--fog); font:15px/1.55 var(--ui); -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent-2); text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1100px; margin:0 auto; padding:48px 32px 96px}
+h1,h2,h3{font-weight:700; letter-spacing:-.01em; color:#fff; margin:0}
+h1{font-size:46px; line-height:1.05}
+h2{font-size:22px; margin:48px 0 18px}
+h3{font-size:15px; text-transform:uppercase; letter-spacing:.14em; color:var(--accent-2); margin:0 0 14px}
+small{color:var(--fog-dim)}
+.eyebrow{display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border:1px solid var(--rim); border-radius:999px; background:rgba(255,119,51,.06); color:var(--accent-2); font-size:12px; letter-spacing:.16em; text-transform:uppercase}
+.eyebrow .dot{width:6px; height:6px; border-radius:999px; background:var(--accent); box-shadow:0 0 8px var(--accent)}
+.lead{color:var(--fog); font-size:18px; max-width:780px; margin:18px 0 0}
+.accent{color:var(--accent-2)}
+.muted{color:var(--fog-dim)}
+
+/* hero band */
+.hero{
+  margin-top:22px;
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(255,119,51,.08),rgba(255,119,51,0) 40%) , var(--bg-2);
+  border-radius:var(--r);
+  padding:32px 32px 28px;
+  box-shadow:var(--shadow);
+  position:relative;
+  overflow:hidden;
+}
+.hero::after{
+  content:""; position:absolute; right:-80px; top:-80px; width:300px; height:300px;
+  background:radial-gradient(closest-side,rgba(255,119,51,.18),transparent 70%);
+  pointer-events:none;
+}
+.hero-meta{display:flex; gap:18px; flex-wrap:wrap; margin-top:14px; color:var(--fog-dim); font-size:13px}
+.hero-meta span{display:inline-flex; align-items:center; gap:6px}
+.hero-meta .k{color:var(--accent-2); font-weight:600; text-transform:uppercase; letter-spacing:.14em; font-size:11px}
+
+/* stat tiles */
+.stats{display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:18px}
+.stat{
+  border:1px solid var(--line); background:var(--raised); border-radius:var(--r);
+  padding:18px 18px 16px;
+  position:relative; overflow:hidden;
+}
+.stat .n{font-size:34px; font-weight:800; color:#fff; line-height:1; letter-spacing:-.02em}
+.stat .l{color:var(--fog-dim); font-size:12px; text-transform:uppercase; letter-spacing:.16em; margin-top:8px}
+.stat .s{color:var(--fog); margin-top:8px; font-size:13px}
+.stat .bar{position:absolute; left:0; top:0; bottom:0; width:3px; background:linear-gradient(180deg,var(--accent),transparent)}
+
+/* timeline of the 5 games */
+.timeline{
+  display:grid; grid-template-columns:repeat(5,1fr); gap:10px;
+  border:1px solid var(--line); background:var(--bg-2); border-radius:var(--r);
+  padding:18px; position:relative;
+}
+.tnode{
+  background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm);
+  padding:14px 14px 12px; position:relative;
+}
+.tnode .tag{
+  display:inline-block; padding:2px 8px; border-radius:999px; font-size:10px;
+  letter-spacing:.16em; text-transform:uppercase; font-weight:700;
+  background:rgba(255,119,51,.12); color:var(--accent-2); border:1px solid var(--rim);
+}
+.tnode .name{color:#fff; font-weight:700; margin-top:8px; font-size:14px}
+.tnode .what{color:var(--fog-dim); font-size:12px; margin-top:6px; line-height:1.5}
+.tnode .when{color:var(--fog-faint); font-size:10.5px; margin-top:8px; letter-spacing:.12em; text-transform:uppercase}
+.tnode.ground{border-color:rgba(34,201,138,.25); background:linear-gradient(180deg,rgba(34,201,138,.06),transparent 60%), var(--raised)}
+.tnode.ground .tag{background:rgba(34,201,138,.12); color:var(--good); border-color:rgba(34,201,138,.3)}
+
+/* cards grid for signals */
+.cards{display:grid; grid-template-columns:repeat(4,1fr); gap:12px}
+.card{
+  background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm);
+  padding:16px; min-height:100%;
+}
+.card .ic{font-size:22px; line-height:1; margin-bottom:8px}
+.card .t{color:#fff; font-weight:700; font-size:14px; line-height:1.3}
+.card .p{color:var(--fog-dim); font-size:12.5px; margin-top:6px; line-height:1.5}
+
+/* compare panel: as long as possible -> 20s */
+.compare{
+  display:grid; grid-template-columns:1fr 60px 1fr; gap:16px; align-items:stretch;
+  background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r); padding:20px;
+}
+.compare .col{
+  background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm); padding:18px;
+}
+.compare .col.bad{border-color:rgba(239,90,90,.25)}
+.compare .col.good{border-color:rgba(34,201,138,.3); background:linear-gradient(180deg,rgba(34,201,138,.05),transparent 70%), var(--raised)}
+.compare .col .label{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--fog-dim)}
+.compare .col.bad .label{color:var(--bad)}
+.compare .col.good .label{color:var(--good)}
+.compare .col h4{margin:6px 0 8px; color:#fff; font-size:18px; font-family:var(--mono)}
+.compare .col p{color:var(--fog); margin:0; font-size:13.5px; line-height:1.55}
+.compare .arrow{
+  display:flex; align-items:center; justify-content:center;
+  font-size:30px; color:var(--accent-2);
+}
+
+/* validation block */
+.valid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+.vcol{
+  border:1px solid var(--line); background:var(--bg-2); border-radius:var(--r); padding:20px;
+}
+.vcol.yes{border-color:rgba(34,201,138,.3); background:linear-gradient(180deg,rgba(34,201,138,.06),transparent 70%), var(--bg-2)}
+.vcol.no{border-color:rgba(245,165,36,.3); background:linear-gradient(180deg,rgba(245,165,36,.06),transparent 70%), var(--bg-2)}
+.vcol h4{margin:0 0 10px; font-size:14px; letter-spacing:.14em; text-transform:uppercase}
+.vcol.yes h4{color:var(--good)}
+.vcol.no h4{color:var(--warn)}
+.vcol ul{margin:0; padding-left:0; list-style:none}
+.vcol li{padding:6px 0 6px 28px; position:relative; color:var(--fog); font-size:13.5px; line-height:1.55; border-bottom:1px dashed var(--line)}
+.vcol li:last-child{border-bottom:0}
+.vcol.yes li::before{content:"✓"; position:absolute; left:6px; top:6px; color:var(--good); font-weight:700}
+.vcol.no li::before{content:"!"; position:absolute; left:6px; top:6px; color:var(--warn); font-weight:700; width:14px; height:14px; border:1px solid var(--warn); border-radius:999px; text-align:center; line-height:12px; font-size:11px}
+
+/* built pages thumbs */
+.built{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+.thumb{
+  border:1px solid var(--line); background:var(--bg-2); border-radius:var(--r); overflow:hidden;
+  display:flex; flex-direction:column; min-height:100%;
+}
+.thumb img{width:100%; height:200px; object-fit:cover; display:block; filter:saturate(1.05)}
+.thumb .body{padding:16px 18px 18px}
+.thumb .body .tag{display:inline-block; padding:2px 8px; border-radius:999px; font-size:10px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; background:rgba(255,180,90,.12); color:var(--accent-2); border:1px solid var(--rim)}
+.thumb .body h4{margin:8px 0 6px; color:#fff; font-size:17px}
+.thumb .body p{margin:0; color:var(--fog-dim); font-size:13px; line-height:1.55}
+.thumb .file{font-family:var(--mono); color:var(--fog-faint); font-size:11px; margin-top:10px; word-break:break-all}
+
+/* quote callout */
+.quote{
+  border:1px solid var(--rim);
+  background:linear-gradient(180deg,rgba(255,119,51,.07),rgba(255,119,51,0) 70%), var(--bg-2);
+  border-radius:var(--r); padding:24px 28px;
+  position:relative;
+}
+.quote .mark{font-size:60px; line-height:.5; color:var(--accent); position:absolute; top:24px; left:18px; opacity:.4}
+.quote blockquote{margin:0 0 0 36px; color:#fff; font-size:19px; font-weight:600; line-height:1.4; letter-spacing:-.005em}
+.quote cite{display:block; margin:10px 0 0 36px; color:var(--fog-dim); font-style:normal; font-size:12px; letter-spacing:.14em; text-transform:uppercase}
+
+.foot{margin-top:48px; color:var(--fog-faint); font-size:12px; border-top:1px solid var(--line); padding-top:18px}
+
+@media (max-width: 900px){
+  .stats,.timeline,.cards,.valid,.built{grid-template-columns:1fr 1fr}
+  .compare{grid-template-columns:1fr; }
+  .compare .arrow{transform:rotate(90deg)}
+  h1{font-size:36px}
+}
+@media (max-width: 560px){
+  .stats,.timeline,.cards,.valid,.built{grid-template-columns:1fr}
+  .wrap{padding:32px 18px 64px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HERO -->
+  <span class="eyebrow"><span class="dot"></span>Class Learnings · 2026-05-30</span>
+  <div class="hero">
+    <h1>What I learned from the<br><span class="accent">2026-05-30 class.</span></h1>
+    <p class="lead">25.9 minutes of audio, 5 games extracted, 1 method confirmed, 2 pages built. Your coaching <em>is</em> the ecological method, the threshold rule is the differentiator, and one game from today (the open-camped ground-and-pound defense) fills a gap the web research couldn't reach.</p>
+    <div class="hero-meta">
+      <span><span class="k">Source</span>audio-ingest/2026-05-30-class/</span>
+      <span><span class="k">Transcript</span>mlx-whisper large-v3, 25:54</span>
+      <span><span class="k">Mining</span>docs/_drafts/class-mining-2026-05-30.md</span>
+    </div>
+  </div>
+
+  <!-- STAT TILES -->
+  <div class="stats" style="margin-top:18px">
+    <div class="stat"><div class="bar"></div><div class="n">5</div><div class="l">Games extracted</div><div class="s">4 striking variants ladder + 1 ground integration.</div></div>
+    <div class="stat"><div class="bar"></div><div class="n">2</div><div class="l">Pages built today</div><div class="s">One Shot Discovery · Ground-and-Pound Defense.</div></div>
+    <div class="stat"><div class="bar"></div><div class="n">8/8</div><div class="l">Method signals hit</div><div class="s">Every principle our spec encodes showed up in class.</div></div>
+    <div class="stat"><div class="bar"></div><div class="n">36→38</div><div class="l">Library count</div><div class="s">Toward the 100+ goal, all method-validated.</div></div>
+  </div>
+
+  <!-- TIMELINE OF GAMES -->
+  <h2>The 5 games, in the order you ran them</h2>
+  <p class="muted" style="margin:-8px 0 14px">G1 to G4 are the same start with escalating constraints, exactly the SMGC ladder pattern and our 5-Levels stepper. G5 is its own beast.</p>
+  <div class="timeline">
+    <div class="tnode">
+      <span class="tag">G1 · Warm-up</span>
+      <div class="name">Pure Shell</div>
+      <div class="what">One shot, four tools, tight perimeter. Defense uses block / parry / evasion / hand controls.</div>
+      <div class="when">Open-space striking</div>
+    </div>
+    <div class="tnode">
+      <span class="tag">G2 · Layer</span>
+      <div class="name">Clinch as Defense</div>
+      <div class="what">Defender may clinch to negate strikes. At your own peril, offense can hit you on the way in.</div>
+      <div class="when">Open-space striking</div>
+    </div>
+    <div class="tnode">
+      <span class="tag">G3 · Refinement</span>
+      <div class="name">Counter Must Land</div>
+      <div class="what">Defense also wins by landing a clean counter, or connecting on legs under the waist. Feints become counter openings.</div>
+      <div class="when">Open-space striking</div>
+    </div>
+    <div class="tnode">
+      <span class="tag">G4 · Isolation</span>
+      <div class="name">Body-Kick Counter</div>
+      <div class="what">Counter restricted to a kick to the body. Pure skill isolation, since open-space sessions under-represent it.</div>
+      <div class="when">Open-space striking</div>
+    </div>
+    <div class="tnode ground">
+      <span class="tag">G5 · Standalone</span>
+      <div class="name">Open-Camped GnP Defense</div>
+      <div class="what">Top can't win, stays open past the hips. Bottom escapes by stand-clean, reverse, or closed leg loop.</div>
+      <div class="when">Ground integration</div>
+    </div>
+  </div>
+
+  <!-- METHOD SIGNALS -->
+  <h2>Every methodology signal in our spec showed up in class</h2>
+  <p class="muted" style="margin:-8px 0 14px">These are the principles our spec encodes. Each one came out of your mouth on the recording, almost in our exact phrasing.</p>
+  <div class="cards">
+    <div class="card"><div class="ic">🎯</div><div class="t">Asymmetric starts</div><p class="p">Every game opened with a clear offense / defense split, never a symmetric neutral start.</p></div>
+    <div class="card"><div class="ic">👁️</div><div class="t">Observable wins</div><p class="p">"Lands significantly," "closed loop," "feet out," "stand cleanly." All concrete events.</p></div>
+    <div class="card"><div class="ic">🪢</div><div class="t">Closed loop is enough</div><p class="p">G5 win on closing the leg loop, finish post-game. Same logic as our "arm under chin 3s."</p></div>
+    <div class="card"><div class="ic">🔁</div><div class="t">Role switch on success</div><p class="p">Win the exchange, you swap. Both sides develop, no one specialises in one role.</p></div>
+    <div class="card"><div class="ic">🪜</div><div class="t">Constraint = level</div><p class="p">G4 body-kick-only is the same game as G3, restricted weapon. A Level, not a new game.</p></div>
+    <div class="card"><div class="ic">⏳</div><div class="t">Continuous vs terminal</div><p class="p">"Top player cannot win." Top is the threat; the clock is bottom's threat window.</p></div>
+    <div class="card"><div class="ic">🟧</div><div class="t">Perimeter loss</div><p class="p">Both feet out, you lose. Same convention as our existing pages, no exception.</p></div>
+    <div class="card"><div class="ic">🎭</div><div class="t">Feints as counter openings</div><p class="p">A feint is a threat at L3, an invitation at L4. Defender can act before contact.</p></div>
+  </div>
+
+  <!-- THE ONE DEFECT CONFIRMED -->
+  <h2>One predicted defect, confirmed</h2>
+  <p class="muted" style="margin:-8px 0 14px">The public BJJ-games corpus almost never specifies a time/count threshold. Today's only ground game inherited the same gap, and your house rule is the fix.</p>
+  <div class="compare">
+    <div class="col bad">
+      <span class="label">Your phrasing today (G5)</span>
+      <h4>"as long as possible"</h4>
+      <p>"Top is just staying there as long as you possibly can, doing as much damage as you possibly can from that limitation."</p>
+      <p style="margin-top:10px; color:var(--fog-dim); font-size:12px">Open-ended, no clock. Same gap that runs through ~12 of the 35 SOLID-labeled Discord games and almost every SMGC maintenance game.</p>
+    </div>
+    <div class="arrow">→</div>
+    <div class="col good">
+      <span class="label">Our house rule applied</span>
+      <h4>20-second threat window</h4>
+      <p>If top stays open-camped for 20s without bottom landing a stand-clean, reverse, or closed loop, the round resets, same roles.</p>
+      <p style="margin-top:10px; color:var(--fog-dim); font-size:12px">Top still has no positive win, the clock is bottom's urgency, not top's score. Built into <code>ground-and-pound-defense.md</code> Level by Level.</p>
+    </div>
+  </div>
+
+  <!-- WHAT WAS / WASN'T VALIDATED -->
+  <h2>Honest read on what this validated</h2>
+  <div class="valid">
+    <div class="vcol yes">
+      <h4>Validated (method-level)</h4>
+      <ul>
+        <li>Asymmetric starts, multiple observable terminal wins, perimeter loss, skill isolation as a level, "closed loop is enough" as a terminal proxy.</li>
+        <li>Continuous side with no win plus terminal side with multiple paths (G5 = SMGC pattern verbatim).</li>
+        <li>Counter must <em>land</em> (not just be thrown) holds the same standard both sides.</li>
+        <li>Your coaching pattern matches every architectural choice in our spec.</li>
+      </ul>
+    </div>
+    <div class="vcol no">
+      <h4>Not validated (still open)</h4>
+      <ul>
+        <li>The 22 specific ground-wave games in the spec, none came up by name or by mechanic today. Class was striking + 1 GnP.</li>
+        <li>Your preferred per-position teaching sequence vs the SMGC ladder order, no data yet.</li>
+        <li>Your attractor / order-parameter language for ground positions, no data yet.</li>
+        <li>Next move: a grappling-focused class is the missing validator. Treat the 22 as "logged + rubric-clean," not "build-ready," until then.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- BUILT PAGES -->
+  <h2>What got built from this class today</h2>
+  <p class="muted" style="margin:-8px 0 14px">Both marked <code>[WIP]</code> per the audio-ingestion convention, pending your platform review before going canonical. Credited to you on <code>docs/reference/sources.md</code>.</p>
+  <div class="built">
+    <div class="thumb">
+      <img src="../docs/assets/img/heroes/one-shot-discovery.png" alt="One Shot Discovery hero">
+      <div class="body">
+        <span class="tag">Open Space · Striking · WIP</span>
+        <h4>One Shot Discovery</h4>
+        <p>G1 to G4 collapsed into one page with 5 Levels: pure shell → vary the tool → clinch as defense → counter must land → body-kick-only counter. Tight perimeter, role-switch on success, no-repeat rule.</p>
+        <div class="file">docs/games/one-shot-discovery.md</div>
+      </div>
+    </div>
+    <div class="thumb">
+      <img src="../docs/assets/img/heroes/ground-and-pound-defense.png" alt="Ground-and-Pound Defense hero">
+      <div class="body">
+        <span class="tag">Ground · Mixed · WIP</span>
+        <h4>Ground-and-Pound Defense</h4>
+        <p>G5 standalone. Top stays open past the hips, cannot win, 20s cap. Bottom wins by stand-clean, reverse, or closed leg loop on head and arm. Finish is post-game.</p>
+        <div class="file">docs/games/ground-and-pound-defense.md</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BONUS QUOTE -->
+  <h2>One more thing from the tape</h2>
+  <div class="quote">
+    <span class="mark">"</span>
+    <blockquote>I'm recording this so that I can log my games.</blockquote>
+    <cite>Alex Calienes · 2026-05-30 · mid-class, narrating to the mic</cite>
+  </div>
+
+  <p class="foot">Standalone explainer. Source files referenced live in <code>docs/games/</code>, <code>docs/_drafts/</code>, and <code>docs/reference/sources.md</code>. Strict mkdocs build clean as of 2026-05-30.</p>
+</div>
+</body>
+</html>

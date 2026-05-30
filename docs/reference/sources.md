@@ -189,6 +189,23 @@ This text provides the methodological framework for our entire system. Its four 
 
 <p style="font-size:.85rem;margin:.6rem 0 0;">For full theoretical background on any concept, see the <a href="../../principles/cla/">CLA Knowledge Base</a>.</p>
 
+<p class="emma-glabel">Game-Design Attributions</p>
+
+<p class="emma-hl">When a game in this library was inspired or directly shaped by an identifiable creator's design, we credit them here. Mechanics are re-expressed under our own names; this page is the authoritative attribution.</p>
+
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎙️</div><div class="emma-card__t">Alex Calienes</div><p>Original designs narrated in class recordings: <i>One Shot Discovery (WIP)</i>, <i>Ground-and-Pound Defense (WIP)</i>, and ongoing.<span class="emma-pop">Recorded 2026-05-30 class. Games are marked WIP pending live-platform review before going canonical.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥋</div><div class="emma-card__t">Greg Souders / Standard Jiu-Jitsu</div><p>Many of our per-position ground games and submission ladders are shaped by Souders' ecological / constraints-led catalog.<span class="emma-pop">Public game library at Slime Mold Grappling Club (slimemoldgrappling.com). We re-express the mechanics under our own names with our threshold house rule applied.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌍</div><div class="emma-card__t">Rob Cole / BJJ Globetrotters</div><p>Scramble games (Ankle Wars, Spin Up, Creative Starts, No Knees) and the Cross Ashi control game.<span class="emma-pop">Via BJJ Globetrotters Camp and Slime Mold Grappling Club attributions. Cross-ashi safety constraints (no heel exposure) come directly from this source.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦵</div><div class="emma-card__t">Justin Mark / Impact Jiu-Jitsu</div><p>Seated-guard-vs-standing games (Create & Break Connections, Control A Leg, Destabilization).</p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">👟</div><div class="emma-card__t">Craig Jones</div><p>Shin-surfing leg ride (positional retention with shin on thigh).</p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📐</div><div class="emma-card__t">Stephan Kesting (Grapplearts)</div><p>Turtle seatbelt game ("dislodge the sternum"), situational sparring framework, RNC / back-escape designs.</p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎓</div><div class="emma-card__t">John Danaher</div><p>Positional sparring formats (pass-or-sweep, submit-or-full-guard) and escape-to-dominance philosophy.<span class="emma-pop">"New Wave Jiu Jitsu" and "Go Further Faster" are Danaher's branded product names; mechanics are generic, branded copy is not reused.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">💬</div><div class="emma-card__t">Discord harvest contributors</div><p>Game ideas mined from public Discord discussions and credited per game.<span class="emma-pop">Including Aaron, breanne, Spacecityliving, Vasja, Diviney, jan tan musi, dNice, Chase, hesostrong, binney, MrWild, gwj, mtwol, RobDurden, and others, as cited in <code>docs/_drafts/discord-harvest-2026-05-26.md</code>.</span></p></div>
+</div>
+
+<p style="font-size:.85rem;margin:.6rem 0 0;">Working rule: capture the mechanic, re-express under our own names and conventions; credit the originator here. Never reuse branded names or verbatim proprietary text. If a game's origin is not identifiable (widely-taught generic mechanics), no forced attribution.</p>
+
 <p class="emma-glabel">Further Reading</p>
 
 <div class="emma-stepper">

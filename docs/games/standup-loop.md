@@ -35,7 +35,7 @@ tags:
 Wall positions cycle rather than resolve, the defender stands and disengages while the attacker re-pins or flattens, and the skill is staying in the part of the loop that favors you.
 
 <div class="emma-arc">
-  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender compromised on the ground near the wall; attacker has partial control.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender seated, back to the wall; attacker in top control with one collar-tie and a near-side underhook.</b></div>
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Defender stands, faces, disengages or reverses; attacker re-pins, flattens, or pins for TKO.</b></div>
   <div class="emma-arc__sep">→</div>
@@ -61,7 +61,7 @@ Wall positions cycle rather than resolve, the defender stands and disengages whi
 
 <div class="emma-setup">
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, one defender standing up, one attacker preventing it.</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Defender compromised, seated, turtle, or elbow-post, near the wall; attacker has partial control.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Defender seated, hips and back to the wall; attacker in top control with one collar-tie and a near-side underhook, a live hold, not a locked pin. (Turtle and elbow-post are start variants, Level 3+.)</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Wall or cage within a marked perimeter, on mats.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender stands, faces, disengages or reverses; attacker re-pins, flattens, or pins for TKO.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin compromised; reset on full disengage or TKO pin.</div>

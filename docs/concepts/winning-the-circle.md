@@ -7,8 +7,7 @@ related_games:
   - touch-game
   - wall-control
 related_concepts:
-  - wall-pin
-  - pressure
+  - tko-pin
 tags:
   - space-control
   - footwork
@@ -34,7 +33,7 @@ tags:
 <p class="emma-glabel">Key Positions</p>
 
 <div class="emma-chips">
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚖️</span> 50/50 clinch<span class="emma-chip__detail">Each fighter has one overhook and one underhook (mirror grips, one per side), starting chest to chest, symmetric and neutral. Whoever first wins inside control or the angle gains the advantage.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚖️</span> 50/50 clinch<span class="emma-chip__detail">Each fighter has one overhook and one underhook, diagonally matched (one per side), starting chest to chest, symmetric and neutral. Whoever first wins inside control or the angle gains the advantage.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control, the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
 </div>
 
@@ -116,5 +115,5 @@ The circle can be won and lost many times in a single exchange. It is a continuo
 <p class="emma-hl">The fighter who wins the circle doesn't just accumulate position, they accumulate <b>options</b>. And options win fights.</p>
 
 !!! abstract "Related Concepts"
-    - [Wall Control, Establish the Pin](../games/wall-control.md), The completion of winning the circle for the attacker
-    - [Pressure to Clinch](../games/pressure-to-clinch.md), The primary game for developing this skill
+    - [Wall Control, Establish the Pin](../../games/wall-control/), The completion of winning the circle for the attacker
+    - [Pressure to Clinch](../../games/pressure-to-clinch/), The primary game for developing this skill
