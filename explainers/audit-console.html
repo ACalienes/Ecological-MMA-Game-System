@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Game Audit Console · Ecological MMA System</title>
+<title>Game Audit Console v2 · Ecological MMA System</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 :root{
@@ -17,167 +17,202 @@
   --ui:-apple-system,BlinkMacSystemFont,Inter,Segoe UI,Roboto,sans-serif;
 }
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;height:100%}
+html,body{margin:0;padding:0;height:100%;overflow-x:hidden}
 body{
   background:radial-gradient(1200px 600px at 50% -10%,#1a0d05 0%,var(--bg) 60%) fixed;
-  color:var(--fog); font:14px/1.5 var(--ui); -webkit-font-smoothing:antialiased;
+  color:var(--fog); font:13.5px/1.5 var(--ui); -webkit-font-smoothing:antialiased;
 }
 button,input,select,textarea{font:inherit; color:inherit}
 a{color:var(--accent-2); text-decoration:none}
 a:hover{text-decoration:underline}
 
-.wrap{max-width:1320px; margin:0 auto; padding:28px 26px 80px}
-h1{font-size:30px; line-height:1.05; margin:0; color:#fff; letter-spacing:-.01em}
-h2{font-size:15px; text-transform:uppercase; letter-spacing:.16em; color:var(--accent-2); margin:0 0 12px}
-small{color:var(--fog-dim)}
-.eyebrow{display:inline-flex; align-items:center; gap:8px; padding:5px 10px; border:1px solid var(--rim); border-radius:999px; background:rgba(255,119,51,.06); color:var(--accent-2); font-size:11px; letter-spacing:.16em; text-transform:uppercase}
+.wrap{max-width:1640px; margin:0 auto; padding:18px 20px 80px}
+h1{font-size:24px; line-height:1.05; margin:0; color:#fff; letter-spacing:-.01em}
+h2{font-size:13px; text-transform:uppercase; letter-spacing:.16em; color:var(--accent-2); margin:0 0 8px}
+.eyebrow{display:inline-flex; align-items:center; gap:8px; padding:5px 10px; border:1px solid var(--rim); border-radius:999px; background:rgba(255,119,51,.06); color:var(--accent-2); font-size:10.5px; letter-spacing:.16em; text-transform:uppercase}
 .eyebrow .dot{width:6px; height:6px; border-radius:999px; background:var(--accent); box-shadow:0 0 8px var(--accent)}
 
 /* header */
-header{display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:18px; flex-wrap:wrap}
-header .lead{color:var(--fog-dim); margin-top:8px; max-width:680px; font-size:13.5px}
+header.top{display:flex; justify-content:space-between; align-items:flex-start; gap:18px; margin-bottom:12px; flex-wrap:wrap}
+header.top .lead{color:var(--fog-dim); margin:6px 0 0; max-width:640px; font-size:12.5px}
 .toolbar{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
 .btn{
   background:var(--raised); color:var(--fog); border:1px solid var(--line);
-  padding:9px 14px; border-radius:var(--r-sm); cursor:pointer; font-weight:600;
-  transition:all .15s;
+  padding:7px 12px; border-radius:var(--r-sm); cursor:pointer; font-weight:600;
+  transition:all .15s; font-size:12.5px;
 }
 .btn:hover{border-color:var(--rim); color:#fff}
 .btn-primary{background:linear-gradient(180deg,#ff7733,#e85e1c); border-color:#a04212; color:#fff}
 .btn-primary:hover{filter:brightness(1.08)}
 .btn-ghost{background:transparent}
-.btn .ic{margin-right:6px}
+.btn .ic{margin-right:5px}
+.btn-sm{padding:4px 8px; font-size:11.5px}
 
-/* stat tiles */
-.stats{display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin:12px 0 18px}
+/* settings strip */
+.settings{
+  display:flex; gap:14px; align-items:center; flex-wrap:wrap;
+  background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r-sm);
+  padding:8px 12px; margin-bottom:12px;
+}
+.settings label{color:var(--fog-dim); font-size:11px; text-transform:uppercase; letter-spacing:.12em; margin-right:6px}
+.settings input{
+  background:var(--bg); border:1px solid var(--line); color:var(--fog);
+  padding:5px 10px; border-radius:var(--r-xs); outline:none; min-width:230px; font-size:12px;
+}
+.settings input:focus{border-color:var(--rim)}
+.settings .hint{color:var(--fog-faint); font-size:11px; margin-left:auto}
+
+/* stats */
+.stats{display:flex; gap:10px; margin-bottom:10px; flex-wrap:wrap}
 .stat{
   border:1px solid var(--line); background:var(--raised); border-radius:var(--r-sm);
-  padding:14px 14px 12px; position:relative; overflow:hidden;
+  padding:8px 14px; flex:1; min-width:120px;
 }
-.stat .n{font-size:24px; font-weight:800; color:#fff; line-height:1}
-.stat .l{color:var(--fog-dim); font-size:10.5px; text-transform:uppercase; letter-spacing:.16em; margin-top:6px}
+.stat .n{font-size:20px; font-weight:800; color:#fff; line-height:1}
+.stat .l{color:var(--fog-dim); font-size:10px; text-transform:uppercase; letter-spacing:.16em; margin-top:4px}
 .stat.pass .n{color:var(--good)}
 .stat.conditional .n{color:var(--warn)}
 .stat.notyet .n{color:var(--bad)}
 .stat.canonical .n{color:var(--accent-2)}
 
 /* filter chips */
-.filters{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px}
+.filters{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px}
 .chip{
   background:var(--raised); border:1px solid var(--line); color:var(--fog-dim);
-  padding:6px 12px; border-radius:999px; cursor:pointer; font-size:12px; font-weight:600;
+  padding:5px 10px; border-radius:999px; cursor:pointer; font-size:11px; font-weight:600;
   transition:all .15s;
 }
 .chip:hover{color:#fff; border-color:var(--rim)}
 .chip.active{background:rgba(255,119,51,.12); color:var(--accent-2); border-color:var(--rim)}
-.chip .count{margin-left:6px; color:var(--fog-faint); font-weight:500}
+.chip .count{margin-left:5px; color:var(--fog-faint); font-weight:500}
 .chip.active .count{color:var(--accent-2)}
 
-/* layout */
-.layout{display:grid; grid-template-columns:380px 1fr; gap:16px; align-items:start; min-height:600px}
-.list{
-  background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r);
-  padding:12px; max-height:calc(100vh - 240px); overflow-y:auto; position:sticky; top:18px;
-}
-.list-h{
-  display:flex; justify-content:space-between; align-items:center;
-  padding:0 4px 10px; border-bottom:1px solid var(--line); margin-bottom:10px;
-}
-.list-h .count{color:var(--fog-dim); font-size:11.5px}
-.list-h input{
-  background:transparent; border:0; color:var(--fog); width:170px; outline:none;
-  font-size:12.5px; border-bottom:1px dashed var(--line); padding:4px 0;
-}
+/* 3-pane layout */
+.layout{display:grid; grid-template-columns:280px 1fr 480px; gap:12px; align-items:start; min-height:calc(100vh - 220px)}
+.col{background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r); overflow:hidden}
+
+/* LIST */
+.list{display:flex; flex-direction:column; max-height:calc(100vh - 220px)}
+.list-h{display:flex; justify-content:space-between; align-items:center; padding:10px 12px; border-bottom:1px solid var(--line)}
+.list-h .count{color:var(--fog-dim); font-size:11px}
+.list-h input{background:transparent; border:0; color:var(--fog); width:130px; outline:none; font-size:12px; border-bottom:1px dashed var(--line); padding:3px 0}
 .list-h input:focus{border-color:var(--accent)}
+.list-body{overflow-y:auto; padding:8px; flex:1}
 .row{
-  display:flex; flex-direction:column; gap:4px; padding:10px 10px 9px;
+  display:flex; flex-direction:column; gap:3px; padding:9px 10px;
   border:1px solid transparent; border-radius:var(--r-xs); cursor:pointer;
-  transition:all .12s; margin-bottom:4px;
+  transition:all .12s; margin-bottom:3px;
 }
 .row:hover{background:rgba(255,255,255,.03); border-color:var(--line)}
 .row.active{background:rgba(255,119,51,.08); border-color:var(--rim)}
 .row .t{display:flex; justify-content:space-between; gap:6px; align-items:center}
-.row .name{color:#fff; font-weight:600; font-size:13px; line-height:1.25}
-.row .meta{color:var(--fog-faint); font-size:10.5px; text-transform:uppercase; letter-spacing:.12em; margin-top:2px}
-.row .tags{display:flex; gap:4px; flex-wrap:wrap; margin-top:4px}
-.tag{
-  font-size:9.5px; padding:1.5px 6px; border-radius:999px; letter-spacing:.1em;
-  text-transform:uppercase; font-weight:700; border:1px solid var(--line);
-  color:var(--fog-dim); background:var(--raised);
-}
+.row .name{color:#fff; font-weight:600; font-size:12.5px; line-height:1.25}
+.row .meta{color:var(--fog-faint); font-size:9.5px; text-transform:uppercase; letter-spacing:.1em; margin-top:2px}
+.row .tags{display:flex; gap:3px; flex-wrap:wrap; margin-top:3px}
+.tag{font-size:9px; padding:1px 5px; border-radius:999px; letter-spacing:.08em; text-transform:uppercase; font-weight:700; border:1px solid var(--line); color:var(--fog-dim); background:var(--raised)}
 .tag.wip{color:var(--accent-2); border-color:var(--rim); background:rgba(255,119,51,.08)}
 .tag.alex{color:var(--good); border-color:rgba(34,201,138,.3); background:rgba(34,201,138,.06)}
 .tag.fix{color:var(--info); border-color:rgba(122,169,255,.3); background:rgba(122,169,255,.06)}
 .tag.flag{color:var(--warn); border-color:rgba(245,165,36,.3); background:rgba(245,165,36,.06)}
-.badge{
-  font-size:9.5px; padding:2px 6px; border-radius:999px; letter-spacing:.1em;
-  text-transform:uppercase; font-weight:800; flex-shrink:0;
-}
+.badge{font-size:9px; padding:1px 5px; border-radius:999px; letter-spacing:.08em; text-transform:uppercase; font-weight:800; flex-shrink:0}
 .badge.pass{background:rgba(34,201,138,.16); color:var(--good)}
 .badge.conditional{background:rgba(245,165,36,.16); color:var(--warn)}
 .badge.notyet{background:rgba(239,90,90,.16); color:var(--bad)}
 .badge.canonical{background:rgba(255,180,90,.16); color:var(--accent-2)}
 .badge.none{background:rgba(255,255,255,.05); color:var(--fog-faint)}
 
-/* panel */
-.panel{
-  background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r); padding:22px 24px;
+/* PREVIEW (center) */
+.preview{display:flex; flex-direction:column; max-height:calc(100vh - 220px); overflow:hidden}
+.preview-h{display:flex; gap:6px; padding:8px 10px; border-bottom:1px solid var(--line); align-items:center; flex-wrap:wrap}
+.preview-h .tabs{display:flex; gap:4px}
+.preview-h .tab{padding:5px 11px; border-radius:var(--r-xs); cursor:pointer; font-size:11.5px; font-weight:600; color:var(--fog-dim); border:1px solid transparent}
+.preview-h .tab.active{background:rgba(255,119,51,.1); color:var(--accent-2); border-color:var(--rim)}
+.preview-h .tab:hover:not(.active){color:#fff}
+.preview-h .right{margin-left:auto; display:flex; gap:6px; align-items:center; color:var(--fog-faint); font-size:11px}
+.preview-frame{flex:1; border:0; background:#fff; width:100%; height:100%; min-height:600px}
+.preview-empty{
+  flex:1; display:flex; align-items:center; justify-content:center;
+  padding:40px 30px; text-align:center; color:var(--fog-dim);
 }
-.panel-empty{color:var(--fog-dim); text-align:center; padding:60px 20px}
-.panel-empty h3{color:var(--fog); margin:0 0 8px; font-size:18px}
-.panel-empty p{margin:0; max-width:380px; margin-inline:auto; font-size:13px}
+.preview-empty .ic{font-size:36px; opacity:.6; margin-bottom:10px}
+.preview-empty h3{color:var(--fog); margin:0 0 8px; font-size:16px}
+.preview-empty p{margin:6px 0; max-width:380px; font-size:12.5px; line-height:1.55}
+.preview-empty code{background:var(--raised); padding:2px 6px; border-radius:4px; font-family:var(--mono); font-size:11px; color:var(--accent-2)}
+.preview-source{
+  flex:1; overflow:auto; padding:16px 22px; background:var(--bg-2); color:var(--fog);
+  font-family:var(--mono); font-size:11.5px; line-height:1.6; white-space:pre-wrap;
+}
+.preview-source .fm{color:var(--accent-2)}
+.preview-source .heading{color:#fff; font-weight:700}
 
-.panel h3.game-title{font-size:24px; color:#fff; margin:0 0 4px; letter-spacing:-.01em}
-.game-meta{color:var(--fog-dim); font-size:12.5px; display:flex; gap:14px; flex-wrap:wrap; margin-bottom:14px}
-.game-meta a{color:var(--accent-2)}
-.game-meta .k{color:var(--fog-faint); text-transform:uppercase; letter-spacing:.14em; font-size:10.5px; margin-right:4px}
+/* AUDIT (right) */
+.audit{display:flex; flex-direction:column; max-height:calc(100vh - 220px); overflow-y:auto}
+.audit-h{padding:14px 16px 8px}
+.audit-h h3{font-size:18px; color:#fff; margin:0; letter-spacing:-.01em}
+.audit-h .meta-row{color:var(--fog-dim); font-size:11px; display:flex; gap:10px; flex-wrap:wrap; margin-top:6px}
+.audit-h .meta-row .k{color:var(--fog-faint); text-transform:uppercase; letter-spacing:.12em; font-size:9.5px; margin-right:3px}
+.audit-h .meta-row a{color:var(--accent-2)}
+
+.audit-body{padding:0 16px 14px}
+.empty-audit{padding:60px 20px; text-align:center; color:var(--fog-dim)}
+.empty-audit h3{color:var(--fog); margin:0 0 6px; font-size:15px}
+.empty-audit p{margin:0; max-width:340px; margin-inline:auto; font-size:12px}
 
 .preloaded{
   border:1px dashed rgba(245,165,36,.35); background:rgba(245,165,36,.05);
-  border-radius:var(--r-sm); padding:12px 14px; margin-bottom:18px;
+  border-radius:var(--r-sm); padding:10px 12px; margin-bottom:14px;
 }
-.preloaded .label{color:var(--warn); font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; margin-bottom:6px}
-.preloaded ul{margin:0; padding-left:18px; color:var(--fog); font-size:12.5px; line-height:1.55}
-.preloaded li{padding:2px 0}
+.preloaded .label{color:var(--warn); font-size:9.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; margin-bottom:5px}
+.preloaded ul{margin:0; padding-left:16px; color:var(--fog); font-size:11.5px; line-height:1.55}
+.preloaded li{padding:1px 0}
 
-/* rubric */
-.rubric{display:flex; flex-direction:column; gap:8px; margin:6px 0 18px}
-.rline{
-  display:grid; grid-template-columns:30px 1fr 200px; gap:10px; align-items:start;
-  background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm); padding:10px 12px;
-}
-.rline .rkey{color:var(--accent-2); font-weight:800; font-size:13px}
-.rline .rdesc{color:var(--fog); font-size:12.5px; line-height:1.45}
-.rline .rdesc b{color:#fff}
-.rline .rdesc small{display:block; color:var(--fog-dim); margin-top:2px}
-.states{display:flex; gap:4px; flex-wrap:nowrap}
+/* rubric v2 */
+.rubric{display:flex; flex-direction:column; gap:8px; margin:6px 0 14px}
+.rline{background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm); padding:10px 12px}
+.rline-h{display:flex; align-items:flex-start; gap:10px}
+.rline .rkey{color:var(--accent-2); font-weight:800; font-size:12px; flex-shrink:0; padding-top:1px}
+.rline .rtext{flex:1; color:var(--fog); font-size:12px; line-height:1.4}
+.rline .rtext b{color:#fff}
+.rline .rwhere{color:var(--fog-dim); font-size:11px; margin-top:3px; line-height:1.45}
+.rline .rwhere .sec{color:var(--accent-2); font-weight:600; background:rgba(255,119,51,.08); padding:1px 5px; border-radius:4px}
+.expand{cursor:pointer; color:var(--fog-faint); font-size:11px; margin-top:4px; user-select:none}
+.expand:hover{color:var(--accent-2)}
+.rline .examples{display:none; margin-top:8px; padding:8px 10px; background:var(--bg-2); border-radius:var(--r-xs); border:1px solid var(--line); font-size:11px; line-height:1.5; color:var(--fog-dim)}
+.rline.open .examples{display:block}
+.rline .examples .ex{display:flex; gap:6px; padding:2px 0}
+.rline .examples .ex .m{font-weight:800; flex-shrink:0; min-width:18px}
+.rline .examples .ex .pass{color:var(--good)}
+.rline .examples .ex .cond{color:var(--warn)}
+.rline .examples .ex .fail{color:var(--bad)}
+
+.states{display:flex; gap:3px; margin-top:8px}
 .state{
-  flex:1; padding:6px 0; text-align:center; border:1px solid var(--line);
+  flex:1; padding:5px 0; text-align:center; border:1px solid var(--line);
   border-radius:var(--r-xs); background:var(--bg-2); cursor:pointer; color:var(--fog-dim);
-  font-size:11px; letter-spacing:.06em; font-weight:700;
+  font-size:10.5px; letter-spacing:.06em; font-weight:700;
 }
 .state:hover{color:#fff}
 .state.on.pass{background:rgba(34,201,138,.18); color:var(--good); border-color:rgba(34,201,138,.4)}
 .state.on.conditional{background:rgba(245,165,36,.18); color:var(--warn); border-color:rgba(245,165,36,.4)}
 .state.on.fail{background:rgba(239,90,90,.18); color:var(--bad); border-color:rgba(239,90,90,.4)}
 .state.on.na{background:rgba(255,255,255,.06); color:var(--fog); border-color:var(--line)}
-.rline .rnote{
-  grid-column:2 / span 2; margin-top:8px;
+.rnote{
+  margin-top:6px; width:100%;
   background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r-xs);
-  padding:7px 10px; color:var(--fog); width:100%; min-height:34px; outline:none; resize:vertical;
+  padding:6px 9px; color:var(--fog); min-height:28px; outline:none; resize:vertical; font-size:11.5px;
 }
-.rline .rnote::placeholder{color:var(--fog-faint)}
-.rline .rnote:focus{border-color:var(--rim)}
+.rnote::placeholder{color:var(--fog-faint)}
+.rnote:focus{border-color:var(--rim)}
 
 /* verdict */
-.verdict-row{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin:6px 0 18px}
+.verdict-row{display:grid; grid-template-columns:1fr 1fr; gap:6px; margin:6px 0 14px}
 .verdict{
-  padding:14px; border:1px solid var(--line); border-radius:var(--r-sm); cursor:pointer;
+  padding:10px; border:1px solid var(--line); border-radius:var(--r-sm); cursor:pointer;
   text-align:center; background:var(--raised); transition:all .15s;
 }
 .verdict:hover{border-color:var(--rim); color:#fff}
-.verdict .v{display:block; font-weight:800; letter-spacing:.06em; font-size:14px; color:var(--fog)}
-.verdict .vs{display:block; color:var(--fog-faint); font-size:11px; margin-top:4px}
+.verdict .v{display:block; font-weight:800; letter-spacing:.06em; font-size:12px; color:var(--fog)}
+.verdict .vs{display:block; color:var(--fog-faint); font-size:10px; margin-top:2px}
 .verdict.on.pass{background:rgba(34,201,138,.12); border-color:rgba(34,201,138,.4)}
 .verdict.on.pass .v{color:var(--good)}
 .verdict.on.conditional{background:rgba(245,165,36,.12); border-color:rgba(245,165,36,.4)}
@@ -187,57 +222,46 @@ header .lead{color:var(--fog-dim); margin-top:8px; max-width:680px; font-size:13
 .verdict.on.canonical{background:rgba(255,180,90,.12); border-color:rgba(255,180,90,.4)}
 .verdict.on.canonical .v{color:var(--accent-2)}
 
-.notes-row{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:18px}
-.notes-row .note{
-  background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm); padding:12px;
-}
-.notes-row .label{color:var(--accent-2); font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; margin-bottom:6px}
-.notes-row textarea{
+.notes-row{display:flex; flex-direction:column; gap:8px; margin-bottom:12px}
+.note{background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm); padding:10px 12px}
+.note .label{color:var(--accent-2); font-size:10px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; margin-bottom:5px}
+.note textarea{
   width:100%; background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r-xs);
-  padding:9px 11px; color:var(--fog); min-height:90px; outline:none; resize:vertical;
+  padding:7px 10px; color:var(--fog); min-height:60px; outline:none; resize:vertical; font-size:11.5px;
 }
-.notes-row textarea:focus{border-color:var(--rim)}
+.note textarea:focus{border-color:var(--rim)}
 
-.actions-row{display:flex; gap:8px; justify-content:flex-end; align-items:center; padding-top:8px; border-top:1px solid var(--line)}
-.actions-row .saved{color:var(--good); font-size:11.5px; opacity:0; transition:opacity .2s}
+.actions-row{display:flex; gap:6px; justify-content:flex-end; align-items:center; padding-top:8px; border-top:1px solid var(--line)}
+.actions-row .saved{color:var(--good); font-size:10.5px; opacity:0; transition:opacity .2s}
 .actions-row .saved.show{opacity:1}
-.last{color:var(--fog-faint); font-size:11px; margin-right:auto}
+.last{color:var(--fog-faint); font-size:10.5px; margin-right:auto}
 
-/* export modal */
-.modal{
-  position:fixed; inset:0; background:rgba(0,0,0,.6); display:none;
-  align-items:center; justify-content:center; padding:24px; z-index:1000;
-}
+/* modal */
+.modal{position:fixed; inset:0; background:rgba(0,0,0,.6); display:none; align-items:center; justify-content:center; padding:24px; z-index:1000}
 .modal.show{display:flex}
-.modal-box{
-  max-width:780px; width:100%; background:var(--bg-2); border:1px solid var(--rim);
-  border-radius:var(--r); padding:22px; max-height:85vh; display:flex; flex-direction:column;
-  box-shadow:0 30px 80px rgba(0,0,0,.6);
-}
+.modal-box{max-width:780px; width:100%; background:var(--bg-2); border:1px solid var(--rim); border-radius:var(--r); padding:22px; max-height:85vh; display:flex; flex-direction:column; box-shadow:0 30px 80px rgba(0,0,0,.6)}
 .modal-h{display:flex; justify-content:space-between; align-items:center; margin-bottom:14px}
 .modal-h h3{margin:0; color:#fff}
-.modal pre{
-  background:var(--bg); border:1px solid var(--line); border-radius:var(--r-sm);
-  padding:14px; color:var(--fog); font-family:var(--mono); font-size:12px;
-  overflow:auto; flex:1; margin:0 0 14px;
-}
+.modal pre{background:var(--bg); border:1px solid var(--line); border-radius:var(--r-sm); padding:14px; color:var(--fog); font-family:var(--mono); font-size:12px; overflow:auto; flex:1; margin:0 0 14px}
 .modal-actions{display:flex; gap:8px; justify-content:flex-end}
 
-@media (max-width:1000px){
-  .layout{grid-template-columns:1fr}
-  .list{position:static; max-height:none}
-  .stats{grid-template-columns:repeat(3,1fr)}
+@media (max-width:1280px){
+  .layout{grid-template-columns:240px 1fr 420px}
+}
+@media (max-width:1080px){
+  .layout{grid-template-columns:1fr; grid-template-rows:auto auto auto}
+  .list, .preview, .audit{max-height:none}
 }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <header>
+  <header class="top">
     <div>
-      <span class="eyebrow"><span class="dot"></span>Game Audit Console · Ecological MMA</span>
-      <h1 style="margin-top:10px">Audit a game, log the verdict, export the feedback.</h1>
-      <p class="lead">Each game gets a rubric pass (R1–R7), a verdict, and notes for the flare it needs. Saves to this browser, exports as markdown for me to act on. Pre-flagged defects from the QA findings and pressure-tests are surfaced inline so you don't repeat known issues.</p>
+      <span class="eyebrow"><span class="dot"></span>Audit Console v2</span>
+      <h1 style="margin-top:8px">Pick a game, read it on the live preview, grade against the rubric.</h1>
+      <p class="lead">The game sits in the middle pane. Each rubric line on the right tells you exactly where to look on the page and what good vs broken looks like. Save as you go; <b>Export feedback</b> when you've batched some.</p>
     </div>
     <div class="toolbar">
       <button class="btn btn-ghost" id="resetBtn" title="Wipe all local audits"><span class="ic">↺</span>Reset</button>
@@ -245,22 +269,49 @@ header .lead{color:var(--fog-dim); margin-top:8px; max-width:680px; font-size:13
     </div>
   </header>
 
-  <div class="stats" id="stats"></div>
+  <div class="settings">
+    <label>MkDocs URL</label>
+    <input id="baseUrl" type="text" value="http://127.0.0.1:8000" />
+    <label>Branch</label>
+    <input id="branch" type="text" value="library-expansion-2026-05-30" style="min-width:240px"/>
+    <span class="hint">Make sure mkdocs is serving locally: <code style="background:var(--raised); padding:2px 6px; border-radius:4px; color:var(--accent-2); font-family:var(--mono); font-size:11px">uvx --with mkdocs-material mkdocs serve</code></span>
+  </div>
 
+  <div class="stats" id="stats"></div>
   <div class="filters" id="filters"></div>
 
   <div class="layout">
-    <aside class="list">
+    <aside class="col list">
       <div class="list-h">
         <span class="count" id="listCount"></span>
-        <input id="search" type="search" placeholder="Search games…" />
+        <input id="search" type="search" placeholder="Search…" />
       </div>
-      <div id="gameList"></div>
+      <div class="list-body" id="gameList"></div>
     </aside>
-    <main class="panel" id="panel">
-      <div class="panel-empty">
-        <h3>Pick a game to audit</h3>
-        <p>Choose from the list to load the rubric, pre-flagged defects, and the notes form. Verdicts and notes save automatically to this browser, click <b>Export feedback</b> when you're ready to give me a batch.</p>
+
+    <section class="col preview">
+      <div class="preview-h">
+        <div class="tabs">
+          <div class="tab active" data-mode="live">Live preview</div>
+          <div class="tab" data-mode="source">Source (.md)</div>
+        </div>
+        <div class="right" id="previewRight"></div>
+      </div>
+      <div id="previewBody" style="flex:1; display:flex; flex-direction:column; min-height:600px">
+        <div class="preview-empty">
+          <div>
+            <div class="ic">📄</div>
+            <h3>No game selected</h3>
+            <p>Pick a game on the left. It loads here in the live preview (your local mkdocs server), with the rubric form on the right.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="col audit" id="audit">
+      <div class="empty-audit">
+        <h3>Audit panel</h3>
+        <p>Select a game from the list. Pre-flagged QA notes, the rubric, and your notes show up here.</p>
       </div>
     </main>
   </div>
@@ -322,7 +373,7 @@ const GAMES = [
   { slug:'ground-access', title:'Ground Access', env:'Ground', domain:'Grappling', focus:'Offensive', source:'library', fix:true, notes:['HIGH FIXED: circular positional-battle prereq removed → real prereqs (open-space-takedown, wall-to-ground).'] },
   { slug:'ground-control', title:'Ground Control', env:'Ground', domain:'Grappling', focus:'Offensive', source:'library', notes:['QA LOW: win duration only in pop, surface in Rules.'] },
   { slug:'ground-escape', title:'Ground Escape', env:'Ground', domain:'Grappling', focus:'Defensive', source:'library' },
-  { slug:'mount-escape', title:'Mount Escape', env:'Ground', domain:'Grappling', focus:'Defensive', source:'mixed', wip:false, notes:['NEW 2026-05-27. Template for the rest of the per-position ground block. SMGC + Souders influence, re-expressed.'] },
+  { slug:'mount-escape', title:'Mount Escape', env:'Ground', domain:'Grappling', focus:'Defensive', source:'mixed', notes:['NEW 2026-05-27. Template for the rest of the per-position ground block. SMGC + Souders influence, re-expressed.'] },
   { slug:'side-control-escape', title:'Side-Control Escape', env:'Ground', domain:'Grappling', focus:'Defensive', source:'mixed', notes:['NEW 2026-05-27. Mirror of mount-escape pattern.'] },
   { slug:'back-escape', title:'Back Escape', env:'Ground', domain:'Grappling', focus:'Defensive', source:'mixed', notes:['NEW 2026-05-27. Observable win = "arm under chin 3s"; mirror of back-control by attacker side.'] },
   { slug:'leg-reclaim', title:'Leg Reclaim', env:'Ground', domain:'Grappling', focus:'Defensive', source:'library', notes:['QA MED: "Win" tag is on TOP; the defensive protagonist has no labeled win. Hierarchy ladder worded 3 different ways across the page → standardize.'] },
@@ -332,27 +383,91 @@ const GAMES = [
   { slug:'positional-battle', title:'Positional Sparring (format)', env:'Ground', domain:'Mixed', focus:'Combined', source:'library', notes:['Demoted from a game to a format. Folded into Ground Control + Access as a live layer.'] },
 ];
 
-// ===== Rubric =====
+// ===== Rubric v2 — concrete guidance + examples =====
 const RUBRIC = [
-  { k:'R1', name:'One asymmetric representative start', sub:'Single clear start, not 2-3 alternates. The standup-loop / Positional Battle failure to avoid.' },
-  { k:'R2', name:'Observable win + threshold', sub:'Non-stall win for the dominant side, time/count for any hold. "As long as possible" fails this.' },
-  { k:'R3', name:'Both sides defined', sub:'Continuous side has a measured success, terminal side has observable events.' },
-  { k:'R4', name:'Non-circular real prereqs', sub:'Real, earnable, not the ground-access / positional-battle trap.' },
-  { k:'R5', name:'Representative for OUR system', sub:'Matches how YOU teach it. Class-audio cross-check, not just web sources.' },
-  { k:'R6', name:'Correct protagonist + consistency', sub:'The intended learner has the active win; copy is internally consistent.' },
-  { k:'R7', name:'Safety (subs / leglocks)', sub:'Slow finish, tap-early, no heel exposure for legs. N-A for non-submission games.' },
+  {
+    k:'R1', name:'One asymmetric representative start',
+    where:'Look at the page\'s <span class="sec">"Starting Position"</span> section.',
+    ask:'Is there exactly ONE start? Or does it list 2+ alternates (e.g. "or", "either", a comma-separated list)?',
+    examples:[
+      { m:'✓', cls:'pass', t:'<i>"Bottom flat under mount, top settled, hips low."</i> One position, one role split.' },
+      { m:'⚠', cls:'cond', t:'<i>"Settled mount or S-mount, both arms isolated overhead."</i> Two starts hidden in one sentence.' },
+      { m:'✗', cls:'fail', t:'<i>"Defender seated, turtle, or elbow-post, near the wall."</i> Three starts (this is the bug we just fixed in standup-loop).' },
+    ],
+  },
+  {
+    k:'R2', name:'Observable win + threshold',
+    where:'Look at <span class="sec">"How to Win"</span> on the page.',
+    ask:'Is the dominant side\'s win a concrete event? Does any held position have a stated number of seconds?',
+    examples:[
+      { m:'✓', cls:'pass', t:'<i>"Top isolates an arm clear of the body 3s"</i> + <i>"Holds mount 20s, no arm → reset"</i>. Concrete + clocked.' },
+      { m:'⚠', cls:'cond', t:'<i>"Maintain control"</i> with no count. Strong concept, missing the clock.' },
+      { m:'✗', cls:'fail', t:'<i>"Hold as long as possible"</i> or <i>"Land significantly"</i>. Subjective, no threshold (the public-corpus gap).' },
+    ],
+  },
+  {
+    k:'R3', name:'Both sides defined',
+    where:'Compare <span class="sec">"The Matchup"</span> with <span class="sec">"How to Win"</span>.',
+    ask:'Does the continuous side have a measured success (or an explicit no-win)? Does the terminal side have observable events?',
+    examples:[
+      { m:'✓', cls:'pass', t:'Top <i>"as long as possible"</i> + bottom <i>"stand / reverse / closed loop"</i>. Continuous threat + terminal escape, both defined.' },
+      { m:'⚠', cls:'cond', t:'One side clear, the other vague ("disrupt the position" with no measure).' },
+      { m:'✗', cls:'fail', t:'Both sides have unclear or symmetric objectives (the Positional Battle failure).' },
+    ],
+  },
+  {
+    k:'R4', name:'Non-circular prereqs',
+    where:'Look at the page\'s frontmatter <span class="sec">prerequisites</span> (or the "Where it sits" panel at the bottom).',
+    ask:'Are listed prereq games actually upstream? Do they build the skills this game uses?',
+    examples:[
+      { m:'✓', cls:'pass', t:'mount-escape prereqs ground-escape. Real upstream, smaller scope first.' },
+      { m:'⚠', cls:'cond', t:'Prereq exists but tangential ("counter-striking" for a wrestling game).' },
+      { m:'✗', cls:'fail', t:'Circular (ground-access used to require positional-battle, which required ground-access — fixed).' },
+    ],
+  },
+  {
+    k:'R5', name:'Representative for our system (matches how you teach it)',
+    where:'Read the whole page in your head; compare to how you\'d run it live.',
+    ask:'Does this match what you\'d teach? Win conditions feel right? Levels in the order you\'d run them? Your voice?',
+    examples:[
+      { m:'✓', cls:'pass', t:'"Yeah, that\'s how I run it. Maybe one phrasing tweak."' },
+      { m:'⚠', cls:'cond', t:'"Mostly right, but the levels are out of order" or "I\'d use this cue, not that one".' },
+      { m:'✗', cls:'fail', t:'"I don\'t teach this position this way at all" — full rewrite needed.' },
+    ],
+  },
+  {
+    k:'R6', name:'Correct protagonist + internal consistency',
+    where:'Match the protagonist in <span class="sec">"Starting Position"</span> against who has the active win in <span class="sec">"How to Win"</span>.',
+    ask:'The page\'s named protagonist (e.g. defender for an escape game) — do they actually have the win? Are labels consistent across sections?',
+    examples:[
+      { m:'✓', cls:'pass', t:'Mount Escape page = bottom is the protagonist + bottom has the win. Aligned.' },
+      { m:'⚠', cls:'cond', t:'Labels drift across sections ("attacker" vs "top" used inconsistently).' },
+      { m:'✗', cls:'fail', t:'Wrong protagonist gets the win tag — Leg Reclaim has "Win" on TOP but the page is defensive (QA flag).' },
+    ],
+  },
+  {
+    k:'R7', name:'Safety adequate (submissions / leglocks)',
+    where:'Look at <span class="sec">"Safety & related games"</span> + Levels stepper.',
+    ask:'For submissions, is the finish slow + tap-early explicit? For leglocks, is heel-hiding / no-explosive-escape stated?',
+    examples:[
+      { m:'✓', cls:'pass', t:'"Slow finish, tap early, no heel exposure" stated explicitly. SAFETY note prominent.' },
+      { m:'⚠', cls:'cond', t:'Some safety language but vague; "controlled grappling" without specifics.' },
+      { m:'✗', cls:'fail', t:'Live submissions without slow rule, or a leg game without a heel-exposure ban.' },
+      { m:'N/A', cls:'cond', t:'Use N/A for striking-only or non-submission games.' },
+    ],
+  },
 ];
 
 // ===== State =====
-const STORAGE_KEY = 'ecomma-audit-v1';
+const STORAGE_KEY = 'ecomma-audit-v2';
 let state = loadState();
-let active = null; // currently-selected slug
+let active = null;
 let filter = 'all';
 let search = '';
+let previewMode = 'live'; // 'live' or 'source'
+let sourceCache = {}; // slug → text
 
-function loadState(){
-  try{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ return {}; }
-}
+function loadState(){ try{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){ return {}; } }
 function saveState(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
 function getAudit(slug){ return state[slug] || null; }
 function setAudit(slug, patch){
@@ -362,7 +477,20 @@ function setAudit(slug, patch){
   state[slug] = cur; saveState();
 }
 
-// ===== Rendering =====
+// settings persistence
+const SETTINGS_KEY = 'ecomma-audit-settings-v2';
+const settings = (()=>{
+  try{ return JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}'); } catch(e){ return {}; }
+})();
+function saveSettings(){ localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings)); }
+function getBaseUrl(){ return (settings.baseUrl || document.getElementById('baseUrl').value || 'http://127.0.0.1:8000').replace(/\/$/, ''); }
+function getBranch(){ return settings.branch || document.getElementById('branch').value || 'library-expansion-2026-05-30'; }
+
+if(settings.baseUrl) document.getElementById('baseUrl').value = settings.baseUrl;
+if(settings.branch) document.getElementById('branch').value = settings.branch;
+document.getElementById('baseUrl').addEventListener('change', e=>{ settings.baseUrl = e.target.value; saveSettings(); if(active) loadPreview(active); });
+document.getElementById('branch').addEventListener('change', e=>{ settings.branch = e.target.value; saveSettings(); if(active && previewMode==='source') loadSource(active); });
+
 function envColor(env){
   if(env==='Skill Isolation') return '#7aa9ff';
   if(env==='Open Space') return '#ffb45a';
@@ -376,17 +504,14 @@ function badgeFor(verdict){
   const map = { pass:'PASS', conditional:'COND', notyet:'NOT-YET', canonical:'CANONICAL' };
   return `<span class="badge ${verdict}">${map[verdict]||verdict.toUpperCase()}</span>`;
 }
+function escapeHtml(s){ return (s||'').replace(/[&<>"']/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m])); }
 
 function renderStats(){
   const counts = { total:GAMES.length, audited:0, pass:0, conditional:0, notyet:0, canonical:0 };
-  for(const g of GAMES){
-    const a = getAudit(g.slug);
-    if(a && a.verdict){ counts.audited++; counts[a.verdict] = (counts[a.verdict]||0) + 1; }
-  }
-  const el = document.getElementById('stats');
-  el.innerHTML = `
-    <div class="stat"><div class="n">${counts.total}</div><div class="l">Total games</div></div>
-    <div class="stat"><div class="n">${counts.audited}</div><div class="l">Audited so far</div></div>
+  for(const g of GAMES){ const a = getAudit(g.slug); if(a && a.verdict){ counts.audited++; counts[a.verdict] = (counts[a.verdict]||0) + 1; } }
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><div class="n">${counts.total}</div><div class="l">Games</div></div>
+    <div class="stat"><div class="n">${counts.audited}</div><div class="l">Audited</div></div>
     <div class="stat pass"><div class="n">${counts.pass}</div><div class="l">Pass</div></div>
     <div class="stat conditional"><div class="n">${counts.conditional}</div><div class="l">Conditional</div></div>
     <div class="stat canonical"><div class="n">${counts.canonical}</div><div class="l">Canonical</div></div>`;
@@ -407,16 +532,14 @@ function renderFilters(){
     }
   }
   const items = [
-    ['all','All games'], ['pending','Not yet audited'], ['flagged','Has QA flag'],
-    ['fixed','Recently fixed'], ['wip','WIP'], ['alex','Alex-original'],
+    ['all','All'], ['pending','Pending'], ['flagged','QA flag'],
+    ['fixed','Fixed'], ['wip','WIP'], ['alex','Alex-original'],
     ['pass','Pass'], ['conditional','Conditional'], ['canonical','Canonical'],
   ];
   document.getElementById('filters').innerHTML = items.map(([key,label])=>
     `<span class="chip${filter===key?' active':''}" data-filter="${key}">${label}<span class="count">${counts[key]||0}</span></span>`
   ).join('');
-  document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', e=>{
-    filter = e.currentTarget.dataset.filter; render();
-  }));
+  document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', e=>{ filter = e.currentTarget.dataset.filter; render(); }));
 }
 function matches(g){
   const a = getAudit(g.slug);
@@ -434,113 +557,175 @@ function matches(g){
 function renderList(){
   const q = search.trim().toLowerCase();
   const list = GAMES.filter(g => matches(g) && (!q || g.title.toLowerCase().includes(q) || g.slug.includes(q)));
-  document.getElementById('listCount').textContent = `${list.length} of ${GAMES.length} games`;
+  document.getElementById('listCount').textContent = `${list.length}/${GAMES.length}`;
   document.getElementById('gameList').innerHTML = list.map(g => {
     const a = getAudit(g.slug);
     const tags = [];
     if(g.wip) tags.push('<span class="tag wip">WIP</span>');
-    if(g.source==='alex') tags.push('<span class="tag alex">Alex-original</span>');
-    if(g.fix) tags.push('<span class="tag fix">Recently fixed</span>');
-    if(g.notes && g.notes.length && !g.fix) tags.push('<span class="tag flag">QA flag</span>');
+    if(g.source==='alex') tags.push('<span class="tag alex">Alex</span>');
+    if(g.fix) tags.push('<span class="tag fix">Fixed</span>');
+    if(g.notes && g.notes.length && !g.fix) tags.push('<span class="tag flag">Flag</span>');
     return `
       <div class="row${active===g.slug?' active':''}" data-slug="${g.slug}">
-        <div class="t">
-          <span class="name">${g.title}</span>
-          ${badgeFor(a && a.verdict)}
-        </div>
-        <div class="meta" style="color:${envColor(g.env)}">${g.env} · ${g.domain} · ${g.focus}</div>
+        <div class="t"><span class="name">${g.title}</span>${badgeFor(a && a.verdict)}</div>
+        <div class="meta" style="color:${envColor(g.env)}">${g.env} · ${g.focus}</div>
         <div class="tags">${tags.join('')}</div>
       </div>`;
-  }).join('') || `<div style="color:var(--fog-faint); padding:14px; text-align:center; font-size:12px">No games match this filter.</div>`;
-  document.querySelectorAll('.row').forEach(r => r.addEventListener('click', e=>{
-    active = e.currentTarget.dataset.slug; render();
-  }));
+  }).join('') || `<div style="color:var(--fog-faint); padding:14px; text-align:center; font-size:11px">No games match this filter.</div>`;
+  document.querySelectorAll('.row').forEach(r => r.addEventListener('click', e=>{ selectGame(e.currentTarget.dataset.slug); }));
 }
 
-function renderPanel(){
-  const panel = document.getElementById('panel');
+function selectGame(slug){
+  active = slug;
+  renderList(); renderAudit();
+  loadPreview(slug);
+}
+
+function loadPreview(slug){
+  const base = getBaseUrl();
+  const liveUrl = `${base}/games/${slug}/`;
+  const body = document.getElementById('previewBody');
+  document.getElementById('previewRight').innerHTML = `<a href="${liveUrl}" target="_blank">open in tab ↗</a>`;
+  if(previewMode==='live'){
+    body.innerHTML = `<iframe class="preview-frame" id="iframe" src="${liveUrl}" onerror="document.getElementById('previewBody').innerHTML='<div class=\\'preview-empty\\'><div><div class=\\'ic\\'>⚠</div><h3>Couldn\\'t load preview</h3><p>Is mkdocs serving at <code>'+'${base}'+'</code>? Run <code>uvx --with mkdocs-material mkdocs serve</code> and refresh.</p></div></div>'"></iframe>`;
+  } else {
+    body.innerHTML = `<div class="preview-source" id="source">Loading source…</div>`;
+    loadSource(slug);
+  }
+}
+
+async function loadSource(slug){
+  const el = document.getElementById('source'); if(!el) return;
+  if(sourceCache[slug]){ el.innerHTML = highlightMarkdown(sourceCache[slug]); return; }
+  const branch = getBranch();
+  const url = `https://raw.githubusercontent.com/ACalienes/Ecological-MMA-Game-System/${branch}/docs/games/${slug}.md`;
+  try{
+    const r = await fetch(url);
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const text = await r.text();
+    sourceCache[slug] = text;
+    el.innerHTML = highlightMarkdown(text);
+  } catch(e){
+    el.innerHTML = `<div class="preview-empty" style="padding:24px"><div><div class="ic">⚠</div><h3>Couldn't fetch source</h3><p>Tried <code>${escapeHtml(url)}</code>. Check the branch field above. (Network or 404.)</p></div></div>`;
+  }
+}
+
+function highlightMarkdown(text){
+  // Light highlighting for readability — front-matter colored, headings bold
+  const escaped = escapeHtml(text);
+  return escaped
+    .replace(/^---([\s\S]*?)---/, (m, fm)=>`<span class="fm">---${fm}---</span>`)
+    .replace(/^(#+\s+.+)$/gm, '<span class="heading">$1</span>')
+    .replace(/^&lt;p class=&quot;emma-glabel&quot;&gt;(.+?)&lt;\/p&gt;/gm, '<span class="heading">▸ $1</span>');
+}
+
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click', e=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  e.currentTarget.classList.add('active');
+  previewMode = e.currentTarget.dataset.mode;
+  if(active) loadPreview(active);
+}));
+
+function renderAudit(){
+  const audit = document.getElementById('audit');
   if(!active){
-    panel.innerHTML = `<div class="panel-empty"><h3>Pick a game to audit</h3><p>Choose from the list to load the rubric, pre-flagged defects, and the notes form. Verdicts and notes save automatically to this browser, click <b>Export feedback</b> when you're ready to give me a batch.</p></div>`;
+    audit.innerHTML = `<div class="empty-audit"><h3>Audit panel</h3><p>Select a game from the list. Pre-flagged QA notes, the rubric, and your notes show up here.</p></div>`;
     return;
   }
   const g = GAMES.find(x => x.slug===active);
   const a = state[g.slug] || { rubric:{}, notes:{}, verdict:null, flare:'', action:'' };
+  const live = `${getBaseUrl()}/games/${g.slug}/`;
+  const repoUrl = `https://github.com/ACalienes/Ecological-MMA-Game-System/blob/${getBranch()}/docs/games/${g.slug}.md`;
 
   const preNotes = g.notes && g.notes.length ? `
     <div class="preloaded">
-      <div class="label">Pre-flagged from QA / pressure-tests</div>
+      <div class="label">Pre-flagged (QA + pressure-tests)</div>
       <ul>${g.notes.map(n=>`<li>${n}</li>`).join('')}</ul>
     </div>` : '';
 
-  const rubric = RUBRIC.map(r => {
+  const rubricHtml = RUBRIC.map(r => {
     const v = (a.rubric||{})[r.k] || '';
     const n = (a.notes||{})[r.k] || '';
+    const exs = r.examples.map(e=>`<div class="ex"><span class="m ${e.cls}">${e.m}</span><span>${e.t}</span></div>`).join('');
     return `
-      <div class="rline" data-rkey="${r.k}">
-        <div class="rkey">${r.k}</div>
-        <div class="rdesc"><b>${r.name}</b><small>${r.sub}</small></div>
+      <div class="rline ${a._open && a._open[r.k] ? 'open' : ''}" data-rkey="${r.k}">
+        <div class="rline-h">
+          <div class="rkey">${r.k}</div>
+          <div>
+            <div class="rtext"><b>${r.name}</b></div>
+            <div class="rwhere">${r.where} <b>${r.ask}</b></div>
+            <div class="expand" data-toggle="${r.k}">${a._open && a._open[r.k] ? '▴ hide examples' : '▾ show examples of ✓ ⚠ ✗'}</div>
+            <div class="examples">${exs}</div>
+          </div>
+        </div>
         <div class="states">
-          <div class="state pass ${v==='pass'?'on':''}" data-state="pass">✓</div>
-          <div class="state conditional ${v==='conditional'?'on':''}" data-state="conditional">⚠</div>
-          <div class="state fail ${v==='fail'?'on':''}" data-state="fail">✗</div>
+          <div class="state pass ${v==='pass'?'on':''}" data-state="pass">✓ Pass</div>
+          <div class="state conditional ${v==='conditional'?'on':''}" data-state="conditional">⚠ Cond</div>
+          <div class="state fail ${v==='fail'?'on':''}" data-state="fail">✗ Fail</div>
           <div class="state na ${v==='na'?'on':''}" data-state="na">N/A</div>
         </div>
-        <textarea class="rnote" data-rkey="${r.k}" placeholder="Optional note for ${r.k} (defect, fix, your phrasing…)">${escapeHtml(n)}</textarea>
+        <textarea class="rnote" data-rkey="${r.k}" placeholder="What you saw (optional)">${escapeHtml(n)}</textarea>
       </div>`;
   }).join('');
 
   const verdicts = [
-    ['pass','Pass','Build-ready / good as written'],
-    ['conditional','Conditional','Strong, one named defect to fix'],
-    ['notyet','Not-yet','Not a game yet, or meta-format'],
-    ['canonical','Canonical','Blessed, drop the WIP tag'],
+    ['pass','Pass','Build-ready'],
+    ['conditional','Conditional','One named defect'],
+    ['notyet','Not-yet','Not a game'],
+    ['canonical','Canonical','Drop WIP tag'],
   ].map(([k,n,s])=>`<div class="verdict ${a.verdict===k?'on':''} ${k}" data-verdict="${k}"><span class="v">${n}</span><span class="vs">${s}</span></div>`).join('');
 
-  const live = `https://github.com/ACalienes/Ecological-MMA-Game-System/blob/main/docs/games/${g.slug}.md`;
-  panel.innerHTML = `
-    <h3 class="game-title">${g.title}</h3>
-    <div class="game-meta">
-      <span><span class="k">Env</span>${g.env}</span>
-      <span><span class="k">Domain</span>${g.domain}</span>
-      <span><span class="k">Focus</span>${g.focus}</span>
-      <span><span class="k">Source</span>${g.source||'library'}${g.wip?' · WIP':''}</span>
-      <span><a href="${live}" target="_blank">source.md ↗</a></span>
-    </div>
-    ${preNotes}
-
-    <h2>Rubric</h2>
-    <div class="rubric">${rubric}</div>
-
-    <h2>Verdict</h2>
-    <div class="verdict-row">${verdicts}</div>
-
-    <h2>Notes</h2>
-    <div class="notes-row">
-      <div class="note">
-        <div class="label">Flare needed (our voice, framing, levels)</div>
-        <textarea id="flare" placeholder="E.g. rename the level 4 step; sharper observable for the win; add my preferred cue 'where is the choke arm?'…">${escapeHtml(a.flare||'')}</textarea>
-      </div>
-      <div class="note">
-        <div class="label">Action / decision</div>
-        <textarea id="action" placeholder="E.g. ship it; drop WIP tag; rewrite L2; ask me about X next session…">${escapeHtml(a.action||'')}</textarea>
+  audit.innerHTML = `
+    <div class="audit-h">
+      <h3>${g.title}</h3>
+      <div class="meta-row">
+        <span><span class="k">Env</span>${g.env}</span>
+        <span><span class="k">Domain</span>${g.domain}</span>
+        <span><span class="k">Focus</span>${g.focus}</span>
+        <span><span class="k">Source</span>${g.source||'library'}${g.wip?' · WIP':''}</span>
+        <span><a href="${live}" target="_blank">live page ↗</a></span>
+        <span><a href="${repoUrl}" target="_blank">source.md ↗</a></span>
       </div>
     </div>
-
-    <div class="actions-row">
-      <span class="last">${a.updated ? 'Last saved ' + new Date(a.updated).toLocaleString() : 'Not saved yet'}</span>
-      <span class="saved" id="savedTag">Saved ✓</span>
-      <button class="btn" id="clearOne">Clear this audit</button>
+    <div class="audit-body">
+      ${preNotes}
+      <h2>Rubric · what to check on the page</h2>
+      <div class="rubric">${rubricHtml}</div>
+      <h2>Verdict</h2>
+      <div class="verdict-row">${verdicts}</div>
+      <div class="notes-row">
+        <div class="note">
+          <div class="label">Flare needed (your voice, framing, level order, cues)</div>
+          <textarea id="flare" placeholder="E.g. rename L4 to 'attack the post'; my preferred cue is 'where is the choke arm?'…">${escapeHtml(a.flare||'')}</textarea>
+        </div>
+        <div class="note">
+          <div class="label">Action / decision</div>
+          <textarea id="action" placeholder="E.g. ship it; drop WIP; rewrite L2; ask me about X next session…">${escapeHtml(a.action||'')}</textarea>
+        </div>
+      </div>
+      <div class="actions-row">
+        <span class="last">${a.updated ? 'Saved ' + new Date(a.updated).toLocaleString() : 'Not saved'}</span>
+        <span class="saved" id="savedTag">Saved ✓</span>
+        <button class="btn btn-sm" id="clearOne">Clear</button>
+      </div>
     </div>`;
 
-  // Bind state controls
-  panel.querySelectorAll('.rline').forEach(line => {
+  // Bind controls
+  audit.querySelectorAll('.expand').forEach(x => x.addEventListener('click', e=>{
+    const rk = e.currentTarget.dataset.toggle;
+    const cur = state[g.slug] || {};
+    cur._open = cur._open || {};
+    cur._open[rk] = !cur._open[rk];
+    state[g.slug] = cur; saveState(); renderAudit();
+  }));
+  audit.querySelectorAll('.rline').forEach(line => {
     const rk = line.dataset.rkey;
     line.querySelectorAll('.state').forEach(s => s.addEventListener('click', e=>{
       const st = e.currentTarget.dataset.state;
       const cur = state[g.slug] || {};
       cur.rubric = Object.assign({}, cur.rubric||{}, { [rk]: cur.rubric && cur.rubric[rk]===st ? '' : st });
       state[g.slug] = cur; setAudit(g.slug, cur);
-      pulseSaved(); render(); // re-render to reflect toggle
+      pulseSaved(); renderAudit();
     }));
     line.querySelector('.rnote').addEventListener('input', e=>{
       const cur = state[g.slug] || {};
@@ -549,59 +734,48 @@ function renderPanel(){
       pulseSaved();
     });
   });
-  panel.querySelectorAll('.verdict').forEach(v => v.addEventListener('click', e=>{
+  audit.querySelectorAll('.verdict').forEach(v => v.addEventListener('click', e=>{
     const k = e.currentTarget.dataset.verdict;
     const cur = state[g.slug] || {};
     cur.verdict = cur.verdict === k ? null : k;
     state[g.slug] = cur; setAudit(g.slug, cur);
-    pulseSaved(); render();
+    pulseSaved(); renderAudit();
   }));
-  panel.querySelector('#flare').addEventListener('input', e=>{
-    setAudit(g.slug, { flare: e.target.value }); pulseSaved();
-  });
-  panel.querySelector('#action').addEventListener('input', e=>{
-    setAudit(g.slug, { action: e.target.value }); pulseSaved();
-  });
-  panel.querySelector('#clearOne').addEventListener('click', ()=>{
-    if(confirm('Clear the audit for "'+g.title+'"?')){
-      delete state[g.slug]; saveState(); render();
-    }
+  audit.querySelector('#flare').addEventListener('input', e=>{ setAudit(g.slug, { flare: e.target.value }); pulseSaved(); });
+  audit.querySelector('#action').addEventListener('input', e=>{ setAudit(g.slug, { action: e.target.value }); pulseSaved(); });
+  audit.querySelector('#clearOne').addEventListener('click', ()=>{
+    if(confirm('Clear the audit for "'+g.title+'"?')){ delete state[g.slug]; saveState(); renderAudit(); renderStats(); renderFilters(); renderList(); }
   });
 }
 
 let pulseTimer = null;
 function pulseSaved(){
-  const el = document.getElementById('savedTag');
-  if(!el) return;
+  const el = document.getElementById('savedTag'); if(!el) return;
   el.classList.add('show');
   clearTimeout(pulseTimer);
   pulseTimer = setTimeout(()=>el.classList.remove('show'), 800);
-  renderStats(); renderFilters(); // numbers may have changed
+  renderStats(); renderFilters();
 }
-function escapeHtml(s){ return (s||'').replace(/[&<>"']/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m])); }
 
-function render(){ renderStats(); renderFilters(); renderList(); renderPanel(); }
+function render(){ renderStats(); renderFilters(); renderList(); renderAudit(); }
 
 // ===== Export =====
 function buildExport(){
-  const audited = GAMES.filter(g => {
-    const a = getAudit(g.slug); return a && (a.verdict || (a.flare||a.action) || Object.values(a.notes||{}).some(x=>x));
-  });
-  if(!audited.length) return '# Audit feedback\n\n*(no audits with content yet — make some verdicts or notes)*';
-
+  const audited = GAMES.filter(g => { const a = getAudit(g.slug); return a && (a.verdict || (a.flare||a.action) || Object.values(a.notes||{}).some(x=>x)); });
+  if(!audited.length) return '# Audit feedback\n\n*(no audits with content yet)*';
   let md = `# Audit feedback — ${new Date().toISOString().slice(0,10)}\n\nFrom the audit console; ${audited.length} games with audits.\n\n---\n`;
   for(const g of audited){
     const a = state[g.slug];
     md += `\n## ${g.title} (${g.slug})\n\n`;
     md += `Status: **${a.verdict ? a.verdict.toUpperCase() : 'NO VERDICT'}**  ·  Updated: ${a.updated ? a.updated.slice(0,16).replace('T',' ') : 'n/a'}\n\n`;
     md += `Env / Domain / Focus: ${g.env} · ${g.domain} · ${g.focus}\n\n`;
-    if(g.wip) md += `*Tagged WIP.* `;
-    if(g.source==='alex') md += `*Alex-original.* `;
-    if(g.fix) md += `*Recently fixed.* `;
-    if(g.wip || g.source==='alex' || g.fix) md += `\n\n`;
+    const tags = [];
+    if(g.wip) tags.push('WIP');
+    if(g.source==='alex') tags.push('Alex-original');
+    if(g.fix) tags.push('Recently fixed');
+    if(tags.length) md += `*${tags.join(' · ')}*\n\n`;
     const rubricLines = RUBRIC.map(r=>{
-      const v = (a.rubric||{})[r.k];
-      const n = (a.notes||{})[r.k];
+      const v = (a.rubric||{})[r.k]; const n = (a.notes||{})[r.k];
       if(!v && !n) return null;
       const label = v==='pass'?'✓':v==='conditional'?'⚠':v==='fail'?'✗':v==='na'?'N/A':'·';
       return `- **${r.k}** ${label} ${r.name}${n ? ' — ' + n.replace(/\n/g,' ') : ''}`;
@@ -615,18 +789,15 @@ function buildExport(){
 }
 
 document.getElementById('exportBtn').addEventListener('click', ()=>{
-  const md = buildExport();
-  document.getElementById('exportText').textContent = md;
+  document.getElementById('exportText').textContent = buildExport();
   document.getElementById('modal').classList.add('show');
 });
-document.getElementById('modalClose').addEventListener('click', ()=>{
-  document.getElementById('modal').classList.remove('show');
-});
+document.getElementById('modalClose').addEventListener('click', ()=>document.getElementById('modal').classList.remove('show'));
 document.getElementById('copyBtn').addEventListener('click', async ()=>{
   const md = document.getElementById('exportText').textContent;
   try{ await navigator.clipboard.writeText(md);
     document.getElementById('copyBtn').textContent = '✓ Copied'; setTimeout(()=>document.getElementById('copyBtn').textContent='📋 Copy to clipboard', 1500);
-  } catch(e){ alert('Copy failed; you can select-all in the box and copy manually.'); }
+  } catch(e){ alert('Copy failed; select-all in the box and copy manually.'); }
 });
 document.getElementById('downloadBtn').addEventListener('click', ()=>{
   const md = document.getElementById('exportText').textContent;
@@ -637,9 +808,7 @@ document.getElementById('downloadBtn').addEventListener('click', ()=>{
   document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
 });
 document.getElementById('resetBtn').addEventListener('click', ()=>{
-  if(confirm('Wipe ALL local audits? This cannot be undone.')){
-    state = {}; saveState(); active = null; render();
-  }
+  if(confirm('Wipe ALL local audits?')){ state = {}; saveState(); active = null; render(); document.getElementById('previewBody').innerHTML = `<div class="preview-empty"><div><div class="ic">📄</div><h3>No game selected</h3><p>Pick a game on the left.</p></div></div>`; }
 });
 document.getElementById('search').addEventListener('input', e=>{ search = e.target.value; renderList(); });
 
