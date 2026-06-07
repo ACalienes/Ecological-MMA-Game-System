@@ -1,6 +1,6 @@
 # System Map
 
-<div class="emma-meta"><span>Visual Navigation</span><span>All 33 Games</span><span>Environment → Finish</span></div>
+<div class="emma-meta"><span>Visual Navigation</span><span>All 42 Games</span><span>Environment → Finish</span></div>
 
 <p class="emma-hl"><b>The fight is cyclical.</b> You move between environments until someone finishes, and every path has a reverse. This map routes you from foundation skills through every game to a finish.</p>
 
@@ -190,8 +190,12 @@ Horizontal grappling. You arrive via takedown or knockdown.
 
 <div class="emma-cards">
   <a class="emma-card" href="../../games/ground-escape/"><div class="emma-card__i">🚪</div><div class="emma-card__t">Ground Escape</div><p>Basic escapes from bottom.</p></a>
+  <a class="emma-card" href="../../games/mount-escape/"><div class="emma-card__i">⛰️</div><div class="emma-card__t">Mount Escape</div><p>Frame and bridge from under mount.</p></a>
+  <a class="emma-card" href="../../games/side-control-escape/"><div class="emma-card__i">📐</div><div class="emma-card__t">Side-Control Escape</div><p>Recover before the position advances.</p></a>
+  <a class="emma-card" href="../../games/back-escape/"><div class="emma-card__i">🎒</div><div class="emma-card__t">Back Escape</div><p>Defend the neck, turn to face.</p></a>
   <a class="emma-card" href="../../games/leg-reclaim/"><div class="emma-card__i">🦵</div><div class="emma-card__t">Leg Reclaim</div><p>Guard recovery.</p></a>
   <a class="emma-card" href="../../games/ground-to-standing/"><div class="emma-card__i">🧍</div><div class="emma-card__t">Ground to Standing</div><p>Technical stand-up.</p></a>
+  <a class="emma-card" href="../../games/turtle-breakout/"><div class="emma-card__i">🔗</div><div class="emma-card__t">Turtle Breakout (WIP)</div><p>Stand and face before the hands connect.</p></a>
   <a class="emma-card" href="../../games/ground-defensive-submission/"><div class="emma-card__i">🔒</div><div class="emma-card__t">Ground Defensive Submission</div><p>Submissions from bottom.</p></a>
 </div>
 
@@ -206,6 +210,7 @@ Horizontal grappling. You arrive via takedown or knockdown.
 
 <div class="emma-cards">
   <a class="emma-card" href="../../games/positional-battle/"><div class="emma-card__i">⚔️</div><div class="emma-card__t">Positional Sparring</div><p>The live layer: both compete for position from any ground start.</p></a>
+  <a class="emma-card" href="../../games/win-ladder/"><div class="emma-card__i">🪜</div><div class="emma-card__t">Win Ladder (format, WIP)</div><p>Self-scaling overlay: every win demotes your next start a rung.</p></a>
 </div>
 
 ---

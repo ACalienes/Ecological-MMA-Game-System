@@ -61,6 +61,18 @@
 
     The <b>GREEN → AMBER → GREEN</b> flow also respects <b>hysteresis</b> (p. 250): a system's current state depends on its <i>history/trajectory</i>, not just present conditions. A pattern entered under amber-zone pressure persists, so the order in which you pass through the zones matters, you cannot treat a session as path-independent. (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
 
+<p class="emma-glabel">The 30-Second Game Plan</p>
+
+<p class="emma-hl">A standing ritual before every game: after the rules are stated, athletes take <b>30 seconds</b> to set a plan. The prompt: <b>"What are the things I can genuinely test to solve this problem?"</b> Not a script to execute, a hypothesis to run. When it fails, that's data: try something different on purpose, and cycle through options until one works.</p>
+
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Before the game</div><p>30 seconds, one plan, stated to yourself.<span class="emma-pop">The plan makes the game a deliberate experiment instead of a brawl. It also exposes shark eyes early: if the plan is "land strikes" and the win condition is the wall, the plan is wrong.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔬</div><div class="emma-card__t">During the game</div><p>Treat failure as a result, not a verdict.<span class="emma-pop">The faster you realize the thing you did didn't work and try something different on purpose, the faster you cycle through options and find one that works. Frustration repeats; experiments iterate.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔍</div><div class="emma-card__t">Test the stated rules</div><p>Only the spoken constraints bind.<span class="emma-pop">"Nobody said the elbows go on the ground. All I said was turtle." Athletes who probe the legal space of a rule set find solutions the coach didn't prescribe, exactly the point.</span></p></div>
+</div>
+
+<p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Captured from class, 2026-06-06. Pairs with the Session Debrief below: the plan opens the loop, the debrief closes it.</p>
+
 <p class="emma-glabel">Scaling Difficulty: The Two Dials</p>
 
 <div class="emma-cards">

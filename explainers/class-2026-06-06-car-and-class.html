@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Car + Class · 2026-06-06 · The System Talking to Itself</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{
+  --bg:#0b0b0e; --bg-2:#13131a; --raised:#1c1c25; --raised-2:#252531;
+  --fog:#cfd0d6; --fog-dim:#8d8e98; --fog-faint:#5a5b66;
+  --accent:#ff7733; --accent-2:#ffb45a; --amber:#f5a524;
+  --car:#4cc3ff; --car-dim:rgba(76,195,255,.14); --car-rim:rgba(76,195,255,.3);
+  --good:#22c98a; --warn:#f5a524; --bad:#ef5a5a;
+  --rim:rgba(255,119,51,.22); --line:rgba(255,255,255,.07);
+  --shadow:0 12px 40px rgba(0,0,0,.45);
+  --r:14px; --r-sm:8px;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --ui:-apple-system,BlinkMacSystemFont,Inter,Segoe UI,Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:radial-gradient(1200px 600px at 50% -10%,#1a0d05 0%,var(--bg) 60%) fixed;
+  color:var(--fog); font:15px/1.55 var(--ui); -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent-2); text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1100px; margin:0 auto; padding:48px 32px 96px}
+h1,h2,h3{font-weight:700; letter-spacing:-.01em; color:#fff; margin:0}
+h1{font-size:46px; line-height:1.05}
+h2{font-size:22px; margin:48px 0 18px}
+small{color:var(--fog-dim)}
+.eyebrow{display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border:1px solid var(--rim); border-radius:999px; background:rgba(255,119,51,.06); color:var(--accent-2); font-size:12px; letter-spacing:.16em; text-transform:uppercase}
+.eyebrow .dot{width:6px; height:6px; border-radius:999px; background:var(--accent); box-shadow:0 0 8px var(--accent)}
+.lead{color:var(--fog); font-size:18px; max-width:820px; margin:18px 0 0}
+.accent{color:var(--accent-2)}
+.carc{color:var(--car)}
+.muted{color:var(--fog-dim)}
+.subnote{color:var(--fog-dim); margin:-8px 0 14px}
+
+.hero{
+  margin-top:22px;
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(255,119,51,.08),rgba(255,119,51,0) 40%), var(--bg-2);
+  border-radius:var(--r);
+  padding:32px 32px 28px;
+  box-shadow:var(--shadow);
+  position:relative; overflow:hidden;
+}
+.hero::after{
+  content:""; position:absolute; right:-80px; top:-80px; width:300px; height:300px;
+  background:radial-gradient(closest-side,rgba(255,119,51,.18),transparent 70%);
+  pointer-events:none;
+}
+.hero::before{
+  content:""; position:absolute; left:-100px; bottom:-120px; width:320px; height:320px;
+  background:radial-gradient(closest-side,rgba(76,195,255,.10),transparent 70%);
+  pointer-events:none;
+}
+.hero-meta{display:flex; gap:18px; flex-wrap:wrap; margin-top:14px; color:var(--fog-dim); font-size:13px}
+.hero-meta span{display:inline-flex; align-items:center; gap:6px}
+.hero-meta .k{color:var(--accent-2); font-weight:600; text-transform:uppercase; letter-spacing:.14em; font-size:11px}
+
+.stats{display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:18px}
+.stat{
+  border:1px solid var(--line); background:var(--raised); border-radius:var(--r);
+  padding:18px 18px 16px; position:relative; overflow:hidden;
+}
+.stat .n{font-size:34px; font-weight:800; color:#fff; line-height:1; letter-spacing:-.02em}
+.stat .l{color:var(--fog-dim); font-size:12px; text-transform:uppercase; letter-spacing:.16em; margin-top:8px}
+.stat .s{color:var(--fog); margin-top:8px; font-size:13px}
+.stat .bar{position:absolute; left:0; top:0; bottom:0; width:3px; background:linear-gradient(180deg,var(--accent),transparent)}
+.stat.car .bar{background:linear-gradient(180deg,var(--car),transparent)}
+
+/* section band labels */
+.band{display:flex; align-items:center; gap:12px; margin:54px 0 6px}
+.band .chip{
+  padding:4px 12px; border-radius:999px; font-size:11px; font-weight:700;
+  letter-spacing:.18em; text-transform:uppercase;
+}
+.band.car .chip{background:var(--car-dim); color:var(--car); border:1px solid var(--car-rim)}
+.band.cls .chip{background:rgba(255,119,51,.12); color:var(--accent-2); border:1px solid var(--rim)}
+.band .rule{flex:1; height:1px; background:var(--line)}
+
+/* product loop flow */
+.flow{display:grid; grid-template-columns:1fr 36px 1fr 36px 1fr 36px 1fr; align-items:stretch; gap:0; margin-top:14px}
+.fnode{
+  background:var(--raised); border:1px solid var(--car-rim); border-radius:var(--r-sm);
+  padding:16px 14px;
+}
+.fnode .step{font-size:10px; letter-spacing:.18em; text-transform:uppercase; color:var(--car); font-weight:700}
+.fnode .t{color:#fff; font-weight:700; font-size:14px; margin-top:6px; line-height:1.3}
+.fnode .p{color:var(--fog-dim); font-size:12px; margin-top:6px; line-height:1.5}
+.fnode.future{border-style:dashed; opacity:.85}
+.fnode.future .step{color:var(--fog-dim)}
+.farrow{display:flex; align-items:center; justify-content:center; color:var(--car); font-size:20px}
+
+/* law cards */
+.laws{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:14px}
+.law{
+  border:1px solid var(--line); background:var(--bg-2); border-radius:var(--r); padding:20px;
+  position:relative;
+}
+.law .tag{display:inline-block; padding:2px 8px; border-radius:999px; font-size:10px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; background:var(--car-dim); color:var(--car); border:1px solid var(--car-rim)}
+.law h4{margin:10px 0 8px; color:#fff; font-size:17px}
+.law p{margin:0; color:var(--fog); font-size:13.5px; line-height:1.55}
+.law .so{margin-top:10px; color:var(--fog-dim); font-size:12.5px; padding-top:10px; border-top:1px dashed var(--line)}
+.law .so b{color:var(--accent-2); font-weight:600}
+
+/* roster */
+.roster{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:14px}
+.player{
+  background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm); padding:16px;
+}
+.player .nm{color:#fff; font-weight:700; font-size:15px; display:flex; align-items:center; gap:8px}
+.player .nm .new{font-size:9px; letter-spacing:.16em; padding:2px 6px; border-radius:999px; background:rgba(34,201,138,.14); color:var(--good); border:1px solid rgba(34,201,138,.3); text-transform:uppercase; font-weight:700}
+.player .bio{color:var(--fog-faint); font-size:11px; margin-top:4px; text-transform:uppercase; letter-spacing:.1em}
+.player .gap{margin-top:10px; font-size:12.5px; color:var(--fog); line-height:1.5}
+.player .gap b{color:var(--bad); font-weight:600; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; display:block; margin-bottom:3px}
+.player .rx{margin-top:10px; font-size:12.5px; color:var(--fog); line-height:1.5; padding-top:8px; border-top:1px dashed var(--line)}
+.player .rx b{color:var(--good); font-weight:600; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; display:block; margin-bottom:3px}
+
+/* echo: car vs class paired quotes */
+.echo{display:grid; grid-template-columns:1fr 56px 1fr; gap:14px; align-items:stretch; margin-top:14px}
+.echo + .echo{margin-top:12px}
+.ecol{border:1px solid var(--line); border-radius:var(--r); padding:18px 20px; background:var(--bg-2)}
+.ecol.car{border-color:var(--car-rim); background:linear-gradient(180deg,rgba(76,195,255,.06),transparent 70%), var(--bg-2)}
+.ecol.cls{border-color:var(--rim); background:linear-gradient(180deg,rgba(255,119,51,.07),transparent 70%), var(--bg-2)}
+.ecol .label{font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; font-weight:700}
+.ecol.car .label{color:var(--car)}
+.ecol.cls .label{color:var(--accent-2)}
+.ecol blockquote{margin:8px 0 0; color:#fff; font-size:15.5px; font-weight:600; line-height:1.45}
+.ecol .who{color:var(--fog-faint); font-size:11px; margin-top:8px; letter-spacing:.12em; text-transform:uppercase}
+.echo .mid{display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; color:var(--accent-2)}
+.echo .mid .arr{font-size:24px}
+.echo .mid .gap-t{font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--fog-faint); text-align:center}
+
+/* class timeline */
+.timeline{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:10px;
+  border:1px solid var(--line); background:var(--bg-2); border-radius:var(--r);
+  padding:18px; margin-top:14px;
+}
+.tnode{
+  background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm);
+  padding:14px 14px 12px;
+}
+.tnode .tag{
+  display:inline-block; padding:2px 8px; border-radius:999px; font-size:10px;
+  letter-spacing:.16em; text-transform:uppercase; font-weight:700;
+  background:rgba(255,119,51,.12); color:var(--accent-2); border:1px solid var(--rim);
+}
+.tnode .name{color:#fff; font-weight:700; margin-top:8px; font-size:14px}
+.tnode .what{color:var(--fog-dim); font-size:12px; margin-top:6px; line-height:1.5}
+.tnode .when{color:var(--fog-faint); font-size:10.5px; margin-top:8px; letter-spacing:.12em; text-transform:uppercase}
+.tnode.orig{border-color:rgba(34,201,138,.25); background:linear-gradient(180deg,rgba(34,201,138,.06),transparent 60%), var(--raised)}
+.tnode.orig .tag{background:rgba(34,201,138,.12); color:var(--good); border-color:rgba(34,201,138,.3)}
+
+/* iteration stepper */
+.iter{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:14px}
+.istep{background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm); padding:16px 14px; position:relative}
+.istep .v{font-family:var(--mono); color:var(--accent-2); font-weight:700; font-size:13px}
+.istep .ch{color:#fff; font-weight:700; font-size:13.5px; margin-top:6px; line-height:1.35}
+.istep .why{color:var(--fog-dim); font-size:12px; margin-top:8px; line-height:1.5}
+.istep .why em{color:var(--fog); font-style:italic}
+.istep::after{content:"→"; position:absolute; right:-13px; top:42%; color:var(--accent); font-size:16px; z-index:2}
+.istep:last-child::after{content:""}
+
+/* turtle breakout rules panel */
+.game{display:grid; grid-template-columns:1.2fr .9fr; gap:14px; margin-top:14px}
+.rules{border:1px solid rgba(34,201,138,.3); background:linear-gradient(180deg,rgba(34,201,138,.05),transparent 70%), var(--bg-2); border-radius:var(--r); padding:20px}
+.rules .tag{display:inline-block; padding:2px 8px; border-radius:999px; font-size:10px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; background:rgba(34,201,138,.12); color:var(--good); border:1px solid rgba(34,201,138,.3)}
+.rules h4{margin:10px 0 4px; color:#fff; font-size:19px}
+.rules .sub{color:var(--fog-dim); font-size:12.5px}
+.rrow{display:grid; grid-template-columns:84px 1fr; gap:12px; padding:10px 0; border-bottom:1px dashed var(--line); font-size:13px; line-height:1.5}
+.rrow:last-of-type{border-bottom:0}
+.rrow .k{font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; color:var(--accent-2); padding-top:2px}
+.rrow .d{color:var(--fog)}
+.openq{border:1px solid rgba(245,165,36,.3); background:linear-gradient(180deg,rgba(245,165,36,.06),transparent 70%), var(--bg-2); border-radius:var(--r); padding:20px}
+.openq h4{margin:0 0 10px; font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:var(--warn)}
+.openq p{margin:0; color:var(--fog); font-size:13.5px; line-height:1.55}
+.openq blockquote{margin:12px 0 0; padding:12px 14px; background:var(--raised); border-left:3px solid var(--warn); border-radius:0 var(--r-sm) var(--r-sm) 0; color:#fff; font-size:13.5px; font-style:italic}
+
+/* ladder */
+.ladder{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:14px}
+.rung{background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm); padding:14px; position:relative}
+.rung .lv{font-family:var(--mono); font-size:11px; color:var(--fog-faint); letter-spacing:.12em; text-transform:uppercase}
+.rung .nm{color:#fff; font-weight:700; font-size:14px; margin-top:6px}
+.rung .d{color:var(--fog-dim); font-size:12px; margin-top:6px; line-height:1.5}
+.rung .meter{height:4px; border-radius:99px; background:var(--raised-2); margin-top:12px; overflow:hidden}
+.rung .meter i{display:block; height:100%; background:linear-gradient(90deg,var(--good),var(--warn),var(--bad))}
+.rung::after{content:"win →"; position:absolute; right:-6px; top:-9px; font-size:9.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--good); background:var(--bg); padding:1px 6px; border:1px solid rgba(34,201,138,.3); border-radius:999px; z-index:2}
+.rung:last-child::after{content:""}
+
+/* quotes grid */
+.quotes{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:14px}
+.q{border:1px solid var(--rim); background:linear-gradient(180deg,rgba(255,119,51,.07),rgba(255,119,51,0) 70%), var(--bg-2); border-radius:var(--r); padding:20px 22px; position:relative}
+.q .mark{font-size:48px; line-height:.5; color:var(--accent); position:absolute; top:20px; left:14px; opacity:.35}
+.q blockquote{margin:0 0 0 30px; color:#fff; font-size:15.5px; font-weight:600; line-height:1.45}
+.q cite{display:block; margin:10px 0 0 30px; color:var(--fog-dim); font-style:normal; font-size:11px; letter-spacing:.14em; text-transform:uppercase}
+
+/* decision queue */
+.queue{border:1px solid var(--line); background:var(--bg-2); border-radius:var(--r); padding:8px 20px; margin-top:14px}
+.qrow{display:grid; grid-template-columns:34px 1fr auto; gap:14px; align-items:center; padding:13px 0; border-bottom:1px dashed var(--line)}
+.qrow:last-child{border-bottom:0}
+.qrow .num{width:26px; height:26px; border-radius:999px; background:rgba(255,119,51,.12); border:1px solid var(--rim); color:var(--accent-2); font-weight:700; font-size:12px; display:flex; align-items:center; justify-content:center}
+.qrow .txt{color:var(--fog); font-size:13.5px; line-height:1.5}
+.qrow .txt b{color:#fff}
+.qrow .st{font-size:10px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; padding:3px 9px; border-radius:999px; white-space:nowrap}
+.st.build{background:rgba(34,201,138,.12); color:var(--good); border:1px solid rgba(34,201,138,.3)}
+.st.decide{background:rgba(245,165,36,.12); color:var(--warn); border:1px solid rgba(245,165,36,.3)}
+.st.alex{background:var(--car-dim); color:var(--car); border:1px solid var(--car-rim)}
+
+.foot{margin-top:48px; color:var(--fog-faint); font-size:12px; border-top:1px solid var(--line); padding-top:18px}
+
+@media (max-width: 900px){
+  .stats,.timeline,.roster,.iter,.ladder{grid-template-columns:1fr 1fr}
+  .flow{grid-template-columns:1fr}
+  .farrow{transform:rotate(90deg); padding:4px 0}
+  .laws,.game,.quotes{grid-template-columns:1fr}
+  .echo{grid-template-columns:1fr}
+  .echo .mid{flex-direction:row}
+  .echo .mid .arr{transform:rotate(90deg)}
+  h1{font-size:36px}
+  .istep::after{content:""}
+}
+@media (max-width: 560px){
+  .stats,.timeline,.roster,.iter,.ladder{grid-template-columns:1fr}
+  .wrap{padding:32px 18px 64px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HERO -->
+  <span class="eyebrow"><span class="dot"></span>Car + Class · 2026-06-06</span>
+  <div class="hero">
+    <h1>The system is starting to<br><span class="carc">talk</span> <span class="accent">to itself.</span></h1>
+    <p class="lead">10 minutes in the car, 73 minutes on the mat, same morning. The car sketched a student-profiling product and two design laws. The class then ran both laws live, without knowing it was proving them. Plus: 3 iterations of one game on tape, a brand-new Alex original, and a difficulty mechanic that might be a whole format.</p>
+    <div class="hero-meta">
+      <span><span class="k">Source</span>DJI 17-20 · audio-ingest/2026-06-06-class/</span>
+      <span><span class="k">Transcript</span>mlx-whisper large-v3 · 84 min total</span>
+      <span><span class="k">Mining</span>docs/_drafts/class-mining-2026-06-06.md</span>
+    </div>
+  </div>
+
+  <!-- STAT TILES -->
+  <div class="stats">
+    <div class="stat car"><div class="bar"></div><div class="n">1</div><div class="l">Product idea</div><div class="s">Profile &rarr; prescription engine. The library is already the content.</div></div>
+    <div class="stat"><div class="bar"></div><div class="n">3</div><div class="l">Live iterations</div><div class="s">One wall-press game redesigned mid-class, the loop is on tape.</div></div>
+    <div class="stat"><div class="bar"></div><div class="n">1</div><div class="l">New original game</div><div class="s">Turtle Breakout, invented on the spot. Alex original #3.</div></div>
+    <div class="stat"><div class="bar"></div><div class="n">6</div><div class="l">Follow-ups staged</div><div class="s">All pending review. Nothing merged to the library yet.</div></div>
+  </div>
+
+  <!-- ========== CAR THREAD ========== -->
+  <div class="band car"><span class="chip">Thread 1 · The Car</span><div class="rule"></div></div>
+  <h2 style="margin-top:10px">A recommendation engine, hiding inside the library</h2>
+  <p class="subnote">The pitch from the drive, restructured: the coach states the problem in plain language, the system does the rest. V1 needs zero AI video, just the tagged library plus an intake form.</p>
+  <div class="flow">
+    <div class="fnode">
+      <div class="step">1 · Coach input</div>
+      <div class="t">"Billy is bad at blocking and struggles against takedowns"</div>
+      <div class="p">Plain-language problem statement. No jargon required.</div>
+    </div>
+    <div class="farrow">→</div>
+    <div class="fnode">
+      <div class="step">2 · Profile</div>
+      <div class="t">Deficiency map</div>
+      <div class="p">Bad boxing defense + bad anti-wrestling, located on the coverage tree.</div>
+    </div>
+    <div class="farrow">→</div>
+    <div class="fnode">
+      <div class="step">3 · Prescription</div>
+      <div class="t">Games from the library</div>
+      <div class="p">Blocking games, sprawl games, pressure games, matched to the gaps.</div>
+    </div>
+    <div class="farrow">→</div>
+    <div class="fnode future">
+      <div class="step">Roadmap · Later</div>
+      <div class="t">Video evidence</div>
+      <div class="p">Auto-clipped playback: every slip cross eaten, every takedown conceded. Heavy build, separate product.</div>
+    </div>
+  </div>
+
+  <div class="laws">
+    <div class="law">
+      <span class="tag">Design law · restated</span>
+      <h4>Modules, not infinite games</h4>
+      <p>"It's not about building an infinite amount of games. It's about building modules that can be broken down or expanded at an infinite level. No duplicate games: similar games get merged, with variants."</p>
+      <div class="so"><b>So:</b> when a mined game is ~80% similar to an existing page, it becomes a variant block, not a new page. This is now settled law, it matches the Curation Pass exactly.</div>
+    </div>
+    <div class="law">
+      <span class="tag">Design law · new constraint</span>
+      <h4>Ground games are GnP-first</h4>
+      <p>"The emphasis has to be ground-and-pound focused. It cannot be jiu-jitsu. Practicing smashing somebody on the ground, not practicing grappling."</p>
+      <div class="so"><b>So:</b> every ground game adapted from BJJ sources needs a strikes-live dimension before it goes canonical. New audit criterion for the SMGC-derived escapes.</div>
+    </div>
+  </div>
+
+  <!-- ROSTER -->
+  <h2>Student profiles: the engine's first test data</h2>
+  <p class="subnote">Three profiled in the car, one logged mid-class. Weakness on top, library prescription below. Names stay out of docs/, this file is internal.</p>
+  <div class="roster">
+    <div class="player">
+      <div class="nm">Vincent</div>
+      <div class="bio">HS · tall, lanky · judo base</div>
+      <div class="gap"><b>Gaps</b>Timid, self-critical (mental, not technical). Rear hand has no energy transfer. Feet and hands disconnected: stance can't counter or evade.</div>
+      <div class="rx"><b>Prescribe</b>Rear Hand Offense with force intent. A stance-coupled defense game (possible library gap).</div>
+    </div>
+    <div class="player">
+      <div class="nm">Cesar</div>
+      <div class="bio">~20-25 · grapple-heavy</div>
+      <div class="gap"><b>Gaps</b>Can't box. Wild catch-and-parry defense. Footwork 5/10. Lead hand reaches instead of jabbing.</div>
+      <div class="rx"><b>Prescribe</b>Tight Block &rarr; Close-Range Defense progression. Build a close guard before the parry habit gets punished.</div>
+    </div>
+    <div class="player">
+      <div class="nm">Ray</div>
+      <div class="bio">~13 · green, scrappy</div>
+      <div class="gap"><b>Gaps</b>Inverse of Vincent: overthrows the rear hand with no setup, lead hand not landing. Needs to calm down.</div>
+      <div class="rx"><b>Prescribe</b>Lead Hand Offense plus a sequencing constraint: rear hand only scores after a lead-hand touch.</div>
+    </div>
+    <div class="player">
+      <div class="nm">Ronald <span class="new">New</span></div>
+      <div class="bio">~25 · 5'7" · generalist, green</div>
+      <div class="gap"><b>Gaps</b>Takedown defense, scramble destabilization. Mentally concedes against bigger partners.</div>
+      <div class="rx"><b>Prescribe</b>Counter Wrestling reps with the reframe coaching from 71:04. Shares the mental-layer track with Vincent.</div>
+    </div>
+  </div>
+
+  <!-- ========== THE ECHO ========== -->
+  <div class="band cls"><span class="chip">The Echo</span><div class="rule"></div></div>
+  <h2 style="margin-top:10px">The car said it. The class did it. Same morning.</h2>
+  <p class="subnote">This is the strongest validation of the profiling idea on tape: the loop already runs, it just runs inside Alex's head instead of the product.</p>
+
+  <div class="echo">
+    <div class="ecol car">
+      <span class="label">Car · 05:41</span>
+      <blockquote>"He needs to start throwing with rear hand intentions. He's not really making the impact on that cross."</blockquote>
+      <div class="who">Vincent's profile, sketched while driving</div>
+    </div>
+    <div class="mid"><span class="arr">→</span><span class="gap-t">~70 min later</span></div>
+    <div class="ecol cls">
+      <span class="label">Class · 09:51</span>
+      <blockquote>"Commit. Be threatening with your rear hand." &nbsp;Then at 20:18: "You got to make him worried about that rear hand."</blockquote>
+      <div class="who">Live cue to Vincent, mid-game. He lands it by 21:05.</div>
+    </div>
+  </div>
+
+  <div class="echo">
+    <div class="ecol car">
+      <span class="label">Car · 05:41</span>
+      <blockquote>"The emphasis on these grappling games has to be ground-and-pound focused. It cannot be jiu-jitsu."</blockquote>
+      <div class="who">Design law, stated as future intent</div>
+    </div>
+    <div class="mid"><span class="arr">→</span><span class="gap-t">~75 min later</span></div>
+    <div class="ecol cls">
+      <span class="label">Class · 53:04</span>
+      <blockquote>"You are allowed to be meaner with your ground and pound striking in these games. I'm giving you permission. Use it as a disincentivization tool."</blockquote>
+      <div class="who">Rule text, delivered live in the wall single-leg game</div>
+    </div>
+  </div>
+
+  <!-- ========== CLASS THREAD ========== -->
+  <div class="band cls"><span class="chip">Thread 2 · The Class</span><div class="rule"></div></div>
+  <h2 style="margin-top:10px">Four blocks, in the order you ran them</h2>
+  <div class="timeline">
+    <div class="tnode">
+      <span class="tag">B1 · Warm-up</span>
+      <div class="name">Blocking Defense</div>
+      <div class="what">Close blocking / parrying vs a 4-strike-max combination. Existing Tight Block territory.</div>
+      <div class="when">0:00 &ndash; 1:30</div>
+    </div>
+    <div class="tnode">
+      <span class="tag">B2 · 3 iterations</span>
+      <div class="name">Winning the Circle</div>
+      <div class="what">Asymmetric wall-press. Offense: lead hand + rear leg, win by hip or back touching the wall. Defense: rear hand + footwork, win by level-change connection.</div>
+      <div class="when">1:36 &ndash; 40:00</div>
+    </div>
+    <div class="tnode">
+      <span class="tag">B3 · Strikes on</span>
+      <div class="name">Wall Single-Leg + Ladder</div>
+      <div class="what">High single at the wall, offense puts hips on the ground "for a meaningful period." Defense: separate, reverse, or strangle. Each win demotes offense down a 4-rung start ladder.</div>
+      <div class="when">41:00 &ndash; 58:35</div>
+    </div>
+    <div class="tnode orig">
+      <span class="tag">B4 · Alex original</span>
+      <div class="name">Turtle Breakout</div>
+      <div class="what">Invented on the spot. Greco hands on the small of the back, defense initiates, offense wins by connecting hands on waist or leg.</div>
+      <div class="when">58:43 &ndash; 68:14</div>
+    </div>
+  </div>
+
+  <!-- ITERATION LOOP -->
+  <h2>The most valuable thing on the tape: live game design</h2>
+  <p class="subnote">Block 2 is a constraints-led design session captured in real time. Student reception drove every change. This v1&rarr;v3 arc is the threshold rule being discovered live, and it belongs in the game doc as provenance.</p>
+  <div class="iter">
+    <div class="istep">
+      <div class="v">v1</div>
+      <div class="ch">Base rules, 8-minute round</div>
+      <div class="why">Students: <em>"it felt dissonant... a lot of crashing."</em> Defenders missing their lead-hand probes, not enough lateral motion.</div>
+    </div>
+    <div class="istep">
+      <div class="v">v2</div>
+      <div class="ch">Defense gains the lead-leg teep</div>
+      <div class="why"><em>"A little bit more defensive capability in terms of keeping somebody away."</em> Fixes the range problem v1 exposed.</div>
+    </div>
+    <div class="istep">
+      <div class="v">v2b</div>
+      <div class="ch">Partner switch, same rules</div>
+      <div class="why">Pure experiment. Debrief: more feints with a fresh opponent. Alex: <em>"I genuinely don't know why. I'm curious."</em></div>
+    </div>
+    <div class="istep">
+      <div class="v">v3</div>
+      <div class="ch">Connect AND destabilize</div>
+      <div class="why">Defensive win raised: move their feet from the spot. The threshold rule, applied live. <em>"Still trying to figure out the best way to define it."</em></div>
+    </div>
+  </div>
+
+  <!-- TURTLE BREAKOUT -->
+  <h2>Alex original #3: Turtle Breakout</h2>
+  <p class="subnote">"I literally just made it up right now." Working name pending the LANGUAGE.md convention, [WIP] until blessed.</p>
+  <div class="game">
+    <div class="rules">
+      <span class="tag">Ground · Wrestling · WIP</span>
+      <h4>Turtle Breakout</h4>
+      <div class="sub">Defense in turtle. Offense standing, freestyle/Greco posture, palms on the small of the back, arms fully extended.</div>
+      <div style="margin-top:12px">
+        <div class="rrow"><div class="k">Start</div><div class="d">Defense initiates: they say "go." Asymmetric trigger, the defender owns the timing.</div></div>
+        <div class="rrow"><div class="k">Offense wins</div><div class="d">Connect hands around the waist, or around any leg. Connection is the entire win, nothing else matters.</div></div>
+        <div class="rrow"><div class="k">Defense wins</div><div class="d">Stand up, turn, face, and stay away. Separation ends it.</div></div>
+        <div class="rrow"><div class="k">Redemption</div><div class="d">As the defender escapes, offense gets one final connection attempt. Miss it and it's over.</div></div>
+      </div>
+    </div>
+    <div class="openq">
+      <h4>! Open design question</h4>
+      <p>Players drifted from turtle to supine instead of exploding up: turning to face from the bottom rather than collecting hands and breaking free.</p>
+      <blockquote>"Maybe we need to constrain the rules so that they can't go supine. I'm not sure."</blockquote>
+      <p style="margin-top:12px">Flaw or affordance? Your call. The draft doc carries it as an open note either way. Student counter-discovery worth keeping: stop chasing the body lock, re-orient hand connections, pin the defender's hands to the mat first.</p>
+    </div>
+  </div>
+
+  <!-- LADDER -->
+  <h2>The win-scaling ladder: maybe a FORMAT, not a game</h2>
+  <p class="subnote">Block 3's mechanic: every win moves offense to a worse starting position. Self-scaling difficulty with zero coach intervention. Same shape as the Positional Battle demotion: the mechanic may outgrow the game it appeared in.</p>
+  <div class="ladder">
+    <div class="rung"><div class="lv">Rung 1</div><div class="nm">High single</div><div class="d">Leg up, grip under the knee, hiked high. The starting handicap favors offense most here.</div><div class="meter"><i style="width:25%"></i></div></div>
+    <div class="rung"><div class="lv">Rung 2</div><div class="nm">Body lock</div><div class="d">Double underhooks, hands locked. Defender sets up with a whizzer.</div><div class="meter"><i style="width:50%"></i></div></div>
+    <div class="rung"><div class="lv">Rung 3</div><div class="nm">Regular single</div><div class="d">Connected hands, but the leg is down. Defender has their base back.</div><div class="meter"><i style="width:75%"></i></div></div>
+    <div class="rung"><div class="lv">Rung 4</div><div class="nm">Low single</div><div class="d">Knees on the ground. Hardest start, earned by winning everything above it.</div><div class="meter"><i style="width:100%"></i></div></div>
+  </div>
+
+  <!-- COACHING GEMS -->
+  <h2>Coaching gems: eco-psych pedagogy in your own voice</h2>
+  <p class="subnote">Better than anything we could paraphrase from Blau &amp; Wagman. All four are candidates for coaching-guidance copy.</p>
+  <div class="quotes">
+    <div class="q">
+      <span class="mark">"</span>
+      <blockquote>You get into the game and you kind of get shark eyes in terms of landing strikes... the ability to get somebody pressed to the wall, that's the skill that we're developing.</blockquote>
+      <cite>22:29 · the win-condition correction · Pressure to Wall cue language</cite>
+    </div>
+    <div class="q">
+      <span class="mark">"</span>
+      <blockquote>Every time you hear the rules of the game, take 30 seconds and put a game plan to yourself: what are the things I can genuinely test to solve this problem?</blockquote>
+      <cite>69:05 · pre-game ritual · session-level practice, not a game</cite>
+    </div>
+    <div class="q">
+      <span class="mark">"</span>
+      <blockquote>Nobody told me I had to put my elbows on the ground. All I said was turtle position. That's the type of thinking I want to see.</blockquote>
+      <cite>70:35 · exploiting unstated constraints · the eco mindset in one line</cite>
+    </div>
+    <div class="q">
+      <span class="mark">"</span>
+      <blockquote>The faster you realize the thing you did didn't work, try something different on purpose, the faster you cycle through options and find one that works.</blockquote>
+      <cite>71:53 · deliberate option cycling · coached to Ronald, applies to everyone</cite>
+    </div>
+  </div>
+
+  <!-- DECISION QUEUE -->
+  <h2>Decision queue: six follow-ups, nothing merged yet</h2>
+  <div class="queue">
+    <div class="qrow"><div class="num">1</div><div class="txt"><b>"[WIP] Stalk and Corral"</b> as a variant block on Pressure to Wall, with the v1&rarr;v3 iterations as difficulty dials.</div><span class="st build">Ready to build</span></div>
+    <div class="qrow"><div class="num">2</div><div class="txt"><b>The win-scaling ladder:</b> Wall to Ground variant, standalone page, or a documented FORMAT overlay?</div><span class="st decide">Needs decision</span></div>
+    <div class="qrow"><div class="num">3</div><div class="txt"><b>"[WIP] Turtle Breakout"</b> game page, with the supine question carried as an open design note.</div><span class="st build">Ready to build</span></div>
+    <div class="qrow"><div class="num">4</div><div class="txt"><b>Backport the GnP-permission rule text</b> ("dial up, disincentivization tool") into the existing ground game docs.</div><span class="st build">Ready to build</span></div>
+    <div class="qrow"><div class="num">5</div><div class="txt"><b>The 30-second game plan ritual</b> into coaching guidance. It's session-level practice, not a game.</div><span class="st build">Ready to build</span></div>
+    <div class="qrow"><div class="num">6</div><div class="txt"><b>Credit needed:</b> the pre-class "pin a body part to the wall, remove what's below it" idea came from someone off-tape. Identify the originator for the Sources page.</div><span class="st alex">Alex to identify</span></div>
+  </div>
+
+  <p class="foot">Standalone explainer. Transcripts in <code>audio-ingest/2026-06-06-class/transcript/</code> (gitignored, contains student voices). Mining report staged at <code>docs/_drafts/class-mining-2026-06-06.md</code>. No library pages edited pending review.</p>
+</div>
+</body>
+</html>

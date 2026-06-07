@@ -114,6 +114,25 @@ Chain strikes to wall control, the destination is the wall itself, for dirty box
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA expression</b>Counter, clinch, or shoot.<span class="emma-pop emma-pop--l">The defender can counter, clinch, or shoot; the attacker must reach the wall while managing all threats. Wall pressure under MMA reality.</span></div>
 </div>
 
+<p class="emma-glabel">Variant: Stalk and Corral (WIP)</p>
+
+!!! warning "Provisional (WIP): derived from class recording 2026-06-06"
+    Captured live from class and **pending review on the platform**. Same destination as the base game, the wall, but with asymmetric weapons and a touch win instead of a pin.
+
+<p class="emma-hl">Both players get a restricted toolset. <b>Attacker: lead hand + rear leg.</b> The lead hand probes and herds, the rear leg makes the pressure respected. <b>Defender: rear hand + footwork</b> (lead-leg teep at Dial 2), looking to win the circle on the outside. The attacker wins when the defender's <b>hip or back touches the wall</b>, a touch, not a pin. The defender wins by a meaningful <b>level-change connection</b>, on one leg or two, under both arms, collected <b>above the knee</b> (a dive below the knee is not a connection).</p>
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Base dial</b>Touch win vs connect win.<span class="emma-pop emma-pop--l">Attacker: lead hand + rear leg, win on hip/back touching the wall. Defender: rear hand + footwork, win on a level-change connection. First runs feel crashy, that's the point: no lead-hand probes for defense.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Defender gains the teep</b>Lead leg unlocked.<span class="emma-pop emma-pop--l">The defender adds the lead-leg teep to hold range. Restores defensive capability while keeping the rear-hand-only puzzle alive.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Connect and destabilize</b>The threshold rule.<span class="emma-pop emma-pop--l">The defender's connection only wins if it moves the attacker's feet from their spot, some destabilization of the current feet pattern. Connection alone is contact; connection that moves them is a takedown forming.</span></div>
+</div>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🌀</span> No moral wins<span class="emma-chip__detail">Circling out is survival, not victory: the defender is still in the cage. Defense only escapes the nightmare by connecting. Attacker resets and stays on offense after an exit.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">👀</span> Beware shark eyes<span class="emma-chip__detail">The recurring failure: players hear the win condition, then revert to hunting strikes. If a free push wins the game, take it. The skill being built is getting somebody pressed to the wall, not landing shots.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> Fresh-partner round<span class="emma-chip__detail">Optional: re-run the same dial with switched partners. First-run observation: feint usage jumps against an unfamiliar opponent.</span></span>
+</div>
+
 <p class="emma-glabel">Recall Check</p>
 
 <div class="emma-recall">

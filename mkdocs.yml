@@ -134,6 +134,7 @@ nav:
         - Back Escape: games/back-escape.md
         - Leg Reclaim: games/leg-reclaim.md
         - Ground to Standing: games/ground-to-standing.md
+        - Turtle Breakout (WIP): games/turtle-breakout.md
         - Ground Defensive Submission: games/ground-defensive-submission.md
       - Control & Finish:
         - Ground Access: games/ground-access.md
@@ -141,6 +142,7 @@ nav:
       - Combined:
         - Ground-and-Pound Defense (WIP): games/ground-and-pound-defense.md
         - Positional Sparring (format): games/positional-battle.md
+        - Win Ladder (format, WIP): games/win-ladder.md
   - Concepts:
     - Fight Philosophy: concepts/fight-philosophy.md
     - Confidence Rating: concepts/confidence-rating.md
