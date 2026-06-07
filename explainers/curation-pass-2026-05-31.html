@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Curation Pass · 2026-05-31</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{
+  --bg:#0b0b0e; --bg-2:#13131a; --raised:#1c1c25; --raised-2:#252531;
+  --fog:#cfd0d6; --fog-dim:#8d8e98; --fog-faint:#5a5b66;
+  --accent:#ff7733; --accent-2:#ffb45a; --amber:#f5a524;
+  --good:#22c98a; --warn:#f5a524; --bad:#ef5a5a; --info:#7aa9ff; --violet:#a78bfa;
+  --rim:rgba(255,119,51,.22); --line:rgba(255,255,255,.07);
+  --shadow:0 12px 40px rgba(0,0,0,.45);
+  --r:14px; --r-sm:8px;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --ui:-apple-system,BlinkMacSystemFont,Inter,Segoe UI,Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:radial-gradient(1200px 600px at 50% -10%,#1a0d05 0%,var(--bg) 60%) fixed;
+  color:var(--fog); font:15px/1.55 var(--ui); -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1180px; margin:0 auto; padding:48px 32px 96px}
+h1,h2,h3{font-weight:700; letter-spacing:-.01em; color:#fff; margin:0}
+h1{font-size:44px; line-height:1.05}
+h2{font-size:13px; text-transform:uppercase; letter-spacing:.16em; color:var(--accent-2); margin:48px 0 14px}
+h3{font-size:18px; margin:0 0 6px}
+small{color:var(--fog-dim)}
+b{color:#fff}
+code{background:var(--raised); padding:2px 7px; border-radius:5px; font-family:var(--mono); font-size:.85em; color:var(--accent-2)}
+.eyebrow{display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border:1px solid var(--rim); border-radius:999px; background:rgba(255,119,51,.06); color:var(--accent-2); font-size:12px; letter-spacing:.16em; text-transform:uppercase}
+.eyebrow .dot{width:6px; height:6px; border-radius:999px; background:var(--accent); box-shadow:0 0 8px var(--accent)}
+.lead{color:var(--fog); font-size:18px; max-width:780px; margin:18px 0 0; line-height:1.5}
+.accent{color:var(--accent-2)}
+.muted{color:var(--fog-dim)}
+
+/* hero */
+.hero{
+  margin-top:22px;
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(255,119,51,.08),rgba(255,119,51,0) 40%), var(--bg-2);
+  border-radius:var(--r); padding:32px 32px 28px; box-shadow:var(--shadow);
+  position:relative; overflow:hidden;
+}
+.hero::after{
+  content:""; position:absolute; right:-80px; top:-80px; width:300px; height:300px;
+  background:radial-gradient(closest-side,rgba(255,119,51,.18),transparent 70%);
+}
+
+/* stats */
+.stats{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:18px}
+.stat{border:1px solid var(--line); background:var(--raised); border-radius:var(--r); padding:18px; position:relative; overflow:hidden}
+.stat .n{font-size:30px; font-weight:800; color:#fff; line-height:1}
+.stat .l{color:var(--fog-dim); font-size:11.5px; text-transform:uppercase; letter-spacing:.16em; margin-top:8px}
+.stat .s{color:var(--fog); margin-top:6px; font-size:12.5px}
+.stat .bar{position:absolute; left:0; top:0; bottom:0; width:3px; background:linear-gradient(180deg,var(--accent),transparent)}
+
+/* family triad */
+.triad{
+  position:relative; padding:32px 18px;
+  background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r); margin-top:6px;
+}
+.triad-grid{display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px; align-items:stretch; position:relative; z-index:2}
+.family{
+  background:var(--raised); border:1px solid var(--line); border-radius:var(--r);
+  padding:18px 18px 16px; position:relative;
+}
+.family.amber{border-color:rgba(245,165,36,.35); background:linear-gradient(180deg,rgba(245,165,36,.04),transparent 70%),var(--raised)}
+.family.orange{border-color:rgba(255,119,51,.35); background:linear-gradient(180deg,rgba(255,119,51,.04),transparent 70%),var(--raised)}
+.family.violet{border-color:rgba(167,139,250,.3); background:linear-gradient(180deg,rgba(167,139,250,.04),transparent 70%),var(--raised)}
+.family .tag{display:inline-block; padding:2px 8px; border-radius:999px; font-size:10px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; margin-bottom:6px}
+.family.amber .tag{background:rgba(245,165,36,.12); color:var(--warn); border:1px solid rgba(245,165,36,.3)}
+.family.orange .tag{background:rgba(255,119,51,.12); color:var(--accent-2); border:1px solid var(--rim)}
+.family.violet .tag{background:rgba(167,139,250,.12); color:var(--violet); border:1px solid rgba(167,139,250,.3)}
+.family h3{color:#fff; margin-bottom:4px}
+.family .meta{color:var(--fog-faint); font-size:11px; letter-spacing:.12em; text-transform:uppercase; margin-bottom:10px}
+.family .unique{color:var(--fog); font-size:13px; line-height:1.5; padding-top:10px; border-top:1px dashed var(--line)}
+.family .unique-l{display:block; color:var(--fog-dim); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; margin-bottom:4px}
+
+.shared-dna{
+  margin-top:24px; padding:18px 22px;
+  border:1px dashed var(--rim); border-radius:var(--r);
+  background:rgba(255,119,51,.04);
+  display:flex; gap:14px; align-items:center; flex-wrap:wrap;
+}
+.shared-dna .badge{
+  background:var(--accent); color:#0b0b0e; padding:6px 12px; border-radius:999px;
+  font-weight:800; font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+}
+.shared-dna .traits{display:flex; gap:10px; flex-wrap:wrap; flex:1}
+.shared-dna .trait{font-size:12.5px; color:var(--fog); background:var(--raised); padding:5px 11px; border-radius:999px; border:1px solid var(--line)}
+
+/* knobs comparison */
+.knobs{
+  background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r); padding:0; overflow:hidden;
+}
+table.k{width:100%; border-collapse:collapse}
+table.k th{
+  background:var(--raised); color:var(--accent-2); text-align:left; padding:14px 16px;
+  font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; font-weight:700;
+  border-bottom:1px solid var(--line); border-right:1px solid var(--line);
+}
+table.k th:last-child{border-right:0}
+table.k td{padding:14px 16px; border-bottom:1px solid var(--line); border-right:1px solid var(--line); vertical-align:top; color:var(--fog); font-size:13px; line-height:1.45}
+table.k td:last-child{border-right:0}
+table.k tr:last-child td{border-bottom:0}
+table.k td.knob{color:var(--accent-2); font-weight:700; font-size:11.5px; letter-spacing:.12em; text-transform:uppercase; background:rgba(255,119,51,.04)}
+table.k td b{color:#fff}
+.diff{color:var(--accent-2); font-weight:600}
+
+/* iteration chain */
+.chain-wrap{background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r); padding:20px 18px}
+.chain{display:grid; grid-template-columns:repeat(6,1fr); gap:10px; margin-bottom:14px}
+.rung{
+  background:var(--raised); border:1px solid var(--line); border-radius:var(--r-sm); padding:14px 12px;
+  position:relative; min-height:170px;
+}
+.rung .k{font-size:10px; letter-spacing:.16em; text-transform:uppercase; font-weight:800; padding:3px 8px; border-radius:999px; display:inline-block; margin-bottom:8px}
+.rung.fold .k{background:rgba(34,201,138,.16); color:var(--good); border:1px solid rgba(34,201,138,.3)}
+.rung.warm .k{background:rgba(122,169,255,.16); color:var(--info); border:1px solid rgba(122,169,255,.3)}
+.rung.lever .k{background:rgba(255,180,90,.16); color:var(--accent-2); border:1px solid rgba(255,180,90,.4)}
+.rung .name{color:#fff; font-weight:700; font-size:14px; margin-bottom:4px; line-height:1.25}
+.rung .what{color:var(--fog-dim); font-size:11.5px; line-height:1.45; margin-bottom:8px}
+.rung .fate{font-size:11px; color:var(--fog-dim); padding-top:8px; border-top:1px dashed var(--line)}
+.rung .fate b{color:#fff}
+.rung.lever .fate b{color:var(--accent-2)}
+.chain-legend{display:flex; gap:14px; flex-wrap:wrap; margin-top:10px; color:var(--fog-dim); font-size:11px}
+.chain-legend .l-it{display:inline-flex; align-items:center; gap:6px}
+.chain-legend .dot{width:9px; height:9px; border-radius:2px}
+
+/* options */
+.opts{display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px}
+.opt{
+  background:var(--bg-2); border:1px solid var(--line); border-radius:var(--r); padding:20px; display:flex; flex-direction:column; min-height:100%;
+}
+.opt.rec{border-color:var(--rim); background:linear-gradient(180deg,rgba(255,119,51,.06),transparent 60%),var(--bg-2); position:relative}
+.opt.rec::before{
+  content:"★ Recommended"; position:absolute; top:-10px; left:20px;
+  background:var(--accent); color:#0b0b0e; padding:3px 10px; border-radius:999px;
+  font-size:10px; font-weight:800; letter-spacing:.14em; text-transform:uppercase;
+}
+.opt .label{color:var(--accent-2); font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:700}
+.opt h3{color:#fff; margin:6px 0 10px; font-size:17px}
+.mockup{
+  font-family:var(--mono); font-size:11px; line-height:1.5; color:var(--fog);
+  background:var(--bg); border:1px solid var(--line); border-radius:var(--r-sm);
+  padding:12px 14px; margin:8px 0 12px; white-space:pre;
+}
+.mockup .ok{color:var(--good)}
+.mockup .new{color:var(--accent-2)}
+.mockup .dep{color:var(--bad); text-decoration:line-through}
+.mockup .ref{color:var(--info)}
+.opt ul{margin:0; padding-left:0; list-style:none}
+.opt li{padding:5px 0 5px 22px; position:relative; color:var(--fog); font-size:12.5px; line-height:1.5}
+.opt li.pro::before{content:"✓"; position:absolute; left:0; color:var(--good); font-weight:800}
+.opt li.con::before{content:"−"; position:absolute; left:0; color:var(--bad); font-weight:800}
+
+/* decisions */
+.dec-list{display:flex; flex-direction:column; gap:10px}
+.dec{
+  background:var(--bg-2); border:1px solid var(--rim); border-radius:var(--r);
+  padding:18px 22px; display:flex; gap:16px; align-items:flex-start;
+}
+.dec .num{
+  flex-shrink:0; width:38px; height:38px; border-radius:999px;
+  background:var(--accent); color:#0b0b0e; font-weight:800;
+  display:flex; align-items:center; justify-content:center; font-size:18px;
+}
+.dec h4{margin:0 0 4px; color:#fff; font-size:16px}
+.dec p{margin:0; color:var(--fog); font-size:13.5px; line-height:1.5}
+.dec .why{color:var(--fog-dim); font-size:12px; margin-top:6px; line-height:1.5}
+
+/* parallel work */
+.parallel{
+  margin-top:32px; padding:18px 22px;
+  background:rgba(122,169,255,.05); border:1px solid rgba(122,169,255,.25); border-radius:var(--r);
+}
+.parallel h2{color:var(--info); margin-top:0}
+.parallel p{margin:6px 0 0; color:var(--fog); font-size:13.5px; line-height:1.55}
+
+.foot{margin-top:48px; color:var(--fog-faint); font-size:12px; border-top:1px solid var(--line); padding-top:18px}
+
+@media (max-width:960px){
+  .stats,.opts,.triad-grid{grid-template-columns:1fr 1fr}
+  .chain{grid-template-columns:repeat(3,1fr)}
+  h1{font-size:34px}
+}
+@media (max-width:600px){
+  .stats,.opts,.triad-grid,.chain{grid-template-columns:1fr}
+  .wrap{padding:32px 18px 64px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HERO -->
+  <span class="eyebrow"><span class="dot"></span>Curation Pass · 2026-05-31</span>
+  <div class="hero">
+    <h1>We have <span class="accent">three games</span><br>in <span class="accent">one family.</span></h1>
+    <p class="lead"><b>the-square</b>, <b>one-shot-discovery</b>, and the un-built <b>2026-05-31 G2–G6 combo iterations</b> are all variants of the same striking-in-a-tight-perimeter game. They share the perimeter, the role-switch, and the "earn the right to counter, then finish" arc. They differ on only <b class="accent">four knobs</b>. The product won't ship all three. Here's what we have, what folds in, what's data, and the call you need to make.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="bar"></div><div class="n">3</div><div class="l">Games in the family</div><div class="s">All WIP or un-built. None blessed yet.</div></div>
+    <div class="stat"><div class="bar"></div><div class="n">4</div><div class="l">Knobs that vary</div><div class="s">Offense, counter, defense scoring, domain reach.</div></div>
+    <div class="stat"><div class="bar"></div><div class="n">6</div><div class="l">Iterations today</div><div class="s">Most fold in as Levels. One is the design lever.</div></div>
+    <div class="stat"><div class="bar"></div><div class="n">4</div><div class="l">Decisions for you</div><div class="s">Structure + 2 platform reviews + concept page.</div></div>
+  </div>
+
+  <!-- THE FAMILY -->
+  <h2>The family</h2>
+  <p class="muted" style="margin:-8px 0 14px">Three games, evolved across three classes. The center is what they share; the cards above are what makes each one unique.</p>
+
+  <div class="triad">
+    <div class="triad-grid">
+      <div class="family amber">
+        <span class="tag">2026-05-25 · WIP</span>
+        <h3>the-square</h3>
+        <div class="meta">Striking → Clinch → Ground</div>
+        <div class="unique">
+          <span class="unique-l">Uniquely has</span>
+          Full domain extension. ≤3-shot boxing combos. <b>Takedown finish at L5.</b> Goes from block-only survival all the way to a single-leg takedown finish.
+        </div>
+      </div>
+      <div class="family orange">
+        <span class="tag">2026-05-30 · WIP</span>
+        <h3>one-shot-discovery</h3>
+        <div class="meta">Striking only</div>
+        <div class="unique">
+          <span class="unique-l">Uniquely has</span>
+          Single-shot offense, 4-weapon menu. <b>No-repeat-shot rule</b> forcing tool variation. Speed and tool-discovery framing.
+        </div>
+      </div>
+      <div class="family violet">
+        <span class="tag">2026-05-31 · un-built</span>
+        <h3>combo-reset (proposed)</h3>
+        <div class="meta">Striking only</div>
+        <div class="unique">
+          <span class="unique-l">Uniquely has</span>
+          4-shot combo offense. <b>"Every exchange is a result"</b> doctrine. Point-weighted scoring (1pt block / 5pt counter). Opposite-side 2-strike counter. <b>Non-scoring defender's jab</b> (the design lever).
+        </div>
+      </div>
+    </div>
+    <div class="shared-dna">
+      <span class="badge">Shared DNA</span>
+      <div class="traits">
+        <span class="trait">Tight rectangular perimeter</span>
+        <span class="trait">Both feet out = loss</span>
+        <span class="trait">Role switch on success</span>
+        <span class="trait">Counter must LAND</span>
+        <span class="trait">Feints as counter openings</span>
+        <span class="trait">Progressive constraint layering</span>
+        <span class="trait">"Earn the right to counter, then finish"</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- THE FOUR KNOBS -->
+  <h2>The four knobs that vary</h2>
+  <p class="muted" style="margin:-8px 0 14px">All three games are the same skeleton with these four dials set differently. Highlighted in orange is what's unique to each column.</p>
+
+  <div class="knobs">
+    <table class="k">
+      <thead>
+        <tr>
+          <th style="width:18%">Knob</th>
+          <th>the-square</th>
+          <th>one-shot-discovery</th>
+          <th>combo-reset</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="knob">Offense complexity</td>
+          <td>≤3-shot boxing combo</td>
+          <td><span class="diff">Single shot</span>, 4-weapon menu, no-repeat</td>
+          <td><span class="diff">4-shot combo</span>, "every exchange is a result"</td>
+        </tr>
+        <tr>
+          <td class="knob">Counter constraint</td>
+          <td>One strike → body kick (L4)</td>
+          <td>Any single strike → body kick (L5)</td>
+          <td>Any → <span class="diff">opposite-side 2-strike</span> → kick-finished</td>
+        </tr>
+        <tr>
+          <td class="knob">Defense scoring</td>
+          <td>Block-only → block + counter</td>
+          <td>Block-only → block + counter</td>
+          <td>Block (1pt) → counter (5pt) → <span class="diff">counter-only-wins + non-scoring jab</span></td>
+        </tr>
+        <tr>
+          <td class="knob">Domain reach</td>
+          <td><span class="diff">Striking + clinch + takedown</span></td>
+          <td>Striking only</td>
+          <td>Striking only</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TODAY'S ITERATIONS -->
+  <h2>Today's 6 iterations: what folds, what's data</h2>
+  <p class="muted" style="margin:-8px 0 14px">If we go with the combo-reset page, here's what each rung becomes. The 1pt/5pt scoring and the non-scoring jab are the unique design levers worth preserving.</p>
+
+  <div class="chain-wrap">
+    <div class="chain">
+      <div class="rung warm">
+        <span class="k">G1 · warm-up</span>
+        <div class="name">Speed warm-up</div>
+        <div class="what">Mirrored, first-to-land, single shots, any weapon.</div>
+        <div class="fate"><b>Not its own page.</b> Reference from <code>touch-game</code> or a Level 0 callout.</div>
+      </div>
+      <div class="rung fold">
+        <span class="k">G2 · L1</span>
+        <div class="name">Combo + reset</div>
+        <div class="what">4-shot combo offense, block-only defense. <b>"Every exchange is a result."</b></div>
+        <div class="fate"><b>Foundation L1</b> of the new page.</div>
+      </div>
+      <div class="rung fold lever">
+        <span class="k">G3 · L2 + lever</span>
+        <div class="name">Add counter</div>
+        <div class="what">Counter any single strike. Block = 1pt, counter = 5pt.</div>
+        <div class="fate"><b>L2</b> + the <b>point-weighted scoring</b> stays as a design lever.</div>
+      </div>
+      <div class="rung fold">
+        <span class="k">G4 · L3</span>
+        <div class="name">Opposite-side 2-strike</div>
+        <div class="what">Counter must be two consecutive strikes from opposite sides.</div>
+        <div class="fate"><b>L3</b>, pure skill isolation.</div>
+      </div>
+      <div class="rung fold">
+        <span class="k">G5 · L4</span>
+        <div class="name">Kick-finished counter</div>
+        <div class="what">2-strike counter, last shot must be a kick.</div>
+        <div class="fate"><b>L4</b>. Same observable as the-square L4 with setup-strike requirement.</div>
+      </div>
+      <div class="rung fold lever">
+        <span class="k">G6 · L5 + lever</span>
+        <div class="name">Counter-only + jab tool</div>
+        <div class="what">Block alone no longer wins. Defender gets a <b>non-scoring jab</b> to keep them away.</div>
+        <div class="fate"><b>L5 / Full Expression.</b> The <b>non-scoring deny tool</b> is the big design lever this iteration produced.</div>
+      </div>
+    </div>
+    <div class="chain-legend">
+      <span class="l-it"><span class="dot" style="background:var(--info)"></span>warm-up (referenced)</span>
+      <span class="l-it"><span class="dot" style="background:var(--good)"></span>folds in as a Level</span>
+      <span class="l-it"><span class="dot" style="background:var(--accent-2)"></span>unique design lever to preserve</span>
+    </div>
+  </div>
+
+  <!-- THE THREE OPTIONS -->
+  <h2>Three structural options</h2>
+  <p class="muted" style="margin:-8px 0 14px">Pick one. The choice is irreversible-ish (each requires real rework to undo). My recommendation is starred, but it's your call.</p>
+
+  <div class="opts">
+    <div class="opt">
+      <span class="label">Option A</span>
+      <h3>One canonical page. Others fold in.</h3>
+      <div class="mockup">games/
+├── <span class="ok">the-square</span>  (8–10 levels)
+│   ├── L1 block-only
+│   ├── L2 vary-the-tool
+│   ├── L3 counter
+│   ├── L4 opp-side 2-strike
+│   ├── L5 kick-finished
+│   ├── L6 counter-only+jab
+│   ├── L7 clinch off-balance
+│   ├── L8 kick counters
+│   └── L9 takedown finish
+└── <span class="dep">one-shot-discovery</span></div>
+      <ul>
+        <li class="pro">Strictest read of "core foundation that works best"</li>
+        <li class="pro">One game = one home in the library</li>
+        <li class="con">Long page (8–10 levels)</li>
+        <li class="con">Awkward to choose single-shot vs combo on one page</li>
+      </ul>
+    </div>
+
+    <div class="opt rec">
+      <span class="label">Option B</span>
+      <h3>Two pages, distinct value props.</h3>
+      <div class="mockup">games/
+├── <span class="ok">the-square</span>  (full domain progression)
+│   └── 5 levels: striking → ground
+├── <span class="new">combo-exchange</span>  (NEW)
+│   └── 5 levels: G2 → G6
+└── <span class="dep">one-shot-discovery</span></div>
+      <ul>
+        <li class="pro">Each page has a clear unique selling point</li>
+        <li class="pro">Combo is more MMA-representative than single-shot</li>
+        <li class="pro">Manageable Levels per page</li>
+        <li class="con">one-shot-discovery deprecation feels like sunk cost</li>
+      </ul>
+    </div>
+
+    <div class="opt">
+      <span class="label">Option C</span>
+      <h3>Three siblings + family page.</h3>
+      <div class="mockup">games/
+├── <span class="ok">the-square</span>
+├── <span class="ok">one-shot-discovery</span>
+└── <span class="new">combo-exchange</span>
+
+concepts/
+└── <span class="ref">perimeter-exchange-family</span>
+    (connects all 3, comparison matrix)</div>
+      <ul>
+        <li class="pro">Preserves all work; no deprecations</li>
+        <li class="pro">Each cousin truly distinct on its knobs</li>
+        <li class="con">3 pages in one family approaches BJJ-Fanatics anti-pattern</li>
+        <li class="con">Family page must do real navigation work</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- DECISIONS -->
+  <h2>Your four decisions</h2>
+  <div class="dec-list">
+
+    <div class="dec">
+      <div class="num">1</div>
+      <div>
+        <h4>Pick A, B, or C for the family.</h4>
+        <p>This is the gate. Unlocks the next striking build.</p>
+        <p class="why">My honest take: B. Combo is more MMA-representative than single-shot, the-square's domain extension is unique enough to stand alone, and Levels count stays sane.</p>
+      </div>
+    </div>
+
+    <div class="dec">
+      <div class="num">2</div>
+      <div>
+        <h4>Platform-review <code>the-square</code>.</h4>
+        <p>It's been WIP since 2026-05-25. Open it on mkdocs serve, read the 5 levels, decide: bless as canonical (drop WIP), bless with tweaks (tell me which), or rework.</p>
+        <p class="why">If you pick Option A above, the-square gets significantly longer; you'd want to re-verify it as the canonical home first.</p>
+      </div>
+    </div>
+
+    <div class="dec">
+      <div class="num">3</div>
+      <div>
+        <h4>Platform-review <code>ground-and-pound-defense</code>.</h4>
+        <p>Built yesterday from G5. Same drill: bless, bless with tweaks, or rework.</p>
+        <p class="why">No iterations to compare against, single canonical pass; just needs your eyeballs to confirm phrasing landed.</p>
+      </div>
+    </div>
+
+    <div class="dec">
+      <div class="num">4</div>
+      <div>
+        <h4>Build the <code>"every exchange is a result"</code> concept page now or defer?</h4>
+        <p>It's the biggest connector across every perimeter game (the-square, one-shot-discovery, combo-exchange, ground-and-pound-defense). Building it early means every downstream page can reference it cleanly.</p>
+        <p class="why">Cheap to build, sticky, immediately useful. My read: build now.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PARALLEL -->
+  <div class="parallel">
+    <h2>What I can do without your input</h2>
+    <p>Audit pass on the three SMGC-influenced ground escapes (<code>mount-escape</code>, <code>side-control-escape</code>, <code>back-escape</code>). No library edits. I generate audit-ready notes you can run through the audit console later, when a grappling class gives us R5 (representative-for-our-system) data. Says yes/no and I'll spin it up in parallel while you decide on 1–4.</p>
+  </div>
+
+  <p class="foot">Standalone explainer. Source: <code>docs/_drafts/curation-pass-2026-05-31.md</code> (the full per-item analysis) + <code>docs/_drafts/gaps-atlas-2026-05-31.md</code> (the spectrum view). No library files edited.</p>
+</div>
+</body>
+</html>
