@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QA Findings Audit — HIGH Objective</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;500;600;700&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B0C0F; --charcoal:#141620; --raised:#1B1E2A; --steel:#272B38; --steel-2:#3A4050;
+    --fog:#ECEAE4; --fog-dim:#A6ABB8; --fog-faint:#6B7080;
+    --orange:#F94B0C; --orange-br:#FF6A33; --orange-deep:#B83708;
+    --glow:rgba(249,75,12,.22);
+    --good:#36C28B; --warn:#E8B53A; --bad:#E8533A;
+    --display:'Anton',Impact,sans-serif;
+    --label:'Oswald',sans-serif;
+    --body:'Archivo',system-ui,sans-serif;
+    --mono:'JetBrains Mono',monospace;
+    --ease:cubic-bezier(.22,1,.36,1);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--ink);color:var(--fog);font-family:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.04;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--orange);color:#fff}
+  ::-webkit-scrollbar{width:10px}
+  ::-webkit-scrollbar-track{background:var(--ink)}
+  ::-webkit-scrollbar-thumb{background:var(--steel-2);border-radius:10px}
+  ::-webkit-scrollbar-thumb:hover{background:var(--orange-deep)}
+
+  .dots{position:fixed;right:26px;top:50%;transform:translateY(-50%);z-index:200;display:flex;flex-direction:column;gap:14px}
+  .dots a{width:9px;height:9px;border-radius:50%;border:1px solid var(--steel-2);transition:all .3s var(--ease)}
+  .dots a.active{background:var(--orange);border-color:var(--orange);box-shadow:0 0 12px var(--glow)}
+  .dots a:hover{border-color:var(--orange)}
+  @media(max-width:900px){.dots{display:none}}
+
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+  section{position:relative}
+  .eyebrow{font-family:var(--label);text-transform:uppercase;letter-spacing:.34em;font-size:.72rem;color:var(--orange);font-weight:600;margin-bottom:1rem;display:flex;align-items:center;gap:.7rem}
+  .eyebrow::before{content:"";width:28px;height:1px;background:var(--orange)}
+  h2.title{font-family:var(--display);text-transform:uppercase;font-size:clamp(2.2rem,6vw,4.4rem);line-height:.94;letter-spacing:.01em;margin-bottom:1.4rem}
+  .lede{font-size:clamp(1.05rem,2vw,1.3rem);color:var(--fog-dim);max-width:46rem;line-height:1.55}
+  .accent{color:var(--orange)}
+  .block{padding:7rem 0;border-top:1px solid var(--steel)}
+
+  /* hero */
+  .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:7rem 28px 4rem;overflow:hidden;
+    background:radial-gradient(70% 60% at 50% -5%,rgba(249,75,12,.13),transparent 60%),linear-gradient(180deg,#0B0C0F,#070809);}
+  .hero::before{content:"";position:absolute;inset:0;
+    background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+    background-size:70px 70px;mask-image:radial-gradient(75% 70% at 50% 35%,#000,transparent 82%);}
+  .hero-inner{max-width:1080px;margin:0 auto;width:100%;position:relative;z-index:1}
+  .brief-tag{font-family:var(--mono);font-size:.74rem;letter-spacing:.2em;color:var(--fog-faint);text-transform:uppercase;margin-bottom:2.2rem;display:flex;gap:1.4rem;flex-wrap:wrap}
+  .brief-tag b{color:var(--orange);font-weight:500}
+  h1{font-family:var(--display);text-transform:uppercase;font-size:clamp(3rem,11vw,8.4rem);line-height:.86;letter-spacing:.005em}
+  h1 .ln{display:block;overflow:hidden}
+  h1 .ln span{display:block;transform:translateY(105%);animation:rise .9s var(--ease) forwards}
+  h1 .ln:nth-child(2) span{animation-delay:.12s}
+  @keyframes rise{to{transform:none}}
+  .hero-sub{margin-top:2rem;max-width:42rem;font-size:clamp(1.1rem,2.2vw,1.4rem);color:var(--fog-dim);opacity:0;animation:fade 1s var(--ease) .5s forwards}
+  .hero-sub b{color:var(--fog)}
+  @keyframes fade{to{opacity:1}}
+  .scrollcue{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);font-family:var(--label);text-transform:uppercase;letter-spacing:.3em;font-size:.66rem;color:var(--fog-faint);animation:bob 2.2s var(--ease) infinite}
+  @keyframes bob{0%,100%{transform:translateX(-50%)}50%{transform:translateX(-50%) translateY(7px)}}
+
+  .rv{opacity:0;transform:translateY(34px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+  .rv.in{opacity:1;transform:none}
+  .rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}.rv.d4{transition-delay:.32s}
+
+  /* scoreboard */
+  .board{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem;margin-top:2.6rem}
+  .score{background:var(--charcoal);border:1px solid var(--steel);border-radius:14px;padding:1.7rem 1.4rem;position:relative;overflow:hidden}
+  .score .bar{position:absolute;top:0;left:0;height:3px;width:100%}
+  .score .n{font-family:var(--display);font-size:clamp(2.6rem,5vw,3.4rem);line-height:1}
+  .score .l{font-family:var(--label);text-transform:uppercase;letter-spacing:.1em;font-size:.74rem;color:var(--fog-dim);margin-top:.4rem}
+  .t-good{color:var(--good)} .b-good{background:var(--good)}
+  .t-warn{color:var(--warn)} .b-warn{background:var(--warn)}
+  .t-bad{color:var(--bad)}   .b-bad{background:var(--bad)}
+  .t-fog{color:var(--fog)}   .b-fog{background:var(--steel-2)}
+  @media(max-width:760px){.board{grid-template-columns:repeat(2,1fr)}}
+
+  /* tape */
+  .tape{margin-top:1rem;border:1px solid var(--steel);border-radius:16px;overflow:hidden;background:var(--charcoal)}
+  .tape-head,.tape-row{display:grid;grid-template-columns:.5fr 1.3fr 1fr 1.7fr}
+  .tape-head>div{padding:1.1rem 1.1rem;border-bottom:1px solid var(--steel);font-family:var(--label);text-transform:uppercase;letter-spacing:.1em;font-size:.7rem;color:var(--fog-faint)}
+  .tape-row{border-bottom:1px solid var(--steel)}
+  .tape-row:last-child{border-bottom:0}
+  .tape-row>div{padding:1.1rem 1.1rem;font-size:.88rem;border-left:1px solid var(--steel);color:var(--fog-dim)}
+  .tape-row>div:first-child{border-left:0}
+  .tape-row .gid{font-family:var(--display);font-size:1.5rem;color:var(--fog)}
+  .tape-row .file{font-family:var(--mono);font-size:.82rem;color:var(--fog);letter-spacing:.02em}
+  .verdict{font-family:var(--label);text-transform:uppercase;letter-spacing:.06em;font-weight:600;font-size:.82rem}
+  .v-good{color:var(--good)}.v-warn{color:var(--warn)}.v-bad{color:var(--bad)}
+  @media(max-width:760px){.tape-head{display:none}.tape-row{grid-template-columns:1fr}.tape-row>div{border-left:0;border-top:1px solid var(--steel)}.tape-row>div:first-child{border-top:0}}
+
+  /* finding cards */
+  .find{border-radius:14px;padding:1.8rem 1.9rem;margin-bottom:1.4rem;border:1px solid var(--steel);border-left:4px solid var(--steel-2);background:var(--charcoal)}
+  .find.ok{border-left-color:var(--good);background:linear-gradient(110deg,rgba(54,194,139,.08),transparent 60%)}
+  .find.mid{border-left-color:var(--warn);background:linear-gradient(110deg,rgba(232,181,58,.08),transparent 60%)}
+  .find.no{border-left-color:var(--bad);background:linear-gradient(110deg,rgba(232,83,58,.08),transparent 60%)}
+  .find .top{display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:.9rem}
+  .find .top .file{font-family:var(--mono);font-size:1rem;color:var(--fog);font-weight:500}
+  .find .badge{font-family:var(--label);text-transform:uppercase;letter-spacing:.08em;font-size:.7rem;font-weight:600;padding:.2rem .7rem;border-radius:30px;margin-left:auto}
+  .find.ok .badge{color:var(--good);background:rgba(54,194,139,.14)}
+  .find.mid .badge{color:var(--warn);background:rgba(232,181,58,.14)}
+  .find.no .badge{color:var(--bad);background:rgba(232,83,58,.14)}
+  .find .row{display:grid;grid-template-columns:7rem 1fr;gap:1rem;padding:.55rem 0;border-top:1px solid rgba(255,255,255,.05);font-size:.92rem}
+  .find .row:first-of-type{border-top:0}
+  .find .row .k{font-family:var(--label);text-transform:uppercase;letter-spacing:.1em;font-size:.7rem;color:var(--fog-faint);padding-top:.15rem}
+  .find .row .v{color:var(--fog-dim)}
+  .find .row .v b{color:var(--fog)}
+
+  code{font-family:var(--mono);font-size:.84em;background:rgba(255,255,255,.06);padding:.1rem .4rem;border-radius:4px;color:var(--orange-br)}
+
+  /* deep dive code compare */
+  .compare{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:2rem}
+  .codecard{background:#0a0b10;border:1px solid var(--steel);border-radius:12px;overflow:hidden}
+  .codecard .ch{padding:.8rem 1.1rem;font-family:var(--label);text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;border-bottom:1px solid var(--steel);display:flex;justify-content:space-between;align-items:center}
+  .codecard.win .ch{color:var(--good)} .codecard.win{border-color:rgba(54,194,139,.3)}
+  .codecard.neu .ch{color:var(--fog-dim)}
+  .codecard pre{padding:1.1rem;font-family:var(--mono);font-size:.78rem;line-height:1.7;color:var(--fog-dim);overflow-x:auto;white-space:pre-wrap}
+  .codecard pre .hl{color:var(--orange-br)}
+  .codecard pre .gd{color:var(--good)}
+  .arrow-note{font-family:var(--mono);font-size:.78rem;color:var(--fog-faint);margin-top:1rem;text-align:center}
+  @media(max-width:760px){.compare{grid-template-columns:1fr}}
+
+  /* callout */
+  .callout{border:1px solid var(--steel);border-left:4px solid var(--orange);border-radius:12px;padding:1.5rem 1.7rem;margin-top:1.4rem;background:linear-gradient(110deg,rgba(249,75,12,.07),transparent 60%)}
+  .callout .k{font-family:var(--label);text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--orange);margin-bottom:.5rem}
+  .callout p{color:var(--fog-dim);font-size:.94rem}
+  .callout p b{color:var(--fog)}
+
+  /* domain call list */
+  .calls{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.6rem}
+  .call{background:var(--charcoal);border:1px solid var(--steel);border-radius:14px;padding:1.5rem 1.6rem}
+  .call .q{font-family:var(--label);text-transform:uppercase;letter-spacing:.06em;font-size:.78rem;color:var(--warn);margin-bottom:.6rem}
+  .call .file{font-family:var(--mono);font-size:.72rem;color:var(--fog-faint);margin-bottom:.7rem}
+  .call p{font-size:.9rem;color:var(--fog-dim)}
+  @media(max-width:760px){.calls{grid-template-columns:1fr}}
+
+  footer{padding:5rem 0 6rem;border-top:1px solid var(--steel);text-align:center}
+  footer .big{font-family:var(--display);text-transform:uppercase;font-size:clamp(1.8rem,4vw,3rem);line-height:1;margin-bottom:1rem}
+  footer .meta{font-family:var(--mono);font-size:.72rem;color:var(--fog-faint);letter-spacing:.12em;text-transform:uppercase;margin-top:2rem}
+</style>
+</head>
+<body>
+
+<nav class="dots" aria-hidden="true">
+  <a href="#top" class="active"></a>
+  <a href="#board"></a>
+  <a href="#tape"></a>
+  <a href="#findings"></a>
+  <a href="#deepdive"></a>
+  <a href="#calls"></a>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <div class="brief-tag"><span>QA Audit</span><span>HIGH · Objective</span><span><b>2026-05-26</b></span><span>Report only</span></div>
+    <h1>
+      <span class="ln"><span>Audit the</span></span>
+      <span class="ln"><span class="accent">Findings.</span></span>
+    </h1>
+    <p class="hero-sub">Before fixing anything, every HIGH-objective bug in <b>qa-findings.md</b> was checked against the live files and the built site. Four claims went in. <b>One did not survive.</b></p>
+  </div>
+  <div class="scrollcue">Scroll</div>
+</header>
+
+<!-- SCOREBOARD -->
+<section class="block" id="board">
+  <div class="wrap">
+    <div class="eyebrow rv">The card</div>
+    <h2 class="title rv">Verdict at a glance</h2>
+    <p class="lede rv">An audit is not a fix list. It is a trust check on the report itself. The QA doc flagged four HIGH-objective issues; auditing them against source and rendered output gives a different split than "all four are bugs."</p>
+    <div class="board">
+      <div class="score rv d1"><div class="bar b-fog"></div><div class="n t-fog">4</div><div class="l">Findings audited</div></div>
+      <div class="score rv d2"><div class="bar b-good"></div><div class="n t-good">2</div><div class="l">Confirmed valid</div></div>
+      <div class="score rv d3"><div class="bar b-warn"></div><div class="n t-warn">1</div><div class="l">Valid, overstated</div></div>
+      <div class="score rv d4"><div class="bar b-bad"></div><div class="n t-bad">1</div><div class="l">Rejected, false alarm</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TAPE -->
+<section class="block" id="tape">
+  <div class="wrap">
+    <div class="eyebrow rv">Tale of the tape</div>
+    <h2 class="title rv">Claim vs. evidence</h2>
+    <div class="tape rv">
+      <div class="tape-head">
+        <div>#</div><div>File</div><div>Verdict</div><div>What the evidence showed</div>
+      </div>
+      <div class="tape-row">
+        <div><span class="gid">1</span></div>
+        <div><span class="file">tight-block</span></div>
+        <div><span class="verdict v-good">Valid</span></div>
+        <div>The <code>body-kick</code> tag (line 17) contradicts the page's own "no kicks or knees" rule (line 79). The tags plugin is live, so it files the game under a kick index it has no business in.</div>
+      </div>
+      <div class="tape-row">
+        <div><span class="gid">2</span></div>
+        <div><span class="file">standup-loop</span></div>
+        <div><span class="verdict v-warn">Valid, milder</span></div>
+        <div>Setup lists three starts ("seated, turtle, or elbow-post") and an undefined "partial control." Real issue, but it keeps clear roles and win/loss, so it is a non-singular-start problem, not the full symmetric collapse the doc implies.</div>
+      </div>
+      <div class="tape-row">
+        <div><span class="gid">3</span></div>
+        <div><span class="file">winning-the-circle</span></div>
+        <div><span class="verdict v-bad">Rejected</span></div>
+        <div>Built output renders the "404" links as <code>../../games/wall-control/</code>, correct URLs. MkDocs resolves markdown <code>.md</code> links. No macros plugin renders the frontmatter. Not a bug.</div>
+      </div>
+      <div class="tape-row">
+        <div><span class="gid">4</span></div>
+        <div><span class="file">ground-access</span></div>
+        <div><span class="verdict v-good">Valid</span></div>
+        <div>Frontmatter still gates this teaching game behind <code>positional-battle</code> (line 14), which was demoted to a sparring format. Stale circular dependency. The body links to "Positional Sparring" are intentional and fine.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINDINGS DETAIL -->
+<section class="block" id="findings">
+  <div class="wrap">
+    <div class="eyebrow rv">Round by round</div>
+    <h2 class="title rv">The four, in full</h2>
+
+    <div class="find ok rv">
+      <div class="top"><span class="file">tight-block.md</span><span class="badge">Confirmed</span></div>
+      <div class="row"><div class="k">Claim</div><div class="v">The <code>body-kick</code> tag contradicts "straights &amp; hooks only, no kicks."</div></div>
+      <div class="row"><div class="k">Evidence</div><div class="v">Line 17: <code>- body-kick</code>. Line 79: <b>"no kicks or knees."</b> Direct contradiction.</div></div>
+      <div class="row"><div class="k">Fix</div><div class="v">Remove the tag. (Objective, no judgment needed.)</div></div>
+    </div>
+
+    <div class="find mid rv">
+      <div class="top"><span class="file">standup-loop.md</span><span class="badge">Valid, overstated</span></div>
+      <div class="row"><div class="k">Claim</div><div class="v">Three starts + "partial control" = the Positional-Battle failure mode.</div></div>
+      <div class="row"><div class="k">Evidence</div><div class="v">Setup offers <b>seated / turtle / elbow-post</b> and an undefined "partial control." But roles and win/loss are clear, so it is not the symmetric-start collapse, just a missing single representative start.</div></div>
+      <div class="row"><div class="k">Fix</div><div class="v">Pick one canonical start, or promote the three to explicit setup variants, and define "partial control" (e.g. chest-to-back or one underhook, not yet a two-point pin). <b>Needs a domain pick.</b></div></div>
+    </div>
+
+    <div class="find no rv">
+      <div class="top"><span class="file">winning-the-circle.md</span><span class="badge">False alarm</span></div>
+      <div class="row"><div class="k">Claim</div><div class="v">Body <code>.md</code> links 404; frontmatter <code>related_concepts</code> point to missing files and 404.</div></div>
+      <div class="row"><div class="k">Evidence</div><div class="v">Built HTML renders them as <b><code>../../games/wall-control/</code></b>, valid URLs whose targets exist. No macros plugin exists to render frontmatter into links (<code>plugins: search, tags</code> only).</div></div>
+      <div class="row"><div class="k">Fix</div><div class="v">None required. Optional: align two markdown links to the file's raw-HTML style for consistency; drop the inert <code>wall-pin</code> / <code>pressure</code> frontmatter. Cosmetic.</div></div>
+    </div>
+
+    <div class="find ok rv">
+      <div class="top"><span class="file">ground-access.md</span><span class="badge">Confirmed</span></div>
+      <div class="row"><div class="k">Claim</div><div class="v">Still lists <code>positional-battle</code> as a prerequisite in frontmatter (circular dependency).</div></div>
+      <div class="row"><div class="k">Evidence</div><div class="v">Line 14: <code>prerequisites.games: [positional-battle]</code>. That game is now the sparring <i>format</i>, so the gate is stale.</div></div>
+      <div class="row"><div class="k">Fix</div><div class="v">Remove it. Replacement prereqs (open-space-takedown / wall-to-ground) are a <b>mild domain pick.</b></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- DEEP DIVE -->
+<section class="block" id="deepdive">
+  <div class="wrap">
+    <div class="eyebrow rv">Why the audit paid off</div>
+    <h2 class="title rv">The false<br>alarm, explained</h2>
+    <p class="lede rv">Finding #3 assumed every link that reads <code>../games/x.md</code> in source is broken. That is true for <b>raw HTML</b> links, which MkDocs passes through untouched. It is false for <b>markdown</b> links, which MkDocs resolves against the source file and rewrites. The same file uses both styles, which is what tricked the reviewer.</p>
+    <div class="compare rv">
+      <div class="codecard neu">
+        <div class="ch"><span>Markdown link · lines 119-120</span><span>resolved ✓</span></div>
+<pre>- [Wall Control](<span class="hl">../games/wall-control.md</span>)
+
+   MkDocs resolves against the
+   source dir, then rewrites to:
+
+   <span class="gd">../../games/wall-control/</span>  ✓ works</pre>
+      </div>
+      <div class="codecard win">
+        <div class="ch"><span>Raw HTML link · lines 93-95</span><span>literal</span></div>
+<pre>&lt;a href="<span class="gd">../../games/wall-control/</span>"&gt;
+
+   Passed through untouched.
+   Author already wrote the final
+   directory URL by hand.
+
+   <span class="gd">../../games/wall-control/</span>  ✓ works</pre>
+      </div>
+    </div>
+    <p class="arrow-note rv">Both resolve to the same correct URL. Confirmed in <code>site/concepts/winning-the-circle/index.html</code>.</p>
+
+    <div class="callout rv">
+      <div class="k">Side note 1 · the 50/50 wording lives here too</div>
+      <p><code>winning-the-circle.md:37</code> carries the same disputed phrase, <b>"one overhook and one underhook (mirror grips, one per side)."</b> When the 50/50 domain call is settled, this file needs the identical edit alongside the pressure-to-clinch and clinch-denial chips.</p>
+    </div>
+    <div class="callout rv">
+      <div class="k">Side note 2 · the committed build is stale</div>
+      <p><code>site/</code> was built May 25; sources were edited May 26. The "zero-warning build" held during last session, but the checked-in HTML predates the latest edits. <code>mkdocs</code> is not on PATH here, in a venv, so a fresh rebuild is still pending.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DOMAIN CALLS -->
+<section class="block" id="calls">
+  <div class="wrap">
+    <div class="eyebrow rv">Over to you</div>
+    <h2 class="title rv">Pending domain calls</h2>
+    <p class="lede rv">The objective fixes can land now. These four need your call before the fix pass is complete.</p>
+    <div class="calls">
+      <div class="call rv d1">
+        <div class="q">50/50 clinch wording</div>
+        <div class="file">pressure-to-clinch · clinch-denial · winning-the-circle</div>
+        <p>"Mirror grips" reads as same-side, which is self-contradictory. Likely intent: underhook one side, overhook the other, diagonally matched, neither has inside control. Also: should clinch-denial carry a 50/50 chip at all?</p>
+      </div>
+      <div class="call rv d2">
+        <div class="q">evade-the-punch: duck vs. roll</div>
+        <div class="file">evade-the-punch</div>
+        <p>The page teaches "duck the hook," which in MMA drops the head into uppercut and knee range. Should it be "roll / weave under the hook" instead?</p>
+      </div>
+      <div class="call rv d3">
+        <div class="q">standup-loop canonical start</div>
+        <div class="file">standup-loop</div>
+        <p>Which single compromised position is the representative start: seated, turtle, or elbow-post? Or keep all three as explicit, labeled setup variants?</p>
+      </div>
+      <div class="call rv d4">
+        <div class="q">ground-access replacement prereqs</div>
+        <div class="file">ground-access</div>
+        <p>With positional-battle removed, confirm the real prerequisites: open-space-takedown and wall-to-ground, the two ways a fight reaches the ground.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="big">2 to fix. 1 to ignore.<br><span class="accent">4 calls to make.</span></div>
+    <p class="lede" style="margin:0 auto">The MED list (14 items) and the LOW batch are still unaudited. Same method applies before any of them are trusted.</p>
+    <p class="meta">Ecological MMA System · QA Findings Audit · HIGH Objective · 2026-05-26</p>
+  </div>
+</footer>
+
+<script>
+  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')})},{threshold:.12});
+  document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+  const secs=[...document.querySelectorAll('section[id],header[id]')];
+  const dots=[...document.querySelectorAll('.dots a')];
+  const sp=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){const i=secs.indexOf(e.target);dots.forEach(d=>d.classList.remove('active'));if(dots[i])dots[i].classList.add('active')}})},{threshold:.5});
+  secs.forEach(s=>sp.observe(s));
+</script>
+</body>
+</html>

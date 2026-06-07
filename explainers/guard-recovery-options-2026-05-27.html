@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Defining Guard Recovery — Your Options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;500;600;700&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B0C0F; --charcoal:#141620; --raised:#1B1E2A; --steel:#272B38; --steel-2:#3A4050;
+    --fog:#ECEAE4; --fog-dim:#A6ABB8; --fog-faint:#6B7080;
+    --orange:#F94B0C; --orange-br:#FF6A33; --orange-deep:#B83708;
+    --glow:rgba(249,75,12,.22);
+    --good:#36C28B; --warn:#E8B53A; --bad:#E8533A; --blue:#4D8DF0;
+    --display:'Anton',Impact,sans-serif;
+    --label:'Oswald',sans-serif;
+    --body:'Archivo',system-ui,sans-serif;
+    --mono:'JetBrains Mono',monospace;
+    --ease:cubic-bezier(.22,1,.36,1);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--ink);color:var(--fog);font-family:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.04;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--orange);color:#fff}
+  ::-webkit-scrollbar{width:10px}
+  ::-webkit-scrollbar-track{background:var(--ink)}
+  ::-webkit-scrollbar-thumb{background:var(--steel-2);border-radius:10px}
+
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+  section{position:relative}
+  .eyebrow{font-family:var(--label);text-transform:uppercase;letter-spacing:.34em;font-size:.72rem;color:var(--orange);font-weight:600;margin-bottom:1rem;display:flex;align-items:center;gap:.7rem}
+  .eyebrow::before{content:"";width:28px;height:1px;background:var(--orange)}
+  h2.title{font-family:var(--display);text-transform:uppercase;font-size:clamp(2rem,5.5vw,4rem);line-height:.94;margin-bottom:1.2rem}
+  .lede{font-size:clamp(1.05rem,2vw,1.25rem);color:var(--fog-dim);max-width:48rem;line-height:1.55}
+  .accent{color:var(--orange)}
+  .block{padding:6rem 0;border-top:1px solid var(--steel)}
+
+  .hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;padding:7rem 28px 4rem;overflow:hidden;
+    background:radial-gradient(70% 60% at 50% -5%,rgba(249,75,12,.13),transparent 60%),linear-gradient(180deg,#0B0C0F,#070809);}
+  .hero::before{content:"";position:absolute;inset:0;
+    background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+    background-size:70px 70px;mask-image:radial-gradient(75% 70% at 50% 35%,#000,transparent 82%);}
+  .hero-inner{max-width:1080px;margin:0 auto;width:100%;position:relative;z-index:1}
+  .brief-tag{font-family:var(--mono);font-size:.74rem;letter-spacing:.2em;color:var(--fog-faint);text-transform:uppercase;margin-bottom:2rem;display:flex;gap:1.4rem;flex-wrap:wrap}
+  .brief-tag b{color:var(--orange);font-weight:500}
+  h1{font-family:var(--display);text-transform:uppercase;font-size:clamp(2.8rem,10vw,7.5rem);line-height:.88}
+  .hero-sub{margin-top:1.8rem;max-width:44rem;font-size:clamp(1.05rem,2.2vw,1.35rem);color:var(--fog-dim)}
+  .hero-sub b{color:var(--fog)}
+
+  .rv{opacity:0;transform:translateY(30px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+  .rv.in{opacity:1;transform:none}
+  .rv.d1{transition-delay:.07s}.rv.d2{transition-delay:.14s}.rv.d3{transition-delay:.21s}.rv.d4{transition-delay:.28s}
+
+  /* spectrum ladder */
+  .ladder{display:grid;grid-template-columns:repeat(5,1fr);gap:.7rem;margin-top:2.4rem}
+  .rung{background:var(--charcoal);border:1px solid var(--steel);border-radius:13px;padding:1.4rem 1.1rem;position:relative;overflow:hidden;display:flex;flex-direction:column;gap:.5rem}
+  .rung .fill{position:absolute;bottom:0;left:0;height:4px;background:linear-gradient(90deg,var(--orange-deep),var(--orange-br))}
+  .rung .glyph{font-size:1.8rem}
+  .rung .nm{font-family:var(--label);text-transform:uppercase;letter-spacing:.04em;font-size:.82rem;font-weight:600;color:var(--fog)}
+  .rung .sub{font-size:.76rem;color:var(--fog-dim)}
+  .rung .sec{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fog-faint);margin-top:auto}
+  .scaleaxis{display:flex;justify-content:space-between;font-family:var(--label);text-transform:uppercase;letter-spacing:.1em;font-size:.7rem;color:var(--fog-faint);margin-top:.9rem}
+  @media(max-width:820px){.ladder{grid-template-columns:1fr 1fr}.scaleaxis{display:none}}
+
+  /* mirror */
+  .mirror{margin-top:2rem;border:1px solid var(--steel);border-radius:16px;background:var(--charcoal);padding:2rem 1.8rem}
+  .lines{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:1.4rem 0;border:1px solid var(--steel-2);border-radius:10px;overflow:hidden}
+  .lines>div{padding:1rem;text-align:center;border-right:1px solid var(--steel-2);font-family:var(--label);text-transform:uppercase;letter-spacing:.08em;font-size:.82rem}
+  .lines>div:last-child{border-right:0}
+  .lines>div .l{color:var(--fog);font-weight:600}
+  .arrowrow{display:flex;align-items:center;gap:1rem;margin:.6rem 0;font-family:var(--mono);font-size:.82rem}
+  .arrowrow .who{width:7rem;flex-shrink:0;text-transform:uppercase;letter-spacing:.08em;font-size:.72rem}
+  .arrowrow.pass .who{color:var(--blue)} .arrowrow.rec .who{color:var(--orange)}
+  .arrowrow .track{flex:1;height:2px;background:var(--steel-2);position:relative}
+  .arrowrow.pass .track::after{content:"▶ past feet ▶ past knees ▶ past hips";position:absolute;top:-9px;left:0;font-size:.66rem;color:var(--blue);letter-spacing:.04em}
+  .arrowrow.rec .track::after{content:"◀ reinsert across hips ◀ knees ◀ feet";position:absolute;top:-9px;right:0;font-size:.66rem;color:var(--orange);letter-spacing:.04em}
+
+  /* decisions */
+  .dchip{display:inline-block;font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);background:var(--orange);padding:.25rem .7rem;border-radius:30px;margin-bottom:1rem;font-weight:700}
+  .opts2{display:grid;grid-template-columns:1fr 1fr;gap:1.3rem;margin-top:1.6rem}
+  .opts3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:1.6rem}
+  .opt{background:var(--charcoal);border:1px solid var(--steel);border-radius:15px;padding:1.7rem 1.6rem;display:flex;flex-direction:column;transition:transform .3s var(--ease),border-color .3s var(--ease)}
+  .opt:hover{transform:translateY(-5px)}
+  .opt.rec{border-color:rgba(54,194,139,.4);background:linear-gradient(160deg,rgba(54,194,139,.08),transparent 55%)}
+  .opt .tag{font-family:var(--label);text-transform:uppercase;letter-spacing:.06em;font-size:.72rem;color:var(--fog-faint);margin-bottom:.5rem}
+  .opt .nm{font-family:var(--display);text-transform:uppercase;font-size:1.5rem;line-height:1;margin-bottom:.8rem}
+  .opt.rec .nm{color:var(--good)}
+  .opt p{font-size:.9rem;color:var(--fog-dim);margin-bottom:.9rem}
+  .opt .sample{font-family:var(--mono);font-size:.76rem;line-height:1.55;color:var(--fog);background:#0a0b10;border:1px solid var(--steel);border-left:3px solid var(--orange);border-radius:8px;padding:.8rem .9rem;margin-top:auto}
+  .opt .sample b{color:var(--orange-br)}
+  .opt .verdict{font-family:var(--label);text-transform:uppercase;letter-spacing:.06em;font-size:.74rem;margin-top:1rem;padding-top:.8rem;border-top:1px solid var(--steel)}
+  .opt .pro{color:var(--good)} .opt .con{color:var(--warn)}
+  .reco-pill{display:inline-block;font-family:var(--label);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;font-weight:600;color:var(--good);background:rgba(54,194,139,.14);padding:.2rem .6rem;border-radius:30px;margin-left:.5rem}
+  @media(max-width:820px){.opts2,.opts3{grid-template-columns:1fr}}
+
+  footer{padding:5rem 0 6rem;border-top:1px solid var(--steel)}
+  footer .big{font-family:var(--display);text-transform:uppercase;font-size:clamp(1.6rem,4vw,2.8rem);line-height:1;margin-bottom:1.4rem}
+  .combo{display:flex;flex-direction:column;gap:.7rem;max-width:46rem}
+  .combo .row{display:flex;gap:1rem;align-items:baseline;font-size:.95rem;color:var(--fog-dim)}
+  .combo .row .k{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);width:7rem;flex-shrink:0}
+  .combo .row b{color:var(--fog)}
+  .meta{font-family:var(--mono);font-size:.7rem;color:var(--fog-faint);letter-spacing:.12em;text-transform:uppercase;margin-top:2.4rem}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brief-tag"><span>Design Decision</span><span>Mount Escape · Win Condition</span><span><b>2026-05-27</b></span></div>
+    <h1>What counts<br>as <span class="accent">guard?</span></h1>
+    <p class="hero-sub">Your five rungs are right: guard is not one state, it is a <b>spectrum of how much you have reinserted between you and them.</b> Defining the win means making three nested choices. Here they are.</p>
+  </div>
+</header>
+
+<!-- THE SPECTRUM -->
+<section class="block">
+  <div class="wrap">
+    <div class="eyebrow rv">The foundation</div>
+    <h2 class="title rv">Guard is a spectrum, not a switch</h2>
+    <p class="lede rv">Ordered least-to-most recovered. Every rung is a thing a coach can see across the mat, which is exactly why it makes a good win condition.</p>
+    <div class="ladder">
+      <div class="rung rv d1"><div class="fill" style="width:20%"></div><div class="glyph">🦶</div><div class="nm">One foot back</div><div class="sub">First point reinserted, the pass is stalled.</div><div class="sec">Minimal</div></div>
+      <div class="rung rv d2"><div class="fill" style="width:40%"></div><div class="glyph">🦵</div><div class="nm">One knee between</div><div class="sub">Knee shield / half guard, a leg traps.</div><div class="sec">Partial</div></div>
+      <div class="rung rv d3"><div class="fill" style="width:60%"></div><div class="glyph">🧎</div><div class="nm">Both knees between</div><div class="sub">Double knee shield, both frame the hips.</div><div class="sec">Controlling</div></div>
+      <div class="rung rv d4"><div class="fill" style="width:80%"></div><div class="glyph">🦿</div><div class="nm">Both feet between</div><div class="sub">Feet on hips / hooks, you own distance.</div><div class="sec">Full open guard</div></div>
+      <div class="rung rv d4"><div class="fill" style="width:100%"></div><div class="glyph">🔒</div><div class="nm">Closed loop</div><div class="sub">Legs wrapped and locked, closing guard.</div><div class="sec">Most secure</div></div>
+    </div>
+    <div class="scaleaxis rv"><span>◀ less recovered</span><span>more recovered ▶</span></div>
+  </div>
+</section>
+
+<!-- THE MIRROR -->
+<section class="block">
+  <div class="wrap">
+    <div class="eyebrow rv">Why this is system-safe</div>
+    <h2 class="title rv">It mirrors how we<br>already define passing</h2>
+    <p class="lede rv">The passer wins by getting <i>past</i> three lines. The guard player wins by reinserting <i>across</i> the same three lines. Same axis, opposite directions, so both win conditions become two ends of one ruler.</p>
+    <div class="mirror rv">
+      <div class="lines">
+        <div><span class="l">Hip line</span></div>
+        <div><span class="l">Knee line</span></div>
+        <div><span class="l">Foot line</span></div>
+      </div>
+      <div class="arrowrow pass"><span class="who">Passer →</span><span class="track"></span></div>
+      <div class="arrowrow rec"><span class="who">← Recover</span><span class="track"></span></div>
+      <p style="font-size:.84rem;color:var(--fog-dim);margin-top:1.4rem">Defining recovery this way is not a new idea bolted on, it is the inverse of the line-of-feet → line-of-knees → hips passing language already in the harvest. That is the argument for trusting it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DECISION 1 -->
+<section class="block">
+  <div class="wrap">
+    <span class="dchip rv">Decision 1</span>
+    <h2 class="title rv">Graded, or flat?</h2>
+    <p class="lede rv">Do the rungs <i>score degrees</i> (more recovered beats less), or are they just a <i>menu</i> of equally-valid wins? This is the real fork, and it changes whether the page measures quality or just pass/fail.</p>
+    <div class="opts2">
+      <div class="opt rec rv d1">
+        <div class="tag">Option A</div>
+        <div class="nm">Graded ladder</div>
+        <p>Any qualifying rung wins, but more recovery is a cleaner win. Sets a floor, then rewards getting further. Teaches the progression itself.</p>
+        <div class="sample">Bottom wins by getting a knee or leg back between (half guard <b>or better</b>). Cleaner the more you recover: <b>one knee &lt; both knees &lt; closed guard.</b></div>
+        <div class="verdict"><span class="pro">+ Trains the spectrum, richer feedback</span><br><span class="con">- Needs a coach to judge "cleaner"</span></div>
+      </div>
+      <div class="opt rv d2">
+        <div class="tag">Option B</div>
+        <div class="nm">Flat menu</div>
+        <p>Any one insertion = guard recovered = win, full stop. No degrees. Simplest to officiate, fully binary, fastest resets.</p>
+        <div class="sample">Bottom wins by getting <b>any leg back between</b> the players (any guard), reversing, or standing.</div>
+        <div class="verdict"><span class="pro">+ Dead simple, unambiguous</span><br><span class="con">- Throws away the progression you just named</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DECISION 2 -->
+<section class="block">
+  <div class="wrap">
+    <span class="dchip rv">Decision 2</span>
+    <h2 class="title rv">Where is the floor?</h2>
+    <p class="lede rv">Whichever way Decision 1 goes, you need a minimum bar that counts as "escaped." Set it too low and survival reads as a win; too high and a real escape gets denied.</p>
+    <div class="opts3">
+      <div class="opt rv d1">
+        <div class="tag">Floor option 1</div>
+        <div class="nm" style="font-size:1.2rem">One foot back</div>
+        <p>Generous. Rewards stopping the pass even before a real guard forms. Good for beginners, but close to "survived."</p>
+        <div class="verdict"><span class="con">Lowest bar</span></div>
+      </div>
+      <div class="opt rec rv d2">
+        <div class="tag">Floor option 2 <span class="reco-pill">Fits mount</span></div>
+        <div class="nm" style="font-size:1.2rem;color:var(--good)">One knee in (half guard)</div>
+        <p>The realistic mount-escape outcome. From mount you recover to half guard first, rarely straight to closed. Matches the actual position.</p>
+        <div class="verdict"><span class="pro">Realistic for this game</span></div>
+      </div>
+      <div class="opt rv d3">
+        <div class="tag">Floor option 3</div>
+        <div class="nm" style="font-size:1.2rem">Both knees / full guard</div>
+        <p>Strict. Only a fully re-established guard counts. Denies half-guard recoveries that are genuinely escapes from mount.</p>
+        <div class="verdict"><span class="con">Highest bar</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DECISION 3 -->
+<section class="block">
+  <div class="wrap">
+    <span class="dchip rv">Decision 3</span>
+    <h2 class="title rv">Page, or shared concept?</h2>
+    <p class="lede rv">Guard recovery is a win condition in many games, not just this one. Decide once where the definition lives.</p>
+    <div class="opts2">
+      <div class="opt rv d1">
+        <div class="tag">Scope option 1</div>
+        <div class="nm">Mount Escape only</div>
+        <p>Write the graded definition into this page and move on. Fast now, but the next ground game redefines guard from scratch, risking drift.</p>
+        <div class="verdict"><span class="con">- Definition can fork across games</span></div>
+      </div>
+      <div class="opt rec rv d2">
+        <div class="tag">Scope option 2 <span class="reco-pill">Recommended</span></div>
+        <div class="nm" style="color:var(--good)">Shared concept page</div>
+        <p>Define "guard recovery = points reinserted across the hip / knee / foot line" once as a concept, like we did for the clinch and wall-pin definitions. Every ground game links to it and inherits it.</p>
+        <div class="verdict"><span class="pro">+ One source of truth, no drift, mirrors passing</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="big rv">My recommended<br><span class="accent">combination</span></div>
+    <div class="combo rv">
+      <div class="row"><span class="k">Decision 1</span><span><b>Graded ladder (A).</b> You named a progression, scoring it is what makes the game teach the progression. Don't flatten it back to binary.</span></div>
+      <div class="row"><span class="k">Decision 2</span><span><b>Floor at one knee in / half guard.</b> The honest mount-escape outcome, with both-knees, feet-in, closed loop, reversal, and stand as cleaner wins above it.</span></div>
+      <div class="row"><span class="k">Decision 3</span><span><b>Shared concept page.</b> Define it once, link Mount Escape, Ground Escape, Leg Reclaim, and the retention games to it.</span></div>
+    </div>
+    <p class="meta">Ecological MMA System · Guard Recovery Win-Condition · Decision Brief · 2026-05-27</p>
+  </div>
+</footer>
+
+<script>
+  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')})},{threshold:.12});
+  document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

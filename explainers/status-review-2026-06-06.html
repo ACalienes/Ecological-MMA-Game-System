@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Status Review: Ecological MMA System, June 6, 2026</title>
+<style>
+  :root {
+    --bg: #0a0d14;
+    --panel: #121826;
+    --panel-2: #161e30;
+    --line: #232c42;
+    --text: #e7ecf6;
+    --muted: #8b96ad;
+    --accent: #7aa2ff;
+    --done: #4ade80;
+    --now: #ffd24d;
+    --next: #7aa2ff;
+    --later: #5a6478;
+    --stop: #f87171;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: radial-gradient(1200px 800px at 50% -10%, #131b2e 0%, var(--bg) 55%) fixed, var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    padding: 48px 20px 80px;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+
+  /* header */
+  .crumb { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 18px; }
+  .crumb .proj { color: var(--accent); font-weight: 700; letter-spacing: .04em; font-size: 13px; text-transform: uppercase; }
+  .crumb .clock { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+  h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 6px; }
+  .sub { color: var(--muted); font-size: 15px; margin-bottom: 36px; }
+
+  section { margin-bottom: 44px; opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+  section.in { opacity: 1; transform: none; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin-bottom: 16px; }
+
+  /* end goal */
+  .goal {
+    background: linear-gradient(135deg, #15203a 0%, #121826 70%);
+    border: 1px solid #2b3a5e;
+    border-radius: 16px;
+    padding: 26px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .goal::before {
+    content: "★";
+    position: absolute; right: 22px; top: 14px;
+    font-size: 46px; color: rgba(122,162,255,.18);
+  }
+  .goal .kicker { color: var(--accent); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .12em; margin-bottom: 8px; }
+  .goal p { font-size: 17px; max-width: 760px; }
+  .goal strong { color: #fff; }
+
+  /* metric strip */
+  .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 16px; }
+  .metric {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 14px 16px; text-align: center;
+  }
+  .metric .num { font-size: 28px; font-weight: 800; color: #fff; font-variant-numeric: tabular-nums; }
+  .metric .lbl { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .metric.gold .num { color: var(--now); }
+  .metric.green .num { color: var(--done); }
+  .metric.blue .num { color: var(--accent); }
+
+  /* library progress bar */
+  .libbar { margin-top: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+  .libbar .row { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  .libbar .row b { color: var(--text); }
+  .track { height: 12px; background: #0d1322; border-radius: 99px; overflow: hidden; }
+  .fill {
+    height: 100%; width: 0;
+    background: linear-gradient(90deg, var(--done), var(--accent));
+    border-radius: 99px;
+    transition: width 1.4s cubic-bezier(.22,1,.36,1);
+  }
+
+  /* pipeline */
+  .pipe { list-style: none; position: relative; padding-left: 34px; }
+  .pipe::before {
+    content: ""; position: absolute; left: 11px; top: 10px; bottom: 10px;
+    width: 2px; background: var(--line);
+  }
+  .pipe li { position: relative; padding: 10px 0 10px 10px; }
+  .node {
+    position: absolute; left: -34px; top: 14px;
+    width: 24px; height: 24px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 800; z-index: 1;
+    border: 2px solid var(--line); background: var(--panel); color: var(--muted);
+  }
+  .pipe .done .node { background: rgba(74,222,128,.12); border-color: var(--done); color: var(--done); }
+  .pipe .now .node { background: rgba(255,210,77,.14); border-color: var(--now); color: var(--now); animation: pulse 1.8s infinite; }
+  .pipe .next .node { border-color: var(--next); color: var(--next); }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255,210,77,.45); }
+    70% { box-shadow: 0 0 0 12px rgba(255,210,77,0); }
+    100% { box-shadow: 0 0 0 0 rgba(255,210,77,0); }
+  }
+  .step { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; }
+  .pipe .now .step { border-color: rgba(255,210,77,.55); background: var(--panel-2); }
+  .step .t { font-weight: 700; font-size: 15px; }
+  .step .d { color: var(--muted); font-size: 13.5px; margin-top: 3px; }
+  .youarehere {
+    display: inline-block; margin-left: 10px; font-size: 11px; font-weight: 800;
+    color: #1a1503; background: var(--now); border-radius: 99px; padding: 2px 10px;
+    letter-spacing: .06em; animation: blink 1.8s infinite;
+  }
+  @keyframes blink { 50% { opacity: .65; } }
+  .tag { display: inline-block; font-size: 11px; font-weight: 700; border-radius: 99px; padding: 1px 9px; margin-left: 8px; vertical-align: 1px; }
+  .tag.done { color: var(--done); background: rgba(74,222,128,.1); }
+  .tag.next { color: var(--next); background: rgba(122,162,255,.12); }
+  .tag.later { color: var(--muted); background: rgba(138,150,173,.12); }
+
+  /* shipped cards */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px;
+  }
+  .card h3 { font-size: 15px; margin-bottom: 10px; color: #fff; }
+  .card ul { list-style: none; }
+  .card li { font-size: 13.5px; color: var(--muted); padding: 3px 0 3px 22px; position: relative; }
+  .card li::before { content: "✓"; position: absolute; left: 0; color: var(--done); font-weight: 800; }
+  .card li b { color: var(--text); }
+
+  /* decisions */
+  .dec {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+    padding: 18px 20px; margin-bottom: 12px;
+    transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    cursor: default;
+  }
+  .dec:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 10px 28px rgba(0,0,0,.35); }
+  .dec .head { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
+  .dec h3 { font-size: 15.5px; color: #fff; }
+  .badge { font-size: 11px; font-weight: 800; border-radius: 99px; padding: 2px 10px; letter-spacing: .05em; }
+  .badge.you { color: #1a1503; background: var(--now); }
+  .badge.rec { color: #06220f; background: var(--done); }
+  .badge.small { color: var(--muted); background: rgba(138,150,173,.14); }
+  .dec p { font-size: 13.5px; color: var(--muted); max-width: 720px; }
+  .dec p b { color: var(--text); }
+
+  /* roadmap */
+  .road { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .stage { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .stage .ph { font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .stage.s1 .ph { color: var(--done); } .stage.s2 .ph { color: var(--now); }
+  .stage.s3 .ph { color: var(--next); } .stage.s4 .ph { color: var(--muted); }
+  .stage .tt { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  .stage .dd { font-size: 12.5px; color: var(--muted); }
+
+  footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 50px; }
+
+  @media (max-width: 720px) {
+    .grid, .road, .metrics { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="crumb">
+    <span class="proj">Ecological MMA Game System</span>
+    <span class="clock" id="clock">June 6, 2026</span>
+  </div>
+  <h1>Where we are, and what's next</h1>
+  <p class="sub">Status review: Friday, June 6, 2026. Branch <b>library-expansion-2026-05-30</b>, all work committed and pushed.</p>
+
+  <!-- 1. END GOAL -->
+  <section class="in">
+    <div class="goal">
+      <div class="kicker">★ The end goal</div>
+      <p>Turn your coaching method into a <strong>paid online curriculum</strong>: a library of <strong>100+ field-tested games</strong>, organized so any coach or fighter can find exactly the games they need. Your classes are the test lab, the site is the polished product, and a <strong>tiered freemium model</strong> turns it into income.</p>
+    </div>
+    <div class="metrics">
+      <div class="metric green"><div class="num" data-count="42">0</div><div class="lbl">games in the library</div></div>
+      <div class="metric blue"><div class="num" data-count="3">0</div><div class="lbl">commits pushed today</div></div>
+      <div class="metric gold"><div class="num" data-count="6">0</div><div class="lbl">games awaiting your blessing</div></div>
+      <div class="metric"><div class="num" data-count="1">0</div><div class="lbl">open PR ready for review</div></div>
+    </div>
+    <div class="libbar">
+      <div class="row"><span>Library build-out</span><span><b id="libnum">42</b> of 102 planned games</span></div>
+      <div class="track"><div class="fill" id="libfill" data-pct="41"></div></div>
+    </div>
+  </section>
+
+  <!-- 2. WHERE WE ARE -->
+  <section>
+    <h2>Where we are</h2>
+    <ul class="pipe">
+      <li class="done">
+        <span class="node">✓</span>
+        <div class="step"><div class="t">Foundation <span class="tag done">done</span></div>
+        <div class="d">The method, the site, the visual template on every page, and the theory backbone (ecological psychology).</div></div>
+      </li>
+      <li class="done">
+        <span class="node">✓</span>
+        <div class="step"><div class="t">Expansion engine <span class="tag done">done</span></div>
+        <div class="d">The machine that grows the library: class-audio mining, outside-source harvesting, the Audit Console, and the gaps atlas (the map to 100+).</div></div>
+      </li>
+      <li class="done">
+        <span class="node">✓</span>
+        <div class="step"><div class="t">June 6 wave: shipped &amp; saved <span class="tag done">done today</span></div>
+        <div class="d">Everything from your last class is now in the library, committed in 3 clean batches, and pushed to GitHub. Nothing can be lost.</div></div>
+      </li>
+      <li class="now">
+        <span class="node">▶</span>
+        <div class="step"><div class="t">Decision gate <span class="youarehere">▶ YOU ARE HERE</span></div>
+        <div class="d">The work is waiting on you, not the other way around. Approve the open PR, bless the 6 work-in-progress games on the live site, and pick the next build (cards below).</div></div>
+      </li>
+      <li class="next">
+        <span class="node">4</span>
+        <div class="step"><div class="t">Prescription engine v1 <span class="tag next">next</span></div>
+        <div class="d">The "tell us about yourself, get your game plan" feature: an intake form matched against the tagged library. The strongest money-making thread.</div></div>
+      </li>
+      <li class="later">
+        <span class="node">5</span>
+        <div class="step"><div class="t">Library to 100+ <span class="tag later">later</span></div>
+        <div class="d">Keep the class-mining flywheel running and fill the gaps atlas, position by position.</div></div>
+      </li>
+      <li class="later">
+        <span class="node">6</span>
+        <div class="step"><div class="t">Go live, get paid <span class="tag later">later</span></div>
+        <div class="d">Launch the tiered freemium product per the strategy doc: free taste, paid depth.</div></div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 3. WHAT WE'VE DONE -->
+  <section>
+    <h2>What we've done (this session)</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Locked in the June 6 class wave</h3>
+        <ul>
+          <li><b>Turtle Breakout</b>: your original game #3, no-supine rule locked</li>
+          <li><b>Win Ladder</b>: the "win makes your next start harder" format</li>
+          <li><b>Stalk and Corral</b> variant on Pressure to Wall</li>
+          <li>Strikes dial-up chip on all 6 ground games</li>
+          <li>30-second game-plan ritual, Leo credited, glossary updated</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Saved &amp; verified everything</h3>
+        <ul>
+          <li>Site build check: <b>green</b> before committing</li>
+          <li>3 clean commits (class wave / May 31 staging / housekeeping)</li>
+          <li><b>Pushed to GitHub</b>: PR #2 now carries it all</li>
+          <li>Session memory saved into the repo</li>
+          <li>Defused a repo landmine (stray work folders now ignored)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. BIG QUESTIONS -->
+  <section>
+    <h2>Big questions: what needs you</h2>
+
+    <div class="dec">
+      <div class="head"><h3>1. Approve PR #2 and merge to main?</h3><span class="badge you">YOUR CALL</span><span class="badge rec">RECOMMENDED: YES</span></div>
+      <p>Everything is on the branch and the build is green. <b>What you're deciding:</b> make this the new official version of the site. Skim the PR on GitHub, then say "merge it".</p>
+    </div>
+
+    <div class="dec">
+      <div class="head"><h3>2. Bless the 6 work-in-progress games</h3><span class="badge you">YOUR CALL</span></div>
+      <p>Turtle Breakout, Win Ladder, Stalk and Corral, The Square, One-Shot Discovery, and Ground-and-Pound Defense all carry a WIP tag until you review them on the live site. <b>What you're deciding:</b> do these read right, and do they match what happened on the mat?</p>
+    </div>
+
+    <div class="dec">
+      <div class="head"><h3>3. Pick the next build</h3><span class="badge you">YOUR CALL</span><span class="badge rec">RECOMMENDED: PRESCRIPTION ENGINE</span></div>
+      <p>Options: the prescription engine (intake form &rarr; personal game plan, the clearest path to revenue), more library growth, or clearing your May 31 backlog (A/B/C structure, 2 platform reviews, the "every exchange is a result" concept).</p>
+    </div>
+
+    <div class="dec">
+      <div class="head"><h3>4. Two small housekeeping calls</h3><span class="badge small">5 MIN</span></div>
+      <p><b>a)</b> Three stray files sit in the repo's front door: two old visual briefings (I'd file them into the explainers folder) and one scratch note (keep or toss?). <b>b)</b> The home page doesn't link all 42 games, the checker flags it every run: add the links, or tell the checker to stop caring?</p>
+    </div>
+  </section>
+
+  <!-- 5. THE LONG GAME -->
+  <section>
+    <h2>The long game</h2>
+    <div class="road">
+      <div class="stage s1"><div class="ph">Phase 1 · Done</div><div class="tt">Method &amp; engine</div><div class="dd">Site, visual language, audit pipeline, class-mining flywheel.</div></div>
+      <div class="stage s2"><div class="ph">Phase 2 · Now</div><div class="tt">Curated library</div><div class="dd">42 of 102 games. Every class adds more; every game is QA-gated.</div></div>
+      <div class="stage s3"><div class="ph">Phase 3 · Next</div><div class="tt">Prescription engine</div><div class="dd">Visitors answer a few questions, get their personal training plan from your library.</div></div>
+      <div class="stage s4"><div class="ph">Phase 4 · Later</div><div class="tt">Paid launch</div><div class="dd">Tiered freemium: free sampler, paid full curriculum. The library becomes a business.</div></div>
+    </div>
+  </section>
+
+  <footer>Generated June 6, 2026 · branch library-expansion-2026-05-30 · all numbers pulled from the live repo</footer>
+</div>
+
+<script>
+  // scroll-reveal
+  const obs = new IntersectionObserver((es) => {
+    es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('section').forEach(s => obs.observe(s));
+
+  // count-up metrics
+  document.querySelectorAll('[data-count]').forEach(el => {
+    const target = +el.dataset.count, dur = 900, t0 = performance.now();
+    const tick = (t) => {
+      const p = Math.min((t - t0) / dur, 1);
+      el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  });
+
+  // animated library fill
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      const f = document.getElementById('libfill');
+      f.style.width = f.dataset.pct + '%';
+    }, 250);
+  });
+
+  // live relative clock (page age)
+  const opened = Date.now();
+  setInterval(() => {
+    const m = Math.floor((Date.now() - opened) / 60000);
+    document.getElementById('clock').textContent =
+      'June 6, 2026 · open ' + (m < 1 ? 'just now' : m + ' min');
+  }, 15000);
+</script>
+</body>
+</html>
