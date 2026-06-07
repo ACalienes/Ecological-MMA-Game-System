@@ -27,3 +27,6 @@ audio-ingest/
 
 # Playwright preview artifacts
 .playwright-mcp/
+
+# Claude Code session worktrees (contain nested .git dirs)
+.claude/worktrees/
