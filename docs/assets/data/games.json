@@ -96,6 +96,67 @@
       "hero": "assets/img/heroes/close-range-defense.png"
     },
     {
+      "slug": "closed-guard-bottom",
+      "title": "Closed Guard Bottom",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "leg-reclaim",
+        "seated-guard-retention"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "defense",
+        "closed-guard",
+        "posture-control",
+        "back-take",
+        "sweep",
+        "bottom",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Break their posture, then take the back, the sweep, or the top.",
+      "hero": null
+    },
+    {
+      "slug": "closed-guard-pass",
+      "title": "Closed Guard Pass",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-access"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "guard-passing",
+        "closed-guard",
+        "posture",
+        "top",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Win your posture, open the legs, pass to chest-to-chest.",
+      "hero": null
+    },
+    {
       "slug": "counter-striking",
       "title": "Counter-Striking",
       "environment": "open-space",
@@ -406,6 +467,66 @@
       "hero": "assets/img/heroes/ground-to-standing.png"
     },
     {
+      "slug": "half-guard-bottom",
+      "title": "Half-Guard Bottom",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "leg-reclaim"
+      ],
+      "tags": [
+        "ground",
+        "defense",
+        "offense",
+        "half-guard",
+        "knee-shield",
+        "sweep",
+        "bottom",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Hold the shield, break their base, take something better.",
+      "hero": null
+    },
+    {
+      "slug": "half-guard-pass",
+      "title": "Half-Guard Pass",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-access"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "guard-passing",
+        "half-guard",
+        "underhook",
+        "cross-face",
+        "top",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Win the underhook, flatten them, free the trapped leg.",
+      "hero": null
+    },
+    {
       "slug": "land-the-target",
       "title": "Land the Target",
       "environment": "open-space",
@@ -573,6 +694,35 @@
       "is_format": false,
       "description": "Discover where you can land your first shot with different tools, in a perimeter that won't let you run.",
       "hero": "assets/img/heroes/one-shot-discovery.png"
+    },
+    {
+      "slug": "open-guard-pass",
+      "title": "Open Guard Pass",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-access"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "guard-passing",
+        "open-guard",
+        "knee-line",
+        "top",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Clear the feet, beat the knee line, get chest-to-chest.",
+      "hero": null
     },
     {
       "slug": "open-space-takedown",
@@ -800,6 +950,36 @@
       "is_format": false,
       "description": "Land the rear leg alone, round kick, teep, side kick, forcing you to build your own setups.",
       "hero": "assets/img/heroes/rear-leg-offense.png"
+    },
+    {
+      "slug": "seated-guard-retention",
+      "title": "Seated Guard Retention",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "leg-reclaim"
+      ],
+      "tags": [
+        "ground",
+        "defense",
+        "guard-retention",
+        "seated-guard",
+        "posts",
+        "frames",
+        "bottom",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Keep your structure, make them post, punish the post.",
+      "hero": null
     },
     {
       "slug": "side-control-escape",

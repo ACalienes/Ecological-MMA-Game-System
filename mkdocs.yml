@@ -137,6 +137,14 @@ nav:
         - Ground to Standing: games/ground-to-standing.md
         - Turtle Breakout (WIP): games/turtle-breakout.md
         - Ground Defensive Submission: games/ground-defensive-submission.md
+      - Guard Bottom:
+        - Seated Guard Retention (WIP): games/seated-guard-retention.md
+        - Half-Guard Bottom (WIP): games/half-guard-bottom.md
+        - Closed Guard Bottom (WIP): games/closed-guard-bottom.md
+      - Guard Passing:
+        - Closed Guard Pass (WIP): games/closed-guard-pass.md
+        - Open Guard Pass (WIP): games/open-guard-pass.md
+        - Half-Guard Pass (WIP): games/half-guard-pass.md
       - Control & Finish:
         - Ground Access: games/ground-access.md
         - Ground Control: games/ground-control.md

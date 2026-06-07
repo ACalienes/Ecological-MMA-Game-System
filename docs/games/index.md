@@ -6,7 +6,7 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "42 Games Across 5 Environments"
+!!! tip "48 Games Across 5 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|
@@ -15,7 +15,7 @@ The complete catalog of training games in the Ecological MMA System.
     | Transition Zone | 2 | Domain change moments |
     | Open Space - Wrestling | 5 | Takedowns and pressure |
     | Wall | 6 | Vertical constraint |
-    | Ground | 13 | Horizontal grappling |
+    | Ground | 19 | Horizontal grappling |
 
 ---
 
@@ -118,6 +118,12 @@ Games focused on horizontal grappling positions.
 | [Ground to Standing](ground-to-standing.md) | Defensive | Intermediate | Get back to feet from ground |
 | [Turtle Breakout (WIP)](turtle-breakout.md) | Defensive | Beginner | Stand and face from turtle before the hands connect |
 | [Ground Defensive Submission](ground-defensive-submission.md) | Defensive | Advanced | Submissions from bottom position |
+| [Closed Guard Pass (WIP)](closed-guard-pass.md) | Offensive | Intermediate | Win posture, open the feet, pass to chest-to-chest |
+| [Open Guard Pass (WIP)](open-guard-pass.md) | Offensive | Intermediate | Clear the feet, beat the knee line, hold the chest |
+| [Half-Guard Pass (WIP)](half-guard-pass.md) | Offensive | Intermediate | Win the underhook, flatten, free the trapped leg |
+| [Seated Guard Retention (WIP)](seated-guard-retention.md) | Defensive | Intermediate | Keep the structure, cause posts, punish them |
+| [Half-Guard Bottom (WIP)](half-guard-bottom.md) | Combined | Intermediate | Hold the shield, break the base, take something better |
+| [Closed Guard Bottom (WIP)](closed-guard-bottom.md) | Combined | Intermediate | Break posture, then back, sweep, or finish threat |
 | [Ground-and-Pound Defense (WIP)](ground-and-pound-defense.md) | Defensive | Advanced | Escape the open-camped top via stand, reverse, or closed loop |
 | [Positional Sparring](positional-battle.md) | Combined | Intermediate | Win positional exchanges |
 | [Win Ladder (format, WIP)](win-ladder.md) | Combined | Intermediate | Self-scaling starts: every win demotes you a rung |
@@ -126,7 +132,7 @@ Games focused on horizontal grappling positions.
 
 ## Games by Focus
 
-=== "Defensive (22)"
+=== "Defensive (23)"
     Games where the defender is the primary learner:
 
     **Skill Isolation:**
@@ -145,9 +151,9 @@ Games focused on horizontal grappling positions.
     - Wall Escape, Wall Defensive Submission
 
     **Ground:**
-    - Ground Escape, Mount Escape, Side-Control Escape, Back Escape, Leg Reclaim, Ground to Standing, Turtle Breakout (WIP), Ground Defensive Submission, Ground-and-Pound Defense (WIP)
+    - Ground Escape, Mount Escape, Side-Control Escape, Back Escape, Leg Reclaim, Ground to Standing, Turtle Breakout (WIP), Ground Defensive Submission, Seated Guard Retention (WIP), Ground-and-Pound Defense (WIP)
 
-=== "Offensive (13)"
+=== "Offensive (16)"
     Games where the attacker is the primary learner:
 
     **Skill Isolation:**
@@ -163,9 +169,9 @@ Games focused on horizontal grappling positions.
     - Wall Control, Wall Pin to Ground, Wall Grinding
 
     **Ground:**
-    - Ground Access, Ground Control
+    - Ground Access, Ground Control, Closed Guard Pass (WIP), Open Guard Pass (WIP), Half-Guard Pass (WIP)
 
-=== "Combined (6)"
+=== "Combined (8)"
     Games where both sides have distinct objectives (A vs B roles):
 
     **Open Space Striking:**
@@ -178,7 +184,7 @@ Games focused on horizontal grappling positions.
     - Stand-Up Loop
 
     **Ground:**
-    - Positional Sparring, Win Ladder (format, WIP)
+    - Positional Sparring, Win Ladder (format, WIP), Half-Guard Bottom (WIP), Closed Guard Bottom (WIP)
 
 ---
 
