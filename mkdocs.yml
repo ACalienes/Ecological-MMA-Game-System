@@ -4,6 +4,8 @@ site_author: Ecological MMA
 
 theme:
   name: material
+  custom_dir: overrides
+  font: false
   palette:
     - scheme: slate
       primary: deep orange
@@ -22,8 +24,10 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
     - search.highlight
     - search.share
     - content.tabs.link
@@ -53,8 +57,21 @@ plugins:
   - search
   - tags
 
+# Staging area for raw class-recording mining; reviewed and merged into live
+# pages, never published. See docs/_drafts/README.md.
+exclude_docs: |
+  _drafts/
+
 nav:
   - Home: index.md
+  - Learning Paths:
+    - paths/index.md
+    - Foundations First: paths/foundations-first.md
+    - Striking Offense: paths/striking-offense.md
+    - Closing the Distance: paths/closing-the-distance.md
+    - The Wall Game: paths/wall-game.md
+    - The Ground Game: paths/ground-game.md
+    - The Complete Fight: paths/complete-fight.md
   - System Overview:
     - Overview: system/overview.md
     - System Map: system/map.md
@@ -81,8 +98,9 @@ nav:
       - Offensive:
         - Land the Target: games/land-the-target.md
         - Sustained Offense: games/sustained-offense.md
-      - Control:
+      - Combined:
         - Touch and Don't Get Touched: games/touch-game.md
+        - One Shot Discovery (WIP): games/one-shot-discovery.md
     - Open Space → Wall:
       - Prevent:
         - Clinch Denial: games/clinch-denial.md
@@ -96,6 +114,7 @@ nav:
       - Initiate:
         - Pressure to Takedown: games/pressure-to-takedown.md
         - Open Space Takedown: games/open-space-takedown.md
+        - The Square (WIP): games/the-square.md
     - Wall:
       - Escape & Defend:
         - Wall Escape: games/wall-escape.md
@@ -110,14 +129,20 @@ nav:
     - Ground:
       - Escape & Defend:
         - Ground Escape: games/ground-escape.md
+        - Mount Escape: games/mount-escape.md
+        - Side-Control Escape: games/side-control-escape.md
+        - Back Escape: games/back-escape.md
         - Leg Reclaim: games/leg-reclaim.md
         - Ground to Standing: games/ground-to-standing.md
+        - Turtle Breakout (WIP): games/turtle-breakout.md
         - Ground Defensive Submission: games/ground-defensive-submission.md
       - Control & Finish:
         - Ground Access: games/ground-access.md
         - Ground Control: games/ground-control.md
       - Combined:
-        - Positional Battle: games/positional-battle.md
+        - Ground-and-Pound Defense (WIP): games/ground-and-pound-defense.md
+        - Positional Sparring (format): games/positional-battle.md
+        - Win Ladder (format, WIP): games/win-ladder.md
   - Concepts:
     - Fight Philosophy: concepts/fight-philosophy.md
     - Confidence Rating: concepts/confidence-rating.md
@@ -127,8 +152,27 @@ nav:
     - TKO Pin: concepts/tko-pin.md
     - Defensive Solutions: concepts/defensive-solutions.md
     - Hand Controls: concepts/hand-controls.md
+    - Winning the Circle: concepts/winning-the-circle.md
+    - Guard Recovery: concepts/guard-recovery.md
   - Principles:
     - Training Mindset: principles/training-mindset.md
+    - Ecological Psychology:
+      - principles/ecological-psychology/index.md
+      - The Principles: principles/ecological-psychology/principles.md
+      - Landmark Studies: principles/ecological-psychology/landmark-studies.md
+      - Design Rules: principles/ecological-psychology/design-rules.md
+      - Glossary: principles/ecological-psychology/glossary.md
+    - Constraints-Led Approach:
+      - Overview: principles/cla/index.md
+      - Theory: principles/cla/theory.md
+      - Key Concepts: principles/cla/key-concepts.md
+      - Environment Design: principles/cla/environment-design.md
+      - Session Design: principles/cla/session-design.md
+      - Implementation: principles/cla/implementation.md
+      - MMA Applications: principles/cla/mma-applications.md
+      - Pitfalls: principles/cla/pitfalls.md
+      - Quick Reference: principles/cla/quick-reference.md
+      - CLA Glossary: principles/cla/glossary.md
   - Coach Tools:
     - Safety & Intensity: tools/safety.md
     - Assessment Rubrics: tools/assessment.md
@@ -140,16 +184,20 @@ nav:
     - Prerequisite Map: reference/prerequisites.md
     - FAQ & Troubleshooting: reference/faq.md
     - Change Log: reference/changelog.md
+    - Sources: reference/sources.md
   - About:
     - Project Context: about/context.md
     - Design Rules: about/levels-vs-games.md
     - Disclaimer: about/disclaimer.md
 
 extra_css:
+  - stylesheets/theme.css
   - stylesheets/diagram.css
 
 extra_javascript:
   - javascripts/mermaid-init.js
+  - javascripts/landing.js
+  - javascripts/progress.js
 
 extra:
   social:

@@ -14,313 +14,195 @@ prerequisites:
 tags:
   - block
   - hook
-  - body-kick
   - beginner-friendly
   - skill-isolation
 ---
 
-# Tight Block
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/tight-block.png" alt="Tight Block">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Tight Block</span></div>
+</div>
+
+<div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Defensive</span><span>Beginner</span><span>Open Space</span></div>
+
+Absorb strikes behind a tight shell, block only, no parry, no head movement.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker lands clean; defender blocks &amp; survives.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Survive → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">You can't avoid every shot, <br><span class="accent">so make them cost nothing.</span></p>
+  <p class="emma-statement__sub">The defender may only block, no parry, no head movement. <b>The shell has to solve it alone.</b></p>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) of the incoming punch, plus the shoulder–hip motion at <b>center mass</b>, not the opponent's absolute distance or their eyes. That information specifies <i>when</i> and <i>where</i> the shot arrives.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, neutral stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Inside punching distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset after each exchange.</div>
+</div>
+
+<p class="emma-glabel">The Matchup</p>
+
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to land one clean punch, head or body, inside a 1–3 punch combination.</p>
+    <span class="emma-pop">Boxing only, straights and hooks, scaled to level. You set the problem: vary targets and rhythm, and ramp up only as the defender succeeds.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to block everything behind a tight shell and survive the sequence.</p>
+    <span class="emma-pop">No countering, no head movement, no footwork escape, pure blocking. Your only job is to stay structured and composed while reading the attack.</span>
+  </div>
+</div>
+
+<p class="emma-glabel">The Rules</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Straights &amp; hooks<span class="emma-chip__detail">The attacker throws only straight punches and hooks, scaled to the level, no kicks or knees. This keeps the defender's reading problem focused on hand defense.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛡️</span> Block only, no parry, no dodge<span class="emma-chip__detail">The defender may <strong>only</strong> block with a tight guard. Parrying, slipping, head movement, and footwork escapes are all off-limits, so the blocking solution is forced to develop.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No continuous backing up<span class="emma-chip__detail">The defender can't keep retreating out of range to avoid exchanges, they must stay and solve the problem in the pocket.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset between strikes<span class="emma-chip__detail">At early levels the attacker pauses between strikes so the defender can reorganize the guard. Pressure becomes continuous as the levels rise.</span></span>
+</div>
+
+<p class="emma-glabel">How to Win</p>
+
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Survive clean → switch roles.<span class="emma-pop">The defender blocked a full attacking sequence with no clean shot landing, and earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Attacker lands clean → reset, same roles.<span class="emma-pop">The required clean shots land (1, then 2 for stronger partners), a clean, significant shot inside a ≤3-punch combo. Then begin again from a neutral stance.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange, training the cage-edge awareness a fighter needs.</span></div>
+</div>
+
+<p class="emma-glabel">The Levels</p>
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Single straights</b>One at a time, reset between.<span class="emma-pop emma-pop--l">Pure shape practice, one straight punch, fully reset between reps. Build the guard with zero time pressure.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add hooks</b>Straights or hooks; adjust the guard.<span class="emma-pop emma-pop--l">Hooks come in on round angles, so the guard must now cover the sides, not just straight lines.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Variable tempo</b>No fixed reset, stay ready.<span class="emma-pop emma-pop--l">Timing becomes unpredictable with no guaranteed reset, the defender has to read rhythm and stay switched on.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Combinations</b>2–4 punches on the guard.<span class="emma-pop emma-pop--l">Full 2–4 punch combinations, hold structure and composure through sustained fire.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, block while denying the grappling entry. Shelling up without posture invites takedowns.</span></div>
+</div>
+
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to time the block?</summary>
+    <div class="emma-recall__a">The <b>rate of expansion (τ)</b> of the incoming punch plus the shoulder and hip motion at <b>center mass</b>. Not the opponent's eyes, and not their absolute distance.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The defender may only block: no parry, no head movement. Why strip those away?</summary>
+    <div class="emma-recall__a">The constraint forces the <b>blocking solution to develop on its own</b>. With no escape route, the shell has to organize and hold.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> You can't avoid every shot, so what is the defender actually trying to do?</summary>
+    <div class="emma-recall__a">Make the shots <b>cost nothing</b>: absorb on the guard, stay based, and survive the sequence without getting hit clean.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What breaks the guard under fire, and how do you prevent it?</summary>
+    <div class="emma-recall__a">Getting <b>knocked off balance</b> breaks it, not the damage itself. Bend the knees and create suspension (the "ATV over bumps") so impact is absorbed without getting rocked.</div>
+  </details>
+</div>
 
-!!! info "Game Identity"
-    - **Problem:** Learning to absorb strikes using a tight guard/shell
-    - **Environment:** Open Space
-    - **Stage:** Access (Defensive Skill Isolation)
+<p class="emma-glabel">Go Deeper</p>
 
-This is a **beginner skill isolation game** that teaches the blocking defensive solution. The defender can ONLY block using a tight shell, forcing them to develop this foundational skill.
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Goal
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Land clean punches; vary targets and types; scale difficulty to the partner.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Keep the guard tight; absorb on arms/gloves, not exposed targets; reset each sequence.</p></div>
+    </div>
 
-This is an **asymmetric game** with distinct roles.
+    <p class="emma-sub">Coaching cues</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Land punches (straights and hooks) to defender's head or body |
-| **Defender** | Block punches using tight guard (shell up, elbows in, hands protecting head) |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">See center mass</div><p>Don't bury your head behind the gloves. Center mass keeps shoulder &amp; hip motion in view, "the little X." The eyes lie.</p></div>
+      <div class="emma-card"><div class="emma-card__i">⚓</div><div class="emma-card__t">Base under fire</div><p>Strikes knock you off balance, that's what breaks the guard. Bend the knees, create suspension "like an ATV over bumps."</p></div>
+    </div>
 
-The objective is **skill development**, not competition.
+??? abstract "Constraints-Led analysis"
 
----
+    <p class="emma-sub">Constraints → Affordances</p>
 
-## Entry Condition
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Straights &amp; hooks</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Defender perceives multiple attack angles</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Block-only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces exploration of shell / guard solutions</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Reset between exchanges</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Time to reorganize guard structure</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Role switch on success</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Rewards effective blocking</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Close range</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Blocking is viable and necessary</span></div>
+    </div>
 
-- Both players start in neutral standing position
-- Close quarters distance (striking range)
-- Roles are assigned; defender earns role switch through successful defense
-- Reset to neutral after each exchange
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019), different body types develop different guard structures.</p>
 
----
+    <p class="emma-sub">What the defender reads</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Punch type &amp; target → guard adjustment and positioning.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Impact on arms/gloves → confirms the block held.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Guard tightness &amp; balance → maintaining structure.</p></div>
+    </div>
 
-1. Attacker throws **straights and/or hooks** (scaled to level)
-2. Defender can **ONLY block** — no parrying, dodging, or backing up continuously
-3. Attacker allows reset between strikes (no continuous pressure at Level 1)
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the defender's <b>block lands in time with the punch</b>, track clean blocks vs. shots eaten, and whether the guard re-sets between strikes. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
-## Task Focus
+    <p class="emma-sub">Representativeness</p>
 
-### Attacker
-- Land clean punches to head or body
-- Vary targets and punch types to challenge defender
-- Scale difficulty based on defender success
+    <p class="emma-hl"><b>Models:</b> shelling up under fire while recovering composure.</p>
 
-### Defender
-- Maintain tight guard position (hands to face, elbows protecting body)
-- Absorb strikes on arms and gloves, not on exposed targets
-- Reset to good position after each defensive sequence
+    <div class="emma-meta"><span>Simplified: punches only</span><span>block only</span><span>resets between</span></div>
 
-!!! question "Key Internal Questions"
-    - "Is my guard tight enough to protect my head?"
-    - "Are my elbows covering my body?"
-    - "Am I absorbing on my arms or getting hit clean?"
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Isolates the solution before integration, transfers into <a href="../close-range-defense/">Close-Range Defense</a>.</p>
 
----
+    <p class="emma-sub">Readiness to progress</p>
 
-## Key Logic: Why Isolate Blocking?
+    <ul class="emma-checklist">
+      <li>Absorbs ~70%+ on guard</li>
+      <li>Recovers structure quickly</li>
+      <li>Stays calm under sustained attack</li>
+      <li>Can describe where shots land</li>
+    </ul>
 
-!!! note "Skill Isolation"
-    Blocking is the most fundamental defensive solution. By constraining the defender to blocking only:
+    <p class="emma-sub">Warning signs</p>
 
-    - Develops the habit of shelling up under pressure
-    - Learns to absorb on arms/gloves rather than exposed targets
-    - Builds composure when taking fire
+    <div class="emma-warns">
+      <span class="emma-warn">Guard collapses on hooks</span>
+      <span class="emma-warn">Flinching / turning away</span>
+      <span class="emma-warn">Only effective vs one partner</span>
+    </div>
 
-### Blocking Mechanics
+??? note "Safety &amp; related games"
 
-- **Tight guard** = Hands to face, elbows to body, chin tucked
-- Works for **both** straights and hooks (unlike parrying or slipping)
-- Trade-off: Maximum protection, but no counter opportunity and hands are occupied
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on guard breakdown or lost composure</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the defender starts dodging</span>
+    </div>
 
-### Why Blocking Differs from Parrying
+    <p class="emma-sub">Where it sits</p>
 
-| Aspect | Blocking | Parrying |
-|--------|----------|----------|
-| Strike types | Straights AND hooks | Straights only |
-| Movement | Static/absorbing | Active/redirecting |
-| Energy | Absorbs impact | Deflects impact |
-| Counter setup | Minimal | Creates opening |
-
----
-
-## Win Conditions
-
-| Role | Win Condition |
-|------|---------------|
-| **Defender** | Absorb the attack sequence on guard (no clean contact to exposed targets) |
-| **Attacker** | Land a clean strike to head or body (not absorbed on arms/gloves) |
-
-**On defender win:** Roles switch — defender becomes attacker.
-
-**On attacker win:** Reset to neutral, same roles, attacker continues.
-
-The defender must **earn** the offensive position by proving they can block effectively.
-
-!!! tip "The Strategic Insight"
-    You don't need to perfectly block every strike. You can take some contact while reading the attacker's rhythm and adjusting your guard. When you successfully absorb a complete attack sequence without getting hit clean — that's the skill demonstration.
-
-    At higher levels (combinations), this means surviving the entire combination on your guard. One clean defensive success earns the role switch.
-
-**Duration:** Play until natural stopping point or time limit. Role switches keep both players engaged.
-
----
-
-## Levels
-
-=== "Level 1 — Single Punches, Straights Only"
-    - One straight punch at a time
-    - 1-second reset between punches
-    - Defender: tight block only
-
-=== "Level 2 — Add Hooks"
-    - Attacker can throw straights OR hooks
-    - Defender adjusts guard for different angles
-    - Focus: Covering multiple attack lines
-
-=== "Level 3 — Variable Tempo"
-    - Attacker varies timing between strikes
-    - No fixed reset requirement
-    - Defender must stay ready
-
-=== "Level 4 — Combinations"
-    - Attacker throws 2-4 punch combinations
-    - Mix of straights and hooks
-    - Defender absorbs full combinations on guard
-    - Focus: Maintaining structure through sustained pressure
-
-=== "Level 5 — Full MMA Expression"
-    - Attacker throws combinations AND can shoot or establish clinch
-    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
-    - Defender must block effectively AND deny grappling entry
-    - Focus: Blocking while remaining aware of all threats
-    - This is the MMA reality: shelling up without posture creates takedown opportunities
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker throws straights and hooks | Defender perceives multiple attack angles |
-| **Task** | Defender can only block (no parry, dodge) | Forces exploration of shell/guard solutions |
-| **Task** | Reset between exchanges (Level 1) | Time to reorganize guard structure |
-| **Task** | Role switching on defensive success | Rewards effective blocking |
-| **Individual** | Skill level matching | Appropriate challenge zone |
-| **Environmental** | Close striking range | Blocking is viable and necessary |
-
-!!! info "Theoretical Foundation"
-    This game implements **Constrain to Afford** (Renshaw et al., 2019). By limiting defense to blocking only, the environment invites the defender to explore tight guard variations. Different body types will develop slightly different blocking structures based on arm length, shoulder width, and reaction time.
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Punch type initiating (straight vs. hook) | Guard adjustment (high tight vs. elbow cover) |
-| **Visual** | Target selection (head vs. body) | Vertical guard positioning |
-| **Visual** | Attacker's rhythm and timing | Anticipating next strike |
-| **Haptic** | Impact location on arms/gloves | Confirming successful absorption |
-| **Haptic** | Impact force | Gauging if guard held structure |
-| **Proprioceptive** | Guard position and tightness | Maintaining protective structure |
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Gaps in defender's guard | Target selection |
-| **Visual** | Guard breakdown under pressure | When to commit |
-| **Haptic** | Contact quality (arm vs. clean) | Whether strike landed effectively |
-
-!!! tip "Coaching Cue"
-    Don't tell defenders where to put their hands. Ask: "Where did that land? Guard or clean?" This develops their awareness of what's working.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Shelling up under fire when overwhelmed, hurt, or when other options aren't available—absorbing damage while recovering composure.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Attack variety** | All strikes possible | Straights and hooks | Simplified |
-| **Defense options** | All solutions available | Blocking only | Isolated |
-| **Sustained pressure** | Continuous | Reset between exchanges (early levels) | Simplified |
-| **Consequence** | Damage accumulation | Role switch | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| No kicks initially | Focuses on hand defense fundamentals |
-| Blocking only | Isolates this defensive solution before integration |
-| Reset between strikes | Allows deliberate practice at coordination stage |
-
-!!! note "Transfer Expectation"
-    Athletes who develop blocking here transfer the skill to [Close-Range Defense](close-range-defense.md) where all defensive options combine. The composure under fire transfers directly to live sparring.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Attacker** | Rotate training partners | Different power, speed, angles |
-| **Punch selection** | Sessions emphasizing hooks, others straights | Full guard coverage |
-| **Target emphasis** | Head-focused rounds, body-focused rounds | Complete defensive structure |
-| **Intensity** | Light touch to moderate contact | Pressure calibration |
-| **Duration** | Short bursts vs. sustained rounds | Fatigue management |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Defender can only block | Core constraint defining the game |
-| Must absorb on guard | Success criteria stays clear |
-| Close range | Maintains blocking necessity |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Absorbs straights consistently | Ready for hooks |
-| Handles hooks and straights | Ready for variable tempo |
-| Maintains guard under combinations | Ready for MMA expression |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Absorbs 70%+ of attacks on guard (not clean contact)
-- [ ] Guard structure recovers quickly after absorbing
-- [ ] Remains calm under sustained attack (no panic)
-- [ ] Can describe where strikes are landing
-- [ ] Adjusts guard based on attack type (tight for hooks, high for straights)
-
-### Ready to Exit Game (Move to Close-Range Defense) When
-
-- [ ] Level 4+ competence (absorbs combinations)
-- [ ] Blocking is automatic, not deliberate
-- [ ] Expresses desire to add movement/counters
-- [ ] Blocking success maintains across varied attackers
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Guard collapses under hooks | Structure incomplete | More hook-focused practice |
-| Flinches/turns away | Composure not developed | Reduce intensity, rebuild confidence |
-| Can't identify where hits land | Perception underdeveloped | Slower tempo, feedback after each exchange |
-| Only effective vs. one attacker | Solution too narrow | More partner variety |
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — punches should be felt but not damaging
-- **Stop conditions:** Loss of composure, guard breakdown, excessive force
-- **Coach intervention:** Reset if defender starts moving/dodging instead of blocking
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Tight Block] --> B[Close-Range Defense]
-    C[Parry the Straight] --> B
-    D[Slip the Straight] --> B
-
-    style A fill:#4CAF50,color:#fff
-```
-
-- **Prerequisite games:** None — this is foundational
-- **Follow-on games:** Close-Range Defense
-- **Related concepts:** Defensive Solutions in Striking (Blocking)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as defensive skill development patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None, this is foundational</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../close-range-defense/">Close-Range Defense</a> · <a href="../the-square/">The Square</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/defensive-solutions/">Defensive Solutions</a></span></div>
+    </div>

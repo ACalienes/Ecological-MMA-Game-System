@@ -1,349 +1,257 @@
 # System Map
 
-This page provides visual navigation of the entire game system. Click any category to jump to its games.
+<div class="emma-meta"><span>Visual Navigation</span><span>All 42 Games</span><span>Environment → Finish</span></div>
 
----
+<p class="emma-hl"><b>The fight is cyclical.</b> You move between environments until someone finishes, and every path has a reverse. This map routes you from foundation skills through every game to a finish.</p>
 
-## Fight States & Transitions
+<p class="emma-glabel">Fight States &amp; Transitions</p>
 
-**The fight is cyclical.** You move between positions until someone finishes. Every path has a reverse.
-
-```mermaid
-flowchart LR
-    OS[Open Space] -->|Clinch| W[Wall]
-    OS -->|Takedown| G[Ground]
-    W -->|Takedown| G
-    W -.->|Escape| OS
-    G -.->|Stand Up| OS
-
-    OS --> KO((KO))
-    OS --> TKO((TKO))
-    OS --> SUB((SUB))
-    W --> KO
-    W --> TKO
-    W --> SUB
-    G --> TKO
-    G --> SUB
-
-    style OS fill:#2196F3,color:#fff
-    style W fill:#FF9800,color:#fff
-    style G fill:#795548,color:#fff
-    style KO fill:#D32F2F,color:#fff
-    style TKO fill:#FF5722,color:#fff
-    style SUB fill:#E91E63,color:#fff
-```
-
-**Click any category below to jump to its games:**
-
-<div class="fight-diagram">
-
-  <!-- Foundation reference -->
-  <div class="foundation-ref">
-    <a href="#foundation-skill-isolation" class="foundation-link">
-      <span class="foundation-label">Foundation Skills</span>
-      <span class="foundation-sub">Skill isolation before live fighting</span>
-    </a>
+<div class="emma-statemap">
+  <div class="emma-state emma-state--os">
+    <div class="emma-state__h"><span class="i">🥊</span> Open Space</div>
+    <p class="emma-state__d">Standing at distance. Every fight starts here.</p>
+    <div class="emma-state__fin"><span>KO</span><span>TKO</span><span>SUB</span></div>
   </div>
-
-  <div class="fight-diagram-grid compact">
-
-    <!-- Column 1: OPEN SPACE -->
-    <div class="diagram-column">
-      <div class="column-header">Open Space</div>
-      <a href="#open-space-striking-defense" class="diagram-box box-defensive">Defensive</a>
-      <a href="#open-space-striking-offense" class="diagram-box box-offensive">Offensive</a>
-      <a href="#open-space-combined" class="diagram-box box-combined">Combined</a>
-    </div>
-
-    <!-- Column 2: TRANSITIONS -->
-    <div class="diagram-column">
-      <div class="column-header">Transitions</div>
-      <div class="column-split compact">
-        <div class="column-group">
-          <div class="group-label">→ Wall</div>
-          <a href="#open-wall-prevent" class="diagram-box box-defensive">Defensive</a>
-          <a href="#open-wall-initiate" class="diagram-box box-offensive">Offensive</a>
-          <a href="#open-wall-combined" class="diagram-box box-combined">Combined</a>
-        </div>
-        <div class="column-group">
-          <div class="group-label">→ Ground</div>
-          <a href="#open-ground-prevent" class="diagram-box box-defensive">Defensive</a>
-          <a href="#open-ground-initiate" class="diagram-box box-offensive">Offensive</a>
-          <a href="#open-ground-combined" class="diagram-box box-combined">Combined</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Column 3: POSITIONS -->
-    <div class="diagram-column">
-      <div class="column-header">Positions</div>
-      <div class="column-split compact">
-        <div class="column-group">
-          <div class="group-label">Wall</div>
-          <a href="#wall-escape-defend" class="diagram-box box-defensive">Defensive</a>
-          <a href="#wall-control-grind" class="diagram-box box-offensive">Offensive</a>
-          <a href="#wall-combined" class="diagram-box box-combined">Combined</a>
-        </div>
-        <div class="column-group">
-          <div class="group-label">Ground</div>
-          <a href="#ground-escape-defend" class="diagram-box box-defensive">Defensive</a>
-          <a href="#ground-control-finish" class="diagram-box box-offensive">Offensive</a>
-          <a href="#ground-combined" class="diagram-box box-combined">Combined</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Column 4: FINISH -->
-    <div class="diagram-column">
-      <div class="column-header">Finish</div>
-      <div class="diagram-box box-finish box-finish-ko">KO</div>
-      <div class="diagram-box box-finish box-finish-tko">TKO</div>
-      <div class="diagram-box box-finish box-finish-sub">SUB</div>
-    </div>
-
+  <div class="emma-statemap__link"><span class="fwd">Clinch / Takedown →</span><span class="back">← Escape</span></div>
+  <div class="emma-state emma-state--wall">
+    <div class="emma-state__h"><span class="i">🧱</span> Wall</div>
+    <p class="emma-state__d">Clinch against the cage.</p>
+    <div class="emma-state__fin"><span>KO</span><span>TKO</span><span>SUB</span></div>
+  </div>
+  <div class="emma-statemap__link"><span class="fwd">Takedown →</span><span class="back">← Stand Up</span></div>
+  <div class="emma-state emma-state--ground">
+    <div class="emma-state__h"><span class="i">🤼</span> Ground</div>
+    <p class="emma-state__d">Horizontal grappling.</p>
+    <div class="emma-state__fin"><span>TKO</span><span>SUB</span></div>
   </div>
 </div>
 
-<!-- Legend -->
-<div class="diagram-legend">
-  <div class="legend-item">
-    <div class="legend-color" style="background: linear-gradient(135deg, #4CAF50, #388E3C);"></div>
-    <span>Defensive — Survive, Escape, Prevent</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-color" style="background: linear-gradient(135deg, #FF5722, #E64A19);"></div>
-    <span>Offensive — Attack, Control, Initiate</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-color" style="background: linear-gradient(135deg, #9C27B0, #7B1FA2);"></div>
-    <span>Combined — Both Roles Active</span>
-  </div>
+<p class="emma-glabel">How to Read the Map</p>
+
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Foundation</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Open Space</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Open Space</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Transitions (to Wall / Ground)</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Transitions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Positions (Wall / Ground)</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Positions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Finish (KO · TKO · SUB)</span></div>
+</div>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🟢</span> Defensive<span class="emma-chip__detail">Survive, escape, prevent transitions. The B Side is developing skills.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🟠</span> Offensive<span class="emma-chip__detail">Attack, control, initiate transitions. The A Side is developing skills.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🟣</span> Combined<span class="emma-chip__detail">Both roles active, scrambles and mixed situations where both sides have live objectives.</span></span>
+</div>
+
+<p class="emma-glabel">The Cycle in Four Beats</p>
+
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">1️⃣</div><div class="emma-card__t">Start standing</div><p>Every fight starts in <b>Open Space</b>, standing at distance.</p></div>
+  <div class="emma-card"><div class="emma-card__i">2️⃣</div><div class="emma-card__t">Transition</div><p>From Open Space, move to <b>Wall</b> (clinch) or <b>Ground</b> (grappling).</p></div>
+  <div class="emma-card"><div class="emma-card__i">3️⃣</div><div class="emma-card__t">Escape back</div><p>From Wall or Ground, you can <b>escape</b> to Open Space.</p></div>
+  <div class="emma-card"><div class="emma-card__i">4️⃣</div><div class="emma-card__t">Finish</div><p>Any position can lead to a <b>finish</b>, KO, TKO, or Submission.</p></div>
+</div>
+
+<p class="emma-glabel">The Three End States</p>
+
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">💥</div><div class="emma-card__t">Knockout (KO)</div><p>A single strike ends the fight.<span class="emma-pop">Primary path: a clean strike landed with power and precision.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t">TKO</div><p>Accumulated damage overwhelms the defense.<span class="emma-pop">Primary paths: sustained offense, wall grinding, ground control.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔒</div><div class="emma-card__t">Submission</div><p>A choke or joint lock forces the tap.<span class="emma-pop">Primary paths: ground control, defensive submissions.</span></p></div>
 </div>
 
 ---
 
-## How the Diagram Works
-
-**Read left to right:** Foundation skills → Open Space fighting → Transitions between positions → Positional fighting → Finish
-
-**The cycle:**
-
-1. Every fight starts in **Open Space** (standing at distance)
-2. From Open Space, you can transition to **Wall** (clinch against cage) or **Ground** (horizontal grappling)
-3. From Wall or Ground, you can **escape back** to Open Space
-4. Any position can lead to a **finish** (KO, TKO, or Submission)
-
-**Box colors show your role:**
-
-- **🟢 Green** = Defensive — survive, escape, prevent transitions
-- **🟠 Orange** = Offensive — attack, control, initiate transitions
-- **🟣 Purple** = Combined — both roles active (scrambles, mixed situations)
-
----
-
-## The Three End States
-
-| End State | Definition | Primary Paths |
-|-----------|------------|---------------|
-| **Knockout (KO)** | Single strike ends the fight | Clean strike with power and precision |
-| **TKO** | Accumulated damage overwhelms defense | Sustained offense, wall grinding, ground control |
-| **Submission** | Choke or joint lock forces tap | Ground control, defensive submissions |
-
----
-
-## Foundation (Skill Isolation)
+<p class="emma-glabel">🏗️ Foundation: Skill Isolation</p>
 
 Skills developed in isolation before integration into live fighting.
 
-### Foundation — Defensive
+<p class="emma-sub">Defensive 🟢</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Parry the Straight](../games/parry-the-straight.md) | Hand deflection timing |
-| [Tight Block](../games/tight-block.md) | Guard absorption |
-| [Slip the Straight](../games/slip-the-straight.md) | Head movement |
-| [Evade the Punch](../games/evade-the-punch.md) | Full evasion vocabulary |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/parry-the-straight/"><div class="emma-card__i">🤚</div><div class="emma-card__t">Parry the Straight</div><p>Hand deflection timing.</p></a>
+  <a class="emma-card" href="../../games/tight-block/"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Tight Block</div><p>Guard absorption.</p></a>
+  <a class="emma-card" href="../../games/slip-the-straight/"><div class="emma-card__i">↪️</div><div class="emma-card__t">Slip the Straight</div><p>Head movement.</p></a>
+  <a class="emma-card" href="../../games/evade-the-punch/"><div class="emma-card__i">💨</div><div class="emma-card__t">Evade the Punch</div><p>Full evasion vocabulary.</p></a>
+</div>
 
-### Foundation — Offensive
+<p class="emma-sub">Offensive 🟠</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Lead Hand Offense](../games/lead-hand-offense.md) | Jab mechanics and setups |
-| [Rear Hand Offense](../games/rear-hand-offense.md) | Cross/power hand timing |
-| [Lead Leg Offense](../games/lead-leg-offense.md) | Lead kick variety |
-| [Rear Leg Offense](../games/rear-leg-offense.md) | Power kick delivery |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/lead-hand-offense/"><div class="emma-card__i">👊</div><div class="emma-card__t">Lead Hand Offense</div><p>Jab mechanics and setups.</p></a>
+  <a class="emma-card" href="../../games/rear-hand-offense/"><div class="emma-card__i">🥊</div><div class="emma-card__t">Rear Hand Offense</div><p>Cross / power hand timing.</p></a>
+  <a class="emma-card" href="../../games/lead-leg-offense/"><div class="emma-card__i">🦵</div><div class="emma-card__t">Lead Leg Offense</div><p>Lead kick variety.</p></a>
+  <a class="emma-card" href="../../games/rear-leg-offense/"><div class="emma-card__i">🦿</div><div class="emma-card__t">Rear Leg Offense</div><p>Power kick delivery.</p></a>
+</div>
 
 ---
 
-## Open Space
+<p class="emma-glabel">🥊 Open Space</p>
 
 Standing at distance. This is where every fight starts.
 
-### Open Space — Striking Defense
+<p class="emma-sub">Striking Defense 🟢</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Close-Range Defense](../games/close-range-defense.md) | Layered defensive response |
-| [Evasive Movement](../games/evasive-movement.md) | Creating distance under fire |
-| [Counter-Striking](../games/counter-striking.md) | Punishing initiation |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/close-range-defense/"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Close-Range Defense</div><p>Layered defensive response.</p></a>
+  <a class="emma-card" href="../../games/evasive-movement/"><div class="emma-card__i">💨</div><div class="emma-card__t">Evasive Movement</div><p>Creating distance under fire.</p></a>
+  <a class="emma-card" href="../../games/counter-striking/"><div class="emma-card__i">⚡</div><div class="emma-card__t">Counter-Striking</div><p>Punishing initiation.</p></a>
+</div>
 
-### Open Space — Striking Offense
+<p class="emma-sub">Striking Offense 🟠</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Land the Target](../games/land-the-target.md) | Reading defense, landing clean |
-| [Sustained Offense](../games/sustained-offense.md) | Maintaining pressure to finish |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/land-the-target/"><div class="emma-card__i">🎯</div><div class="emma-card__t">Land the Target</div><p>Reading defense, landing clean.</p></a>
+  <a class="emma-card" href="../../games/sustained-offense/"><div class="emma-card__i">🔥</div><div class="emma-card__t">Sustained Offense</div><p>Maintaining pressure to finish.</p></a>
+</div>
 
-### Open Space — Control
+<p class="emma-sub">Control 🟣</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Touch and Don't Get Touched](../games/touch-game.md) | Range awareness and timing |
-
----
-
-## Open Space → Wall
-
-Transitions from standing at distance to the cage/clinch.
-
-### Open → Wall — Prevent
-
-| Game | What It Develops |
-|------|------------------|
-| [Clinch Denial](../games/clinch-denial.md) | Breaking clinch attempts |
-
-### Open → Wall — Initiate
-
-| Game | What It Develops |
-|------|------------------|
-| [Pressure to Clinch](../games/pressure-to-clinch.md) | Space control and clinch entry |
-| [Pressure to Wall](../games/pressure-to-wall.md) | Driving opponent to cage |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/touch-game/"><div class="emma-card__i">✋</div><div class="emma-card__t">Touch and Don't Get Touched</div><p>Range awareness and timing.</p></a>
+</div>
 
 ---
 
-## Open Space → Ground
+<p class="emma-glabel">🧱 Open Space → Wall</p>
 
-Transitions from standing to the ground (takedowns/knockdowns).
+Transitions from standing at distance to the cage / clinch.
 
-### Open → Ground — Prevent
+<p class="emma-sub">Prevent 🟢</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Takedown Defense](../games/takedown-defense.md) | Sprawl, underhooks, recovery |
-| [Counter-Wrestling](../games/counter-wrestling.md) | Punishing shot attempts |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/clinch-denial/"><div class="emma-card__i">🚫</div><div class="emma-card__t">Clinch Denial</div><p>Breaking clinch attempts.</p></a>
+</div>
 
-### Open → Ground — Initiate
+<p class="emma-sub">Initiate 🟠</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Pressure to Takedown](../games/pressure-to-takedown.md) | Chaining strikes to takedown |
-| [Open Space Takedown](../games/open-space-takedown.md) | Takedowns without wall |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/pressure-to-clinch/"><div class="emma-card__i">➡️</div><div class="emma-card__t">Pressure to Clinch</div><p>Space control and clinch entry.</p></a>
+  <a class="emma-card" href="../../games/pressure-to-wall/"><div class="emma-card__i">🧱</div><div class="emma-card__t">Pressure to Wall</div><p>Driving opponent to the cage.</p></a>
+</div>
 
 ---
 
-## Wall
+<p class="emma-glabel">🤼 Open Space → Ground</p>
+
+Transitions from standing to the ground (takedowns / knockdowns).
+
+<p class="emma-sub">Prevent 🟢</p>
+
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/takedown-defense/"><div class="emma-card__i">🛑</div><div class="emma-card__t">Takedown Defense</div><p>Sprawl, underhooks, recovery.</p></a>
+  <a class="emma-card" href="../../games/counter-wrestling/"><div class="emma-card__i">⚡</div><div class="emma-card__t">Counter-Wrestling</div><p>Punishing shot attempts.</p></a>
+</div>
+
+<p class="emma-sub">Initiate 🟠</p>
+
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/pressure-to-takedown/"><div class="emma-card__i">⬇️</div><div class="emma-card__t">Pressure to Takedown</div><p>Chaining strikes to takedown.</p></a>
+  <a class="emma-card" href="../../games/open-space-takedown/"><div class="emma-card__i">🤸</div><div class="emma-card__t">Open Space Takedown</div><p>Takedowns without the wall.</p></a>
+</div>
+
+---
+
+<p class="emma-glabel">🧱 Wall</p>
 
 Standing against the cage. You arrive via clinch or pressure.
 
-### Wall — Escape & Defend
+<p class="emma-sub">Escape &amp; Defend 🟢</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Wall Escape](../games/wall-escape.md) | Breaking the pin, returning to open space |
-| [Wall Defensive Submission](../games/wall-defensive-submission.md) | Submissions to deter/punish control |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/wall-escape/"><div class="emma-card__i">🚪</div><div class="emma-card__t">Wall Escape</div><p>Breaking the pin, returning to open space.</p></a>
+  <a class="emma-card" href="../../games/wall-defensive-submission/"><div class="emma-card__i">🔒</div><div class="emma-card__t">Wall Defensive Submission</div><p>Submissions to deter / punish control.</p></a>
+</div>
 
-### Wall — Control & Grind
+<p class="emma-sub">Control &amp; Grind 🟠</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Wall Control](../games/wall-control.md) | Maintaining the pin |
-| [Wall Grinding](../games/wall-grinding.md) | Accumulating damage toward TKO |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/wall-control/"><div class="emma-card__i">📌</div><div class="emma-card__t">Wall Control</div><p>Maintaining the pin.</p></a>
+  <a class="emma-card" href="../../games/wall-grinding/"><div class="emma-card__i">⚙️</div><div class="emma-card__t">Wall Grinding</div><p>Accumulating damage toward TKO.</p></a>
+</div>
 
-### Wall → Ground
+<p class="emma-sub">Wall → Ground 🟠</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Wall to Ground](../games/wall-to-ground.md) | Taking fight to ground from wall |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/wall-to-ground/"><div class="emma-card__i">⬇️</div><div class="emma-card__t">Wall to Ground</div><p>Taking the fight to ground from the wall.</p></a>
+</div>
 
-### Wall — Combined
+<p class="emma-sub">Live Format 🟣</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Stand-Up Loop](../games/standup-loop.md) | Managing repeated stand-up/re-pin cycles |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/standup-loop/"><div class="emma-card__i">🔁</div><div class="emma-card__t">Stand-Up Loop</div><p>Managing repeated stand-up / re-pin cycles.</p></a>
+</div>
 
 ---
 
-## Ground
+<p class="emma-glabel">🤼 Ground</p>
 
 Horizontal grappling. You arrive via takedown or knockdown.
 
-### Ground — Escape & Defend
+<p class="emma-sub">Escape &amp; Defend 🟢</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Ground Escape](../games/ground-escape.md) | Basic escapes from bottom |
-| [Leg Reclaim](../games/leg-reclaim.md) | Guard recovery |
-| [Ground to Standing](../games/ground-to-standing.md) | Technical stand-up |
-| [Ground Defensive Submission](../games/ground-defensive-submission.md) | Submissions from bottom |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/ground-escape/"><div class="emma-card__i">🚪</div><div class="emma-card__t">Ground Escape</div><p>Basic escapes from bottom.</p></a>
+  <a class="emma-card" href="../../games/mount-escape/"><div class="emma-card__i">⛰️</div><div class="emma-card__t">Mount Escape</div><p>Frame and bridge from under mount.</p></a>
+  <a class="emma-card" href="../../games/side-control-escape/"><div class="emma-card__i">📐</div><div class="emma-card__t">Side-Control Escape</div><p>Recover before the position advances.</p></a>
+  <a class="emma-card" href="../../games/back-escape/"><div class="emma-card__i">🎒</div><div class="emma-card__t">Back Escape</div><p>Defend the neck, turn to face.</p></a>
+  <a class="emma-card" href="../../games/leg-reclaim/"><div class="emma-card__i">🦵</div><div class="emma-card__t">Leg Reclaim</div><p>Guard recovery.</p></a>
+  <a class="emma-card" href="../../games/ground-to-standing/"><div class="emma-card__i">🧍</div><div class="emma-card__t">Ground to Standing</div><p>Technical stand-up.</p></a>
+  <a class="emma-card" href="../../games/turtle-breakout/"><div class="emma-card__i">🔗</div><div class="emma-card__t">Turtle Breakout (WIP)</div><p>Stand and face before the hands connect.</p></a>
+  <a class="emma-card" href="../../games/ground-defensive-submission/"><div class="emma-card__i">🔒</div><div class="emma-card__t">Ground Defensive Submission</div><p>Submissions from bottom.</p></a>
+</div>
 
-### Ground — Control & Finish
+<p class="emma-sub">Control &amp; Finish 🟠</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Ground Access](../games/ground-access.md) | Passing guard |
-| [Ground Control](../games/ground-control.md) | Maintaining dominant position |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/ground-access/"><div class="emma-card__i">🗝️</div><div class="emma-card__t">Ground Access</div><p>Passing guard.</p></a>
+  <a class="emma-card" href="../../games/ground-control/"><div class="emma-card__i">📌</div><div class="emma-card__t">Ground Control</div><p>Maintaining dominant position.</p></a>
+</div>
 
-### Ground — Combined
+<p class="emma-sub">Live Format 🟣</p>
 
-| Game | What It Develops |
-|------|------------------|
-| [Positional Battle](../games/positional-battle.md) | Winning scrambles and exchanges |
-
----
-
-## The Complete Cycle
-
-Every position has a way IN and a way OUT:
-
-| From | To | How (Forward) | How (Reverse) |
-|------|-----|---------------|---------------|
-| **Open Space** | **Wall** | Pressure to Clinch, Pressure to Wall | Wall Escape |
-| **Open Space** | **Ground** | Pressure to Takedown, Open Space Takedown, Knockdown | Ground to Standing |
-| **Wall** | **Ground** | Wall to Ground | Stand-Up Loop (scramble) |
-| **Wall** | **Open Space** | — | Wall Escape |
-| **Ground** | **Open Space** | — | Ground to Standing |
-| **Ground** | **Wall** | — | Scramble (Stand-Up Loop) |
+<div class="emma-cards">
+  <a class="emma-card" href="../../games/positional-battle/"><div class="emma-card__i">⚔️</div><div class="emma-card__t">Positional Sparring</div><p>The live layer: both compete for position from any ground start.</p></a>
+  <a class="emma-card" href="../../games/win-ladder/"><div class="emma-card__i">🪜</div><div class="emma-card__t">Win Ladder (format, WIP)</div><p>Self-scaling overlay: every win demotes your next start a rung.</p></a>
+</div>
 
 ---
 
-## System Statistics
+<p class="emma-glabel">The Complete Cycle: In &amp; Out</p>
 
-| Category | Games |
-|----------|-------|
-| **Foundation** | 8 |
-| **Open Space** | 6 |
-| **Open Space → Wall** | 3 |
-| **Open Space → Ground** | 4 |
-| **Wall** | 6 |
-| **Ground** | 7 |
-| **Total** | **34** |
+Every position has a way IN and a way OUT.
 
----
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Open Space → Wall</span><span class="emma-flow__arr">⇄</span><span class="emma-flow__to">In: Pressure to Clinch / Wall · Out: Wall Escape</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Open Space → Ground</span><span class="emma-flow__arr">⇄</span><span class="emma-flow__to">In: Pressure to Takedown / Open Space Takedown / Knockdown · Out: Ground to Standing</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Wall → Ground</span><span class="emma-flow__arr">⇄</span><span class="emma-flow__to">In: Wall to Ground · Out: Stand-Up Loop (scramble)</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Ground → Wall</span><span class="emma-flow__arr">←</span><span class="emma-flow__to">Out: Scramble (Stand-Up Loop)</span></div>
+</div>
 
-## Concept Integration
+<p class="emma-glabel">System Statistics</p>
 
-| Concept | Where It Appears | Function |
-|---------|------------------|----------|
-| [Three Zones](../concepts/three-zones.md) | Land the Target, Sustained Offense | Offensive target selection |
-| [Confidence Rating](../concepts/confidence-rating.md) | Land the Target, Skill Isolation | Commitment timing |
-| [Defensive Solutions](../concepts/defensive-solutions.md) | All skill isolation, Close-Range Defense | Defense selection |
-| [Hand Controls](../concepts/hand-controls.md) | Touch, Pressure to Clinch, Pressure games | Bridges striking and clinch |
-| [TKO Pin](../concepts/tko-pin.md) | Wall Grinding, Ground Control | Exploitation endpoint |
-| [Decision States](../concepts/decision-states.md) | All games | Access → Stabilize → Exploit → Counter |
-| [Full MMA Expression](../concepts/full-mma-expression.md) | Level 4 of all games | Cross-domain threat integration |
-| [Fight Philosophy](../concepts/fight-philosophy.md) | System-wide | Finish while taking minimal damage |
+<div class="emma-stats">
+  <div class="emma-stat"><span class="emma-stat__num">8</span><span class="emma-stat__label">Foundation</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Open Space</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">3</span><span class="emma-stat__label">Open → Wall</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">4</span><span class="emma-stat__label">Open → Ground</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Wall</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Ground</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">33</span><span class="emma-stat__label">Total Games</span></div>
+</div>
 
----
+<p class="emma-glabel">Concept Integration</p>
 
-!!! abstract "System Evolution Notice"
-    Games can be added infinitely — the fight states and transitions are the structure, games are the teaching tools. See [Change Log](../reference/changelog.md) for version history.
+Where the system's core concepts show up across the games.
+
+<div class="emma-cards">
+  <a class="emma-card emma-has-pop" href="../../concepts/three-zones/" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">Three Zones</div><p>Offensive target selection.<span class="emma-pop">Appears in: Land the Target, Sustained Offense.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/confidence-rating/" tabindex="0"><div class="emma-card__i">📊</div><div class="emma-card__t">Confidence Rating</div><p>Commitment timing.<span class="emma-pop">Appears in: Land the Target, Skill Isolation.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/defensive-solutions/" tabindex="0"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defensive Solutions</div><p>Defense selection.<span class="emma-pop">Appears in: all skill isolation, Close-Range Defense.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/hand-controls/" tabindex="0"><div class="emma-card__i">🤝</div><div class="emma-card__t">Hand Controls</div><p>Bridges striking and clinch.<span class="emma-pop">Appears in: Touch, Pressure to Clinch, Pressure games.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/tko-pin/" tabindex="0"><div class="emma-card__i">📌</div><div class="emma-card__t">TKO Pin</div><p>Exploitation endpoint.<span class="emma-pop">Appears in: Wall Grinding, Ground Control.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/decision-states/" tabindex="0"><div class="emma-card__i">🔄</div><div class="emma-card__t">Decision States</div><p>Access → Stabilize → Exploit → Counter.<span class="emma-pop">Appears in: all games.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/full-mma-expression/" tabindex="0"><div class="emma-card__i">🌐</div><div class="emma-card__t">Full MMA Expression</div><p>Cross-domain threat integration.<span class="emma-pop">Appears in: Level 4 of all games.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/fight-philosophy/" tabindex="0"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Fight Philosophy</div><p>Finish while taking minimal damage.<span class="emma-pop">Appears: system-wide.</span></p></a>
+</div>
+
+??? abstract "System evolution notice"
+    Games can be added infinitely, the fight states and transitions are the structure; games are the teaching tools. See the <a href="../../reference/changelog/">Change Log</a> for version history.

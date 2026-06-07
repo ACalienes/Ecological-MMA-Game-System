@@ -1,265 +1,158 @@
 # Game Finder
 
-Not sure which game to play? Use this guide to find the right game for your training goal.
+<div class="emma-meta"><span>Reference</span><span>Find Your Game</span><span>By Goal · Time · Gear · Partner</span></div>
 
----
+<p class="emma-hl"><b>Not sure which game to play?</b> Tell the finder what you want, it points you to the game that builds it. Start with the decision tree, then narrow by goal, time, equipment, or partner.</p>
 
-## Quick Decision Tree
+<p class="emma-glabel">Quick Decision Tree</p>
 
-```mermaid
-flowchart TD
-    START[What do you want to work on?] --> STRIKING[Striking]
-    START --> WRESTLING[Wrestling/Grappling]
-    START --> BOTH[Both Together]
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Want striking</div><p><b>Defense (beginner):</b> <a href="../../games/parry-the-straight/">Parry</a>, <a href="../../games/slip-the-straight/">Slip</a>, <a href="../../games/tight-block/">Block</a> → <a href="../../games/evade-the-punch/">Evade</a>, <a href="../../games/close-range-defense/">Close-Range Defense</a>.<br><b>Offense:</b> <a href="../../games/land-the-target/">Land the Target</a>.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Want wrestling</div><p><b>Open space:</b> <a href="../../games/pressure-to-clinch/">Pressure to Clinch</a>, <a href="../../games/open-space-takedown/">Open Space Takedown</a>, <a href="../../games/pressure-to-takedown/">Pressure to Takedown</a>.<br><b>Wall:</b> <a href="../../games/wall-control/">Wall Control</a>, <a href="../../games/wall-escape/">Wall Escape</a>, <a href="../../games/standup-loop/">Stand-Up Loop</a>.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🥋</div><div class="emma-card__t">Want both together</div><p>Start with <a href="../../games/touch-game/">Touch Game</a>, then <a href="../../games/pressure-to-clinch/">Pressure to Clinch</a>.</p></div>
+</div>
 
-    STRIKING --> S_FOCUS[Offense or Defense?]
-    S_FOCUS --> S_DEF[Defense]
-    S_FOCUS --> S_OFF[Offense]
-    S_FOCUS --> S_BOTH[Both]
+<p class="emma-sub">Narrow it down by goal, time, equipment, or partner below.</p>
 
-    S_DEF --> S_DEF_LEVEL[Skill level?]
-    S_DEF_LEVEL --> S_DEF_BEG[Beginner]
-    S_DEF_LEVEL --> S_DEF_INT[Intermediate+]
-
-    S_DEF_BEG --> PARRY[Parry the Straight]
-    S_DEF_BEG --> SLIP[Slip the Straight]
-    S_DEF_BEG --> TIGHT[Tight Block]
-
-    S_DEF_INT --> EVADE[Evade the Punch]
-    S_DEF_INT --> CRD[Close-Range Defense]
-
-    S_OFF --> LT[Land the Target]
-
-    S_BOTH --> TOUCH[Touch Game]
-
-    WRESTLING --> W_ENV[Environment?]
-    W_ENV --> W_OPEN[Open Space]
-    W_ENV --> W_WALL[Wall]
-
-    W_OPEN --> W_OPEN_Q[What aspect?]
-    W_OPEN_Q --> W_SPACE[Space Control]
-    W_OPEN_Q --> W_TD[Takedowns]
-    W_OPEN_Q --> W_FULL[Full Sequence]
-
-    W_SPACE --> PC[Pressure to Clinch]
-    W_TD --> OST[Open Space Takedown]
-    W_FULL --> PTT[Pressure to Takedown]
-
-    W_WALL --> W_WALL_Q[Offense or Defense?]
-    W_WALL_Q --> W_WALL_OFF[Offense]
-    W_WALL_Q --> W_WALL_DEF[Defense]
-    W_WALL_Q --> W_WALL_BOTH[Both]
-
-    W_WALL_OFF --> WCON[Wall Control]
-    W_WALL_OFF --> WG[Wall to Ground]
-    W_WALL_DEF --> WE[Wall Escape]
-    W_WALL_BOTH --> SUL[Stand-Up Loop]
-
-    BOTH --> PC2[Pressure to Clinch]
-
-    style PARRY fill:#4CAF50,color:#fff
-    style SLIP fill:#4CAF50,color:#fff
-    style TIGHT fill:#4CAF50,color:#fff
-    style EVADE fill:#4CAF50,color:#fff
-    style CRD fill:#4CAF50,color:#fff
-    style LT fill:#FF5722,color:#fff
-    style TOUCH fill:#9C27B0,color:#fff
-    style PC fill:#9C27B0,color:#fff
-    style OST fill:#9C27B0,color:#fff
-    style PTT fill:#FF5722,color:#fff
-    style WCON fill:#FF5722,color:#fff
-    style WG fill:#FF5722,color:#fff
-    style WE fill:#4CAF50,color:#fff
-    style SUL fill:#9C27B0,color:#fff
-    style PC2 fill:#FF9800,color:#fff
-```
-
----
-
-## Find by Training Goal
-
-### "I want to improve my defense"
+<p class="emma-glabel">Find by Training Goal: Defense</p>
 
 === "Against Punches"
 
-    **Beginner — Start here:**
+    <p class="emma-sub">Beginner: start here</p>
 
-    | Game | What You'll Learn |
-    |------|-------------------|
-    | [Parry the Straight](../games/parry-the-straight.md) | Deflecting punches with hands |
-    | [Slip the Straight](../games/slip-the-straight.md) | Head movement evasion |
-    | [Tight Block](../games/tight-block.md) | Absorbing on guard |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Deflect punches with the hands</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/parry-the-straight/">Parry the Straight</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Evade with head movement</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/slip-the-straight/">Slip the Straight</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Absorb on a tight guard</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/tight-block/">Tight Block</a></span></div>
+    </div>
 
-    **Intermediate — Build on foundations:**
+    <p class="emma-sub">Intermediate: build on foundations</p>
 
-    | Game | What You'll Learn |
-    |------|-------------------|
-    | [Evade the Punch](../games/evade-the-punch.md) | Matching evasion to punch type |
-    | [Close-Range Defense](../games/close-range-defense.md) | Layering multiple solutions |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Match evasion to punch type</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/evade-the-punch/">Evade the Punch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Layer multiple solutions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
+    </div>
 
 === "Against Takedowns"
 
-    | Game | What You'll Learn |
-    |------|-------------------|
-    | [Pressure to Clinch](../games/pressure-to-clinch.md) | Avoiding being cornered |
-    | [Open Space Takedown](../games/open-space-takedown.md) | Scrambles and DNS defense |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Avoid being cornered</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Scrambles &amp; DNS defense</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
+    </div>
 
 === "Against Wall Pins"
 
-    | Game | What You'll Learn |
-    |------|-------------------|
-    | [Wall Escape](../games/wall-escape.md) | Breaking pins, creating space |
-    | [Stand-Up Loop](../games/standup-loop.md) | Getting up when taken down near wall |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Break pins, create space</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-escape/">Wall Escape</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Get up when taken down near the wall</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/standup-loop/">Stand-Up Loop</a></span></div>
+    </div>
 
----
-
-### "I want to improve my offense"
+<p class="emma-glabel">Find by Training Goal: Offense</p>
 
 === "Striking"
 
-    | Game | What You'll Learn |
-    |------|-------------------|
-    | [Land the Target](../games/land-the-target.md) | Reading defense, setup, landing targets |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Read defense, set up, land targets</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a></span></div>
+    </div>
 
 === "Takedowns"
 
-    | Game | What You'll Learn |
-    |------|-------------------|
-    | [Pressure to Takedown](../games/pressure-to-takedown.md) | Chaining strikes to takedowns |
-    | [Open Space Takedown](../games/open-space-takedown.md) | Controlled takedowns from clinch |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Chain strikes into takedowns</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-takedown/">Pressure to Takedown</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Controlled takedowns from the clinch</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
+    </div>
 
 === "Wall Control"
 
-    | Game | What You'll Learn |
-    |------|-------------------|
-    | [Wall Control](../games/wall-control.md) | Establishing and maintaining pins |
-    | [Wall Pin to Ground](../games/wall-to-ground.md) | Transitioning to ground control |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Establish &amp; maintain pins</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Transition pin to ground control</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-to-ground/">Wall Pin to Ground</a></span></div>
+    </div>
 
----
+<p class="emma-glabel">Find by Training Goal: Fundamentals &amp; Integration</p>
 
-### "I want to work on fundamentals"
+=== "Fundamentals"
 
-| Game | What It Teaches |
-|------|-----------------|
-| [Touch and Don't Get Touched](../games/touch-game.md) | Range, timing, composure under contact |
-| [Pressure to Clinch](../games/pressure-to-clinch.md) | Space awareness, pressure vs. movement |
-| [Parry the Straight](../games/parry-the-straight.md) | Basic defensive mechanics |
+    <div class="emma-cards">
+      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t"><a href="../../games/touch-game/">Touch &amp; Don't Get Touched</a></div><p>Range, timing, composure under contact.<span class="emma-pop">The foundational engagement game, learn to manage distance before anything else.</span></p></div>
+      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧭</div><div class="emma-card__t"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></div><p>Space awareness, pressure vs. movement.<span class="emma-pop">Low contact, space-focused, teaches how to cut off the marked perimeter.</span></p></div>
+      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t"><a href="../../games/parry-the-straight/">Parry the Straight</a></div><p>Basic defensive mechanics.<span class="emma-pop">The simplest skill-isolation game, a clean first rep of defensive reading.</span></p></div>
+    </div>
 
----
+=== "Realistic MMA Integration"
 
-### "I want realistic MMA integration"
+    <div class="emma-cards">
+      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⛓️</div><div class="emma-card__t"><a href="../../games/pressure-to-takedown/">Pressure to Takedown</a></div><p>Full strike-to-takedown sequence.<span class="emma-pop">Chains striking and wrestling into one continuous problem.</span></p></div>
+      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔀</div><div class="emma-card__t"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a> (L3+)</div><p>Recognizing when domains change.<span class="emma-pop">At higher levels, the moment striking becomes wrestling becomes the focus.</span></p></div>
+      <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥋</div><div class="emma-card__t">Any game at Full MMA</div><p>Adding cross-domain threats.<span class="emma-pop">The highest level of any game introduces threats from the other domain.</span></p></div>
+    </div>
 
-| Game | What It Teaches |
-|------|-----------------|
-| [Pressure to Takedown](../games/pressure-to-takedown.md) | Full strike-to-takedown sequence |
-| [Pressure to Clinch](../games/pressure-to-clinch.md) (L3+) | Recognizing when domains change |
-| Any game at **Full MMA Expression** level | Adding cross-domain threats |
+    <p style="font-size:.85rem;margin:.6rem 0 0;">See: <a href="../../concepts/full-mma-expression/">Full MMA Expression</a></p>
 
-See: [Full MMA Expression](../concepts/full-mma-expression.md)
+<p class="emma-glabel">Find by Time Available</p>
 
----
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Short: 15–20 min</div><p>Pick <b>one</b> game, work levels 1–3: a skill-isolation game (Parry, Slip, Block, Evade), Touch Game, or Pressure to Clinch.<span class="emma-pop">One focused problem, repeated cleanly, beats spreading thin across many games.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⏳</div><div class="emma-card__t">Medium: 30–45 min</div><p>Pair <b>two</b> related games and let one feed the other.<span class="emma-pop">Skill Isolation → Close-Range Defense · Touch Game → Pressure to Clinch · Wall Control → Wall Escape.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🕐</div><div class="emma-card__t">Full: 60+ min</div><p>Run a full <b>pathway</b> from isolation to integration.<span class="emma-pop">Skill Isolation → Close-Range Defense → Land the Target · Touch Game → Pressure to Clinch → Wall Control · Wall Control → Wall Escape → Wall to Ground.</span></p></div>
+</div>
 
-## Find by Time Available
+<p class="emma-glabel">Find by Equipment</p>
 
-### Short Session (15-20 min)
+=== "No Equipment"
 
-Pick **one** game, work through levels 1-3:
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Light contact only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/touch-game/">Touch &amp; Don't Get Touched</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Use tape/cones for the marked perimeter</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span></div>
+    </div>
 
-- Skill Isolation games (Parry, Slip, Block, Evade)
-- Touch Game
-- Pressure to Clinch
+=== "Gloves Only"
 
-### Medium Session (30-45 min)
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🥊</span> All Skill Isolation games</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛡️</span> <a href="../../games/close-range-defense/">Close-Range Defense</a></span>
+      <span class="emma-chip"><span class="emma-chip__i">🎯</span> <a href="../../games/land-the-target/">Land the Target</a></span>
+    </div>
 
-Pick **two** related games:
+=== "Wall + Mats"
 
-- Skill Isolation → Close-Range Defense
-- Touch Game → Pressure to Clinch
-- Wall Control → Wall Escape
+    <div class="emma-chips">
+      <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> <a href="../../games/wall-control/">Wall Control</a><span class="emma-chip__detail">Padded wall preferred for repeated pin work.</span></span>
+      <span class="emma-chip"><span class="emma-chip__i">↩️</span> <a href="../../games/wall-escape/">Wall Escape</a></span>
+      <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬇️</span> <a href="../../games/wall-to-ground/">Wall Pin to Ground</a><span class="emma-chip__detail">Mats essential, play ends on the ground.</span></span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> <a href="../../games/standup-loop/">Stand-Up Loop</a></span>
+    </div>
 
-### Full Session (60+ min)
+<p class="emma-glabel">Find by Partner Skill Level</p>
 
-Run a **pathway**:
+=== "Partner Less Experienced"
 
-- Skill Isolation → Close-Range Defense → Land the Target
-- Touch Game → Pressure to Clinch → Wall Control
-- Wall Control → Wall Escape → Wall to Ground
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Clear roles, adjustable intensity</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Skill Isolation games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender doesn't counter</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Space-based, low contact</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span></div>
+    </div>
 
----
+=== "Partner More Experienced"
 
-## Find by Equipment
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🎭</div><div class="emma-card__t">Any asymmetric game</div><p>Put the less experienced player in the learning role.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🪜</div><div class="emma-card__t">Use lower levels</div><p>The experienced partner moderates intensity.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Focus on defensive games</div><p>Less experienced defends and learns to read.</p></div>
+    </div>
 
-### No Equipment Needed
+=== "Equal Partners"
 
-| Game | Notes |
-|------|-------|
-| [Touch and Don't Get Touched](../games/touch-game.md) | Light contact only |
-| [Pressure to Clinch](../games/pressure-to-clinch.md) | Use tape/cones for boundary |
+    <p class="emma-hl"><b>Any game works.</b> Progress through the levels together, both sides feed and learn in turn.</p>
 
-### Gloves Only
+<p class="emma-glabel">Still Not Sure?</p>
 
-| Game | Notes |
-|------|-------|
-| All Skill Isolation games | |
-| [Close-Range Defense](../games/close-range-defense.md) | |
-| [Land the Target](../games/land-the-target.md) | |
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Brand new to the system</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/touch-game/">Touch &amp; Don't Get Touched</a>, the foundational game</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Want striking defense</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/parry-the-straight/">Parry the Straight</a>, the simplest isolation game</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Want wrestling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a>, low contact, space-focused</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Want full MMA feel</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-takedown/">Pressure to Takedown</a>, chains everything together</span></div>
+</div>
 
-### Wall + Mats Required
-
-| Game | Notes |
-|------|-------|
-| [Wall Control](../games/wall-control.md) | Padded wall preferred |
-| [Wall Escape](../games/wall-escape.md) | |
-| [Wall Pin to Ground](../games/wall-to-ground.md) | Mats essential |
-| [Stand-Up Loop](../games/standup-loop.md) | |
-
----
-
-## Find by Partner Skill Level
-
-### Partner is Less Experienced
-
-Good games for mixed skill levels:
-
-| Game | Why It Works |
-|------|--------------|
-| Skill Isolation games | Clear roles, adjustable intensity |
-| [Land the Target](../games/land-the-target.md) | Defender doesn't counter |
-| [Pressure to Clinch](../games/pressure-to-clinch.md) | Space-based, low contact |
-
-### Partner is More Experienced
-
-Games where skill gap is addressed:
-
-| Game | Adjustment |
-|------|------------|
-| Any asymmetric game | Put less experienced in learning role |
-| Use lower levels | Experienced partner moderates intensity |
-| Focus on defensive games | Less experienced defends, learns reading |
-
-### Equal Partners
-
-Any game works! Progress through levels together.
-
----
-
-## Still Not Sure?
-
-!!! tip "Default Recommendations"
-
-    **Brand new to the system?**
-    Start with [Touch and Don't Get Touched](../games/touch-game.md) — it's the foundational game.
-
-    **Want striking defense?**
-    Start with [Parry the Straight](../games/parry-the-straight.md) — it's the simplest skill isolation game.
-
-    **Want wrestling?**
-    Start with [Pressure to Clinch](../games/pressure-to-clinch.md) — low contact, space-focused.
-
-    **Want full MMA feel?**
-    Try [Pressure to Takedown](../games/pressure-to-takedown.md) — it chains everything together.
-
----
-
-!!! abstract "System Evolution Notice"
+??? abstract "System evolution notice"
     More games will be added as the system develops. This finder will be updated accordingly.

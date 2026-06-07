@@ -6,16 +6,16 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "34 Games Across 5 Environments"
+!!! tip "42 Games Across 5 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|
     | Skill Isolation | 8 | Single-skill development |
-    | Open Space - Striking | 7 | Striking engagement |
+    | Open Space - Striking | 8 | Striking engagement |
     | Transition Zone | 2 | Domain change moments |
-    | Open Space - Wrestling | 4 | Takedowns and pressure |
+    | Open Space - Wrestling | 5 | Takedowns and pressure |
     | Wall | 6 | Vertical constraint |
-    | Ground | 7 | Horizontal grappling |
+    | Ground | 13 | Horizontal grappling |
 
 ---
 
@@ -45,7 +45,7 @@ Constrained games that develop single skills in isolation.
 
 ---
 
-### Open Space — Striking
+### Open Space, Striking
 
 Standing games focused on striking offense and defense.
 
@@ -58,12 +58,13 @@ Standing games focused on striking offense and defense.
 | [Sustained Offense](sustained-offense.md) | Offensive | Intermediate | Maintain rhythm through defensive attempts |
 | [Touch and Don't Get Touched](touch-game.md) | Combined | Beginner | Range awareness and timing literacy |
 | [Pressure to Clinch](pressure-to-clinch.md) | Combined | Beginner | Space control and clinch entry |
+| [One Shot Discovery (WIP)](one-shot-discovery.md) | Combined | Intermediate | One shot, four tools, feint-and-commit in a tight perimeter |
 
 ---
 
 ### Transition Zone
 
-Games at the seam between striking and wrestling — handling domain changes.
+Games at the seam between striking and wrestling, handling domain changes.
 
 | Game | Focus | Difficulty | Core Problem |
 |------|-------|------------|--------------|
@@ -72,7 +73,7 @@ Games at the seam between striking and wrestling — handling domain changes.
 
 ---
 
-### Open Space — Wrestling
+### Open Space, Wrestling
 
 Standing games focused on takedowns and pressure.
 
@@ -82,6 +83,7 @@ Standing games focused on takedowns and pressure.
 | [Pressure to Takedown](pressure-to-takedown.md) | Offensive | Advanced | Chain strikes to clinch to takedown |
 | [Pressure to Wall](pressure-to-wall.md) | Offensive | Advanced | Chain strikes to wall control for grinding |
 | [Open Space Takedown](open-space-takedown.md) | Combined | Intermediate | Execute takedowns without wall assistance |
+| [The Square (WIP)](the-square.md) | Defensive | Intermediate | Close defense layered live into a takedown progression |
 
 ---
 
@@ -109,16 +111,22 @@ Games focused on horizontal grappling positions.
 | [Ground Access](ground-access.md) | Offensive | Intermediate | Pass guard and advance position |
 | [Ground Control](ground-control.md) | Offensive | Intermediate | Maintain position through escape attempts |
 | [Ground Escape](ground-escape.md) | Defensive | Intermediate | Escape from under dominant position |
+| [Mount Escape](mount-escape.md) | Defensive | Intermediate | Frame, bridge, and recover from under mount |
+| [Side-Control Escape](side-control-escape.md) | Defensive | Intermediate | Frame and recover before side control advances |
+| [Back Escape](back-escape.md) | Defensive | Advanced | Defend the neck and turn to face before the choke |
 | [Leg Reclaim](leg-reclaim.md) | Defensive | Intermediate | Get legs between you and opponent |
 | [Ground to Standing](ground-to-standing.md) | Defensive | Intermediate | Get back to feet from ground |
+| [Turtle Breakout (WIP)](turtle-breakout.md) | Defensive | Beginner | Stand and face from turtle before the hands connect |
 | [Ground Defensive Submission](ground-defensive-submission.md) | Defensive | Advanced | Submissions from bottom position |
-| [Positional Battle](positional-battle.md) | Combined | Intermediate | Win positional exchanges |
+| [Ground-and-Pound Defense (WIP)](ground-and-pound-defense.md) | Defensive | Advanced | Escape the open-camped top via stand, reverse, or closed loop |
+| [Positional Sparring](positional-battle.md) | Combined | Intermediate | Win positional exchanges |
+| [Win Ladder (format, WIP)](win-ladder.md) | Combined | Intermediate | Self-scaling starts: every win demotes you a rung |
 
 ---
 
 ## Games by Focus
 
-=== "Defensive (16 games)"
+=== "Defensive (22)"
     Games where the defender is the primary learner:
 
     **Skill Isolation:**
@@ -131,15 +139,15 @@ Games focused on horizontal grappling positions.
     - Clinch Denial, Counter-Wrestling
 
     **Open Space Wrestling:**
-    - Takedown Defense
+    - Takedown Defense, The Square (WIP)
 
     **Wall:**
     - Wall Escape, Wall Defensive Submission
 
     **Ground:**
-    - Ground Escape, Leg Reclaim, Ground to Standing, Ground Defensive Submission
+    - Ground Escape, Mount Escape, Side-Control Escape, Back Escape, Leg Reclaim, Ground to Standing, Turtle Breakout (WIP), Ground Defensive Submission, Ground-and-Pound Defense (WIP)
 
-=== "Offensive (13 games)"
+=== "Offensive (13)"
     Games where the attacker is the primary learner:
 
     **Skill Isolation:**
@@ -157,7 +165,7 @@ Games focused on horizontal grappling positions.
     **Ground:**
     - Ground Access, Ground Control
 
-=== "Combined (5 games)"
+=== "Combined (6)"
     Games where both sides have distinct objectives (A vs B roles):
 
     **Open Space Striking:**
@@ -170,7 +178,7 @@ Games focused on horizontal grappling positions.
     - Stand-Up Loop
 
     **Ground:**
-    - Positional Battle
+    - Positional Sparring, Win Ladder (format, WIP)
 
 ---
 
@@ -264,7 +272,7 @@ Pressure to Wall → Wall Control → Wall Grinding → TKO
 ```
 Offensive: Ground Access → Ground Control → TKO/Submission
 Defensive: Ground Escape → Leg Reclaim → Ground to Standing
-Combined: Positional Battle (role reversal possible)
+Combined: Positional Sparring (role reversal possible)
 ```
 
 ---

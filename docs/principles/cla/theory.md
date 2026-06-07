@@ -1,219 +1,181 @@
 # Theoretical Foundations
 
+<div class="emma-meta"><span>CLA Knowledge Base</span><span>Ecological Dynamics</span><span>Five Key Influences</span></div>
+
 > **Navigation:** [CLA Index](index.md) | [Key Concepts](key-concepts.md) →
 
 !!! abstract "Sources"
-    This section synthesizes foundational research in motor learning and ecological psychology.
-    For complete bibliography, see [Sources & Theoretical Foundations](../../reference/sources.md).
+    This section synthesizes foundational research in motor learning and ecological psychology. For the complete bibliography, see [Sources &amp; Theoretical Foundations](../../reference/sources.md).
 
----
+<p class="emma-glabel">Ecological Dynamics</p>
 
-## Ecological Dynamics
+<p class="emma-hl"><b>An integrated framework</b> for understanding the acquisition of movement skills and the development of expert performance, woven from four scientific strands.</p>
 
-An integrated framework incorporating:
-
-1. **Ecological Psychology** (Gibson, 1979) - Perception-action coupling, affordances
-2. **Dynamical Systems Theory** (Kelso, 1995) - Coordination dynamics, self-organization
-3. **Evolutionary Biology** - Adaptation, form of life
-4. **Complexity Sciences** - Emergence, nonlinearity
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Ecological Psychology</div><p>Perception-action coupling, affordances. <i>(Gibson, 1979)</i></p></div>
+  <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Dynamical Systems Theory</div><p>Coordination dynamics, self-organization. <i>(Kelso, 1995)</i></p></div>
+  <div class="emma-card"><div class="emma-card__i">🧬</div><div class="emma-card__t">Evolutionary Biology</div><p>Adaptation, form of life.</p></div>
+  <div class="emma-card"><div class="emma-card__i">✨</div><div class="emma-card__t">Complexity Sciences</div><p>Emergence, nonlinearity.</p></div>
+</div>
 
 > "Ecological dynamics provides an integrated framework for understanding the acquisition of movement skills and the development of expert performance."
-> — Davids, Button, & Bennett, 2008
+>, Davids, Button, &amp; Bennett, 2008
 
----
+<p class="emma-glabel">Core Theoretical Principles</p>
 
-## Core Theoretical Principles
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔗</div><div class="emma-card__t">Individual–Environment Mutuality</div><p>Performer and environment are inseparable.<span class="emma-pop">Fighter technique cannot be understood apart from opponent/context. <i>(Gibson, 1979)</i></span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧩</div><div class="emma-card__t">Complex Adaptive Systems</div><p>Athletes are networks of integrated subsystems.<span class="emma-pop">Fighter = physical + cognitive + emotional + tactical subsystems. <i>(Davids et al., 2008)</i></span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌱</div><div class="emma-card__t">Self-Organization</div><p>Spontaneous emergence of coordinated patterns.<span class="emma-pop">Combinations emerge from constraints, not memorization. <i>(Kelso, 1995)</i></span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚡</div><div class="emma-card__t">Nonlinearity</div><p>A control parameter past a critical value triggers a phase transition, the behavior reorganizes <b>abruptly</b>.<span class="emma-pop">"Minor rule changes revolutionize fighting styles" because a rule shifts a control parameter past its critical threshold, not vague butterfly-effect nonlinearity. <i>(HKB; Blau &amp; Wagman, 2022, p. 250)</i></span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌟</div><div class="emma-card__t">Emergence</div><p>Novel behaviors arise from component interactions.<span class="emma-pop">New techniques emerge from training environments rather than being installed by instruction.</span></p></div>
+</div>
 
-| Principle | Description | MMA Application |
-|-----------|-------------|-----------------|
-| **Individual-Environment Mutuality** | Performer and environment are inseparable (Gibson, 1979) | Fighter technique cannot be understood apart from opponent/context |
-| **Complex Adaptive Systems** | Athletes are networks of integrated subsystems (Davids et al., 2008) | Fighter = physical + cognitive + emotional + tactical subsystems |
-| **Self-Organization** | Spontaneous emergence of coordinated patterns (Kelso, 1995) | Combinations emerge from constraints, not memorization |
-| **Nonlinearity** | Small changes can produce large effects (and vice versa) | Minor rule changes can revolutionize fighting styles |
-| **Emergence** | Novel behaviors arise from component interactions | New techniques emerge from training environments |
+<p class="emma-glabel">Key Theoretical Influences</p>
 
----
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Gibson</div><p>Affordances &amp; perception-action coupling.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🤸</div><div class="emma-card__t">Bernstein</div><p>Degrees of freedom, repetition without repetition.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Kelso</div><p>Coordination dynamics.</p></div>
+  <div class="emma-card"><div class="emma-card__i">⚙️</div><div class="emma-card__t">Turvey</div><p>Action systems.</p></div>
+  <div class="emma-card"><div class="emma-card__i">📐</div><div class="emma-card__t">Newell</div><p>The constraints model.</p></div>
+</div>
 
-## Key Theoretical Influences
+??? note "James Gibson (1904–1979): Affordances & perception-action coupling"
 
-### James Gibson (1904-1979)
+    !!! quote "Key Work"
+        Gibson, J.J. (1979). *The Ecological Approach to Visual Perception.* Houghton Mifflin.
 
-!!! quote "Key Work"
-    Gibson, J.J. (1979). *The Ecological Approach to Visual Perception.* Houghton Mifflin.
+    <ul class="emma-checklist">
+      <li>The environment offers <b>opportunities for action</b> (affordances).</li>
+      <li>Perception and action are tightly coupled, not separate processes.</li>
+      <li>Information in the environment <b>directly specifies</b> possibilities for action.</li>
+      <li>No need for complex internal representations or cognitive processing.</li>
+    </ul>
 
-**Contribution:** Affordances and perception-action coupling
+    > "Affordances are what the environment offers, provides, or furnishes for an organism."
+    >, Gibson, 1979
 
-**Core Ideas:**
+    <p class="emma-hl"><b>For MMA:</b> Fighters directly perceive opportunities to strike, take down, or submit based on opponent positioning, they don't calculate these opportunities, they see them.</p>
 
-- The environment offers opportunities for action (affordances)
-- Perception and action are tightly coupled, not separate processes
-- Information in the environment directly specifies possibilities for action
-- No need for complex internal representations or cognitive processing
+??? note "Nikolai Bernstein (1896–1966): Degrees of freedom & dexterity"
 
-> "Affordances are what the environment offers, provides, or furnishes for an organism."
-> — Gibson, 1979
+    !!! quote "Key Work"
+        Bernstein, N.A. (1967). *The Co-ordination and Regulation of Movements.* Pergamon Press.
 
-**For MMA:** Fighters directly perceive opportunities to strike, take down, or submit based on opponent positioning—they don't calculate these opportunities, they see them.
+    <ul class="emma-checklist">
+      <li>The human body has enormous <b>degrees of freedom</b> (muscles, joints, segments).</li>
+      <li>Coordination is the process of mastering these redundant degrees of freedom.</li>
+      <li>Learning involves <b>freezing → releasing → exploiting</b> degrees of freedom.</li>
+      <li>Dexterity: motor solutions that are correct, quick, rational, resourceful.</li>
+    </ul>
 
----
+    > "Practice is a particular type of repetition without repetition."
+    >, Bernstein, 1967
 
-### Nikolai Bernstein (1896-1966)
+    <p class="emma-hl"><b>For MMA:</b> A beginner freezes their hips when punching (reducing complexity). An expert exploits hip rotation for power (using the freed degrees of freedom).</p>
 
-!!! quote "Key Work"
-    Bernstein, N.A. (1967). *The Co-ordination and Regulation of Movements.* Pergamon Press.
+??? note "Scott Kelso (b. 1947): Coordination dynamics"
 
-**Contribution:** Degrees of freedom, dexterity, repetition without repetition
+    !!! quote "Key Work"
+        Kelso, J.A.S. (1995). *Dynamic Patterns: The Self-Organization of Brain and Behavior.* MIT Press.
 
-**Core Ideas:**
+    <ul class="emma-checklist">
+      <li>Coordination patterns emerge from the <b>interaction of constraints</b>.</li>
+      <li>Systems exist in stable states (attractors) but can transition between them.</li>
+      <li>Phase transitions occur when control parameters change.</li>
+      <li>Variability increases at transition points (instability precedes change).</li>
+    </ul>
 
-- The human body has enormous "degrees of freedom" (muscles, joints, segments)
-- Coordination is the process of mastering these redundant degrees of freedom
-- Learning involves freezing → releasing → exploiting degrees of freedom
-- Dexterity: finding motor solutions that are correct, quick, rational, resourceful
+    <p class="emma-hl"><b>For MMA:</b> A fighter's stance is a stable attractor; under pressure (control parameter), they may transition to a different stance or position.</p>
 
-> "Practice is a particular type of repetition without repetition."
-> — Bernstein, 1967
+    <p class="emma-sub">Dynamical-systems precision (Blau &amp; Wagman, 2022)</p>
 
-**For MMA:** A beginner freezes their hips when punching (reducing complexity). An expert exploits hip rotation for power (using the freed degrees of freedom).
+    The vocabulary above is loose without these distinctions. Treat a skill as an **attractor layout**, a landscape of stable behaviors that the coach reshapes (p. 234–242):
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🗺️</div><div class="emma-card__t">Skill = an attractor layout</div><p>Habitual patterns are <b>attractors</b> (basins that "attract nearby behaviors the way a magnet attracts iron"); the <i>deepest</i> is most stable and usually most efficient, the default under pressure. The coach reshapes the layout: deepen a desired attractor, destabilize an unwanted one. <i>(p. 237)</i></p></div>
+      <div class="emma-card"><div class="emma-card__i">🔀</div><div class="emma-card__t">Learning vs. adaptation</div><p><b>Learning = birth of a new attractor</b> (a genuinely new pattern, expect exploration and instability). <b>Adaptation = movement of an existing attractor</b> (adjusting a skill to a new context/opponent, fight-camp work). Don't use "adaptation" for both. <i>(p. 241)</i></p></div>
+      <div class="emma-card"><div class="emma-card__i">🎛️</div><div class="emma-card__t">Control vs. order parameter</div><p>A <b>control parameter</b>, when changed, <i>reorganizes</i> the layout (speed, pressure, range, fatigue, # opponents, increasing speed makes the anti-phase attractor <i>vanish</i>). It doesn't dictate the new behavior, only which behaviors are stable. The <b>order parameter</b> is the macro variable you <i>measure</i> (e.g., relative phase / timing between fighters). <i>(p. 250)</i></p></div>
+    </div>
 
-### Scott Kelso (b. 1947)
+    <p class="emma-hl"><b>Why this matters for the nonlinearity claim:</b> "minor rule changes revolutionize styles" is precise once framed as a control-parameter-driven phase transition past a critical value (HKB, p. 250). A rule change shifts a control parameter; past its critical threshold the attractor layout reorganizes abruptly, falsifiable and designable rather than mystical. See the <a href="../ecological-psychology/index/">Ecological Psychology</a> section.</p>
 
-!!! quote "Key Work"
-    Kelso, J.A.S. (1995). *Dynamic Patterns: The Self-Organization of Brain and Behavior.* MIT Press.
+??? note "Michael Turvey (b. 1942): Action systems"
 
-**Contribution:** Coordination dynamics
+    !!! quote "Key Work"
+        Turvey, M.T. (1990). Coordination. *American Psychologist, 45*(8), 938–953.
 
-**Core Ideas:**
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🔄</div><div class="emma-card__t">Intra-individual</div><p>Organizing body parts relative to each other.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Inter-individual</div><p>Organizing body relative to environment/opponents.</p></div>
+    </div>
 
-- Coordination patterns emerge from the interaction of constraints
-- Systems exist in stable states (attractors) but can transition between them
-- Phase transitions occur when control parameters change
-- Variability increases at transition points (instability precedes change)
+    Action systems are temporarily assembled, task-specific organizations, coordination emerges from constraints, not from pre-programmed motor programs.
 
-**For MMA:** A fighter's stance is a stable attractor; under pressure (control parameter), they may transition to a different stance or position.
+    <p class="emma-hl"><b>For MMA:</b> A takedown defense involves both intra-individual coordination (sprawl mechanics) and inter-individual coordination (timing relative to the opponent's shot).</p>
 
----
+??? note "Karl Newell (b. 1945): The constraints model"
 
-### Michael Turvey (b. 1942)
+    !!! quote "Key Work"
+        Newell, K.M. (1986). Constraints on the development of coordination. In M.G. Wade &amp; H.T.A. Whiting (Eds.), *Motor Development in Children* (pp. 341–360). Martinus Nijhoff.
 
-!!! quote "Key Work"
-    Turvey, M.T. (1990). Coordination. *American Psychologist, 45*(8), 938-953.
+    Three categories of constraints shape behavior, and behavior emerges from their interaction:
 
-**Contribution:** Action systems
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🧍</div><div class="emma-card__t">Individual (Organismic)</div><p>Personal characteristics.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Task</div><p>Features of the activity.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🌍</div><div class="emma-card__t">Environmental</div><p>External conditions.</p></div>
+    </div>
 
-**Core Ideas:**
+    Manipulation of constraints guides learning without prescribing solutions.
 
-- Two dimensions of coordination:
-  - **Intra-individual:** Organizing body parts relative to each other
-  - **Inter-individual:** Organizing body relative to environment/opponents
-- Action systems are temporarily assembled, task-specific organizations
-- Coordination emerges from constraints, not from pre-programmed motor programs
+    <p class="emma-hl"><b>For MMA:</b> A game's rules (task), an athlete's reach (individual), and the cage (environmental) together shape what techniques emerge.</p>
 
-**For MMA:** A takedown defense involves both intra-individual coordination (sprawl mechanics) and inter-individual coordination (timing relative to opponent's shot).
+<p class="emma-glabel">The Constraint Interaction Model</p>
 
----
+<p class="emma-hl"><b>Behavior is not determined by any single constraint</b>, it emerges from the interaction of all three. Change any constraint, and behavior reorganizes.</p>
 
-### Karl Newell (b. 1945)
-
-!!! quote "Key Work"
-    Newell, K.M. (1986). Constraints on the development of coordination. In M.G. Wade & H.T.A. Whiting (Eds.), *Motor Development in Children: Aspects of Coordination and Control* (pp. 341-360). Martinus Nijhoff.
-
-**Contribution:** Constraints model
-
-**Core Ideas:**
-
-- Three categories of constraints shape behavior:
-  - **Individual (Organismic):** Personal characteristics
-  - **Task:** Features of the activity
-  - **Environmental:** External conditions
-- Behavior emerges from the interaction of all three constraint categories
-- Manipulation of constraints guides learning without prescribing solutions
-
-**For MMA:** A game's rules (task constraints), an athlete's reach (individual constraints), and the cage (environmental constraints) together shape what techniques emerge.
-
----
-
-## The Constraint Interaction Model
-
-```
-         INDIVIDUAL CONSTRAINTS
-        (Physical, Psychological,
-         Experiential, Biological)
-                   ↓
-    ←----- EMERGENT BEHAVIOR ---→
-                   ↑
-   TASK CONSTRAINTS ← → ENVIRONMENTAL CONSTRAINTS
-   (Goals, Rules,        (Physical, Social,
-    Equipment, Space)     Historical, Cultural)
-```
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Individual<br><small>physical · psychological · experiential · biological</small></span><span class="emma-flow__arr">↘</span><span class="emma-flow__to">Emergent behavior</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Task<br><small>goals · rules · equipment · space</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Emergent behavior</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Environmental<br><small>physical · social · historical · cultural</small></span><span class="emma-flow__arr">↗</span><span class="emma-flow__to">Emergent behavior</span></div>
+</div>
 
 > "Constraints do not prescribe or dictate specific patterns of coordination; rather, they act to reduce the number of configurations available, channeling behavior toward functional states."
-> — Newell, 1986
+>, Newell, 1986
 
-**Key Insight:** Behavior is not determined by any single constraint but emerges from their interaction. Change any constraint, and behavior reorganizes.
+<p class="emma-glabel">Two-Stage Learning Model</p>
 
----
+<p class="emma-hl">Adapted from Newell (1985) by Renshaw &amp; Chow (2018), different stages need <b>different coaching approaches</b>.</p>
 
-## Two-Stage Learning Model
-
-**Adapted from Newell (1985) by Renshaw & Chow (2018)**
-
-| Stage | Focus | Description | Coach Role |
-|-------|-------|-------------|------------|
-| **Stage 1: Learning to Coordinate** | Assembling basic coordination patterns | Searching/exploring to develop intra-individual-environment or inter-individual-environment patterns | Provide opportunities to explore solutions |
-| **Stage 2: Learning to Adapt** | Optimizing and stabilizing patterns | Developing stable yet flexible coordinative structures; learning to exploit the individual-environment system | Provide variability and challenge to refine adaptability |
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔎</div><div class="emma-card__t">Stage 1 · Learning to Coordinate</div><p>Assembling basic coordination patterns.<span class="emma-pop">Searching/exploring to develop intra- or inter-individual-environment patterns. <b>Coach role:</b> provide opportunities to explore solutions. Early learners need guidance toward functional solutions.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎚️</div><div class="emma-card__t">Stage 2 · Learning to Adapt</div><p>Optimizing and stabilizing patterns.<span class="emma-pop">Developing stable yet flexible coordinative structures; exploiting the individual-environment system. <b>Coach role:</b> provide variability and challenge to refine adaptability.</span></p></div>
+</div>
 
 > "Stage 1 involves learners searching and exploring to find a coordination solution. Stage 2 involves learners adapting their coordination patterns to achieve optimized and stable yet flexible performance."
-> — Renshaw et al., 2019
+>, Renshaw et al., 2019
 
-**Implication:** Different coaching approaches for different stages. Early learners need guidance toward functional solutions. Advanced learners need variability to build adaptability.
+<p class="emma-glabel">Knowledge Types</p>
 
----
+<p class="emma-hl"><b>Knowledge OF the environment</b> (supporting action) can only be developed through doing, it cannot be verbally transmitted. <i>(Distinction from Gibson, 1979)</i></p>
 
-## Knowledge Types
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">💬</div><div class="emma-card__t">Knowledge ABOUT</div><p>Declarative, verbalizable.<span class="emma-pop">Learned through instruction, video, discussion. You can explain submission defense this way.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🤲</div><div class="emma-card__t">Knowledge OF</div><p>Procedural, action-supporting.<span class="emma-pop">Learned only through direct experience in the environment. The feel for when to escape comes only through live grappling.</span></p></div>
+</div>
 
-**Distinction from Gibson (1979)**
+<p class="emma-glabel">Implications for Training Design</p>
 
-| Type | Description | How Learned |
-|------|-------------|-------------|
-| **Knowledge ABOUT** | Declarative, verbalizable | Instruction, video, discussion |
-| **Knowledge OF** | Procedural, action-supporting | Direct experience in environment |
+These theoretical foundations lead to specific design principles (Renshaw et al., 2019):
 
-> "Knowledge OF the environment can only be educated through practice in representative environments—it cannot be verbally transmitted."
-> — Renshaw et al., 2019
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🔗</div><div class="emma-card__t">The relationship is the unit</div><p>Don't train fighters in isolation, always include opponent, pressure, space.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🌱</div><div class="emma-card__t">Skill is adaptation</div><p>Don't prescribe "correct" technique, create environments where functional solutions emerge.</p></div>
+  <div class="emma-card"><div class="emma-card__i">📈</div><div class="emma-card__t">Learning is nonlinear</div><p>Expect plateaus, breakthroughs, regressions, embrace instability as necessary for change.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🎛️</div><div class="emma-card__t">Constraints shape behavior</div><p>Manipulate constraints to guide learning, the environment teaches; the coach designs it.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔄</div><div class="emma-card__t">Perception &amp; action are coupled</div><p>Never separate reading from reacting, avoid task decomposition that breaks this coupling.</p></div>
+</div>
 
-**Critical Point:** Knowledge OF the environment (supporting action) can only be developed through doing, not through verbal instruction alone.
-
-**For MMA:** You can explain submission defense (knowledge ABOUT), but the athlete only develops the feel for when to escape (knowledge OF) through live grappling.
-
----
-
-## Implications for Training Design
-
-These theoretical foundations lead to specific training design principles (Renshaw et al., 2019):
-
-1. **The individual-environment relationship is the unit of analysis**
-   - Don't train fighters in isolation from context
-   - Always include opponent, pressure, space
-
-2. **Skill is adaptation, not acquisition**
-   - Don't prescribe "correct" technique
-   - Create environments where functional solutions emerge
-
-3. **Learning is nonlinear**
-   - Expect plateaus, breakthroughs, and regressions
-   - Embrace instability as necessary for change
-
-4. **Constraints shape behavior**
-   - Manipulate constraints to guide learning
-   - The environment teaches; the coach designs the environment
-
-5. **Perception and action are coupled**
-   - Never separate reading from reacting in training
-   - Avoid task decomposition that breaks this coupling
-
----
-
-*Next: [Key Concepts](key-concepts.md) — Constraints, affordances, perception-action coupling*
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="key-concepts/">Key Concepts</a>, constraints, affordances, perception-action coupling.</p>

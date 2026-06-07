@@ -26,295 +26,198 @@ tags:
   - positional-sparring
 ---
 
-# Wall Escape — Anti-Pin
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/wall-escape.png" alt="Wall Escape, Anti-Pin">
+  <div class="emma-phero__cap"><span class="k">Wall · Wrestling</span><span class="h">Wall Escape, Anti-Pin</span></div>
+</div>
+
+<div class="emma-meta"><span>Wall</span><span>Wrestling</span><span>Defensive</span><span>Intermediate</span><span>Counter</span></div>
+
+Start pinned, shoulders flat to the wall, break free by actively escaping or reversing, never by waiting it out.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender pinned, shoulders flat, rotation compromised.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Defender breaks the pin to escape or reverse; attacker holds it.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Escape or reverse → defender wins · Pin held 10s → attacker wins · Reset on full disengage.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Pinned isn't pinned for good, <br><span class="accent">break it before it sets.</span></p>
+  <p class="emma-statement__sub">Survival doesn't count here. <b>Only an active escape or reversal wins.</b></p>
+</div>
+
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control, the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through your frames and grips</i>, the load the attacker's weight places on your shoulders and hips, and especially the <b>moment it slackens</b>. That changing resistance specifies <i>which way</i> to rotate and <i>when</i> the pin can be broken, not the attacker's face or a memorized step.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, pinned defender (focus), attacker holding the pin.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Wall pin already established, shoulders flat.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Wall or cage within a marked perimeter.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Defender escapes or reverses; attacker holds the pin, no takedowns.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from the pin; reset on lost control or full disengage.</div>
+</div>
+
+<p class="emma-glabel">The Matchup</p>
+
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender (focus)</div>
+    <p class="emma-fighter__obj">Trying to break the pin and return to space facing the attacker, or reverse the position.</p>
+    <span class="emma-pop">Escape or reversal, never passive survival. Rotate shoulders, build frames, move hips, turn to face, then disengage. A dropping attacker head opens a guillotine or front-headlock threat that buys the escape.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🧱</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to maintain the pin and deny escape for the full hold.</p>
+    <span class="emma-pop">Hold the pin, no takedowns. Re-pin against rotation attempts, deny frames, and protect head position so the defender can't use a neck threat to escape.</span>
+  </div>
+</div>
+
+<p class="emma-glabel">The Rules</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall stays dominant<span class="emma-chip__detail">The wall remains the controlling constraint of the position. The whole problem is solved against it, not in open space.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏃</span> Active escape, no passive survival<span class="emma-chip__detail">The defender must actively attempt to break the pin. Simply riding out the clock or stalling under control does not count.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No takedowns<span class="emma-chip__detail">The attacker's only job is holding the pin, no takedowns yet. The focus stays on the press-vs-break of the wall pin itself.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> Rotate before disengaging<span class="emma-chip__detail">Escapes follow rotate → frame → move hips → turn to face → disengage. Trying to disengage before rotating typically fails.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens against a wall or cage within a marked perimeter, any shape. Both players stay inside it.</span></span>
+</div>
+
+<p class="emma-glabel">How to Win</p>
+
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Break free facing the attacker, or reverse → defender wins.<span class="emma-pop">Shoulders no longer flat, defender facing the attacker with space, or a clean reversal. The escape is complete, not merely attempted.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Pin held 10 seconds → attacker wins.<span class="emma-pop">The longer 10-second hold reflects the disadvantaged starting position the defender begins in.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Attacker loses control or defender fully disengages → reset to the pin.<span class="emma-pop">Begin again from the established pin so the escape skill keeps getting reps.</span></div>
+</div>
+
+<p class="emma-glabel">The Levels</p>
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Escape</b>Break the pin, create space.<span class="emma-pop emma-pop--l">No strikes. Success is shoulders no longer flat and facing the attacker, pure pin-break mechanics.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Escape + disengage</b>Return to striking range.<span class="emma-pop emma-pop--l">Create meaningful space and return to striking range with defensive posture. The attacker may follow and attempt to re-clinch.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Escape + reverse</b>Take the dominant position.<span class="emma-pop emma-pop--l">Defender now puts the attacker on the wall. Highest difficulty, requires reading the attacker's balance.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Light strikes both ways.<span class="emma-pop emma-pop--l">Attacker uses strikes to maintain pin pressure; defender uses strikes to create escapes. Escape becomes urgent under realistic striking pressure.</span></div>
+</div>
+
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know which way to rotate and when the pin can be broken?</summary>
+    <div class="emma-recall__a">The <b>felt resistance to rotation</b> through your frames and grips, the load the attacker's weight places on your shoulders and hips, and especially <b>the moment it slackens</b>. Not their face or a memorized step.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does surviving the hold not count as a win here?</summary>
+    <div class="emma-recall__a">Only an <b>active escape or reversal</b> wins: shoulders no longer flat and facing the attacker with space, or turning the position. Passive survival just lets the pin consolidate.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the escape sequence, and why does order matter?</summary>
+    <div class="emma-recall__a"><b>Rotate, frame, move hips, turn to face, then disengage.</b> Trying to disengage before rotating typically fails, you expose the back and the pin re-sets.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why escape early rather than late, and how does the DNS help?</summary>
+    <div class="emma-recall__a"><b>Early escapes, before the pin consolidates</b>, take far less effort and expose you to less damage. A <b>dropping attacker head</b> opens a guillotine or front-headlock threat that creates decision pressure and buys the escape, it need not finish.</div>
+  </details>
+</div>
 
-!!! info "Game Identity"
-    - **Problem:** Escaping wall immobilization
-    - **Environment:** Wall
-    - **Stage:** Counter
+<p class="emma-glabel">Go Deeper</p>
 
-This is the **defensive counterpart** to Wall Control. Every offensive layer requires a defensive response.
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Goal
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Rotate shoulders, build frames, move hips, turn to face, then disengage or reverse. Escape early, before the pin consolidates.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Attacker</div><p>Re-pin against rotation, deny frame creation, anticipate hip movement, and protect head position from neck threats.</p></div>
+    </div>
 
-This is an **asymmetric game** with inverted priorities.
+    <p class="emma-sub">Coaching cues</p>
 
-| Role | Objective |
-|------|-----------|
-| **Defender (primary focus)** | Break pin and return to space or reverse position |
-| **Attacker** | Maintain pin and deny escape |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">⏱️</div><div class="emma-card__t">Early vs late</div><p>Ask: "Did you escape early or late?" Early escapes, before the pin consolidates, require far less effort and expose you to less damage.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧠</div><div class="emma-card__t">DNS pressure</div><p>A dropping attacker head opens guillotine and front-headlock threats. DNS need not finish, it creates decision pressure that enables escape.</p></div>
+    </div>
 
-The objective is **escape or reversal**, not survival.
+??? abstract "Constraints-Led analysis"
 
----
+    <p class="emma-sub">Constraints → Affordances</p>
 
-## Entry Condition
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Start from established pin</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces escape-skill development from disadvantage</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Active escape required</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops proactive, not passive, defense</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">10-second hold to win</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Longer duration reflects the defender's disadvantage</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">DNS allowed as catalyst</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates decision pressure on the attacker</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Wall constraint</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces a structured rotate → frame → hip → face sequence</span></div>
+    </div>
 
-- Start from functional wall pin (attacker has established control)
-- Defender's shoulders are substantially flat to wall
-- Defender's rotation is initially compromised
-- Reset if attacker loses control completely or defender fully disengages
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019), the rotate → frame → hip → face sequence emerges through exploration, not instruction, and DNS shows how a defensive tool creates offensive opportunity.</p>
 
----
+    <p class="emma-sub">What the defender reads</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Attacker's control points and weight distribution → where frames are possible and which way to rotate; pin-consolidation level → early vs. late timing.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Attacker's head position → guillotine / DNS opportunity.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own shoulder position → rotation availability.</p></div>
+    </div>
 
-1. Wall remains dominant constraint
-2. Defender must actively attempt escape — no passive survival
-3. No takedowns yet — focus is on breaking the pin
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the attacker keeps the defender's <b>shoulders and hips pinned flat vs. free to rotate</b>, track control time held and whether the defender escapes <i>early</i> (before consolidation) or <i>late</i>. The press→pin-or-break phase transition is the order parameter; when early rotation stabilizes, the escape skill has formed.</p>
 
-## Key Logic: The Escape Sequence
+    <p class="emma-sub">Representativeness</p>
 
-Escapes follow a general pattern:
+    <p class="emma-hl"><b>Models:</b> escaping cage immobilization, recognizing consolidation timing and the rotation sequence, identical to competition.</p>
 
-```mermaid
-flowchart LR
-    A[Rotate Shoulders] --> B[Create Frames]
-    B --> C[Move Hips]
-    C --> D[Turn to Face]
-    D --> E[Disengage or Reverse]
+    <div class="emma-meta"><span>Simplified: start from pin</span><span>no strikes at L1</span><span>clear win conditions</span></div>
 
-    style A fill:#4CAF50,color:#fff
-    style E fill:#FF5722,color:#fff
-```
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Builds on <a href="../wall-control/">Wall Control</a> and feeds <a href="../wall-defensive-submission/">Wall Defensive Submission</a>.</p>
 
-!!! warning "Critical Order"
-    Attempting to disengage before rotating typically fails.
+    <p class="emma-sub">Readiness to progress</p>
 
-### Early vs Late Escape
+    <ul class="emma-checklist">
+      <li>Escapes consistently from various pin types</li>
+      <li>Uses early escape timing</li>
+      <li>Rotate → frame → hip sequence is automatic</li>
+      <li>DNS threats are effective when available</li>
+      <li>Can describe: "I rotated when they shifted weight…"</li>
+    </ul>
 
-| Type | Description | Effort Required |
-|------|-------------|-----------------|
-| **Early escape** | Act before pin consolidates | Lower — requires reading |
-| **Late escape** | Act after pin is established | Higher — exposes to damage |
+    <p class="emma-sub">Warning signs</p>
 
-The game teaches athletes to **escape early** by recognizing consolidation.
+    <div class="emma-warns">
+      <span class="emma-warn">Only survives, doesn't escape</span>
+      <span class="emma-warn">Always escapes late</span>
+      <span class="emma-warn">Escapes but doesn't disengage</span>
+      <span class="emma-warn">Panics under control</span>
+    </div>
 
-### DNS as Escape Catalyst
+??? note "Safety &amp; related games"
 
-When the attacker's head drops or posture breaks:
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on lost composure or unsafe scramble</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the defender only survives passively</span>
+    </div>
 
-- Guillotine threats become available
-- Front headlock entries open up
-- Attacker must choose between maintaining pin and protecting neck
+    <p class="emma-sub">Where it sits</p>
 
-!!! tip "DNS doesn't need to finish"
-    It creates **decision pressure** that enables escape.
-
----
-
-## Win Conditions
-
-| Role | Win Condition |
-|------|---------------|
-| Defender | Escape (creating space and facing attacker) or reversal |
-| Attacker | Sustained pin (10 seconds) |
-
-Longer hold requirement reflects the disadvantaged starting position for defender.
-
----
-
-## Levels
-
-=== "Level 1 — Escape"
-    - Focus on breaking pin and creating space
-    - No strikes
-    - Success = shoulders no longer flat + facing attacker
-
-=== "Level 2 — Escape + Disengage"
-    - Must create meaningful space after breaking pin
-    - Disengage = return to striking range with defensive posture
-    - Attacker may follow and attempt re-clinch
-
-=== "Level 3 — Escape + Reverse"
-    - Defender attempts to achieve dominant position
-    - Reversal = defender now has attacker against wall
-    - Highest difficulty — requires reading attacker's balance
-
-=== "Level 4 — Full MMA Expression"
-    - Light strikes permitted for both players
-    - Attacker can use strikes to maintain pin pressure
-    - Defender can use strikes to create escape opportunities
-    - Escape becomes more urgent under strike threat
-    - Focus: Wall escape under realistic striking pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Start from established pin (disadvantaged position) | Forces escape skill development |
-| **Task** | Defender must actively escape (not just survive) | Develops proactive, not passive defense |
-| **Task** | 10-second hold for attacker win | Longer duration reflects disadvantage |
-| **Task** | DNS allowed as escape catalyst | Creates decision pressure on attacker |
-| **Individual** | Prerequisite: Wall Control | Understands what good pin looks like |
-| **Environmental** | Wall constraint limits options | Forces structured escape sequence |
-
-!!! info "Theoretical Foundation"
-    This game develops **escape affordance perception**—recognizing when and how to initiate escape from pinned position. The sequence (rotate → frame → move hips → face) emerges through exploration, not instruction. The DNS constraint creates **attacker dilemmas** that enable escape—demonstrating how defensive tools can create offensive opportunities (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Defender (Escaper) Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Attacker's control points | Where frames are possible |
-| **Haptic** | Attacker's weight distribution | Rotation direction |
-| **Haptic** | Pin consolidation level | Early vs. late escape timing |
-| **Visual** | Attacker's head position | DNS opportunity |
-| **Proprioceptive** | Own shoulder position | Rotation availability |
-
-### Attacker (Pinner) Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Defender's rotation attempts | Re-pinning direction |
-| **Haptic** | Frame creation attempts | Denial method |
-| **Visual** | Defender's hip movement | Anticipate escape direction |
-| **Proprioceptive** | Own posture and balance | Avoid DNS vulnerability |
-
-!!! tip "Coaching Cue"
-    Ask defenders: "Did you escape early or late?" Early escapes (before pin consolidates) require less effort. This develops recognition of consolidation timing.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Escaping from being pinned against the cage—a critical defensive skill for any MMA fighter.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Escape sequence** | Rotate → frame → hip → face | Same | High |
-| **Early vs. late escape** | Early is easier | Same | High |
-| **DNS as escape tool** | Creates dilemmas | Same | High |
-| **Strikes** | Make escape urgent | Progressive by level | Scaffolded |
-| **Consequence** | Damage if stuck | 10-second hold loss | Analogous |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Start from established pin | Isolates escape skill |
-| No strikes at Level 1 | Develops escape mechanics first |
-| Clear win conditions | Structure for evaluation |
-
-!!! note "Transfer Expectation"
-    Wall escape developed here transfers directly to cage fighting. The perception of consolidation timing and the rotation sequence are identical in competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Pin tightness** | Loose pins, tight pins | Escape timing calibration |
-| **Attacker style** | Static holders, dynamic adjusters | Multiple escape solutions |
-| **Attacker size** | Larger, smaller, equal | Adaptability |
-| **Escape direction** | Inside rotation, outside rotation | Full escape vocabulary |
-| **Intensity** | Drilling pace, live pace | Pressure calibration |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Active escape required | Core constraint developing proactive skill |
-| Start from established pin | Isolates escape from denial |
-| DNS availability | Keeps attacker honest |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Escapes consistently | Basic skill developing |
-| Uses early timing | Recognition developing |
-| Disengages after escape | Complete sequence |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Escapes consistently from various pin types
-- [ ] Uses early escape timing (before consolidation)
-- [ ] Rotation → frame → hip sequence is automatic
-- [ ] DNS threats are effective when available
-- [ ] Can articulate: "I rotated when they shifted weight..."
-
-### Ready to Exit Game When
-
-- [ ] Level 2+ competence (escapes and disengages)
-- [ ] Escape timing is instinctive
-- [ ] Reversals emerge from attacker over-commitment
-- [ ] Wall escape appears in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Only survives (doesn't escape) | Not attempting actively | Reinforce constraint, shorter hold time |
-| Always escapes late | Recognition underdeveloped | Slow down, emphasize consolidation reading |
-| Escapes but doesn't disengage | Incomplete sequence | Focus on full disengage at Level 2 |
-| Panics under control | Composure lacking | More reps, build confidence |
-
----
-
-## Advanced Expressions (Coach Context)
-
-As athletes develop, escape becomes proactive rather than reactive:
-
-**For defenders:**
-
-- Rotation begins before pin is fully established
-- Frames are pre-positioned, not created under pressure
-- DNS threats become tactical rather than desperate
-- Reversals emerge from attacker over-commitment
-
-**For attackers:**
-
-- Adjustment becomes continuous, not reactive
-- Pin maintenance becomes dynamic
-- Respect for DNS becomes structural
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Wall Control] --> B[Wall Escape]
-
-    style B fill:#9C27B0,color:#fff
-```
-
-This game maintains **defensive symmetry** in the system.
-
----
-
-!!! abstract "System Evolution Notice"
-    Escape strategies may be refined with experience.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-control/">Wall Control</a>, understand a good pin first</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-defensive-submission/">Wall Defensive Submission</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/full-mma-expression/">Full MMA Expression</a></span></div>
+    </div>

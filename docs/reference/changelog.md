@@ -1,223 +1,137 @@
 # Change Log
 
-A record of significant changes to the system's logic, structure, and design decisions.
+<div class="emma-meta"><span>Reference</span><span>System Evolution</span><span>v0.1 → v0.5</span></div>
+
+<p class="emma-hl">A record of significant changes to the system's logic, structure, and design decisions. When we refine our thinking, change terminology, or restructure, we document it here.</p>
 
----
+<p class="emma-glabel">Why This Log Exists</p>
 
-## Purpose
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">📜</div><div class="emma-card__t">Historical record</div><p>A trace of design decisions over time.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Reference</div><p>Understand <i>why</i> things are the way they are.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔍</div><div class="emma-card__t">Transparency</div><p>Open visibility into system evolution.</p></div>
+</div>
 
-This log tracks the evolution of the Ecological MMA Games System. When we refine our thinking, change terminology, or restructure the system, we document it here. This serves as:
+<p class="emma-glabel">Version Timeline</p>
 
-- Historical record of design decisions
-- Reference for understanding why things are the way they are
-- Transparency about system evolution
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Dec 2025 · v0.1.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Initial System, core striking games &amp; concepts</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.2.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Environment Organization, wall environment, skill isolation</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.3.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full MMA Expression &amp; weapon isolation, 31 games</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.4.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">System Restructure, Transition Zone, renames, end states</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Jan 2026 · v0.5.0</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><b>CLA Documentation Rollout (current)</b>, 33 games</span></div>
+</div>
 
----
+<p class="emma-glabel">v0.5.0: CLA Documentation Rollout <span style="font-weight:400;font-size:.8em;">(Current · Jan 2026)</span></p>
 
-## Version History
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📚</div><div class="emma-card__t">CLA sections on all games</div><p>Standardized Constraints-Led documentation added to all 33 games.<span class="emma-pop">Each game now carries Constraints Analysis, Information Structure (haptic/visual/proprioceptive), Representativeness, Variability Guidelines, and Readiness Indicators, referencing Renshaw et al., 2019 throughout.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔢</div><div class="emma-card__t">Game count verified at 34</div><p>A consistency-check script validates game counts.<span class="emma-pop">All cross-references verified and updated.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧹</div><div class="emma-card__t">Navigation cleanup</div><p>Removed deleted Boundary Trigger references; fixed Winning the Circle → Pressure to Clinch nav links.</p></div>
+</div>
 
-### v0.5.0 — CLA Documentation Rollout (Current)
+<p class="emma-glabel">v0.4.0: System Restructure <span style="font-weight:400;font-size:.8em;">(Jan 2026)</span></p>
 
-**Date:** January 2026
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔀</div><div class="emma-card__t">Transition Zone added</div><p>New environment between Striking and Wrestling.<span class="emma-pop">Added Clinch Denial, Counter-Striking, and Counter-Wrestling games.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🏷️</div><div class="emma-card__t">Winning the Circle → Pressure to Clinch</div><p>Renamed to describe the activity, not the outcome.<span class="emma-pop">"Winning the Circle" became a concept page; "Boundary Trigger" merged into Pressure to Clinch as higher levels.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦵</div><div class="emma-card__t">Guard Recovery → Leg Reclaim</div><p>Renamed to avoid technique-specific terminology.<span class="emma-pop">The new name describes the actual goal: getting legs between you and the opponent.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔒</div><div class="emma-card__t">Defensive Submissions added</div><p>Wall &amp; Ground Defensive Submission.<span class="emma-pop">Defensive options were incomplete without submission threats, these add a deterrent from the wall pin and attacks from the bottom.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">End states made explicit</div><p>KO, TKO, Submission added as flowchart nodes.<span class="emma-pop">All pathways now visually lead to fight-ending outcomes.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">✂️</div><div class="emma-card__t">Ground Finish removed</div><p>Split into TKO (via Ground Control) and Submission.<span class="emma-pop">Clearer representation of the actual finishing paths.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🚲</div><div class="emma-card__t">Evasive Movement added</div><p>New striking defensive game for "getting on your bike."<span class="emma-pop">Distinct from Close-Range Defense, avoiding vs. defending.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🅰️</div><div class="emma-card__t">Combined game roles clarified</div><p>Combined games have A/B roles, not necessarily mirrored.<span class="emma-pop">Documentation updated to reflect distinct objectives per side.</span></p></div>
+</div>
 
-**Major Changes:**
+<p class="emma-glabel">v0.3.0: Full MMA Expression &amp; Offensive Skill Isolation <span style="font-weight:400;font-size:.8em;">(Jan 2026)</span></p>
 
-1. **Constraints-Led Approach (CLA) Sections Added to All Games**
-   - Added standardized CLA documentation to all 34 games
-   - Each game now includes:
-     - **Constraints Analysis** — How task/individual/environmental constraints create affordances
-     - **Information Structure** — Perception-action coupling for each role (haptic, visual, proprioceptive)
-     - **Representativeness** — How games model real MMA situations with fidelity analysis
-     - **Variability Guidelines** — "Repetition without repetition" (Bernstein, 1967)
-     - **Readiness Indicators** — When athletes are ready to progress or exit games
-   - Theoretical foundations reference Renshaw et al., 2019 throughout
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥋</div><div class="emma-card__t">Full MMA Expression level</div><p>Added a top level to all games.<span class="emma-pop">The highest level adds cross-domain threats.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">👊</div><div class="emma-card__t">Offensive weapon isolation</div><p>Lead/Rear Hand and Lead/Rear Leg Offense.<span class="emma-pop">Constraint: a single weapon develops creativity with that tool.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📈</div><div class="emma-card__t">Expanded to 31 games</div><p>Ground games and remaining wall games added.<span class="emma-pop">Ground Access/Control/Escape, Wall Grinding, Stand-Up Loop, and Sustained Offense.</span></p></div>
+</div>
 
-2. **Game Count Verified at 34 Games**
-   - Consistency check script added to validate game counts
-   - All cross-references verified and updated
+<p class="emma-glabel">v0.2.0: Environment Organization <span style="font-weight:400;font-size:.8em;">(Jan 2026)</span></p>
 
-3. **Navigation Cleanup**
-   - Removed deleted Boundary Trigger references
-   - Fixed Winning the Circle → Pressure to Clinch nav links
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🗂️</div><div class="emma-card__t">Environment → Domain → Focus</div><p>Reorganized the entire system by environment first.<span class="emma-pop">Clearer navigation and game discovery.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧱</div><div class="emma-card__t">Wall environment completed</div><p>Wall Control, Wall Escape, Wall to Ground.<span class="emma-pop">Plus Stand-Up Loop for cyclical dynamics.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t">Skill Isolation formalized</div><p>Parry, Block, Slip, Evade as the foundation.<span class="emma-pop">Defensive skill development before integration.</span></p></div>
+</div>
 
----
+<p class="emma-glabel">v0.1.0: Initial System <span style="font-weight:400;font-size:.8em;">(Dec 2025)</span></p>
 
-### v0.4.0 — System Restructure
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t">Core striking games</div><p>Touch &amp; Don't Get Touched, Pressure to Clinch, Land the Target, Close-Range Defense.</p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">💡</div><div class="emma-card__t">Core concepts</div><p>Confidence Rating, Three Zones of Attack, Defensive Solutions, TKO Pin.</p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🏗️</div><div class="emma-card__t">Basic structure</div><p>Game template, level progression system, MkDocs site structure.</p></div>
+</div>
 
-**Date:** January 2026
+<p class="emma-glabel">Design Decision Log</p>
 
-**Major Changes:**
+??? note "Why \"Leg Reclaim\" instead of \"Guard Recovery\"?"
 
-1. **Transition Zone Added**
-   - Created new environment between Striking and Wrestling
-   - Added Clinch Denial, Counter-Striking and Counter-Wrestling games
+    <p class="emma-hl"><b>Decision:</b> Rename Guard Recovery to Leg Reclaim.</p>
 
-2. **Winning the Circle → Pressure to Clinch**
-   - Renamed game to describe the activity, not the outcome
-   - "Winning the Circle" became a concept page
-   - "Boundary Trigger" merged into Pressure to Clinch as higher levels
+    <ul class="emma-checklist">
+      <li>"Guard" is technique-specific BJJ terminology</li>
+      <li>The actual goal is positional: get legs between you and the opponent</li>
+      <li>"Leg Reclaim" describes the action without prescribing technique</li>
+      <li>Maintains the ecological principle: environment teaches, not terminology</li>
+    </ul>
 
-3. **Guard Recovery → Leg Reclaim**
-   - Renamed to avoid technique-specific terminology
-   - New name describes the actual goal: getting legs between you and opponent
+??? note "Why add the Transition Zone?"
 
-4. **Defensive Submissions Added**
-   - Wall Defensive Submission (deterrent from wall pin)
-   - Ground Defensive Submission (attacks from bottom)
-   - Rationale: Defensive options were incomplete without submission threats
+    <p class="emma-hl"><b>Decision:</b> Create a new environment between Striking and Wrestling.</p>
 
-5. **End States Explicit**
-   - Added KO, TKO, Submission as explicit nodes in flowcharts
-   - All pathways now visually lead to fight-ending outcomes
+    <ul class="emma-checklist">
+      <li>Clinch Denial exists at the seam between domains</li>
+      <li>Counter-Striking and Counter-Wrestling are defensive responses to pressure</li>
+      <li>Visual clarity: shows the critical moment striking becomes wrestling</li>
+      <li>Games in this zone handle domain transitions specifically</li>
+    </ul>
 
-6. **Ground Finish Removed**
-   - Split into TKO (via Ground Control) and Submission
-   - Clearer representation of actual finishing paths
+??? note "Why are Counter-Striking and Counter-Wrestling defensive?"
 
-7. **Evasive Movement Added**
-   - New striking defensive game for "getting on your bike"
-   - Distinct from Close-Range Defense (avoiding vs. defending)
+    <p class="emma-hl"><b>Decision:</b> Classify counters as defensive focus.</p>
 
-8. **Combined Game Roles Clarified**
-   - Combined games have A/B roles, not necessarily mirrored
-   - Documentation updated to reflect distinct objectives
+    <ul class="emma-checklist">
+      <li>Counters respond to opponent initiation (reactive, not proactive)</li>
+      <li>The goal is deterrence: making initiation dangerous</li>
+      <li>You cannot counter without opponent action</li>
+      <li>Offense that serves a defensive purpose</li>
+    </ul>
 
----
+??? note "Why make end states explicit in flowcharts?"
 
-### v0.3.0 — Full MMA Expression & Offensive Skill Isolation
+    <p class="emma-hl"><b>Decision:</b> Add KO, TKO, Submission as visible nodes.</p>
 
-**Date:** January 2026
+    <ul class="emma-checklist">
+      <li>The system should show where everything leads</li>
+      <li>Reinforces the Fight Philosophy: all paths lead to finish</li>
+      <li>A visual reminder of the goal during training</li>
+      <li>Prevents games from feeling disconnected from purpose</li>
+    </ul>
 
-**Major Changes:**
-
-1. **Full MMA Expression Level**
-   - Added Level 4 to all games
-   - Highest level adds cross-domain threats
-
-2. **Offensive Skill Isolation (Weapon Isolation)**
-   - Added Lead Hand Offense, Rear Hand Offense
-   - Added Lead Leg Offense, Rear Leg Offense
-   - Constraint: Single weapon develops creativity with that tool
-
-3. **System expanded to 31 games**
-   - Ground games added (Access, Control, Escape, etc.)
-   - Wall games completed (Grinding, Stand-Up Loop)
-   - Sustained Offense added to striking
-
----
-
-### v0.2.0 — Environment Organization
-
-**Date:** January 2026
-
-**Major Changes:**
-
-1. **Environment → Domain → Focus hierarchy**
-   - Reorganized entire system by environment first
-   - Clearer navigation and game discovery
-
-2. **Wall environment completed**
-   - Wall Control, Wall Escape, Wall to Ground
-   - Stand-Up Loop for cyclical dynamics
-
-3. **Skill Isolation formalized**
-   - Parry, Block, Slip, Evade as foundation
-   - Defensive skill development before integration
-
----
-
-### v0.1.0 — Initial System
-
-**Date:** December 2025
-
-**Foundation established:**
-
-1. **Core striking games**
-   - Touch and Don't Get Touched
-   - Pressure to Clinch
-   - Land the Target
-   - Close-Range Defense
-
-2. **Core concepts**
-   - Confidence Rating
-   - Three Zones of Attack
-   - Defensive Solutions
-   - TKO Pin
-
-3. **Basic structure**
-   - Game template established
-   - Level progression system
-   - MkDocs site structure
-
----
-
-## Design Decision Log
-
-### Why "Leg Reclaim" instead of "Guard Recovery"?
-
-**Decision:** Rename Guard Recovery to Leg Reclaim
-
-**Rationale:**
-- "Guard" is technique-specific BJJ terminology
-- The actual goal is positional: get legs between you and opponent
-- "Leg Reclaim" describes the action without prescribing technique
-- Maintains ecological principle: environment teaches, not terminology
-
----
-
-### Why add Transition Zone?
-
-**Decision:** Create a new environment between Striking and Wrestling
-
-**Rationale:**
-- Clinch Denial exists at the seam between domains
-- Counter-Striking and Counter-Wrestling are defensive responses to pressure
-- Visual clarity: shows the critical moment when striking becomes wrestling
-- Games in this zone handle domain transitions specifically
-
----
-
-### Why are Counter-Striking and Counter-Wrestling defensive?
-
-**Decision:** Classify counters as defensive focus
-
-**Rationale:**
-- Counters respond to opponent initiation (reactive, not proactive)
-- The goal is deterrence: making initiation dangerous
-- You cannot counter without opponent action
-- Offense that serves defensive purpose
-
----
-
-### Why make end states explicit in flowcharts?
-
-**Decision:** Add KO, TKO, Submission as visible nodes
-
-**Rationale:**
-- System should show where everything leads
-- Reinforces Fight Philosophy: all paths lead to finish
-- Visual reminder of the goal during training
-- Prevents games from feeling disconnected from purpose
-
----
-
-## Future Considerations
+<p class="emma-glabel">Future Considerations</p>
 
 Items under consideration for future versions:
 
-- [ ] Specialized counter-counter games (countering the counter)
-- [ ] Dirty boxing as distinct wall striking phase
-- [ ] Clinch-specific games (underhook battle, pummel games)
-- [ ] Scramble-focused games (chaos transitions)
-- [ ] Referee intervention scenarios (stand-ups, breaks)
+<div class="emma-chips">
+  <span class="emma-chip"><span class="emma-chip__i">🔄</span> Counter-counter games</span>
+  <span class="emma-chip"><span class="emma-chip__i">🥊</span> Dirty boxing as distinct wall striking phase</span>
+  <span class="emma-chip"><span class="emma-chip__i">🤝</span> Clinch-specific games (underhook battle, pummel)</span>
+  <span class="emma-chip"><span class="emma-chip__i">🌀</span> Scramble-focused games (chaos transitions)</span>
+  <span class="emma-chip"><span class="emma-chip__i">🦓</span> Referee intervention scenarios (stand-ups, breaks)</span>
+</div>
 
----
-
-!!! abstract "Contributing to This Log"
+??? abstract "Contributing to this log"
     When significant changes are made to the system, document them here with:
 
-    1. What changed
-    2. Why it changed
-    3. What the old way was (if applicable)
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">1</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What changed</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">2</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Why it changed</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">3</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">What the old way was (if applicable)</span></div>
+    </div>
 
     This maintains institutional knowledge as the system evolves.

@@ -1,126 +1,89 @@
-# Fight Philosophy
-
-The overarching goal that guides all training in this system.
-
+---
+title: Fight Philosophy
 ---
 
-## The Core Principle
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/fight-philosophy.png" alt="Fight Philosophy">
+  <div class="emma-phero__cap"><span class="k">System Foundation · Guides Every Game</span><span class="h">Fight Philosophy</span></div>
+</div>
 
-!!! quote "The Goal of Fighting"
-    **Finish the fight while taking as little damage as possible.**
+<div class="emma-band">
+  <p class="emma-statement">Finish the fight, <br><span class="accent">take as little damage as possible.</span></p>
+  <p class="emma-statement__sub">Not time, not rounds, not points. <b>Efficient finish, minimal harm.</b> This one goal governs every game in the system.</p>
+</div>
 
-This is not about time. It's not about winning rounds. It's about ending the fight efficiently while minimizing harm to yourself.
+<p class="emma-glabel">All Paths Lead to the Finish</p>
 
----
+<div class="emma-tree">
+  <div class="emma-tree__crownrow"><span class="emma-tree__crown">The Finish</span></div>
+  <div class="emma-tree__branches">
+    <div class="emma-tree__node"><span class="t">💥 Knockout</span><span class="d">A clean strike with power and precision drops the opponent.</span></div>
+    <div class="emma-tree__node"><span class="t">🥊 TKO</span><span class="d">Accumulated damage until they can no longer intelligently defend.</span></div>
+    <div class="emma-tree__node"><span class="t">🔒 Submission</span><span class="d">A control position enables a choke or joint lock, tap or sleep.</span></div>
+  </div>
+</div>
 
-## Three Ways to Finish
+Every pathway in the system leads to one of these three, everything else (points, decisions, position) is secondary.
 
-Every pathway in this system leads to one of three fight-ending outcomes:
+<p class="emma-glabel">Efficiency Is the Measure</p>
 
-| End State | Definition | How It Happens |
-|-----------|------------|----------------|
-| **Knockout (KO)** | Single strike renders opponent unconscious | Clean shot lands with power and precision |
-| **TKO** | Accumulated damage until opponent cannot intelligently defend | Sustained striking overwhelms defense |
-| **Submission** | Choke or joint lock forces tap or unconsciousness | Control position enables finishing hold |
+<p class="emma-hl"><b>Efficiency = the damage ratio</b>, how much you gave versus how much you took. A 5-second KO and a 15-minute submission are both efficient if you took minimal damage. A clean finish beats a sloppy one where both fighters are hurt.</p>
 
-These are the only ways to definitively end a fight. Everything else — points, decisions, position — is secondary to these outcomes.
+<p class="emma-glabel">Strategy Drives Efficiency</p>
 
----
+The most efficient path depends on the opponent. Read their strengths and weaknesses, then exploit the opening.
 
-## Efficiency Is the Measure
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Vulnerable on the ground</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Take them down</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Weak cardio</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Extend the fight and pressure</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Can't handle body shots</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Attack the body</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Poor takedown defense</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Wrestle</span></div>
+</div>
 
-Efficiency means **finishing the fight while taking as little damage as possible**.
+Efficiency isn't a fixed formula, it's a strategic calculation across three inputs:
 
-This isn't about speed. A 5-second knockout and a 15-minute submission can both be efficient if you took minimal damage in the process.
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🧰</div><div class="emma-card__t">Your skills</div><p>What finishes are available to you?</p></div>
+  <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Their weaknesses</div><p>Where are they most vulnerable?</p></div>
+  <div class="emma-card"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Risk assessment</div><p>What's the safest path to exploit those weaknesses?</p></div>
+</div>
 
-What matters is the **damage ratio** — how much you gave versus how much you took. A clean finish with no damage taken is more efficient than a sloppy finish where both fighters are hurt.
+The goal stays constant; the strategy adapts to the opponent in front of you.
 
----
+<p class="emma-glabel">Implications for Training</p>
 
-## Strategy Drives Efficiency
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defense is not passive</div><p>Defense exists to <b>prevent damage</b>, it's winning the damage exchange, not avoiding the fight.<span class="emma-pop">Strong defense directly serves the goal: every hit you don't take is a win.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚔️</div><div class="emma-card__t">Offense must be purposeful</div><p>Every action should create a finishing opportunity, improve position toward finish, or prevent the opponent from finishing.<span class="emma-pop">Striking and grappling should move toward finish, not just accumulate activity.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📍</div><div class="emma-card__t">Position serves finish</div><p>Dominance matters because it enables finishing and prevents being finished.<span class="emma-pop">Top control lets you strike and submit; guard means you can't be struck as easily.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎲</div><div class="emma-card__t">Risk vs. reward</div><p>Calculated aggression serves the principle; reckless aggression violates it.<span class="emma-pop">Take risks when the potential reward (finish) justifies the potential cost (damage taken).</span></p></div>
+</div>
 
-The most efficient path to finish depends on your opponent. **Identifying their strengths and weaknesses** determines how you should approach the fight.
+<p class="emma-glabel">Application to Games</p>
 
-- If they're vulnerable on the ground → take them down
-- If their cardio is weak → extend the fight and pressure
-- If they can't handle body shots → attack the body
-- If their takedown defense is poor → wrestle
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Defensive games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">You're learning to take less damage</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Offensive games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">You're learning to create finishing opportunities</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Combined games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">You're learning the damage exchange, giving more than you take</span></div>
+</div>
 
-Efficiency isn't a fixed formula. It's a strategic calculation based on:
+At the highest level (<a href="../full-mma-expression/">Full MMA Expression</a>), every game tests whether you can pursue your objective while holding the damage principle.
 
-1. **Your skills** — What finishes are available to you?
-2. **Their weaknesses** — Where are they most vulnerable?
-3. **Risk assessment** — What's the safest path to exploit those weaknesses?
+<p class="emma-glabel">Common Mistakes</p>
 
-The goal remains constant (finish while minimizing damage), but the strategy adapts to the opponent in front of you.
+<div class="emma-warns">
+  <span class="emma-warn emma-has-pop" tabindex="0">Activity over outcome<span class="emma-pop">Throwing strikes that don't hurt, holding positions without advancing, "winning" exchanges that don't move toward finish. <b>Fix:</b> if an action doesn't create damage, position, or opportunity, why do it?</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Ignoring damage taken<span class="emma-pop">Celebrating a knockdown while ignoring the three clean shots you ate to get there. <b>Fix:</b> assess the trade honestly, could you have gotten the same outcome with less damage?</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Confusing aggression with effectiveness<span class="emma-pop">Being first, loud, and busy ≠ being effective. <b>Fix:</b> measure by the principle, did you move toward finish while minimizing damage?</span></span>
+</div>
 
----
+<p class="emma-glabel">The Philosophy in Three Lines</p>
 
-## Implications for Training
+<ul class="emma-checklist">
+  <li><b>Finish the fight</b>, KO, TKO, or Submission.</li>
+  <li><b>Take minimal damage</b>, every hit you don't take is a win.</li>
+  <li><b>Everything serves this goal</b>, defense, offense, position, timing.</li>
+</ul>
 
-This philosophy shapes how we design and play games:
-
-### 1. Defense Is Not Passive
-Defense exists to **prevent damage**, which directly serves the goal. Strong defense isn't avoiding the fight — it's winning the damage exchange.
-
-### 2. Offense Must Be Purposeful
-Striking and grappling should move toward finish, not accumulate activity. Every action should either:
-- Create finishing opportunity
-- Improve position toward finish
-- Prevent opponent from finishing
-
-### 3. Position Serves Finish
-Positional dominance matters because it enables finishing and prevents being finished. Top control matters because you can strike and submit. Guard matters because you can't be struck as easily.
-
-### 4. Risk vs. Reward
-Taking risks is acceptable when the potential reward (finish) justifies the potential cost (damage taken). Reckless aggression violates the principle; calculated aggression serves it.
-
----
-
-## Application to Games
-
-When playing any game in this system, keep this philosophy in mind:
-
-| Game Type | How Philosophy Applies |
-|-----------|----------------------|
-| **Defensive games** | You're learning to take less damage |
-| **Offensive games** | You're learning to create finishing opportunities |
-| **Combined games** | You're learning the damage exchange — giving more than you take |
-
-At the highest level (Full MMA Expression), every game tests whether you can pursue your objective while maintaining the damage principle.
-
----
-
-## Common Mistakes
-
-### Mistake 1: Prioritizing Activity Over Outcome
-Throwing lots of strikes that don't hurt, holding positions without advancing, "winning" exchanges that don't move toward finish.
-
-**Correction:** Every action should have purpose. If it doesn't create damage, position, or opportunity — why do it?
-
-### Mistake 2: Ignoring Damage Taken
-Celebrating a knockdown while ignoring the three clean shots you ate to get there.
-
-**Correction:** Assess the exchange honestly. Was the trade worth it? Could you have achieved the same outcome with less damage?
-
-### Mistake 3: Confusing Aggression with Effectiveness
-Being first, being loud, being busy ≠ being effective.
-
-**Correction:** Effectiveness is measured by the principle: Did you move toward finish while minimizing damage?
-
----
-
-## Summary
-
-The fight philosophy is simple:
-
-1. **Finish the fight** — KO, TKO, or Submission
-2. **Take minimal damage** — Every hit you don't take is a win
-3. **Everything serves this goal** — Defense, offense, position, timing
-
-This isn't a style preference. It's the fundamental logic of fighting. All games in this system are designed to develop skills that serve this philosophy.
-
----
-
-!!! abstract "System Integration"
-    This concept underpins the entire game system. Every game, at its core, develops skills that help you finish fights while taking less damage. When evaluating any technique, position, or strategy — ask: "Does this serve the philosophy?"
+??? abstract "System integration"
+    This concept underpins the entire game system. Every game, at its core, develops skills that help you finish fights while taking less damage. When evaluating any technique, position, or strategy, ask: <b>"Does this serve the philosophy?"</b> This isn't a style preference, it's the fundamental logic of fighting.

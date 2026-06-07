@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ecological MMA System · Roadmap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E0F13; --char:#16181F; --char2:#1E212B; --steel:#2A2E3A; --steel2:#3A3F4D;
+    --fog:#ECEAE4; --fog-dim:#AEB2BD; --fog-faint:#717684;
+    --orange:#F94B0C; --orange-bright:#FF6A33; --orange-deep:#C63A08; --glow:rgba(249,75,12,.18);
+    --good:#36C28B; --bad:#E8533A;
+    --disp:'Anton',Impact,sans-serif; --head:'Oswald',system-ui,sans-serif; --body:'Inter',system-ui,sans-serif;
+    --r:14px; --rlg:22px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--ink);color:var(--fog);font-family:var(--body);line-height:1.55;
+    background-image:radial-gradient(80% 60% at 80% -10%,rgba(249,75,12,.10),transparent 60%);
+    -webkit-font-smoothing:antialiased;padding:0 0 5rem}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 1.5rem}
+  .kicker{font-family:var(--head);text-transform:uppercase;letter-spacing:.28em;font-size:.7rem;color:var(--orange-bright)}
+  .glabel{font-family:var(--head);text-transform:uppercase;letter-spacing:.16em;font-size:.8rem;color:var(--fog-faint);
+    margin:3rem 0 1rem;display:flex;align-items:center;gap:.7rem}
+  .glabel::before{content:"";width:26px;height:2px;background:var(--orange)}
+
+  /* hero */
+  header{padding:4.5rem 0 1rem;border-bottom:1px solid var(--steel)}
+  h1{font-family:var(--disp);text-transform:uppercase;font-size:clamp(2.6rem,8vw,5.5rem);line-height:.9;letter-spacing:.01em}
+  h1 .o{color:var(--orange)}
+  .sub{font-size:1.05rem;color:var(--fog-dim);max-width:60ch;margin-top:1.1rem}
+  .sub b{color:var(--fog)}
+
+  /* moat */
+  .moat{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.4rem}
+  .moat .card{background:var(--char);border:1px solid var(--steel);border-top:2px solid var(--orange);border-radius:var(--r);padding:1.2rem 1.3rem}
+  .moat .n{font-family:var(--disp);font-size:1.6rem;color:var(--orange);line-height:1}
+  .moat .t{font-family:var(--head);text-transform:uppercase;letter-spacing:.04em;font-size:1.05rem;margin:.3rem 0}
+  .moat p{font-size:.9rem;color:var(--fog-dim)}
+
+  /* flywheel */
+  .flywheel{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem;position:relative;margin-top:.4rem}
+  .fw{background:var(--char);border:1px solid var(--steel);border-radius:var(--r);padding:1rem;text-align:center;position:relative}
+  .fw .i{font-size:1.5rem}
+  .fw .t{font-family:var(--head);text-transform:uppercase;font-size:.82rem;letter-spacing:.03em;margin-top:.4rem;color:var(--fog)}
+  .fw:not(:last-child)::after{content:"\2192";position:absolute;right:-.62rem;top:50%;transform:translateY(-50%);color:var(--orange);font-weight:700;z-index:2}
+  .fw__loop{grid-column:1/-1;text-align:center;font-family:var(--head);text-transform:uppercase;letter-spacing:.16em;font-size:.7rem;color:var(--orange-bright);margin-top:.7rem}
+
+  /* status board */
+  .board{display:grid;gap:.6rem}
+  .row{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:1rem;background:var(--char);
+    border:1px solid var(--steel);border-left:4px solid var(--steel2);border-radius:var(--r);padding:.8rem 1.1rem}
+  .row.ok{border-left-color:var(--good)} .row.beyond{border-left-color:var(--orange-bright)}
+  .row.no{border-left-color:var(--bad)} .row.wait{border-left-color:var(--fog-faint)}
+  .row .dim{font-family:var(--head);text-transform:uppercase;letter-spacing:.02em;font-size:.95rem;color:var(--fog)}
+  .row .desc{font-size:.82rem;color:var(--fog-dim)}
+  .badge{font-family:var(--head);text-transform:uppercase;letter-spacing:.08em;font-size:.62rem;padding:.28rem .6rem;border-radius:6px;white-space:nowrap}
+  .b-ok{background:rgba(54,194,139,.16);color:var(--good)}
+  .b-beyond{background:var(--glow);color:var(--orange-bright)}
+  .b-no{background:rgba(232,83,58,.16);color:var(--bad)}
+  .b-wait{background:rgba(113,118,132,.18);color:var(--fog-dim)}
+  .ico{font-size:1.2rem;width:1.5rem;text-align:center}
+
+  .read{background:linear-gradient(100deg,rgba(249,75,12,.12),transparent 60%),var(--char);
+    border:1px solid var(--steel);border-left:3px solid var(--orange);border-radius:var(--r);padding:1.1rem 1.3rem;margin-top:1rem}
+  .read b{color:var(--orange-bright)}
+
+  /* lanes */
+  .lane{background:var(--char);border:1px solid var(--steel);border-radius:var(--rlg);padding:1.3rem 1.4rem;margin-bottom:1rem;position:relative;overflow:hidden}
+  .lane::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--orange)}
+  .lane.b::before{background:var(--orange-deep)} .lane.c::before{background:var(--steel2)}
+  .lane h3{font-family:var(--disp);text-transform:uppercase;font-size:1.5rem;letter-spacing:.01em;color:var(--fog)}
+  .lane h3 span{color:var(--orange);font-size:1rem;font-family:var(--head);letter-spacing:.1em;margin-left:.5rem}
+  .lane .phase{float:right;font-family:var(--head);text-transform:uppercase;letter-spacing:.14em;font-size:.62rem;color:var(--fog-faint);margin-top:.5rem}
+  .steps{display:grid;gap:.55rem;margin-top:1rem}
+  .step{display:grid;grid-template-columns:2rem 1fr;gap:.9rem;align-items:start}
+  .step .num{width:2rem;height:2rem;border-radius:50%;display:grid;place-items:center;font-family:var(--head);font-size:.85rem;
+    background:var(--char2);border:2px solid var(--orange);color:var(--fog)}
+  .lane.b .step .num{border-color:var(--orange-deep)} .lane.c .step .num{border-color:var(--steel2);color:var(--fog-dim)}
+  .step .t{font-family:var(--head);text-transform:uppercase;letter-spacing:.02em;font-size:.95rem;color:var(--fog)}
+  .step .d{font-size:.82rem;color:var(--fog-dim)}
+  .here{display:inline-block;font-family:var(--head);text-transform:uppercase;letter-spacing:.1em;font-size:.6rem;
+    background:var(--orange);color:#fff;padding:.18rem .5rem;border-radius:5px;margin-left:.5rem;box-shadow:0 0 18px var(--glow);vertical-align:middle}
+
+  footer{margin-top:3rem;padding-top:1.4rem;border-top:1px solid var(--steel);color:var(--fog-faint);font-size:.78rem}
+  @media(max-width:680px){.moat,.flywheel{grid-template-columns:1fr}.fw:not(:last-child)::after{display:none}.row{grid-template-columns:auto 1fr}.badge{grid-column:2}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <p class="kicker">Ecological MMA System · Living Roadmap · 2026-05-26</p>
+  <h1>The <span class="o">Map</span></h1>
+  <p class="sub">Build the definitive <b>structured, constraints-led curriculum for all of MMA</b>, and sell it as a tiered freemium product. The market pays for a complete ordered system, not more clips, and a productized whole-MMA CLA curriculum does not exist yet.</p>
+  <div class="moat">
+    <div class="card"><div class="n">01</div><div class="t">Structure is the product</div><p>People pay for "what do I do next," the ordered system. Competitors sell unstructured volume.</p></div>
+    <div class="card"><div class="n">02</div><div class="t">Whole-MMA CLA</div><p>Constraints-led training is the trend, but almost entirely BJJ-only. All-phases MMA is the open, defensible frontier.</p></div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="glabel">The Flywheel · how it compounds</p>
+  <div class="flywheel">
+    <div class="fw"><div class="i">🎥</div><div class="t">Class recordings</div></div>
+    <div class="fw"><div class="i">⚙️</div><div class="t">Ingestion: docs + video</div></div>
+    <div class="fw"><div class="i">📐</div><div class="t">Structure + recall + progress</div></div>
+    <div class="fw"><div class="i">💳</div><div class="t">Free aha to paid</div></div>
+    <div class="fw__loop">↻ Coaches teach more, record more, the library deepens, conversion compounds</div>
+  </div>
+
+  <p class="glabel">Where we actually are</p>
+  <div class="board">
+    <div class="row beyond"><span class="ico">🏆</span><div><div class="dim">Visual-first execution</div><div class="desc">Full emma-* system, 44 cinematic heroes, bespoke diagrams, light/dark. Now a differentiator.</div></div><span class="badge b-beyond">Beyond plan</span></div>
+    <div class="row ok"><span class="ico">✅</span><div><div class="dim">Whole-MMA CLA content</div><div class="desc">35 games + concepts/principles/tools, eco-psych integrated, distilled, defined vocabulary.</div></div><span class="badge b-ok">Done</span></div>
+    <div class="row ok"><span class="ico">✅</span><div><div class="dim">Diataxis IA + clickable relationships</div><div class="desc">Paths / games / concepts / reference split, follow-on links, nav cleaned.</div></div><span class="badge b-ok">Done</span></div>
+    <div class="row ok"><span class="ico">✅</span><div><div class="dim">Single source of truth</div><div class="desc">docs/ is canonical; old tree retired; class mining now stages into docs/_drafts/. Lane A-1 done.</div></div><span class="badge b-ok">Done</span></div>
+    <div class="row ok"><span class="ico">✅</span><div><div class="dim">Engagement mechanics</div><div class="desc">Progress tracking (localStorage) + path bars, prev/next nav, recall checks on all 35 games, paths featured on the landing. Lane A-2 done.</div></div><span class="badge b-ok">Done</span></div>
+    <div class="row no"><span class="ico">○</span><div><div class="dim">Launch: free tier public</div><div class="desc">Nothing deployed or gated yet.</div></div><span class="badge b-no">Not started</span></div>
+    <div class="row no"><span class="ico">○</span><div><div class="dim">Monetization stack</div><div class="desc">Next.js + Supabase + Stripe, accounts, payments.</div></div><span class="badge b-no">Phase 2</span></div>
+    <div class="row wait"><span class="ico">⏳</span><div><div class="dim">Video</div><div class="desc">Waiting on the class-recording pipeline.</div></div><span class="badge b-wait">Queued</span></div>
+  </div>
+  <p class="read"><b>Honest read:</b> we have over-delivered on <b>beautiful + correct</b> and under-delivered on <b>sticky + shippable</b>. It looks like a paid product but does not yet behave like a funnel.</p>
+
+  <p class="glabel">The path · three lanes</p>
+
+  <div class="lane a">
+    <span class="phase">Phase 0 to 1 · on MkDocs</span>
+    <h3>Lane A <span>Make it real</span></h3>
+    <div class="steps">
+      <div class="step"><div class="num">✓</div><div><div class="t">Consolidate to one source of truth <span class="here" style="background:var(--good);box-shadow:none">Done</span></div><div class="d">docs/ canonical, old tree retired, class mining stages into docs/_drafts/.</div></div></div>
+      <div class="step"><div class="num">✓</div><div><div class="t">Engagement layer <span class="here" style="background:var(--good);box-shadow:none">Done</span></div><div class="d">Progress tracking + path bars, prev/next, recall checks on all 35 games, paths featured on landing.</div></div></div>
+      <div class="step"><div class="num">3</div><div><div class="t">Ship the free tier publicly <span class="here">You are here</span></div><div class="d">Deploy, draw the free vs paid line, start learning from real users.</div></div></div>
+    </div>
+  </div>
+
+  <div class="lane b">
+    <span class="phase">Phase 2</span>
+    <h3>Lane B <span>Make it pay</span></h3>
+    <div class="steps">
+      <div class="step"><div class="num">4</div><div><div class="t">Gated app layer</div><div class="d">Next.js + Supabase + Stripe rendering the same markdown. Accounts, progress, payments.</div></div></div>
+      <div class="step"><div class="num">5</div><div><div class="t">Coach tools, interactive</div><div class="d">Lesson generator, session planner, assessment rubrics. The highest willingness-to-pay wedge.</div></div></div>
+      <div class="step"><div class="num">6</div><div><div class="t">Video</div><div class="d">Built from class recordings. The premium-tier justification.</div></div></div>
+    </div>
+  </div>
+
+  <div class="lane c">
+    <span class="phase">Phase 3</span>
+    <h3>Lane C <span>Make it scale</span></h3>
+    <div class="steps">
+      <div class="step"><div class="num">7</div><div><div class="t">Coach / gym licensing + multi-seat</div><div class="d">Curriculum licensing, per-location seats.</div></div></div>
+      <div class="step"><div class="num">8</div><div><div class="t">Community + learning analytics</div><div class="d">Cohorts, completion stats, what actually drives skill transfer.</div></div></div>
+    </div>
+  </div>
+
+  <footer>
+    Single source of truth stays markdown throughout; the Phase 2 app renders the gated layer from the same content. · Pairs with PRODUCT_STRATEGY.md (the why) as the living plan (the what / next).
+  </footer>
+</main>
+</body>
+</html>

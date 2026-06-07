@@ -1,0 +1,127 @@
+{% extends "main.html" %}
+
+<!--
+  Bespoke landing page for the Ecological MMA System.
+  Activated by `template: home.html` in docs/index.md front matter.
+  Full-bleed sections live in the `tabs` block (outside the article container);
+  the `content` block is emptied so there's no doc-style column on the home page.
+-->
+
+{% block tabs %}
+  {{ super() }}
+
+  <style>
+    /* Home-only layout: drop the doc article frame */
+    .md-main__inner { margin: 0; }
+    .md-content { max-width: none; }
+    .md-content__inner { margin: 0; padding: 0; }
+    .md-content__inner::before { display: none; }
+    .md-content__button { display: none; }
+    .md-sidebar { display: none; }
+    @media screen and (min-width: 76.25em) {
+      .md-main__inner.md-grid { max-width: none; }
+    }
+  </style>
+
+  <!-- HERO -->
+  <section class="emma-hero">
+    <p class="emma-hero__kicker">The Game-Based Fight System</p>
+    <h1 class="emma-hero__title">Ecological<br><span class="accent">MMA</span></h1>
+    <p class="emma-hero__sub">
+      MMA is a decision game, not a technique collection. The environment does the
+      teaching, correct behavior emerges from constraints, not coaching cues.
+    </p>
+    <div class="emma-hero__cta">
+      <a class="emma-btn emma-btn--primary" href="{{ 'principles/training-mindset/' | url }}">Start with the Mindset</a>
+      <a class="emma-btn emma-btn--ghost" href="{{ 'paths/' | url }}">Follow a Path</a>
+      <a class="emma-btn emma-btn--ghost" href="{{ 'games/' | url }}">Browse the Games</a>
+    </div>
+    <span class="emma-hero__scroll">Scroll ↓</span>
+  </section>
+
+  <!-- STATS -->
+  <section class="emma-stats reveal">
+    <div class="emma-stat"><div class="emma-stat__num">33</div><div class="emma-stat__label">Games</div></div>
+    <div class="emma-stat"><div class="emma-stat__num">15</div><div class="emma-stat__label">Subcategories</div></div>
+    <div class="emma-stat"><div class="emma-stat__num">3</div><div class="emma-stat__label">Paths to Finish</div></div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section class="emma-section emma-philosophy reveal">
+    <div>
+      <p class="emma-eyebrow">The Premise</p>
+      <h2>Games,<br>Not Drills</h2>
+      <p>
+        Instead of repeating fixed movements in isolation, athletes solve problems
+        through structured games. Difficulty self-regulates, solutions are discovered,
+        and every rep is representative of real fighting.
+      </p>
+      <p>
+        Every game ultimately leads to one of three endings, knockout, TKO, or
+        submission. Finish the fight while taking as little damage as possible.
+      </p>
+    </div>
+    <blockquote class="emma-quote">
+      “The environment does the teaching. Correct behavior emerges from constraints,
+      not coaching cues.”
+    </blockquote>
+  </section>
+
+  <!-- CATEGORY GRID -->
+  <section class="emma-section reveal">
+    <p class="emma-eyebrow">The Library</p>
+    <h2 style="font-family:var(--font-display);text-transform:uppercase;font-size:clamp(2rem,5vw,3.4rem);border:0;margin:0.2rem 0 0.4rem;">Where do you want to fight?</h2>
+    <div class="emma-cats">
+      <a class="emma-cat emma-cat--img" href="{{ 'games/tight-block/' | url }}">
+        <img class="emma-cat__cover" src="{{ 'assets/img/covers/foundation.png' | url }}" alt="">
+        <span class="emma-cat__num">01</span>
+        <div class="emma-cat__name">Foundation</div>
+        <p class="emma-cat__desc">Skill-isolation games: block, parry, slip, and the first offensive tools.</p>
+      </a>
+      <a class="emma-cat emma-cat--img" href="{{ 'games/close-range-defense/' | url }}">
+        <img class="emma-cat__cover" src="{{ 'assets/img/covers/open-space.png' | url }}" alt="">
+        <span class="emma-cat__num">02</span>
+        <div class="emma-cat__name">Open Space</div>
+        <p class="emma-cat__desc">Range, timing, and defensive adaptability at striking distance.</p>
+      </a>
+      <a class="emma-cat emma-cat--img" href="{{ 'games/wall-control/' | url }}">
+        <img class="emma-cat__cover" src="{{ 'assets/img/covers/wall.png' | url }}" alt="">
+        <span class="emma-cat__num">03</span>
+        <div class="emma-cat__name">The Wall</div>
+        <p class="emma-cat__desc">Pinning, escaping, grinding, and the cage as a weapon.</p>
+      </a>
+      <a class="emma-cat emma-cat--img" href="{{ 'games/ground-control/' | url }}">
+        <img class="emma-cat__cover" src="{{ 'assets/img/covers/ground.png' | url }}" alt="">
+        <span class="emma-cat__num">04</span>
+        <div class="emma-cat__name">The Ground</div>
+        <p class="emma-cat__desc">Control, escape, and finishing from top and bottom.</p>
+      </a>
+      <a class="emma-cat" href="{{ 'concepts/fight-philosophy/' | url }}">
+        <span class="emma-cat__num">05</span>
+        <div class="emma-cat__name">Concepts</div>
+        <p class="emma-cat__desc">The philosophy, decision states, and the logic behind every game.</p>
+      </a>
+      <a class="emma-cat" href="{{ 'tools/session-planning/' | url }}">
+        <span class="emma-cat__num">06</span>
+        <div class="emma-cat__name">Coach Tools</div>
+        <p class="emma-cat__desc">Session planning, assessment rubrics, safety, and the lesson generator.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="emma-section emma-cta-band reveal">
+    <p class="emma-eyebrow">Begin</p>
+    <h2>Train the Fighter,<br>Not the Move</h2>
+    <p style="color:var(--fog-dim);max-width:36rem;margin:0 auto 2rem;">
+      Read the one idea that changes everything, then drop into your first game.
+    </p>
+    <div class="emma-hero__cta" style="justify-content:center;">
+      <a class="emma-btn emma-btn--primary" href="{{ 'principles/training-mindset/' | url }}">The Training Mindset</a>
+      <a class="emma-btn emma-btn--ghost" href="{{ 'system/overview/' | url }}">System Overview</a>
+    </div>
+  </section>
+
+{% endblock %}
+
+{% block content %}{% endblock %}

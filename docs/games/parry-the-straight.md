@@ -21,302 +21,192 @@ tags:
   - skill-isolation
 ---
 
-# Parry the Straight
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/parry-the-straight.png" alt="Parry the Straight">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Parry the Straight</span></div>
+</div>
+
+<div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Defensive</span><span>Beginner</span><span>Open Space</span></div>
+
+Deflect straight punches with the hands. The defender may *only* parry, no blocking, no head movement, no backing up, which forces the parry to develop on its own.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at close range, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>The attacker is trying to land a clean straight; the defender is trying to deflect it off the centerline.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Clean parry → switch · Land clean → reset · Leave the perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">No block, no slip, no retreat, <br><span class="accent">only the parry.</span></p>
+  <p class="emma-statement__sub">Stripping away every other defense forces the deflection to develop on its own. <b>Stay in the pocket and solve the straight with your hands.</b></p>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate of expansion</i> (τ) of the incoming straight, how fast the glove grows as it travels down the centerline, read via shoulder–hip motion at <b>center mass</b>, not the opponent's eyes or their absolute distance. That information specifies <i>when</i> the punch arrives and <i>which way</i> to deflect it.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Inside punching distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter. Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender, switch on a clean parry.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset to neutral after each exchange.</div>
+</div>
+
+<p class="emma-glabel">The Matchup</p>
+
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to land a clean straight punch, jab or cross, to the head or belly.</p>
+    <span class="emma-pop">Straights only, no hooks, uppercuts, or loops. You set the problem: vary targets and rhythm, add feints at higher levels, and ramp up only as the defender succeeds.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🖐️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to deflect each straight off the centerline with a clean parry.</p>
+    <span class="emma-pop">No blocking, no head movement, no backing up, pure parrying. You don't have to parry every punch; absorb while you read the pattern, then commit when confident.</span>
+  </div>
+</div>
+
+<p class="emma-glabel">The Rules</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Straights only<span class="emma-chip__detail">The attacker throws only straight punches, jab or cross, to head or belly, no hooks, uppercuts, or looping strikes. Parrying only works on straight lines, so this keeps the defender's problem matched to the technique.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🖐️</span> Parry only, no block, no dodge<span class="emma-chip__detail">The defender may <strong>only</strong> deflect with hands or forearms. Blocking, slipping, head movement, and backing up are off-limits, so the parrying solution is forced to develop.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No continuous backing up<span class="emma-chip__detail">The defender can't keep retreating out of range to avoid exchanges, they must stay and solve the problem in the pocket.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset between strikes<span class="emma-chip__detail">At early levels the attacker pauses between strikes so the defender can recalibrate. Pressure becomes continuous as the levels rise.</span></span>
+</div>
+
+<p class="emma-glabel">How to Win</p>
+
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Clean parry → switch roles.<span class="emma-pop">A full deflection off the centerline, not a graze and not an absorbed shot. The defender earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Land clean to head or body → reset.<span class="emma-pop">A clean, significant straight that got through, same roles. Begin again from a neutral stance.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange, training the cage-edge awareness a fighter needs.</span></div>
+</div>
+
+<p class="emma-glabel">The Levels</p>
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Single punch, fixed tempo</b>One straight at a time, reset between.<span class="emma-pop emma-pop--l">Pure timing practice, one straight punch, fully reset between reps, no feints. Build the parry with zero time pressure.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Variable tempo</b>Single punches, no fixed reset.<span class="emma-pop emma-pop--l">The attacker varies timing with no guaranteed reset, the defender has to read rhythm and stay switched on.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add feints</b>Real vs. fake.<span class="emma-pop emma-pop--l">The attacker can feint before throwing. Parrying a feint is wasted movement, the defender must distinguish real from fake.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Two-punch combinations</b>Jab-cross, jab-body.<span class="emma-pop emma-pop--l">Two-punch combos, still straights only, chain parries together while holding structure.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Counter after parry</b>One counter allowed.<span class="emma-pop emma-pop--l">After a successful parry the defender may throw one counter, teaching the parry as a setup, not just survival.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, parry while denying the grappling entry, staying aware of all threats.</span></div>
+</div>
+
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to time the parry, and what does it tell you?</summary>
+    <div class="emma-recall__a">The <b>rate of expansion (τ)</b> of the straight (how fast the glove grows) read via shoulder and hip motion at <b>center mass</b>, not the eyes or absolute distance. It specifies <b>when</b> the punch arrives and <b>which way</b> to deflect it.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> No block, no slip, no retreat: why strip everything down to the parry alone?</summary>
+    <div class="emma-recall__a">It forces the <b>deflection to develop on its own</b>. With no other escape, you have to stay in the pocket and solve the straight with your hands.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Should you try to parry every punch?</summary>
+    <div class="emma-recall__a">No. <b>Read the pattern first, then commit</b>. Absorb while you read, and one good parry beats ten bad ones: timing over volume.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why is the attacker restricted to straights only?</summary>
+    <div class="emma-recall__a">Parrying only works on <b>straight lines</b>. Removing hooks, uppercuts, and loops keeps the defender's problem matched to the parrying solution being trained.</div>
+  </details>
+</div>
 
-!!! info "Game Identity"
-    - **Problem:** Learning to parry straight punches
-    - **Environment:** Open Space
-    - **Stage:** Access (Defensive Skill Isolation)
+<p class="emma-glabel">Go Deeper</p>
 
-This is a **beginner skill isolation game** that teaches the parrying defensive solution. The defender can ONLY parry, forcing them to develop this specific skill.
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Goal
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Land clean straights; vary targets (head vs. belly) and which hand; scale difficulty to the partner.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🖐️</div><div class="emma-card__t">Defender</div><p>Keep hands close to the face; tap the punch left or right to redirect it; read early and reset after each parry.</p></div>
+    </div>
 
-This is an **asymmetric game** with distinct roles.
+    <p class="emma-sub">Coaching cues</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Land straight punches (jab or cross) to defender's head or belly |
-| **Defender** | Parry (deflect) punches using hands or forearms |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">See center mass</div><p>Don't track the gloves or the eyes. Center mass keeps shoulder &amp; hip motion in view, "the little X", and shows the straight before it fires. The eyes lie.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Read before redirect</div><p>You don't need to parry everything. Recognize the pattern first, then commit, one good parry beats ten bad ones. Timing over volume.</p></div>
+    </div>
 
-The objective is **skill development**, not competition.
+??? abstract "Constraints-Led analysis"
 
----
+    <p class="emma-sub">Constraints → Affordances</p>
 
-## Entry Condition
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Straights only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Defender perceives parry-able attacks</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Parry-only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces exploration of deflection solutions</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Reset between exchanges</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Time to process and recalibrate</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Role switch on success</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Rewards effective parrying</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Close range</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Parrying is viable and necessary</span></div>
+    </div>
 
-- Both players start in neutral standing position
-- Close quarters distance (striking range)
-- Roles are assigned; switch after 4 minutes
-- Reset to neutral after each exchange
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019), different fighters develop different parry solutions based on reach, hand speed, and reaction time.</p>
 
----
+    <p class="emma-sub">What the defender reads</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Shoulder rotation &amp; straight-line trajectory → which way to deflect.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Contact pressure on the parrying hand → confirms the deflection held.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Hand position relative to centerline → readiness to parry.</p></div>
+    </div>
 
-1. Attacker throws **straight punches ONLY** (no hooks, uppercuts, or looping strikes)
-2. Defender can **ONLY parry** — no blocking, dodging, or backing up continuously
-3. Attacker allows reset between strikes (no continuous pressure at Level 1)
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the defender's <b>parry lands in time with the punch</b>, track clean deflections vs. shots eaten, and whether the hands re-set to centerline between strikes. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
-## Task Focus
+    <p class="emma-sub">Representativeness</p>
 
-### Attacker
-- Land clean straight punches to head or body
-- Vary targets (head vs belly) to challenge defender
-- Incorporate feints at higher levels
+    <p class="emma-hl"><b>Models:</b> deflecting straight punches off the centerline in open-space exchanges.</p>
 
-### Defender
-- Keep hands close to face as base position
-- Tap straight punches to the left or right to redirect them
-- Read the punch early — parry before it lands
+    <div class="emma-meta"><span>Simplified: straights only</span><span>parry only</span><span>resets between</span></div>
 
-!!! question "Key Internal Questions"
-    - "Am I redirecting the punch or just getting hit?"
-    - "Can I see the punch coming early enough to parry?"
-    - "Am I resetting to a good defensive position after each parry?"
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Isolates the solution before integration, transfers into <a href="../close-range-defense/">Close-Range Defense</a>.</p>
 
----
+    <p class="emma-sub">Readiness to progress</p>
 
-## Key Logic: Why Isolate Parrying?
+    <ul class="emma-checklist">
+      <li>Clean parries ~70%+ against varied attackers</li>
+      <li>Parries both jab and cross</li>
+      <li>Recovers to centerline after each parry</li>
+      <li>Can describe what they read ("I saw the shoulder move")</li>
+    </ul>
 
-!!! note "Skill Isolation"
-    Parrying is one of four core defensive solutions. By constraining the defender to parrying only:
+    <p class="emma-sub">Warning signs</p>
 
-    - Develops timing and hand-eye coordination
-    - Learns to read straight punches
-    - Builds habit of redirecting rather than absorbing
+    <div class="emma-warns">
+      <span class="emma-warn">Only parries jab OR cross</span>
+      <span class="emma-warn">Reports "guessing" not "seeing"</span>
+      <span class="emma-warn">Only effective vs one partner</span>
+    </div>
 
-### Parrying Mechanics
+??? note "Safety &amp; related games"
 
-- You can only parry **straight strikes**, not looping strikes
-- Less distance = harder to parry, easier to tight block
-- Successful parry redirects the punch off your centerline
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on loss of composure or excessive force</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the defender starts blocking or dodging</span>
+    </div>
 
----
+    <p class="emma-sub">Where it sits</p>
 
-## Win Conditions
-
-| Role | Win Condition |
-|------|---------------|
-| **Defender** | Successfully parry a punch cleanly (full deflection) |
-| **Attacker** | Land a clean punch to the head or body |
-
-**On defender win:** Roles switch — defender becomes attacker.
-
-**On attacker win:** Reset to neutral, same roles, attacker continues.
-
-!!! tip "The Strategic Insight"
-    You don't need to parry every punch. The defender can absorb strikes while reading the attacker's pattern and timing. When confidence is high, commit to the parry. This teaches:
-
-    - **Pattern recognition** before commitment
-    - **Parrying as opportunity**, not just survival
-    - **Timing over volume** — one good parry beats ten bad ones
-
-**Duration:** Play until natural stopping point or time limit. Role switches keep both players engaged.
-
----
-
-## Levels
-
-=== "Level 1 — Single Punch, Fixed Tempo"
-    - One straight punch at a time
-    - 1-second reset between punches
-    - No feints
-    - Defender: parry only
-
-=== "Level 2 — Variable Tempo"
-    - Still single punches
-    - No reset requirement — attacker varies timing
-    - Defender must read rhythm
-
-=== "Level 3 — Add Feints"
-    - Attacker can feint before throwing
-    - Defender must distinguish real from fake
-    - Parrying a feint = wasted movement
-
-=== "Level 4 — Two-Punch Combinations"
-    - Attacker throws 2-punch combos (jab-cross, jab-body)
-    - Still straight punches only
-
-=== "Level 5 — Counter After Parry"
-    - After successful parry, defender can throw one counter punch
-    - Teaches parry as setup, not just survival
-
-=== "Level 6 — Full MMA Expression"
-    - Attacker can throw straights AND shoot or establish clinch
-    - Attacker wins by: landing clean strike OR establishing meaningful clinch/connection
-    - Defender must parry effectively AND deny grappling entry
-    - Focus: Parrying while remaining aware of all threats
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker throws straight punches only | Defender perceives parry-able attacks |
-| **Task** | Defender can only parry (no blocking, dodging) | Forces exploration of parrying solutions |
-| **Task** | Reset between exchanges (Level 1) | Time to process and recalibrate |
-| **Task** | Role switching on success | Both players develop both skills |
-| **Individual** | Skill level matching | Appropriate challenge zone |
-| **Environmental** | Close striking range | Parrying is viable (vs. too far = no threat) |
-
-!!! info "Theoretical Foundation"
-    This game implements **Constrain to Afford** (Renshaw et al., 2019). The task constraints invite parrying behavior without prescribing how to parry. Different fighters will develop slightly different parrying solutions based on their individual constraints (reach, hand speed, reaction time).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's shoulder rotation | Early detection of punch initiation |
-| **Visual** | Punch trajectory (straight line toward face/body) | Direction of parry (left or right) |
-| **Visual** | Attacker's eye gaze | Target prediction (head vs. body) |
-| **Haptic** | Contact pressure on parrying hand | Confirmation of successful deflection |
-| **Proprioceptive** | Own hand position relative to centerline | Readiness to parry |
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's hand position | Where gaps exist |
-| **Visual** | Defender's weight distribution | When they're off-balance |
-| **Haptic** | Contact (or lack of) on punch | Whether punch landed or was parried |
-
-!!! tip "Coaching Cue"
-    Don't tell defenders *how* to parry. Ask: "What do you see before the punch arrives?" This develops their perception rather than prescribing movement.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Defending straight punches (jabs, crosses) in open space striking exchanges.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Attack type** | Straight punches among many options | Straight punches only | Simplified |
-| **Defense options** | All defensive solutions available | Parrying only | Isolated |
-| **Opponent adaptation** | Continuous adjustment | Reset between exchanges | Simplified |
-| **Consequence** | Damage accumulation | Role switch | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Straight punches only | Parrying only works for straight attacks; isolating this maintains action fidelity |
-| No dodging allowed | Forces parrying development before integrating with other solutions |
-| Reset between exchanges | Allows deliberate practice at coordination stage |
-
-!!! note "Transfer Expectation"
-    Athletes who develop parrying here will transfer the skill to [Close-Range Defense](close-range-defense.md) where all defensive options become available. The perception (reading straight punches) transfers directly.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-To maintain the learning objective while avoiding robotic repetition:
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Attacker** | Rotate training partners | Exposure to different timing, power, tells |
-| **Tempo** | Fast days, slow days | Adaptability across speeds |
-| **Target emphasis** | Sessions focused on head, others on body | Full parrying vocabulary |
-| **Intensity** | Light touch to moderate contact | Realistic pressure calibration |
-| **Duration** | 2-minute rounds, 4-minute rounds | Fatigue management |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Straight punches only | Core constraint that defines the game |
-| Defender can only parry | The skill being isolated |
-| Clear win conditions | Maintains game structure |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Consistent success (70%+) | Current level mastered |
-| Multiple solution types | Not locked into one pattern |
-| Automatic responses | Moved from deliberate to fluid |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Success rate exceeds 70% against varied attackers
-- [ ] Can parry both jab and cross consistently
-- [ ] Parries appear automatic (not deliberate/hesitant)
-- [ ] Recovers to good position after each parry
-- [ ] Can verbalize what they're reading ("I see the shoulder move")
-
-### Ready to Exit Game (Move to Close-Range Defense) When
-
-- [ ] Level 4+ competence (handles combinations)
-- [ ] Parrying integrated with posture and position
-- [ ] Expresses desire to add other defensive tools
-- [ ] Parry success maintains under varied attackers
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Only parries jab OR cross | Limited pattern | Emphasize the neglected punch |
-| Success drops with new partners | Solution too narrow | More partner variety at current level |
-| Reports "guessing" not "seeing" | Perception not developed | Slow down, use attention cues |
-| Rigid/tense during exchanges | Still in coordination stage | Stay at current level, reduce pressure |
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — punches should land if not parried, but not full power
-- **Stop conditions:** Loss of composure or excessive force
-- **Coach intervention:** Reset if defender starts blocking/dodging instead of parrying
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Parry the Straight] --> B[Close-Range Defense]
-    B --> C[Touch and Don't Get Touched]
-
-    style A fill:#4CAF50,color:#fff
-```
-
-- **Prerequisite games:** None — this is foundational
-- **Follow-on games:** Close-Range Defense, Touch and Don't Get Touched
-- **Related concepts:** Defensive Solutions in Striking (Parrying)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as defensive skill development patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None, this is foundational</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../close-range-defense/">Close-Range Defense</a> · <a href="../touch-game/">Touch and Don't Get Touched</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/defensive-solutions/">Defensive Solutions</a></span></div>
+    </div>

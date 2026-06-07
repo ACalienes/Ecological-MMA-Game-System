@@ -1,416 +1,426 @@
 # FAQ & Troubleshooting
 
-Common questions and solutions for coaches using this system.
+<div class="emma-meta"><span>Reference</span><span>Coach &amp; Athlete Q&amp;A</span><span>Troubleshooting</span></div>
 
----
+<p class="emma-hl"><b>Common questions and fixes</b> for coaches and athletes using this system. Tap any question to open the answer.</p>
 
-## General Questions
+<p class="emma-glabel">General Questions</p>
 
-### What is the ecological approach?
+??? question "What is the ecological approach?"
 
-The ecological approach to motor learning emphasizes:
+    The ecological approach to motor learning rests on four pillars:
 
-- **Constraints-led training** — Use rules and boundaries to shape behavior
-- **Representative design** — Training should mirror the demands of competition
-- **Emergence** — Skills emerge from practice, not just instruction
-- **Exploration** — Athletes discover solutions through guided play
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🧩</div><div class="emma-card__t">Constraints-led</div><p>Use rules and boundaries to shape behavior.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Representative design</div><p>Training mirrors the demands of competition.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🌱</div><div class="emma-card__t">Emergence</div><p>Skills emerge from practice, not just instruction.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🔍</div><div class="emma-card__t">Exploration</div><p>Athletes discover solutions through guided play.</p></div>
+    </div>
 
-Games in this system are designed to create learning conditions, not prescribe techniques.
+    <p class="emma-hl">Games in this system are designed to create learning <i>conditions</i>, not to prescribe techniques.</p>
 
-### How is this different from traditional drilling?
+??? question "How is this different from traditional drilling?"
 
-| Traditional Drilling | Ecological Games |
-|---------------------|------------------|
-| Coach prescribes technique | Athlete discovers solutions |
-| Repetition of fixed movements | Exploration of possibilities |
-| Compliance-focused | Problem-solving focused |
-| Isolated from context | Representative of real fighting |
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Coach prescribes technique</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Athlete discovers solutions</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Repetition of fixed movements</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Exploration of possibilities</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Compliance-focused</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Problem-solving focused</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Isolated from context</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Representative of real fighting</span></div>
+    </div>
 
-### Do I need to teach technique separately?
+??? question "Do I need to teach technique separately?"
 
-Technique instruction can complement games, but:
+    Technique instruction can complement games, but:
 
-- Games should come first — they create the "why"
-- Technique emerges from game play
-- Explicit instruction fills gaps, doesn't replace discovery
-- Over-coaching can reduce learning
+    <ul class="emma-checklist">
+      <li>Games come first, they create the "why"</li>
+      <li>Technique emerges from game play</li>
+      <li>Explicit instruction fills gaps, it doesn't replace discovery</li>
+      <li>Over-coaching can reduce learning</li>
+    </ul>
 
----
+<p class="emma-glabel">Full MMA Expression</p>
 
-## Full MMA Expression Questions
+??? question "What is Full MMA Expression?"
 
-### What is Full MMA Expression?
+    <p class="emma-hl">Full MMA Expression is the <b>highest level of any game</b>, where cross-domain threats are added while keeping the game's core focus.</p>
 
-Full MMA Expression is the **highest level of any game** where cross-domain threats are added while maintaining the game's core focus:
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Striking games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Add grappling threats (shoot, clinch)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Wrestling games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Add striking threats</span></div>
+    </div>
 
-- Striking games add grappling threats (shoot, clinch)
-- Wrestling games add striking threats
+    <p style="font-size:.85rem;margin:.6rem 0 0;">See: <a href="../../concepts/full-mma-expression/">Full MMA Expression Concept</a></p>
 
-See: [Full MMA Expression Concept](../concepts/full-mma-expression.md)
+??? question "When should athletes attempt Full MMA Expression levels?"
 
-### When should athletes attempt Full MMA Expression levels?
+    <p class="emma-hl"><b>Only after they're proficient at lower levels.</b> Don't rush it, the skill must be solid before adding complications.</p>
 
-**Only after they're proficient at lower levels.** Signs of readiness:
+    Signs of readiness:
 
-- Consistent success at levels 1-4
-- Primary skill feels automatic
-- Ready for additional cognitive load
-- Seeking realistic pressure
+    <ul class="emma-checklist">
+      <li>Consistent success at levels 1–4</li>
+      <li>Primary skill feels automatic</li>
+      <li>Ready for additional cognitive load</li>
+      <li>Seeking realistic pressure</li>
+    </ul>
 
-**Don't rush it.** The skill must be solid before adding complications.
+??? question "How do I scale Full MMA Expression appropriately?"
 
-### How do I scale Full MMA Expression appropriately?
+    Start conservative and build up:
 
-Start conservative:
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Low intensity</b>Introduce the threat gently.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Announce it</b>"I'm going to add a clinch option now."</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Increase realism</b>Gradually ramp the threat up.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Pull back if needed</b>Regress if the primary skill breaks down.</div>
+    </div>
 
-1. Introduce the threat at low intensity
-2. Announce the threat before it happens ("I'm going to add a clinch option now")
-3. Gradually increase threat realism
-4. Pull back if athlete regresses on primary skill
+??? question "Do all games need Full MMA Expression?"
 
-### Do all games need Full MMA Expression?
+    Every game <b>has</b> a Full MMA Expression level documented, but not every session needs it. Most training happens at levels 1–4. Use it when:
 
-Every game **has** a Full MMA Expression level documented, but not every session needs it. Most training happens at levels 1-4. Use Full MMA Expression when:
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">✅</span> Athletes are proficient at lower levels</span>
+      <span class="emma-chip"><span class="emma-chip__i">🧪</span> You want to stress-test skills</span>
+      <span class="emma-chip"><span class="emma-chip__i">🏆</span> Preparing for competition</span>
+    </div>
 
-- Athletes are proficient at lower levels
-- You want to stress-test skills
-- Preparing for competition
+<p class="emma-glabel">Game-Specific Troubleshooting</p>
 
----
+??? warning "Athletes aren't switching roles in asymmetric games"
 
-## Game-Specific Troubleshooting
+    <p class="emma-hl"><b>Problem:</b> One side is dominating; roles aren't switching.</p>
 
-### "Athletes aren't switching roles in asymmetric games"
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Check skill levels</b>Mismatch may require an intensity adjustment.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Review constraints</b>Are the invariants being followed?</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Adjust levels</b>Drop to an easier level.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Add constraints</b>Give the struggling side an edge (e.g. attacker must pause between strikes).</div>
+    </div>
 
-**Problem:** One side is dominating; roles aren't switching.
+??? warning "Athletes are gaming the rules instead of developing skills"
 
-**Solutions:**
+    <p class="emma-hl"><b>Problem:</b> Athletes find loopholes that win the game without developing the target skill.</p>
 
-1. **Check skill levels** — Mismatch may require intensity adjustment
-2. **Review constraints** — Are invariants being followed?
-3. **Adjust levels** — Drop to an easier level
-4. **Add constraints** — Give the struggling side an advantage (e.g., attacker must pause between strikes)
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Address mindset</b>Reference the Training Mindset principle.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Close the loophole</b>Add or clarify invariants.</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Adjust the level</b>It may be too easy or too hard.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Discuss with the athlete</b>They may not realize what they're doing.</div>
+    </div>
 
-### "Athletes are gaming the rules instead of developing skills"
+??? warning "Athletes get frustrated when they can't 'win'"
 
-**Problem:** Athletes find loopholes that win the game without developing the target skill.
+    <p class="emma-hl"><b>Problem:</b> A competitive mindset is interfering with learning.</p>
 
-**Solutions:**
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Reframe success</b>Success is learning, not winning.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Remove scorekeeping</b>Some games work better without tracking.</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Emphasize process</b>Celebrate good attempts, not just results.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Reference principles</b>The Training Mindset addresses this directly.</div>
+    </div>
 
-1. **Address mindset** — Reference the Training Mindset principle
-2. **Close the loophole** — Add or clarify invariants
-3. **Adjust the level** — The current level may be too easy or too hard
-4. **Discuss with athlete** — They may not realize what they're doing
+??? warning "Games feel chaotic or unstructured"
 
-### "Athletes get frustrated when they can't 'win'"
+    <p class="emma-hl"><b>Problem:</b> Athletes don't know what they're supposed to be doing.</p>
 
-**Problem:** Competitive mindset interfering with learning.
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Clarify objectives</b>Ensure everyone knows the goal.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Demonstrate</b>Show what good play looks like.</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Start simpler</b>Drop to Level 1.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Check prerequisites</b>Athletes may lack foundational skills.</div>
+    </div>
 
-**Solutions:**
+<p class="emma-glabel">Safety Questions</p>
 
-1. **Reframe success** — Success is learning, not winning
-2. **Remove scorekeeping** — Some games work better without tracking
-3. **Emphasize process** — Celebrate good attempts, not just results
-4. **Reference principles** — The Training Mindset addresses this directly
+??? question "How hard should contact be?"
 
-### "Games feel chaotic or unstructured"
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Touch</b>, contact made, no force</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Skill isolation, beginners</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Light</b>, force felt, not damaging</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Most development games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Moderate</b>, significant force, controlled</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Advanced games, integration</span></div>
+    </div>
 
-**Problem:** Athletes don't know what they're supposed to be doing.
+    <p class="emma-hl">When in doubt, go lighter. Quality over intensity.</p>
 
-**Solutions:**
+??? danger "When should I stop a game?"
 
-1. **Clarify objectives** — Ensure everyone knows the goal
-2. **Demonstrate** — Show what good play looks like
-3. **Start simpler** — Drop to Level 1
-4. **Check prerequisites** — Athletes may lack foundational skills
+    Stop immediately if:
 
----
+    <div class="emma-warns">
+      <span class="emma-warn">An athlete loses composure</span>
+      <span class="emma-warn">Contact becomes excessive</span>
+      <span class="emma-warn">Rules are being ignored</span>
+      <span class="emma-warn">An athlete appears hurt</span>
+      <span class="emma-warn">The learning environment breaks down</span>
+    </div>
 
-## Safety Questions
+    <p class="emma-hl">Reset, address the issue, then resume.</p>
 
-### How hard should contact be?
+??? question "How do I manage aggression?"
 
-The system uses these contact levels:
+    Some athletes escalate intensity inappropriately:
 
-| Level | Description | When to Use |
-|-------|-------------|-------------|
-| **Touch** | Contact made but no force | Skill isolation, beginners |
-| **Light** | Force felt but not damaging | Most development games |
-| **Moderate** | Significant force, controlled | Advanced games, integration |
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Set expectations</b>Clearly, before the game starts.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Match intensity</b>Pair athletes of similar intensity preference.</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Call resets</b>Interrupt escalation early.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Address privately</b>Discuss mindset after the session.</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Adjust pairing</b>Some athletes shouldn't work together.</div>
+    </div>
 
-When in doubt, go lighter. Quality over intensity.
+<p class="emma-glabel">Planning Questions</p>
 
-### When should I stop a game?
+??? question "How long should rounds be?"
 
-Stop immediately if:
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Skill isolation</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">2–4 minutes</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Development games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">4–6 minutes</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Combined games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">3–5 minutes</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Integration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">5–10 minutes</span></div>
+    </div>
 
-- An athlete loses composure
-- Contact becomes excessive
-- Rules are being ignored
-- An athlete appears hurt
-- The learning environment breaks down
+    <p class="emma-hl">Shorter rounds with more resets often beat long continuous play.</p>
 
-Reset, address the issue, then resume.
+??? question "How many games per session?"
 
-### How do I manage aggression?
+    Quality over quantity:
 
-Some athletes escalate intensity inappropriately:
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🐣</div><div class="emma-card__t">Beginners</div><p>2–3 games, more time per game.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧗</div><div class="emma-card__t">Intermediate</div><p>3–4 games, balanced time.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🥇</div><div class="emma-card__t">Advanced</div><p>Can handle more variety.</p></div>
+    </div>
 
-1. **Set expectations clearly** — Before the game starts
-2. **Match intensity** — Pair athletes of similar intensity preference
-3. **Call resets** — Interrupt escalation early
-4. **Address privately** — Discuss mindset after the session
-5. **Adjust pairing** — Some athletes shouldn't work together
+    <p class="emma-hl">One well-developed skill beats five superficial exposures.</p>
 
----
+??? question "What if I don't have the right equipment?"
 
-## Planning Questions
+    Adapt as needed, the constraints matter more than the gear:
 
-### How long should rounds be?
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Wall / cage</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Marked perimeter, padded wall, corner</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Mats</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Grass, carpet, reduced ground work</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Gloves</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Lighter contact, open-hand games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Boundary markers</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Tape, cones, imaginary lines</span></div>
+    </div>
 
-Suggested round lengths:
+<p class="emma-glabel">Athlete Questions</p>
 
-| Game Type | Round Length |
-|-----------|--------------|
-| Skill isolation | 2-4 minutes |
-| Development games | 4-6 minutes |
-| Combined games | 3-5 minutes |
-| Integration | 5-10 minutes |
+??? question "How do I know if I'm improving?"
 
-Shorter rounds with more resets often work better than long continuous play.
+    Look for these markers:
 
-### How many games per session?
+    <div class="emma-chips">
+      <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔁</span> Consistency<span class="emma-chip__detail">Can you repeat successful actions?</span></span>
+      <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎨</span> Variety<span class="emma-chip__detail">Do you have multiple solutions available?</span></span>
+      <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧘</span> Composure<span class="emma-chip__detail">Are you calmer under pressure?</span></span>
+      <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">👁️</span> Recognition<span class="emma-chip__detail">Do you see opportunities earlier?</span></span>
+      <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↗️</span> Transfer<span class="emma-chip__detail">Does the skill show up in sparring?</span></span>
+    </div>
 
-Quality over quantity:
+??? question "What if I keep losing at a game?"
 
-- **Beginners:** 2-3 games, more time per game
-- **Intermediate:** 3-4 games, balanced time
-- **Advanced:** Can handle more variety
+    <p class="emma-hl">Losing is learning. Struggle is where growth happens.</p>
 
-One well-developed skill beats five superficial exposures.
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Analyze</b>What specifically is going wrong?</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Ask</b>Get feedback from your partner or coach.</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Simplify</b>Drop to an easier level.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Focus</b>Work on one thing at a time.</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Persist</b>Keep going, that's where it forms.</div>
+    </div>
 
-### What if I don't have the right equipment?
+    <p style="font-size:.85rem;margin:.6rem 0 0;">Reference: Training Mindset principle</p>
 
-Adapt as needed:
+??? question "Should I always play to win?"
 
-| Ideal Equipment | Adaptation |
-|-----------------|------------|
-| Wall/cage | Marked boundary, padded wall, corner |
-| Mats | Grass, carpet, reduced ground work |
-| Gloves | Lighter contact, open-hand games |
-| Boundary markers | Tape, cones, imaginary lines |
+    <p class="emma-hl">No. Games are academic exercises.</p>
 
-The constraints matter more than the equipment.
+    <ul class="emma-checklist">
+      <li>Learning matters more than winning</li>
+      <li>Honest play creates real feedback</li>
+      <li>Struggle is valuable</li>
+      <li>Your partner is your collaborator</li>
+    </ul>
 
----
+    <p style="font-size:.85rem;margin:.6rem 0 0;">See: Training Mindset principle</p>
 
-## Athlete Questions
+<p class="emma-glabel">Quick Reference</p>
 
-### How do I know if I'm improving?
+=== "Game Selection Cheat Sheet"
 
-Look for:
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Striking defense</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/parry-the-straight/">Parry the Straight</a> · <a href="../../games/slip-the-straight/">Slip the Straight</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Striking offense</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Range / timing</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/touch-game/">Touch Game</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Space control</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Full integration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-takedown/">Pressure to Takedown</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Wall work</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a></span></div>
+    </div>
 
-- **Consistency** — Can you repeat successful actions?
-- **Variety** — Do you have multiple solutions?
-- **Composure** — Are you calmer under pressure?
-- **Recognition** — Do you see opportunities earlier?
-- **Transfer** — Does skill show up in sparring?
+=== "Level Progression"
 
-### What if I keep losing at a game?
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Single action</b>Predictable timing.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Variable timing</b>More complexity (L2–3).</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Counters &amp; combos</b>Advanced mechanics (L4–5).</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Full MMA</b>Cross-domain threats (highest level).</div>
+    </div>
 
-Losing is learning:
+=== "Contact Levels"
 
-1. **Analyze** — What specifically is going wrong?
-2. **Ask** — Get feedback from partner or coach
-3. **Simplify** — Drop to an easier level
-4. **Focus** — Work on one thing at a time
-5. **Persist** — Struggle is where growth happens
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Touch</b>, contact made, no force</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Skill isolation, beginners</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Light</b>, force felt, not damaging</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Most development games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Moderate</b>, significant force, controlled</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Advanced, integration</span></div>
+    </div>
 
-Reference: Training Mindset principle
+=== "Stop Conditions"
 
-### Should I always play to win?
+    <div class="emma-warns">
+      <span class="emma-warn">Loss of composure</span>
+      <span class="emma-warn">Excessive contact</span>
+      <span class="emma-warn">Rules being ignored</span>
+      <span class="emma-warn">Injury concern</span>
+      <span class="emma-warn">Learning environment breaks down</span>
+    </div>
 
-No. Games are academic exercises:
+<p class="emma-glabel">Coaching Scenarios</p>
 
-- **Learning matters more than winning**
-- **Honest play creates real feedback**
-- **Struggle is valuable**
-- **Your partner is your collaborator**
+??? question "How do I know when an athlete is ready for the next level?"
 
-See: Training Mindset principle
+    Look for these signs:
 
----
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">✅</div><div class="emma-card__t">Consistent success</div><p>They hit the game's objective most of the time.</p></div>
+      <div class="emma-card"><div class="emma-card__i">😴</div><div class="emma-card__t">Boredom</div><p>The current level no longer challenges them.</p></div>
+      <div class="emma-card"><div class="emma-card__i">⚙️</div><div class="emma-card__t">Automatic execution</div><p>They don't think hard about the basics.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🙋</div><div class="emma-card__t">Asking for more</div><p>They want additional challenge.</p></div>
+    </div>
 
-## Quick Reference
+    <p class="emma-hl">When in doubt, stay at the current level longer. Mastery beats rushing.</p>
 
-### Game Selection Cheat Sheet
+??? question "What if athletes in my group are at different levels?"
 
-| Goal | Start With |
-|------|------------|
-| Striking defense | Parry the Straight, Slip the Straight |
-| Striking offense | Land the Target |
-| Range/timing | Touch Game |
-| Space control | Pressure to Clinch |
-| Full integration | Pressure to Takedown |
-| Wall work | Wall Control |
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Pair by level</b>Similar-level athletes work together.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Handicap the advanced athlete</b>Add constraints (e.g. one hand only).</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Role assignment</b>Advanced athletes play feeder/attacker roles.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Split the group</b>Run different levels simultaneously.</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Use it as teaching</b>Advanced athletes coach beginners between rounds.</div>
+    </div>
 
-### Level Progression Guide
+??? question "How do I introduce this system to a traditional gym?"
 
-| Level | What Changes |
-|-------|--------------|
-| 1 | Single action, predictable timing |
-| 2-3 | Variable timing, more complexity |
-| 4-5 | Counters, combinations, advanced mechanics |
-| Highest | Full MMA Expression (cross-domain threats) |
+    Gradual integration works best:
 
-### Contact Level Guide
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Start with one game</b>Pick something fun like Touch Game.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Frame it as a warm-up</b>Less threatening to existing culture.</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Let results speak</b>Athletes will notice skill transfer.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Add games slowly</b>One new game every few weeks.</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Don't criticize the old way</b>Present games as "adding tools."</div>
+    </div>
 
-| Level | Description | When to Use |
-|-------|-------------|-------------|
-| Touch | Contact made, no force | Skill isolation, beginners |
-| Light | Force felt, not damaging | Most development games |
-| Moderate | Significant force, controlled | Advanced, integration |
+??? question "Can I mix games with regular sparring?"
 
-### Stop Conditions (Universal)
+    <p class="emma-hl">Yes, and you should. Games develop skills; sparring tests integration.</p>
 
-Stop immediately if:
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Game → Sparring</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Touch Game warm-up, then free sparring</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Themed sparring</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Spar with one game's focus ("only score with counters")</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Game → Integration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Skill isolation, then open rounds</span></div>
+    </div>
 
-- Loss of composure
-- Excessive contact
-- Rules being ignored
-- Injury concern
-- Learning environment breaks down
+??? question "What if an athlete has physical limitations?"
 
----
+    <p class="emma-hl">Adapt the game, not the athlete. The ecological approach embraces individual solutions.</p>
 
-## Coaching Scenarios
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Modify range</b>Closer or farther based on mobility.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Reduce intensity</b>Lower contact levels.</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Change objectives</b>Focus on what they CAN do.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Adjust timing</b>More time to execute.</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Skip levels</b>Not every level suits every athlete.</div>
+    </div>
 
-### How do I know when an athlete is ready for the next level?
+??? question "How do I handle a big skill gap between partners?"
 
-Look for these signs:
+    <div class="emma-matchup">
+      <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+        <div class="emma-fighter__icon">🥇</div>
+        <div class="emma-fighter__role">Advanced partner</div>
+        <p class="emma-fighter__obj">Provide honest resistance, work weak areas, focus on timing &amp; reading, be a good training partner.</p>
+        <span class="emma-pop">Don't sandbag completely; use the off-hand or limit tools to stay challenged while creating learning opportunities.</span>
+      </div>
+      <div class="emma-matchup__vs">VS</div>
+      <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+        <div class="emma-fighter__icon">🐣</div>
+        <div class="emma-fighter__role">Less experienced</div>
+        <p class="emma-fighter__obj">Focus on survival first, ask questions, celebrate small wins.</p>
+        <span class="emma-pop">Don't overreach, progress, not dominance, is the measure. Learn from the experience gap.</span>
+      </div>
+    </div>
 
-1. **Consistent success** — They achieve the game's objective most of the time
-2. **Boredom** — The current level no longer challenges them
-3. **Automatic execution** — They don't have to think hard about the basics
-4. **Asking for more** — They want additional challenge
+??? question "What about athletes who are too passive?"
 
-**When in doubt, stay at the current level longer.** Mastery beats rushing.
+    Passive athletes need encouragement to engage:
 
-### What if athletes in my group are at different levels?
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Simplify objectives</b>"Just touch their shoulder once."</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Remove consequences</b>Play without scoring temporarily.</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Pair with patient partners</b>Aggressive opponents make it worse.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Celebrate attempts</b>Reward action regardless of outcome.</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Check for fear</b>Passivity often masks uncertainty or anxiety.</div>
+    </div>
 
-Options:
+??? question "Do I need to follow prerequisite chains strictly?"
 
-1. **Pair by level** — Similar-level athletes work together
-2. **Handicap the advanced athlete** — Add constraints (e.g., one hand only)
-3. **Role assignment** — Advanced athletes play feeder/attacker roles
-4. **Split the group** — Run different levels simultaneously
-5. **Use it as teaching** — Advanced athletes coach beginners between rounds
+    <p class="emma-hl">Guidelines, not rules. Use judgment, you know your athletes.</p>
 
-### How do I introduce this system to a traditional gym?
+    <ul class="emma-checklist">
+      <li>Prerequisites indicate logical progression, Skill A helps with Skill B</li>
+      <li>Experienced athletes can skip ahead, a wrestler doesn't need Takedown Defense basics</li>
+      <li>Return to prerequisites when stuck, regression often means foundation gaps</li>
+    </ul>
 
-Gradual integration works best:
+    <p style="font-size:.85rem;margin:.6rem 0 0;">See: <a href="../prerequisites/">Prerequisite Map</a></p>
 
-1. **Start with one game** — Pick something fun like Touch Game
-2. **Frame it as a warm-up** — Less threatening to existing culture
-3. **Let results speak** — Athletes will notice skill transfer
-4. **Add games slowly** — One new game every few weeks
-5. **Don't criticize the old way** — Present games as "adding tools"
+??? question "Can I create my own game modifications?"
 
-### Can I mix games with regular sparring?
+    <p class="emma-hl">Absolutely.</p> When modifying:
 
-Yes, and you should:
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Keep the core problem</b>Don't lose what the game teaches.</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Maintain invariants</b>Rules exist for reasons.</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Test it first</b>Try it yourself before deploying.</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Document changes</b>Track what works.</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Share it</b>Others may benefit.</div>
+    </div>
 
-| Session Structure | Example |
-|-------------------|---------|
-| **Game → Sparring** | Touch Game warm-up, then free sparring |
-| **Themed sparring** | Sparring with one game's focus (e.g., "only score with counters") |
-| **Game → Integration** | Skill isolation, then open rounds |
+??? question "How do I track athlete progress across games?"
 
-Games develop skills; sparring tests integration.
+    Simple methods, but avoid over-measuring; learning isn't always linear or visible:
 
-### What if an athlete has physical limitations?
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🪜</div><div class="emma-card__t">Level tracking</div><p>Record highest level achieved per game.</p></div>
+      <div class="emma-card"><div class="emma-card__i">📊</div><div class="emma-card__t">Confidence rating</div><p>Athlete self-rates comfort (1–5).</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎥</div><div class="emma-card__t">Video comparison</div><p>Record early vs. later performance.</p></div>
+      <div class="emma-card"><div class="emma-card__i">↗️</div><div class="emma-card__t">Sparring transfer</div><p>Note when game skills appear in sparring.</p></div>
+      <div class="emma-card"><div class="emma-card__i">📝</div><div class="emma-card__t">Coach notes</div><p>Qualitative observations.</p></div>
+    </div>
 
-Adapt the game, not the athlete:
+<p class="emma-glabel">Resources</p>
 
-1. **Modify range** — Closer or farther based on mobility
-2. **Reduce intensity** — Lower contact levels
-3. **Change objectives** — Focus on what they CAN do
-4. **Adjust timing** — More time to execute
-5. **Skip levels** — Not every level suits every athlete
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Find a game</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../game-finder/">Game Finder</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Check prerequisites</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../prerequisites/">Prerequisite Map</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Understand a term</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../system/glossary/">Glossary</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">See all games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/">Games Library</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Plan a session</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../tools/session-planning/">Session Planning</a></span></div>
+</div>
 
-The ecological approach embraces individual solutions.
-
-### How do I handle a big skill gap between partners?
-
-The advanced partner should:
-
-1. **Provide honest resistance** — Don't sandbag completely
-2. **Work on their weak areas** — Use off-hand, limit tools
-3. **Focus on timing/reading** — Develop perception skills
-4. **Be a good training partner** — Create learning opportunities
-
-The less experienced partner should:
-
-1. **Focus on survival first** — Don't overreach
-2. **Ask questions** — Learn from the experience gap
-3. **Celebrate small wins** — Progress, not dominance
-
-### What about athletes who are too passive?
-
-Passive athletes need encouragement to engage:
-
-1. **Simplify objectives** — "Just touch their shoulder once"
-2. **Remove consequences** — Play without scoring temporarily
-3. **Pair with patient partners** — Aggressive opponents make it worse
-4. **Celebrate attempts** — Reward action regardless of outcome
-5. **Check for fear** — Passivity often masks uncertainty or anxiety
-
-### Do I need to follow prerequisite chains strictly?
-
-Guidelines, not rules:
-
-- **Prerequisites indicate logical progression** — Skill A helps with Skill B
-- **Athletes with experience can skip ahead** — A wrestler doesn't need Takedown Defense basics
-- **Return to prerequisites when stuck** — Regression often means foundation gaps
-- **Use judgment** — You know your athletes
-
-### Can I create my own game modifications?
-
-Absolutely. When modifying:
-
-1. **Keep the core problem** — Don't lose what the game teaches
-2. **Maintain invariants** — Rules exist for reasons
-3. **Test before deploying** — Try it yourself first
-4. **Document changes** — Track what works
-5. **Share with the community** — Others may benefit
-
-### How do I track athlete progress across games?
-
-Simple methods:
-
-| Method | How It Works |
-|--------|--------------|
-| **Level tracking** | Record highest level achieved per game |
-| **Confidence rating** | Athlete self-rates comfort (1-5) |
-| **Video comparison** | Record early vs. later performance |
-| **Sparring transfer** | Note when game skills appear in sparring |
-| **Coach notes** | Qualitative observations |
-
-Avoid over-measuring. Learning isn't always linear or visible.
-
----
-
-## Resources
-
-| Need | Where to Look |
-|------|---------------|
-| Find a game | [Game Finder](game-finder.md) |
-| Check prerequisites | [Prerequisite Map](prerequisites.md) |
-| Understand a term | [Glossary](../system/glossary.md) |
-| See all games | [Games Library](../games/index.md) |
-| Plan a session | [Session Planning](../tools/session-planning.md) |
-
----
-
-!!! abstract "Development Notice"
+??? abstract "Development notice"
     More FAQs will be added based on common coaching questions.

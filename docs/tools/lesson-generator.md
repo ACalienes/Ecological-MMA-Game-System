@@ -1,19 +1,13 @@
 # Lesson Plan Generator
 
-A tool for generating randomized game-based training sessions.
+<div class="emma-meta"><span>Coaching Tool</span><span>~60 Minute Sessions</span><span>Simple → Complex</span></div>
 
----
-
-## How It Works
-
-Select your focus areas below, and the generator will suggest a 5-game session plan (approximately 60 minutes). Each session follows a logical progression from simpler to more complex games.
+<p class="emma-hl">Select your focus areas and the generator suggests a <b>5-game session plan</b> (~60 minutes). Each plan follows a logical progression from simpler to more complex games.</p>
 
 !!! warning "Supervision Required"
-    All sessions should be conducted under qualified coach supervision. See [Disclaimer](../about/disclaimer.md) for important safety information.
+    All sessions should be conducted under qualified coach supervision. See the [Disclaimer](../about/disclaimer.md) for important safety information.
 
----
-
-## Quick Generator
+<p class="emma-glabel">Quick Generator</p>
 
 <div id="lesson-generator">
 
@@ -50,148 +44,128 @@ Select your focus areas below, and the generator will suggest a 5-game session p
 
 </div>
 
----
+<p class="emma-glabel">Manual Session Templates</p>
 
-## Manual Session Templates
+<p>If you prefer structured sessions, use these pre-designed days. Each runs roughly 60 minutes, progressing from a warm-up game to live application.</p>
 
-If you prefer structured templates, use these pre-designed sessions:
+??? note "Template A · Striking Defense Day"
 
-### Template A: Striking Defense Day
+    <p class="emma-hl"><b>Goal:</b> build defensive striking skills from isolation to integration.</p>
 
-| Order | Game | Duration | Focus |
-|-------|------|----------|-------|
-| 1 | Parry the Straight | 8 min | Warm-up, hand defense |
-| 2 | Slip the Straight | 8 min | Head movement foundation |
-| 3 | Close-Range Defense | 12 min | Layered defense |
-| 4 | Evasive Movement | 10 min | Footwork, ring generalship |
-| 5 | Touch and Don't Get Touched | 15 min | Integration |
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Parry the Straight</b>8 min · warm-up, hand defense</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Slip the Straight</b>8 min · head movement foundation</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Close-Range Defense</b>12 min · layered defense</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Evasive Movement</b>10 min · footwork, ring generalship</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Touch and Don't Get Touched</b>15 min · integration</div>
+    </div>
 
-**Session Goal:** Build defensive striking skills from isolation to integration.
+??? note "Template B · Pressure Wrestling Day"
 
----
+    <p class="emma-hl"><b>Goal:</b> develop pressure-based wrestling from striking range.</p>
 
-### Template B: Pressure Wrestling Day
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Pressure to Clinch</b>10 min · space control warm-up</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Pressure to Clinch (L3)</b>10 min · clinch to wall transition</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Clinch Denial</b>10 min · defensive transition</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Pressure to Takedown</b>15 min · offensive chain</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Open Space Takedown</b>15 min · full wrestling exchange</div>
+    </div>
 
-| Order | Game | Duration | Focus |
-|-------|------|----------|-------|
-| 1 | Pressure to Clinch | 10 min | Space control warm-up |
-| 2 | Pressure to Clinch (L3) | 10 min | Clinch to wall transition |
-| 3 | Clinch Denial | 10 min | Defensive transition |
-| 4 | Pressure to Takedown | 15 min | Offensive chain |
-| 5 | Open Space Takedown | 15 min | Full wrestling exchange |
+??? note "Template C · Wall Work Day"
 
-**Session Goal:** Develop pressure-based wrestling from striking range.
+    <p class="emma-hl"><b>Goal:</b> the complete wall game from entry through resolution.</p>
 
----
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Pressure to Wall</b>10 min · getting to the wall</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Wall Control</b>12 min · establishing control</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Wall Escape</b>12 min · defensive response</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Wall Grinding</b>12 min · damage from the wall</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Stand-Up Loop</b>14 min · full wall exchange</div>
+    </div>
 
-### Template C: Wall Work Day
+??? note "Template D · Ground Survival Day"
 
-| Order | Game | Duration | Focus |
-|-------|------|----------|-------|
-| 1 | Pressure to Wall | 10 min | Getting to the wall |
-| 2 | Wall Control | 12 min | Establishing control |
-| 3 | Wall Escape | 12 min | Defensive response |
-| 4 | Wall Grinding | 12 min | Damage from wall |
-| 5 | Stand-Up Loop | 14 min | Full wall exchange |
+    <p class="emma-hl"><b>Goal:</b> defensive ground skills for MMA survival.</p>
 
-**Session Goal:** Complete wall game from entry through resolution.
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Ground Escape</b>12 min · basic escape patterns</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Leg Reclaim</b>12 min · guard recovery mechanics</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Ground to Standing</b>10 min · technical standup</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Ground Defensive Submission</b>12 min · bottom submissions</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Positional Sparring</b>14 min · full ground exchange</div>
+    </div>
 
----
+??? note "Template E · Offensive Ground Day"
 
-### Template D: Ground Survival Day
+    <p class="emma-hl"><b>Goal:</b> the offensive ground path from takedown to finish.</p>
 
-| Order | Game | Duration | Focus |
-|-------|------|----------|-------|
-| 1 | Ground Escape | 12 min | Basic escape patterns |
-| 2 | Leg Reclaim | 12 min | Guard recovery mechanics |
-| 3 | Ground to Standing | 10 min | Technical standup |
-| 4 | Ground Defensive Submission | 12 min | Bottom submissions |
-| 5 | Positional Battle | 14 min | Full ground exchange |
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Open Space Takedown</b>12 min · entry to ground</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Ground Access</b>12 min · passing, advancing</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Ground Control</b>12 min · maintaining position</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Positional Sparring</b>12 min · live positional work</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Ground Control → Finish</b>12 min · control to TKO / submission</div>
+    </div>
 
-**Session Goal:** Defensive ground skills for MMA survival.
+??? note "Template F · Counter Fighting Day"
 
----
+    <p class="emma-hl"><b>Goal:</b> develop a reactive, counter-based fighting style.</p>
 
-### Template E: Offensive Ground Day
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Evade the Punch</b>10 min · defensive reading</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Close-Range Defense</b>10 min · handling pressure</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Counter-Striking</b>12 min · punishing initiation</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Counter-Wrestling</b>12 min · wrestling as counter</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Takedown Defense</b>16 min · full defensive wrestling</div>
+    </div>
 
-| Order | Game | Duration | Focus |
-|-------|------|----------|-------|
-| 1 | Open Space Takedown | 12 min | Entry to ground |
-| 2 | Ground Access | 12 min | Passing, advancing |
-| 3 | Ground Control | 12 min | Maintaining position |
-| 4 | Positional Battle | 12 min | Live positional work |
-| 5 | Ground Control → Finish | 12 min | Control to TKO/submission |
+??? note "Template G · Full MMA Integration"
 
-**Session Goal:** Offensive ground path from takedown to finish.
+    <p class="emma-hl"><b>Goal:</b> practice all games at Full MMA Expression level.</p>
 
----
+    <div class="emma-stepper">
+      <div class="emma-step"><span class="emma-step__n">1</span><b>Touch and Don't Get Touched (L4)</b>10 min · striking with TD threat</div>
+      <div class="emma-step"><span class="emma-step__n">2</span><b>Pressure to Clinch (L4)</b>10 min · space control, full MMA</div>
+      <div class="emma-step"><span class="emma-step__n">3</span><b>Pressure to Clinch (L5)</b>12 min · Full MMA Expression</div>
+      <div class="emma-step"><span class="emma-step__n">4</span><b>Open Space Takedown (L4)</b>14 min · wrestling with strikes</div>
+      <div class="emma-step"><span class="emma-step__n">5</span><b>Stand-Up Loop (L4)</b>14 min · complete MMA exchange</div>
+    </div>
 
-### Template F: Counter Fighting Day
+<p class="emma-glabel">Building Custom Sessions</p>
 
-| Order | Game | Duration | Focus |
-|-------|------|----------|-------|
-| 1 | Evade the Punch | 10 min | Defensive reading |
-| 2 | Close-Range Defense | 10 min | Handling pressure |
-| 3 | Counter-Striking | 12 min | Punishing initiation |
-| 4 | Counter-Wrestling | 12 min | Wrestling as counter |
-| 5 | Takedown Defense | 16 min | Full defensive wrestling |
+<p class="emma-sub">The five-beat session shape</p>
 
-**Session Goal:** Develop reactive, counter-based fighting style.
+<div class="emma-stepper">
+  <div class="emma-step"><span class="emma-step__n">1</span><b>Warm-up game</b>8–10 min · simpler, lower intensity</div>
+  <div class="emma-step"><span class="emma-step__n">2</span><b>Skill builder #1</b>10–12 min · isolated skill</div>
+  <div class="emma-step"><span class="emma-step__n">3</span><b>Skill builder #2</b>10–12 min · related skill or progression</div>
+  <div class="emma-step"><span class="emma-step__n">4</span><b>Integration game</b>12–15 min · combine skills</div>
+  <div class="emma-step"><span class="emma-step__n">5</span><b>Live application</b>15–20 min · combined or free play</div>
+</div>
 
----
+<p class="emma-sub">Pairing principles</p>
 
-### Template G: Full MMA Integration
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Defensive striking</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Offensive striking (for combined)</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Wall offense</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Wall escape (understand both sides)</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Ground access</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ground escape (attacker needs a defender)</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Counter-striking</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Land the Target (need an initiator)</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Takedown offense</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Takedown defense (balance the session)</span></div>
+</div>
 
-| Order | Game | Duration | Focus |
-|-------|------|----------|-------|
-| 1 | Touch and Don't Get Touched (L4) | 10 min | Striking with TD threat |
-| 2 | Pressure to Clinch (L4) | 10 min | Space control, full MMA |
-| 3 | Pressure to Clinch (L5) | 12 min | Full MMA Expression |
-| 4 | Open Space Takedown (L4) | 14 min | Wrestling with strikes |
-| 5 | Stand-Up Loop (L4) | 14 min | Complete MMA exchange |
+<p class="emma-sub">Progression within a session</p>
 
-**Session Goal:** Practice all games at Full MMA Expression level.
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧩</span> Simpler → Complex<span class="emma-chip__detail">Start with fewer variables, add them as athletes succeed.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏩</span> Slower → Faster<span class="emma-chip__detail">Build up intensity across the session.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔗</span> Isolated → Integrated<span class="emma-chip__detail">Move from single skills to combined expression.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔓</span> Constrained → Open<span class="emma-chip__detail">More rules early, fewer rules as the skill holds.</span></span>
+</div>
 
----
+<p class="emma-glabel">Session Notes Template</p>
 
-## Building Custom Sessions
-
-### Session Structure Guidelines
-
-A well-designed session follows this pattern:
-
-```
-1. Warm-up game (simpler, lower intensity)        — 8-10 min
-2. Skill builder #1 (isolated skill)              — 10-12 min
-3. Skill builder #2 (related skill or progression) — 10-12 min
-4. Integration game (combine skills)              — 12-15 min
-5. Live application (combined or free play)       — 15-20 min
-```
-
-### Pairing Principles
-
-| If you're working on... | Pair with... |
-|------------------------|--------------|
-| Defensive striking | Offensive striking (for combined) |
-| Wall offense | Wall escape (for understanding both sides) |
-| Ground access | Ground escape (attacker needs defender) |
-| Counter-striking | Land the Target (need initiator) |
-| Takedown offense | Takedown defense (balance the session) |
-
-### Progression Within Session
-
-Games should progress:
-
-1. **Simpler → Complex** — Start with fewer variables
-2. **Slower → Faster** — Build up intensity
-3. **Isolated → Integrated** — Single skill to combined
-4. **Constrained → Open** — More rules to fewer rules
-
----
-
-## Session Notes Template
-
-Use this template to document your sessions:
+<p>Document each session so the next one builds on it.</p>
 
 ```markdown
 ## Session: [Date]
@@ -199,11 +173,11 @@ Use this template to document your sessions:
 ### Focus: [Primary skill/environment]
 
 ### Games Played:
-1. [Game] — [Duration] — Notes:
-2. [Game] — [Duration] — Notes:
-3. [Game] — [Duration] — Notes:
-4. [Game] — [Duration] — Notes:
-5. [Game] — [Duration] — Notes:
+1. [Game], [Duration], Notes:
+2. [Game], [Duration], Notes:
+3. [Game], [Duration], Notes:
+4. [Game], [Duration], Notes:
+5. [Game], [Duration], Notes:
 
 ### Observations:
 - What worked:
@@ -216,11 +190,7 @@ Use this template to document your sessions:
 - Progress to:
 ```
 
----
-
-## Game Reference Quick List
-
-### By Environment
+<p class="emma-glabel">Game Reference Quick List</p>
 
 === "Skill Isolation"
     **Defensive:** Parry the Straight, Tight Block, Slip the Straight, Evade the Punch
@@ -258,9 +228,7 @@ Use this template to document your sessions:
 
     **Offensive:** Ground Access, Ground Control
 
-    **Combined:** Positional Battle
-
----
+    **Combined:** Positional Sparring
 
 <script>
 const games = {
@@ -340,7 +308,7 @@ const games = {
             {name: 'Ground Control', link: '../games/ground-control.md', difficulty: 'intermediate'}
         ],
         'combined': [
-            {name: 'Positional Battle', link: '../games/positional-battle.md', difficulty: 'intermediate'}
+            {name: 'Positional Sparring', link: '../games/positional-battle.md', difficulty: 'intermediate'}
         ]
     }
 };
@@ -456,7 +424,5 @@ function generateLessonPlan() {
 }
 </style>
 
----
-
-!!! abstract "Session Planning Philosophy"
-    The best sessions balance challenge and success. Players should succeed enough to build confidence while being pushed enough to grow. Adjust games and levels based on what you observe during play.
+??? abstract "Session planning philosophy"
+    The best sessions balance challenge and success. Players should succeed enough to build confidence while being pushed enough to grow. Adjust games and levels based on what you observe during play. For the reasoning behind game selection, see the [Session Planning Guide](session-planning.md).

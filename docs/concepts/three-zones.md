@@ -1,223 +1,147 @@
-# Three Zones of Attack
-
-## Core Principle
-
-In MMA striking, there are only **three zones** you can attack:
-
-| Zone | Targets |
-|------|---------|
-| **Head** | Chin, temple, nose, ear |
-| **Body** | Liver, solar plexus, ribs, floating ribs |
-| **Legs** | Thigh (inside/outside), calf, knee |
-
-Every strike you throw targets one of these three zones. Every defense you make protects one or more of these zones.
-
----
-
-## The Misdirection Principle
-
-**"Hit them where they're not."**
-
-This is the fundamental offensive principle in striking. Your opponent can only actively defend one area at a time. When they commit their attention and guard to one zone, other zones become available.
-
-### How It Works
-
-1. **Threaten one zone** — Make them believe an attack is coming to Zone A
-2. **They respond** — Their guard, attention, or body position shifts to protect Zone A
-3. **Attack another zone** — Zone B or C is now more exposed
-4. **Land the target** — Strike where their defense isn't
-
-This isn't a trick or a gimmick — it's the fundamental reality of striking. You cannot fully protect everything at once. The attacker's job is to make the defender commit to protecting the wrong thing.
-
-### Zone Exposure Reality
-
-When defense commits to one zone, others open:
-
-| If They Protect... | What Opens... |
-|-------------------|---------------|
-| Head (guard high, hands up) | Body and legs |
-| Body (guard low, elbows tight) | Head |
-| Legs (checking kicks, weight shifted) | Head and body |
-
----
-
-## Guard Position and Zone Protection
-
-Your hands can only be in one place at a time. Where you position your guard determines what you can protect quickly and what remains exposed.
-
-### Common Guard Positions
-
-**High Guard (hands at temples/forehead)**
-- Protects: Head from hooks, straight punches
-- Exposes: Body is open, legs are open
-- Common use: When expecting head attacks, shelling up
-
-**Mid Guard (hands at chin level)**
-- Protects: Head (with small movement), can drop to body
-- Exposes: Requires movement to protect anything — nothing fully covered
-- Common use: Neutral stance, ready position
-
-**Low Guard (hands at chest/belly)**
-- Protects: Body and solar plexus
-- Exposes: Head is completely open
-- Common use: Against body punchers, baiting head shots
-
-**Extended Guard (hands reaching out)**
-- Protects: Nothing directly — hands are away from body
-- Purpose: Intercept strikes before they arrive, control range, disrupt opponent
-- Risk: If opponent gets past the hands, everything is exposed
-
-**Philly Shell / Shoulder Roll**
-- Protects: Lead side of head and body (using shoulder and rear hand)
-- Exposes: Rear side of head, body if shoulder rolls late, legs
-- Common use: Counter-punching style
-
-### The Trade-off Reality
-
-There is no guard position that protects all three zones. Every stance, every hand position is a choice about what to prioritize and what to leave more vulnerable.
-
-When you see an opponent's guard, you're seeing their priorities — and their holes.
-
----
-
-## Building Combinations Across Zones
-
-The most effective combinations don't just throw multiple strikes — they use strikes to one zone to create openings in another zone.
-
-### The Logic
-
-When you attack a zone, the defender responds. That response changes what's available:
-
-| When You Attack... | Defender Tends To... | Which Opens... |
-|-------------------|---------------------|----------------|
-| Head | Bring hands up, tuck chin | Body, legs |
-| Body | Drop elbows, hunch forward | Head |
-| Legs | Check or shift weight | Head and body (hands occupied with balance) |
-
-### Combination Examples
-
-**Jab → Cross → Left Hook to Body**
-- Jab and cross attack the head
-- Defender's guard rises to protect head
-- Body is now exposed
-- Left hook lands to open body
-
-**Jab to Body → Cross to Head**
-- Jab attacks the body
-- Defender's guard drops or elbows tuck
-- Head is now exposed
-- Cross lands high
-
-**1-2 → Low Kick**
-- Jab-cross attacks head
-- Defender's hands are occupied high
-- Legs are exposed
-- Low kick lands while they're focused on hands
-
-**Head Kick Feint → Low Kick**
-- Feint high kick threatens head
-- Defender's hands rise, weight shifts to check high
-- Lead leg is now available
-- Low kick lands to exposed leg
-
-### The Principle
-
-Early strikes in a combination aren't just trying to land — they're **shaping the defender's response** to open the target you actually want to hit.
-
-The last strike in a well-constructed combination is often the one that was planned from the beginning. Everything before it was setup.
-
----
-
-## Found Openings vs. Created Openings
-
-Openings exist in two ways:
-
-### Found Openings
-
-These exist because of the opponent's habits or current position:
-- Their guard naturally sits low (head is open)
-- They always drop their hands after throwing
-- They don't check leg kicks
-- They have a habit of looking away at certain moments
-
-**Attacker's job:** Observe, recognize the pattern, attack the available zone.
-
-### Created Openings
-
-These don't exist until you make them:
-- Feint to head → they react → body opens
-- Attack body repeatedly → they start protecting body → head opens
-- Threaten the lead leg → they shift weight → rear leg is planted (can't check)
-
-**Attacker's job:** Use misdirection to force a defensive response that creates the opening you want.
-
-High-level striking is about **creating** openings, not just finding them. You make the hole, then you hit it.
-
----
-
-## Defensive Implications
-
-### Zone Awareness
-
-As a defender, you must be aware:
-- Which zone is your guard currently protecting?
-- Which zones are you exposing?
-- What patterns are you showing? (Do you always protect the same zone?)
-
-### The Defensive Problem
-
-You cannot protect all three zones simultaneously. Defense requires:
-
-1. **Reading** — What zone are they likely to attack?
-2. **Prioritizing** — Protect the most threatened zone
-3. **Recovering** — After defending one zone, reset before they attack another
-4. **Varying** — Don't be predictable about which zone you prioritize
-
-### Don't Be Predictable
-
-If you always protect your head and leave your body open, the attacker will figure this out and target your body. Effective defense requires varying your guard position and not showing consistent patterns.
-
----
-
-## Application to Confidence Rating
-
-Zone reading connects directly to the Confidence Rating concept:
-
-| Confidence Level | Zone Strategy |
-|------------------|---------------|
-| **Low** | Probe all three zones to see how they react |
-| **Building** | Identify which zone they protect most, which they neglect |
-| **High** | Attack neglected zone with commitment |
-| **Very High** | Create openings by manipulating their zone defense |
-
-At low confidence, you're gathering information: "What happens when I go to the body? How do they react to head feints?"
-
-At high confidence, you KNOW: "They always protect the head. Body is open. I'm going there."
-
----
-
-## Summary
-
-**Three Zones:** Head, Body, Legs — these are the only targets.
-
-**The Misdirection Principle:** "Hit them where they're not." Make them commit to defending one zone, attack another.
-
-**Guard Reality:** Every guard position protects some zones and exposes others. There is no perfect defense.
-
-**Combination Logic:** Use early strikes to shape defensive response and open the zone you actually want to hit.
-
-**Found vs. Created:** Openings can be observed (their habits) or manufactured (your setups). High-level striking creates openings.
-
----
-
-## Relationship to Other Concepts
-
-| Concept | Relationship |
-|---------|--------------|
-| **Confidence Rating** | Zone reading is how you build offensive confidence |
-| **Defensive Solutions** | Each solution (block, parry, slip) works differently across zones |
-
----
-
-!!! abstract "System Evolution Notice"
-    This concept may be refined as striking game patterns develop.
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/three-zones.png" alt="Three Zones of Attack">
+  <div class="emma-phero__cap"><span class="k">Striking Concept · Offense + Defense</span><span class="h">Three Zones of Attack</span></div>
+</div>
+
+<div class="emma-meta"><span>Striking Concept</span><span>Offense + Defense</span><span>Misdirection</span></div>
+
+<p class="emma-hl"><b>There are only three zones you can attack.</b> Every strike targets one; every defense protects one or more. You cannot fully protect all three at once, and that is the whole game.</p>
+
+<div class="emma-band">
+  <p class="emma-statement">No guard covers all three, <br><span class="accent">hit them where they're not.</span></p>
+  <p class="emma-statement__sub">Head, body, legs. Every stance is a trade; their guard shows you their holes.</p>
+</div>
+
+<p class="emma-glabel">The Three Zones</p>
+
+<div class="emma-bodymap">
+  <div class="emma-zone emma-zone--high">
+    <div class="emma-zone__badge">🧠</div>
+    <div class="emma-zone__main">
+      <div class="emma-zone__head"><span class="lv">High</span><span class="lk">Head</span></div>
+      <div class="emma-zone__tgts"><span>Chin</span><span>Temple</span><span>Nose</span><span>Jaw</span><span>Ear</span></div>
+    </div>
+    <div class="emma-zone__tier">1</div>
+  </div>
+  <div class="emma-zone emma-zone--mid">
+    <div class="emma-zone__badge">🫁</div>
+    <div class="emma-zone__main">
+      <div class="emma-zone__head"><span class="lv">Mid</span><span class="lk">Body</span></div>
+      <div class="emma-zone__tgts"><span>Liver</span><span>Solar plexus</span><span>Ribs</span><span>Floating ribs</span></div>
+    </div>
+    <div class="emma-zone__tier">2</div>
+  </div>
+  <div class="emma-zone emma-zone--low">
+    <div class="emma-zone__badge">🦵</div>
+    <div class="emma-zone__main">
+      <div class="emma-zone__head"><span class="lv">Low</span><span class="lk">Legs &amp; Base</span></div>
+      <div class="emma-zone__tgts"><span>Thigh</span><span>Knee</span><span>Calf</span><span>Below the knee</span><span>Foot sweeps</span></div>
+    </div>
+    <div class="emma-zone__tier">3</div>
+  </div>
+</div>
+
+<p class="emma-sub">Three zones is the high-level map. The low zone runs deeper than thigh kicks: the lower leg below the knee and the feet are live targets too, and sweeping the base is its own threat.</p>
+
+<p class="emma-glabel">The Misdirection Principle</p>
+
+<p class="emma-hl"><b>"Hit them where they're not."</b> The opponent can defend more than one area at a time, but never <i>everywhere</i> at once. Pull their guard and attention onto the zones you threaten, and the zone they leave open is the one you take. This isn't a gimmick, it's the fundamental reality of striking.</p>
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Threaten one zone</b>Make them believe an attack is coming to Zone A.<span class="emma-pop emma-pop--l">A real, committed-looking threat, a feint or a partial strike that reads as the real thing.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>They respond</b>Guard, attention, or body position shifts to protect Zone A.<span class="emma-pop emma-pop--l">The defensive reaction is what creates the opening, you're shaping it on purpose.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Attack another zone</b>Zone B or C is now more exposed.<span class="emma-pop emma-pop--l">They cannot cover what they just left to protect Zone A.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Land the target</b>Strike where their defense isn't.<span class="emma-pop emma-pop--l">The last strike was often planned from the start, everything before it was setup.</span></div>
+</div>
+
+<p class="emma-sub">When defense commits to one zone, the others open</p>
+
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Protect head (hands high)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Body and legs open</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Protect body (guard low, elbows tight)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Head opens</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Protect legs (checking, weight shifted)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Head and body open</span></div>
+</div>
+
+<p class="emma-glabel">Guard Positions: Every One Is a Trade</p>
+
+<p class="emma-hl">There is no guard that protects all three zones. Every stance is a choice about what to prioritize and what to leave vulnerable. <b>When you see an opponent's guard, you're seeing their priorities, and their holes.</b></p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬆️</span> High Guard<span class="emma-chip__detail">Hands at temples/forehead. Protects head from hooks and straights; exposes body and legs. Used when expecting head attacks or shelling up.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↔️</span> Mid Guard<span class="emma-chip__detail">Hands at chin level. Protects head with small movement, can drop to body, but nothing is fully covered without movement. The neutral, ready position.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬇️</span> Low Guard<span class="emma-chip__detail">Hands at chest/belly. Protects body and solar plexus; head is completely open. Used against body punchers or to bait head shots.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤚</span> Extended Guard<span class="emma-chip__detail">Hands reaching out. Protects nothing directly, instead intercepts strikes before they arrive, controls range, disrupts the opponent. Risk: if they get past the hands, everything is exposed.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛞</span> Philly Shell / Shoulder Roll<span class="emma-chip__detail">Lead shoulder and rear hand. Protects lead side of head and body; exposes rear side of head, body if the shoulder rolls late, and legs. A counter-punching style.</span></span>
+</div>
+
+<p class="emma-glabel">Building Combinations Across Zones</p>
+
+<p class="emma-hl">The best combinations don't just throw multiple strikes, early strikes <b>shape the defensive response</b> to open the target you actually want. The last strike is the plan; everything before it is setup.</p>
+
+<p class="emma-sub">When you attack a zone, the defender reacts: opening another</p>
+
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Attack head</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Hands up, chin tucked → body, legs open</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Attack body</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Elbows drop, hunch forward → head opens</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Attack legs</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Check or shift weight → head and body open (hands busy with balance)</span></div>
+</div>
+
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🥊</div><div class="emma-card__t">Jab → Cross → Left Hook to Body</div><p>Head shots raise the guard; the body opens for the hook.<span class="emma-pop">Jab and cross attack the head, the guard rises, the open body takes the hook.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🫁</div><div class="emma-card__t">Jab to Body → Cross to Head</div><p>The body jab drops the guard; the head opens for the cross.<span class="emma-pop">The body jab pulls elbows/guard down, the cross lands high on the exposed head.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🦵</div><div class="emma-card__t">1-2 → Low Kick</div><p>Hands occupied high; the legs are unguarded.<span class="emma-pop">Jab-cross occupies the hands high, the low kick lands while they focus on the hands.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎭</div><div class="emma-card__t">Head Kick Feint → Low Kick</div><p>The high feint lifts the hands; the lead leg is available.<span class="emma-pop">The feint sends hands up and weight high to check; the low kick lands on the exposed lead leg.</span></p></div>
+</div>
+
+<p class="emma-glabel">Found vs. Created Openings</p>
+
+<p class="emma-hl">High-level striking is about <b>creating</b> openings, not just finding them. You make the hole, then you hit it.</p>
+
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔍</div><div class="emma-card__t">Found openings</div><p>Exist from the opponent's habits or current position, observe, recognize, attack.<span class="emma-pop">Guard naturally sits low, hands drop after throwing, no leg-kick checks, looks away at certain moments. The attacker's job: spot the pattern, hit the available zone.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🛠️</div><div class="emma-card__t">Created openings</div><p>Don't exist until you manufacture them with misdirection.<span class="emma-pop">Feint to head → body opens; attack body repeatedly → they guard it → head opens; threaten the lead leg → weight shifts → rear leg planted. The attacker's job: force the response that creates the opening you want.</span></p></div>
+</div>
+
+<p class="emma-glabel">Defensive Implications</p>
+
+You cannot protect all three zones simultaneously. Sound defense runs a loop:
+
+<div class="emma-stepper">
+  <div class="emma-step"><span class="emma-step__n">1</span><b>Read</b>What zone are they likely to attack?</div>
+  <div class="emma-step"><span class="emma-step__n">2</span><b>Prioritize</b>Protect the most threatened zone.</div>
+  <div class="emma-step"><span class="emma-step__n">3</span><b>Recover</b>Reset before they attack another.</div>
+  <div class="emma-step"><span class="emma-step__n">4</span><b>Vary</b>Don't be predictable about which zone you prioritize.</div>
+</div>
+
+<div class="emma-warns">
+  <span class="emma-warn">Always protecting the same zone, they'll find the hole</span>
+  <span class="emma-warn">Showing a consistent guard pattern</span>
+  <span class="emma-warn">Not knowing which zone you're currently exposing</span>
+</div>
+
+<p class="emma-glabel">Application to Confidence Rating</p>
+
+Zone reading is how you build offensive confidence, it scales with your <a href="../confidence-rating/">Confidence Rating</a>.
+
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Low</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Probe all three zones to see how they react</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Building</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Identify which zone they protect most, which they neglect</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">High</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Attack the neglected zone with commitment</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Very High</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Create openings by manipulating their zone defense</span></div>
+</div>
+
+??? note "Summary &amp; related concepts"
+    <ul class="emma-checklist">
+      <li><b>Three zones</b>, Head, Body, Legs are the only targets.</li>
+      <li><b>Misdirection</b>, make them commit to one zone, attack another.</li>
+      <li><b>Guard reality</b>, every position protects some zones, exposes others. No perfect defense.</li>
+      <li><b>Combination logic</b>, early strikes shape the response to open the real target.</li>
+      <li><b>Found vs. created</b>, high-level striking manufactures openings.</li>
+    </ul>
+
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../confidence-rating/">Confidence Rating</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Zone reading is how you build offensive confidence</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../defensive-solutions/">Defensive Solutions</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Each solution (block, parry, slip) works differently across zones</span></div>
+    </div>
+
+    <p class="emma-sub">This concept may be refined as striking game patterns develop.</p>

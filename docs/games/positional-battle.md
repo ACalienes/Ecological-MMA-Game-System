@@ -1,5 +1,5 @@
 ---
-title: Positional Battle
+title: Positional Sparring
 environment: ground
 domain: grappling
 focus: combined
@@ -13,290 +13,64 @@ prerequisites:
   games:
     - ground-escape
     - ground-access
+    - ground-control
 tags:
+  - format
   - ground
   - combined
   - positional
   - scramble
-  - battle
-  - guard
-  - mount
-  - side-control
-  - back-control
-  - high-intensity
+  - live
 ---
 
-# Positional Battle
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/positional-battle.png" alt="Positional Sparring">
+  <div class="emma-phero__cap"><span class="k">Format · Live Sparring</span><span class="h">Positional Sparring</span></div>
+</div>
 
-!!! info "Game Identity"
-    - **Problem:** Winning positional exchanges on the ground
-    - **Environment:** Ground
-    - **Stage:** Combined (Offensive + Defensive Grappling)
+<div class="emma-meta"><span>Format</span><span>Ground</span><span>Live</span><span>Both Compete</span></div>
 
-This is a **combined ground game** where both players fight for positional advantage. Unlike asymmetric games, both players have the same goal: achieve and maintain dominant position.
+<p class="emma-hl"><b>Positional sparring is a format, not a standalone game.</b> Both players start from a <i>defined</i> ground position and compete live for the dominant one. It is the live layer of the ground games, not its own problem.</p>
 
----
+<div class="emma-band">
+  <p class="emma-statement">There is no symmetric ground start, <br><span class="accent">so define the position, then go live.</span></p>
+  <p class="emma-statement__sub">The ground is asymmetric: someone is always on top, in guard, or dominant. Pick a real start from a ground game, then both fight to climb the hierarchy. <b>Momentary position doesn't count, establish it and hold it.</b></p>
+</div>
 
-## Goal
+<p class="emma-glabel">Run It On These Games</p>
 
-This is a **symmetric game** with identical objectives.
+<div class="emma-cards">
+  <a class="emma-card emma-has-pop" href="../ground-access/" tabindex="0"><div class="emma-card__i">🗝️</div><div class="emma-card__t">Ground Access, live</div><p>Start in guard: top passes, bottom sweeps or recovers. Both compete.<span class="emma-pop">The "Live Positional Battle" level of Ground Access: from a defined guard, both players fight for the better position rather than playing fixed pass-vs-sweep roles.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../ground-control/" tabindex="0"><div class="emma-card__i">📌</div><div class="emma-card__t">Ground Control, live</div><p>Start in a dominant position: top holds, bottom escapes or reverses. Both compete.<span class="emma-pop">The "Live Positional Battle" level of Ground Control: from a defined top position, the exchange runs live and position can change hands.</span></p></a>
+</div>
 
-| Both Players | Objective |
-|--------------|-----------|
-| **Goal** | Achieve and maintain dominant position |
+<p class="emma-glabel">The Position Hierarchy</p>
 
-Dominant position hierarchy: Back > Mount > Side Control > Top Half > Guard > Bottom
+<p class="emma-hl">This is the value system both players fight toward. Mid-scramble, it tells you which way is "up."</p>
 
----
+<div class="emma-posmap">
+  <div class="emma-posmap__axis"><span>Dominant</span><span>Inferior</span></div>
+  <div class="emma-pos emma-pos--dom"><div class="emma-pos__rank">1</div><div class="emma-pos__name">Back Control<span class="d">Hooks in behind the opponent. The most dominant position.</span></div><span class="emma-pos__tag">Dominant</span></div>
+  <div class="emma-pos emma-pos--dom"><div class="emma-pos__rank">2</div><div class="emma-pos__name">Mount<span class="d">Sitting on the torso, full top control.</span></div><span class="emma-pos__tag">Dominant</span></div>
+  <div class="emma-pos emma-pos--neu"><div class="emma-pos__rank">3</div><div class="emma-pos__name">Side Control<span class="d">Perpendicular top pin.</span></div><span class="emma-pos__tag">Top</span></div>
+  <div class="emma-pos emma-pos--neu"><div class="emma-pos__rank">4</div><div class="emma-pos__name">Top Half Guard<span class="d">On top, one leg trapped. Working to pass.</span></div><span class="emma-pos__tag">Top</span></div>
+  <div class="emma-pos emma-pos--inf"><div class="emma-pos__rank">5</div><div class="emma-pos__name">Guard<span class="d">On bottom with legs engaged. Defensive, but live.</span></div><span class="emma-pos__tag">Bottom</span></div>
+  <div class="emma-pos emma-pos--inf"><div class="emma-pos__rank">6</div><div class="emma-pos__name">Bottom / Flattened<span class="d">Pinned with no leg engagement. The most inferior position.</span></div><span class="emma-pos__tag">Inferior</span></div>
+</div>
 
-## Entry Condition
+<p class="emma-glabel">How to Run the Format</p>
 
-- Start from neutral ground position (both in guard, or scramble position)
-- Both players work to achieve dominant position
-- Continue until one player establishes clear dominance
-- Reset after position is held for set duration
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📍</span> Start from a defined position<span class="emma-chip__detail">Never start from a vague "neutral." Pick a real position from the ground game you are running (guard, side control, mount) so both players know exactly where they begin.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚔️</span> Both compete, no fixed roles<span class="emma-chip__detail">Unlike the base ground game's attacker/defender split, here both players fight for the better position at once, a true competitive dyad.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📌</span> Position must be established<span class="emma-chip__detail">A position only counts when established and held for the set duration. Momentary advantage earns nothing.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Submissions optional<span class="emma-chip__detail">Keep it positional to isolate the skill, or allow submissions at the Full MMA layer.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play inside a marked perimeter. Rolling fully out loses the exchange, training mat-edge awareness.</span></span>
+</div>
 
----
+<p class="emma-glabel">What to Read</p>
 
-## Invariants
+<p class="emma-hl"><b>Attune to</b> the <i>felt weight distribution and base through contact</i>: the opponent's balance loading and going light, your own base over or under theirs, the control points that strengthen or break, plus the opponent's <b>hip and frame motion</b> mid-scramble. That inertial information specifies the positional advantage <i>before</i> the scramble resolves.</p>
 
-1. Both players **actively pursue position** — no stalling
-2. Submissions are not the focus — pure positional work
-3. Position must be **established** to count (momentary doesn't count)
-4. Scrambles continue until clear position emerges
-
----
-
-## Task Focus
-
-### Both Players
-- Pursue positional advancement
-- Deny opponent's advancement
-- Capitalize on scrambles
-- Consolidate when achieving position
-
-!!! question "Key Internal Questions"
-    - "What position am I fighting toward?"
-    - "Can I advance or do I need to defend first?"
-    - "Who's winning this scramble?"
-
----
-
-## Key Logic: Positional Hierarchy
-
-!!! note "The Core Skill"
-    Ground positions have clear value:
-
-    | Position | Control Level |
-    |----------|--------------|
-    | Back mount (hooks + seatbelt) | Highest |
-    | Mount | Very high |
-    | Back (no hooks) | High |
-    | Side control | High |
-    | Knee on belly | Medium-high |
-    | Top half guard | Medium |
-    | Closed guard (bottom) | Medium (defensive) |
-    | Open guard (bottom) | Low-medium |
-    | Turtle | Dangerous |
-    | Under side control | Low |
-    | Under mount | Very low |
-
-    The skill: Understanding positional value and fighting toward better positions.
-
----
-
-## Win Conditions
-
-| Outcome | Condition |
-|---------|-----------|
-| **Win** | Establish dominant position (side control, mount, or back) for set duration |
-| **Reset** | If neither establishes dominance within time limit |
-
-Roles don't switch — both players always competing for position.
-
----
-
-## Levels
-
-=== "Level 1 — From Guard"
-    - Start with one player in other's guard
-    - Top passes or bottom sweeps
-    - Focus: Guard vs. pass dynamic
-
-=== "Level 2 — From Neutral"
-    - Start both seated, facing each other
-    - True scramble to position
-    - Focus: Winning neutral exchanges
-
-=== "Level 3 — From Scramble"
-    - Start mid-scramble (e.g., after failed takedown)
-    - Chaotic positional fight
-    - Focus: Scramble awareness
-
-=== "Level 4 — Full MMA Expression"
-    - Strikes allowed from any position
-    - Positional value affected by strike threat
-    - Focus: Positional fighting under MMA pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Safety
-
-- **Contact limits:** Controlled grappling, no submissions
-- **Stop conditions:** Neck cranks, slam attempts
-- **Coach intervention:** Reset if both players stall
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Symmetric goal (both pursue position) | Creates true competitive dynamic |
-| **Task** | No submissions focus | Isolates positional skill |
-| **Task** | Position must be established (not momentary) | Develops stable positions |
-| **Task** | Progressive starting points (guard → neutral → scramble) | Scaffolded chaos |
-| **Individual** | Prerequisites: Ground Escape + Ground Access | Understands both offense and defense |
-| **Environmental** | Full ground environment | All positions available |
-
-!!! info "Theoretical Foundation"
-    This game develops **positional value perception**—understanding which positions are better and fighting toward them. The symmetric constraint (both players pursuing position) creates genuine competition where both athletes explore solutions simultaneously. **Scramble perception** emerges as athletes learn to read positional advantage mid-transition. This is the **dyadic system** at work—both athletes co-adapting in real-time (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Both Players Perceive
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Opponent's balance and base | Sweep/advancement opportunity |
-| **Haptic** | Control point strength | Where to attack |
-| **Visual** | Opponent's position hierarchy | Strategic goal |
-| **Visual** | Scramble direction | Positional advantage |
-| **Proprioceptive** | Own base stability | Attack vs. defend decision |
-| **Proprioceptive** | Own position in hierarchy | What to pursue |
-
-!!! tip "Coaching Cue"
-    Ask athletes: "Who was winning that scramble?" This develops real-time positional awareness. Ask: "What position were you fighting toward?" This develops strategic thinking during chaos.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Scrambles and positional battles on the ground—both athletes fighting for dominant position.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Positional competition** | Core of ground fighting | Same | High |
-| **Scramble dynamics** | Common in transitions | Same | High |
-| **Position hierarchy** | Clear value system | Same | High |
-| **Symmetric goals** | Both want top/back | Same | High |
-| **Strikes** | Affect positional value | Progressive by level | Scaffolded |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| No submission focus | Isolates positional skill |
-| Clear position hierarchy | Establishes value system |
-| Progressive starting chaos | Develops scramble skill gradually |
-
-!!! note "Transfer Expectation"
-    Positional battle skill developed here transfers directly to MMA. The perception of positional value and scramble dynamics is identical in competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Starting position** | Guard, neutral, mid-scramble | Multiple positional problems |
-| **Opponent style** | Aggressive, defensive, scrambler | Adaptability |
-| **Opponent size** | Larger, smaller, equal | Position calibration |
-| **Time pressure** | Short rounds, long rounds | Urgency calibration |
-| **Intensity** | Drilling pace, live pace | Pressure development |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Symmetric goals | Maintains competitive dynamic |
-| Position establishment required | Prevents momentary positions counting |
-| No submission focus | Maintains positional emphasis |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Wins from guard position | Basic skill developing |
-| Wins neutral scrambles | Scramble perception developing |
-| Wins chaotic scrambles | Ready for full expression |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Wins positional exchanges from current level
-- [ ] Understands position hierarchy
-- [ ] Recognizes scramble advantage
-- [ ] Consolidates positions when achieved
-- [ ] Can articulate: "I was winning because I had..."
-
-### Ready to Exit Game When
-
-- [ ] Level 2+ competence (wins from neutral)
-- [ ] Position hierarchy is instinctive
-- [ ] Scramble awareness is automatic
-- [ ] Positional battle appears in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Doesn't know who's winning | Position awareness lacking | Teach hierarchy explicitly |
-| Can't consolidate positions | Establishment skill lacking | Focus on stabilization |
-| Avoids scrambles | Scramble fear | More controlled scramble reps |
-| Only one position works | Limited vocabulary | Vary starting positions |
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Ground Escape] --> B[Positional Battle]
-    C[Ground Access] --> B
-    B --> D[Ground Control]
-    B --> E[Ground Finish]
-
-    style B fill:#2196F3,color:#fff
-```
-
-- **Prerequisite games:** Ground Escape, Ground Access
-- **Follow-on games:** Ground Control, Ground Finish
-- **Related concepts:** Decision States
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as positional battle patterns emerge.
+??? note "Why this is a format, not a game"
+    Every other ground game has a crisp, representative start: Ground Access begins with the top in guard, Ground Escape begins under control, Ground Control begins from an established dominant position. A standalone "positional battle" tried to start from a symmetric neutral, but the ground has no representative symmetric start, so it could never define where to begin. Positional sparring solves this by running live <i>on top of</i> a defined ground-game position. See <a href="../ground-access/">Ground Access</a> and <a href="../ground-control/">Ground Control</a> for the live levels.

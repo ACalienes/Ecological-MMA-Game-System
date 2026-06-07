@@ -26,393 +26,191 @@ tags:
   - angle
 ---
 
-# Land the Target
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/land-the-target.png" alt="Land the Target">
+  <div class="emma-phero__cap"><span class="k">Open Space · Striking</span><span class="h">Land the Target</span></div>
+</div>
+
+<div class="emma-meta"><span>Open Space</span><span>Striking</span><span>Offensive</span><span>Intermediate</span><span>Access</span></div>
+
+Land one declared target by reading the defense and opening it with setup and misdirection, while the defender resists without countering.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at striking range inside a marked perimeter; attacker has one target in mind.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker opens the defense to land the declared target; defender protects all three zones.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land the target → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Pick the shot first, <br><span class="accent">then make the defense open it.</span></p>
+  <p class="emma-statement__sub">A declared target turns offense into a read-and-setup problem, not volume. <b>You only win when your one chosen shot lands clean.</b></p>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the defender's <i>guard reactions to your probes</i>, how their shell shifts when you threaten a zone, together with the <i>rate of expansion</i> (τ) of your own committing shot toward the opening at <b>center mass</b>. The opening you read isn't where the guard <i>is</i>; it's where it <i>goes</i> when you make it move.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Striking range, with room to create angles.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter. Both stay inside it.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender, switch when the target lands.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker picks a target and initiates; reset to neutral after each exchange.</div>
+</div>
+
+<p class="emma-glabel">The Matchup</p>
+
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to land a predetermined target shot by reading the defense and creating openings.</p>
+    <span class="emma-pop">Probe, identify, set up, then commit. You may attack other zones as setup, but you only win when you land your <em>declared</em> target.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to defend all three zones, head, body, legs, effectively. No countering.</p>
+    <span class="emma-pop">Defend naturally with the full toolkit (block, parry, slip, move). You have no win condition, your success is making the attacker work for every opening.</span>
+  </div>
+</div>
+
+<p class="emma-glabel">The Rules</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Defender cannot counter<span class="emma-chip__detail">The defender plays pure defense. Removing the counter-threat lets the attacker focus entirely on reading patterns and building setups.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎯</span> Attacker has a specific target<span class="emma-chip__detail">Before engaging, the attacker picks one predetermined target shot, not just throwing volume. Everything serves landing <strong>that</strong> shot.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛡️</span> Defend all three zones<span class="emma-chip__detail">The defender must protect head, body, and legs naturally, no artificial bias toward one zone, so the attacker has to earn the opening with misdirection.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔍</span> Probes &amp; setups allowed<span class="emma-chip__detail">Jabs, feints, and setup combinations are encouraged to shape the defense, but they aren't the goal. Landing the declared target is.</span></span>
+</div>
+
+<p class="emma-glabel">How to Win</p>
+
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land the declared target clean → switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target zone with real energy transfer, not a whiff, graze, or blocked shot. Land it and you become the defender.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Whiffed, grazed, or blocked → reset, read again.<span class="emma-pop">A failed attempt isn't a loss; it's information, same roles. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> Defender denies every opening → diagnostic success.<span class="emma-pop">The defender has no win condition. Success is measured by maintaining solid defense across all zones and forcing the attacker to read, set up, and commit. The attacker calls their own clean landing on the honor system, this is an academic exercise.</span></div>
+</div>
+
+<p class="emma-glabel">The Levels</p>
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Private target</b>Target in mind, not announced.<span class="emma-pop emma-pop--l">The standard mode. Read → setup → land, then claim the win on the honor system. The defender defends all zones naturally.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Announced target</b>Declare it first, harder, not easier.<span class="emma-pop emma-pop--l">You announce the target ("left hook to body") so the defender focuses there. You must pull their defense away and still land it.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Defender counters</b>Counter strikes after good defense.<span class="emma-pop emma-pop--l">The defender can fire counters once they defend successfully. You pursue the target while respecting the counter risk.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA expression</b>Counters plus clinch denial.<span class="emma-pop emma-pop--l">The defender adds clinch to deny your offense. Land the target under realistic MMA pressure, counters and clinch both live.</span></div>
+</div>
+
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What opening are you actually reading?</summary>
+    <div class="emma-recall__a">Not where the guard <b>is</b>, but where it <b>goes</b> when you make it move. Read the defender's guard reactions to your probes, then the τ of your committing shot.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does a single declared target make this harder, not easier?</summary>
+    <div class="emma-recall__a">You only win on that <b>one chosen shot</b>, so offense becomes a read-and-setup problem, not volume. You must earn the opening with misdirection.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why can the defender not counter, and why do they have no win condition?</summary>
+    <div class="emma-recall__a">Removing the counter-threat lets the attacker focus on <b>reading patterns and building setups</b>. The defender succeeds by denying openings and forcing the work.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What is the cycle that should precede every committed shot?</summary>
+    <div class="emma-recall__a"><b>Probe, read, setup, commit.</b> Probes gather info; the target is the goal. Intent separates the two, not the technique itself.</div>
+  </details>
+</div>
 
-!!! info "Game Identity"
-    - **Problem:** Learning to identify openings, construct combinations, and land predetermined targets
-    - **Environment:** Open Space
-    - **Stage:** Access (Offensive Skill Development)
+<p class="emma-glabel">Go Deeper</p>
 
-This is an **offensive development game** that teaches the attacker to read defensive patterns, use the Three Zones principle, and land specific targets through setup and misdirection. The defender provides real resistance without counter-threat.
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Goal
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Probe to read, identify the protected zone, set up combinations to expose the target, then commit and land it.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Defend all zones naturally; use every defensive solution; make the attacker work; never counter.</p></div>
+    </div>
 
-**Game Type:** Asymmetric
+    <p class="emma-sub">Coaching cues</p>
 
-**A Side (Attacker)**
-- Objective: Land a predetermined target shot by reading defense and creating openings
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Probe → read → setup → commit</div><p>"What happens to their guard when you go to the body? What opens?" Build the cycle instead of mindless combinations.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Intent, not technique</div><p>A jab can be the target if that's what you set out to land. The distinction is intent, probes gather info, the target is the goal.</p></div>
+    </div>
 
-**B Side (Defender)**
-- Objective: Defend effectively against all three zones (head, body, legs)
-- Constraint: Cannot counter — defense only
+??? abstract "Constraints-Led analysis"
 
----
+    <p class="emma-sub">Constraints → Affordances</p>
 
-## Entry Condition
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Predetermined target</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops intentional, strategic offense, not volume</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender can't counter (L1–2)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Explore setup patterns without counter-threat distraction</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Must land a specific shot to win</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces reading defense and creating openings</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender protects all three zones</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Requires misdirection, not just power</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Open space, striking range</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full movement and angle creation available</span></div>
+    </div>
 
-- Both players start in neutral standing at striking range
-- Attacker has a target in mind (private at Level 1, announced at Level 2)
-- Defender assumes defensive stance, ready to defend all zones
-- Reset and switch roles when attacker lands their target
+    <p class="emma-hl">Implements the <b>Co-Adaptation Principle</b> (Renshaw et al., 2019), constraining the defender shapes what affordances the attacker perceives and explores.</p>
 
----
+    <p class="emma-sub">What the attacker reads</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Guard position, reactions to probes, weight distribution, eye focus → which zones are protected and what opens.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Contact on setup strikes → confirms defensive commitment.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own distance and angle → when in range for the target shot.</p></div>
+    </div>
 
-1. Defender **cannot counter** — this removes pressure so attacker can focus on reading and setup
-2. Defender must defend **all three zones** naturally — no artificial bias toward one zone
-3. Attacker must have a **specific target** in mind before engaging (not just throwing volume)
-4. Probes and setup strikes are allowed but are not the goal — landing the target is the goal
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the <b>committing shot lands on the opening the probe created</b>, track target-landed vs. attempts, and whether each landing followed a genuine setup (read → open → commit) rather than a repeated guess. That coupling of opening-read to committed strike is the order parameter; when it stabilizes, intentional offense has formed.</p>
 
-## Task Focus
+    <p class="emma-sub">Representativeness</p>
 
-### A Side (Attacker)
+    <p class="emma-hl"><b>Models:</b> sustained offensive striking with a target in mind, setting up the finish, attacking the body to slow them, chopping the lead leg.</p>
 
-**Primary task:** Land your predetermined target shot
+    <div class="emma-meta"><span>Simplified: no counter-threat (L1–2)</span><span>single target</span><span>role switch on success</span></div>
 
-- **Probe** — Use jabs, feints, and low-commitment strikes to read defensive patterns
-- **Identify** — Which zone are they protecting? What opens after certain attacks?
-- **Setup** — Construct combinations that shape their defense to expose your target zone
-- **Commit** — When confident, execute the combination and land the target
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Pattern recognition and misdirection transfer directly into <a href="../touch-game/">Touch and Don't Get Touched</a> and live sparring.</p>
 
-You can attack other zones as part of your setup. Landing shots to other zones is fine — but it doesn't win the game. You win when you land your declared target.
+    <p class="emma-sub">Readiness to progress</p>
 
-!!! question "Key Internal Questions — Attacker"
-    - "What zone are they prioritizing?"
-    - "What happens when I attack their head? Their body?"
-    - "How do I create the opening for my target?"
-    - "Am I probing or am I committing?"
+    <ul class="emma-checklist">
+      <li>Lands varied targets vs. varied defenders</li>
+      <li>Uses setups, not just the target shot repeatedly</li>
+      <li>Can explain "I went to X to open Y"</li>
+      <li>Shows probe → read → setup → commit</li>
+      <li>Success not dependent on one defender</li>
+    </ul>
 
-### B Side (Defender)
+    <p class="emma-sub">Warning signs</p>
 
-**Primary task:** Defend all three zones effectively
+    <div class="emma-warns">
+      <span class="emma-warn">Just throws the target shot repeatedly</span>
+      <span class="emma-warn">Can't verbalize the setup logic</span>
+      <span class="emma-warn">Only succeeds vs. one defender</span>
+      <span class="emma-warn">Frustrated when it doesn't land fast</span>
+    </div>
 
-- Defend naturally — don't artificially favor one zone
-- Use all defensive solutions (block, parry, slip, move)
-- Make the attacker work for the opening
-- Cannot counter — focus entirely on defense
+??? note "Safety &amp; related games"
 
-!!! question "Key Internal Questions — Defender"
-    - "Am I defending all zones or showing a pattern?"
-    - "Am I making them work or giving away openings?"
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate, controlled contact</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on excessive force or lost composure</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if attacker throws volume or defender counters</span>
+    </div>
 
----
+    <p class="emma-sub">Where it sits</p>
 
-## Legal Actions
-
-- **Strikes:** Attacker — all strikes to all zones. Defender — none (defense only)
-- **Submissions:** None
-- **Wrestling:** None
-
----
-
-## Key Logic
-
-### The Target Concept
-
-The attacker doesn't just try to "land punches." They have a **specific target** in mind:
-
-- "I want to land a left hook to the body"
-- "I want to land a cross to the head"
-- "I want to land a low kick to the lead leg"
-
-Everything they do is in service of landing THAT target. Probes gather information. Setups create the opening. The target shot is the goal.
-
-### What "Landing Clean" Means
-
-A strike lands clean when:
-- It reaches the target zone with solid contact
-- Enough energy transfers that you know impact occurred
-- Had it been thrown with full intention, it would have caused significant damage
-
-A strike does NOT count if:
-- It whiffs or barely brushes the target
-- It's fully blocked or deflected
-- Only grazing contact occurs
-
-### Probes vs. Target Shots
-
-| Type | Purpose | Examples |
-|------|---------|----------|
-| **Probe** | Gather information, test reactions | Jab, feint, single light strikes |
-| **Setup** | Shape defensive response, create opening | Combinations to one zone to open another |
-| **Target** | The predetermined shot you planned to land | The specific strike you set out to hit |
-
-A jab can be a target if that's what you set out to land. The distinction is intent, not the technique.
-
-### Applying the Three Zones
-
-Use the Misdirection Principle:
-
-1. Threaten Zone A → Defender protects Zone A → Zone B opens
-2. Execute combination ending with target in Zone B
-
-**Example:** Target is left hook to body
-- Probe: Jab to test reaction
-- Read: They bring hands up high when I jab
-- Setup: Jab → Cross (both to head, makes them guard high)
-- Target: Left hook to body (guard is high, body is open)
-
-### At Level 2 (Announced Target)
-
-When you announce your target, the defender knows what you want and will focus on defending it. This is HARDER, not easier.
-
-You must:
-- Use other zones to pull their defense away from your target
-- Be more creative with setup and timing
-- Still land your announced target despite their focus
-
-This mirrors real MMA: if you keep kicking someone's legs, they figure it out and start defending it. Can you still land it? That's the skill.
-
----
-
-## Win Conditions
-
-**A Side (Attacker) wins by:** Landing their predetermined target shot cleanly
-
-**B Side (Defender):** No win condition — success is measured by making the attacker work and maintaining solid defense
-
-**On attacker win:** Roles switch — attacker becomes defender
-
-**Honor System:** The attacker claims the win when they land their target. Be honest. This is an academic exercise — claiming false wins only cheats yourself.
-
----
-
-## Levels
-
-=== "Level 1 — Private Target"
-    - Attacker has target in mind but doesn't announce
-    - Defender defends all zones naturally
-    - Attacker claims win (honor system) when target lands
-    - Focus: Read → Setup → Land
-    - This is the standard mode
-
-=== "Level 2 — Announced Target"
-    - Attacker announces target before the round ("I'm going for left hook to body")
-    - Defender knows what's coming and will focus defense there
-    - Attacker must work around the over-defense to still land the target
-    - Focus: Creating openings despite defender knowing your intention
-    - This is the advanced challenge
-
-=== "Level 3 — Defender Counter Strikes"
-    - Defender can throw counter strikes after successful defense
-    - Attacker must respect counter threat while pursuing target
-    - Focus: Landing target while managing counter risk
-
-=== "Level 4 — Full MMA Expression"
-    - Defender can counter-strike AND use clinch as defensive response
-    - Defender can clinch to deny attacker's offense
-    - Attacker must land target while respecting counters and clinch denial
-    - Focus: Offensive striking under realistic MMA pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker has predetermined target | Develops intentional, strategic offense (not volume) |
-| **Task** | Defender cannot counter (Level 1-2) | Attacker explores setup patterns without counter-threat distraction |
-| **Task** | Must land specific shot to win | Forces reading defense and creating openings |
-| **Task** | Defender protects all three zones | Requires misdirection, not just power |
-| **Individual** | Attacker chooses own target | Allows personalized offensive development |
-| **Environmental** | Open space, striking range | Full movement and angle creation available |
-
-!!! info "Theoretical Foundation"
-    This game uses the **Co-Adaptation Principle** (Renshaw et al., 2019). By constraining the defender (no counters), we create a learning environment for the attacker. The defender's constraint shapes what affordances the attacker perceives and explores.
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's guard position | Which zones are protected, which are open |
-| **Visual** | Defensive reactions to probes | Pattern recognition (what opens when X is threatened) |
-| **Visual** | Weight distribution | When defender is planted vs. mobile |
-| **Visual** | Eye focus | Where defender is watching |
-| **Haptic** | Contact on setup strikes | Confirming defensive commitment |
-| **Proprioceptive** | Own distance and angle | When in range for target shot |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's shoulder/hip loading | Anticipating strike type |
-| **Visual** | Attacker's eye focus | Where attack might go |
-| **Visual** | Distance changes | When attack is imminent |
-| **Haptic** | Strike pressure on guard | Whether block was effective |
-
-!!! tip "Coaching Cue"
-    For attackers: "What happens to their guard when you go to the body? What opens?" This develops the probe → read → setup → execute cycle rather than mindless combination throwing.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Sustained offensive striking where you have a target in mind (setting up the finish, attacking the body to slow them down, chopping the lead leg).
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Target selection** | Fighter has strategic targets | Attacker chooses target | High |
-| **Reading defense** | Continuous pattern recognition | Probe → Read → Setup → Execute | High |
-| **Defensive response** | Counters and clinch available | No counters (Level 1-2) | Reduced |
-| **Misdirection** | Essential for landing clean | Core skill developed | High |
-| **Consequence** | Damage accumulation | Role switch | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| No counter-threat (Level 1-2) | Allows focus on reading and setup; counters added at Level 3+ |
-| Single predetermined target | Develops intentional offense; random volume is easy but doesn't transfer |
-| Role switch on success | Creates clear success criteria and ensures both roles practiced |
-
-!!! note "Transfer Expectation"
-    The pattern recognition and misdirection skills developed here transfer directly to [Touch Game](touch-game.md) and live sparring. Athletes learn to "see" openings rather than just throw volume.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Target selection** | Different targets each round | Full offensive vocabulary |
-| **Defender style** | Rotate partners with different defensive habits | Multiple pattern recognition |
-| **Target zone emphasis** | Sessions on head targets, body targets, leg targets | Three-zone competence |
-| **Time pressure** | Some rounds with time limits, some open | Urgency calibration |
-| **Defender aggression** | Passive defense vs. active defense (still no counters) | Different puzzle difficulties |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Must have specific target | Prevents volume-based shortcuts |
-| Defender cannot counter (until Level 3) | Maintains focus on reading/setup |
-| Honor system on target claims | Maintains game integrity |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Lands variety of targets consistently | Not one-dimensional |
-| Can verbalize the setup logic | Understanding, not luck |
-| Succeeds against multiple defender styles | Adaptable pattern recognition |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Lands targets within reasonable time against varied defenders
-- [ ] Uses setup combinations (not just throwing target shot repeatedly)
-- [ ] Can explain: "I went to X to open Y"
-- [ ] Shows probe → read → setup → commit pattern
-- [ ] Success not dependent on specific defender
-
-### Ready for Level 3 (Adding Counter-Threat) When
-
-- [ ] Level 2 competence (lands announced targets)
-- [ ] Setup patterns are fluid, not forced
-- [ ] Expresses readiness to manage more complexity
-- [ ] Doesn't rush or panic when targets don't land immediately
-
-### Ready to Exit Game (Move to Touch Game) When
-
-- [ ] Level 3+ competence (manages counter-threat)
-- [ ] Misdirection and reading are automatic
-- [ ] Ready to add defensive responsibility simultaneously
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Just throws target shot repeatedly | Not reading defense | Emphasize the probe → read cycle |
-| Can't verbalize setup logic | Relying on luck | Coach questioning: "What did you see?" |
-| Only succeeds vs. specific defender | Solution too narrow | More partner variety |
-| Frustrated when target doesn't land quickly | Expectation mismatch | Reframe: this is reading practice, not landing practice |
-
----
-
-## Coach Notes
-
-!!! tip "Time-Based vs. Condition-Based"
-    **Time-based:** Set rounds (e.g., 4 minutes) then switch roles. Good for beginners to get reps on both sides.
-
-    **Condition-based:** Switch when attacker lands their target. Better for focused skill development.
-
-    Choose based on athlete level and training goals.
-
-!!! tip "Time Limits"
-    Because there's no counter-threat, the attacker should eventually figure it out. If switches aren't happening, consider:
-
-    - Adjusting defender intensity
-    - Providing attacker coaching cues
-    - Optional time limit if needed
-
-    The game is working well if roles are switching regularly.
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — target shots should land clean but controlled
-- **Stop conditions:** Excessive force, loss of composure
-- **Coach intervention:** Reset if attacker is just throwing volume without purpose, or if defender starts countering
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    subgraph Defensive["Defensive Track"]
-        A[Skill Isolation] --> B[Close-Range Defense]
-    end
-
-    subgraph Offensive["Offensive Track"]
-        C[Land the Target]
-    end
-
-    B --> D[Touch and Don't Get Touched]
-    C --> D
-
-    style C fill:#FF5722,color:#fff
-```
-
-**Prerequisite concepts:** Three Zones of Attack (required), Confidence Rating (recommended)
-
-**Recommended experience:** Defensive skill isolation games (helps when playing defender role)
-
-**Follow-on games:** Touch and Don't Get Touched (adds counter-threat, combines offensive and defensive skills)
-
-**Related concepts:** Three Zones, Confidence Rating, Misdirection Principle
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as offensive development patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/three-zones/">Three Zones</a> · <a href="../../concepts/confidence-rating/">Confidence Rating</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../touch-game/">Touch and Don't Get Touched</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/three-zones/">Misdirection Principle</a> · <a href="../../concepts/full-mma-expression/">Full MMA Expression</a></span></div>
+    </div>

@@ -18,277 +18,191 @@ tags:
   - skill-isolation
 ---
 
-# Rear Leg Offense
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/rear-leg-offense.png" alt="Rear Leg Offense">
+  <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Rear Leg Offense</span></div>
+</div>
+
+<div class="emma-meta"><span>Skill Isolation</span><span>Striking</span><span>Offensive</span><span>Beginner</span><span>Access</span></div>
+
+Land the rear leg alone, round kick, teep, side kick, forcing you to build your own setups.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at kicking range inside a marked perimeter; attacker restricted to the rear leg.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker lands a clean rear leg by opening the defense; defender survives without countering.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Land clean → switch · Whiffed or blocked → reset · Defender has no win condition (diagnostic only).</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">The hardest weapon you own, <br><span class="accent">and the one that needs the most setup.</span></p>
+  <p class="emma-statement__sub">Take away the hands and the lead leg and the fighter must earn every power kick. <b>Feint, manage distance, and commit only when the opening appears.</b></p>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the defender's <i>guard &amp; stance reactions to your feints &amp; distance changes</i>, how their shell and weight shift when you threaten a level, together with the <i>rate of expansion</i> (τ) of your committing rear round kick toward the opening at <b>center mass</b>. The opening you read isn't where the guard <i>is</i>; it's where it <i>goes</i> when you make it move.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off in a neutral fighting stance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Kicking range.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>One attacker, one defender, switch on a clean rear leg.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>The attacker initiates; reset to neutral after each exchange.</div>
+</div>
+
+<p class="emma-glabel">The Matchup</p>
+
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🦵</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to land a clean rear leg strike, rear round kick, rear teep, or rear side kick, by reading the defense and creating openings.</p>
+    <span class="emma-pop">Rear leg only. With no faster tools to hide behind, you must build entries: feint to draw a reaction, control distance, commit to the power kick when the opening appears.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to defend all rear leg attacks effectively. No countering.</p>
+    <span class="emma-pop">Defend naturally with the full toolkit (check, catch, evade, move). You have no win condition, your success is making the attacker work for every opening.</span>
+  </div>
+</div>
+
+<p class="emma-glabel">The Rules</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🦵</span> Rear leg only<span class="emma-chip__detail">The attacker uses <strong>only</strong> the rear leg, rear round kick, rear teep, rear side kick. No hands, no lead leg. With faster weapons removed, entries and setups must be discovered.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Defender cannot counter<span class="emma-chip__detail">At Level 1 the defender plays pure defense. Removing the counter-threat lets the attacker focus entirely on commitment and setup.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎯</span> All targets allowed<span class="emma-chip__detail">Head, body, and legs are all fair game. Multiple target levels invite level variation within the rear-leg constraint.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Maintain kicking range<span class="emma-chip__detail">Both players hold kicking range so rear leg power is viable with a proper setup, no drifting out to where the kick can't land.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset after each attack<span class="emma-chip__detail">Reset to a neutral stance after a clean strike lands or after a set time, so each rep begins from the same problem.</span></span>
+</div>
+
+<p class="emma-glabel">How to Win</p>
+
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land clean → switch roles.<span class="emma-pop">When the attacker lands a clean rear leg strike, the players switch roles. A clean landing means solid contact reaching the target with real energy transfer, not a whiff, graze, or checked kick.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Whiffed or defended → reset, read again.<span class="emma-pop">When the kick is whiffed, grazed, or defended, reset to neutral, same roles. A failed attempt isn't a loss; it's information. Re-enter the probe → read → setup → commit cycle.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> Defender denies every opening → diagnostic success.<span class="emma-pop">The defender has no win condition. Their success is measured by quality of defense, not points, forcing the attacker to set up and commit is the goal.</span></div>
+</div>
+
+<p class="emma-glabel">The Levels</p>
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Defense only</b>Defender can't counter.<span class="emma-pop emma-pop--l">Pure offensive development, rear leg only against a defender who can't counter. Build timing and entries with zero counter-threat.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add counter threat</b>Counters after good defense.<span class="emma-pop emma-pop--l">The defender can fire counters once they defend successfully. You land the power kick while managing the counter risk.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the rear leg under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
+</div>
+
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to set up the rear leg, and where is the real opening?</summary>
+    <div class="emma-recall__a">The defender's <b>guard and stance reactions to your feints and distance changes</b>, plus the <b>rate of expansion (τ)</b> of your committing round kick at <b>center mass</b>. The opening is where the guard <b>goes</b> when you make it move, not where it sits.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does the rear leg need more setup than other weapons?</summary>
+    <div class="emma-recall__a">It's the <b>power weapon but the slowest</b>: with the hands and lead leg stripped away, you must feint, manage distance, and commit only when the opening appears. You earn every power kick.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> A kick gets checked or whiffs. What does that mean for the rep?</summary>
+    <div class="emma-recall__a">It's <b>information, not a loss</b>. Reset to neutral, same roles, and re-enter the probe, read, setup, commit cycle. A telegraphed swing teaches you to disguise the next one.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> The defender has no win condition. What is their job?</summary>
+    <div class="emma-recall__a">Defend naturally with the <b>full toolkit (check, catch, evade, move)</b> and provide realistic resistance. Their success is <b>denying every opening</b> so the attacker has to genuinely set up and commit.</div>
+  </details>
+</div>
 
-!!! info "Game Identity"
-    - **Problem:** Developing offensive capability with the rear leg only
-    - **Environment:** Skill Isolation
-    - **Stage:** Access (Offensive Skill Development)
+<p class="emma-glabel">Go Deeper</p>
 
-This is a **beginner offensive skill isolation game** that develops rear leg (power leg) offense. The attacker can ONLY use their rear leg, forcing them to find timing, setups, and entries for power kicks.
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Goal
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🦵</div><div class="emma-card__t">Attacker</div><p>Find openings for power kicks; vary targets head/body/legs; develop entries and setups for the rear leg; manage distance for power generation.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Defend all rear leg attacks with appropriate solutions (check, catch, evade); provide realistic resistance; never counter at Level 1.</p></div>
+    </div>
 
-This is an **asymmetric game** with distinct roles.
+    <p class="emma-sub">Coaching cues</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Land clean strikes using rear leg only |
-| **Defender** | Defend against rear leg attacks (defense only, no counter) |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">"How did you set that kick up?"</div><p>Ask after each rep. This develops understanding of entry-to-finish sequencing for power kicks.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Land fight-changing kicks</div><p>Rear round kick to leg/body/head, rear teep, rear side kick, feints to draw reactions. The rear leg is the power weapon but requires more setup.</p></div>
+    </div>
 
-The objective is **weapon development**, not competition.
+??? abstract "Constraints-Led analysis"
 
----
+    <p class="emma-sub">Constraints → Affordances</p>
 
-## Entry Condition
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Rear leg only</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces development of power kick entries and setups</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender can't counter (L1)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Focus on setup and commitment</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">No lead leg or hands</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Must create openings without faster tools</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">All rear-leg kicks available</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Invites discovery of round kick, teep, side kick options</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Kicking range maintained</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Rear leg power is viable with proper setup</span></div>
+    </div>
 
-- Both players start in neutral standing position at kicking range
-- Attacker can only use rear leg (rear round kick, rear teep, etc.)
-- Defender uses any defensive solution but cannot counter
-- Reset after clean strike lands or set time
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019), removing the lead leg and hands forces discovery of power-kick entries that would normally hide behind faster weapons.</p>
 
----
+    <p class="emma-sub">What the attacker reads</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Distance, stance and weight distribution, defensive posture, reaction to feints → range for power, target selection, where openings exist.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Contact quality → whether the power kick landed clean.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Hip rotation and balance, range to target → power generation, kick selection and commitment.</p></div>
+    </div>
 
-1. Attacker uses **rear leg ONLY** — no hands, no lead leg
-2. Defender can **defend only** — no counters at Level 1
-3. Both players maintain appropriate range
-4. Reset to neutral after each successful attack
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the <b>committing rear-leg kick lands on the opening a feint or distance change created</b>, track target-landed vs. attempts, and whether each landing followed a genuine read → open → commit cycle rather than a telegraphed swing. That coupling of opening-read to committed kick is the order parameter; when it stabilizes, disguised power kicking has formed.</p>
 
-## Task Focus
+    <p class="emma-sub">Representativeness</p>
 
-### Attacker
-- Find openings for power kicks
-- Vary targets (head, body, legs)
-- Develop entries and setups for the rear leg
-- Manage distance for power generation
+    <p class="emma-hl"><b>Models:</b> landing power kicks, leg kicks, body kicks, head kicks, in striking exchanges, the high-damage tools that require setup and timing.</p>
 
-### Defender
-- Defend all rear leg attacks
-- Use appropriate defensive solutions (check, catch, evade)
-- Provide realistic resistance
+    <div class="emma-meta"><span>Simplified: rear leg only</span><span>no counter (L1)</span><span>role switch on success</span></div>
 
-!!! question "Key Internal Questions — Attacker"
-    - "Am I at the right range for power?"
-    - "What setup can I use to land the rear kick?"
-    - "Can I use feints to create openings?"
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Setup and timing transfer directly into <a href="../land-the-target/">Land the Target</a>, where all weapons integrate.</p>
 
----
+    <p class="emma-sub">Readiness to progress</p>
 
-## Key Logic: Power Kick Development
+    <ul class="emma-checklist">
+      <li>Lands rear leg without obvious telegraph</li>
+      <li>Uses feints and distance control to open</li>
+      <li>Varies targets leg/body/head</li>
+      <li>Maintains balance through power kicks</li>
+      <li>Composed under counter threat (L2)</li>
+    </ul>
 
-!!! note "The Core Skill"
-    The rear leg is the power kicking weapon but requires more setup. Within the constraint:
+    <p class="emma-sub">Warning signs</p>
 
-    - Rear round kick to leg (low kick)
-    - Rear round kick to body
-    - Rear round kick to head
-    - Rear teep
-    - Rear side kick
-    - Feints to draw defensive reactions
+    <div class="emma-warns">
+      <span class="emma-warn">Telegraphs kicks obviously</span>
+      <span class="emma-warn">Only throws leg kicks</span>
+      <span class="emma-warn">Rushes to close distance</span>
+      <span class="emma-warn">Power without control</span>
+    </div>
 
-    This develops the ability to land power kicks effectively.
+??? note "Safety &amp; related games"
 
----
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate, power kicks especially controlled</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on excessive force or lost composure</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if attacker uses non-rear-leg weapons</span>
+    </div>
 
-## Win Conditions
+    <p class="emma-sub">Where it sits</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Land a clean rear leg strike |
-| **Defender** | No win condition — success is measured by quality of defense |
-
-**On attacker win:** Roles switch — attacker becomes defender.
-
----
-
-## Levels
-
-=== "Level 1 — Defense Only"
-    - Attacker: Rear leg only
-    - Defender: Defense only, no counters
-    - Focus: Develop rear leg timing and entries
-
-=== "Level 2 — Add Counter Threat"
-    - Defender can throw counters after successful defense
-    - Attacker must respect counter threat
-    - Focus: Landing power kicks while managing risk
-
-=== "Level 3 — Full MMA Expression"
-    - Defender can counter-strike OR shoot/clinch
-    - Attacker must land rear leg while respecting all threats
-    - Focus: Power kick offense under MMA pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker uses rear leg only | Forces development of power kick entries and setups |
-| **Task** | Defender cannot counter (Level 1) | Attacker can focus on setup and commitment |
-| **Task** | No lead leg or hands | Must create openings without faster tools |
-| **Task** | All rear leg kicks available | Invites discovery of round kick, teep, side kick options |
-| **Individual** | Skill level matching | Appropriate challenge for development |
-| **Environmental** | Kicking range maintained | Rear leg power is viable with proper setup |
-
-!!! info "Theoretical Foundation"
-    This game implements **Constrain to Afford** (Renshaw et al., 2019). By removing the lead leg and hands, the attacker must discover entries and setups for power kicks that would normally be hidden behind faster weapons. This develops the ability to land fight-changing kicks when the opportunity presents.
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's distance | Determining if in range for power kick |
-| **Visual** | Defender's stance and weight distribution | Target selection and timing |
-| **Visual** | Defender's defensive posture | Where openings exist |
-| **Visual** | Defender's reaction to feints | What setups will work |
-| **Proprioceptive** | Hip rotation and balance | Power generation |
-| **Proprioceptive** | Range to target | Kick selection and commitment |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's hip chamber/weight shift | Early detection of power kick |
-| **Visual** | Attacker's range closing | When attack is imminent |
-| **Visual** | Kick trajectory | Defense selection (check, catch, evade) |
-| **Haptic** | Impact quality | Confirming defense effectiveness |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "How did you set that kick up?" This develops their understanding of entry-to-finish sequencing for power kicks.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Landing power kicks (leg kicks, body kicks, head kicks) in striking exchanges—the high-damage tools that require setup and timing.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Weapon** | All strikes available | Rear leg only | Isolated |
-| **Setup tools** | Hands, lead leg, feints | Feints, movement | Simplified |
-| **Defense** | Full defense + counters | Defense only (Level 1) | Simplified |
-| **Consequence** | Damage/knockdown | Role switch | Reduced |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Rear leg only | Isolates power kick development specifically |
-| No hands or lead leg | Forces discovery of alternative entries |
-| No counters at Level 1 | Allows focus on commitment and setup |
-
-!!! note "Transfer Expectation"
-    Athletes who develop rear leg entries here transfer to [Land the Target](land-the-target.md) where all weapons integrate. The setup and timing skills transfer directly to combination offense involving kicks.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Defender** | Rotate training partners | Different defensive styles to solve |
-| **Kick emphasis** | Low kick sessions, body kick sessions, head kick sessions | Complete rear leg development |
-| **Distance** | Start closer, start further | Entry adaptability |
-| **Tempo** | Single power shots, multiple attempts | Timing adaptability |
-| **Intensity** | Light to moderate contact | Control calibration for power kicks |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Rear leg only | Core constraint defining the game |
-| No hands/lead leg | Forces rear leg entry development |
-| Power kick intention | This is about landing power, not volume |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Lands rear kicks without obvious telegraph | Entry skills developing |
-| Uses feints and footwork to set up | Setup variety emerging |
-| Lands against varied defenders | Transferable skill developing |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Lands rear leg kicks without obvious telegraph
-- [ ] Uses feints and distance control to create openings
-- [ ] Varies targets (leg, body, head) with rear leg
-- [ ] Maintains balance through power kicks
-- [ ] Maintains composure under counter threat (Level 2)
-
-### Ready to Exit Game (Move to Land the Target) When
-
-- [ ] Level 2+ competence (handles counter threat)
-- [ ] Rear leg entries are disguised and varied
-- [ ] Expresses desire to add hands/lead leg
-- [ ] Power kick success maintains across varied defenders
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Telegraphs kicks obviously | Setup underdeveloped | Practice disguised entries |
-| Only throws leg kicks | Limited variety | Introduce body/head kick focus |
-| Rushes to close distance | Setup incomplete | Emphasize patience and timing |
-| Power without control | Contact management issue | Reduce intensity, focus on placement |
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — power kicks especially should be controlled
-- **Stop conditions:** Loss of composure, excessive force
-- **Coach intervention:** Reset if attacker uses non-rear-leg weapons
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Rear Leg Offense] --> B[Land the Target]
-    B --> C[Touch Game]
-
-    style A fill:#FF5722,color:#fff
-```
-
-- **Prerequisite games:** None — this is foundational
-- **Follow-on games:** Land the Target (integrates all weapons)
-- **Related concepts:** Three Zones of Attack
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as offensive skill isolation patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">None, this is foundational</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../land-the-target/">Land the Target</a> (integrates all weapons)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/three-zones/">Three Zones of Attack</a></span></div>
+    </div>

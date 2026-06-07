@@ -26,285 +26,197 @@ tags:
   - high-intensity
 ---
 
-# Wall Grinding
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/wall-grinding.png" alt="Wall Grinding">
+  <div class="emma-phero__cap"><span class="k">Wall · Wrestling</span><span class="h">Wall Grinding</span></div>
+</div>
+
+<div class="emma-meta"><span>Wall</span><span>Wrestling</span><span>Offensive</span><span>Intermediate</span><span>Exploit</span></div>
+
+Deal damage from wall control without losing the control, dirty boxing, knees and grinding while the pin holds.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Attacker has wall control; defender pinned, ready to resist.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker damages while holding the pin; defender escapes or nullifies it.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Sustained damage → attacker wins, switch · Escape or nullify → defender wins, reset.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Holding isn't the win, <br><span class="accent">make the pin hurt.</span></p>
+  <p class="emma-statement__sub">Just holding doesn't count, but neither does winging shots that cost you position. <b>Control AND damage at once.</b></p>
+</div>
+
+<p class="emma-glabel">Key Positions</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Wall pin<span class="emma-chip__detail">At least two points of pinning control, the hips and upper body held immobile and flat to the wall. If the shoulders can still rotate, it's pressure, not a pin.</span></span>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>felt resistance to rotation through your grips and frames</i>, when the pin feels solid enough to free a hand for a knee or short shot, versus when striking would loosen control. That balance of load at the shoulders and hips specifies <i>when</i> damage is safe, not a fixed combination or a memorized rhythm.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, attacker grinding from control, defender resisting.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Established wall control, shoulders flattened, hips controlled.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>Wall or cage within a marked perimeter, no ground transition.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker controls and damages; defender escapes or nullifies the damage.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Begin from control; reset on escape, sufficient damage, or lost control.</div>
+</div>
+
+<p class="emma-glabel">The Matchup</p>
+
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🥊</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to maintain wall control AND deal significant, sustained damage.</p>
+    <span class="emma-pop">Dirty boxing, knees and short elbows while the pin holds. Manage energy, grinding is work. Find openings without over-committing; if damage drops, control is too tight, if control drops, you over-committed to strikes.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to escape the wall or nullify the damage output.</p>
+    <span class="emma-pop">Active resistance, not passive. Create frames to block strikes, work rotation escapes, nullify knee opportunities, and look for a reversal or escape.</span>
+  </div>
+</div>
+
+<p class="emma-glabel">The Rules</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">💥</span> Damage required<span class="emma-chip__detail">The attacker must actually deal damage, just holding the pin doesn't count. The win is sustained output, multiple clean strikes, not a single shot.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧱</span> Stay on the wall<span class="emma-chip__detail">No transition to the ground. Staying on the wall is what distinguishes this game from Wall to Ground and keeps the focus on grinding.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏃</span> Defender resists actively<span class="emma-chip__detail">The defender works real escapes and damage nullification, not passive shelling. Position resets if the attacker loses wall control completely.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤝</span> Controlled contact<span class="emma-chip__detail">Light to moderate contact, knees especially controlled. This keeps the grinding safe during learning.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens against a wall or cage within a marked perimeter, any shape. Both players stay inside it.</span></span>
+</div>
+
+<p class="emma-glabel">How to Win</p>
+
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Sustained damage while holding control → attacker wins, switch.<span class="emma-pop">Sustained output, multiple clean strikes while holding control, not a single lucky shot. Controlling AND damaging at once is the skill being rewarded.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Escape to space or nullify the damage → defender wins, reset.<span class="emma-pop">Either break free into open space, or shut the damage down long enough that grinding fails.</span></div>
+</div>
+
+<p class="emma-glabel">The Levels</p>
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Control + strikes</b>Short shots while holding.<span class="emma-pop emma-pop--l">Attacker maintains control and works short strikes; defender defends and works escape. Focus: finding openings while controlling.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add knees</b>Knees from the clinch.<span class="emma-pop emma-pop--l">Knees from clinch position, more damaging but they require space creation. Focus: knee setups from the wall.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Defender strikes back</b>Two-way exchanges.<span class="emma-pop emma-pop--l">Defender can strike from wall position; attacker must control while managing return fire. Focus: two-way wall exchanges.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Ground option opens.<span class="emma-pop emma-pop--l">Attacker may transition to ground if advantageous; defender may shoot to escape. Focus: wall fighting under full MMA options.</span></div>
+</div>
+
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know when it is safe to free a hand and strike?</summary>
+    <div class="emma-recall__a">The <b>felt resistance to rotation</b> through your grips and frames: when the pin feels <b>solid enough to free a hand</b> for a knee or short shot, versus when striking would loosen control. Not a fixed combination or memorized rhythm.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Holding isn't the win here, so what is, and what is the failure on either side of it?</summary>
+    <div class="emma-recall__a"><b>Control AND damage at once</b>: sustained output, multiple clean strikes, while the <b>wall pin</b> holds. If damage drops, control is too tight; if control drops, you over-committed to strikes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why must you grind economically?</summary>
+    <div class="emma-recall__a"><b>Grinding is work.</b> Spend energy on openings that actually exist, not on muscling shots that cost you position and gas you out.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What distinguishes this game from Wall to Ground?</summary>
+    <div class="emma-recall__a">You <b>stay on the wall</b>: no transition to the ground. The whole focus is dirty boxing, knees, and grinding from the standing pin.</div>
+  </details>
+</div>
 
-!!! info "Game Identity"
-    - **Problem:** Dealing damage from wall control position
-    - **Environment:** Wall
-    - **Stage:** Exploit (Wall Damage)
+<p class="emma-glabel">Go Deeper</p>
 
-This is an **offensive wall game** focused on dealing damage from wall position. Unlike Wall to Ground, the goal is NOT to transition — it's to damage the opponent while maintaining wall control.
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Goal
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🥊</div><div class="emma-card__t">Attacker</div><p>Maintain control (shoulders flat, hips controlled), find openings for knees and short punches, manage energy, deny escape while creating damage.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Create frames to block strikes, work rotation escapes, nullify knee opportunities, find a reversal or escape.</p></div>
+    </div>
 
-This is an **asymmetric game** with distinct roles.
+    <p class="emma-sub">Coaching cues</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Maintain wall control AND deal significant damage |
-| **Defender** | Escape wall OR nullify damage output |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Control AND damage</div><p>Ask: "Are you controlling AND damaging?" Many do one or the other. If damage drops, control is likely too tight; if control drops, they're over-committing to strikes.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🔋</div><div class="emma-card__t">Economical grinding</div><p>Grinding is work. Spend energy on openings that exist, not on muscling shots that cost position.</p></div>
+    </div>
 
-The objective is **damage from wall**, not transition.
+??? abstract "Constraints-Led analysis"
 
----
+    <p class="emma-sub">Constraints → Affordances</p>
 
-## Entry Condition
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Must deal damage (not just hold)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Develops the control-to-damage skill</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Stay on the wall</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Distinguishes grinding from a ground transition</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Multiple clean strikes to win</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Rewards sustained output, not single shots</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Progressive defender options</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Scaffolds resistance from escape to striking back</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Wall position with striking</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Creates a true dirty-boxing environment</span></div>
+    </div>
 
-- Start from established wall control (attacker has position)
-- Attacker works dirty boxing, knees, grinding
-- Defender attempts escape or damage nullification
-- Reset when defender escapes OR sufficient damage dealt
+    <p class="emma-hl">Implements <b>Constrain to Afford</b> (Renshaw et al., 2019), <b>degeneracy</b> emerges as multiple damage solutions develop for the same control situation.</p>
 
----
+    <p class="emma-sub">What the attacker reads</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Control stability → when a strike is safe; defender's frame position → where openings exist.</p></div>
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Defender's guard → knee vs. punch opportunity; escape attempts → when to reinforce control.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own balance and position → maintain structure while striking.</p></div>
+    </div>
 
-1. Attacker must **deal damage** — just holding doesn't count
-2. Attacker should **NOT transition to ground** — stay on wall
-3. Defender actively resists — not passive
-4. Position resets if attacker loses wall control completely
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the attacker keeps the defender's <b>shoulders and hips pinned flat vs. free to rotate</b> while still landing strikes, track control time held against damage output. The press→pin-or-escape phase transition is the order parameter; the skill has formed when damage rises without the pin slackening.</p>
 
-## Task Focus
+    <p class="emma-sub">Representativeness</p>
 
-### Attacker
-- Maintain wall control (shoulders flat, hips controlled)
-- Find openings for knees, short punches, elbows
-- Manage energy — grinding is work
-- Deny escape while creating damage
+    <p class="emma-hl"><b>Models:</b> dirty boxing and grinding against the cage, the pressure-fighter's accumulation of damage while holding wall position.</p>
 
-### Defender
-- Create frames to block strikes
-- Work rotation escapes
-- Nullify knee opportunities
-- Find reversal or escape opportunities
+    <div class="emma-meta"><span>Simplified: stay on wall</span><span>progressive defender options</span><span>controlled knee contact</span></div>
 
-!!! question "Key Internal Questions — Attacker"
-    - "Am I controlling AND damaging, or just one?"
-    - "Can I find the opening for a knee?"
-    - "Am I maintaining position through their escape attempts?"
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">An end-state game built on <a href="../wall-control/">Wall Control</a>; ground equivalent is <a href="../../concepts/tko-pin/">TKO Pin</a>.</p>
 
----
+    <p class="emma-sub">Readiness to progress</p>
 
-## Key Logic: Control + Damage Balance
+    <ul class="emma-checklist">
+      <li>Deals damage while maintaining control</li>
+      <li>Finds openings consistently</li>
+      <li>Knees land cleanly from position</li>
+      <li>Manages energy effectively (doesn't gas)</li>
+      <li>Can describe: "I found the opening when they…"</li>
+    </ul>
 
-!!! note "The Core Skill"
-    Wall grinding requires balancing two demands:
+    <p class="emma-sub">Warning signs</p>
 
-    | Priority | Risk |
-    |----------|------|
-    | More control | Less damage output |
-    | More damage | Risk losing position |
+    <div class="emma-warns">
+      <span class="emma-warn">Just holds, no damage</span>
+      <span class="emma-warn">Loses position when striking</span>
+      <span class="emma-warn">Gasses quickly</span>
+      <span class="emma-warn">Knees miss consistently</span>
+    </div>
 
-    The skill is finding the balance — creating damage opportunities WITHOUT losing control.
+??? note "Safety &amp; related games"
 
-    This is the "dirty boxing" or "grinding" that characterizes some fighting styles.
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact, knees especially controlled</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on excessive force or lost composure</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if grinding becomes stalling</span>
+    </div>
 
----
+    <p class="emma-sub">Where it sits</p>
 
-## Win Conditions
-
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Sustained damage output from wall (multiple clean strikes) |
-| **Defender** | Escape to open space OR nullify damage for extended period |
-
-**On attacker win:** Roles switch.
-**On defender win:** Reset, same roles.
-
----
-
-## Levels
-
-=== "Level 1 — Control + Strikes"
-    - Attacker maintains control and works short strikes
-    - Defender defends and works escape
-    - Focus: Finding openings while controlling
-
-=== "Level 2 — Add Knees"
-    - Attacker can use knees from clinch position
-    - More damaging but requires space creation
-    - Focus: Knee setups from wall
-
-=== "Level 3 — Defender Strikes Back"
-    - Defender can strike from wall position
-    - Attacker must control while managing return fire
-    - Focus: Two-way wall exchanges
-
-=== "Level 4 — Full MMA Expression"
-    - Attacker can choose to transition to ground if advantageous
-    - Defender can shoot to escape
-    - Focus: Wall fighting under full MMA options
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker must deal damage (not just hold) | Develops control-to-damage skill |
-| **Task** | Stay on wall (no ground transition) | Distinguishes from Wall to Ground |
-| **Task** | Multiple clean strikes for win | Sustained output, not single shots |
-| **Task** | Progressive defender options (escape → strike back) | Scaffolded resistance |
-| **Individual** | Prerequisite: Wall Control | Has pin skill as foundation |
-| **Environmental** | Wall position with striking | Dirty boxing environment |
-
-!!! info "Theoretical Foundation"
-    This game develops the **control-damage balance**—the perception of when damage opportunities exist without losing position. This is a classic MMA skill where athletes must solve the dual constraint: maintaining control while creating offense. **Degeneracy** emerges as multiple solutions develop for the same control situation (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Control stability | When strike is safe |
-| **Haptic** | Defender's frame position | Where openings exist |
-| **Visual** | Defender's guard position | Knee vs. punch opportunities |
-| **Visual** | Defender's escape attempts | When to reinforce control |
-| **Proprioceptive** | Own balance and position | Maintain structure while striking |
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Haptic** | Attacker's grip changes | Escape timing |
-| **Visual** | Attacker's strike setup | Defense timing |
-| **Visual** | Attacker's knee chamber | Blocking/nullifying |
-| **Proprioceptive** | Own frame position | Protection effectiveness |
-
-!!! tip "Coaching Cue"
-    Ask attackers: "Are you controlling AND damaging?" Many athletes do one or the other; the skill is both simultaneously. If damage drops, control is likely too tight. If control drops, they're over-committing to strikes.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Dirty boxing and grinding against the cage—the classic pressure-fighter approach of accumulating damage while maintaining wall position.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Dirty boxing** | Knees, short strikes, grinding | Same | High |
-| **Control-damage balance** | Core skill | Same | High |
-| **Energy management** | Grinding is work | Same | High |
-| **Defender resistance** | Active | Progressive by level | Scaffolded |
-| **Consequence** | Damage accumulation | Multiple clean strikes win | Analogous |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| Stay on wall (no ground transition) | Isolates grinding skill from transition |
-| Progressive defender options | Develops control-damage before managing return fire |
-| Controlled knee contact | Safety during learning |
-
-!!! note "Transfer Expectation"
-    Wall grinding developed here transfers directly to MMA. The balance perception—when to strike without losing position—is identical in competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Defender resistance** | Passive, active, explosive | Multiple damage solutions |
-| **Weapon emphasis** | Knees, punches, elbows | Full dirty boxing vocabulary |
-| **Defender size** | Larger, smaller, equal | Adaptability |
-| **Intensity** | Light contact, moderate contact | Pressure calibration |
-| **Duration** | Short rounds, long rounds | Energy management |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Damage required (not just holding) | Core constraint defining the game |
-| Stay on wall | Maintains grinding focus |
-| Controlled contact | Safety |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Consistent damage output | Control-damage developing |
-| Knees landing cleanly | Ready for more resistance |
-| Maintains control through escape attempts | Integration occurring |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Deals damage while maintaining control
-- [ ] Finds openings consistently
-- [ ] Knees land cleanly from position
-- [ ] Manages energy effectively (doesn't gas)
-- [ ] Can articulate: "I found the opening when they..."
-
-### Ready to Exit Game When
-
-- [ ] Level 2+ competence (knees effective)
-- [ ] Control-damage balance is instinctive
-- [ ] Can manage defender return fire (Level 3)
-- [ ] Grinding appears in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Just holds (no damage) | Not finding openings | Focus on damage opportunities |
-| Loses position when striking | Over-committing | Focus on structure during strikes |
-| Gasses quickly | Energy inefficient | Develop economical grinding |
-| Knees miss consistently | Not reading openings | Slow down, emphasize reading |
-
----
-
-## Safety
-
-- **Contact limits:** Light to moderate — knees especially controlled
-- **Stop conditions:** Excessive force, loss of composure
-- **Coach intervention:** Reset if grinding becomes stalling
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Wall Control] --> B[Wall Grinding]
-    A --> C[Wall to Ground]
-    D[Pressure to Wall] --> B
-
-    style B fill:#FF5722,color:#fff
-```
-
-- **Prerequisite games:** Wall Control
-- **Follow-on games:** N/A (this is an end-state game)
-- **Related concepts:** TKO Pin (ground equivalent)
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as wall damage patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../wall-control/">Wall Control</a> · <a href="../pressure-to-wall/">Pressure to Wall</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">End-state game, no follow-on</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/tko-pin/">TKO Pin</a> · <a href="../wall-to-ground/">Wall to Ground</a></span></div>
+    </div>

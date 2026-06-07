@@ -23,281 +23,191 @@ tags:
   - reaction
 ---
 
-# Takedown Defense
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/takedown-defense.png" alt="Takedown Defense">
+  <div class="emma-phero__cap"><span class="k">Open Space · Wrestling</span><span class="h">Takedown Defense</span></div>
+</div>
+
+<div class="emma-meta"><span>Open Space</span><span>Wrestling</span><span>Defensive</span><span>Intermediate</span><span>Mats</span></div>
+
+Stop the shot and get back to neutral, denial, not ground escape.
+
+<div class="emma-arc">
+  <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Two fighters at clinch range, inside a marked perimeter.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker completes a takedown; defender denies it &amp; returns to standing.</b></div>
+  <div class="emma-arc__sep">→</div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Deny &amp; disengage → switch · Takedown completes → reset · Leave perimeter → loss.</b></div>
+</div>
+
+<div class="emma-band">
+  <p class="emma-statement">Don't escape the takedown, <br><span class="accent">deny it.</span></p>
+  <p class="emma-statement__sub">Once it completes, the game's over. <b>Read the shot, sprawl in time, get back to neutral.</b></p>
+</div>
+
+<p class="emma-glabel">What to Read</p>
+
+<p class="emma-hl"><b>Attune to</b> the <i>rate of closure</i> (τ) of the <b>level change / shot</b>, the hip and level drop as the attacker commits, not their feet or their eyes. That information specifies <i>when</i> the shot arrives and <i>when</i> to sprawl.</p>
+
+<p class="emma-glabel">The Starting Position</p>
+
+<div class="emma-setup">
+  <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, squared off at clinch range.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Range</span>Clinch / wrestling distance.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker vs. defender, switch when the defender denies and disengages.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Attacker initiates; reset on takedown or full disengage.</div>
+</div>
+
+<p class="emma-glabel">The Matchup</p>
+
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🤼</div>
+    <div class="emma-fighter__role">Attacker</div>
+    <p class="emma-fighter__obj">Trying to complete a takedown to ground control, shots, trips, throws.</p>
+    <span class="emma-pop">Shoot singles and doubles; set up with level changes; chain attempts when the first is defended; follow through on successful entries. Scale to the defender's success.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🛡️</div>
+    <div class="emma-fighter__role">Defender</div>
+    <p class="emma-fighter__obj">Trying to deny the takedown and return to standing neutral, not escape from the ground.</p>
+    <span class="emma-pop">Recognize the shot early, sprawl, use whizzer / crossface / frames, then disengage cleanly. No striking at Level 1, wrestling defense only. DNS allowed.</span>
+  </div>
+</div>
+
+<p class="emma-glabel">The Rules</p>
+
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤼</span> Attacker initiates takedowns<span class="emma-chip__detail">The attacker shoots, no waiting for the defender to attack. This keeps the defender's job reactive: read and defend the shot.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🛡️</span> Wrestling defense only, no strikes (L1)<span class="emma-chip__detail">At Level 1 the defender uses wrestling defense only, no strikes. This isolates sprawl mechanics and recovery before striking is integrated.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🏁</span> Game ends on takedown<span class="emma-chip__detail">If the defender is taken down with control, play ends, this is not a ground escape game. The skill is denying the takedown, not recovering from it.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🦈</span> DNS allowed<span class="emma-chip__detail">The defender may use the guillotine / front-headlock (DNS) as a defensive tool, punishing poor head position on the shot.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
+</div>
+
+<p class="emma-glabel">How to Win</p>
+
+<div class="emma-outcomes">
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Deny &amp; disengage to standing → switch roles.<span class="emma-pop">The defender stopped the shot and got back to neutral standing, and earns the attacking role.</span></div>
+  <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Takedown completes with control → reset, same roles.<span class="emma-pop">A takedown finished with control on the ground. Then begin again from standing at clinch range.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange, training the cage-edge awareness a fighter needs.</span></div>
+</div>
+
+<p class="emma-glabel">The Levels</p>
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>No strikes</b>Pure wrestling defense.<span class="emma-pop emma-pop--l">Pure wrestling defense, no strikes either side. Build sprawl mechanics and recovery with no other pressure.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Attacker sets up</b>Feints and level changes.<span class="emma-pop emma-pop--l">The attacker adds feints and level changes to set up shots. The defender must read real vs. fake, shot recognition.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add DNS</b>Guillotine / front headlock.<span class="emma-pop emma-pop--l">The defender can threaten the guillotine / front headlock, punishing poor head position. DNS as a defensive weapon.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Full MMA</b>Strike and sprawl.<span class="emma-pop emma-pop--l">The defender can strike and sprawl; the attacker must shoot through the strike threat. Takedown defense under <a href="../../concepts/full-mma-expression/">full MMA pressure</a>.</span></div>
+</div>
+
+<p class="emma-glabel">Recall Check</p>
+
+<div class="emma-recall">
+  <p class="emma-recall__lead">Test yourself before moving on. Answer out loud, then reveal what good looks like.</p>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What are you reading to know when the shot arrives and when to sprawl?</summary>
+    <div class="emma-recall__a">The <b>rate of closure (τ)</b> of the level change or shot: the <b>hip and level drop</b> as the attacker commits. Not their feet, not their eyes.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Why does this game end the moment the takedown completes?</summary>
+    <div class="emma-recall__a">It trains <b>denial, not ground escape</b>. The skill is stopping the shot and getting back to neutral standing, not recovering from a finished takedown.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> Beyond the sprawl, what tools does the defender have, and what does the DNS punish?</summary>
+    <div class="emma-recall__a"><b>Whizzer, crossface, and frames</b> off the sprawl, then a clean disengage. The <b>guillotine or front headlock (DNS)</b> punishes <b>poor head position</b> on the shot.</div>
+  </details>
+  <details class="emma-recall__item">
+    <summary><span class="emma-recall__q">Q</span> What does a good sprawl actually do?</summary>
+    <div class="emma-recall__a"><b>Hips back, weight down on the attacker</b>, meeting the shot in time. Then choose: fight the position or disengage to neutral. A late sprawl means you get driven back.</div>
+  </details>
+</div>
 
-!!! info "Game Identity"
-    - **Problem:** Defending takedown attempts in open space
-    - **Environment:** Open Space
-    - **Stage:** Counter (Defensive Wrestling)
+<p class="emma-glabel">Go Deeper</p>
 
-This is a **defensive wrestling game** focused on stopping takedown attempts. The defender learns to recognize shots, sprawl effectively, and recover position after defending.
+??? note "Task focus &amp; coaching cues"
 
----
+    <p class="emma-sub">Each role's job</p>
 
-## Goal
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">🤼</div><div class="emma-card__t">Attacker</div><p>Shoot singles and doubles; set up with level changes; chain when defended; follow through on entries.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defender</div><p>Recognize the shot early; sprawl effectively; use whizzer, crossface, frames; disengage cleanly.</p></div>
+    </div>
 
-This is an **asymmetric game** with distinct roles.
+    <p class="emma-sub">Coaching cues</p>
 
-| Role | Objective |
-|------|-----------|
-| **Attacker** | Complete a takedown to ground control |
-| **Defender** | Deny the takedown and return to standing neutral |
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">See it before it lands</div><p>"What did you see before they shot?" Read the level change early, late recognition means the sprawl is too late.</p></div>
+      <div class="emma-card"><div class="emma-card__i">⚓</div><div class="emma-card__t">Hips back, weight down</div><p>The sprawl is hips back and weight on the attacker. Then choose: fight the position or disengage to neutral.</p></div>
+    </div>
 
-The objective is **takedown denial**, not escape from ground.
+??? abstract "Constraints-Led analysis"
 
----
+    <p class="emma-sub">Constraints → Affordances</p>
 
-## Entry Condition
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Attacker initiates takedowns</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Forces development of reactive defense</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender can't strike (L1)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Isolates wrestling defense skill</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Game ends on takedown (not escape)</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Focuses on denial, not ground recovery</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">DNS allowed as defensive tool</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Completes the defensive arsenal</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Open space, wrestling distance</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Shot recognition is critical</span></div>
+    </div>
 
-- Both players start standing at clinch range
-- Attacker attempts takedowns (shots, trips, throws)
-- Defender uses defensive wrestling
-- Reset when takedown is completed OR defender fully disengages
+    <p class="emma-hl">Develops <b>shot-recognition affordance perception</b>. Forcing the defender to react (not preemptively sprawl) builds genuine perceptual skill, multiple solutions (sprawl, whizzer, crossface, DNS) emerge through self-organization (Renshaw et al., 2019).</p>
 
----
+    <p class="emma-sub">What the defender reads</p>
 
-## Invariants
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">Visual</div><p>Level-change initiation, shot angle, head position, drive continuation → sprawl timing &amp; defense selection.</p></div>
+      <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Haptic</div><p>Grip and pressure of the shot → which counter works.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧭</div><div class="emma-card__t">Proprioceptive</div><p>Own hip position &amp; weight → sprawl effectiveness.</p></div>
+    </div>
 
-1. Attacker **initiates takedowns** — no waiting for defender to attack
-2. Defender **cannot strike** at Level 1 — wrestling defense only
-3. If taken down, game ends — this is not a ground escape game
-4. DNS is allowed for defender as defensive tool
+    <p class="emma-sub">What we measure (order parameter)</p>
 
----
+    <p class="emma-hl">Whether the defender <b>meets the shot in time</b>, sprawl and frame arriving with the level change, so they stay standing rather than getting taken down. Track sprawls landed before being driven back vs. takedowns conceded. That timing relationship is the order parameter; when it stabilizes, the skill has formed.</p>
 
-## Task Focus
+    <p class="emma-sub">Representativeness</p>
 
-### Attacker
-- Shoot single legs, double legs
-- Set up takedowns with level changes
-- Chain attempts when first is defended
-- Follow through on successful entries
+    <p class="emma-hl"><b>Models:</b> defending takedowns in open space to keep the fight standing.</p>
 
-### Defender
-- Recognize shot initiation early
-- Sprawl effectively
-- Use whizzer, crossface, and frames
-- Disengage cleanly after defending
+    <div class="emma-meta"><span>Simplified: no strikes (L1–2)</span><span>ends on takedown</span><span>denial not escape</span></div>
 
-!!! question "Key Internal Questions — Defender"
-    - "Am I reading the level change early enough?"
-    - "Is my sprawl stopping their drive?"
-    - "Can I disengage or do I need to fight the position?"
+    <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">Sprawl timing, whizzer instinct, and DNS awareness transfer directly to live MMA, feeds <a href="../open-space-takedown/">Open Space Takedown</a>.</p>
 
----
+    <p class="emma-sub">Readiness to progress</p>
 
-## Key Logic: Sprawl and Recover
+    <ul class="emma-checklist">
+      <li>Sprawls before being driven back ~70%+</li>
+      <li>Uses multiple tools (sprawl, whizzer, DNS)</li>
+      <li>Disengages cleanly after defending</li>
+      <li>Can describe: "I saw them drop so I sprawled"</li>
+    </ul>
 
-!!! note "The Core Skill"
-    Takedown defense follows a pattern:
+    <p class="emma-sub">Warning signs</p>
 
-    1. **Read** — Recognize the level change or shot
-    2. **Sprawl** — Hips back, weight down on attacker
-    3. **Fight** — Whizzer, crossface, deny completion
-    4. **Recover** — Disengage to neutral standing
+    <div class="emma-warns">
+      <span class="emma-warn">Always sprawls late (gets driven)</span>
+      <span class="emma-warn">Only sprawls, no whizzer/DNS</span>
+      <span class="emma-warn">Can't disengage after defense</span>
+      <span class="emma-warn">Taken down by feints</span>
+    </div>
 
-    The goal is not to win position — it's to deny the takedown and reset.
+??? note "Safety &amp; related games"
 
----
+    <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🤝</span> Controlled shots, no slamming</span>
+      <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on uncontrolled takedowns or neck cranks</span>
+      <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if positions stall</span>
+    </div>
 
-## Win Conditions
+    <p class="emma-sub">Where it sits</p>
 
-| Role | Win Condition |
-|------|---------------|
-| **Attacker** | Complete takedown with control on ground |
-| **Defender** | Deny takedown and disengage to standing |
-
-**On defender win:** Roles switch — defender becomes attacker.
-**On attacker win:** Reset, same roles.
-
----
-
-## Levels
-
-=== "Level 1 — No Strikes"
-    - Pure wrestling defense
-    - No strikes from either player
-    - Focus: Sprawl mechanics and recovery
-
-=== "Level 2 — Attacker Sets Up"
-    - Attacker can use feints and level changes to set up shots
-    - Defender must read real vs. fake
-    - Focus: Shot recognition
-
-=== "Level 3 — Add DNS"
-    - Defender can threaten guillotine/front headlock
-    - Punishes poor head position
-    - Focus: DNS as defensive weapon
-
-=== "Level 4 — Full MMA Expression"
-    - Defender can strike AND sprawl
-    - Attacker must shoot through strike threat
-    - Focus: Takedown defense under MMA pressure
-    - See: [Full MMA Expression](../concepts/full-mma-expression.md)
-
----
-
-## Constraints Analysis
-
-*How this game applies the [Constraints-Led Approach](../principles/cla/index.md)*
-
-| Constraint Type | Constraint | Affordance Created |
-|-----------------|------------|-------------------|
-| **Task** | Attacker initiates takedowns (defender reacts) | Forces development of reactive defense |
-| **Task** | Defender cannot strike (Level 1) | Isolates wrestling defense skill |
-| **Task** | Game ends on takedown (not ground escape) | Focuses on denial, not recovery |
-| **Task** | DNS allowed as defensive tool | Completes defensive arsenal |
-| **Individual** | Prerequisite: Pressure to Clinch | Understands clinch dynamics |
-| **Environmental** | Open space, wrestling distance | Shot recognition is critical |
-
-!!! info "Theoretical Foundation"
-    This game develops **shot recognition affordance perception**. The constraint forcing the defender to react (rather than preemptively sprawl) develops genuine perceptual skill. Multiple defensive solutions (sprawl, whizzer, crossface, DNS) emerge through self-organization as the defender explores what works against different shots (Renshaw et al., 2019).
-
----
-
-## Information Structure
-
-*What athletes must perceive to succeed (perception-action coupling)*
-
-### Defender Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Attacker's level change initiation | Sprawl timing |
-| **Visual** | Shot angle (single vs. double, inside vs. outside) | Defense selection |
-| **Visual** | Attacker's head position | DNS opportunity |
-| **Visual** | Attacker's drive continuation | When to disengage vs. fight |
-| **Haptic** | Attacker's grip and pressure | Which counter works |
-| **Proprioceptive** | Own hip position and weight | Sprawl effectiveness |
-
-### Attacker Perceives
-
-| Information Source | What to Read | Action It Supports |
-|--------------------|--------------|-------------------|
-| **Visual** | Defender's stance and weight distribution | Shot selection and timing |
-| **Visual** | Defender's sprawl timing | When to chain to different attack |
-| **Haptic** | Defender's sprawl weight | Whether to continue or abort |
-
-!!! tip "Coaching Cue"
-    Ask defenders: "What did you see before they shot?" This develops early detection—the key to effective takedown defense. Late recognition means the sprawl is too late.
-
----
-
-## Representativeness
-
-*How this game models real MMA situations*
-
-### Real MMA Situation
-
-Defending takedown attempts in open space—a fundamental skill for any MMA fighter who wants to keep the fight standing.
-
-### How This Game Represents It
-
-| Element | Real MMA | This Game | Fidelity |
-|---------|----------|-----------|----------|
-| **Takedown attempts** | Full variety | Progressive by level | Scaffolded |
-| **Defensive options** | Sprawl, whizzer, DNS, strikes | Progressive by level | Scaffolded |
-| **Striking threat** | Always present | Added at Level 4 | Progressive |
-| **Consequence** | Fight goes to ground | Game ends | Analogous |
-
-### Simplifications & Justification
-
-| Simplification | Why Acceptable |
-|----------------|----------------|
-| No strikes at Level 1-2 | Isolates wrestling defense; strikes added at Level 4 |
-| Game ends on takedown | Focuses on denial skill; escape is a different game |
-| Attacker initiates | Develops reactive defense, not preemptive sprawling |
-
-!!! note "Transfer Expectation"
-    Shot recognition developed here transfers directly to live MMA. The sprawl timing, whizzer instinct, and DNS awareness are identical in sparring and competition.
-
----
-
-## Variability Guidelines
-
-*Creating "repetition without repetition" (Bernstein, 1967)*
-
-### Within-Level Variability
-
-| Vary This | How | Maintains |
-|-----------|-----|-----------|
-| **Attacker style** | Single-leg specialists, double-leg specialists | Multiple defensive solutions |
-| **Shot timing** | Quick shots, patient setup shots | Timing adaptability |
-| **Shot angle** | Inside, outside, reactive | Direction adaptability |
-| **Attacker size** | Larger attackers, faster attackers | Solution robustness |
-| **Intensity** | Drilling pace, live pace | Pressure calibration |
-
-### What NOT to Vary
-
-| Keep Constant | Why |
-|---------------|-----|
-| Attacker initiates | Core constraint developing reactive skill |
-| Game ends on takedown | Maintains denial focus |
-| Controlled landings | Safety |
-
-### Progressing Through Levels
-
-| Signal to Progress | Meaning |
-|--------------------|---------|
-| Sprawl timing is consistent | Basic recognition developed |
-| Multiple defenses used | Degeneracy developing |
-| DNS threats effective | Full defensive toolkit available |
-
----
-
-## Readiness Indicators
-
-*When is the athlete ready to advance?*
-
-### Ready for Next Level When
-
-- [ ] Sprawls before being driven backward 70%+
-- [ ] Uses multiple defensive tools (sprawl, whizzer, DNS)
-- [ ] Disengages cleanly after defending
-- [ ] Can articulate: "I saw them drop so I sprawled"
-- [ ] Composure maintained under shot pressure
-
-### Ready to Exit Game When
-
-- [ ] Level 3+ competence (uses DNS effectively)
-- [ ] Shot recognition is instinctive
-- [ ] Defense integrates with striking (Level 4)
-- [ ] Takedown defense appears in sparring
-
-### Warning Signs (Not Ready to Progress)
-
-| Sign | Meaning | Response |
-|------|---------|----------|
-| Always sprawls late (gets driven) | Recognition too slow | Slower shots, more reps |
-| Only sprawls (no whizzer/DNS) | Limited solution set | Constrain sprawl, force other tools |
-| Can't disengage after defense | Recovery incomplete | Focus on separation after sprawl |
-| Gets taken down by feints | Overcommitting | Slow down, read real vs. fake |
-
----
-
-## Safety
-
-- **Contact limits:** Controlled shots, no slamming
-- **Stop conditions:** Uncontrolled takedowns, neck cranks
-- **Coach intervention:** Reset if positions stall
-
----
-
-## System Position
-
-```mermaid
-flowchart LR
-    A[Pressure to Clinch] --> B[Takedown Defense]
-    C[Pressure to Takedown] -.->|opposite| B
-
-    style B fill:#4CAF50,color:#fff
-```
-
-- **Prerequisite games:** Pressure to Clinch (recommended)
-- **Follow-on games:** Open Space Takedown (combined perspective)
-- **Related concepts:** DNS
-
----
-
-!!! abstract "System Evolution Notice"
-    This game may be refined as defensive wrestling patterns emerge.
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-clinch/">Pressure to Clinch</a> (recommended)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../open-space-takedown/">Open Space Takedown</a> (combined perspective)</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Opposite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-takedown/">Pressure to Takedown</a></span></div>
+    </div>

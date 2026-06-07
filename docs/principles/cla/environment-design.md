@@ -1,339 +1,219 @@
 # Environment Design Principles (EDP)
 
+<div class="emma-meta"><span>CLA Knowledge Base</span><span>The Core Methodology</span><span>Four Principles</span></div>
+
 > **Navigation:** ← [Key Concepts](key-concepts.md) | [CLA Index](index.md) | [Session Design](session-design.md) →
 
 !!! abstract "Sources"
-    The four Environment Design Principles are the core methodology from Renshaw et al. (2019).
-    Representative Learning Design draws on Pinder et al. (2011). Repetition Without Repetition originates with Bernstein (1967).
-    For complete bibliography, see [Sources & Theoretical Foundations](../../reference/sources.md).
+    The four Environment Design Principles are the core methodology from Renshaw et al. (2019). Representative Learning Design draws on Pinder et al. (2011). Repetition Without Repetition originates with Bernstein (1967). For the complete bibliography, see [Sources &amp; Theoretical Foundations](../../reference/sources.md).
 
----
+<p class="emma-hl"><b>The EDP framework operationalizes CLA into four actionable principles</b> that guide every coaching decision in the ecological approach.</p>
 
-## Overview
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">1️⃣</div><div class="emma-card__t">Session Intention</div><p>The overriding, organizational constraint.</p></div>
+  <div class="emma-card"><div class="emma-card__i">2️⃣</div><div class="emma-card__t">Constrain to Afford</div><p>Invite the behaviors you want.</p></div>
+  <div class="emma-card"><div class="emma-card__i">3️⃣</div><div class="emma-card__t">Representative Learning Design</div><p>Practice looks AND feels like competition.</p></div>
+  <div class="emma-card"><div class="emma-card__i">4️⃣</div><div class="emma-card__t">Repetition Without Repetition</div><p>Repeat the problem, not the movement.</p></div>
+</div>
 
-The EDP framework operationalizes CLA into four actionable principles:
+<p class="emma-glabel">Principle 1 · Session Intention</p>
 
-```
-┌─────────────────────────────────────────────────────┐
-│           ENVIRONMENT DESIGN PRINCIPLES             │
-├─────────────────────────────────────────────────────┤
-│  1. Session Intention                               │
-│  2. Constrain to Afford                             │
-│  3. Representative Learning Design                  │
-│  4. Repetition Without Repetition                   │
-└─────────────────────────────────────────────────────┘
-```
+<p class="emma-hl"><b>"The intentions of the session act as an overriding and organizational constraint."</b> <i>, Renshaw et al., 2019</i></p>
 
-These four principles guide every coaching decision in the ecological approach.
+<ul class="emma-checklist">
+  <li>Intentions shape cognitions, perceptions, and actions.</li>
+  <li>Coach and athlete intentions must be <b>aligned</b>.</li>
+  <li>Intentions determine constraint-manipulation decisions.</li>
+  <li>Intentions vary with training phase (pre-season vs. competition week).</li>
+</ul>
 
----
+<p class="emma-sub">Session intention categories</p>
 
-## PRINCIPLE 1: Session Intention
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌱</div><div class="emma-card__t">Learning</div><p>Develop new skills/patterns.<span class="emma-pop">Higher challenge, acceptance of failure.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎚️</div><div class="emma-card__t">Adapting</div><p>Refine existing patterns.<span class="emma-pop">Varied conditions, problem-solving.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔥</div><div class="emma-card__t">Performing</div><p>Execute under pressure.<span class="emma-pop">Representative conditions, full intensity.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">Attuning</div><p>Calibrate to the environment.<span class="emma-pop">Familiarization, preparation.</span></p></div>
+</div>
 
-**Guiding Statement:** *"The intentions of the session act as an overriding and organizational constraint."*
-— Renshaw et al., 2019
+<p class="emma-sub">Matching intentions to learning stage</p>
 
-### Key Points
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Coordination Stage</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Exploring, searching for solutions</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Adaptability Stage</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Exploiting, refining, optimizing</span></div>
+</div>
 
-- Intentions shape cognitions, perceptions, and actions
-- Coach and athlete intentions must be **aligned**
-- Intentions determine constraint manipulation decisions
-- Intentions vary with training phase (pre-season vs. competition week)
+<p class="emma-hl"><b>For MMA:</b> A fighter <i>learning</i> takedown defense (coordination stage) needs sessions exploring defensive options. A fighter <i>refining</i> it (adaptability stage) needs varied attackers and conditions to stress-test their solutions.</p>
 
----
+<p class="emma-glabel">Principle 2 · Constrain to Afford</p>
 
-### Session Intention Categories
+<p class="emma-hl"><b>"Design-in constraints to offer / invite / encourage learners to explore opportunities for action related to the session intention."</b> <i>, Renshaw et al., 2019</i></p>
 
-| Category | Goal | Approach |
-|----------|------|----------|
-| **Learning** | Develop new skills/patterns | Higher challenge, acceptance of failure |
-| **Adapting** | Refine existing patterns | Varied conditions, problem-solving |
-| **Performing** | Execute under pressure | Representative conditions, intensity |
-| **Attuning** | Calibrate to environment | Familiarization, preparation |
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Offer</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Key affordances related to session intention</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Invite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Engagement through exaggeration/emphasis</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Avoid</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Over-constraining (forcing vs. inviting)</span></div>
+</div>
 
----
+!!! tip "The outlet analogy: a good constraint affords, it does not prescribe"
+    Ecological psychology gives the cleanest test for a good constraint (Blau &amp; Wagman, 2022, p. 271). Compare two ways to wire a building:
 
-### Matching Intentions to Learning Stage
+    <div class="emma-cards">
+      <div class="emma-card"><div class="emma-card__i">📍</div><div class="emma-card__t">"Put an outlet exactly here"</div><p><i>Other-organization.</i> One acceptable outcome, dictated from outside.</p></div>
+      <div class="emma-card"><div class="emma-card__i">📐</div><div class="emma-card__t">"Outlets every 12 feet"</div><p>A <i>local rule.</i> Infinite valid layouts, "the solution will emerge."</p></div>
+    </div>
 
-| Athlete Level | Session Focus |
-|--------------|---------------|
-| **Coordination Stage** | Exploring, searching for solutions |
-| **Adaptability Stage** | Exploiting, refining, optimizing |
+    A good constraint is always the second kind. "Defend the takedown, points for staying standing" is "outlets every 12 feet"; "when they shoot you must sprawl" is "outlet exactly here." If a constraint forces one specific solution, it is over-constraining. See the [Ecological Psychology](../ecological-psychology/index.md) section.
 
-**For MMA:** A fighter learning takedown defense (coordination stage) needs sessions focused on exploring defensive options. A fighter refining their takedown defense (adaptability stage) needs varied attackers and conditions to stress-test their solutions.
+<p class="emma-sub">Constraining strategies</p>
 
----
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔍</div><div class="emma-card__t">Exaggeration</div><p>Amplify affordances to make them obvious.<span class="emma-pop">Larger targets, slower speeds.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📣</div><div class="emma-card__t">Emphasis</div><p>Draw attention to specific affordances.<span class="emma-pop">Reward systems, verbal cues.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🚧</div><div class="emma-card__t">Restriction</div><p>Limit options to channel exploration.<span class="emma-pop">Reduce techniques available.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">➕</div><div class="emma-card__t">Addition</div><p>Add elements to create affordances.<span class="emma-pop">Include opponents, obstacles.</span></p></div>
+</div>
 
-## PRINCIPLE 2: Constrain to Afford
+<p class="emma-sub">Over-constraining vs. effective constraining</p>
 
-**Guiding Statement:** *"Design-in constraints to offer/invite/encourage learners to explore opportunities for action related to the session intention."*
-— Renshaw et al., 2019
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">"Two-touch only" rules</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Reward systems for quick passing</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Forced technique prescription</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Environmental setup that invites technique</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Removing all decision-making</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Channeling decisions within options</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Static, unopposed drilling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Dynamic, contextual practice</span></div>
+</div>
 
-### The Three-Step Process
+<p class="emma-hl"><b>Co-adaptation principle:</b> Constrain the <i>opposition</i> to facilitate behavior change in your athletes. To develop counter-striking, constrain the attacker to initiate first, the defender (primary learner) must then read and respond. The constraint on one creates the learning opportunity for the other.</p>
 
-1. **OFFER** key affordances related to session intention
-2. **INVITE** engagement through exaggeration/emphasis
-3. **AVOID** over-constraining (forcing vs. inviting)
+<p class="emma-glabel">Principle 3 · Representative Learning Design (RLD)</p>
 
----
+<p class="emma-hl"><b>"Ensure that what learners are seeing, hearing, and feeling in the practice environment is similar to the performance environment."</b> <i>, Renshaw et al., 2019; RLD framework by Pinder, Davids, Renshaw &amp; Araújo (2011)</i></p>
 
-### Constraining Strategies
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">Action fidelity</div><p>The core concept.<span class="emma-pop">"The movement solutions performers develop in practice must be effective when transferred to the performance environment."</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">❓</div><div class="emma-card__t">The core question</div><p>Does practice sample what matters?<span class="emma-pop">"Does the practice environment sample the critical informational constraints present in the performance environment?"</span></p></div>
+</div>
 
-| Strategy | Description | Example |
-|----------|-------------|---------|
-| **Exaggeration** | Amplify affordances to make them obvious | Larger targets, slower speeds |
-| **Emphasis** | Draw attention to specific affordances | Reward systems, verbal cues |
-| **Restriction** | Limit options to channel exploration | Reduce techniques available |
-| **Addition** | Add elements to create affordances | Include opponents, obstacles |
+<p class="emma-sub">RLD assessment questions</p>
 
----
+<ul class="emma-checklist">
+  <li>Does practice contain relevant <b>informational constraints</b> from performance?</li>
+  <li>Is <b>perception-action coupling</b> maintained (not decomposed)?</li>
+  <li>Are the <b>emotional demands</b> represented (Affective Learning Design)?</li>
+  <li>Will learned behaviors <b>transfer</b> to competition?</li>
+</ul>
 
-### Over-Constraining vs. Effective Constraining
+<p class="emma-sub">The RLD continuum</p>
 
-| Over-Constraining (Avoid) | Effective Constraining (Use) |
-|---------------------------|------------------------------|
-| "Two-touch only" rules | Reward systems for quick passing |
-| Forced technique prescription | Environmental setup that invites technique |
-| Removing all decision-making | Channeling decisions within options |
-| Static, unopposed drilling | Dynamic, contextual practice |
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Low representativeness<br><small>modified conditions, simplified context</small></span><span class="emma-flow__arr">↔</span><span class="emma-flow__to">High representativeness<br><small>full competition simulation</small></span></div>
+</div>
+
+<p class="emma-hl"><b>Neither extreme is always appropriate</b>, match RLD to athlete needs.</p>
+
+??? abstract "RLD assessment checklist"
 
----
+    <ul class="emma-checklist">
+      <li><b>Information sources</b>, are relevant visual, haptic, acoustic cues present?</li>
+      <li><b>Perception-action coupling</b>, is perceiving and acting integrated (not separated)?</li>
+      <li><b>Decision-making</b>, are the decisions required similar to competition?</li>
+      <li><b>Opponents/partners</b>, are human interactions included (not static objects)?</li>
+      <li><b>Emotional intensity</b>, is appropriate pressure/consequence present?</li>
+      <li><b>Time constraints</b>, is temporal pressure representative?</li>
+      <li><b>Space constraints</b>, is the spatial setup representative?</li>
+    </ul>
 
-### Co-Adaptation Principle
+<p class="emma-sub">Task simplification vs. task decomposition</p>
 
-**Key Insight:** Constrain the opposition to facilitate behavior change in your athletes.
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">✅</div><div class="emma-card__t">Simplification: preferred</div><p>Scale difficulty while keeping the task whole.<span class="emma-pop">Maintains perception-action coupling, preserves essential information flows. Example: smaller cage, slower pace.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">⚠️</div><div class="emma-card__t">Decomposition: problematic</div><p>Break the task into isolated parts.<span class="emma-pop">Decouples perception from action, removes context and information. Example: shadow boxing without a target.</span></p></div>
+</div>
 
-**Application:**
+<p class="emma-hl"><b>Key distinction:</b> Simplification keeps the task intact but adjusts difficulty. Decomposition breaks the task apart, destroying the perception-action relationship.</p>
 
-- Apply task constraints to defenders → attackers adapt
-- Apply task constraints to attackers → defenders adapt
-- Creates representative, functional learning
+<p class="emma-sub">What reduces RLD <span style="font-weight:400">(avoid these)</span></p>
 
-**MMA Example:** To develop counter-striking, constrain the attacker to initiate first. The defender (primary learner) must then read and respond—the constraint on the attacker creates the learning opportunity for the defender.
+<div class="emma-warns">
+  <span class="emma-warn emma-has-pop" tabindex="0">Dribbling around cones<span class="emma-pop">No adaptive opponent information.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Hitting pads without partner reaction<span class="emma-pop">Decoupled perception-action.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Unopposed drilling<span class="emma-pop">No defensive information to read.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Ball machines / predictable feeds<span class="emma-pop">Missing anticipatory cues.</span></span>
+  <span class="emma-warn emma-has-pop" tabindex="0">Static positional work<span class="emma-pop">No dynamic decision-making.</span></span>
+</div>
 
----
+<p class="emma-sub">What enhances RLD <span style="font-weight:400">(implement these)</span></p>
 
-## PRINCIPLE 3: Representative Learning Design (RLD)
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Live training partners</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Real affordances, adaptation</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Varied opposition styles</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Multiple solutions required</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Consequence systems</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Emotional representativeness</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Competition simulation</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Full pressure experience</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Contextual drilling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Maintains perception-action coupling</span></div>
+</div>
 
-**Guiding Statement:** *"Ensure that what learners are seeing, hearing, and feeling in the practice environment is similar to the performance environment."*
-— Renshaw et al., 2019
+<p class="emma-hl"><b>Affective Learning Design (ALD):</b> "Does the practice look AND feel like the real thing?" Built on <b>Purpose</b> (clear, meaningful goals), <b>Consequence</b> (real outcomes for success/failure), and <b>Emotion</b> (representative intensity and pressure). Sparring looks like fighting, but adding scoring, consequences, or competition formats makes it <i>feel</i> like it.</p>
 
-*RLD framework developed by Pinder, Davids, Renshaw, & Araújo (2011)*
+<p class="emma-glabel">Principle 4 · Repetition Without Repetition</p>
 
-### Core Concept: Action Fidelity
+<p class="emma-hl"><b>"Practice is a particular type of repetition without repetition."</b> <i>, Bernstein, 1967.</i> Repeat the <b>process of solving problems</b>, not identical movements. Design-in the appropriate amount of variability and (in)stability.</p>
 
-> **"The movement solutions performers develop in practice must be effective when transferred to the performance environment."**
+!!! example "Variability is the feature, not the bug: the infant-walking robot tournament"
+    The strongest evidence that *variable* practice beats *regular* practice comes from a simulation tournament (Blau &amp; Wagman, 2022, p. 169–170). Robots trained on highly **variable** infant-walking paths were pitted against robots trained on **regular**, repetitive paths in a 4,000-game tournament. The variable-trained robots won **2,888 to 75**. Variability does not degrade the skill, it builds the adaptable, degenerate system that copes with novelty. See the [Ecological Psychology](../ecological-psychology/index.md) section.
 
-### Core Question
+<p class="emma-sub">Types of practice variability</p>
 
-> **"Does the practice environment sample the critical informational constraints present in the performance environment?"**
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🎯</div><div class="emma-card__t">Task variability</div><p>Varying the task performed.<span class="emma-pop">Different techniques for the same goal.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🌍</div><div class="emma-card__t">Environmental variability</div><p>Varying conditions.<span class="emma-pop">Different opponents, surfaces.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧍</div><div class="emma-card__t">Individual variability</div><p>Varying performer state.<span class="emma-pop">Fatigued, fresh, stressed.</span></p></div>
+</div>
 
----
+??? note "Sources of variability: how to implement"
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Task goals</b>, vary objectives</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Submit vs. survive vs. control</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Rules</b>, modify regulations</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">No takedowns, no striking</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Opponents</b>, different partners</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Size, style, skill level</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Environment</b>, change conditions</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Cage vs. mats, fresh vs. fatigued</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Equipment</b>, alter gear</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Different glove weights</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Timing</b>, adjust duration</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Round length, rest periods</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><b>Intensity</b>, vary effort</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Light flow to hard sparring</span></div>
+    </div>
 
-### RLD Assessment Questions
+<p class="emma-sub">Variability zones</p>
 
-1. Does practice contain relevant **informational constraints** from performance?
-2. Is **perception-action coupling** maintained (not decomposed)?
-3. Are the **emotional demands** represented (Affective Learning Design)?
-4. Will learned behaviors **transfer** to competition?
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🟢</div><div class="emma-card__t">Green · Optimal challenge</div><p>High success likelihood.<span class="emma-pop">Promotes exploration, enhances adaptability.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🟡</div><div class="emma-card__t">Amber · Productive instability</div><p>Requires search for new solutions.<span class="emma-pop">Promotes reorganization, the edge of chaos, optimal for learning.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🔴</div><div class="emma-card__t">Red · Excessive chaos</div><p>Too much variability.<span class="emma-pop">Unmanageable / overwhelming, information overload.</span></p></div>
+</div>
 
----
+<p class="emma-sub">Matching variability to skill level</p>
 
-### RLD Continuum
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Beginner / Coordination</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Low variability, systematic (controlled), guided toward solutions</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Intermediate</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Moderate variability, mixed</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Advanced / Adaptability</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">High variability, unsystematic (random), challenge to explore</span></div>
+</div>
 
-```
-LOW REPRESENTATIVENESS ←───────────────────→ HIGH REPRESENTATIVENESS
-   (Modified conditions,                        (Full competition
-    simplified context)                          simulation)
-```
+<p class="emma-hl"><b>Systematic</b> manipulation (controlled, progressive constraint changes) targets <i>specific</i> adaptations. <b>Unsystematic</b> manipulation (random, varied changes) develops <i>general</i> adaptability.</p>
 
-**Neither extreme is always appropriate—match RLD to athlete needs.**
+<p class="emma-sub">Why variability matters</p>
 
----
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🤹</div><div class="emma-card__t">Develops dexterity</div><p>Multiple solutions to problems.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔁</div><div class="emma-card__t">Builds degeneracy</div><p>Functional redundancy.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔄</div><div class="emma-card__t">Enhances adaptability</div><p>Coping with novel situations.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🔓</div><div class="emma-card__t">Prevents system capture</div><p>Avoiding locked-in patterns.</p></div>
+</div>
 
-### RLD Assessment Checklist
+<p class="emma-sub">Managing instability</p>
 
-| Element | Question | Status |
-|---------|----------|--------|
-| **Information Sources** | Are relevant visual, haptic, acoustic cues present? | ☐ |
-| **Perception-Action Coupling** | Is perceiving and acting integrated (not separated)? | ☐ |
-| **Decision-Making** | Are decisions required similar to competition? | ☐ |
-| **Opponents/Partners** | Are human interactions included (not static objects)? | ☐ |
-| **Emotional Intensity** | Is appropriate pressure/consequence present? | ☐ |
-| **Time Constraints** | Is temporal pressure representative? | ☐ |
-| **Space Constraints** | Is spatial setup representative? | ☐ |
+<p class="emma-hl"><b>Deliberately move performers to less stable areas to promote reorganization.</b> Instability is necessary for learning, not a failure state.</p>
 
----
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">📊</div><div class="emma-card__t">Instability indicators</div><p>How to recognize productive instability.<span class="emma-pop">Increased performance variability, temporary performance decrement, search behaviors (trying new solutions), frustration (productive when managed).</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧑‍🏫</div><div class="emma-card__t">Coach response</div><p>How to support the transition.<span class="emma-pop">Recognize instability as necessary for learning, support through the transition, allow time for reorganization, celebrate exploration, not just success.</span></p></div>
+</div>
 
-### Task Simplification vs. Task Decomposition
-
-| Task Simplification (Preferred) | Task Decomposition (Problematic) |
-|--------------------------------|----------------------------------|
-| Scale difficulty while keeping task whole | Break task into isolated parts |
-| Maintain perception-action coupling | Decouple perception from action |
-| Preserve essential information flows | Remove context and information |
-| Example: Smaller cage, slower pace | Example: Shadow boxing without target |
-
-**Key Distinction:** Simplification keeps the task intact but adjusts difficulty. Decomposition breaks the task apart, destroying the perception-action relationship.
-
----
-
-### What Reduces RLD (Avoid These)
-
-| Practice Design Flaw | Problem Created |
-|---------------------|-----------------|
-| Dribbling around cones | No adaptive opponent information |
-| Hitting pads without partner reaction | Decoupled perception-action |
-| Unopposed drilling | No defensive information to read |
-| Ball machines/predictable feeds | Missing anticipatory cues |
-| Static positional work | No dynamic decision-making |
-
----
-
-### What Enhances RLD (Implement These)
-
-| Practice Design Enhancement | Benefit |
-|----------------------------|---------|
-| Live training partners | Real affordances, adaptation |
-| Varied opposition styles | Multiple solutions required |
-| Consequence systems | Emotional representativeness |
-| Competition simulation | Full pressure experience |
-| Contextual drilling | Maintains perception-action coupling |
-
----
-
-### Affective Learning Design (ALD)
-
-**Key Question:** *"Does the practice look AND feel like the real thing?"*
-
-**Components:**
-
-- **Purpose** - Clear, meaningful task goals
-- **Consequence** - Real outcomes for success/failure
-- **Emotion** - Representative intensity and pressure
-
-**For MMA:** Sparring looks like fighting, but does it feel like it? Adding scoring, consequences, or competition formats increases affective representativeness.
-
----
-
-## PRINCIPLE 4: Repetition Without Repetition
-
-**Guiding Statement:** *"Design-in the appropriate amount of variability and (in)stability to the practice environment."*
-— Renshaw et al., 2019
-
-*Principle originates with Bernstein (1967)*
-
-### Bernstein's Principle
-
-> **"Practice is a particular type of repetition without repetition."**
-> — Bernstein, 1967
-
-**Meaning:** Repeat the process of solving problems, not identical movements.
-
----
-
-### Types of Practice Variability
-
-| Type | Description | Example |
-|------|-------------|---------|
-| **Task Variability** | Varying the task performed | Different techniques for same goal |
-| **Environmental Variability** | Varying conditions | Different opponents, surfaces |
-| **Individual Variability** | Varying performer state | Fatigued, fresh, stressed |
-
----
-
-### Sources of Variability
-
-| Source | How to Implement | MMA Example |
-|--------|------------------|-------------|
-| **Task Goals** | Vary objectives | Submit vs. survive vs. control |
-| **Rules** | Modify regulations | No takedowns, no striking |
-| **Opponents** | Different partners | Size, style, skill level |
-| **Environment** | Change conditions | Cage vs. mats, fresh vs. fatigued |
-| **Equipment** | Alter gear | Different glove weights |
-| **Timing** | Adjust duration | Round length, rest periods |
-| **Intensity** | Vary effort level | Light flow to hard sparring |
-
----
-
-### Variability Zones
-
-```
-┌─────────────────────────────────────────────────┐
-│  GREEN ZONE: Optimal challenge                  │
-│  - High success likelihood                      │
-│  - Promotes exploration                         │
-│  - Enhances adaptability                        │
-├─────────────────────────────────────────────────┤
-│  AMBER ZONE: Productive instability             │
-│  - Requires search for new solutions            │
-│  - Promotes reorganization                      │
-│  - Edge of chaos (optimal learning)             │
-├─────────────────────────────────────────────────┤
-│  RED ZONE: Excessive chaos                      │
-│  - Too much variability                         │
-│  - Unmanageable/overwhelming                    │
-│  - Information overload                         │
-└─────────────────────────────────────────────────┘
-```
-
----
-
-### Matching Variability to Skill Level
-
-| Skill Level | Variability Amount | Variability Type |
-|-------------|-------------------|------------------|
-| **Coordination Stage** | Lower variability, guide toward solutions | Systematic (controlled) |
-| **Adaptability Stage** | Higher variability, challenge to explore | Unsystematic (random) |
-
----
-
-### Variability Implementation Guidelines
-
-| Athlete Level | Variability Amount | Variability Type |
-|--------------|-------------------|------------------|
-| **Beginner** | Low | Systematic (controlled) |
-| **Intermediate** | Moderate | Mixed |
-| **Advanced** | High | Unsystematic (random) |
-
----
-
-### Systematic vs. Unsystematic Manipulation
-
-| Approach | Method | Use Case |
-|----------|--------|----------|
-| **Systematic** | Controlled, progressive constraint changes | Targeting specific adaptations |
-| **Unsystematic** | Random, varied constraint changes | Developing general adaptability |
-
----
-
-### Why Variability Matters
-
-1. **Develops dexterity** - Multiple solutions to problems
-2. **Builds degeneracy** - Functional redundancy
-3. **Enhances adaptability** - Coping with novel situations
-4. **Prevents system capture** - Avoiding locked-in patterns
-
----
-
-### Managing Instability
-
-**Key Principle:** Deliberately move performers to less stable areas to promote reorganization.
-
-**Instability Indicators:**
-
-- Increased variability in performance
-- Temporary performance decrement
-- Search behaviors (trying new solutions)
-- Frustration (productive when managed)
-
-**Coach Response:**
-
-- Recognize instability as necessary for learning
-- Support through the transition
-- Allow time for reorganization
-- Celebrate exploration, not just success
-
----
-
-*Next: [Session Design](session-design.md) — GROW model and planning frameworks*
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="session-design/">Session Design</a>, the GROW model and planning frameworks.</p>

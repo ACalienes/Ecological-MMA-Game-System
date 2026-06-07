@@ -1,110 +1,85 @@
-# Concept: Hand Controls
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/hand-controls.png" alt="Hand Controls">
+  <div class="emma-phero__cap"><span class="k">Core Concept · Bridge Skill</span><span class="h">Hand Controls</span></div>
+</div>
 
----
+<div class="emma-meta"><span>Core Concept</span><span>Bridge Skill</span><span>All Ranges</span></div>
 
-## Definition
+**Hand control is the bridge between striking and grappling, it stops the tool before the strike, not the strike after it leaves.**
 
-**Hand control** refers to any intentional use of the hands or arms to interfere with an opponent's ability to strike, frame, or maneuver effectively.
+<p class="emma-hl"><b>Hand control</b> is any intentional use of the hands or arms to interfere with an opponent's ability to strike, frame, or maneuver effectively. It is <b>not a position, it is a functional interaction.</b></p>
 
-!!! note "Key Distinction"
-    Hand control is not a position. It is a **functional interaction**.
+<div class="emma-band">
+  <p class="emma-statement">Stop the tool, <br><span class="accent">not the strike after it leaves.</span></p>
+  <p class="emma-statement__sub">A functional interaction, not a position. <b>It's the bridge from striking into grappling.</b></p>
+</div>
 
----
+<p class="emma-glabel">What It Buys You</p>
 
-## Purpose of Hand Control
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🚫</div><div class="emma-card__t">Deny initiation</div><p>Stop the strike before it starts.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🎵</div><div class="emma-card__t">Disrupt rhythm</div><p>Break timing and tempo.</p></div>
+  <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Gather info</div><p>Read intent through tactile contact.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🌉</div><div class="emma-card__t">Bridge ranges</div><p>Connect striking to grappling.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🚪</div><div class="emma-card__t">Create entries</div><p>Open opportunities without absorbing damage.</p></div>
+</div>
 
-Hand control allows an athlete to:
+<p class="emma-glabel">Common Forms</p>
 
-- Deny strike initiation
-- Disrupt rhythm and timing
-- Gather tactile information
-- Bridge striking and grappling
-- Create entry opportunities without absorbing damage
+<div class="emma-chips">
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">↗️</span> Parrying &amp; trapping<span class="emma-chip__detail">Redirecting a strike and momentarily holding the limb that threw it.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">✌️</span> Two-on-one control<span class="emma-chip__detail">Controlling one of the opponent's arms with both of your hands, temporary, not a held position.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤚</span> Wrist / forearm interference<span class="emma-chip__detail">Blocking the striking tool before it is used.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🧹</span> Clearing frames<span class="emma-chip__detail">Removing the opponent's defensive structures so you can advance.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> Redirecting guard position<span class="emma-chip__detail">Changing where the opponent's hands point, opening lines of attack.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📡</span> Tactile monitoring<span class="emma-chip__detail">Feeling the opponent's intent through sustained contact, these interactions may be brief or sustained depending on context.</span></span>
+</div>
 
-It is a core MMA skill that exists at **all ranges**.
+<p class="emma-glabel">Hand Control vs. Blocking</p>
 
----
+Blocking reacts to strikes. Hand control prevents strikes from occurring cleanly.
 
-## Common Forms of Hand Control
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from">Focus</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Block targets <b>the strike</b> · Hand control targets <b>the striking tool</b></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Timing</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Block is <b>reactive</b> · Hand control is <b>proactive or simultaneous</b></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Result</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Block <b>absorbs or deflects force</b> · Hand control <b>prevents the strike from occurring</b></span></div>
+</div>
 
-| Form | Description |
-|------|-------------|
-| Parrying and trapping | Redirecting and momentarily holding |
-| Two-on-one control | Controlling one arm with both hands (temporary) |
-| Wrist or forearm interference | Blocking the tool before it's used |
-| Clearing frames | Removing defensive structures |
-| Redirecting guard position | Changing where opponent's hands point |
-| Tactile monitoring | Feeling opponent's intent through contact |
+<p class="emma-glabel">One Tool, Four Jobs</p>
 
-These interactions may be brief or sustained depending on context.
+<div class="emma-cards">
+  <div class="emma-card"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defense</div><p>Denying strikes.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🚪</div><div class="emma-card__t">Entry</div><p>Bridging to the clinch.</p></div>
+  <div class="emma-card"><div class="emma-card__i">⏬</div><div class="emma-card__t">Pressure</div><p>Disrupting rhythm.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🚫</div><div class="emma-card__t">Denial</div><p>Preventing the counter-attack.</p></div>
+</div>
 
----
+It matters most for **advanced striking exchanges**, **clinch initiation**, and **minimising damage while closing distance**.
 
-## Hand Control vs Blocking
+<p class="emma-glabel">Where It Lives in the System</p>
 
-| Aspect | Blocking | Hand Control |
-|--------|----------|--------------|
-| **Focus** | The strike | The striking tool |
-| **Timing** | Reactive | Proactive or simultaneous |
-| **Result** | Absorbs or deflects force | Prevents strike from occurring |
+<div class="emma-flow">
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/touch-game/">Touch Game</a> · Lv 4</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Advanced expression of "don't get touched"</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Pressure tool and clinch entry</span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">All grappling games</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Controlling the defender's frames</span></div>
+</div>
 
-Blocking reacts to strikes.
-Hand control prevents strikes from occurring cleanly.
+<p class="emma-glabel">It Emerges: It Isn't Taught</p>
 
----
+<p class="emma-hl"><b>Design philosophy:</b> hand control should <b>emerge naturally through constraints</b>, not be forced as a technique. When games constrain options appropriately, hand control appears as a <i>solution</i>, because it solves the problem the game presents.</p>
 
-## Hand Control as Defensive Solution
+??? abstract "Integration map & evolution notice"
 
-Hand control functions as:
+    <p class="emma-sub">The bridge skill between domains</p>
 
-- A form of **defense** (denying strikes)
-- A form of **entry** (bridging to clinch)
-- A form of **pressure** (disrupting rhythm)
-- A form of **denial** (preventing counter-attack)
+    <div class="emma-flow">
+      <div class="emma-flow__row"><span class="emma-flow__from">Striking range</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Hand control</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Hand control</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Clinch entry</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Clinch entry</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Wall / ground control</span></div>
+    </div>
 
-It is especially important for:
+    <p class="emma-hl">Hand control is the <b>bridge skill</b> between the striking and grappling domains.</p>
 
-- Advanced striking exchanges
-- Clinch initiation
-- Minimizing damage while closing distance
+    <p class="emma-sub">This concept may be refined as additional interaction patterns are identified.</p>
 
----
-
-## Hand Control in the System
-
-Hand control appears:
-
-| Context | Role |
-|---------|------|
-| [Touch Game](../games/touch-game.md) Level 4 | Advanced expression of "don't get touched" |
-| [Pressure to Clinch](../games/pressure-to-clinch.md) | Pressure tool and clinch entry |
-| All grappling games | Controlling defender's frames |
-
----
-
-## Emergence Through Constraints
-
-!!! tip "Design Philosophy"
-    Hand control should emerge naturally through constraints, not be forced as a technique.
-
-When games constrain athletes' options appropriately, hand control emerges as a **solution** — not because it was taught explicitly, but because it solves the problem the game presents.
-
----
-
-## Integration with Other Concepts
-
-```mermaid
-flowchart LR
-    A[Striking Range] --> B[Hand Control]
-    B --> C[Clinch Entry]
-    C --> D[Wall/Ground Control]
-
-    style B fill:#FF9800,color:#fff
-```
-
-Hand control is the **bridge skill** between striking and grappling domains.
-
----
-
-!!! abstract "System Evolution Notice"
-    This concept may be refined as additional interaction patterns are identified.
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Related · <a href="../defensive-solutions/">Defensive Solutions</a>, hand control as Enter &amp; Parry · <a href="../confidence-rating/">Confidence Rating</a>, tactile reads build confidence · Games · <a href="../../games/pressure-to-clinch/">Pressure to Clinch</a> · <a href="../../games/clinch-denial/">Clinch Denial</a></p>

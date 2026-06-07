@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecological MMA — Strategic Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;500;600;700&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B0C0F; --charcoal:#141620; --raised:#1B1E2A; --steel:#272B38; --steel-2:#3A4050;
+    --fog:#ECEAE4; --fog-dim:#A6ABB8; --fog-faint:#6B7080;
+    --orange:#F94B0C; --orange-br:#FF6A33; --orange-deep:#B83708;
+    --glow:rgba(249,75,12,.22);
+    --good:#36C28B; --warn:#E8B53A; --bad:#E8533A;
+    --display:'Anton',Impact,sans-serif;
+    --label:'Oswald',sans-serif;
+    --body:'Archivo',system-ui,sans-serif;
+    --mono:'JetBrains Mono',monospace;
+    --ease:cubic-bezier(.22,1,.36,1);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--ink); color:var(--fog); font-family:var(--body);
+    line-height:1.6; -webkit-font-smoothing:antialiased; overflow-x:hidden;
+  }
+  /* grain */
+  body::after{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.04;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--orange);color:#fff}
+
+  /* scrollbar */
+  ::-webkit-scrollbar{width:10px}
+  ::-webkit-scrollbar-track{background:var(--ink)}
+  ::-webkit-scrollbar-thumb{background:var(--steel-2);border-radius:10px}
+  ::-webkit-scrollbar-thumb:hover{background:var(--orange-deep)}
+
+  /* dot nav */
+  .dots{position:fixed;right:26px;top:50%;transform:translateY(-50%);z-index:200;display:flex;flex-direction:column;gap:14px}
+  .dots a{width:9px;height:9px;border-radius:50%;border:1px solid var(--steel-2);transition:all .3s var(--ease);position:relative}
+  .dots a.active{background:var(--orange);border-color:var(--orange);box-shadow:0 0 12px var(--glow)}
+  .dots a:hover{border-color:var(--orange)}
+  @media(max-width:900px){.dots{display:none}}
+
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+  section{position:relative}
+  .eyebrow{font-family:var(--label);text-transform:uppercase;letter-spacing:.34em;font-size:.72rem;color:var(--orange);font-weight:600;margin-bottom:1rem;display:flex;align-items:center;gap:.7rem}
+  .eyebrow::before{content:"";width:28px;height:1px;background:var(--orange)}
+  h2.title{font-family:var(--display);text-transform:uppercase;font-size:clamp(2.2rem,6vw,4.4rem);line-height:.94;letter-spacing:.01em;margin-bottom:1.4rem}
+  .lede{font-size:clamp(1.05rem,2vw,1.3rem);color:var(--fog-dim);max-width:46rem;line-height:1.55}
+  .accent{color:var(--orange)}
+
+  /* ===== HERO ===== */
+  .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:7rem 28px 4rem;overflow:hidden;
+    background:radial-gradient(70% 60% at 50% -5%,rgba(249,75,12,.13),transparent 60%),linear-gradient(180deg,#0B0C0F,#070809);}
+  .hero::before{content:"";position:absolute;inset:0;
+    background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+    background-size:70px 70px;mask-image:radial-gradient(75% 70% at 50% 35%,#000,transparent 82%);}
+  .hero-inner{max-width:1080px;margin:0 auto;width:100%;position:relative;z-index:1}
+  .brief-tag{font-family:var(--mono);font-size:.74rem;letter-spacing:.2em;color:var(--fog-faint);text-transform:uppercase;margin-bottom:2.2rem;display:flex;gap:1.4rem;flex-wrap:wrap}
+  .brief-tag b{color:var(--orange);font-weight:500}
+  h1{font-family:var(--display);text-transform:uppercase;font-size:clamp(3.4rem,12vw,9.5rem);line-height:.86;letter-spacing:.005em}
+  h1 .ln{display:block;overflow:hidden}
+  h1 .ln span{display:block;transform:translateY(105%);animation:rise .9s var(--ease) forwards}
+  h1 .ln:nth-child(2) span{animation-delay:.12s}
+  @keyframes rise{to{transform:none}}
+  .hero-sub{margin-top:2rem;max-width:40rem;font-size:clamp(1.1rem,2.2vw,1.45rem);color:var(--fog-dim);opacity:0;animation:fade 1s var(--ease) .5s forwards}
+  .hero-sub b{color:var(--fog)}
+  @keyframes fade{to{opacity:1}}
+  .scrollcue{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);font-family:var(--label);text-transform:uppercase;letter-spacing:.3em;font-size:.66rem;color:var(--fog-faint);animation:bob 2.2s var(--ease) infinite}
+  @keyframes bob{0%,100%{transform:translateX(-50%)}50%{transform:translateX(-50%) translateY(7px)}}
+
+  /* reveal */
+  .rv{opacity:0;transform:translateY(34px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+  .rv.in{opacity:1;transform:none}
+  .rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}.rv.d4{transition-delay:.32s}
+
+  .block{padding:7rem 0;border-top:1px solid var(--steel)}
+
+  /* ===== THESIS / big stat ===== */
+  .thesis{display:grid;grid-template-columns:1.1fr .9fr;gap:3.5rem;align-items:center}
+  .bigquote{font-family:var(--display);text-transform:uppercase;font-size:clamp(2.4rem,5.5vw,4.6rem);line-height:.96}
+  .bigquote .accent{display:block}
+  .statline{display:flex;flex-direction:column;gap:1.6rem}
+  .stat-row{border-left:3px solid var(--orange);padding-left:1.2rem}
+  .stat-row .n{font-family:var(--display);font-size:clamp(2.6rem,5vw,3.6rem);line-height:1;color:var(--fog)}
+  .stat-row .l{font-family:var(--label);text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;color:var(--fog-dim);margin-top:.3rem}
+
+  /* ===== TALE OF THE TAPE ===== */
+  .tape{margin-top:2.6rem;border:1px solid var(--steel);border-radius:16px;overflow:hidden;background:var(--charcoal)}
+  .tape-head{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;}
+  .tape-head>div{padding:1.4rem 1.1rem;border-bottom:1px solid var(--steel)}
+  .tape-head .vs{font-family:var(--label);text-transform:uppercase;letter-spacing:.1em;font-size:.7rem;color:var(--fog-faint)}
+  .fighter{border-left:1px solid var(--steel)}
+  .fighter.us{background:linear-gradient(180deg,rgba(249,75,12,.16),transparent);}
+  .fighter .name{font-family:var(--display);text-transform:uppercase;font-size:1.35rem;line-height:1}
+  .fighter.us .name{color:var(--orange)}
+  .fighter .tagline{font-family:var(--mono);font-size:.66rem;color:var(--fog-faint);margin-top:.4rem;letter-spacing:.04em}
+  .tape-row{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;border-bottom:1px solid var(--steel)}
+  .tape-row:last-child{border-bottom:0}
+  .tape-row>div{padding:1rem 1.1rem;font-size:.86rem;border-left:1px solid var(--steel)}
+  .tape-row>div:first-child{border-left:0;font-family:var(--label);text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;color:var(--fog-faint);display:flex;align-items:center}
+  .tape-row .us-cell{background:rgba(249,75,12,.06);color:var(--fog);font-weight:600}
+  .tape-row .muted{color:var(--fog-dim)}
+  @media(max-width:760px){.tape{font-size:.8rem}.tape-head,.tape-row{grid-template-columns:1fr}.fighter,.tape-row>div{border-left:0;border-top:1px solid var(--steel)}}
+
+  /* ===== SCORECARD ===== */
+  .crit{margin-top:0;background:linear-gradient(135deg,rgba(232,83,58,.12),transparent);border:1px solid rgba(232,83,58,.3);border-left:4px solid var(--bad);border-radius:12px;padding:1.6rem 1.8rem;margin-bottom:2.6rem}
+  .crit .k{font-family:var(--label);text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--bad);margin-bottom:.5rem}
+  .crit.fixed{background:linear-gradient(135deg,rgba(54,194,139,.12),transparent);border-color:rgba(54,194,139,.3);border-left-color:var(--good)}
+  .crit.fixed .k{color:var(--good)}
+  .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+  .grade{background:var(--charcoal);border:1px solid var(--steel);border-radius:14px;padding:1.8rem 1.5rem;position:relative;overflow:hidden;transition:transform .35s var(--ease),border-color .35s var(--ease)}
+  .grade:hover{transform:translateY(-5px);border-color:var(--steel-2)}
+  .grade .g{font-family:var(--display);font-size:3.4rem;line-height:1}
+  .grade .lbl{font-family:var(--label);text-transform:uppercase;letter-spacing:.12em;font-size:.82rem;margin:.4rem 0 .8rem}
+  .grade p{font-size:.86rem;color:var(--fog-dim)}
+  .grade .bar{position:absolute;top:0;left:0;height:3px;width:100%}
+  .g-b{color:var(--warn)}.bar-b{background:var(--warn)}
+  .g-c{color:var(--bad)}.bar-c{background:var(--bad)}
+
+  /* ===== TIERS ===== */
+  .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:1rem}
+  .tier{background:var(--charcoal);border:1px solid var(--steel);border-radius:16px;padding:2rem 1.6rem;display:flex;flex-direction:column;transition:transform .35s var(--ease),border-color .35s var(--ease),box-shadow .35s var(--ease)}
+  .tier:hover{transform:translateY(-6px);border-color:var(--steel-2)}
+  .tier.feature{border-color:var(--orange);box-shadow:0 0 0 1px var(--orange),0 24px 60px rgba(0,0,0,.5)}
+  .tier .tname{font-family:var(--label);text-transform:uppercase;letter-spacing:.14em;font-size:.82rem;color:var(--fog-dim)}
+  .tier.feature .tname{color:var(--orange)}
+  .tier .price{font-family:var(--display);font-size:2.6rem;line-height:1;margin:.6rem 0 .2rem}
+  .tier .per{font-family:var(--mono);font-size:.72rem;color:var(--fog-faint)}
+  .tier ul{list-style:none;margin-top:1.3rem;display:flex;flex-direction:column;gap:.7rem;font-size:.88rem;color:var(--fog-dim)}
+  .tier li{display:flex;gap:.6rem;align-items:flex-start}
+  .tier li::before{content:"›";color:var(--orange);font-weight:700}
+  .tier .badge{align-self:flex-start;font-family:var(--mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.12em;background:var(--orange);color:#fff;padding:.25rem .55rem;border-radius:4px;margin-bottom:1rem}
+
+  /* ===== ROADMAP ===== */
+  .road{display:flex;flex-direction:column;gap:0;margin-top:1rem}
+  .phase{display:grid;grid-template-columns:120px 1fr;gap:1.6rem;padding:1.6rem 0;border-bottom:1px solid var(--steel);align-items:start}
+  .phase:first-child{border-top:1px solid var(--steel)}
+  .phase .pid{font-family:var(--display);font-size:2.2rem;color:var(--steel-2);line-height:1}
+  .phase.done .pid{color:var(--good)}
+  .phase.now .pid{color:var(--orange)}
+  .phase .ph{font-family:var(--label);text-transform:uppercase;letter-spacing:.06em;font-size:1.1rem;margin-bottom:.4rem;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap}
+  .tagpill{font-family:var(--mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;padding:.2rem .5rem;border-radius:4px;border:1px solid var(--steel-2);color:var(--fog-faint)}
+  .tagpill.done{background:rgba(54,194,139,.15);border-color:transparent;color:var(--good)}
+  .tagpill.next{background:rgba(249,75,12,.15);border-color:transparent;color:var(--orange)}
+  .phase p{font-size:.9rem;color:var(--fog-dim);max-width:48rem}
+
+  /* ===== DECISIONS ===== */
+  .decisions{background:linear-gradient(180deg,#0d0e12,#0B0C0F)}
+  .dgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem;margin-top:1rem}
+  .dcard{background:var(--charcoal);border:1px solid var(--steel);border-radius:14px;padding:1.7rem;transition:transform .35s var(--ease),border-color .35s var(--ease)}
+  .dcard:hover{transform:translateY(-4px);border-color:var(--orange)}
+  .dcard .dn{font-family:var(--mono);font-size:.72rem;color:var(--orange);letter-spacing:.1em}
+  .dcard h3{font-family:var(--label);text-transform:uppercase;letter-spacing:.04em;font-size:1.18rem;margin:.5rem 0 .8rem}
+  .dcard .q{font-size:.9rem;color:var(--fog-dim);margin-bottom:1rem}
+  .opts{display:flex;flex-direction:column;gap:.5rem}
+  .opt{font-size:.84rem;padding:.55rem .8rem;border:1px solid var(--steel);border-radius:8px;color:var(--fog-dim);display:flex;justify-content:space-between;gap:.6rem;align-items:center}
+  .opt.rec{border-color:var(--orange);background:rgba(249,75,12,.07);color:var(--fog)}
+  .opt .rectag{font-family:var(--mono);font-size:.58rem;text-transform:uppercase;letter-spacing:.1em;color:var(--orange);white-space:nowrap}
+  @media(max-width:760px){.thesis,.cards3,.tiers,.dgrid{grid-template-columns:1fr}.phase{grid-template-columns:60px 1fr;gap:1rem}}
+
+  /* footer */
+  footer{padding:4rem 0 5rem;border-top:1px solid var(--steel);text-align:center}
+  .sources{font-family:var(--mono);font-size:.68rem;color:var(--fog-faint);line-height:2;max-width:50rem;margin:1.2rem auto 0}
+  .sig{font-family:var(--label);text-transform:uppercase;letter-spacing:.2em;font-size:.74rem;color:var(--fog-dim)}
+</style>
+</head>
+<body>
+
+<nav class="dots" aria-label="section nav">
+  <a href="#hero" data-s="hero" class="active"></a>
+  <a href="#thesis" data-s="thesis"></a>
+  <a href="#tape" data-s="tape"></a>
+  <a href="#verdict" data-s="verdict"></a>
+  <a href="#product" data-s="product"></a>
+  <a href="#road" data-s="road"></a>
+  <a href="#decisions" data-s="decisions"></a>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="hero-inner">
+    <div class="brief-tag"><span>Strategic Briefing</span><span><b>///</b> May 2026</span><span><b>///</b> Ecological MMA System</span><span><b>///</b> Confidential</span></div>
+    <h1><span class="ln"><span>First</span></span><span class="ln"><span>Mover.</span></span></h1>
+    <p class="hero-sub">A complete, <b>constraints-led system for all of MMA</b> — and a market already paying for exactly this kind of structure. Here's where we stand, what the research says, and the decisions on the table.</p>
+  </div>
+  <div class="scrollcue">Scroll the briefing ↓</div>
+</header>
+
+<!-- THESIS -->
+<section class="block" id="thesis">
+  <div class="wrap thesis">
+    <div class="rv">
+      <div class="eyebrow">The Thesis</div>
+      <p class="bigquote">Structure is <span class="accent">the product.</span></p>
+      <p class="lede" style="margin-top:1.4rem">The market doesn't pay for <em>more</em> content — it pays for a complete, ordered system that says what to do next. That's the one thing we already have and competitors don't. The site just buried it.</p>
+    </div>
+    <div class="statline rv d2">
+      <div class="stat-row"><div class="n" data-count="34">0</div><div class="l">Games, organized<br>by environment → finish</div></div>
+      <div class="stat-row"><div class="n" data-count="15">0</div><div class="l">Subcategories with<br>clear progression</div></div>
+      <div class="stat-row"><div class="n"><span data-count="1">0</span>st</div><div class="l">Productized whole-MMA<br>constraints-led curriculum</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TALE OF THE TAPE -->
+<section class="block" id="tape">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">The Market — Tale of the Tape</div>
+      <h2 class="title">Know the<br>matchup.</h2>
+      <p class="lede">Everyone in this space is BJJ-only and sells either scattered volume or single-coach courses. A structured system for <span class="accent">all of MMA</span> is open territory.</p>
+    </div>
+    <div class="tape rv d1">
+      <div class="tape-head">
+        <div class="vs">The Tape</div>
+        <div class="fighter us"><div class="name">Us</div><div class="tagline">whole-MMA · constraints-led</div></div>
+        <div class="fighter"><div class="name">Submeta</div><div class="tagline">BJJ · structured courses</div></div>
+        <div class="fighter"><div class="name">BJJ Fanatics</div><div class="tagline">BJJ · instructional library</div></div>
+      </div>
+      <div class="tape-row"><div>Scope</div><div class="us-cell">All of MMA — strike, clinch, wall, ground</div><div class="muted">Grappling only</div><div class="muted">Grappling only</div></div>
+      <div class="tape-row"><div>Core value</div><div class="us-cell">A complete system + coach tools</div><div class="muted">Structured single-coach courses</div><div class="muted">Volume (3,393 titles)</div></div>
+      <div class="tape-row"><div>Structure</div><div class="us-cell">Built-in (env → stage → finish)</div><div class="muted">Curated "Sets" / roadmaps</div><div class="muted">"Random techniques" — unstructured</div></div>
+      <div class="tape-row"><div>Model</div><div class="us-cell">Freemium → subscription</div><div class="muted">$25/mo streaming</div><div class="muted">$150–300 one-time</div></div>
+      <div class="tape-row"><div>Engagement</div><div class="us-cell">Paths · progress · recall (planned)</div><div class="muted">Quizzes, progress bars</div><div class="muted">Long-form video only</div></div>
+      <div class="tape-row"><div>The gap we fill</div><div class="us-cell">Whole-MMA, coach-ready</div><div class="muted">Not MMA</div><div class="muted">Not a system</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- VERDICT -->
+<section class="block" id="verdict">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">The Verdict — Where We Started</div>
+      <h2 class="title">Strong bones.<br>Wrong skin.</h2>
+    </div>
+    <div class="crit fixed rv d1">
+      <div class="k">✓ Critical issue — fixed in Phase 0</div>
+      Content lived in <b>two diverged trees</b>; the public site silently lagged real work. Now consolidated to one source of truth, and the library's relationships are clickable — <b>91 links added</b>, 12 orphaned pages surfaced.
+    </div>
+    <div class="cards3">
+      <div class="grade rv d1"><span class="bar bar-b"></span><div class="g g-b">B–</div><div class="lbl">Visual</div><p>Strong new identity — but inner pages were monotonous walls of tables with <b>zero imagery</b> for a physical skill.</p></div>
+      <div class="grade rv d2"><span class="bar bar-c"></span><div class="g g-c">C</div><div class="lbl">Organization</div><p>Solid concept undermined by a 120-link sidebar, orphaned sections, and content drift. <b>Phase 0 addressed this.</b></p></div>
+      <div class="grade rv d3"><span class="bar bar-c"></span><div class="g g-c">C–</div><div class="lbl">Engagement</div><p>Pages were dead-ends — a typical game had <b>2 links, 0 calls-to-action</b>. Relationships now navigable.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT -->
+<section class="block" id="product">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">The Product — Tiered Freemium</div>
+      <h2 class="title">Free earns it.<br>Coaches fund it.</h2>
+      <p class="lede">Give away the "aha", then sell the complete system. The high-willingness-to-pay wedge is the coach: curriculum + planning + assessment, not just content.</p>
+    </div>
+    <div class="tiers">
+      <div class="tier rv d1">
+        <div class="tname">Free</div>
+        <div class="price">$0</div><div class="per">the hook</div>
+        <ul><li>Fight philosophy</li><li>One signature game</li><li>One full learning path</li><li>A taste of the system</li></ul>
+      </div>
+      <div class="tier feature rv d2">
+        <span class="badge">Core</span>
+        <div class="tname">Practitioner</div>
+        <div class="price">$15–25</div><div class="per">/ month</div>
+        <ul><li>Full 34-game library</li><li>All learning paths</li><li>Progress tracking + recall</li><li>Video (premium layer)</li></ul>
+      </div>
+      <div class="tier rv d3">
+        <div class="tname">Coach / Gym</div>
+        <div class="price">$$$</div><div class="per">/ mo or per-location</div>
+        <ul><li>Everything in Practitioner</li><li>Lesson generator</li><li>Session planning + rubrics</li><li>Curriculum licensing · multi-seat</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section class="block" id="road">
+  <div class="wrap">
+    <div class="rv"><div class="eyebrow">The Plan — Phased to Live</div><h2 class="title">Cheap to validate.<br>Built to scale.</h2></div>
+    <div class="road rv d1">
+      <div class="phase done"><div class="pid">00</div><div><div class="ph">Foundation <span class="tagpill done">Done</span></div><p>Single source of truth · clickable game relationships · nav cleanup. The site now reflects reality and reads as a connected library.</p></div></div>
+      <div class="phase now"><div class="pid">01</div><div><div class="ph">Restructure + Visual <span class="tagpill next">Next</span></div><p>Diátaxis split (Learning Paths · "How to Play" TL;DR · separated Concepts) · <b>AI imagery + diagrams</b> · free tier goes live publicly.</p></div></div>
+      <div class="phase"><div class="pid">02</div><div><div class="ph">Monetize + Interactive</div><p>Migrate the gated layer to Next.js + Supabase + Stripe: accounts, progress, recall quizzes, payments — and begin <b>video</b> (the premium justifier).</p></div></div>
+      <div class="phase"><div class="pid">03</div><div><div class="ph">Scale</div><p>Coach/gym licensing · multi-seat · community · learning analytics.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- DECISIONS -->
+<section class="block decisions" id="decisions">
+  <div class="wrap">
+    <div class="rv"><div class="eyebrow">Decisions On The Table</div><h2 class="title">Your call.</h2><p class="lede">What I need from you to keep moving. Recommended option flagged — but these are yours to make.</p></div>
+    <div class="dgrid">
+      <div class="dcard rv d1"><div class="dn">DECISION 01</div><h3>Media investment</h3><p class="q">How much do we spend on visuals, and when?</p>
+        <div class="opts"><div class="opt rec"><span>AI imagery now, video in Phase 2</span><span class="rectag">Rec</span></div><div class="opt">Video-first (costly, slower)</div><div class="opt">Diagrams only (cheapest)</div></div></div>
+      <div class="dcard rv d2"><div class="dn">DECISION 02</div><h3>App migration timing</h3><p class="q">When do we leave MkDocs for the real app?</p>
+        <div class="opts"><div class="opt rec"><span>Trigger on validated free-tier demand</span><span class="rectag">Rec</span></div><div class="opt">Build the app now</div><div class="opt">Stay on MkDocs + bolt-ons</div></div></div>
+      <div class="dcard rv d1"><div class="dn">DECISION 03</div><h3>Pricing</h3><p class="q">Set numbers now or test with users?</p>
+        <div class="opts"><div class="opt rec"><span>Ship free tier, test, then price</span><span class="rectag">Rec</span></div><div class="opt">Lock $20/mo + coach tier now</div></div></div>
+      <div class="dcard rv d2"><div class="dn">DECISION 04</div><h3>Content backlog</h3><p class="q">Write the missing referenced pages?</p>
+        <div class="opts"><div class="opt rec"><span>Stub them in Phase 1</span><span class="rectag">Rec</span></div><div class="opt">Leave as unlinked text for now</div></div>
+        <p class="q" style="margin:.8rem 0 0;font-size:.78rem">Missing: Ground Finish · Guard Recovery · DNS · Level Change · Ring Generalship · Misdirection · Wall Pin</p></div>
+      <div class="dcard rv d1"><div class="dn">DECISION 05</div><h3>Free-tier composition</h3><p class="q">Which games are free (the aha)?</p>
+        <div class="opts"><div class="opt rec"><span>Philosophy + Winning the Circle + 1 path</span><span class="rectag">Rec</span></div><div class="opt">You pick the showcase games</div></div></div>
+      <div class="dcard rv d2"><div class="dn">DECISION 06</div><h3>Immediate</h3><p class="q">Housekeeping to unblock Phase 1.</p>
+        <div class="opts"><div class="opt rec"><span>Commit Phase 0</span><span class="rectag">Rec</span></div><div class="opt rec"><span>Delete duplicate about/changelog</span><span class="rectag">Rec</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="sig">Train the fighter, not the move.</p>
+    <p class="sources">RESEARCH BASIS — Submeta (submeta.io · bjjmore.com) · BJJ Fanatics review · eco/CLA trend 2025 (matborntv) · eco dynamics for MMA, 2024 (tandfonline) · Diátaxis (diataxis.fr) · e-learning engagement &amp; gamification (eLearning Industry) · freemium gating (Stripe · Demogo) · motor-skill learning, video vs static (PMC · Nature). Full plan: PRODUCT_STRATEGY.md</p>
+  </div>
+</footer>
+
+<script>
+  // scroll reveal
+  const rv=document.querySelectorAll('.rv');
+  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.14,rootMargin:'0px 0px -8% 0px'});
+  rv.forEach(el=>io.observe(el));
+
+  // count-up
+  function countUp(el){
+    const target=+el.dataset.count;const dur=1100;const t0=performance.now();
+    function step(t){const p=Math.min((t-t0)/dur,1);const e=1-Math.pow(1-p,3);el.textContent=Math.round(e*target);if(p<1)requestAnimationFrame(step);}
+    requestAnimationFrame(step);
+  }
+  const cio=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){countUp(e.target);cio.unobserve(e.target);}})},{threshold:.6});
+  document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
+
+  // dot nav active state
+  const dots=document.querySelectorAll('.dots a');
+  const secs=[...dots].map(d=>document.getElementById(d.dataset.s));
+  const sio=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){const id=e.target.id;dots.forEach(d=>d.classList.toggle('active',d.dataset.s===id));}})},{threshold:.5});
+  secs.forEach(s=>s&&sio.observe(s));
+
+  // respect reduced motion
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){
+    rv.forEach(el=>el.classList.add('in'));
+    document.querySelectorAll('[data-count]').forEach(el=>el.textContent=el.dataset.count);
+  }
+</script>
+</body>
+</html>
