@@ -185,6 +185,22 @@ def main():
         if extra:
             issues.append(f"{name}: Links to non-existent games: {sorted(extra)}")
 
+    # 6. Check the prescription-engine game index is fresh
+    print(f"\n{BOLD}Checking game index (games.json)...{RESET}")
+    index_path = docs_path / 'assets' / 'data' / 'games.json'
+    if not index_path.exists():
+        issues.append("docs/assets/data/games.json missing: run scripts/build-game-index.py")
+        print(f"  {RED}✗{RESET} games.json missing")
+    else:
+        import json
+        indexed = set(g['slug'] for g in json.loads(index_path.read_text())['games'])
+        if indexed != game_files:
+            stale = sorted(game_files - indexed) + sorted(indexed - game_files)
+            issues.append(f"games.json out of date ({stale}): run scripts/build-game-index.py")
+            print(f"  {RED}✗{RESET} games.json out of date: {stale}")
+        else:
+            print(f"  {GREEN}✓{RESET} games.json matches game files ({len(indexed)} games)")
+
     # Print results
     print(f"\n{BOLD}=== Results ==={RESET}\n")
 
@@ -213,6 +229,7 @@ def main():
     print(f"  2. Add to mkdocs.yml nav under appropriate category")
     print(f"  3. Add link in docs/index.md")
     print(f"  4. Update game counts in docs that mention totals")
+    print(f"  5. Run python3 scripts/build-game-index.py (refreshes games.json)")
     print()
 
     return len(issues)

@@ -64,6 +64,7 @@ exclude_docs: |
 
 nav:
   - Home: index.md
+  - Get Your Plan: your-plan.md
   - Learning Paths:
     - paths/index.md
     - Foundations First: paths/foundations-first.md
@@ -198,6 +199,7 @@ extra_javascript:
   - javascripts/mermaid-init.js
   - javascripts/landing.js
   - javascripts/progress.js
+  - javascripts/your-plan.js
 
 extra:
   social:

@@ -917,3 +917,128 @@ body, .md-typeset {
   .md-typeset .emma-statemap { flex-direction: column; }
   .md-typeset .emma-statemap__link { flex-direction: row; justify-content: center; gap: 1.2rem; min-width: 0; }
 }
+
+/* ---------- Prescription engine (Get Your Game Plan) -------------------- */
+.md-typeset .emma-plan__loading { color: var(--fog-faint); }
+
+.md-typeset .emma-plan__step {
+  border: 1px solid var(--steel); border-radius: var(--radius-md);
+  background: var(--charcoal); padding: 1rem 1.2rem; margin: 0 0 0.8rem;
+  opacity: 0.55; transition: opacity 0.25s ease, border-color 0.25s ease;
+}
+.md-typeset .emma-plan__step.is-open,
+.md-typeset .emma-plan__step.is-done { opacity: 1; }
+.md-typeset .emma-plan__step.is-open { border-color: var(--orange-deep); }
+
+.md-typeset .emma-plan__q {
+  font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.08em;
+  font-size: 0.82rem; color: var(--fog-dim); margin: 0 0 0.7rem;
+  display: flex; align-items: center; gap: 0.55rem;
+}
+.md-typeset .emma-plan__n {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 1.4rem; height: 1.4rem; border-radius: 50%;
+  background: var(--charcoal-2); border: 1px solid var(--steel-2);
+  font-size: 0.7rem; color: var(--fog);
+}
+.md-typeset .emma-plan__step.is-done .emma-plan__n {
+  background: var(--orange-deep); border-color: var(--orange-deep); color: #fff;
+}
+
+.md-typeset .emma-plan__chips {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.55rem;
+}
+.md-typeset .emma-plan__chip {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 0.15rem;
+  background: var(--charcoal-2); border: 1px solid var(--steel-2);
+  border-radius: var(--radius-sm); padding: 0.6rem 0.75rem; cursor: pointer;
+  text-align: left; color: var(--fog); font-family: var(--font-body);
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+.md-typeset .emma-plan__chip:hover { transform: translateY(-2px); border-color: var(--orange-bright); }
+.md-typeset .emma-plan__chip.is-on {
+  border-color: var(--orange); background: var(--orange-glow);
+  box-shadow: 0 0 0 1px var(--orange);
+}
+.md-typeset .emma-plan__chip-i { font-size: 1.1rem; line-height: 1; }
+.md-typeset .emma-plan__chip b { font-size: 0.82rem; line-height: 1.25; }
+.md-typeset .emma-plan__chip span { font-size: 0.7rem; color: var(--fog-faint); line-height: 1.3; }
+
+.md-typeset .emma-plan__result { margin-top: 1.6rem; }
+.md-typeset .emma-plan__note { font-size: 0.85rem; color: var(--fog-dim); }
+
+.md-typeset .emma-plan__phase {
+  margin: 0 0 1.4rem; animation: emma-plan-in 0.5s ease both;
+}
+@keyframes emma-plan-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+.md-typeset .emma-plan__phase-t {
+  font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.08em;
+  font-size: 0.85rem; margin: 0 0 0.6rem; display: flex; align-items: baseline; gap: 0.55rem;
+}
+.md-typeset .emma-plan__phase-t span {
+  color: var(--orange-bright); font-size: 1rem;
+}
+.md-typeset .emma-plan__phase-t i {
+  font-style: normal; text-transform: none; letter-spacing: 0;
+  color: var(--fog-faint); font-size: 0.75rem; font-family: var(--font-body);
+}
+
+.md-typeset .emma-plan__games { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.7rem; }
+.md-typeset a.emma-plan__game {
+  display: flex; gap: 0.7rem; align-items: center;
+  background: var(--charcoal); border: 1px solid var(--steel);
+  border-radius: var(--radius-md); padding: 0.6rem; color: var(--fog);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.md-typeset a.emma-plan__game:hover { transform: translateY(-2px); border-color: var(--orange-bright); }
+.md-typeset .emma-plan__game img {
+  width: 64px; height: 64px; object-fit: cover; border-radius: var(--radius-sm); flex: 0 0 auto;
+}
+.md-typeset .emma-plan__game-body { display: flex; flex-direction: column; gap: 0.12rem; min-width: 0; }
+.md-typeset .emma-plan__game-body b { font-size: 0.85rem; line-height: 1.25; }
+.md-typeset .emma-plan__game-body > span {
+  font-size: 0.7rem; color: var(--fog-faint); line-height: 1.35;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.md-typeset .emma-plan__diff {
+  font-style: normal; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.07em;
+  font-family: var(--font-head); margin-top: 0.2rem;
+}
+.md-typeset .emma-plan__diff--beginner { color: var(--good); }
+.md-typeset .emma-plan__diff--intermediate { color: var(--orange-bright); }
+.md-typeset .emma-plan__diff--advanced { color: var(--bad); }
+
+.md-typeset .emma-plan__session { display: flex; flex-direction: column; gap: 0.6rem; }
+.md-typeset .emma-plan__beat {
+  display: flex; gap: 0.8rem; align-items: center;
+  background: var(--charcoal); border: 1px solid var(--steel);
+  border-radius: var(--radius-md); padding: 0.6rem 0.8rem;
+  animation: emma-plan-in 0.5s ease both;
+}
+.md-typeset .emma-plan__beat-n {
+  display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto;
+  width: 1.6rem; height: 1.6rem; border-radius: 50%;
+  background: var(--orange-deep); color: #fff; font-family: var(--font-head); font-size: 0.8rem;
+}
+.md-typeset .emma-plan__beat img {
+  width: 56px; height: 56px; object-fit: cover; border-radius: var(--radius-sm); flex: 0 0 auto;
+}
+.md-typeset .emma-plan__beat-body { display: flex; flex-direction: column; gap: 0.1rem; min-width: 0; }
+.md-typeset .emma-plan__beat-body i {
+  font-style: normal; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.07em;
+  color: var(--orange-bright); font-family: var(--font-head);
+}
+.md-typeset .emma-plan__beat-body b { font-size: 0.88rem; }
+.md-typeset .emma-plan__beat-body > span {
+  font-size: 0.7rem; color: var(--fog-faint); line-height: 1.35;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.md-typeset .emma-plan__cta { font-size: 0.9rem; margin-top: 1rem; }
+.md-typeset .emma-plan__reset { margin-top: 1.2rem; }
+@media (max-width: 600px) {
+  .md-typeset .emma-plan__chips { grid-template-columns: repeat(2, 1fr); }
+  .md-typeset .emma-plan__games { grid-template-columns: 1fr; }
+}

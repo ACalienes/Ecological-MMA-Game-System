@@ -1,0 +1,1250 @@
+{
+  "games": [
+    {
+      "slug": "back-escape",
+      "title": "Back Escape",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "defensive",
+      "difficulty": "advanced",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-escape"
+      ],
+      "tags": [
+        "ground",
+        "defense",
+        "escape",
+        "back",
+        "seatbelt",
+        "hooks",
+        "chin-control",
+        "hand-fighting",
+        "survival",
+        "positional-sparring"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Turn to face before the choking arm finds your neck.",
+      "hero": "assets/img/heroes/back-escape.png"
+    },
+    {
+      "slug": "clinch-denial",
+      "title": "Clinch Denial",
+      "environment": "transition",
+      "domain": "wrestling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "short",
+      "equipment": [
+        "none"
+      ],
+      "prereq_games": [
+        "pressure-to-clinch"
+      ],
+      "tags": [
+        "wrestling",
+        "defense",
+        "clinch",
+        "hand-fighting",
+        "space",
+        "underhook",
+        "collar-tie",
+        "wrist-control",
+        "pummel",
+        "distance",
+        "pressure"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Deny the clinch before it forms, frames, hand fighting, and movement keep open space.",
+      "hero": "assets/img/heroes/clinch-denial.png"
+    },
+    {
+      "slug": "close-range-defense",
+      "title": "Close-Range Defense",
+      "environment": "open-space",
+      "domain": "striking",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [
+        "parry-the-straight"
+      ],
+      "tags": [
+        "defense",
+        "close-range",
+        "multiple-solutions",
+        "integration",
+        "parry",
+        "block",
+        "slip",
+        "roll",
+        "clinch",
+        "reaction",
+        "high-intensity"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Layer block, parry, and dodge in the pocket, learning *when* to use *which*.",
+      "hero": "assets/img/heroes/close-range-defense.png"
+    },
+    {
+      "slug": "counter-striking",
+      "title": "Counter-Striking",
+      "environment": "open-space",
+      "domain": "striking",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [
+        "close-range-defense",
+        "land-the-target"
+      ],
+      "tags": [
+        "striking",
+        "defense",
+        "counter",
+        "timing",
+        "transition",
+        "jab",
+        "cross",
+        "reaction",
+        "pressure"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Offense as defense, wait, read the lead, punish it with a timed counter.",
+      "hero": "assets/img/heroes/counter-striking.png"
+    },
+    {
+      "slug": "counter-wrestling",
+      "title": "Counter-Wrestling",
+      "environment": "transition",
+      "domain": "wrestling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves",
+        "mats"
+      ],
+      "prereq_games": [
+        "close-range-defense",
+        "pressure-to-clinch"
+      ],
+      "tags": [
+        "wrestling",
+        "defense",
+        "counter",
+        "transition",
+        "clinch",
+        "level-change",
+        "sprawl",
+        "guillotine",
+        "knee",
+        "reaction"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Change the domain to defend, time reactive clinch entries and level changes that turn the striker's offense into wrestling.",
+      "hero": "assets/img/heroes/counter-wrestling.png"
+    },
+    {
+      "slug": "evade-the-punch",
+      "title": "Evade the Punch",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "short",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [
+        "slip-the-straight"
+      ],
+      "tags": [
+        "slip",
+        "roll",
+        "pull",
+        "head-movement",
+        "reaction",
+        "skill-isolation"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Match the evasion to the punch, slip straights, roll under hooks. Head movement only.",
+      "hero": "assets/img/heroes/evade-the-punch.png"
+    },
+    {
+      "slug": "evasive-movement",
+      "title": "Evasive Movement",
+      "environment": "open-space",
+      "domain": "striking",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [
+        "close-range-defense"
+      ],
+      "tags": [
+        "striking",
+        "defense",
+        "movement",
+        "footwork",
+        "evasion",
+        "space",
+        "distance",
+        "retreat",
+        "angle",
+        "pivot",
+        "pressure"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Prevent engagement entirely through footwork and ring generalship, \"getting on your bike.\"",
+      "hero": "assets/img/heroes/evasive-movement.png"
+    },
+    {
+      "slug": "ground-access",
+      "title": "Ground Access",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "open-space-takedown",
+        "wall-to-ground"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "passing",
+        "access",
+        "top",
+        "guard",
+        "half-guard",
+        "mount",
+        "side-control",
+        "pressure",
+        "positional-sparring"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Pass the guard to a dominant position against an active bottom.",
+      "hero": "assets/img/heroes/ground-access.png"
+    },
+    {
+      "slug": "ground-and-pound-defense",
+      "title": "Ground-and-Pound Defense (WIP)",
+      "environment": "ground",
+      "domain": "mixed",
+      "focus": "defensive",
+      "difficulty": "advanced",
+      "duration": "medium",
+      "equipment": [
+        "gloves",
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-escape",
+        "ground-to-standing",
+        "leg-reclaim"
+      ],
+      "tags": [
+        "ground",
+        "defense",
+        "scramble",
+        "ground-and-pound",
+        "integration",
+        "full-mma",
+        "wip"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Escape the open-camped top before the damage stacks up.",
+      "hero": "assets/img/heroes/ground-and-pound-defense.png"
+    },
+    {
+      "slug": "ground-control",
+      "title": "Ground Control",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-access"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "control",
+        "stabilize",
+        "top",
+        "mount",
+        "side-control",
+        "back-control",
+        "pressure",
+        "positional-sparring"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Hold a dominant ground position against live escape attempts.",
+      "hero": "assets/img/heroes/ground-control.png"
+    },
+    {
+      "slug": "ground-defensive-submission",
+      "title": "Ground Defensive Submission",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "defensive",
+      "difficulty": "advanced",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-escape"
+      ],
+      "tags": [
+        "ground",
+        "defense",
+        "submission",
+        "bottom",
+        "grappling",
+        "guard",
+        "triangle",
+        "armbar",
+        "guillotine",
+        "counter"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Turn the bottom into a threat, submit, escape, or deter the top from a disadvantaged position.",
+      "hero": "assets/img/heroes/ground-defensive-submission.png"
+    },
+    {
+      "slug": "ground-escape",
+      "title": "Ground Escape",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "ground",
+        "defense",
+        "escape",
+        "bottom",
+        "survival",
+        "guard",
+        "half-guard",
+        "mount",
+        "side-control",
+        "bridge",
+        "positional-sparring"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Escape from under a dominant position before damage accumulates.",
+      "hero": "assets/img/heroes/ground-escape.png"
+    },
+    {
+      "slug": "ground-to-standing",
+      "title": "Ground to Standing",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-escape"
+      ],
+      "tags": [
+        "ground",
+        "defense",
+        "standup",
+        "escape",
+        "wrestling-up",
+        "guard",
+        "turtle",
+        "footwork",
+        "distance",
+        "transition"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Get back to your feet from the bottom before they drag you down.",
+      "hero": "assets/img/heroes/ground-to-standing.png"
+    },
+    {
+      "slug": "land-the-target",
+      "title": "Land the Target",
+      "environment": "open-space",
+      "domain": "striking",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "striking",
+        "offense",
+        "combinations",
+        "target-selection",
+        "misdirection",
+        "jab",
+        "cross",
+        "hook",
+        "timing",
+        "distance",
+        "angle"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Land one declared target by reading the defense and opening it with setup and misdirection, while the defender resists without countering.",
+      "hero": "assets/img/heroes/land-the-target.png"
+    },
+    {
+      "slug": "lead-hand-offense",
+      "title": "Lead Hand Offense",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "offensive",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "jab",
+        "hook",
+        "timing",
+        "distance",
+        "beginner-friendly",
+        "skill-isolation"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Develop the lead hand as a weapon. The attacker may *only* use the lead hand, jab, lead hook, lead uppercut, forcing variety and timing within the constraint while the defender resists without countering.",
+      "hero": "assets/img/heroes/lead-hand-offense.png"
+    },
+    {
+      "slug": "lead-leg-offense",
+      "title": "Lead Leg Offense",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "offensive",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "shin-guards"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "teep",
+        "round-kick",
+        "low-kick",
+        "distance",
+        "skill-isolation"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Develop the lead leg as a weapon. The attacker may *only* use the lead leg, teep, lead round kick, lead side kick, forcing range management and variety with the fastest kicking tool while the defender resists without countering.",
+      "hero": "assets/img/heroes/lead-leg-offense.png"
+    },
+    {
+      "slug": "leg-reclaim",
+      "title": "Leg Reclaim",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-escape"
+      ],
+      "tags": [
+        "ground",
+        "defense",
+        "guard",
+        "recovery",
+        "position",
+        "half-guard",
+        "hip-movement",
+        "positional-sparring"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Get your legs back between you and the opponent, one level at a time.",
+      "hero": "assets/img/heroes/leg-reclaim.png"
+    },
+    {
+      "slug": "mount-escape",
+      "title": "Mount Escape",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-escape"
+      ],
+      "tags": [
+        "ground",
+        "defense",
+        "escape",
+        "bottom",
+        "mount",
+        "frames",
+        "bridge",
+        "hip-escape",
+        "survival",
+        "positional-sparring"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Get out from under mount before the top isolates an arm.",
+      "hero": "assets/img/heroes/mount-escape.png"
+    },
+    {
+      "slug": "one-shot-discovery",
+      "title": "One Shot Discovery (WIP)",
+      "environment": "open-space",
+      "domain": "striking",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [
+        "counter-striking",
+        "land-the-target"
+      ],
+      "tags": [
+        "open-space",
+        "striking",
+        "one-shot",
+        "feint",
+        "perimeter",
+        "role-switch",
+        "skill-isolation",
+        "wip"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Discover where you can land your first shot with different tools, in a perimeter that won't let you run.",
+      "hero": "assets/img/heroes/one-shot-discovery.png"
+    },
+    {
+      "slug": "open-space-takedown",
+      "title": "Open Space Takedown",
+      "environment": "open-space",
+      "domain": "wrestling",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "pressure-to-clinch"
+      ],
+      "tags": [
+        "takedowns",
+        "clinch",
+        "dns",
+        "scrambles",
+        "single-leg",
+        "double-leg",
+        "level-change",
+        "distance",
+        "timing"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Takedowns from a connected position with no wall, more escape routes, and DNS threats at their most dangerous in the system.",
+      "hero": "assets/img/heroes/open-space-takedown.png"
+    },
+    {
+      "slug": "parry-the-straight",
+      "title": "Parry the Straight",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "defensive",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "parry",
+        "jab",
+        "cross",
+        "timing",
+        "reaction",
+        "beginner-friendly",
+        "skill-isolation"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Deflect straight punches with the hands. The defender may *only* parry, no blocking, no head movement, no backing up, which forces the parry to develop on its own.",
+      "hero": "assets/img/heroes/parry-the-straight.png"
+    },
+    {
+      "slug": "positional-battle",
+      "title": "Positional Sparring",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-escape",
+        "ground-access",
+        "ground-control"
+      ],
+      "tags": [
+        "format",
+        "ground",
+        "combined",
+        "positional",
+        "scramble",
+        "live"
+      ],
+      "status": "live",
+      "is_format": true,
+      "description": "??? note \"Why this is a format, not a game\"",
+      "hero": "assets/img/heroes/positional-battle.png"
+    },
+    {
+      "slug": "pressure-to-clinch",
+      "title": "Pressure to Clinch",
+      "environment": "open-space",
+      "domain": "striking",
+      "focus": "combined",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "boundary-markers"
+      ],
+      "prereq_games": [
+        "touch-game"
+      ],
+      "tags": [
+        "footwork",
+        "pressure",
+        "space-control",
+        "clinch-entry",
+        "transition",
+        "underhook",
+        "collar-tie",
+        "clinch",
+        "angle"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Manage distance through movement and pressure, then convert pressure into the clinch and wall pin.",
+      "hero": "assets/img/heroes/pressure-to-clinch.png"
+    },
+    {
+      "slug": "pressure-to-takedown",
+      "title": "Pressure to Takedown",
+      "environment": "open-space",
+      "domain": "wrestling",
+      "focus": "offensive",
+      "difficulty": "advanced",
+      "duration": "medium",
+      "equipment": [
+        "gloves",
+        "mats",
+        "shin-guards"
+      ],
+      "prereq_games": [
+        "close-range-defense",
+        "pressure-to-clinch"
+      ],
+      "tags": [
+        "takedowns",
+        "pressure",
+        "distance-closure",
+        "striking-to-grappling",
+        "single-leg",
+        "double-leg",
+        "level-change",
+        "timing"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "A full-sequence offensive game: chain strikes, distance closure, and takedowns into one flow while the defender manages all three threats at once.",
+      "hero": "assets/img/heroes/pressure-to-takedown.png"
+    },
+    {
+      "slug": "pressure-to-wall",
+      "title": "Pressure to Wall",
+      "environment": "open-space",
+      "domain": "wrestling",
+      "focus": "offensive",
+      "difficulty": "advanced",
+      "duration": "medium",
+      "equipment": [
+        "gloves",
+        "wall"
+      ],
+      "prereq_games": [
+        "pressure-to-clinch"
+      ],
+      "tags": [
+        "wrestling",
+        "offense",
+        "pressure",
+        "wall",
+        "dirty-boxing",
+        "transition",
+        "clinch",
+        "underhook",
+        "footwork",
+        "cage-cut"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Chain strikes to wall control, the destination is the wall itself, for dirty boxing and grinding, not the ground.",
+      "hero": "assets/img/heroes/pressure-to-wall.png"
+    },
+    {
+      "slug": "rear-hand-offense",
+      "title": "Rear Hand Offense",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "offensive",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "cross",
+        "overhand",
+        "power",
+        "timing",
+        "skill-isolation"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Land the rear hand alone, cross, rear hook, rear uppercut, forcing you to build your own entries.",
+      "hero": "assets/img/heroes/rear-hand-offense.png"
+    },
+    {
+      "slug": "rear-leg-offense",
+      "title": "Rear Leg Offense",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "offensive",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "shin-guards"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "round-kick",
+        "body-kick",
+        "head-kick",
+        "power",
+        "skill-isolation"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Land the rear leg alone, round kick, teep, side kick, forcing you to build your own setups.",
+      "hero": "assets/img/heroes/rear-leg-offense.png"
+    },
+    {
+      "slug": "side-control-escape",
+      "title": "Side-Control Escape",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-escape"
+      ],
+      "tags": [
+        "ground",
+        "defense",
+        "escape",
+        "bottom",
+        "side-control",
+        "frames",
+        "underhook",
+        "cross-face",
+        "guard-recovery",
+        "survival",
+        "positional-sparring"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Recover a guard or get to your knees before side control advances.",
+      "hero": "assets/img/heroes/side-control-escape.png"
+    },
+    {
+      "slug": "slip-the-straight",
+      "title": "Slip the Straight",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "defensive",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "slip",
+        "jab",
+        "cross",
+        "head-movement",
+        "timing",
+        "beginner-friendly",
+        "skill-isolation"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Make straight punches miss with head movement, slip only, no block, no duck, no backing up.",
+      "hero": "assets/img/heroes/slip-the-straight.png"
+    },
+    {
+      "slug": "standup-loop",
+      "title": "Stand-Up and Re-Pin Loop",
+      "environment": "wall",
+      "domain": "wrestling",
+      "focus": "combined",
+      "difficulty": "advanced",
+      "duration": "medium",
+      "equipment": [
+        "mats",
+        "wall"
+      ],
+      "prereq_games": [
+        "wall-to-ground"
+      ],
+      "tags": [
+        "wall",
+        "stand-up",
+        "cycle",
+        "scramble",
+        "underhook",
+        "pummel",
+        "footwork",
+        "positional-sparring",
+        "high-intensity"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Wall positions cycle rather than resolve, the defender stands and disengages while the attacker re-pins or flattens, and the skill is staying in the part of the loop that favors you.",
+      "hero": "assets/img/heroes/standup-loop.png"
+    },
+    {
+      "slug": "sustained-offense",
+      "title": "Sustained Offense",
+      "environment": "open-space",
+      "domain": "striking",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [
+        "land-the-target"
+      ],
+      "tags": [
+        "striking",
+        "offense",
+        "rhythm",
+        "pressure",
+        "combinations",
+        "jab",
+        "cross",
+        "hook",
+        "body-kick",
+        "high-intensity"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Keep striking through the defender's counters, escapes, and clinches, continue, never reset to one-and-done.",
+      "hero": "assets/img/heroes/sustained-offense.png"
+    },
+    {
+      "slug": "takedown-defense",
+      "title": "Takedown Defense",
+      "environment": "open-space",
+      "domain": "wrestling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "pressure-to-clinch"
+      ],
+      "tags": [
+        "wrestling",
+        "defense",
+        "sprawl",
+        "takedown",
+        "scramble",
+        "underhook",
+        "overhook",
+        "level-change",
+        "reaction"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Stop the shot and get back to neutral, denial, not ground escape.",
+      "hero": "assets/img/heroes/takedown-defense.png"
+    },
+    {
+      "slug": "the-square",
+      "title": "The Square, Close Defense to Takedown Progression",
+      "environment": "open-space",
+      "domain": "mixed",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves",
+        "marked",
+        "square"
+      ],
+      "prereq_games": [
+        "tight-block",
+        "close-range-defense"
+      ],
+      "tags": [
+        "wip",
+        "progression",
+        "confined-space",
+        "clinch",
+        "takedown",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "A single constraint set, layered live one variable at a time, that grows from close-range blocking defense into a full striking-to-takedown game. It is the in-class bridge between isolated striking defense and the clinch and takedown games, survival first, then the right to counter, clinch off-balance, and finish.",
+      "hero": "assets/img/heroes/the-square.png"
+    },
+    {
+      "slug": "tight-block",
+      "title": "Tight Block",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "defensive",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "block",
+        "hook",
+        "beginner-friendly",
+        "skill-isolation"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Absorb strikes behind a tight shell, block only, no parry, no head movement.",
+      "hero": "assets/img/heroes/tight-block.png"
+    },
+    {
+      "slug": "touch-game",
+      "title": "Touch and Don't Get Touched",
+      "environment": "open-space",
+      "domain": "striking",
+      "focus": "combined",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "none"
+      ],
+      "prereq_games": [],
+      "tags": [
+        "range",
+        "timing",
+        "counter-striking",
+        "foundational",
+        "distance",
+        "footwork",
+        "counter",
+        "reaction",
+        "beginner-friendly",
+        "low-intensity"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "The foundational engagement game, touch, don't get touched, and answer back the instant contact lands.",
+      "hero": "assets/img/heroes/touch-game.png"
+    },
+    {
+      "slug": "turtle-breakout",
+      "title": "Turtle Breakout",
+      "environment": "ground",
+      "domain": "wrestling",
+      "focus": "defensive",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-to-standing"
+      ],
+      "tags": [
+        "wip",
+        "wrestling",
+        "turtle",
+        "get-up",
+        "scramble",
+        "hand-fighting",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "A pure attachment race. The defender starts in turtle, the attacker starts standing with palms on the small of the back, arms fully extended. The defender says go: stand, turn, face. The attacker wins by one thing only, connecting the hands around the waist or a leg above the knee.",
+      "hero": "assets/img/heroes/turtle-breakout.png"
+    },
+    {
+      "slug": "wall-control",
+      "title": "Wall Control - Establish Pin",
+      "environment": "wall",
+      "domain": "wrestling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats",
+        "wall"
+      ],
+      "prereq_games": [
+        "pressure-to-clinch"
+      ],
+      "tags": [
+        "wall",
+        "pinning",
+        "control",
+        "grappling",
+        "underhook",
+        "overhook",
+        "collar-tie",
+        "pressure",
+        "positional-sparring"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Teach vertical control, the wall becomes the dominant constraint that organizes the pin.",
+      "hero": "assets/img/heroes/wall-control.png"
+    },
+    {
+      "slug": "wall-defensive-submission",
+      "title": "Wall Defensive Submission",
+      "environment": "wall",
+      "domain": "grappling",
+      "focus": "defensive",
+      "difficulty": "advanced",
+      "duration": "medium",
+      "equipment": [
+        "mats",
+        "wall"
+      ],
+      "prereq_games": [
+        "wall-escape"
+      ],
+      "tags": [
+        "wall",
+        "defense",
+        "submission",
+        "grappling",
+        "deterrent",
+        "guillotine",
+        "kimura",
+        "underhook",
+        "counter"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Turn a defensive wall position into a threat, submission as weapon and escape tool.",
+      "hero": "assets/img/heroes/wall-defensive-submission.png"
+    },
+    {
+      "slug": "wall-escape",
+      "title": "Wall Escape - Anti-Pin",
+      "environment": "wall",
+      "domain": "wrestling",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats",
+        "wall"
+      ],
+      "prereq_games": [
+        "wall-control"
+      ],
+      "tags": [
+        "wall",
+        "escape",
+        "frame",
+        "defense",
+        "underhook",
+        "overhook",
+        "pummel",
+        "footwork",
+        "angle",
+        "positional-sparring"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Start pinned, shoulders flat to the wall, break free by actively escaping or reversing, never by waiting it out.",
+      "hero": "assets/img/heroes/wall-escape.png"
+    },
+    {
+      "slug": "wall-grinding",
+      "title": "Wall Grinding",
+      "environment": "wall",
+      "domain": "wrestling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves",
+        "wall"
+      ],
+      "prereq_games": [
+        "wall-control"
+      ],
+      "tags": [
+        "wall",
+        "dirty-boxing",
+        "grinding",
+        "damage",
+        "control",
+        "knee",
+        "elbow",
+        "pressure",
+        "high-intensity"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Deal damage from wall control without losing the control, dirty boxing, knees and grinding while the pin holds.",
+      "hero": "assets/img/heroes/wall-grinding.png"
+    },
+    {
+      "slug": "wall-to-ground",
+      "title": "Wall Pin to Ground",
+      "environment": "wall",
+      "domain": "wrestling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats",
+        "wall"
+      ],
+      "prereq_games": [
+        "wall-control"
+      ],
+      "tags": [
+        "wall",
+        "ground",
+        "transition",
+        "takedown",
+        "single-leg",
+        "double-leg",
+        "trip",
+        "level-change"
+      ],
+      "status": "live",
+      "is_format": false,
+      "description": "Convert vertical control into horizontal, bring the opponent down from the wall pin and land in hip-and-shoulder control.",
+      "hero": "assets/img/heroes/wall-to-ground.png"
+    },
+    {
+      "slug": "win-ladder",
+      "title": "Win Ladder",
+      "environment": "wall",
+      "domain": "wrestling",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats",
+        "wall"
+      ],
+      "prereq_games": [
+        "wall-to-ground"
+      ],
+      "tags": [
+        "format",
+        "wip",
+        "scaling",
+        "handicap",
+        "wrestling",
+        "wall",
+        "ground",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": true,
+      "description": "??? note \"Why this is a format, not a game\"",
+      "hero": "assets/img/heroes/win-ladder.png"
+    }
+  ]
+}
