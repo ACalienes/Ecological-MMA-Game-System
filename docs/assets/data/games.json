@@ -32,6 +32,73 @@
       "hero": "assets/img/heroes/back-escape.png"
     },
     {
+      "slug": "back-maintenance",
+      "title": "Back Maintenance",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "advanced",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-control",
+        "back-escape"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "back",
+        "control",
+        "top",
+        "seatbelt",
+        "hooks",
+        "chin-control",
+        "ground-and-pound",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Keep the back and slide the choking arm under the chin before the bottom turns to face.",
+      "hero": "assets/img/heroes/back-maintenance.png"
+    },
+    {
+      "slug": "body-lock-to-ground",
+      "title": "Body Lock to Ground",
+      "environment": "open-space",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "open-space-takedown",
+        "back-escape"
+      ],
+      "tags": [
+        "wrestling",
+        "grappling",
+        "body-lock",
+        "back-control",
+        "takedown",
+        "off-balance",
+        "grounding",
+        "scramble",
+        "ground-and-pound",
+        "top",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Put a standing opponent's hips on the ground from the body lock or the back, before they break the grip and turn.",
+      "hero": "assets/img/heroes/body-lock-to-ground.png"
+    },
+    {
       "slug": "clinch-denial",
       "title": "Clinch Denial",
       "environment": "transition",
@@ -125,7 +192,7 @@
       "status": "wip",
       "is_format": false,
       "description": "Break their posture, then take the back, the sweep, or the top.",
-      "hero": null
+      "hero": "assets/img/heroes/closed-guard-bottom.png"
     },
     {
       "slug": "closed-guard-pass",
@@ -154,7 +221,7 @@
       "status": "wip",
       "is_format": false,
       "description": "Win your posture, open the legs, pass to chest-to-chest.",
-      "hero": null
+      "hero": "assets/img/heroes/closed-guard-pass.png"
     },
     {
       "slug": "counter-striking",
@@ -494,7 +561,7 @@
       "status": "wip",
       "is_format": false,
       "description": "Hold the shield, break their base, take something better.",
-      "hero": null
+      "hero": "assets/img/heroes/half-guard-bottom.png"
     },
     {
       "slug": "half-guard-pass",
@@ -524,7 +591,38 @@
       "status": "wip",
       "is_format": false,
       "description": "Win the underhook, flatten them, free the trapped leg.",
-      "hero": null
+      "hero": "assets/img/heroes/half-guard-pass.png"
+    },
+    {
+      "slug": "knee-on-belly-control",
+      "title": "Knee-on-Belly Control",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-control"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "knee-on-belly",
+        "control",
+        "top",
+        "balance",
+        "ground-and-pound",
+        "pin",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Keep the knee-on-belly alive through the frames, then attack an arm or step to mount.",
+      "hero": "assets/img/heroes/knee-on-belly-control.png"
     },
     {
       "slug": "land-the-target",
@@ -666,6 +764,69 @@
       "hero": "assets/img/heroes/mount-escape.png"
     },
     {
+      "slug": "mount-maintenance",
+      "title": "Mount Maintenance",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-control",
+        "mount-escape"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "mount",
+        "control",
+        "top",
+        "tko-pin",
+        "ground-and-pound",
+        "pin",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Keep the mount and turn control into damage before the bottom gets an elbow back in.",
+      "hero": "assets/img/heroes/mount-maintenance.png"
+    },
+    {
+      "slug": "north-south-control",
+      "title": "North-South Control",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-control"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "north-south",
+        "control",
+        "top",
+        "kimura",
+        "ground-and-pound",
+        "pin",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Pin from north-south, then transition to a side or trap an arm before the bottom brings the knees in.",
+      "hero": "assets/img/heroes/north-south-control.png"
+    },
+    {
       "slug": "one-shot-discovery",
       "title": "One Shot Discovery (WIP)",
       "environment": "open-space",
@@ -722,7 +883,7 @@
       "status": "wip",
       "is_format": false,
       "description": "Clear the feet, beat the knee line, get chest-to-chest.",
-      "hero": null
+      "hero": "assets/img/heroes/open-guard-pass.png"
     },
     {
       "slug": "open-space-takedown",
@@ -979,7 +1140,7 @@
       "status": "wip",
       "is_format": false,
       "description": "Keep your structure, make them post, punish the post.",
-      "hero": null
+      "hero": "assets/img/heroes/seated-guard-retention.png"
     },
     {
       "slug": "side-control-escape",
@@ -1012,6 +1173,39 @@
       "is_format": false,
       "description": "Recover a guard or get to your knees before side control advances.",
       "hero": "assets/img/heroes/side-control-escape.png"
+    },
+    {
+      "slug": "side-control-ride",
+      "title": "Side-Control Ride",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-control",
+        "side-control-escape"
+      ],
+      "tags": [
+        "ground",
+        "offense",
+        "mount",
+        "control",
+        "top",
+        "side-control",
+        "kimura",
+        "ground-and-pound",
+        "pin",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Hold side control and turn it into an arm or a better position before the bottom frames a knee back in.",
+      "hero": "assets/img/heroes/side-control-ride.png"
     },
     {
       "slug": "slip-the-straight",

@@ -135,6 +135,18 @@ Manage distance through movement and pressure, then convert pressure into the cl
   </details>
 </div>
 
+<p class="emma-glabel">Variant: Lead-Leg Barrier <span style="font-size:.7em;opacity:.7">(WIP, class 2026-06-15)</span></p>
+
+A scaffolded entry ladder for beginners: the attacker closes the distance with no strikes at all, against a defender whose only job is a lead-leg barrier. Then weapons are added a rung at a time on both sides. Same win, get past the elbows into a clinch (any 50/50, both hands under, or a connection on a leg), under a 20-second shot clock.
+
+<div class="emma-stepper">
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>No weapons vs the lead leg</b>Block, catch, time the clinch.<span class="emma-pop emma-pop--l">Attacker has no strikes, only hands to block and catch kicks plus timing to close. Defender keeps distance with the lead leg only (front, side, or push kick) and the hands. The pure scaffold for someone who has never been punched, all closing, no danger.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Defender gains the jab</b>Attacker may reach to manipulate.<span class="emma-pop emma-pop--l">Defender adds the lead jab on top of the teeps. Attacker still has no strikes but may now reach with the hands to post and manipulate, the trade-off is explicit: the more you reach, the more you can be hit.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Attacker gains the rear cross</b>A threat to herd, not the win.<span class="emma-pop emma-pop--l">Attacker adds the rear straight (head or body, straight only) to threaten and herd. The cross creates pressure, but the clinch is still the win. Defender can now also win by catching a leg on the level change as the cross is thrown.</span></div>
+</div>
+
+<p class="emma-hl"><b>Feint volume unlocks the doors.</b> Don't feint one at a time, pump-fake six or seven in a row, top and bottom, until the read breaks. High-level pressure is built on a constant stream of false starts, not single committed shots.</p>
+
 <p class="emma-glabel">Go Deeper</p>
 
 ??? note "Task focus &amp; coaching cues"

@@ -6,16 +6,16 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "48 Games Across 5 Environments"
+!!! tip "54 Games Across 5 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|
     | Skill Isolation | 8 | Single-skill development |
     | Open Space - Striking | 8 | Striking engagement |
     | Transition Zone | 2 | Domain change moments |
-    | Open Space - Wrestling | 5 | Takedowns and pressure |
+    | Open Space - Wrestling | 6 | Takedowns and pressure |
     | Wall | 6 | Vertical constraint |
-    | Ground | 19 | Horizontal grappling |
+    | Ground | 24 | Horizontal grappling |
 
 ---
 
@@ -83,6 +83,7 @@ Standing games focused on takedowns and pressure.
 | [Pressure to Takedown](pressure-to-takedown.md) | Offensive | Advanced | Chain strikes to clinch to takedown |
 | [Pressure to Wall](pressure-to-wall.md) | Offensive | Advanced | Chain strikes to wall control for grinding |
 | [Open Space Takedown](open-space-takedown.md) | Combined | Intermediate | Execute takedowns without wall assistance |
+| [Body Lock to Ground (WIP)](body-lock-to-ground.md) | Offensive | Intermediate | Ground the hips from the body lock or back, before they break and turn |
 | [The Square (WIP)](the-square.md) | Defensive | Intermediate | Close defense layered live into a takedown progression |
 
 ---
@@ -110,6 +111,11 @@ Games focused on horizontal grappling positions.
 |------|-------|------------|--------------|
 | [Ground Access](ground-access.md) | Offensive | Intermediate | Pass guard and advance position |
 | [Ground Control](ground-control.md) | Offensive | Intermediate | Maintain position through escape attempts |
+| [Mount Maintenance (WIP)](mount-maintenance.md) | Offensive | Intermediate | Keep mount, turn control into a TKO pin before the elbows return |
+| [Side-Control Ride (WIP)](side-control-ride.md) | Offensive | Intermediate | Hold side control, isolate a bent arm or advance to mount |
+| [Back Maintenance (WIP)](back-maintenance.md) | Offensive | Advanced | Keep the back, slide the choking arm under the chin |
+| [Knee-on-Belly Control (WIP)](knee-on-belly-control.md) | Offensive | Intermediate | Ride light, switch sides, attack an arm or step to mount |
+| [North-South Control (WIP)](north-south-control.md) | Offensive | Intermediate | Pin, transition to a side, or trap the kimura |
 | [Ground Escape](ground-escape.md) | Defensive | Intermediate | Escape from under dominant position |
 | [Mount Escape](mount-escape.md) | Defensive | Intermediate | Frame, bridge, and recover from under mount |
 | [Side-Control Escape](side-control-escape.md) | Defensive | Intermediate | Frame and recover before side control advances |

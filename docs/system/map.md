@@ -1,6 +1,6 @@
 # System Map
 
-<div class="emma-meta"><span>Visual Navigation</span><span>All 48 Games</span><span>Environment → Finish</span></div>
+<div class="emma-meta"><span>Visual Navigation</span><span>All 54 Games</span><span>Environment → Finish</span></div>
 
 <p class="emma-hl"><b>The fight is cyclical.</b> You move between environments until someone finishes, and every path has a reverse. This map routes you from foundation skills through every game to a finish.</p>
 
@@ -146,6 +146,7 @@ Transitions from standing to the ground (takedowns / knockdowns).
 <div class="emma-cards">
   <a class="emma-card" href="../../games/pressure-to-takedown/"><div class="emma-card__i">⬇️</div><div class="emma-card__t">Pressure to Takedown</div><p>Chaining strikes to takedown.</p></a>
   <a class="emma-card" href="../../games/open-space-takedown/"><div class="emma-card__i">🤸</div><div class="emma-card__t">Open Space Takedown</div><p>Takedowns without the wall.</p></a>
+  <a class="emma-card" href="../../games/body-lock-to-ground/"><div class="emma-card__i">🤼</div><div class="emma-card__t">Body Lock to Ground</div><p>Ground the hips from body lock or back.</p></a>
 </div>
 
 ---
@@ -204,6 +205,11 @@ Horizontal grappling. You arrive via takedown or knockdown.
 <div class="emma-cards">
   <a class="emma-card" href="../../games/ground-access/"><div class="emma-card__i">🗝️</div><div class="emma-card__t">Ground Access</div><p>Passing guard.</p></a>
   <a class="emma-card" href="../../games/ground-control/"><div class="emma-card__i">📌</div><div class="emma-card__t">Ground Control</div><p>Maintaining dominant position.</p></a>
+  <a class="emma-card" href="../../games/mount-maintenance/"><div class="emma-card__i">⛰️</div><div class="emma-card__t">Mount Maintenance</div><p>Keep mount, turn it into a TKO pin.</p></a>
+  <a class="emma-card" href="../../games/side-control-ride/"><div class="emma-card__i">🥋</div><div class="emma-card__t">Side-Control Ride</div><p>Hold side, take an arm or mount.</p></a>
+  <a class="emma-card" href="../../games/back-maintenance/"><div class="emma-card__i">🎒</div><div class="emma-card__t">Back Maintenance</div><p>Keep the back, close on the chin.</p></a>
+  <a class="emma-card" href="../../games/knee-on-belly-control/"><div class="emma-card__i">🦵</div><div class="emma-card__t">Knee-on-Belly Control</div><p>Ride light, attack or step to mount.</p></a>
+  <a class="emma-card" href="../../games/north-south-control/"><div class="emma-card__i">🧭</div><div class="emma-card__t">North-South Control</div><p>Pin, transition, trap the kimura.</p></a>
 </div>
 
 <p class="emma-sub">Live Format 🟣</p>
@@ -247,7 +253,7 @@ Where the system's core concepts show up across the games.
   <a class="emma-card emma-has-pop" href="../../concepts/confidence-rating/" tabindex="0"><div class="emma-card__i">📊</div><div class="emma-card__t">Confidence Rating</div><p>Commitment timing.<span class="emma-pop">Appears in: Land the Target, Skill Isolation.</span></p></a>
   <a class="emma-card emma-has-pop" href="../../concepts/defensive-solutions/" tabindex="0"><div class="emma-card__i">🛡️</div><div class="emma-card__t">Defensive Solutions</div><p>Defense selection.<span class="emma-pop">Appears in: all skill isolation, Close-Range Defense.</span></p></a>
   <a class="emma-card emma-has-pop" href="../../concepts/hand-controls/" tabindex="0"><div class="emma-card__i">🤝</div><div class="emma-card__t">Hand Controls</div><p>Bridges striking and clinch.<span class="emma-pop">Appears in: Touch, Pressure to Clinch, Pressure games.</span></p></a>
-  <a class="emma-card emma-has-pop" href="../../concepts/tko-pin/" tabindex="0"><div class="emma-card__i">📌</div><div class="emma-card__t">TKO Pin</div><p>Exploitation endpoint.<span class="emma-pop">Appears in: Wall Grinding, Ground Control.</span></p></a>
+  <a class="emma-card emma-has-pop" href="../../concepts/tko-pin/" tabindex="0"><div class="emma-card__i">📌</div><div class="emma-card__t">TKO Pin</div><p>Exploitation endpoint.<span class="emma-pop">Appears in: Wall Grinding, Ground Control, Mount Maintenance, Side-Control Ride, Back Maintenance, Knee-on-Belly Control.</span></p></a>
   <a class="emma-card emma-has-pop" href="../../concepts/decision-states/" tabindex="0"><div class="emma-card__i">🔄</div><div class="emma-card__t">Decision States</div><p>Access → Stabilize → Exploit → Counter.<span class="emma-pop">Appears in: all games.</span></p></a>
   <a class="emma-card emma-has-pop" href="../../concepts/full-mma-expression/" tabindex="0"><div class="emma-card__i">🌐</div><div class="emma-card__t">Full MMA Expression</div><p>Cross-domain threat integration.<span class="emma-pop">Appears in: Level 4 of all games.</span></p></a>
   <a class="emma-card emma-has-pop" href="../../concepts/fight-philosophy/" tabindex="0"><div class="emma-card__i">⚖️</div><div class="emma-card__t">Fight Philosophy</div><p>Finish while taking minimal damage.<span class="emma-pop">Appears: system-wide.</span></p></a>

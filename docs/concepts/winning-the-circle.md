@@ -86,6 +86,18 @@ The circle can be won and lost many times in a single exchange. It is a continuo
   <div class="emma-card"><div class="emma-card__i">🌀</div><div class="emma-card__t">Inside: Escape</div><p>Move early, before space closes · circle laterally instead of backing up · strike to create space · recognise early when you're losing, awareness beats panic.</p></div>
 </div>
 
+<p class="emma-glabel">Three Ways to Move Forward</p>
+
+Pressure has a temperament. The same forward intent can be reckless, evasive-and-sharp, or patient, and only one of them reliably wins the circle.
+
+<div class="emma-cards">
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🐂</div><div class="emma-card__t">The Bull</div><p>Charges forward recklessly, overcommits, and crashes.<span class="emma-pop">Covers ground fast but gives up balance and structure. Easy to redirect, counter, or pull into a takedown. Pressure without composure.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🩸</div><div class="emma-card__t">The Matador</div><p>Lets the opponent commit, then redirects and makes them miss.<span class="emma-pop">Sharp and efficient, uses the opponent's momentum against them. Wins exchanges, but on its own it does not take space, it waits for mistakes rather than herding.</span></p></div>
+  <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🪖</div><div class="emma-card__t">The Soldier</div><p>Advances methodically, takes a little ground, and does not give it back.<span class="emma-pop">Patient, structured forward pressure. Cuts angles, takes distance away a step at a time, and corrals to the boundary. This is the temperament that wins the circle.</span></p></div>
+</div>
+
+<p class="emma-hl"><b>Take your time.</b> You have no rush. As the opponent moves back, take the distance away slowly and meet them where they're going. You don't need to lunge for the finish, herd patiently and the boundary does the work.</p>
+
 <p class="emma-glabel">Developed Through Games</p>
 
 <div class="emma-flow">
