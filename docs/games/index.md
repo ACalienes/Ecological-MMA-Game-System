@@ -6,16 +6,16 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "54 Games Across 5 Environments"
+!!! tip "57 Games Across 5 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|
-    | Skill Isolation | 8 | Single-skill development |
+    | Skill Isolation | 9 | Single-skill development |
     | Open Space - Striking | 8 | Striking engagement |
     | Transition Zone | 2 | Domain change moments |
-    | Open Space - Wrestling | 6 | Takedowns and pressure |
+    | Open Space - Wrestling | 7 | Takedowns and pressure |
     | Wall | 6 | Vertical constraint |
-    | Ground | 24 | Horizontal grappling |
+    | Ground | 25 | Horizontal grappling |
 
 ---
 
@@ -33,6 +33,7 @@ Constrained games that develop single skills in isolation.
 | [Tight Block](tight-block.md) | Beginner | Absorb strikes using tight guard |
 | [Slip the Straight](slip-the-straight.md) | Beginner | Evade straight punches with head movement |
 | [Evade the Punch](evade-the-punch.md) | Intermediate | Match evasion type to punch type |
+| [Kick Defense Isolation (WIP)](kick-defense.md) | Intermediate | Read τ and check, block, or catch the roundhouse |
 
 #### Offensive (Weapon Isolation)
 
@@ -83,6 +84,7 @@ Standing games focused on takedowns and pressure.
 | [Pressure to Takedown](pressure-to-takedown.md) | Offensive | Advanced | Chain strikes to clinch to takedown |
 | [Pressure to Wall](pressure-to-wall.md) | Offensive | Advanced | Chain strikes to wall control for grinding |
 | [Open Space Takedown](open-space-takedown.md) | Combined | Intermediate | Execute takedowns without wall assistance |
+| [50/50 Clinch (WIP)](fifty-fifty-clinch.md) | Combined | Intermediate | Win the first dominant connection from a neutral over-under clinch |
 | [Body Lock to Ground (WIP)](body-lock-to-ground.md) | Offensive | Intermediate | Ground the hips from the body lock or back, before they break and turn |
 | [The Square (WIP)](the-square.md) | Defensive | Intermediate | Close defense layered live into a takedown progression |
 
@@ -112,6 +114,7 @@ Games focused on horizontal grappling positions.
 | [Ground Access](ground-access.md) | Offensive | Intermediate | Pass guard and advance position |
 | [Ground Control](ground-control.md) | Offensive | Intermediate | Maintain position through escape attempts |
 | [Mount Maintenance (WIP)](mount-maintenance.md) | Offensive | Intermediate | Keep mount, turn control into a TKO pin before the elbows return |
+| [Mount Submission Hunt (WIP)](mount-submission-hunt.md) | Offensive | Advanced | Isolate the arm over the head or seal the back, before they deny and recover |
 | [Side-Control Ride (WIP)](side-control-ride.md) | Offensive | Intermediate | Hold side control, isolate a bent arm or advance to mount |
 | [Back Maintenance (WIP)](back-maintenance.md) | Offensive | Advanced | Keep the back, slide the choking arm under the chin |
 | [Knee-on-Belly Control (WIP)](knee-on-belly-control.md) | Offensive | Intermediate | Ride light, switch sides, attack an arm or step to mount |

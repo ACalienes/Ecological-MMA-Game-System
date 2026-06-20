@@ -1,6 +1,6 @@
 # System Map
 
-<div class="emma-meta"><span>Visual Navigation</span><span>All 54 Games</span><span>Environment → Finish</span></div>
+<div class="emma-meta"><span>Visual Navigation</span><span>All 57 Games</span><span>Environment → Finish</span></div>
 
 <p class="emma-hl"><b>The fight is cyclical.</b> You move between environments until someone finishes, and every path has a reverse. This map routes you from foundation skills through every game to a finish.</p>
 

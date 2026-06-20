@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Build Review: June 20, 2026 Games</title>
+<style>
+  :root {
+    --bg: #0a0d14; --panel: #121826; --panel-2: #161e30; --line: #232c42;
+    --text: #e7ecf6; --muted: #8b96ad; --accent: #7aa2ff;
+    --done: #4ade80; --now: #ffd24d; --next: #7aa2ff; --later: #5a6478; --stop: #f87171;
+    --clinch: #c084fc; --ground: #4ade80; --strike: #fb923c; --concept: #7aa2ff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: radial-gradient(1200px 800px at 50% -10%, #131b2e 0%, var(--bg) 55%) fixed, var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55; padding: 48px 20px 80px;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  .crumb { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 18px; }
+  .crumb .proj { color: var(--accent); font-weight: 700; letter-spacing: .04em; font-size: 13px; text-transform: uppercase; }
+  .crumb .clock { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+  h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 6px; }
+  .sub { color: var(--muted); font-size: 15px; margin-bottom: 14px; }
+  .sub b { color: var(--text); }
+  .nocommit { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; color: var(--now); background: rgba(255,210,77,.1); border: 1px solid rgba(255,210,77,.32); border-radius: 99px; padding: 6px 14px; margin-bottom: 34px; }
+  .nocommit .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--now); animation: blink 1.5s infinite; }
+
+  section { margin-bottom: 44px; opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+  section.in { opacity: 1; transform: none; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin-bottom: 16px; }
+
+  .goal { background: linear-gradient(135deg, #15203a 0%, #121826 70%); border: 1px solid #2b3a5e; border-radius: 16px; padding: 26px 28px; position: relative; overflow: hidden; }
+  .goal::before { content: "★"; position: absolute; right: 22px; top: 14px; font-size: 46px; color: rgba(122,162,255,.18); }
+  .goal .kicker { color: var(--accent); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .12em; margin-bottom: 8px; }
+  .goal p { font-size: 17px; max-width: 780px; }
+  .goal strong { color: #fff; }
+
+  .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 16px; }
+  .metric { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; text-align: center; }
+  .metric .num { font-size: 28px; font-weight: 800; color: #fff; font-variant-numeric: tabular-nums; }
+  .metric .lbl { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .metric.gold .num { color: var(--now); } .metric.green .num { color: var(--done); } .metric.blue .num { color: var(--accent); }
+
+  /* library bar */
+  .libbar { margin-top: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+  .libbar .row { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  .libbar .row b { color: var(--text); }
+  .track { height: 12px; background: #0d1322; border-radius: 99px; overflow: hidden; }
+  .fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--done), var(--accent)); border-radius: 99px; transition: width 1.4s cubic-bezier(.22,1,.36,1); }
+
+  /* pipeline */
+  .pipe { list-style: none; position: relative; padding-left: 34px; }
+  .pipe::before { content: ""; position: absolute; left: 11px; top: 10px; bottom: 10px; width: 2px; background: var(--line); }
+  .pipe li { position: relative; padding: 10px 0 10px 10px; }
+  .node { position: absolute; left: -34px; top: 14px; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 800; z-index: 1; border: 2px solid var(--line); background: var(--panel); color: var(--muted); }
+  .pipe .done .node { background: rgba(74,222,128,.12); border-color: var(--done); color: var(--done); }
+  .pipe .now .node { background: rgba(255,210,77,.14); border-color: var(--now); color: var(--now); animation: pulse 1.8s infinite; }
+  .pipe .next .node { border-color: var(--next); color: var(--next); }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(255,210,77,.45); } 70% { box-shadow: 0 0 0 12px rgba(255,210,77,0); } 100% { box-shadow: 0 0 0 0 rgba(255,210,77,0); } }
+  .step { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; }
+  .pipe .now .step { border-color: rgba(255,210,77,.55); background: var(--panel-2); }
+  .step .t { font-weight: 700; font-size: 15px; }
+  .step .d { color: var(--muted); font-size: 13.5px; margin-top: 3px; }
+  .youarehere { display: inline-block; margin-left: 10px; font-size: 11px; font-weight: 800; color: #1a1503; background: var(--now); border-radius: 99px; padding: 2px 10px; letter-spacing: .06em; animation: blink 1.8s infinite; }
+  @keyframes blink { 50% { opacity: .55; } }
+  .tag { display: inline-block; font-size: 11px; font-weight: 700; border-radius: 99px; padding: 1px 9px; margin-left: 8px; vertical-align: 1px; }
+  .tag.done { color: var(--done); background: rgba(74,222,128,.1); }
+  .tag.next { color: var(--next); background: rgba(122,162,255,.12); }
+  .tag.later { color: var(--muted); background: rgba(138,150,173,.12); }
+
+  /* built game cards (expandable) */
+  .lead { color: var(--muted); font-size: 14px; max-width: 800px; margin-bottom: 18px; }
+  .lead b { color: var(--text); }
+  .games { display: flex; flex-direction: column; gap: 12px; }
+  .gx { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; transition: border-color .2s ease, box-shadow .2s ease; }
+  .gx:hover { border-color: #34406088; }
+  .gx.open { border-color: var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.32); }
+  .gx > .bar { display: flex; align-items: center; gap: 12px; padding: 16px 18px; cursor: pointer; user-select: none; }
+  .gx .idx { flex: none; width: 30px; height: 30px; border-radius: 9px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 14px; color: #0a0d14; }
+  .gx .nm { font-weight: 700; font-size: 15.5px; color: #fff; flex: 1; }
+  .gx .nm small { display: block; font-weight: 500; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  .pill { font-size: 10.5px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; border-radius: 99px; padding: 3px 10px; white-space: nowrap; }
+  .pill.new { color: var(--done); background: rgba(74,222,128,.13); }
+  .pill.ref { color: var(--accent); background: rgba(122,162,255,.13); }
+  .chev { flex: none; color: var(--muted); transition: transform .25s ease; font-size: 13px; }
+  .gx.open .chev { transform: rotate(90deg); }
+  .gx .body { max-height: 0; overflow: hidden; transition: max-height .4s ease; }
+  .gx.open .body { max-height: 620px; }
+  .gx .inner { padding: 2px 18px 18px 60px; }
+  .gap { display: inline-block; margin: 0 0 12px; font-size: 11.5px; font-weight: 700; color: var(--now); background: rgba(255,210,77,.1); border-radius: 99px; padding: 3px 11px; }
+  .gap.blue { color: var(--accent); background: rgba(122,162,255,.1); }
+  .fixes { list-style: none; }
+  .fixes li { font-size: 13px; color: var(--muted); padding: 4px 0 4px 24px; position: relative; }
+  .fixes li::before { content: "✓"; position: absolute; left: 0; color: var(--done); font-weight: 800; }
+  .fixes li b { color: var(--text); }
+  .flag { color: var(--now) !important; }
+  .flag::before { content: "★" !important; color: var(--now) !important; }
+
+  /* before/after */
+  .ba { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: stretch; margin: 6px 0 12px; }
+  .ba .col { border-radius: 10px; padding: 10px 12px; font-size: 12.5px; }
+  .ba .was { background: rgba(248,113,113,.06); border: 1px solid rgba(248,113,113,.22); }
+  .ba .now2 { background: rgba(74,222,128,.06); border: 1px solid rgba(74,222,128,.25); }
+  .ba b { display: block; font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 3px; }
+  .ba .was b { color: var(--stop); } .ba .now2 b { color: var(--done); }
+  .ba .arr { align-self: center; color: var(--muted); font-size: 18px; }
+
+  /* verification proof strip */
+  .proof { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .pf { display: flex; align-items: flex-start; gap: 12px; background: var(--panel); border: 1px solid rgba(74,222,128,.22); border-radius: 12px; padding: 16px 18px; }
+  .pf .ck { flex: none; width: 26px; height: 26px; border-radius: 50%; background: rgba(74,222,128,.12); border: 1.5px solid var(--done); color: var(--done); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 13px; }
+  .pf .tt { font-size: 14px; font-weight: 700; color: #fff; }
+  .pf .dd { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  .pf .dd code { background: #0d1322; border-radius: 5px; padding: 1px 5px; font-size: 11.5px; color: var(--accent); }
+
+  /* decisions */
+  .dec { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-bottom: 12px; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+  .dec:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 10px 28px rgba(0,0,0,.35); }
+  .dec .head { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
+  .dec h3 { font-size: 15.5px; color: #fff; }
+  .badge { font-size: 11px; font-weight: 800; border-radius: 99px; padding: 2px 10px; letter-spacing: .05em; }
+  .badge.you { color: #1a1503; background: var(--now); }
+  .badge.rec { color: #06220f; background: var(--done); }
+  .badge.small { color: var(--muted); background: rgba(138,150,173,.14); }
+  .dec p { font-size: 13.5px; color: var(--muted); max-width: 740px; }
+  .dec p b { color: var(--text); }
+
+  .road { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .stage { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .stage .ph { font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .stage.s1 .ph { color: var(--done); } .stage.s2 .ph { color: var(--now); } .stage.s3 .ph { color: var(--next); } .stage.s4 .ph { color: var(--muted); }
+  .stage .tt { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  .stage .dd { font-size: 12.5px; color: var(--muted); }
+
+  footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 50px; }
+  @media (max-width: 720px) { .road, .metrics, .proof, .ba { grid-template-columns: 1fr; } .gx .inner { padding-left: 18px; } .ba .arr { transform: rotate(90deg); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="crumb">
+    <span class="proj">Ecological MMA Game System</span>
+    <span class="clock" id="clock">June 20, 2026</span>
+  </div>
+  <h1>Built, verified, and waiting for your eyes</h1>
+  <p class="sub">You approved the mount reframe and said build 1, 2, 3 and refine 4. Done: <b>3 new game pages + 1 refined + a new concept page</b>, every flagged fix applied, all cross-checked against the eco rules and the live site build.</p>
+  <div class="nocommit"><span class="dot"></span> Nothing committed to git yet, this is your review gate</div>
+
+  <!-- 1. END GOAL -->
+  <section class="in">
+    <div class="goal">
+      <div class="kicker">★ What this build does for the product</div>
+      <p>In one pass the library gains its <strong>first submission-offense game</strong> (the #1 gap), its <strong>first typed center-clinch game</strong> (the #2 gap), and its <strong>first kick-defense game</strong> (the #5 gap). Three zero-coverage holes, filled with field-tested games from your own class, each one eco-audited before it rendered.</p>
+    </div>
+    <div class="metrics">
+      <div class="metric green"><div class="num" data-count="3">0</div><div class="lbl">new games built</div></div>
+      <div class="metric blue"><div class="num" data-count="1">0</div><div class="lbl">game refined (R5)</div></div>
+      <div class="metric gold"><div class="num" data-count="1">0</div><div class="lbl">concept page added</div></div>
+      <div class="metric"><div class="num" data-count="56">0</div><div class="lbl">of 57 pass eco-check</div></div>
+    </div>
+    <div class="libbar">
+      <div class="row"><span>Library build-out</span><span><b id="libnum">54 → 57</b> of 102 planned games</span></div>
+      <div class="track"><div class="fill" id="libfill" data-pct="56"></div></div>
+    </div>
+  </section>
+
+  <!-- 2. WHERE WE ARE -->
+  <section>
+    <h2>Where we are</h2>
+    <ul class="pipe">
+      <li class="done"><span class="node">✓</span>
+        <div class="step"><div class="t">Workshopped &amp; eco-audited <span class="tag done">done</span></div>
+        <div class="d">All 5 games cross-checked against the 20-rule set. The mount reframe and fixes were the plan you approved.</div></div></li>
+      <li class="done"><span class="node">✓</span>
+        <div class="step"><div class="t">Built the pages <span class="tag done">done</span></div>
+        <div class="d">3 new games + the Finishing Sequence concept written full-visual, body-lock refined, all registered in the nav and the catalog.</div></div></li>
+      <li class="done"><span class="node">✓</span>
+        <div class="step"><div class="t">Verified <span class="tag done">done</span></div>
+        <div class="d">eco-check 56/57 clean, site build green in 2 seconds, every new page rendered and in the nav. Proof strip below.</div></div></li>
+      <li class="now"><span class="node">▶</span>
+        <div class="step"><div class="t">Your review, then commit <span class="youarehere">▶ YOU ARE HERE</span></div>
+        <div class="d">Skim the pages on the live preview, then say the word and I commit. Until then, nothing is in git.</div></div></li>
+      <li class="next"><span class="node">5</span>
+        <div class="step"><div class="t">Mat-test the new games <span class="tag next">next</span></div>
+        <div class="d">They are tagged WIP until you run them again and confirm they hold up. Same R5 loop that just graduated body-lock's refinements.</div></div></li>
+    </ul>
+  </section>
+
+  <!-- 3. WHAT WE BUILT -->
+  <section>
+    <h2>The work (tap to see the fixes applied)</h2>
+    <p class="lead">Each card opens to the exact fixes from the workshop. The <span style="color:var(--now)">★ starred</span> items are holes you flagged on the mat.</p>
+    <div class="games">
+
+      <div class="gx">
+        <div class="bar"><span class="idx" style="background:var(--ground)">2</span>
+          <span class="nm">Mount Submission Hunt <small>The approved reframe · finish layer of the mount ladder</small></span>
+          <span class="pill new">New</span><span class="chev">▶</span></div>
+        <div class="body"><div class="inner">
+          <span class="gap">Fills HOLE #1 · submission / finishing offense (was zero)</span>
+          <div class="ba">
+            <div class="col was"><b>★ Back-take, was</b>Ambiguous, "got behind" could mean your own back on the floor. Live refereeing disputes.</div>
+            <div class="arr">→</div>
+            <div class="col now2"><b>Now</b>Counts only as a sealed back: both hooks, on top, held 1-2s. No more disputes.</div>
+          </div>
+          <div class="ba">
+            <div class="col was"><b>★ Fatigue, was</b>Both win paths near-impossible vs an equal, everyone gassed to a stalemate.</div>
+            <div class="arr">→</div>
+            <div class="col now2"><b>Now</b>Bottom's reachable win is deny + recover one leg. Short rounds. The skill is the limit, not the gas tank.</div>
+          </div>
+          <ul class="fixes">
+            <li>Win = one arm over the head, hands locked (bicep to ear), held <b>1-2s</b></li>
+            <li>The <b>shown strike opens the frame</b> so the arm becomes available, the finishing sequence in miniature</li>
+            <li>Positioned as the <b>finish layer of the mount ladder</b> (escape → maintain → hunt)</li>
+            <li>Links to and operationalizes the new <b>Finishing Sequence</b> concept</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="gx">
+        <div class="bar"><span class="idx" style="background:var(--clinch)">1</span>
+          <span class="nm">50/50 Clinch <small>Our first true typed center-clinch game</small></span>
+          <span class="pill new">New</span><span class="chev">▶</span></div>
+        <div class="body"><div class="inner">
+          <span class="gap">Fills HOLE #2 · typed center clinch (was zero)</span>
+          <ul class="fixes">
+            <li>Grips described as <b>diagonally matched</b>, never "mirror" (honors your locked 50/50 definition)</li>
+            <li>Leg connection only <b>above the knee</b> (the hand-connection law, no low dives)</li>
+            <li class="flag">Stalling fix: the <b>strikes are the anti-stall tax</b>, a constraint, not a "stop stalling" cue (the exact thing that bogged the class down)</li>
+            <li>Off-balance scores only if <b>you stay standing</b>; simultaneous connection resets</li>
+            <li>Named the invariant: the <b>felt load through the ties</b> (the haptic read)</li>
+            <li>Explicit perimeter + a wall-proximity level</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="gx">
+        <div class="bar"><span class="idx" style="background:var(--strike)">3</span>
+          <span class="nm">Kick Defense Isolation <small>Check / block / catch the roundhouse, + jab variant</small></span>
+          <span class="pill new">New</span><span class="chev">▶</span></div>
+        <div class="body"><div class="inner">
+          <span class="gap">Fills priority #5 · kick-defense isolation (was zero)</span>
+          <ul class="fixes">
+            <li>Named the invariant: <b>τ (time-to-contact)</b> of the rising shin, the textbook eco read</li>
+            <li>Reworded "land kicks <b>as long as they can</b>" → "until defended" (cleared the banned-threshold rule)</li>
+            <li class="flag">Your nerf tension, resolved: a <b>mastery level re-introduces the head-kick threat</b> to calibrate the catch's real risk</li>
+            <li>Kicker stays <b>live and adaptive</b> (feints), so it is task-simplified, not a decomposed feed</li>
+            <li>Finger-curl safety rule + the non-transfer framing baked in</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="gx">
+        <div class="bar"><span class="idx" style="background:var(--clinch)">4</span>
+          <span class="nm">Body Lock to Ground <small>Refined from today's mat re-validation (R5)</small></span>
+          <span class="pill ref">Refined</span><span class="chev">▶</span></div>
+        <div class="body"><div class="inner">
+          <span class="gap blue">Existing game · sharpened by today's R5 pass</span>
+          <ul class="fixes">
+            <li>Defender's win changed from generic "separation" → <b>break back to the 50/50 clinch</b> (now links to game 1)</li>
+            <li>Added the <b>wall-proximity start</b> (one body-length off, live but not automatic)</li>
+            <li>Banked your control-parameter insight: <b>handing the 50/50 as the escape incentivizes pummeling</b></li>
+            <li>WIP note updated to record the 2026-06-20 re-validation</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="gx">
+        <div class="bar"><span class="idx" style="background:var(--concept)">C</span>
+          <span class="nm">The Finishing Sequence <small>New concept page · the doctrine, eco-rewritten</small></span>
+          <span class="pill new">New</span><span class="chev">▶</span></div>
+        <div class="body"><div class="inner">
+          <span class="gap blue">Doctrine page · what game 2 operationalizes</span>
+          <ul class="fixes">
+            <li class="flag">Fixed the one eco conflict: calm reframed as <b>attunement, not "calm then calculate"</b> (which smuggled back the central executive the framework rejects)</li>
+            <li>Finishing framed as a <b>phase transition</b>: the opponent crosses a threshold, new finishes open, you take the afforded one</li>
+            <li>Credits <b>John McCarthy</b> for the term, with the don't-jump-the-guillotine example</li>
+            <li>Bull / Soldier / Matador already lived in Winning the Circle, today's class confirmed it, no duplicate built</li>
+          </ul>
+        </div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. VERIFICATION -->
+  <section>
+    <h2>Verification (empirical, not vibes)</h2>
+    <div class="proof">
+      <div class="pf"><span class="ck">✓</span><div><div class="tt">Eco-check: 56 / 57 clean</div><div class="dd">All 3 new games pass the mechanical tier (E1, E4, E5, E7, E10, E19, T). The 1 failure is pre-existing <code>turtle-breakout</code>, untouched today.</div></div></div>
+      <div class="pf"><span class="ck">✓</span><div><div class="tt">Site build: green</div><div class="dd"><code>mkdocs build</code> finished in 2.0s. No errors. The only notices are HTML-anchor INFO lines, the repo's standard link style.</div></div></div>
+      <div class="pf"><span class="ck">✓</span><div><div class="tt">All pages rendered &amp; in nav</div><div class="dd">3 games + the concept rendered at ~108KB each, full visual template, and they appear in the site navigation.</div></div></div>
+      <div class="pf"><span class="ck">✓</span><div><div class="tt">Glossary discipline held</div><div class="dd">No "mirror grips", no "as long as possible", leg connections above the knee. The landmines from the workshop were avoided.</div></div></div>
+    </div>
+  </section>
+
+  <!-- 5. BIG QUESTIONS -->
+  <section>
+    <h2>Big questions: what needs you</h2>
+
+    <div class="dec">
+      <div class="head"><h3>1. Commit this build?</h3><span class="badge you">YOUR CALL</span><span class="badge rec">RECOMMENDED: AFTER YOU SKIM</span></div>
+      <p>Everything is built and verified but uncommitted, exactly as you asked. <b>What you're deciding:</b> preview the 4 pages, and if they read right, say "commit" and I package it into a clean commit on the current branch (not pushed unless you want).</p>
+    </div>
+
+    <div class="dec">
+      <div class="head"><h3>2. Graduate Body Lock to Ground from WIP?</h3><span class="badge you">YOUR CALL</span></div>
+      <p>Today was its second mat validation (the R5 pass), and it held up with refinements. <b>What you're deciding:</b> is that enough to drop the WIP tag, or do you want one more run first? The 3 brand-new games stay WIP regardless until you re-run them.</p>
+    </div>
+
+    <div class="dec">
+      <div class="head"><h3>3. Two items I deliberately did NOT build</h3><span class="badge small">FYI + YOUR CALL</span></div>
+      <p><b>a) Game 5, Wall Dirty-Boxing:</b> it fills the integration gap but was never run as a game, only coached in sparring. It needs a mat test before I build it. <b>b) The "shown strike" house rule:</b> it is load-bearing across 3+ games now and should become a named glossary entry. Both are queued, neither was in your "build 1, 2, 3" instruction, so I held off.</p>
+    </div>
+  </section>
+
+  <!-- 6. THE LONG GAME -->
+  <section>
+    <h2>The long game</h2>
+    <div class="road">
+      <div class="stage s1"><div class="ph">Phase 1 · Done</div><div class="tt">Method &amp; engine</div><div class="dd">Site, visual language, class-mining flywheel, gaps atlas, eco-audit machinery.</div></div>
+      <div class="stage s2"><div class="ph">Phase 2 · Now</div><div class="tt">Fill the big holes</div><div class="dd">57 of 102 games. Today closed the three biggest zero-coverage gaps in one pass.</div></div>
+      <div class="stage s3"><div class="ph">Phase 3 · Next</div><div class="tt">Prescription engine</div><div class="dd">Intake form → personal game plan drawn from the tagged library.</div></div>
+      <div class="stage s4"><div class="ph">Phase 4 · Later</div><div class="tt">Paid launch</div><div class="dd">Tiered freemium: free sampler, paid full curriculum.</div></div>
+    </div>
+  </section>
+
+  <footer>Generated June 20, 2026 · uncommitted working tree · numbers pulled from eco-check.py + the live mkdocs build</footer>
+</div>
+
+<script>
+  const obs = new IntersectionObserver((es) => {
+    es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('section').forEach(s => obs.observe(s));
+
+  document.querySelectorAll('[data-count]').forEach(el => {
+    const target = +el.dataset.count, dur = 900, t0 = performance.now();
+    const tick = (t) => { const p = Math.min((t - t0) / dur, 1); el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(tick); };
+    requestAnimationFrame(tick);
+  });
+
+  requestAnimationFrame(() => { setTimeout(() => { const f = document.getElementById('libfill'); f.style.width = f.dataset.pct + '%'; }, 250); });
+
+  document.querySelectorAll('.gx .bar').forEach(bar => bar.addEventListener('click', () => bar.parentElement.classList.toggle('open')));
+
+  const opened = Date.now();
+  setInterval(() => {
+    const m = Math.floor((Date.now() - opened) / 60000);
+    document.getElementById('clock').textContent = 'June 20, 2026 · open ' + (m < 1 ? 'just now' : m + ' min');
+  }, 15000);
+</script>
+</body>
+</html>

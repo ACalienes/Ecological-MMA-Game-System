@@ -34,9 +34,9 @@ tags:
   <div class="emma-phero__cap"><span class="k">Open Space · Grappling</span><span class="h">Body Lock to Ground</span></div>
 </div>
 
-!!! warning "Provisional (WIP): invented and validated in class 2026-06-15, pending final coach sign-off"
+!!! warning "Provisional (WIP): invented 2026-06-15, re-validated on the mat 2026-06-20, pending final coach sign-off"
 
-    Built on the mat on 2026-06-15. Alex flagged it as a standard, "we're going to play that one a lot." It trains the standing back-and-body-lock grounding battle, the offensive mirror of [Back Escape](../back-escape/). Awaiting a final pass before the WIP tag comes off.
+    Built on the mat on 2026-06-15. Alex flagged it as a standard, "we're going to play that one a lot." It trains the standing back-and-body-lock grounding battle, the offensive mirror of [Back Escape](../back-escape/). Re-validated on 2026-06-20 (the R5 mat pass), which refined the defender's escape to a [50/50 Clinch](../fifty-fifty-clinch/) reset and added a wall-proximity start. Awaiting a final pass before the WIP tag comes off.
 
 <div class="emma-meta"><span>Open Space</span><span>Grappling</span><span>Offensive</span><span>Intermediate</span><span>Grounding Battle</span></div>
 
@@ -45,9 +45,9 @@ Put a standing opponent's hips on the ground from the body lock or the back, bef
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Attacker has a body lock or chest-to-back control; defender sets their posture first, inside a marked perimeter.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker off-balances the hips to the ground; defender breaks the grip, separates, or threatens the neck.</b></div>
+  <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Attacker off-balances the hips to the ground; defender breaks back to the 50/50 clinch, or threatens the neck.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Hips down on top 1-2s → attacker · Full separation or neck strangle → defender · Out of bounds → loss.</b></div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Hips down on top 1-2s → attacker · Break back to the 50/50 clinch or a neck strangle → defender · Out of bounds → loss.</b></div>
 </div>
 
 <div class="emma-band">
@@ -64,7 +64,7 @@ Put a standing opponent's hips on the ground from the body lock or the back, bef
 <div class="emma-setup">
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, one attacker (behind or around), one defender (held).</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Position</span>Two starts: a body lock, or chest-to-back standing control. Defender sets overhooks / whizzer / posture before "go".</div>
-  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, both stay inside.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, both stay inside. Start one body-length off the wall, the wall is live but not automatic.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Roles</span>Attacker grounds the hips; defender breaks free, off-balances out, or threatens the neck.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Lock in tight, then "go"; reset on a grounding, a full separation, or a neck strangle.</div>
 </div>
@@ -82,7 +82,7 @@ Put a standing opponent's hips on the ground from the body lock or the back, bef
   <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
     <div class="emma-fighter__icon">🛡️</div>
     <div class="emma-fighter__role">Defender (Surviving)</div>
-    <p class="emma-fighter__obj">Trying to break the grip and separate, off-balance the attacker to break free, or threaten a top neck strangle.</p>
+    <p class="emma-fighter__obj">Trying to break back to the 50/50 clinch, off-balance the attacker to break free, or threaten a top neck strangle.</p>
     <span class="emma-pop">Set a whizzer or overhook before the start. Split the grip down the line, put a hip in as a blade so you're not square, then turn and face. Keep one hand back to stop the re-shot. A guillotine or front headlock is a live win.</span>
   </div>
 </div>
@@ -96,6 +96,7 @@ Put a standing opponent's hips on the ground from the body lock or the back, bef
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔁</span> Redemption shot on re-connect<span class="emma-chip__detail">If the defender breaks off and the attacker re-connects (for example re-shoots a single leg), it is on the defender to push all the way to a full separation. The attacker gets that redemption shot before the round is called for the defender.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⚖️</span> No falling body weight<span class="emma-chip__detail">No dropping your full weight on a downed partner. Off-balance and follow to top under control, this is a grounding game, not a slam.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🪢</span> Defender's neck strangle is live<span class="emma-chip__detail">A top neck strangle (guillotine or front headlock) that submits the attacker is a defender win, the same threat that keeps a real grounding attempt honest.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤼</span> Defender resets to the 50/50 clinch<span class="emma-chip__detail">The defender's separation win is to break back to a neutral 50/50 over-under clinch, not just to flail free. Handing the defender the 50/50 as the escape route is deliberate, it incentivizes the attacker to keep pummeling and re-grounding rather than stalling on a stalemate grip.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Strikes on, GnP by permission<span class="emma-chip__detail">Strikes are live as a disincentivization tool. Use realistic strikes with space, not pitter-patter, by coach permission. Ground games train smashing, not grappling for its own sake.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape. If a player leaves it, that player loses the round.</span></span>
 </div>
@@ -104,7 +105,7 @@ Put a standing opponent's hips on the ground from the body lock or the back, bef
 
 <div class="emma-outcomes">
   <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Attacker</span> Hips on the ground, on top, held 1-2s → attacker wins.<span class="emma-pop">One or both hips down with the attacker's weight on top, held one to two seconds to prove it past the scramble. A belly-down grapevine with flat hips counts; turtle, knees, and shoulders do not.</span></div>
-  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Full separation, off-balance break, or a neck strangle → defender wins.<span class="emma-pop">Break the grip and get fully clear, off-balance the attacker to force the break, or finish a top neck strangle (guillotine / front headlock). The redemption rule means a half-break that gets re-connected is not yet a win.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Defender</span> Break back to the 50/50 clinch, off-balance break, or a neck strangle → defender wins.<span class="emma-pop">Break the grip back to a neutral 50/50 over-under clinch, off-balance the attacker to force the break, or finish a top neck strangle (guillotine / front headlock). The redemption rule means a half-break that gets re-connected is not yet a win.</span></div>
   <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Leave the perimeter, or drop falling body weight → that player loses.<span class="emma-pop">Crossing the marked perimeter loses the round. Dropping full weight on a downed partner is a safety foul.</span></div>
 </div>
 
@@ -115,7 +116,7 @@ Put a standing opponent's hips on the ground from the body lock or the back, bef
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Body lock, defender breaks</b>Grounding vs separation.<span class="emma-pop emma-pop--l">Same start, the defender now actively breaks grips and separates, and may switch to a single. The redemption shot is live. The grounding-versus-escape race becomes the task.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Chest-to-back start</b>The shittier position.<span class="emma-pop emma-pop--l">Start from standing back control, chest-to-back. Harder for the attacker to finish, harder for the defender to turn. Remove a post, drag to the weak side, hips down. Defender hand-fights the front-headlock and looks to turn and face.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Add the neck</b>Defender's strangle is live.<span class="emma-pop emma-pop--l">From either start, the defender's top neck strangle (guillotine / front headlock) is now a win, the cost that punishes a reckless, posture-broken grounding attempt.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full expression</b>Random start, strikes on.<span class="emma-pop emma-pop--l">Coach calls body lock or chest-to-back at random, strikes live. Lock in tight before "go", off-balance immediately, finish the hips down or get fully clear.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full expression</b>Random start, wall live, strikes on.<span class="emma-pop emma-pop--l">Coach calls body lock or chest-to-back at random, strikes live, play starts one body-length off the wall. Lock in tight before "go", off-balance immediately, finish the hips down or break back to the 50/50.</span></div>
 </div>
 
 <p class="emma-glabel">Recall Check</p>
@@ -156,6 +157,7 @@ Put a standing opponent's hips on the ground from the body lock or the back, bef
     <div class="emma-cards">
       <div class="emma-card"><div class="emma-card__i">⚡</div><div class="emma-card__t">Move first, especially vs stronger</div><p>Ask the attacker: "Did you off-balance on go, or hold and wait?" The grip that waits loses. Against a stronger partner, motion beats strength.</p></div>
       <div class="emma-card"><div class="emma-card__i">🎚️</div><div class="emma-card__t">Scaffold only on a gap</div><p>Start locked into your strongest position. Only give a softer start when there's a real skill or power discrepancy worth scaffolding, otherwise take full claim.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🔄</div><div class="emma-card__t">The 50/50 reset shapes the game</div><p>Handing the defender the 50/50 clinch as the escape incentivizes pummeling and re-grounding instead of a stalemate. The reward you give the defender shapes the behavior that emerges, that is the dial.</p></div>
     </div>
 
 ??? abstract "Constraints-Led analysis"
@@ -168,6 +170,7 @@ Put a standing opponent's hips on the ground from the body lock or the back, bef
       <div class="emma-flow__row"><span class="emma-flow__from">Redemption shot on re-connect</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Trains finishing the separation, not a half-escape</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Defender's neck strangle is live</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Punishes a reckless, posture-broken grounding attempt</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Defender sets posture before "go"</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">A representative, fightable start, not a gifted back</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Defender's escape is the 50/50 clinch</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">A representative re-neutralization, and a reward that incentivizes pummeling over stalling</span></div>
     </div>
 
     <p class="emma-hl">Implements <b>Representative Learning Design</b> (Renshaw et al., 2019): the body-lock and chest-to-back starts model the two most common standing rear-control battles, and the hips-down win keeps the real goal, grounding the opponent, intact while the neck threat preserves the cost of overcommitting.</p>
@@ -223,5 +226,5 @@ Put a standing opponent's hips on the ground from the body lock or the back, bef
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../open-space-takedown/">Open Space Takedown</a> · <a href="../back-escape/">Back Escape</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-control/">Ground Control</a> · <a href="../mount-maintenance/">Mount Maintenance</a></span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/winning-the-circle/">Winning the Circle</a> · <a href="../win-ladder/">Win Ladder</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../fifty-fifty-clinch/">50/50 Clinch</a> · <a href="../../concepts/winning-the-circle/">Winning the Circle</a> · <a href="../win-ladder/">Win Ladder</a></span></div>
     </div>

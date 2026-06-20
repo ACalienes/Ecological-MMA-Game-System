@@ -86,6 +86,7 @@ nav:
         - Tight Block: games/tight-block.md
         - Slip the Straight: games/slip-the-straight.md
         - Evade the Punch: games/evade-the-punch.md
+        - Kick Defense Isolation (WIP): games/kick-defense.md
       - Offensive:
         - Lead Hand Offense: games/lead-hand-offense.md
         - Rear Hand Offense: games/rear-hand-offense.md
@@ -105,6 +106,8 @@ nav:
     - Open Space → Wall:
       - Prevent:
         - Clinch Denial: games/clinch-denial.md
+      - Center Clinch:
+        - 50/50 Clinch (WIP): games/fifty-fifty-clinch.md
       - Initiate:
         - Pressure to Clinch: games/pressure-to-clinch.md
         - Pressure to Wall: games/pressure-to-wall.md
@@ -150,6 +153,7 @@ nav:
         - Ground Access: games/ground-access.md
         - Ground Control: games/ground-control.md
         - Mount Maintenance (WIP): games/mount-maintenance.md
+        - Mount Submission Hunt (WIP): games/mount-submission-hunt.md
         - Side-Control Ride (WIP): games/side-control-ride.md
         - Back Maintenance (WIP): games/back-maintenance.md
         - Knee-on-Belly Control (WIP): games/knee-on-belly-control.md
@@ -168,6 +172,7 @@ nav:
     - Defensive Solutions: concepts/defensive-solutions.md
     - Hand Controls: concepts/hand-controls.md
     - Winning the Circle: concepts/winning-the-circle.md
+    - The Finishing Sequence: concepts/finishing-sequence.md
     - Guard Recovery: concepts/guard-recovery.md
   - Principles:
     - Training Mindset: principles/training-mindset.md

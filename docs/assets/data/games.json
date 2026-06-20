@@ -347,6 +347,40 @@
       "hero": "assets/img/heroes/evasive-movement.png"
     },
     {
+      "slug": "fifty-fifty-clinch",
+      "title": "50/50 Clinch",
+      "environment": "open-space",
+      "domain": "wrestling",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "pressure-to-clinch"
+      ],
+      "tags": [
+        "wrestling",
+        "grappling",
+        "clinch",
+        "50-50",
+        "over-under",
+        "underhook",
+        "body-lock",
+        "off-balance",
+        "back-control",
+        "center-clinch",
+        "top",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Win a dominant connection from a neutral 50/50 clinch, double-unders, a leg, or the back, or put them down, before they get theirs.",
+      "hero": null
+    },
+    {
       "slug": "ground-access",
       "title": "Ground Access",
       "environment": "ground",
@@ -594,6 +628,39 @@
       "hero": "assets/img/heroes/half-guard-pass.png"
     },
     {
+      "slug": "kick-defense",
+      "title": "Kick Defense Isolation",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "short",
+      "equipment": [
+        "guards",
+        "shin"
+      ],
+      "prereq_games": [
+        "close-range-defense"
+      ],
+      "tags": [
+        "striking",
+        "kick",
+        "kick-defense",
+        "check",
+        "catch",
+        "block",
+        "roundhouse",
+        "tau",
+        "isolation",
+        "counter",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Read the kick and kill it, check, block, or catch, before it lands, one kick at a time.",
+      "hero": null
+    },
+    {
       "slug": "knee-on-belly-control",
       "title": "Knee-on-Belly Control",
       "environment": "ground",
@@ -794,6 +861,40 @@
       "is_format": false,
       "description": "Keep the mount and turn control into damage before the bottom gets an elbow back in.",
       "hero": "assets/img/heroes/mount-maintenance.png"
+    },
+    {
+      "slug": "mount-submission-hunt",
+      "title": "Mount Submission Hunt",
+      "environment": "ground",
+      "domain": "grappling",
+      "focus": "offensive",
+      "difficulty": "advanced",
+      "duration": "medium",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "mount-maintenance",
+        "mount-escape"
+      ],
+      "tags": [
+        "grappling",
+        "ground",
+        "mount",
+        "submission",
+        "arm-triangle",
+        "armbar",
+        "back-control",
+        "finishing-sequence",
+        "ground-and-pound",
+        "top",
+        "positional-sparring",
+        "wip"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Isolate the finish from mount, one arm over the head or the back sealed, before they frame, recover a leg, and get out.",
+      "hero": null
     },
     {
       "slug": "north-south-control",
