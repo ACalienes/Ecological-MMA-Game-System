@@ -895,36 +895,81 @@ body, .md-typeset {
 .md-typeset .emma-recall__a b { color: var(--fog); }
 
 /* ============================================================
-   emma-statemap: fight-state positions + transitions + finishes
+   emma-fsm: fight-state flow chart (Open Space hub -> Wall / Ground)
    ============================================================ */
-.md-typeset .emma-statemap {
-  display: flex; align-items: stretch; gap: 0.4rem; margin: 1.4rem 0; flex-wrap: wrap;
-}
-.md-typeset .emma-state {
-  flex: 1 1 0; min-width: 180px; background: var(--charcoal); border: 1px solid var(--steel);
+.md-typeset .emma-fsm { margin: 1.6rem 0; }
+
+/* nodes */
+.emma-fsm__node {
+  position: relative; background: var(--charcoal); border: 1px solid var(--steel);
   border-top: 3px solid var(--orange); border-radius: var(--radius-md); padding: 1.1rem 1.1rem 1rem;
 }
-.emma-state__h { font-family: var(--font-display); text-transform: uppercase; font-size: 1.2rem; color: var(--fog); display: flex; align-items: center; gap: 0.5rem; line-height: 1; }
-.emma-state__h .i { font-size: 1.3rem; }
-.emma-state__d { font-size: 0.8rem; color: var(--fog-dim); margin: 0.5rem 0 0.8rem; line-height: 1.4; }
-.emma-state__fin { display: flex; flex-wrap: wrap; gap: 0.35rem; }
-.emma-state__fin span {
+.emma-fsm__node--os {
+  width: 100%; max-width: 380px; margin: 0 auto; border-top-color: var(--orange-bright);
+  box-shadow: 0 0 0 1px var(--orange-glow), var(--shadow-md);
+}
+.emma-fsm__tag {
+  position: absolute; top: -10px; left: 16px; font-family: var(--font-head); text-transform: uppercase;
+  letter-spacing: 0.1em; font-size: 0.56rem; font-weight: 700; padding: 2px 9px; border-radius: 999px;
+  background: var(--orange); color: #0a0d14;
+}
+.emma-fsm__h { font-family: var(--font-display); text-transform: uppercase; font-size: 1.2rem; color: var(--fog); display: flex; align-items: center; gap: 0.5rem; line-height: 1; }
+.emma-fsm__h .i { font-size: 1.3rem; }
+.emma-fsm__d { font-size: 0.8rem; color: var(--fog-dim); margin: 0.5rem 0 0.8rem; line-height: 1.4; }
+.emma-fsm__fin { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.emma-fsm__fin span {
   font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.62rem;
   padding: 0.2rem 0.5rem; border-radius: 999px; background: var(--orange-glow); color: var(--orange-bright);
 }
-/* transition connector between stations */
-.md-typeset .emma-statemap__link {
-  flex: 0 0 auto; display: flex; flex-direction: column; justify-content: center; gap: 0.5rem;
-  padding: 0 0.3rem; min-width: 64px; text-align: center;
+
+/* bottom row: Wall <-> Ground */
+.emma-fsm__row { display: flex; align-items: stretch; justify-content: center; gap: 0.4rem; }
+.emma-fsm__row .emma-fsm__node { flex: 1 1 0; min-width: 190px; max-width: 360px; }
+
+/* connector labels */
+.emma-fsm__lbl {
+  font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.06em;
+  font-size: 0.6rem; line-height: 1.3;
 }
-.emma-statemap__link .fwd, .emma-statemap__link .back {
-  font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.6rem; line-height: 1.3;
+.emma-fsm__lbl--in { color: var(--orange-bright); }
+.emma-fsm__lbl--out { color: var(--fog-faint); }
+
+/* vertical connector: Open Space down into the positions, and back up */
+.emma-fsm__conn--v { position: relative; width: 100%; max-width: 380px; margin: 0 auto; height: 66px; }
+.emma-fsm__conn--v::before {
+  content: ""; position: absolute; left: 50%; top: 4px; bottom: 12px; width: 2px; transform: translateX(-50%);
+  background: linear-gradient(var(--orange-bright), var(--orange));
 }
-.emma-statemap__link .fwd { color: var(--orange-bright); }
-.emma-statemap__link .back { color: var(--fog-faint); }
-@media (max-width: 720px) {
-  .md-typeset .emma-statemap { flex-direction: column; }
-  .md-typeset .emma-statemap__link { flex-direction: row; justify-content: center; gap: 1.2rem; min-width: 0; }
+.emma-fsm__conn--v::after {
+  content: ""; position: absolute; left: 50%; bottom: 2px; transform: translateX(-50%);
+  width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 8px solid var(--orange);
+}
+.emma-fsm__conn--v .emma-fsm__lbl { position: absolute; top: 50%; transform: translateY(-50%); max-width: 45%; }
+.emma-fsm__conn--v .emma-fsm__lbl--in { right: 50%; margin-right: 13px; text-align: right; }
+.emma-fsm__conn--v .emma-fsm__lbl--in::after { content: "  \2193"; }
+.emma-fsm__conn--v .emma-fsm__lbl--out { left: 50%; margin-left: 13px; text-align: left; }
+.emma-fsm__conn--v .emma-fsm__lbl--out::before { content: "\2191  "; }
+
+/* horizontal connector: Wall <-> Ground */
+.emma-fsm__conn--h {
+  position: relative; flex: 0 0 104px; align-self: center; min-height: 64px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; text-align: center;
+}
+.emma-fsm__conn--h::before {
+  content: ""; position: absolute; top: 50%; left: 4px; right: 4px; height: 2px; transform: translateY(-50%);
+  background: linear-gradient(90deg, var(--orange), var(--orange-bright));
+}
+.emma-fsm__conn--h .emma-fsm__lbl { position: relative; z-index: 1; }
+.emma-fsm__conn--h .emma-fsm__lbl--in::after { content: " \2192"; }
+.emma-fsm__conn--h .emma-fsm__lbl--out::before { content: "\2190 "; }
+
+@media (max-width: 640px) {
+  .emma-fsm__row { flex-direction: column; align-items: stretch; }
+  .emma-fsm__row .emma-fsm__node { max-width: none; }
+  .emma-fsm__conn--h { flex: none; width: 100%; max-width: 380px; margin: 0 auto; min-height: 56px; gap: 0; }
+  .emma-fsm__conn--h::before { top: 6px; bottom: 6px; left: 50%; right: auto; width: 2px; height: auto; transform: translateX(-50%); background: linear-gradient(var(--orange), var(--orange-bright)); }
+  .emma-fsm__conn--h .emma-fsm__lbl--in { position: absolute; top: 50%; right: 50%; transform: translateY(-50%); margin-right: 13px; }
+  .emma-fsm__conn--h .emma-fsm__lbl--out { position: absolute; top: 50%; left: 50%; transform: translateY(-50%); margin-left: 13px; }
 }
 
 /* ---------- Prescription engine (Get Your Game Plan) -------------------- */
