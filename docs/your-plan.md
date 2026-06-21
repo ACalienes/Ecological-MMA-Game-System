@@ -6,7 +6,7 @@ hide:
 
 # Get Your Game Plan
 
-<div class="emma-meta"><span>Prescription</span><span>4 Questions</span><span>Your Next Games, In Order</span></div>
+<div class="emma-meta"><span>Prescription</span><span>A Few Questions</span><span>Your Next Games, In Order</span></div>
 
 <p class="emma-hl"><b>Stop guessing what to train.</b> Answer a few questions, get an ordered plan from the library: which games, in what order, and how to fit them in your sessions.</p>
 

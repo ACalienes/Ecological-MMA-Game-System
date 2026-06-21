@@ -164,7 +164,8 @@
 
   function gearOk(g, gearId) {
     var allowed = GEAR_SETS[gearId] || GEAR_SETS.full;
-    return (g.equipment || []).every(function (e) {
+    var eq = Array.isArray(g.equipment) ? g.equipment : [];
+    return eq.every(function (e) {
       return e === "none" || allowed.indexOf(e) >= 0;
     });
   }
