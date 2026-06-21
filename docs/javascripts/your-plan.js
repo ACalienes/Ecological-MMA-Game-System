@@ -254,6 +254,9 @@
     beats.push(take(function (g) { return g.focus === "combined"; }) || take());
     beats = beats.filter(Boolean);
 
+    if (!beats.length) {
+      return { beats: [], empty: "No field-tested games match that theme and level yet. Browse the full library while we build it out." };
+    }
     var MINUTES = { s45: [6, 8, 10, 10, 11], s60: [8, 10, 12, 14, 16], s90: [12, 15, 18, 20, 25] };
     var roles = ["Warm-up", "Skill builder", "Skill builder", "Integration", "Live application"];
     return {
@@ -289,7 +292,12 @@
   }
 
   function heroImg(g) {
-    return g.hero ? '<img src="../' + g.hero + '" alt="" loading="lazy">' : "";
+    // Suppress when the index has no hero, and drop the node if the file 404s
+    // (defensive against a hand-edited or stale index), so a plan never shows a
+    // broken image.
+    return g.hero
+      ? '<img src="../' + g.hero + '" alt="" loading="lazy" onerror="this.remove()">'
+      : "";
   }
 
   function gameCard(g) {
@@ -323,6 +331,11 @@
   }
 
   function renderPlanCoach(plan) {
+    if (plan.empty || !plan.beats.length) {
+      return '<div class="emma-plan__result"><p class="emma-glabel">Your session plan</p>' +
+        '<p class="emma-plan__note">' + (plan.empty || "No games match that theme and level yet.") +
+        ' Browse the <a href="../games/">full library</a>.</p></div>';
+    }
     var total = plan.beats.reduce(function (a, b) { return a + b.min; }, 0);
     var html = '<div class="emma-plan__result">';
     html += '<p class="emma-glabel">Your session plan · ' + total + " min of play</p>";

@@ -234,81 +234,81 @@
 const games = {
     'skill-isolation': {
         'defensive': [
-            {name: 'Parry the Straight', link: '../games/parry-the-straight.md', difficulty: 'beginner'},
-            {name: 'Tight Block', link: '../games/tight-block.md', difficulty: 'beginner'},
-            {name: 'Slip the Straight', link: '../games/slip-the-straight.md', difficulty: 'beginner'},
-            {name: 'Evade the Punch', link: '../games/evade-the-punch.md', difficulty: 'intermediate'}
+            {name: 'Parry the Straight', link: '../../games/parry-the-straight/', difficulty: 'beginner'},
+            {name: 'Tight Block', link: '../../games/tight-block/', difficulty: 'beginner'},
+            {name: 'Slip the Straight', link: '../../games/slip-the-straight/', difficulty: 'beginner'},
+            {name: 'Evade the Punch', link: '../../games/evade-the-punch/', difficulty: 'intermediate'}
         ],
         'offensive': [
-            {name: 'Lead Hand Offense', link: '../games/lead-hand-offense.md', difficulty: 'beginner'},
-            {name: 'Rear Hand Offense', link: '../games/rear-hand-offense.md', difficulty: 'beginner'},
-            {name: 'Lead Leg Offense', link: '../games/lead-leg-offense.md', difficulty: 'intermediate'},
-            {name: 'Rear Leg Offense', link: '../games/rear-leg-offense.md', difficulty: 'intermediate'}
+            {name: 'Lead Hand Offense', link: '../../games/lead-hand-offense/', difficulty: 'beginner'},
+            {name: 'Rear Hand Offense', link: '../../games/rear-hand-offense/', difficulty: 'beginner'},
+            {name: 'Lead Leg Offense', link: '../../games/lead-leg-offense/', difficulty: 'intermediate'},
+            {name: 'Rear Leg Offense', link: '../../games/rear-leg-offense/', difficulty: 'intermediate'}
         ]
     },
     'striking': {
         'defensive': [
-            {name: 'Close-Range Defense', link: '../games/close-range-defense.md', difficulty: 'intermediate'},
-            {name: 'Evasive Movement', link: '../games/evasive-movement.md', difficulty: 'intermediate'}
+            {name: 'Close-Range Defense', link: '../../games/close-range-defense/', difficulty: 'intermediate'},
+            {name: 'Evasive Movement', link: '../../games/evasive-movement/', difficulty: 'intermediate'}
         ],
         'offensive': [
-            {name: 'Land the Target', link: '../games/land-the-target.md', difficulty: 'intermediate'},
-            {name: 'Sustained Offense', link: '../games/sustained-offense.md', difficulty: 'intermediate'}
+            {name: 'Land the Target', link: '../../games/land-the-target/', difficulty: 'intermediate'},
+            {name: 'Sustained Offense', link: '../../games/sustained-offense/', difficulty: 'intermediate'}
         ],
         'combined': [
-            {name: 'Touch and Don\'t Get Touched', link: '../games/touch-game.md', difficulty: 'beginner'},
-            {name: 'Pressure to Clinch', link: '../games/pressure-to-clinch.md', difficulty: 'beginner'}
+            {name: 'Touch and Don\'t Get Touched', link: '../../games/touch-game/', difficulty: 'beginner'},
+            {name: 'Pressure to Clinch', link: '../../games/pressure-to-clinch/', difficulty: 'beginner'}
         ]
     },
     'transition': {
         'defensive': [
-            {name: 'Clinch Denial', link: '../games/clinch-denial.md', difficulty: 'intermediate'},
-            {name: 'Counter-Striking', link: '../games/counter-striking.md', difficulty: 'intermediate'},
-            {name: 'Counter-Wrestling', link: '../games/counter-wrestling.md', difficulty: 'intermediate'}
+            {name: 'Clinch Denial', link: '../../games/clinch-denial/', difficulty: 'intermediate'},
+            {name: 'Counter-Striking', link: '../../games/counter-striking/', difficulty: 'intermediate'},
+            {name: 'Counter-Wrestling', link: '../../games/counter-wrestling/', difficulty: 'intermediate'}
         ],
         'combined': [
-            {name: 'Pressure to Clinch (L3+)', link: '../games/pressure-to-clinch.md', difficulty: 'intermediate'}
+            {name: 'Pressure to Clinch (L3+)', link: '../../games/pressure-to-clinch/', difficulty: 'intermediate'}
         ]
     },
     'wrestling': {
         'defensive': [
-            {name: 'Takedown Defense', link: '../games/takedown-defense.md', difficulty: 'intermediate'}
+            {name: 'Takedown Defense', link: '../../games/takedown-defense/', difficulty: 'intermediate'}
         ],
         'offensive': [
-            {name: 'Pressure to Takedown', link: '../games/pressure-to-takedown.md', difficulty: 'advanced'},
-            {name: 'Pressure to Wall', link: '../games/pressure-to-wall.md', difficulty: 'advanced'}
+            {name: 'Pressure to Takedown', link: '../../games/pressure-to-takedown/', difficulty: 'advanced'},
+            {name: 'Pressure to Wall', link: '../../games/pressure-to-wall/', difficulty: 'advanced'}
         ],
         'combined': [
-            {name: 'Open Space Takedown', link: '../games/open-space-takedown.md', difficulty: 'intermediate'}
+            {name: 'Open Space Takedown', link: '../../games/open-space-takedown/', difficulty: 'intermediate'}
         ]
     },
     'wall': {
         'defensive': [
-            {name: 'Wall Escape', link: '../games/wall-escape.md', difficulty: 'intermediate'},
-            {name: 'Wall Defensive Submission', link: '../games/wall-defensive-submission.md', difficulty: 'advanced'}
+            {name: 'Wall Escape', link: '../../games/wall-escape/', difficulty: 'intermediate'},
+            {name: 'Wall Defensive Submission', link: '../../games/wall-defensive-submission/', difficulty: 'advanced'}
         ],
         'offensive': [
-            {name: 'Wall Control', link: '../games/wall-control.md', difficulty: 'intermediate'},
-            {name: 'Wall to Ground', link: '../games/wall-to-ground.md', difficulty: 'intermediate'},
-            {name: 'Wall Grinding', link: '../games/wall-grinding.md', difficulty: 'intermediate'}
+            {name: 'Wall Control', link: '../../games/wall-control/', difficulty: 'intermediate'},
+            {name: 'Wall to Ground', link: '../../games/wall-to-ground/', difficulty: 'intermediate'},
+            {name: 'Wall Grinding', link: '../../games/wall-grinding/', difficulty: 'intermediate'}
         ],
         'combined': [
-            {name: 'Stand-Up Loop', link: '../games/standup-loop.md', difficulty: 'advanced'}
+            {name: 'Stand-Up Loop', link: '../../games/standup-loop/', difficulty: 'advanced'}
         ]
     },
     'ground': {
         'defensive': [
-            {name: 'Ground Escape', link: '../games/ground-escape.md', difficulty: 'intermediate'},
-            {name: 'Leg Reclaim', link: '../games/leg-reclaim.md', difficulty: 'intermediate'},
-            {name: 'Ground to Standing', link: '../games/ground-to-standing.md', difficulty: 'intermediate'},
-            {name: 'Ground Defensive Submission', link: '../games/ground-defensive-submission.md', difficulty: 'advanced'}
+            {name: 'Ground Escape', link: '../../games/ground-escape/', difficulty: 'intermediate'},
+            {name: 'Leg Reclaim', link: '../../games/leg-reclaim/', difficulty: 'intermediate'},
+            {name: 'Ground to Standing', link: '../../games/ground-to-standing/', difficulty: 'intermediate'},
+            {name: 'Ground Defensive Submission', link: '../../games/ground-defensive-submission/', difficulty: 'advanced'}
         ],
         'offensive': [
-            {name: 'Ground Access', link: '../games/ground-access.md', difficulty: 'intermediate'},
-            {name: 'Ground Control', link: '../games/ground-control.md', difficulty: 'intermediate'}
+            {name: 'Ground Access', link: '../../games/ground-access/', difficulty: 'intermediate'},
+            {name: 'Ground Control', link: '../../games/ground-control/', difficulty: 'intermediate'}
         ],
         'combined': [
-            {name: 'Positional Sparring', link: '../games/positional-battle.md', difficulty: 'intermediate'}
+            {name: 'Positional Sparring', link: '../../games/positional-battle/', difficulty: 'intermediate'}
         ]
     }
 };

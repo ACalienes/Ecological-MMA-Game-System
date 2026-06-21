@@ -29,12 +29,11 @@ EQUIPMENT_ALIASES = {
     "shinguards": "shin-guards",
 }
 
-# The gear sets the prescription engine understands (docs/javascripts/your-plan.js).
-# Any equipment token outside this set silently excludes a game from every plan,
-# so we validate against it rather than emitting unknown tokens.
+# The gear sets the prescription engine understands (docs/javascripts/your-plan.js
+# GEAR_SETS). Any equipment token outside this set silently excludes a game from
+# every plan, so we validate against it. Keep this in lockstep with GEAR_SETS.
 KNOWN_EQUIPMENT = {
     "none", "boundary-markers", "gloves", "shin-guards", "mats", "wall",
-    "wall-to-ground",
 }
 
 
@@ -151,10 +150,16 @@ def main():
         # carries a wip tag, or marks "(WIP)" in its title. Without this, a
         # missing status defaulted to "live" and shipped half-built games into
         # the prescription engine.
+        # WIP markers are authoritative: a "(WIP)" title or wip tag forces the
+        # game out of the recommendable pool even if frontmatter says status:
+        # live, so the "never recommend WIP" invariant can't be lost to a stale
+        # or conflicting status field.
         status = fm.get("status")
         is_wip = "wip" in tags or "(wip)" in title.lower()
-        if status is None:
-            status = "wip" if is_wip else "live"
+        if is_wip:
+            status = "wip"
+        elif status is None:
+            status = "live"
         equipment = normalize_equipment(fm.get("equipment", []))
         hero = HEROES_DIR / f"{slug}.png"
         game = {
