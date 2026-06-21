@@ -154,7 +154,7 @@
 
   function gearOk(g, gearId) {
     var allowed = GEAR_SETS[gearId] || GEAR_SETS.full;
-    return g.equipment.every(function (e) {
+    return (g.equipment || []).every(function (e) {
       return e === "none" || allowed.indexOf(e) >= 0;
     });
   }
@@ -407,11 +407,16 @@
     fetch("../assets/data/games.json")
       .then(function (r) { return r.json(); })
       .then(function (data) {
-        games = data.games;
+        // Validate shape BEFORE caching: a malformed-but-valid-JSON index
+        // (e.g. {games:{}}) must hit the fallback, not poison `games` and throw
+        // on the next instant-nav init.
+        if (!data || !Array.isArray(data.games)) throw new Error("malformed game index");
+        games = data.games.filter(function (g) { return g && g.slug; });
         games.forEach(function (g) { bySlug[g.slug] = g; });
         render(root);
       })
       .catch(function () {
+        games = null;
         root.innerHTML = '<p class="emma-hl">Could not load the game index. Browse the <a href="../games/">full library</a> instead.</p>';
       });
   }

@@ -36,6 +36,17 @@ KNOWN_EQUIPMENT = {
     "none", "boundary-markers", "gloves", "shin-guards", "mats", "wall",
 }
 
+# Allowed values for the taxonomy fields the prescription engine filters/ranks
+# on. Keep in lockstep with your-plan.js (DIFF_RANK, GOAL_FILTERS, THEME_FILTERS).
+ALLOWED_VALUES = {
+    "difficulty": {"beginner", "intermediate", "advanced"},
+    "duration": {"short", "medium", "long"},
+    "status": {"live", "wip"},
+    "focus": {"defensive", "offensive", "combined"},
+    "domain": {"striking", "wrestling", "grappling", "mixed"},
+    "environment": {"ground", "open-space", "transition", "skill-isolation", "wall"},
+}
+
 
 def parse_frontmatter(text):
     """Minimal YAML-subset parser: scalars, lists, nested maps (2-space indent)."""
@@ -145,6 +156,7 @@ def main():
         if not isinstance(prereqs, dict):
             prereqs = {}
         tags = coerce_list(fm.get("tags"))
+        tags_lc = [t.lower() for t in tags]
         title = fm.get("title", slug)
         # A page is work-in-progress if it says so explicitly (status: wip),
         # carries a wip tag, or marks "(WIP)" in its title. Without this, a
@@ -154,8 +166,8 @@ def main():
         # game out of the recommendable pool even if frontmatter says status:
         # live, so the "never recommend WIP" invariant can't be lost to a stale
         # or conflicting status field.
-        status = fm.get("status")
-        is_wip = "wip" in tags or "(wip)" in title.lower()
+        status = (fm.get("status") or "").lower() or None
+        is_wip = "wip" in tags_lc or "(wip)" in title.lower()
         if is_wip:
             status = "wip"
         elif status is None:
@@ -174,13 +186,20 @@ def main():
             "prereq_games": coerce_list(prereqs.get("games")),
             "tags": tags,
             "status": status,
-            "is_format": "format" in tags,
+            "is_format": "format" in tags_lc,
             "description": extract_description(text),
             "hero": f"assets/img/heroes/{slug}.png" if hero.exists() else None,
         }
         for field in ("environment", "focus", "difficulty"):
             if not game[field]:
                 problems.append(f"{path.name}: missing {field}")
+        # Enforce the taxonomies the engine consumes. A typo here (e.g.
+        # difficulty: intermdiate) would silently break ranking/filtering and
+        # drop the game, so fail loudly instead.
+        for field, allowed in ALLOWED_VALUES.items():
+            val = game[field]
+            if val and val not in allowed:
+                problems.append(f"{path.name}: {field} '{val}' not in {sorted(allowed)}")
         unknown = [e for e in equipment if e not in KNOWN_EQUIPMENT]
         if unknown:
             problems.append(f"{path.name}: unknown equipment {unknown} "
