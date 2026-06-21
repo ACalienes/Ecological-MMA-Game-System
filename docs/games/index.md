@@ -190,10 +190,10 @@ Games focused on horizontal grappling positions.
     - 50/50 Clinch (WIP) · Open Space Takedown
 
     **Wall:**
-    - Stand-Up and Re-Pin Loop · Win Ladder (WIP)
+    - Stand-Up and Re-Pin Loop
 
     **Ground:**
-    - Closed Guard Bottom (WIP) · Half-Guard Bottom (WIP) · Positional Sparring
+    - Closed Guard Bottom (WIP) · Half-Guard Bottom (WIP) · Positional Sparring · Win Ladder (WIP)
 ---
 
 ## Games by Decision State

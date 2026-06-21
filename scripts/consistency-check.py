@@ -204,6 +204,30 @@ def main():
         else:
             print(f"  {GREEN}✓{RESET} games.json matches game files ({len(indexed)} games)")
 
+    # 7. Cross-page per-environment counts (Wall / Ground) must agree between the
+    #    Games Library quick-ref and the System Map stats, and match games.json.
+    #    (Catches the win-ladder-style drift where one page buckets differently.)
+    print(f"\n{BOLD}Checking per-environment counts across pages...{RESET}")
+    import json as _json
+    env_counts = {}
+    if index_path.exists():
+        for g in _json.loads(index_path.read_text())['games']:
+            env_counts[g['environment']] = env_counts.get(g['environment'], 0) + 1
+    idx_text = (docs_path / 'games' / 'index.md').read_text()
+    map_text = (docs_path / 'system' / 'map.md').read_text()
+    for label, env_key in (('Wall', 'wall'), ('Ground', 'ground')):
+        idx_m = re.search(r'\|\s*' + label + r'\s*\|\s*(\d+)\s*\|', idx_text)
+        map_m = re.search(r'>(\d+)<[^>]*></span><span class="emma-stat__label">' + label + r'<', map_text)
+        idx_n = int(idx_m.group(1)) if idx_m else None
+        map_n = int(map_m.group(1)) if map_m else None
+        json_n = env_counts.get(env_key)
+        if len({idx_n, map_n, json_n} - {None}) > 1:
+            issues.append(f"{label} count disagrees: games/index quick-ref={idx_n}, "
+                          f"system/map={map_n}, games.json={json_n}")
+            print(f"  {RED}✗{RESET} {label}: index={idx_n} map={map_n} json={json_n}")
+        else:
+            print(f"  {GREEN}✓{RESET} {label}: {json_n} (index, map, json agree)")
+
     # Print results
     print(f"\n{BOLD}=== Results ==={RESET}\n")
 

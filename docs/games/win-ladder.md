@@ -1,6 +1,6 @@
 ---
 title: Win Ladder
-environment: wall
+environment: ground
 domain: wrestling
 focus: combined
 difficulty: intermediate

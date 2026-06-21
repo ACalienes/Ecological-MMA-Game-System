@@ -238,8 +238,8 @@ Every position has a way IN and a way OUT.
   <div class="emma-stat"><span class="emma-stat__num">9</span><span class="emma-stat__label">Skill Isolation</span></div>
   <div class="emma-stat"><span class="emma-stat__num">15</span><span class="emma-stat__label">Open Space</span></div>
   <div class="emma-stat"><span class="emma-stat__num">2</span><span class="emma-stat__label">Transition</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">7</span><span class="emma-stat__label">Wall</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">24</span><span class="emma-stat__label">Ground</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Wall</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">25</span><span class="emma-stat__label">Ground</span></div>
   <div class="emma-stat"><span class="emma-stat__num">57</span><span class="emma-stat__label">Total Games</span></div>
 </div>
 
