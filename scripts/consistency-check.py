@@ -90,8 +90,11 @@ def find_game_counts_with_context(file_path, total_games):
 
     results = []
     for i, line in enumerate(lines, 1):
-        # "X games" pattern - look for counts that might be totals
-        matches = re.findall(r'(\d+)\s+games?', line, re.IGNORECASE)
+        # Strip HTML so counts split across tags (e.g. <span>33</span>
+        # <span>Total Games</span>) are still seen as "33 Total Games".
+        text = re.sub(r'<[^>]+>', ' ', line)
+        # Catch "33 games", "33-game", "33-Game System", "33 total games".
+        matches = re.findall(r'(\d+)(?:[\s-]+total)?[\s-]+games?\b', text, re.IGNORECASE)
         for m in matches:
             count = int(m)
             # Flag counts >= 20 that don't match total (likely stale totals)
@@ -173,14 +176,14 @@ def main():
         missing = game_files - linked_games
         extra = linked_games - game_files
 
+        # The home page is a curated landing page, not an index of every game,
+        # so a missing link here is informational, not a release blocker.
         if not missing:
             print(f"  {GREEN}✓{RESET} {name}: All {len(linked_games)} games linked")
         else:
-            if len(missing) <= 5:
-                issues.append(f"{name}: Missing links to games: {sorted(missing)}")
-            else:
-                issues.append(f"{name}: Missing links to {len(missing)} games")
-            print(f"  {RED}✗{RESET} {name}: Missing {len(missing)} game links")
+            warnings.append(f"{name}: links {len(linked_games)} of {len(game_files)} games "
+                            f"(curated landing page, not a full index)")
+            print(f"  {YELLOW}!{RESET} {name}: links {len(linked_games)}/{len(game_files)} games (informational)")
 
         if extra:
             issues.append(f"{name}: Links to non-existent games: {sorted(extra)}")

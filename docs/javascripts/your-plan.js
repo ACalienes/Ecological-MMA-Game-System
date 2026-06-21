@@ -112,6 +112,16 @@
     "ground": { href: "../paths/ground-game/", t: "The Ground Game" },
     "whole": { href: "../paths/complete-fight/", t: "The Complete Fight" }
   };
+  // Gear-accurate guidance when a goal's games are all filtered out by gear.
+  // Wall games need a wall (only "Full gym" has it), ground needs mats, etc.
+  var GEAR_HINTS = {
+    "wall": "Wall games need a wall, that comes with the \"Full gym\" option. Switch your gear to Full gym and try again.",
+    "ground": "Ground games need mats. Pick \"Gloves + mats\" or \"Full gym\" and try again.",
+    "takedowns": "Takedown games need mats to land on. Pick \"Gloves + mats\" or \"Full gym\" and try again.",
+    "strike-def": "Striking games need gloves. Pick \"Gloves\" or higher and try again.",
+    "strike-off": "Striking games need gloves. Pick \"Gloves\" or higher and try again.",
+    "whole": "The full-fight games need more gear, mats and a wall open up most of them. Try \"Full gym.\""
+  };
   var TIME_NOTES = {
     short: "Pick <b>one game per session</b> and work it at levels 1-3. One clean problem beats three rushed ones.",
     medium: "Pair <b>two games per session</b>, one from Start Here, one from Build. Let the first feed the second.",
@@ -219,7 +229,7 @@
       if (!goalPool.length) {
         empty = "We don't have field-tested games for that focus yet. Browse the full library while we build it out.";
       } else if (!gearPool.length) {
-        empty = "Those games need more gear than you picked. Add mats to open the ground game, or gloves for the striking games, then try again.";
+        empty = GEAR_HINTS[s.goal] || "Those games need more gear than you picked. Add mats or gloves, then try again.";
       } else {
         empty = "Your experience level filtered these out. Pick a broader focus, or come back as you log more mat time.";
       }
@@ -236,8 +246,9 @@
       var r = DIFF_RANK[g.difficulty];
       return r <= cap && r >= floor;
     });
+    // If thin, relax the floor but NEVER the cap: a beginners class must not be
+    // handed advanced games. Too few games just means fewer beats, not harder ones.
     if (filtered.length < 5) filtered = pool.filter(function (g) { return DIFF_RANK[g.difficulty] <= cap; });
-    if (filtered.length < 5) filtered = pool;
 
     var ordered = topoSort(filtered);
     var beats = [];
