@@ -6,23 +6,34 @@
 
 <p class="emma-glabel">Fight States &amp; Transitions</p>
 
-<div class="emma-statemap">
-  <div class="emma-state emma-state--os">
-    <div class="emma-state__h"><span class="i">🥊</span> Open Space</div>
-    <p class="emma-state__d">Standing at distance. Every fight starts here.</p>
-    <div class="emma-state__fin"><span>KO</span><span>TKO</span><span>SUB</span></div>
+<div class="emma-fsm">
+  <div class="emma-fsm__node emma-fsm__node--os">
+    <span class="emma-fsm__tag">Start</span>
+    <div class="emma-fsm__h"><span class="i">🥊</span> Open Space</div>
+    <p class="emma-fsm__d">Standing at distance. Every fight starts here.</p>
+    <div class="emma-fsm__fin"><span>KO</span><span>TKO</span><span>SUB</span></div>
   </div>
-  <div class="emma-statemap__link"><span class="fwd">Clinch / Takedown →</span><span class="back">← Escape</span></div>
-  <div class="emma-state emma-state--wall">
-    <div class="emma-state__h"><span class="i">🧱</span> Wall</div>
-    <p class="emma-state__d">Clinch against the cage.</p>
-    <div class="emma-state__fin"><span>KO</span><span>TKO</span><span>SUB</span></div>
+
+  <div class="emma-fsm__conn emma-fsm__conn--v">
+    <span class="emma-fsm__lbl emma-fsm__lbl--in">Clinch · Takedown · Knockdown</span>
+    <span class="emma-fsm__lbl emma-fsm__lbl--out">Escape · Stand Up</span>
   </div>
-  <div class="emma-statemap__link"><span class="fwd">Takedown →</span><span class="back">← Stand Up</span></div>
-  <div class="emma-state emma-state--ground">
-    <div class="emma-state__h"><span class="i">🤼</span> Ground</div>
-    <p class="emma-state__d">Horizontal grappling.</p>
-    <div class="emma-state__fin"><span>TKO</span><span>SUB</span></div>
+
+  <div class="emma-fsm__row">
+    <div class="emma-fsm__node emma-fsm__node--wall">
+      <div class="emma-fsm__h"><span class="i">🧱</span> Wall</div>
+      <p class="emma-fsm__d">Clinch against the cage.</p>
+      <div class="emma-fsm__fin"><span>KO</span><span>TKO</span><span>SUB</span></div>
+    </div>
+    <div class="emma-fsm__conn emma-fsm__conn--h">
+      <span class="emma-fsm__lbl emma-fsm__lbl--in">Wall to Ground</span>
+      <span class="emma-fsm__lbl emma-fsm__lbl--out">Scramble</span>
+    </div>
+    <div class="emma-fsm__node emma-fsm__node--ground">
+      <div class="emma-fsm__h"><span class="i">🤼</span> Ground</div>
+      <p class="emma-fsm__d">Horizontal grappling.</p>
+      <div class="emma-fsm__fin"><span>TKO</span><span>SUB</span></div>
+    </div>
   </div>
 </div>
 
