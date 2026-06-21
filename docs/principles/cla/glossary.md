@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>CLA Methodology</span><span>A–V Reference</span><span>Hover for Definition</span></div>
 
-<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../pitfalls/">Pitfalls</a> · <a href="../index/">CLA Index</a> · <a href="../quick-reference/">Quick Reference</a> →</p>
+<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../pitfalls/">Pitfalls</a> · <a href="../">CLA Index</a> · <a href="../quick-reference/">Quick Reference</a> →</p>
 
 <p class="emma-hl"><b>The shared vocabulary of the system.</b> Every term traces to ecological dynamics, affordances, synergies, constraints, attractors. Hover or tap any term for its full definition.</p>
 

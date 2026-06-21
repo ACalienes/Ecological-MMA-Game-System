@@ -236,4 +236,4 @@ A fighter perceives the opponent's structure, base, and "off-balance-able-ness" 
 
 ---
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="landmark-studies.md">The Evidence</a>, the studies behind these principles · <a href="design-rules.md">Design Rules</a>, how they become practice. Source · Blau &amp; Wagman (2022), <i>Introduction to Ecological Psychology</i>, Routledge. Page numbers are printed pages.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="../landmark-studies/">The Evidence</a>, the studies behind these principles · <a href="../design-rules/">Design Rules</a>, how they become practice. Source · Blau &amp; Wagman (2022), <i>Introduction to Ecological Psychology</i>, Routledge. Page numbers are printed pages.</p>

@@ -99,7 +99,7 @@
       <div class="emma-card"><div class="emma-card__i">🎛️</div><div class="emma-card__t">Control vs. order parameter</div><p>A <b>control parameter</b>, when changed, <i>reorganizes</i> the layout (speed, pressure, range, fatigue, # opponents, increasing speed makes the anti-phase attractor <i>vanish</i>). It doesn't dictate the new behavior, only which behaviors are stable. The <b>order parameter</b> is the macro variable you <i>measure</i> (e.g., relative phase / timing between fighters). <i>(p. 250)</i></p></div>
     </div>
 
-    <p class="emma-hl"><b>Why this matters for the nonlinearity claim:</b> "minor rule changes revolutionize styles" is precise once framed as a control-parameter-driven phase transition past a critical value (HKB, p. 250). A rule change shifts a control parameter; past its critical threshold the attractor layout reorganizes abruptly, falsifiable and designable rather than mystical. See the <a href="../ecological-psychology/index/">Ecological Psychology</a> section.</p>
+    <p class="emma-hl"><b>Why this matters for the nonlinearity claim:</b> "minor rule changes revolutionize styles" is precise once framed as a control-parameter-driven phase transition past a critical value (HKB, p. 250). A rule change shifts a control parameter; past its critical threshold the attractor layout reorganizes abruptly, falsifiable and designable rather than mystical. See the <a href="../../ecological-psychology/">Ecological Psychology</a> section.</p>
 
 ??? note "Michael Turvey (b. 1942): Action systems"
 
@@ -178,4 +178,4 @@ These theoretical foundations lead to specific design principles (Renshaw et al.
   <div class="emma-card"><div class="emma-card__i">🔄</div><div class="emma-card__t">Perception &amp; action are coupled</div><p>Never separate reading from reacting, avoid task decomposition that breaks this coupling.</p></div>
 </div>
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="key-concepts/">Key Concepts</a>, constraints, affordances, perception-action coupling.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="../key-concepts/">Key Concepts</a>, constraints, affordances, perception-action coupling.</p>

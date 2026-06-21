@@ -30,8 +30,7 @@ tags:
   - wip
 ---
 
-<div class="emma-phero">
-  <img src="../../assets/img/heroes/mount-submission-hunt.png" alt="Mount Submission Hunt">
+<div class="emma-phero emma-phero--noart">
   <div class="emma-phero__cap"><span class="k">Ground · Grappling</span><span class="h">Mount Submission Hunt</span></div>
 </div>
 

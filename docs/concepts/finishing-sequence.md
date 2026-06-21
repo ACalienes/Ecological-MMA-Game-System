@@ -16,8 +16,7 @@ tags:
   - foundational-concept
 ---
 
-<div class="emma-phero">
-  <img src="../../assets/img/heroes/finishing-sequence.png" alt="The Finishing Sequence">
+<div class="emma-phero emma-phero--noart">
   <div class="emma-phero__cap"><span class="k">Tactical · All Domains</span><span class="h">The Finishing Sequence</span></div>
 </div>
 

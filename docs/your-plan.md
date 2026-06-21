@@ -15,4 +15,4 @@ hide:
   <p class="emma-plan__loading">Loading the library…</p>
 </div>
 
-<p class="emma-sub" style="margin-top:2.5rem;">Plans use field-tested games only, work-in-progress games stay out until confirmed. Prefer to browse? <a href="games/index.md">All games</a> · <a href="paths/index.md">Learning paths</a> · <a href="reference/game-finder.md">Game finder</a></p>
+<p class="emma-sub" style="margin-top:2.5rem;">Plans use field-tested games only, work-in-progress games stay out until confirmed. Prefer to browse? <a href="../games/">All games</a> · <a href="../paths/">Learning paths</a> · <a href="../reference/game-finder/">Game finder</a></p>

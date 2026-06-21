@@ -29,8 +29,7 @@ tags:
   - wip
 ---
 
-<div class="emma-phero">
-  <img src="../../assets/img/heroes/fifty-fifty-clinch.png" alt="50/50 Clinch">
+<div class="emma-phero emma-phero--noart">
   <div class="emma-phero__cap"><span class="k">Open Space · Wrestling</span><span class="h">50/50 Clinch</span></div>
 </div>
 

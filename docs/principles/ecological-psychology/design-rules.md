@@ -66,4 +66,4 @@ The practical rule set, the takeaways from [the principles](principles.md) and [
 
 ---
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Rules numbered as in the audit; grouped here for scanning. See <a href="principles.md">The Principles</a> for the science and <a href="landmark-studies.md">The Evidence</a> for the studies. Source · Blau &amp; Wagman (2022), <i>Introduction to Ecological Psychology</i>, Routledge. Page numbers are printed pages.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Rules numbered as in the audit; grouped here for scanning. See <a href="../principles/">The Principles</a> for the science and <a href="../landmark-studies/">The Evidence</a> for the studies. Source · Blau &amp; Wagman (2022), <i>Introduction to Ecological Psychology</i>, Routledge. Page numbers are printed pages.</p>

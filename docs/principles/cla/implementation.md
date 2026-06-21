@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>CLA Methodology</span><span>Instruction</span><span>Feedback</span><span>Assessment</span></div>
 
-<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../mma-applications/">MMA Applications</a> · <a href="../index/">CLA Index</a> · <a href="../pitfalls/">Pitfalls</a> →</p>
+<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../mma-applications/">MMA Applications</a> · <a href="../">CLA Index</a> · <a href="../pitfalls/">Pitfalls</a> →</p>
 
 <p class="emma-hl"><b>The coach is an environment architect, not a technique prescriber.</b> You supply local rules and direct attention to information, then let the fighting style self-organize within the constraints you set.</p>
 
@@ -19,7 +19,7 @@
 </div>
 
 ??? quote "The house-building philosophy: give rules, not a blueprint"
-    The single best one-line articulation of the coach's role comes from the self-organizing house-building robots (Blau &amp; Wagman, 2022, p. 284): give the contractors <b>a list of rules and let them adapt to local circumstances</b>, rather than a single rigid blueprint, <i>"the houses will be far more adapted to their circumstances… and you (the divine architect) will have to do a lot less work."</i> The coach supplies local rules (constraints); the fighting style self-organizes. (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
+    The single best one-line articulation of the coach's role comes from the self-organizing house-building robots (Blau &amp; Wagman, 2022, p. 284): give the contractors <b>a list of rules and let them adapt to local circumstances</b>, rather than a single rigid blueprint, <i>"the houses will be far more adapted to their circumstances… and you (the divine architect) will have to do a lot less work."</i> The coach supplies local rules (constraints); the fighting style self-organizes. (See the <a href="../../ecological-psychology/">Ecological Psychology</a> section.)
 
 <p class="emma-glabel">Five Questions for Constraint Manipulation</p>
 
@@ -75,7 +75,7 @@
 </div>
 
 ??? note "Feedback serves *calibration*"
-    What feedback (KR/KP, questioning, and especially <i>fading feedback over time</i>) is actually tuning is <b>calibration</b>, the learner's mapping between the detected information and the scaled response (Blau &amp; Wagman, 2022, p. 206). Calibration is <i>how to use</i> a perceived invariant correctly (how hard to commit given this τ, how much to redirect given this felt resistance). Reducing feedback over time forces the athlete to own that mapping. Crucially, <b>calibration is action-mode-specific and does not transfer</b> (see Transfer Assessment below). (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
+    What feedback (KR/KP, questioning, and especially <i>fading feedback over time</i>) is actually tuning is <b>calibration</b>, the learner's mapping between the detected information and the scaled response (Blau &amp; Wagman, 2022, p. 206). Calibration is <i>how to use</i> a perceived invariant correctly (how hard to commit given this τ, how much to redirect given this felt resistance). Reducing feedback over time forces the athlete to own that mapping. Crucially, <b>calibration is action-mode-specific and does not transfer</b> (see Transfer Assessment below). (See the <a href="../../ecological-psychology/">Ecological Psychology</a> section.)
 
 <p class="emma-glabel">Feedback: Frequency</p>
 
@@ -118,7 +118,7 @@
 <p class="emma-hl"><b>Key question:</b> does training performance transfer to competition? Do not assume, test it.</p>
 
 ??? warning "Transfer is mode-specific and fragile: do not assume it"
-    The deepest reason to <i>test</i> transfer rather than assume it: ecological psychology shows that calibration and affordance-perception <b>do not transfer across action modes</b> (Blau &amp; Wagman, 2022, p. 160, 206). Infants who learned which slopes afforded safe <i>crawling</i> started over "from zero" when they began <i>walking</i>, the information is entirely different (different limbs, optic flow, base of support). Subjects calibrated to an optic-flow drift while <i>walking</i> did <b>not</b> carry that calibration to <i>throwing or kicking</i>. <b>Implication for our library:</b> a fighter who has learned to read τ for <i>striking</i> defense has <b>not</b> thereby learned to read τ for <i>takedown</i> defense. Build <b>separate learning paths per action mode</b> and <b>verify transfer empirically</b>, this is exactly why phase-scaffolding (striking → clinch → takedown) works: it re-educates attention at each new mode rather than assuming carry-over. (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
+    The deepest reason to <i>test</i> transfer rather than assume it: ecological psychology shows that calibration and affordance-perception <b>do not transfer across action modes</b> (Blau &amp; Wagman, 2022, p. 160, 206). Infants who learned which slopes afforded safe <i>crawling</i> started over "from zero" when they began <i>walking</i>, the information is entirely different (different limbs, optic flow, base of support). Subjects calibrated to an optic-flow drift while <i>walking</i> did <b>not</b> carry that calibration to <i>throwing or kicking</i>. <b>Implication for our library:</b> a fighter who has learned to read τ for <i>striking</i> defense has <b>not</b> thereby learned to read τ for <i>takedown</i> defense. Build <b>separate learning paths per action mode</b> and <b>verify transfer empirically</b>, this is exactly why phase-scaffolding (striking → clinch → takedown) works: it re-educates attention at each new mode rather than assuming carry-over. (See the <a href="../../ecological-psychology/">Ecological Psychology</a> section.)
 
 <div class="emma-flow">
   <div class="emma-flow__row"><span class="emma-flow__from">1 · Compare</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Training behaviors to competition behaviors</span></div>

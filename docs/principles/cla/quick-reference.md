@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>CLA Methodology</span><span>Cheat Sheet</span><span>Checklists · Dials · Diagnostics</span></div>
 
-<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../glossary/">Glossary</a> · <a href="../index/">CLA Index</a></p>
+<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../glossary/">Glossary</a> · <a href="../">CLA Index</a></p>
 
 <p class="emma-hl"><b>Everything on one page.</b> The plan, the dials, the diagnostics, at-a-glance cards to grab mid-session.</p>
 
@@ -173,4 +173,4 @@
   <li>Key takeaways: 3 to continue, 3 to change.</li>
 </ol>
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1.4rem 0 0;">Return to · <a href="../index/">CLA Index</a>.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1.4rem 0 0;">Return to · <a href="../">CLA Index</a>.</p>

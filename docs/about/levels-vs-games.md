@@ -90,4 +90,4 @@ Wall Control and Wall Escape are **two different games**, not levels, the roles,
 <p style="font-size:.82rem;color:var(--fog-dim);margin:.7rem 0 0;">See also → <a href="../context/">Project Context &amp; Goals</a></p>
 
 ??? abstract "System evolution notice"
-    These design rules may be refined as the system grows, see the <a href="../changelog/">changelog</a>.
+    These design rules may be refined as the system grows.

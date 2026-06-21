@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>CLA Methodology</span><span>GROW Model</span><span>Two Dials</span><span>Periodization</span></div>
 
-<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../environment-design/">Environment Design</a> · <a href="../index/">CLA Index</a> · <a href="../mma-applications/">MMA Applications</a> →</p>
+<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../environment-design/">Environment Design</a> · <a href="../">CLA Index</a> · <a href="../mma-applications/">MMA Applications</a> →</p>
 
 <p class="emma-hl"><b>A session is a designed environment, not a list of drills.</b> You set a goal, read where the athlete is, choose constraints to bridge the gap, then prepare to deliver it, and you scale difficulty with two independent dials, not one.</p>
 
@@ -59,7 +59,7 @@
 ??? info "Why this pattern: functional noise, and hysteresis"
     The "productive instability" of the amber zone is what ecological psychology calls <b>functional noise</b> (Blau &amp; Wagman, 2022, p. 242–243). Noise is not error: it constantly perturbs the system and is precisely what lets the "ball" escape a <i>shallow, local</i> attractor (a comfortable-but-suboptimal habit) and settle into a <i>deeper, better</i> one. In one study, <i>added noise made participants more likely to discover the efficient strategy</i> (p. 243). The amber zone is therefore deliberate, useful perturbation, not chaos to be avoided.
 
-    The <b>GREEN → AMBER → GREEN</b> flow also respects <b>hysteresis</b> (p. 250): a system's current state depends on its <i>history/trajectory</i>, not just present conditions. A pattern entered under amber-zone pressure persists, so the order in which you pass through the zones matters, you cannot treat a session as path-independent. (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
+    The <b>GREEN → AMBER → GREEN</b> flow also respects <b>hysteresis</b> (p. 250): a system's current state depends on its <i>history/trajectory</i>, not just present conditions. A pattern entered under amber-zone pressure persists, so the order in which you pass through the zones matters, you cannot treat a session as path-independent. (See the <a href="../../ecological-psychology/">Ecological Psychology</a> section.)
 
 <p class="emma-glabel">The 30-Second Game Plan</p>
 
@@ -83,7 +83,7 @@
 <p class="emma-hl"><b>Use them together:</b> High RLD + Amber Zone = maximum learning transfer. Low RLD + Green Zone = safe exploration for beginners.</p>
 
 ??? note "The two dials are control parameters"
-    In dynamical-systems terms, the representativeness dial and the variability dial are <b>control parameters</b>, variables that, when turned, reorganize the fighter's <b>attractor layout</b> (Blau &amp; Wagman, 2022, p. 250). Turning them does not dictate the new behavior; it changes which behaviors are stable. Other control parameters you turn in a session include speed, pressure, range, fatigue, and number of opponents. Expect that pushing one <i>past a critical value</i> produces an abrupt, <b>nonlinear</b> reorganization (a stance or rhythm suddenly switches) rather than a smooth change, design for that switch rather than being surprised by it. (See <a href="../theory/">Theory</a> and the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)
+    In dynamical-systems terms, the representativeness dial and the variability dial are <b>control parameters</b>, variables that, when turned, reorganize the fighter's <b>attractor layout</b> (Blau &amp; Wagman, 2022, p. 250). Turning them does not dictate the new behavior; it changes which behaviors are stable. Other control parameters you turn in a session include speed, pressure, range, fatigue, and number of opponents. Expect that pushing one <i>past a critical value</i> produces an abrupt, <b>nonlinear</b> reorganization (a stance or rhythm suddenly switches) rather than a smooth change, design for that switch rather than being surprised by it. (See <a href="../theory/">Theory</a> and the <a href="../../ecological-psychology/">Ecological Psychology</a> section.)
 
 <p class="emma-glabel">Constraint Manipulation During Sessions</p>
 

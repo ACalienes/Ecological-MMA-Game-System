@@ -60,4 +60,4 @@
 </div>
 
 ??? abstract "System evolution notice"
-    This context document reflects the current best understanding of the system's intent. It may be revised as the framework evolves, see the <a href="../changelog/">changelog</a> for the record of changes.
+    This context document reflects the current best understanding of the system's intent. It may be revised as the framework evolves.

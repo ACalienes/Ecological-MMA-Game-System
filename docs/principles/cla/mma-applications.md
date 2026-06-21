@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>CLA Methodology</span><span>MMA-Specific</span><span>Dyadic Systems</span><span>Game Design</span></div>
 
-<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../session-design/">Session Design</a> · <a href="../index/">CLA Index</a> · <a href="../implementation/">Implementation</a> →</p>
+<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../session-design/">Session Design</a> · <a href="../">CLA Index</a> · <a href="../implementation/">Implementation</a> →</p>
 
 <p class="emma-hl"><b>The attacker–defender dyad is the basic unit of combat.</b> Every game must include an adaptive opponent, keep reading coupled to reacting, and reward the fighter for perceiving what the <i>opponent's</i> position affords, not just executing their own offense.</p>
 
@@ -76,7 +76,7 @@ The two-fighter dyad **self-organizes into a synergy that spans both people**, t
 <p class="emma-hl">A game can exploit this: <b>breaking the opponent's rhythm = perturbing the social synergy</b>. This grounds <b>pace</b>, "the cadence at which one fighter forces the engagement." Reward the fighter who imposes their cadence and disrupts the opponent's.</p>
 
 ??? note "No mirror neurons required"
-    Opponent-reading is <b>information detection</b>, not mental simulation (Blau &amp; Wagman, 2022, Box 11.1, p. 177–178). Coach it as <i>"read the information the opponent's movement gives off, "</i> never <i>"imagine yourself in their position."</i> See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.
+    Opponent-reading is <b>information detection</b>, not mental simulation (Blau &amp; Wagman, 2022, Box 11.1, p. 177–178). Coach it as <i>"read the information the opponent's movement gives off, "</i> never <i>"imagine yourself in their position."</i> See the <a href="../../ecological-psychology/">Ecological Psychology</a> section.
 
 <p class="emma-glabel">Designing MMA Training with CLA</p>
 

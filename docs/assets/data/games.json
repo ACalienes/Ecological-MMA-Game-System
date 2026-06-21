@@ -439,7 +439,7 @@
         "full-mma",
         "wip"
       ],
-      "status": "live",
+      "status": "wip",
       "is_format": false,
       "description": "Escape the open-camped top before the damage stacks up.",
       "hero": "assets/img/heroes/ground-and-pound-defense.png"
@@ -636,8 +636,7 @@
       "difficulty": "intermediate",
       "duration": "short",
       "equipment": [
-        "guards",
-        "shin"
+        "shin-guards"
       ],
       "prereq_games": [
         "close-range-defense"
@@ -952,7 +951,7 @@
         "skill-isolation",
         "wip"
       ],
-      "status": "live",
+      "status": "wip",
       "is_format": false,
       "description": "Discover where you can land your first shot with different tools, in a perimeter that won't let you run.",
       "hero": "assets/img/heroes/one-shot-discovery.png"
@@ -1435,9 +1434,8 @@
       "difficulty": "intermediate",
       "duration": "medium",
       "equipment": [
-        "gloves",
-        "marked",
-        "square"
+        "boundary-markers",
+        "gloves"
       ],
       "prereq_games": [
         "tight-block",

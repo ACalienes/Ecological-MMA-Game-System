@@ -13,7 +13,7 @@
 
 <div class="emma-flow">
   <div class="emma-flow__row"><span class="emma-flow__from">New to CLA?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="theory/">Theory</a> then <a href="key-concepts/">Key Concepts</a></span></div>
-  <div class="emma-flow__row"><span class="emma-flow__from">Designing a session?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="environment-design.md">Environment Design</a> + <a href="session-design.md">Session Design</a></span></div>
+  <div class="emma-flow__row"><span class="emma-flow__from">Designing a session?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="environment-design/">Environment Design</a> + <a href="session-design/">Session Design</a></span></div>
   <div class="emma-flow__row"><span class="emma-flow__from">Building MMA games?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="mma-applications/">MMA Applications</a></span></div>
   <div class="emma-flow__row"><span class="emma-flow__from">Coaching?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="implementation/">Implementation</a> + <a href="pitfalls/">Pitfalls</a></span></div>
   <div class="emma-flow__row"><span class="emma-flow__from">Quick lookup?</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="glossary/">Glossary</a> + <a href="quick-reference/">Quick Reference</a></span></div>
@@ -24,8 +24,8 @@
 <div class="emma-cards">
   <div class="emma-card"><div class="emma-card__i">🧠</div><div class="emma-card__t"><a href="theory/">Theory</a></div><p>Ecological dynamics, theoretical foundations, key influences.</p></div>
   <div class="emma-card"><div class="emma-card__i">🔑</div><div class="emma-card__t"><a href="key-concepts/">Key Concepts</a></div><p>Constraints, affordances, perception-action coupling, skill acquisition.</p></div>
-  <div class="emma-card"><div class="emma-card__i">🏗️</div><div class="emma-card__t"><a href="environment-design.md">Environment Design</a></div><p>The 4 EDP principles, the core methodology.</p></div>
-  <div class="emma-card"><div class="emma-card__i">📋</div><div class="emma-card__t"><a href="session-design.md">Session Design</a></div><p>GROW model, session planning frameworks.</p></div>
+  <div class="emma-card"><div class="emma-card__i">🏗️</div><div class="emma-card__t"><a href="environment-design/">Environment Design</a></div><p>The 4 EDP principles, the core methodology.</p></div>
+  <div class="emma-card"><div class="emma-card__i">📋</div><div class="emma-card__t"><a href="session-design/">Session Design</a></div><p>GROW model, session planning frameworks.</p></div>
   <div class="emma-card"><div class="emma-card__i">🥋</div><div class="emma-card__t"><a href="mma-applications/">MMA Applications</a></div><p>Combat-sports-specific implementations.</p></div>
   <div class="emma-card"><div class="emma-card__i">🎓</div><div class="emma-card__t"><a href="implementation/">Implementation</a></div><p>Coaching guidelines, feedback, assessment.</p></div>
   <div class="emma-card"><div class="emma-card__i">⚠️</div><div class="emma-card__t"><a href="pitfalls/">Pitfalls</a></div><p>Common mistakes and solutions.</p></div>

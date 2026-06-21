@@ -2,7 +2,7 @@
 
 <div class="emma-meta"><span>CLA Methodology</span><span>10 Pitfalls</span><span>Signs · Cause · Fix</span></div>
 
-<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../implementation/">Implementation</a> · <a href="../index/">CLA Index</a> · <a href="../glossary/">Glossary</a> →</p>
+<p style="font-size:.8rem;color:var(--fog-dim);margin:-.6rem 0 1.4rem;">← <a href="../implementation/">Implementation</a> · <a href="../">CLA Index</a> · <a href="../glossary/">Glossary</a> →</p>
 
 <p class="emma-hl"><b>Most CLA failures are calibration errors at the extremes.</b> Too tight or too loose, too safe or too chaotic, too much instruction or none at all. Each pitfall below names the warning signs, why it fails, and the fix.</p>
 
@@ -101,7 +101,7 @@
       <div class="emma-flow__row"><span class="emma-flow__from">The trap ✗</span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Running all athletes through identical sessions regardless of size, background, or skill. A 5'5" wrestler and a 6'2" kickboxer have different individual constraints.</span></div>
     </div>
     <p class="emma-hl"><b>How to individualize, scale by critical π ratios, not absolutes.</b> Saying "individualize" is not enough; the mechanism is <b>body-scaling</b>. Warren's stair-climbing studies showed that whether a step is "step-on-able" depends not on its absolute height but on the <b>ratio of step height to leg length</b>, plotted against the ratio, tall and short people fall on the <i>same</i> curve, crossing a single critical π value (≈0.88) where the action becomes impossible, and people <i>perceive</i> that boundary accurately (Blau &amp; Wagman, 2022, p. 79–81). The same logic governs crossing gaps (leg length), passing through apertures (shoulder width, critical ratio ≈1.16–1.3), and reaching (arm length).</p>
-    <p class="emma-hl"><b>Apply it:</b> when a game sets a distance, target height, aperture, or range, define it as a <b>ratio of the athlete's reach / leg length / shoulder width</b> rather than a fixed number, so a 5'5" wrestler and a 6'2" kickboxer face the <i>same relational problem</i> (e.g. a "close range" start scaled to each defender's arm length, so blocking is the live affordance for both). (See the <a href="../../ecological-psychology/index/">Ecological Psychology</a> section.)</p>
+    <p class="emma-hl"><b>Apply it:</b> when a game sets a distance, target height, aperture, or range, define it as a <b>ratio of the athlete's reach / leg length / shoulder width</b> rather than a fixed number, so a 5'5" wrestler and a 6'2" kickboxer face the <i>same relational problem</i> (e.g. a "close range" start scaled to each defender's arm length, so blocking is the live affordance for both). (See the <a href="../../ecological-psychology/">Ecological Psychology</a> section.)</p>
     <p class="emma-sub">Considerations</p>
     <div class="emma-cards">
       <div class="emma-card"><div class="emma-card__i">📏</div><div class="emma-card__t">Physical</div><p>Reach, weight, mobility, set constraints as <b>critical ratios</b> of these.</p></div>

@@ -124,8 +124,26 @@
   var state = loadState();
 
   function loadState() {
-    try { return JSON.parse(localStorage.getItem(KEY) || "{}"); }
-    catch (e) { return {}; }
+    var raw;
+    try { raw = JSON.parse(localStorage.getItem(KEY) || "{}"); }
+    catch (e) { raw = {}; }
+    return sanitizeState(raw);
+  }
+  // Persisted state is untrusted (hand-edited, stale schema, another tab).
+  // An unknown `who` made STEPS[who] undefined and blanked the whole page with
+  // an uncaught error, so we keep only values that match the current intake.
+  function sanitizeState(raw) {
+    if (!raw || typeof raw !== "object" || (raw.who !== "fighter" && raw.who !== "coach")) {
+      return {};
+    }
+    var clean = { who: raw.who };
+    STEPS[raw.who].forEach(function (st) {
+      var val = raw[st.key];
+      if (val && st.options.some(function (o) { return o.id === val; })) {
+        clean[st.key] = val;
+      }
+    });
+    return clean;
   }
   function saveState() {
     try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
@@ -161,11 +179,11 @@
   }
 
   function buildFighterPlan(s) {
-    var pool = games.filter(playable).filter(GOAL_FILTERS[s.goal]).filter(function (g) {
-      return gearOk(g, s.gear);
-    });
+    var goalFilter = GOAL_FILTERS[s.goal] || function () { return true; };
+    var goalPool = games.filter(playable).filter(goalFilter);
+    var gearPool = goalPool.filter(function (g) { return gearOk(g, s.gear); });
     var maxRank = s.exp === "exp" ? 2 : 1;
-    pool = pool.filter(function (g) { return DIFF_RANK[g.difficulty] <= maxRank; });
+    var pool = gearPool.filter(function (g) { return DIFF_RANK[g.difficulty] <= maxRank; });
 
     // pull in out-of-pool prerequisites as foundation material
     var poolSlugs = {};
@@ -194,7 +212,20 @@
       { t: "Put it together", d: "Fewer rules, live resistance, full expression.", games: integrate.slice(0, 3) }
     ].filter(function (p) { return p.games.length; });
 
-    return { phases: phases, path: GOAL_PATHS[s.goal], note: TIME_NOTES[s.time] };
+    // A valid set of answers can still match no games (e.g. the ground game
+    // with no mats). Explain why instead of rendering an empty plan.
+    var empty = null;
+    if (!phases.length) {
+      if (!goalPool.length) {
+        empty = "We don't have field-tested games for that focus yet. Browse the full library while we build it out.";
+      } else if (!gearPool.length) {
+        empty = "Those games need more gear than you picked. Add mats to open the ground game, or gloves for the striking games, then try again.";
+      } else {
+        empty = "Your experience level filtered these out. Pick a broader focus, or come back as you log more mat time.";
+      }
+    }
+
+    return { phases: phases, path: GOAL_PATHS[s.goal], note: TIME_NOTES[s.time], empty: empty };
   }
 
   function buildCoachPlan(s) {
@@ -257,9 +288,13 @@
       "</div></div>";
   }
 
+  function heroImg(g) {
+    return g.hero ? '<img src="../' + g.hero + '" alt="" loading="lazy">' : "";
+  }
+
   function gameCard(g) {
     return '<a class="emma-plan__game" href="../games/' + g.slug + '/">' +
-      '<img src="../' + g.hero + '" alt="" loading="lazy">' +
+      heroImg(g) +
       '<span class="emma-plan__game-body"><b>' + esc(g.title) + "</b>" +
       "<span>" + esc(g.description) + "</span>" +
       '<em class="emma-plan__diff emma-plan__diff--' + g.difficulty + '">' + g.difficulty + "</em></span></a>";
@@ -268,6 +303,10 @@
   function renderPlanFighter(plan) {
     var html = '<div class="emma-plan__result">';
     html += '<p class="emma-glabel">Your game plan</p>';
+    if (plan.empty) {
+      return html + '<p class="emma-plan__note">' + plan.empty +
+        ' Browse the <a href="../games/">full library</a>.</p></div>';
+    }
     if (plan.note) html += '<p class="emma-plan__note">' + plan.note + "</p>";
     plan.phases.forEach(function (p, i) {
       html += '<div class="emma-plan__phase" style="animation-delay:' + i * 0.12 + 's">' +
@@ -292,7 +331,7 @@
       var g = b.game;
       html += '<div class="emma-plan__beat" style="animation-delay:' + i * 0.1 + 's">' +
         '<span class="emma-plan__beat-n">' + (i + 1) + "</span>" +
-        '<img src="../' + g.hero + '" alt="" loading="lazy">' +
+        heroImg(g) +
         '<span class="emma-plan__beat-body"><i>' + b.role + " · " + b.min + ' min</i>' +
         '<a href="../games/' + g.slug + '/"><b>' + esc(g.title) + "</b></a>" +
         "<span>" + esc(g.description) + "</span></span></div>";

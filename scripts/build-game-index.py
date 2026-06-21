@@ -24,6 +24,17 @@ OUT_PATH = ROOT / "docs" / "assets" / "data" / "games.json"
 EQUIPMENT_ALIASES = {
     "marked square": "boundary-markers",
     "marked-square": "boundary-markers",
+    "boundary markers": "boundary-markers",
+    "shin guards": "shin-guards",
+    "shinguards": "shin-guards",
+}
+
+# The gear sets the prescription engine understands (docs/javascripts/your-plan.js).
+# Any equipment token outside this set silently excludes a game from every plan,
+# so we validate against it rather than emitting unknown tokens.
+KNOWN_EQUIPMENT = {
+    "none", "boundary-markers", "gloves", "shin-guards", "mats", "wall",
+    "wall-to-ground",
 }
 
 
@@ -80,17 +91,26 @@ def coerce_list(raw):
 
 
 def normalize_equipment(raw):
-    """'mats, wall' / '[gloves, mats]' / 'none' -> sorted list of tokens."""
+    """'mats, wall' / '[gloves, mats]' / 'shin guards' / 'none' -> sorted tokens.
+
+    Split on commas ONLY. Splitting on whitespace shredded multi-word values
+    like 'shin guards' into ['shin', 'guards'] and 'marked square' into
+    ['marked', 'square'], producing tokens no gear set matches (so the game
+    silently vanished from every plan). Aliases run on the whole phrase first,
+    then any remaining internal spaces collapse to hyphens.
+    """
     if isinstance(raw, list):
         items = raw
     else:
-        items = re.split(r"[,\s]+", str(raw).strip("[] "))
+        items = str(raw).strip("[] ").split(",")
     out = set()
     for item in items:
         token = item.strip().strip("'\"").lower()
         if not token:
             continue
-        out.add(EQUIPMENT_ALIASES.get(token, token))
+        token = EQUIPMENT_ALIASES.get(token, token)
+        token = re.sub(r"\s+", "-", token)
+        out.add(token)
     return sorted(out)
 
 
@@ -126,19 +146,29 @@ def main():
         if not isinstance(prereqs, dict):
             prereqs = {}
         tags = coerce_list(fm.get("tags"))
+        title = fm.get("title", slug)
+        # A page is work-in-progress if it says so explicitly (status: wip),
+        # carries a wip tag, or marks "(WIP)" in its title. Without this, a
+        # missing status defaulted to "live" and shipped half-built games into
+        # the prescription engine.
+        status = fm.get("status")
+        is_wip = "wip" in tags or "(wip)" in title.lower()
+        if status is None:
+            status = "wip" if is_wip else "live"
+        equipment = normalize_equipment(fm.get("equipment", []))
         hero = HEROES_DIR / f"{slug}.png"
         game = {
             "slug": slug,
-            "title": fm.get("title", slug),
+            "title": title,
             "environment": fm.get("environment", ""),
             "domain": fm.get("domain", ""),
             "focus": fm.get("focus", ""),
             "difficulty": fm.get("difficulty", ""),
             "duration": fm.get("duration", ""),
-            "equipment": normalize_equipment(fm.get("equipment", [])),
+            "equipment": equipment,
             "prereq_games": coerce_list(prereqs.get("games")),
             "tags": tags,
-            "status": fm.get("status", "live"),
+            "status": status,
             "is_format": "format" in tags,
             "description": extract_description(text),
             "hero": f"assets/img/heroes/{slug}.png" if hero.exists() else None,
@@ -146,18 +176,26 @@ def main():
         for field in ("environment", "focus", "difficulty"):
             if not game[field]:
                 problems.append(f"{path.name}: missing {field}")
+        unknown = [e for e in equipment if e not in KNOWN_EQUIPMENT]
+        if unknown:
+            problems.append(f"{path.name}: unknown equipment {unknown} "
+                            f"(not in any gear set; game would never be recommended)")
         games.append(game)
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUT_PATH.write_text(json.dumps({"games": games}, indent=2) + "\n")
     live = sum(1 for g in games if g["status"] == "live" and not g["is_format"])
-    print(f"Wrote {OUT_PATH.relative_to(ROOT)}: {len(games)} games "
-          f"({live} live playable, {len(games) - live} wip/format)")
+    # Validate BEFORE writing so a bad page can never leave a partial or stale
+    # index behind. Write atomically (temp + replace) once the data is clean.
     if problems:
-        print("Problems:")
+        print("Refusing to write index, problems found:")
         for p in problems:
             print(f"  - {p}")
         sys.exit(1)
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp = OUT_PATH.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps({"games": games}, indent=2) + "\n")
+    tmp.replace(OUT_PATH)
+    print(f"Wrote {OUT_PATH.relative_to(ROOT)}: {len(games)} games "
+          f"({live} live playable, {len(games) - live} wip/format)")
 
 
 if __name__ == "__main__":

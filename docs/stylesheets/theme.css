@@ -688,6 +688,15 @@ body, .md-typeset {
 .emma-phero__cap { position: absolute; left: 1.6rem; right: 1.6rem; bottom: 1.2rem; z-index: 1; }
 .emma-phero__cap .k { display: block; font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.28em; font-size: 0.66rem; color: var(--orange-bright); margin-bottom: 0.3rem; }
 .emma-phero__cap .h { font-family: var(--font-display); text-transform: uppercase; font-size: clamp(1.8rem, 5vw, 3.4rem); line-height: 0.95; color: #fff; text-shadow: 0 2px 24px rgba(0,0,0,0.7); }
+/* Title-card fallback for pages whose ember hero art isn't shot yet: a dark
+   ember-gradient panel keeps the caption legible and reads as intentional
+   instead of a broken <img>. Drop the --noart class when real art lands. */
+.md-typeset .emma-phero--noart {
+  background:
+    radial-gradient(120% 140% at 80% 0%, rgba(255,138,0,0.20), transparent 55%),
+    radial-gradient(90% 120% at 8% 100%, rgba(255,84,0,0.13), transparent 60%),
+    linear-gradient(160deg, #16100b 0%, #0b0c0e 62%);
+}
 
 /* full-bleed-style accent band (color-blocked rhythm break) */
 .md-typeset .emma-band {

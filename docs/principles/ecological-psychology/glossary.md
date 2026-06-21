@@ -27,4 +27,4 @@ The vocabulary of ecological psychology, defined crisply. For the full treatment
 
 ---
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Source · Blau &amp; Wagman (2022), <i>Introduction to Ecological Psychology</i>, Routledge. Page numbers are printed pages. See also the methodology-side <a href="../cla/glossary.md">CLA glossary</a>.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Source · Blau &amp; Wagman (2022), <i>Introduction to Ecological Psychology</i>, Routledge. Page numbers are printed pages. See also the methodology-side <a href="../../cla/glossary/">CLA glossary</a>.</p>

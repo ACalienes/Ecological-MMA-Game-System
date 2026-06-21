@@ -27,8 +27,7 @@ tags:
   - wip
 ---
 
-<div class="emma-phero">
-  <img src="../../assets/img/heroes/kick-defense.png" alt="Kick Defense Isolation">
+<div class="emma-phero emma-phero--noart">
   <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Kick Defense Isolation</span></div>
 </div>
 

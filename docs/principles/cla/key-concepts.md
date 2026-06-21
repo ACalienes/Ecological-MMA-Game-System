@@ -103,7 +103,7 @@
       <div class="emma-card"><div class="emma-card__i">✋</div><div class="emma-card__t">Inertial array (inertia tensor)</div><p>For dynamic/effortful touch, resistance to rotation at a grasp point specifies length, orientation, and "off-balance-able-ness" of what is held. Grips, frames, clinch: what the hands <i>feel</i> through contact. <i>(p. 123–127)</i></p></div>
     </div>
 
-    <p class="emma-hl"><b>Coaching consequence:</b> "Reading" should mean <i>attuning to a named invariant</i> (τ on a closing punch, the inertial array through a grip), not vaguely "seeing openings." See the <a href="../ecological-psychology/index/">Ecological Psychology</a> section for the full treatment.</p>
+    <p class="emma-hl"><b>Coaching consequence:</b> "Reading" should mean <i>attuning to a named invariant</i> (τ on a closing punch, the inertial array through a grip), not vaguely "seeing openings." See the <a href="../../ecological-psychology/">Ecological Psychology</a> section for the full treatment.</p>
 
 <p class="emma-sub">Implications for training <span style="font-weight:400">(Renshaw et al., 2019)</span></p>
 
@@ -213,4 +213,4 @@ The human movement system has enormous degrees of freedom that must be organized
 
 <p class="emma-hl"><b>Optimal grip on affordances:</b> "Skilled performance is predicated on having an optimal grip over the field of affordances." <i>, Renshaw et al., 2019.</i> That means perceiving the relevant affordances, knowing which to use and when, executing the appropriate actions, and continuously adapting to dynamic conditions.</p>
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="environment-design/">Environment Design Principles</a>, the 4 principles that operationalize CLA.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="../environment-design/">Environment Design Principles</a>, the 4 principles that operationalize CLA.</p>

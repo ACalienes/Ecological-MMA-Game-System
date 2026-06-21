@@ -61,6 +61,7 @@ plugins:
 # pages, never published. See docs/_drafts/README.md.
 exclude_docs: |
   _drafts/
+  codex-*.md
 
 nav:
   - Home: index.md

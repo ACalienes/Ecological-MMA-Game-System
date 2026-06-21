@@ -216,4 +216,4 @@
   <div class="emma-card emma-has-pop" tabindex="0"><div class="emma-card__i">🧑‍🏫</div><div class="emma-card__t">Coach response</div><p>How to support the transition.<span class="emma-pop">Recognize instability as necessary for learning, support through the transition, allow time for reorganization, celebrate exploration, not just success.</span></p></div>
 </div>
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="session-design/">Session Design</a>, the GROW model and planning frameworks.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="../session-design/">Session Design</a>, the GROW model and planning frameworks.</p>

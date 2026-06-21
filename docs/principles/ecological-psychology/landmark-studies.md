@@ -156,4 +156,4 @@ The experiments behind [the principles](principles.md). Each card is the short v
 
 ---
 
-<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="design-rules.md">Design Rules</a>, turning the evidence into practice · <a href="principles.md">The Principles</a> · <a href="glossary.md">Glossary</a>. Source · Blau &amp; Wagman (2022), <i>Introduction to Ecological Psychology</i>, Routledge. Page numbers are printed pages.</p>
+<p style="font-size:.82rem;color:var(--fog-dim);margin:1rem 0 0;">Next · <a href="../design-rules/">Design Rules</a>, turning the evidence into practice · <a href="../principles/">The Principles</a> · <a href="../glossary/">Glossary</a>. Source · Blau &amp; Wagman (2022), <i>Introduction to Ecological Psychology</i>, Routledge. Page numbers are printed pages.</p>
