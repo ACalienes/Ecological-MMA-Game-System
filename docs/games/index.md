@@ -141,60 +141,59 @@ Games focused on horizontal grappling positions.
 
 ## Games by Focus
 
-=== "Defensive (23)"
+=== "Defensive (24)"
     Games where the defender is the primary learner:
 
     **Skill Isolation:**
-    - Parry the Straight, Tight Block, Slip the Straight, Evade the Punch
+    - Evade the Punch · Kick Defense Isolation (WIP) · Parry the Straight · Slip the Straight · Tight Block
 
     **Open Space Striking:**
-    - Close-Range Defense, Evasive Movement, Counter-Striking
+    - Close-Range Defense · Counter-Striking · Evasive Movement
 
     **Transition Zone:**
-    - Clinch Denial, Counter-Wrestling
+    - Clinch Denial · Counter-Wrestling
 
     **Open Space Wrestling:**
-    - Takedown Defense, The Square (WIP)
+    - Takedown Defense · The Square, Close Defense to Takedown Progression (WIP)
 
     **Wall:**
-    - Wall Escape, Wall Defensive Submission
+    - Wall Defensive Submission · Wall Escape - Anti-Pin
 
     **Ground:**
-    - Ground Escape, Mount Escape, Side-Control Escape, Back Escape, Leg Reclaim, Ground to Standing, Turtle Breakout (WIP), Ground Defensive Submission, Seated Guard Retention (WIP), Ground-and-Pound Defense (WIP)
+    - Back Escape · Ground Defensive Submission · Ground Escape · Ground to Standing · Ground-and-Pound Defense (WIP) · Leg Reclaim · Mount Escape · Seated Guard Retention (WIP) · Side-Control Escape · Turtle Breakout (WIP)
 
-=== "Offensive (16)"
+=== "Offensive (23)"
     Games where the attacker is the primary learner:
 
     **Skill Isolation:**
-    - Lead Hand Offense, Rear Hand Offense, Lead Leg Offense, Rear Leg Offense
+    - Lead Hand Offense · Lead Leg Offense · Rear Hand Offense · Rear Leg Offense
 
     **Open Space Striking:**
-    - Land the Target, Sustained Offense
+    - Land the Target · Sustained Offense
 
     **Open Space Wrestling:**
-    - Pressure to Takedown, Pressure to Wall
+    - Body Lock to Ground (WIP) · Pressure to Takedown · Pressure to Wall
 
     **Wall:**
-    - Wall Control, Wall Pin to Ground, Wall Grinding
+    - Wall Control - Establish Pin · Wall Grinding · Wall Pin to Ground
 
     **Ground:**
-    - Ground Access, Ground Control, Closed Guard Pass (WIP), Open Guard Pass (WIP), Half-Guard Pass (WIP)
+    - Back Maintenance (WIP) · Closed Guard Pass (WIP) · Ground Access · Ground Control · Half-Guard Pass (WIP) · Knee-on-Belly Control (WIP) · Mount Maintenance (WIP) · Mount Submission Hunt (WIP) · North-South Control (WIP) · Open Guard Pass (WIP) · Side-Control Ride (WIP)
 
-=== "Combined (8)"
+=== "Combined (10)"
     Games where both sides have distinct objectives (A vs B roles):
 
     **Open Space Striking:**
-    - Touch and Don't Get Touched, Pressure to Clinch
+    - One Shot Discovery (WIP) · Pressure to Clinch · Touch and Don't Get Touched
 
     **Open Space Wrestling:**
-    - Open Space Takedown
+    - 50/50 Clinch (WIP) · Open Space Takedown
 
     **Wall:**
-    - Stand-Up Loop
+    - Stand-Up and Re-Pin Loop · Win Ladder (WIP)
 
     **Ground:**
-    - Positional Sparring, Win Ladder (format, WIP), Half-Guard Bottom (WIP), Closed Guard Bottom (WIP)
-
+    - Closed Guard Bottom (WIP) · Half-Guard Bottom (WIP) · Positional Sparring
 ---
 
 ## Games by Decision State

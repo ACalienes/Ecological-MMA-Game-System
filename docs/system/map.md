@@ -235,13 +235,12 @@ Every position has a way IN and a way OUT.
 <p class="emma-glabel">System Statistics</p>
 
 <div class="emma-stats">
-  <div class="emma-stat"><span class="emma-stat__num">8</span><span class="emma-stat__label">Foundation</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Open Space</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">3</span><span class="emma-stat__label">Open → Wall</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">4</span><span class="emma-stat__label">Open → Ground</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Wall</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Ground</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">33</span><span class="emma-stat__label">Total Games</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">9</span><span class="emma-stat__label">Skill Isolation</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">15</span><span class="emma-stat__label">Open Space</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">2</span><span class="emma-stat__label">Transition</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">7</span><span class="emma-stat__label">Wall</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">24</span><span class="emma-stat__label">Ground</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">57</span><span class="emma-stat__label">Total Games</span></div>
 </div>
 
 <p class="emma-glabel">Concept Integration</p>

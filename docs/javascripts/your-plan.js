@@ -86,7 +86,7 @@
   var GOAL_FILTERS = {
     "strike-def": function (g) { return g.domain === "striking" && g.focus === "defensive"; },
     "strike-off": function (g) { return g.domain === "striking" && g.focus !== "defensive"; },
-    "takedowns": function (g) { return g.domain === "wrestling" && g.environment !== "wall" && g.environment !== "ground"; },
+    "takedowns": function (g) { return g.domain === "wrestling" && g.focus !== "defensive" && g.environment !== "wall" && g.environment !== "ground"; },
     "wall": function (g) { return g.environment === "wall"; },
     "ground": function (g) { return g.environment === "ground"; },
     "whole": function (g) { return g.focus === "combined" || g.domain === "mixed" || g.environment === "transition"; }
@@ -193,8 +193,17 @@
     var goalFilter = GOAL_FILTERS[s.goal] || function () { return true; };
     var goalPool = games.filter(playable).filter(goalFilter);
     var gearPool = goalPool.filter(function (g) { return gearOk(g, s.gear); });
-    var maxRank = s.exp === "exp" ? 2 : 1;
+    // Experience is a difficulty ceiling: new = beginner, trained = up to
+    // intermediate, experienced = up to advanced.
+    var maxRank = s.exp === "exp" ? 2 : (s.exp === "some" ? 1 : 0);
     var pool = gearPool.filter(function (g) { return DIFF_RANK[g.difficulty] <= maxRank; });
+    // Some goals (wall, ground, takedowns) have no beginner content. Rather than
+    // dead-end a new fighter, give them the easiest tier that goal offers
+    // (still never harder than necessary) instead of nothing.
+    if (!pool.length && gearPool.length) {
+      var easiest = Math.min.apply(null, gearPool.map(function (g) { return DIFF_RANK[g.difficulty]; }));
+      pool = gearPool.filter(function (g) { return DIFF_RANK[g.difficulty] <= easiest; });
+    }
 
     // pull in out-of-pool prerequisites as foundation material
     var poolSlugs = {};

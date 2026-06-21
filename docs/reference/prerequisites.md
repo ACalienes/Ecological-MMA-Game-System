@@ -22,7 +22,7 @@ Start here. These games ask nothing before you play them.
 
 <p class="emma-glabel">Prerequisite Chains by Environment</p>
 
-=== "Skill Isolation (8)"
+=== "Skill Isolation (9)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/parry-the-straight/">Parry the Straight</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
@@ -30,9 +30,10 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/slip-the-straight/">Slip the Straight</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/evade-the-punch/">Evade the Punch</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/evade-the-punch/">Evade the Punch</a> <small>(needs Slip)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/lead-hand-offense/">Lead Hand</a> · <a href="../../games/rear-hand-offense/">Rear Hand</a> · <a href="../../games/lead-leg-offense/">Lead Leg</a> · <a href="../../games/rear-leg-offense/">Rear Leg</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/close-range-defense/">Close-Range Defense</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/kick-defense/">Kick Defense Isolation (WIP)</a></span></div>
     </div>
 
-=== "Open Space, Striking (7)"
+=== "Open Space, Striking (8)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/touch-game/">Touch Game</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span></div>
@@ -42,6 +43,7 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/land-the-target/">Land the Target</a> <small>(needs Three Zones)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/sustained-offense/">Sustained Offense</a> · <a href="../../games/touch-game/">Touch Game</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/sustained-offense/">Sustained Offense</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">KO / TKO finish</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a> · <a href="../../games/clinch-denial/">Clinch Denial</a> · <a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/counter-striking/">Counter-Striking</a> · <a href="../../games/land-the-target/">Land the Target</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/one-shot-discovery/">One Shot Discovery (WIP)</a></span></div>
     </div>
 
 === "Transition Zone (2)"
@@ -51,16 +53,19 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/counter-wrestling/">Counter-Wrestling</a> <small>(needs CRD + Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
     </div>
 
-=== "Open Space, Wrestling (4)"
+=== "Open Space, Wrestling (7)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/takedown-defense/">Takedown Defense</a> <small>(needs Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-takedown/">Pressure to Takedown</a> <small>(needs CRD + Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a> · <a href="../../games/open-space-takedown/">Open Space Takedown</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-wall/">Pressure to Wall</a> <small>(needs Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-control/">Wall Control</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/open-space-takedown/">Open Space Takedown</a> <small>(needs Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ground games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/open-space-takedown/">Open Space Takedown</a> · <a href="../../games/back-escape/">Back Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/body-lock-to-ground/">Body Lock to Ground (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/pressure-to-clinch/">Pressure to Clinch</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/fifty-fifty-clinch/">50/50 Clinch (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/tight-block/">Tight Block</a> · <a href="../../games/close-range-defense/">Close-Range Defense</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/the-square/">The Square (WIP)</a></span></div>
     </div>
 
-=== "Wall (6)"
+=== "Wall (7)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-control/">Wall Control</a> <small>(needs Pressure to Clinch)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/wall-escape/">Wall Escape</a> · <a href="../../games/wall-to-ground/">Wall to Ground</a> · <a href="../../games/wall-grinding/">Wall Grinding</a></span></div>
@@ -69,9 +74,10 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-to-ground/">Wall to Ground</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/standup-loop/">Stand-Up Loop</a> · Ground games</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-grinding/">Wall Grinding</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">TKO finish</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/standup-loop/">Stand-Up Loop</a> <small>(needs Wall to Ground)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ground games</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/wall-to-ground/">Wall Pin to Ground</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/win-ladder/">Win Ladder (WIP)</a></span></div>
     </div>
 
-=== "Ground (6)"
+=== "Ground (24)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-access/">Ground Access</a> <small>(needs Open Space Takedown / Wall to Ground)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/ground-control/">Ground Control</a></span></div>
@@ -81,6 +87,23 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-to-standing/">Ground to Standing</a> <small>(needs Ground Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Return to standing</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-defensive-submission/">Ground Defensive Submission</a> <small>(needs Ground Escape)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Submission finish</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/positional-battle/">Positional Sparring</a> <small>(live format)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Run live on Ground Access &amp; Control</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-escape/">Ground Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/back-escape/">Back Escape</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-control/">Ground Control</a> · <a href="../../games/back-escape/">Back Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/back-maintenance/">Back Maintenance (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/leg-reclaim/">Leg Reclaim</a> · <a href="../../games/seated-guard-retention/">Seated Guard Retention (WIP)</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/closed-guard-bottom/">Closed Guard Bottom (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-access/">Ground Access</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/closed-guard-pass/">Closed Guard Pass (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-escape/">Ground Escape</a> · <a href="../../games/ground-to-standing/">Ground to Standing</a> · <a href="../../games/leg-reclaim/">Leg Reclaim</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/ground-and-pound-defense/">Ground-and-Pound Defense (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/leg-reclaim/">Leg Reclaim</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/half-guard-bottom/">Half-Guard Bottom (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-access/">Ground Access</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/half-guard-pass/">Half-Guard Pass (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-control/">Ground Control</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/knee-on-belly-control/">Knee-on-Belly Control (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-escape/">Ground Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/mount-escape/">Mount Escape</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-control/">Ground Control</a> · <a href="../../games/mount-escape/">Mount Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/mount-maintenance/">Mount Maintenance (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/mount-maintenance/">Mount Maintenance (WIP)</a> · <a href="../../games/mount-escape/">Mount Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/mount-submission-hunt/">Mount Submission Hunt (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-control/">Ground Control</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/north-south-control/">North-South Control (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-access/">Ground Access</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/open-guard-pass/">Open Guard Pass (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/leg-reclaim/">Leg Reclaim</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/seated-guard-retention/">Seated Guard Retention (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-escape/">Ground Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/side-control-escape/">Side-Control Escape</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-control/">Ground Control</a> · <a href="../../games/side-control-escape/">Side-Control Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/side-control-ride/">Side-Control Ride (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-to-standing/">Ground to Standing</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/turtle-breakout/">Turtle Breakout (WIP)</a></span></div>
     </div>
 
 <p class="emma-glabel">The Macro Progression</p>
