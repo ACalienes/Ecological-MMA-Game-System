@@ -1,0 +1,402 @@
+/* ============================================
+   FIGHT STATES DIAGRAM - Compact Design
+   ============================================ */
+
+.fight-diagram {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(135deg, var(--md-default-bg-color) 0%, rgba(0,0,0,0.02) 100%);
+  border-radius: 12px;
+  margin: 20px 0;
+  border: 1px solid rgba(128,128,128,0.1);
+}
+
+/* ============================================
+   FOUNDATION REFERENCE
+   ============================================ */
+
+.foundation-ref {
+  margin-bottom: 16px;
+}
+
+.foundation-link {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #607D8B 0%, #455A64 100%);
+  border-radius: 8px;
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.foundation-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+.foundation-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.foundation-sub {
+  font-size: 0.7rem;
+  opacity: 0.85;
+  margin-top: 2px;
+}
+
+/* ============================================
+   GRID LAYOUT - COMPACT
+   ============================================ */
+
+.fight-diagram-grid {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.fight-diagram-grid.compact {
+  gap: 16px;
+}
+
+/* ============================================
+   COLUMN STRUCTURE
+   ============================================ */
+
+.diagram-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.column-header {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 4px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/* Split columns for transitions/positions */
+.column-split {
+  display: flex;
+  gap: 16px;
+}
+
+.column-split.compact {
+  gap: 12px;
+}
+
+.column-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.group-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--md-default-fg-color--light);
+  opacity: 0.7;
+  margin-bottom: 2px;
+}
+
+/* ============================================
+   BOX STYLES - COMPACT
+   ============================================ */
+
+.diagram-box {
+  padding: 10px 14px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 90px;
+  color: #ffffff !important;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  line-height: 1.3;
+}
+
+.diagram-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+.diagram-box .box-subtitle {
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9) !important;
+  margin-top: 2px;
+}
+
+/* Box type colors */
+.box-start {
+  background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  min-width: unset;
+}
+
+.box-defensive {
+  background: linear-gradient(135deg, #4CAF50 0%, #388E3C 100%);
+}
+
+.box-offensive {
+  background: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);
+}
+
+.box-combined {
+  background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);
+}
+
+/* Finish boxes */
+.box-finish {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  min-width: unset;
+  padding: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.box-finish-ko {
+  background: linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%);
+}
+
+.box-finish-tko {
+  background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+}
+
+.box-finish-sub {
+  background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+}
+
+/* ============================================
+   LEGEND
+   ============================================ */
+
+.diagram-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: var(--md-code-bg-color);
+  border-radius: 8px;
+  justify-content: center;
+  border: 1px solid rgba(128,128,128,0.1);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.legend-color {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* ============================================
+   RESPONSIVE - TABLET
+   ============================================ */
+
+@media (max-width: 900px) {
+  .fight-diagram-grid {
+    gap: 12px;
+  }
+
+  .diagram-box {
+    padding: 8px 10px;
+    min-width: 70px;
+    font-size: 0.7rem;
+  }
+
+  .box-finish {
+    width: 44px;
+    height: 44px;
+    font-size: 0.7rem;
+  }
+
+  .column-split {
+    gap: 10px;
+  }
+}
+
+/* ============================================
+   RESPONSIVE - MOBILE
+   ============================================ */
+
+@media (max-width: 600px) {
+  .fight-diagram {
+    padding: 16px 12px;
+  }
+
+  /* Stack diagram vertically on mobile */
+  .fight-diagram-grid {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .diagram-column {
+    width: 100%;
+  }
+
+  .column-header {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(128,128,128,0.2);
+  }
+
+  /* Side-by-side groups on mobile */
+  .column-split {
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .column-group {
+    flex: 1;
+    max-width: 140px;
+  }
+
+  .group-label {
+    font-size: 0.7rem;
+  }
+
+  /* Larger touch targets on mobile */
+  .diagram-box {
+    padding: 12px 16px;
+    min-width: unset;
+    width: 100%;
+    min-height: 44px;
+    font-size: 0.8rem;
+  }
+
+  /* Finish boxes in a row */
+  .diagram-column:last-child {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .diagram-column:last-child .column-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  .box-finish {
+    width: 50px;
+    height: 50px;
+    font-size: 0.75rem;
+  }
+
+  /* Foundation link full width */
+  .foundation-link {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* Legend stacks better */
+  .diagram-legend {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .legend-item {
+    font-size: 0.7rem;
+  }
+}
+
+/* ============================================
+   RESPONSIVE TABLES
+   ============================================ */
+
+@media (max-width: 600px) {
+  /* Make tables horizontally scrollable */
+  .md-typeset table:not(.highlighttable) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .md-typeset table:not(.highlighttable) th,
+  .md-typeset table:not(.highlighttable) td {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+}
+
+/* ============================================
+   MERMAID RESPONSIVE
+   ============================================ */
+
+@media (max-width: 600px) {
+  .mermaid {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mermaid svg {
+    max-width: none;
+    min-width: 500px;
+  }
+}
+
+/* ============================================
+   DARK MODE ADJUSTMENTS
+   ============================================ */
+
+[data-md-color-scheme="slate"] .fight-diagram {
+  background: linear-gradient(135deg, var(--md-default-bg-color) 0%, rgba(255,255,255,0.02) 100%);
+}
+
+[data-md-color-scheme="slate"] .diagram-box {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+[data-md-color-scheme="slate"] .diagram-box:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+[data-md-color-scheme="slate"] .foundation-link {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
