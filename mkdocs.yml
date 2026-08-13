@@ -24,6 +24,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
+    - navigation.path
     - navigation.top
     - navigation.indexes
     - navigation.footer
@@ -86,6 +87,7 @@ nav:
         - Parry the Straight: games/parry-the-straight.md
         - Tight Block: games/tight-block.md
         - Slip the Straight: games/slip-the-straight.md
+        - Counter the Straight (WIP): games/counter-the-straight.md
         - Evade the Punch: games/evade-the-punch.md
         - Kick Defense Isolation (WIP): games/kick-defense.md
       - Offensive:
@@ -141,6 +143,8 @@ nav:
         - Leg Reclaim: games/leg-reclaim.md
         - Ground to Standing: games/ground-to-standing.md
         - Turtle Breakout (WIP): games/turtle-breakout.md
+        - Turtle Pin (WIP): games/turtle-pin.md
+        - Leg Entanglement Escape (WIP): games/leg-entanglement-escape.md
         - Ground Defensive Submission: games/ground-defensive-submission.md
       - Guard Bottom:
         - Seated Guard Retention (WIP): games/seated-guard-retention.md
@@ -175,6 +179,7 @@ nav:
     - Winning the Circle: concepts/winning-the-circle.md
     - The Finishing Sequence: concepts/finishing-sequence.md
     - Guard Recovery: concepts/guard-recovery.md
+    - The Environment Always Plays: concepts/environment-always-plays.md
   - Principles:
     - Training Mindset: principles/training-mindset.md
     - Ecological Psychology:
@@ -220,6 +225,8 @@ extra_javascript:
   - javascripts/landing.js
   - javascripts/progress.js
   - javascripts/your-plan.js
+  - javascripts/pop-hint.js
+  - javascripts/nav-flair.js
 
 extra:
   social:

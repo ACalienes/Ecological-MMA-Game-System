@@ -25,6 +25,7 @@ tags:
   - clinch
   - reaction
   - high-intensity
+  - class-derived
 ---
 
 <div class="emma-phero">
@@ -106,6 +107,7 @@ Layer block, parry, and dodge in the pocket, learning *when* to use *which*.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add parrying</b>Block or parry; add body shots.<span class="emma-pop emma-pop--l">The defender can now block or parry; the attacker adds body strikes. Choose the appropriate defense for each strike.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add dodging</b>Block, parry, or dodge; add hooks.<span class="emma-pop emma-pop--l">Static head movement joins the toolkit; the attacker adds hooks and varied combinations. Full defensive integration.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Add counter opportunity</b>One counter after defense.<span class="emma-pop emma-pop--l">After a successful defense the defender may throw one counter; the attacker must respect the threat. Defense as a setup for offense.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4b</span><b>Counter required (variant)</b>Blocking alone no longer wins.<span class="emma-pop emma-pop--l">Class-derived (2026-07-03). Stricter than Level 4: the defender must block or parry <b>and</b> land a counter to win the exchange. Hand control and grips stay live throughout for both sides, framing and distance management count as tools here too.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Turn the corner</b>Reposition for angle.<span class="emma-pop emma-pop--l">The defender can work to turn the corner on the attacker, creating an angle for counter-attack or escape, defensive footwork integration.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, defend strikes while denying the grappling entry. Shelling up without posture invites takedowns.</span></div>
 </div>

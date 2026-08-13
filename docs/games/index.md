@@ -6,16 +6,16 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "57 Games Across 5 Environments"
+!!! tip "60 Games Across 5 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|
-    | Skill Isolation | 9 | Single-skill development |
+    | Skill Isolation | 10 | Single-skill development |
     | Open Space - Striking | 8 | Striking engagement |
     | Transition Zone | 2 | Domain change moments |
     | Open Space - Wrestling | 7 | Takedowns and pressure |
     | Wall | 6 | Vertical constraint |
-    | Ground | 25 | Horizontal grappling |
+    | Ground | 27 | Horizontal grappling |
 
 ---
 
@@ -126,6 +126,8 @@ Games focused on horizontal grappling positions.
 | [Leg Reclaim](leg-reclaim.md) | Defensive | Intermediate | Get legs between you and opponent |
 | [Ground to Standing](ground-to-standing.md) | Defensive | Intermediate | Get back to feet from ground |
 | [Turtle Breakout (WIP)](turtle-breakout.md) | Defensive | Beginner | Stand and face from turtle before the hands connect |
+| [Turtle Pin (WIP)](turtle-pin.md) | Defensive | Beginner | Break the hips flat and hold the pin from turtle |
+| [Leg Entanglement Escape (WIP)](leg-entanglement-escape.md) | Defensive | Intermediate | Reverse or separate from a standing leg entanglement under strikes |
 | [Ground Defensive Submission](ground-defensive-submission.md) | Defensive | Advanced | Submissions from bottom position |
 | [Closed Guard Pass (WIP)](closed-guard-pass.md) | Offensive | Intermediate | Win posture, open the feet, pass to chest-to-chest |
 | [Open Guard Pass (WIP)](open-guard-pass.md) | Offensive | Intermediate | Clear the feet, beat the knee line, hold the chest |

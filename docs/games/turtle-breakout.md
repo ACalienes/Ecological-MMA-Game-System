@@ -36,6 +36,8 @@ tags:
 
 A pure attachment race. The defender starts in turtle, the attacker starts standing with palms on the small of the back, arms fully extended. The defender says go: stand, turn, face. The attacker wins by one thing only, connecting the hands around the waist or a leg above the knee.
 
+See also [Turtle Pin](../turtle-pin/): same turtle start, a different goal. That game begins with control already established and asks the top player to break the defender's hips flat to the mat and hold them, not just make first contact.
+
 <div class="emma-arc">
   <div class="emma-arc__node"><span class="emma-arc__k">Start</span><b>Defender in turtle. Attacker standing behind, palms on the small of the back, arms fully extended.</b></div>
   <div class="emma-arc__sep">→</div>
@@ -217,6 +219,7 @@ A pure attachment race. The defender starts in turtle, the attacker starts stand
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../ground-to-standing/">Ground to Standing</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Sibling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../turtle-pin/">Turtle Pin</a> (same turtle start, a hip-pin finish instead of an attachment race)</span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../counter-wrestling/">Counter-Wrestling</a> · <a href="../takedown-defense/">Takedown Defense</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../concepts/hand-controls/">Hand Controls</a></span></div>
     </div>

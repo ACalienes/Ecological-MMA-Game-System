@@ -22,6 +22,7 @@ tags:
   - collar-tie
   - clinch
   - angle
+  - class-derived
 ---
 
 <div class="emma-phero">
@@ -143,6 +144,7 @@ A scaffolded entry ladder for beginners: the attacker closes the distance with n
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>No weapons vs the lead leg</b>Block, catch, time the clinch.<span class="emma-pop emma-pop--l">Attacker has no strikes, only hands to block and catch kicks plus timing to close. Defender keeps distance with the lead leg only (front, side, or push kick) and the hands. The pure scaffold for someone who has never been punched, all closing, no danger.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Defender gains the jab</b>Attacker may reach to manipulate.<span class="emma-pop emma-pop--l">Defender adds the lead jab on top of the teeps. Attacker still has no strikes but may now reach with the hands to post and manipulate, the trade-off is explicit: the more you reach, the more you can be hit.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Attacker gains the rear cross</b>A threat to herd, not the win.<span class="emma-pop emma-pop--l">Attacker adds the rear straight (head or body, straight only) to threaten and herd. The cross creates pressure, but the clinch is still the win. Defender can now also win by catching a leg on the level change as the cross is thrown.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Defender's hand restricted</b>One hand only, lead or rear.<span class="emma-pop emma-pop--l">Class-derived (2026-07-05). A cross-cutting variant that can run at any rung above: instead of expanding the attacker's weapons further, restrict the defender to a single named hand, lead only, then rear only, alongside the teeps. Sharpens which one tool the defender actually leans on under pressure. Attacker still wins on any real connection (50/50, plum, body lock, even a leg grab); the attacker should keep threatening a level change even though landing the takedown itself isn't required to win.</span></div>
 </div>
 
 <p class="emma-hl"><b>Feint volume unlocks the doors.</b> Don't feint one at a time, pump-fake six or seven in a row, top and bottom, until the read breaks. High-level pressure is built on a constant stream of false starts, not single committed shots.</p>

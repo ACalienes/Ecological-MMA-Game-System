@@ -1,0 +1,303 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Friday's class, mined · 2026-07-03</title>
+<meta property="og:title" content="Friday's class, mined">
+<meta property="og:description" content="6 drills taught with Leo, cross-checked against the 57-game library. 2 new/changed games await your call.">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#0a0d14; --panel:#121826; --panel2:#0e1420; --line:#212c40;
+  --ink:#eaf0fb; --dim:#93a2bd; --faint:#5e6f8c;
+  --accent:#7aa2ff; --accent2:#b98bff;
+  --done:#4ade80; --now:#ffd24d; --next:#7aa2ff; --later:#5e6f8c; --stop:#f87171;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:radial-gradient(1200px 700px at 70% -10%,#16203a 0%,var(--bg) 55%) fixed,var(--bg);
+  color:var(--ink); font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased; padding:34px 22px 90px;
+}
+.wrap{max-width:1100px;margin:0 auto}
+.kicker{color:var(--accent);font-weight:700;font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:9px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.kicker .meta{font-size:10.5px;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--dim);letter-spacing:.06em;text-transform:none}
+h1{font-size:30px;line-height:1.15;letter-spacing:-.4px;margin:.2em 0 .1em;font-weight:800}
+.clock{color:var(--faint);font-size:13px;margin-bottom:14px}
+section{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+section.in{opacity:1;transform:none}
+h2{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:34px 0 12px;font-weight:700;display:flex;align-items:center;gap:10px}
+h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:12px 0;box-shadow:0 12px 44px -24px #000}
+.foot{color:var(--faint);font-size:12px;margin-top:34px;text-align:center}
+code{background:#0b1322;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:12.5px;color:#cfe0ff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media(prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important} section{opacity:1;transform:none}}
+
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,210,77,.55)} 70%{box-shadow:0 0 0 11px rgba(255,210,77,0)} 100%{box-shadow:0 0 0 0 rgba(255,210,77,0)}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+
+/* goal banner */
+.goal{border-left:3px solid var(--accent);position:relative}
+.goal-star{font-size:11px;letter-spacing:.14em;color:var(--accent);font-weight:800}
+.goal p{font-size:16px;color:#c3d0ea;margin-top:8px}.goal p b{color:#fff}
+.goal-tier{font-size:11px;color:var(--accent);font-weight:700;margin-top:14px;text-transform:uppercase;letter-spacing:.1em}
+
+/* metrics */
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.metric{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:15px 14px;text-align:center}
+.metric .num{font-size:28px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.metric .num.g{color:var(--done)}.metric .num.a{color:var(--now)}
+.metric .lab{font-size:11.5px;color:var(--dim);margin-top:7px}
+
+/* scrollytelling */
+.sty{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,64px);max-width:1100px;margin:0 auto}
+.sty-narr .beat{min-height:74vh;display:grid;align-content:center;padding:18px 0}
+.sty-narr .beat h3{font-size:20px;margin-bottom:8px;color:#fff}
+.sty-narr .beat p{color:#c3d0ea;font-size:14.5px;margin-bottom:6px}
+.sty-narr .beat .cue{color:var(--dim);font-size:13px;font-style:italic;border-left:2px solid var(--line);padding-left:10px;margin-top:8px}
+.beat-tag{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;padding:2px 9px;border-radius:999px;margin-bottom:10px;text-transform:uppercase}
+.beat-tag.map{color:var(--done);background:rgba(74,222,128,.13);border:1px solid #2c4d36}
+.beat-tag.new{color:var(--now);background:rgba(255,210,77,.14);border:1px solid #5a4d22}
+.sty-hero{position:sticky;top:0;height:min(78vh,620px);display:grid;align-content:center;overflow-y:auto}
+[data-node]{opacity:.32;transition:opacity .5s ease,border-color .5s ease,transform .5s ease}
+[data-node].lit{opacity:1}
+.pipe{position:relative;margin:4px 0;padding-left:6px}
+.step{position:relative;display:flex;gap:16px;padding:11px 0}
+.step:not(:last-child)::before{content:"";position:absolute;left:13px;top:29px;bottom:-9px;width:2px;background:var(--line)}
+.node{flex:0 0 28px;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:800;border:2px solid;z-index:1;background:var(--bg)}
+.step.map .node{border-color:var(--done);color:var(--done)}
+.step.new .node{border-color:var(--now);color:var(--now)}
+[data-node].lit .node{animation:pulse 1.8s infinite}
+.step .t{font-weight:700;font-size:14.5px}.step .d{color:var(--dim);font-size:12.5px;margin-top:2px}
+.badge{font-size:10px;font-weight:700;border-radius:999px;padding:2px 8px;border:1px solid;margin-left:6px;vertical-align:middle}
+.b-map{color:var(--done);border-color:#2c5e44;background:#0e2a1e}
+.b-new{color:var(--now);border-color:#5c4a1e;background:#2a210b}
+@media(max-width:760px){.sty{grid-template-columns:1fr}.sty-hero{position:sticky;top:0;height:44vh;order:-1;background:var(--bg);align-content:start}}
+@media(prefers-reduced-motion:reduce){[data-node]{opacity:1}}
+
+/* teach callouts */
+.teach{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:12px;padding:16px 18px;margin:10px 0}
+.teach h3{font-size:15px;color:#dce7ff;margin-bottom:8px}.teach p{color:#c3d0ea;font-size:14px}
+
+/* honesty list */
+.hlist{margin:6px 0}
+.hli{position:relative;padding:4px 0 4px 22px;font-size:13.5px;color:#c3d0ea}
+.hli::before{position:absolute;left:0;font-weight:800}
+.hli.done::before{content:"✓";color:var(--done)}
+.hli.wait::before{content:"●";color:var(--now)}
+
+/* decision cards */
+.decide{border-left:3px solid var(--now)}
+.paths{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.path{background:var(--panel2);border:1px solid var(--line);border-radius:13px;padding:16px 18px;transition:transform .18s ease,border-color .18s ease}
+.path:hover{transform:translateY(-3px);border-color:var(--now)}
+.path.dec{border-color:#5a4d22}.path.low{border-color:var(--line)}
+.path .h{display:flex;align-items:center;gap:8px;font-weight:800;font-size:14.5px;color:#fff;margin-bottom:6px;flex-wrap:wrap}
+.path .tag{font-size:10px;font-weight:800;letter-spacing:.07em;padding:2px 8px;border-radius:20px;color:#0a0d14}
+.path.dec .tag{background:var(--now)}.path.low .tag{background:var(--later)}
+.path p{color:#c3d0ea;font-size:13.5px}.path .you{margin-top:9px;font-size:13px;color:#dce7ff}.path .you b{color:#fff}
+
+/* roadmap */
+.road{display:flex;flex-direction:column;gap:9px}
+.rstep{display:flex;gap:12px;background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:11px 14px}
+.rstep .w{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);min-width:56px;padding-top:2px}
+.rstep .x{color:#c3d0ea;font-size:13.5px}.rstep .x b{color:var(--ink)}
+
+/* responsive overrides, kept last so they win the cascade over the module rules above */
+@media(max-width:768px){body{padding:26px 16px 80px} h1{font-size:25px} .grid,.metrics{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.grid,.metrics,.paths{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="kicker">Ecological MMA System · Class Mining <span class="meta">2026-07-03 · Friday, 1-on-1 with Leo</span></div>
+<h1>What happened in Friday's session, and what it means for the library</h1>
+<div class="clock" id="clock"></div>
+
+<section class="card goal">
+  <span class="goal-star">★ THE GOAL</span>
+  <p>Every class you record becomes real evidence for the game library, growing it toward <b>100+ structured games</b>, not just a pile of transcripts.</p>
+  <div class="goal-tier">↳ what this session is for</div>
+  <p>73 minutes of 1-on-1 drilling with Leo, mined against your existing <b>57-game</b> library to find what's already covered and what's genuinely new.</p>
+</section>
+
+<section>
+<div class="metrics">
+  <div class="metric"><div class="num" data-to="73" data-suf=" min">0</div><div class="lab">session length</div></div>
+  <div class="metric"><div class="num" data-to="6">0</div><div class="lab">drills taught</div></div>
+  <div class="metric"><div class="num g" data-to="4">0</div><div class="lab">already match the library</div></div>
+  <div class="metric"><div class="num a" data-to="2">0</div><div class="lab">new / changed, awaiting your call</div></div>
+</div>
+</section>
+
+<h2>How the session breaks down</h2>
+
+<div class="sty">
+  <div class="sty-narr">
+
+    <div class="beat" data-step="1">
+      <span class="beat-tag map">Matches the library</span>
+      <h3>1 · Straight-punch parry</h3>
+      <p>Leo throws straight punches only, lead or rear hand, no hooks. He wins by parrying alone. Alex coaches him to herd Leo toward the wall using footwork.</p>
+      <div class="cue">"The environment is always a factor." Good cue, not written down yet.</div>
+    </div>
+
+    <div class="beat" data-step="2">
+      <span class="beat-tag map">Matches the library</span>
+      <h3>2 · Same game, now must counter too</h3>
+      <p>Escalation: a bare parry no longer wins. He must parry AND land a counter, any target, any limb.</p>
+      <div class="cue">Your existing page already has an optional counter level. Class made it mandatory, a stricter version worth adding.</div>
+    </div>
+
+    <div class="beat" data-step="3">
+      <span class="beat-tag new">New hybrid, no page yet</span>
+      <h3>3 · Lead-hand-only, with a takedown option</h3>
+      <p>Only the lead hand can strike. But now there are two ways to win: land the strike, <b>or</b> connect to Leo's leg / get a double-under body lock. No existing page covers this exact combination.</p>
+      <div class="cue">Also stated here: "you always have hand control unless I say otherwise." An unwritten default rule.</div>
+    </div>
+
+    <div class="beat" data-step="4">
+      <span class="beat-tag map">Matches the library</span>
+      <h3>4 · Tight-block combinations</h3>
+      <p>Combos up to 3 strikes, defense blocks and parries together. Land 1 of 3, stay on offense. Block all 3, defense wins. Mid-class correction: miss all 3 and you lose outright, no matter how weak the defense was. Small 2-mat square added: step out and you lose, or actively push Leo out to win.</p>
+      <div class="cue">"Hyper-movement is counterproductive to defensive foundation," the reason Alex gave for shrinking the space.</div>
+    </div>
+
+    <div class="beat" data-step="5">
+      <span class="beat-tag map">Matches the library</span>
+      <h3>5 · Same combo game, now must counter too</h3>
+      <p>Same escalation pattern as beat 2: blocking alone no longer wins, Leo must block AND land a counter. Grips and hand control stay live throughout.</p>
+      <div class="cue">Same divergence: your page has this counter as optional. Class made it required.</div>
+    </div>
+
+    <div class="beat" data-step="6">
+      <span class="beat-tag new">Distinct variant, not a small edit</span>
+      <h3>6 · "Go Turtle" scramble</h3>
+      <p>Starts from established hip-and-shoulder control, not a hands-off race. Top wins by pinning Leo's hips flat for 2-3 seconds ("taking the back doesn't win"). No self-locked hands allowed. Strikes live. Wall-assisted stand-up coached as an escape tool.</p>
+      <div class="cue">Shares a name with your Turtle Breakout page but almost every rule differs. Reads as its own game.</div>
+    </div>
+
+  </div>
+
+  <div class="sty-hero" data-active="0">
+    <div class="pipe">
+      <div class="step map" data-node="1"><div class="node">1</div><div class="body">
+        <div class="t">Straight-punch parry <span class="badge b-map">match</span></div>
+        <div class="d">parry-the-straight.md</div></div></div>
+      <div class="step map" data-node="2"><div class="node">2</div><div class="body">
+        <div class="t">+ counter required <span class="badge b-map">edit</span></div>
+        <div class="d">parry-the-straight.md, Level 5</div></div></div>
+      <div class="step new" data-node="3"><div class="node">3</div><div class="body">
+        <div class="t">Lead-hand + takedown <span class="badge b-new">new</span></div>
+        <div class="d">no existing match</div></div></div>
+      <div class="step map" data-node="4"><div class="node">4</div><div class="body">
+        <div class="t">Tight-block combos <span class="badge b-map">match</span></div>
+        <div class="d">tight-block.md / close-range-defense.md</div></div></div>
+      <div class="step map" data-node="5"><div class="node">5</div><div class="body">
+        <div class="t">+ counter required <span class="badge b-map">edit</span></div>
+        <div class="d">close-range-defense.md, Level 4</div></div></div>
+      <div class="step new" data-node="6"><div class="node">6</div><div class="body">
+        <div class="t">"Go Turtle" scramble <span class="badge b-new">variant</span></div>
+        <div class="d">turtle-breakout.md, name only</div></div></div>
+    </div>
+  </div>
+</div>
+
+<h2>The coaching gold worth keeping</h2>
+<div class="teach">
+  <h3>Miss a combo, you lose, no exceptions</h3>
+  <p>Alex had to correct this mid-class: if offense throws a full combination and lands nothing, offense loses the exchange outright, even if the defense wasn't very good. A discipline rule against flinging and hoping.</p>
+</div>
+<div class="teach">
+  <h3>Hand control is always live unless stated otherwise</h3>
+  <p>Said twice, in two different games. This is a standing default across nearly every striking drill and has never been written down anywhere in the system. Worth locking in as a rule, the same way the above-the-knee connection law is.</p>
+</div>
+<div class="teach">
+  <h3>The wall is an ally, not just a boundary</h3>
+  <p>In the turtle escape, Leo is coached to glue to the wall on hands and knees, then use it to climb upright while peeling off Alex's hooks, rather than fighting the escape flat on the floor.</p>
+</div>
+
+<div class="hlist">
+  <div class="hli wait">Two short stretches of the raw transcript came out as garbled Norwegian, most likely a transcription glitch from kicking noise, not real speech. Left out rather than guessed at.</div>
+</div>
+
+<section class="card decide">
+  <h2>⬤ What needs you</h2>
+  <div class="paths">
+    <div class="path dec">
+      <div class="h"><span class="tag">A DECISION</span> Beat 3: name and place the new hybrid?</div>
+      <p>Lead-hand-only striking with a takedown/leg-connection alternate win. Build it as its own page, or fold it into <code>lead-hand-offense.md</code> as a top-end level?</p>
+      <div class="you">What you are deciding: <b>standalone page vs. an added level</b>.</div>
+    </div>
+    <div class="path dec">
+      <div class="h"><span class="tag">A DECISION</span> Beat 6: rewrite or replace Turtle Breakout?</div>
+      <p>The mechanics (start position, win condition, wall escape) differ from the current page almost everywhere. Keep both as separate games, or rewrite the existing page?</p>
+      <div class="you">What you are deciding: <b>new page vs. a major rewrite</b>.</div>
+    </div>
+    <div class="path low">
+      <div class="h"><span class="tag">LOWER PRIORITY</span> Formalize "hand control always live"?</div>
+      <p>Worth writing down as an explicit system-wide default rule, like the above-the-knee connection law, or is it already assumed knowledge that doesn't need its own page?</p>
+      <div class="you">What you are deciding: <b>write it down vs. leave it implicit</b>.</div>
+    </div>
+    <div class="path low">
+      <div class="h"><span class="tag">LOWER PRIORITY</span> The garbled stretches, do you remember them?</div>
+      <p>Two spots (roughly 18:22-19:43 and 28:34-29:23) sound like kicking-mechanics coaching, rotation, target, torque, but the transcript is unreliable there.</p>
+      <div class="you">What you are deciding: <b>fill in from memory, or leave it out</b>.</div>
+    </div>
+  </div>
+</section>
+
+<h2>The long game</h2>
+<div class="road">
+  <div class="rstep"><span class="w">Now</span><span class="x"><b>You weigh in</b> on the 4 calls above. Nothing has touched <code>docs/</code> yet.</span></div>
+  <div class="rstep"><span class="w">Next</span><span class="x"><b>Build or edit</b> the agreed pages, plus the two small counter-required variant notes on beats 2 and 5.</span></div>
+  <div class="rstep"><span class="w">Then</span><span class="x"><b>Merge and deploy</b>, same as every session since going live on 2026-06-21.</span></div>
+  <div class="rstep"><span class="w">Goal</span><span class="x"><b>100+ game library</b>, grown from real classes, not invented in a vacuum.</span></div>
+</div>
+
+<div class="foot">Source: local transcript of DJI segments MIC007-009 (2026-07-03), not committed to the repo. Full report: <code>docs/_drafts/class-mining-2026-07-03.md</code>.</div>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+  var clk=document.getElementById('clock');
+  function tick(){if(!clk)return;var d=new Date();
+    clk.textContent=d.toLocaleString(undefined,{weekday:'short',hour:'2-digit',minute:'2-digit'})+' · live status';}
+  tick(); setInterval(tick,30000);
+
+  function countUp(el){var to=+el.dataset.to,suf=el.dataset.suf||'';
+    if(reduce){el.textContent=to+suf;return;}
+    var t0=performance.now();(function s(t){var p=Math.min(1,(t-t0)/750);
+      el.textContent=Math.round(to*(1-Math.pow(1-p,3)))+(p===1?suf:'');
+      if(p<1)requestAnimationFrame(s);})(performance.now());}
+
+  function activate(el){
+    el.classList.add('in');
+    el.querySelectorAll('[data-to]').forEach(countUp);
+    el.querySelectorAll('[data-w]').forEach(function(b){b.style.width=b.dataset.w});
+    el.querySelectorAll('[data-h]').forEach(function(b){b.style.height=b.dataset.h});
+  }
+  if(reduce){document.querySelectorAll('section,.reveal').forEach(activate);}
+  else{
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(e.isIntersecting){activate(e.target);io.unobserve(e.target);}});},{threshold:.15});
+    document.querySelectorAll('section,.reveal').forEach(function(s){io.observe(s);});
+  }
+
+  /* scrollytelling: light hero nodes as beats scroll past */
+  var hero=document.querySelector('.sty-hero');
+  if(hero){
+    var beatIo=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(e.isIntersecting && e.intersectionRatio>0.6){
+        var step=+e.target.dataset.step; hero.dataset.active=step;
+        hero.querySelectorAll('[data-node]').forEach(function(n){n.classList.toggle('lit',+n.dataset.node<=step);});
+      }});},{threshold:[0,.6,1]});
+    document.querySelectorAll('.beat').forEach(function(b){beatIo.observe(b);});
+    if(reduce){hero.querySelectorAll('[data-node]').forEach(function(n){n.classList.add('lit');});}
+  }
+})();
+</script>
+</body></html>

@@ -1,6 +1,6 @@
 # System Map
 
-<div class="emma-meta"><span>Visual Navigation</span><span>All 57 Games</span><span>Environment → Finish</span></div>
+<div class="emma-meta"><span>Visual Navigation</span><span>All 60 Games</span><span>Environment → Finish</span></div>
 
 <p class="emma-hl"><b>The fight is cyclical.</b> You move between environments until someone finishes, and every path has a reverse. This map routes you from foundation skills through every game to a finish.</p>
 
@@ -208,6 +208,8 @@ Horizontal grappling. You arrive via takedown or knockdown.
   <a class="emma-card" href="../../games/leg-reclaim/"><div class="emma-card__i">🦵</div><div class="emma-card__t">Leg Reclaim</div><p>Guard recovery.</p></a>
   <a class="emma-card" href="../../games/ground-to-standing/"><div class="emma-card__i">🧍</div><div class="emma-card__t">Ground to Standing</div><p>Technical stand-up.</p></a>
   <a class="emma-card" href="../../games/turtle-breakout/"><div class="emma-card__i">🔗</div><div class="emma-card__t">Turtle Breakout (WIP)</div><p>Stand and face before the hands connect.</p></a>
+  <a class="emma-card" href="../../games/turtle-pin/"><div class="emma-card__i">⚓</div><div class="emma-card__t">Turtle Pin (WIP)</div><p>Break the hips down and hold them.</p></a>
+  <a class="emma-card" href="../../games/leg-entanglement-escape/"><div class="emma-card__i">🦵</div><div class="emma-card__t">Leg Entanglement Escape (WIP)</div><p>Reverse or separate under strikes.</p></a>
   <a class="emma-card" href="../../games/ground-defensive-submission/"><div class="emma-card__i">🔒</div><div class="emma-card__t">Ground Defensive Submission</div><p>Submissions from bottom.</p></a>
 </div>
 
@@ -246,12 +248,12 @@ Every position has a way IN and a way OUT.
 <p class="emma-glabel">System Statistics</p>
 
 <div class="emma-stats">
-  <div class="emma-stat"><span class="emma-stat__num">9</span><span class="emma-stat__label">Skill Isolation</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">10</span><span class="emma-stat__label">Skill Isolation</span></div>
   <div class="emma-stat"><span class="emma-stat__num">15</span><span class="emma-stat__label">Open Space</span></div>
   <div class="emma-stat"><span class="emma-stat__num">2</span><span class="emma-stat__label">Transition</span></div>
   <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Wall</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">25</span><span class="emma-stat__label">Ground</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">57</span><span class="emma-stat__label">Total Games</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">27</span><span class="emma-stat__label">Ground</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">60</span><span class="emma-stat__label">Total Games</span></div>
 </div>
 
 <p class="emma-glabel">Concept Integration</p>

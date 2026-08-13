@@ -17,6 +17,7 @@ tags:
   - distance
   - beginner-friendly
   - skill-isolation
+  - class-derived
 ---
 
 <div class="emma-phero">
@@ -81,6 +82,7 @@ Develop the lead hand as a weapon. The attacker may *only* use the lead hand, ja
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🎯</span> All targets allowed<span class="emma-chip__detail">Head and body are both fair game. Target variation invites level changes and misdirection within the lead-hand constraint.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">📏</span> Maintain striking range<span class="emma-chip__detail">Both players hold striking range so the lead hand stays viable and necessary, no drifting out to where it can't reach.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset after each attack<span class="emma-chip__detail">Reset to a neutral stance after a clean strike lands or after a set time, so each rep begins from the same problem.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤼</span> Leg connection also wins (Level 4)<span class="emma-chip__detail">At Level 4, the attacker doesn't need the lead hand to land at all. Connecting to a leg, or securing a double-under body lock, wins immediately, same as a clean strike. The lead hand and the takedown entry are two doors to the same win.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
@@ -89,6 +91,7 @@ Develop the lead hand as a weapon. The attacker may *only* use the lead hand, ja
   <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Land a clean lead hand strike → switch roles.<span class="emma-pop">A clean landing means solid contact reaching the target with real energy transfer, not a whiff, graze, or blocked shot. Land it and you become the defender.</span></div>
   <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Whiffed, grazed, or blocked → reset, read again.<span class="emma-pop">A failed attempt isn't a loss; it's information, same roles. Reset to a neutral stance and re-enter the probe → read → setup → commit cycle.</span></div>
   <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">No score</span> Defender denies every opening → diagnostic success.<span class="emma-pop">The defender has no win condition. Success is measured by quality of defense, not points. Forcing the attacker to read, set up, and commit is the goal.</span></div>
+  <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch (L4)</span> Connect a leg or secure a double-under → switch roles, same as a clean strike.<span class="emma-pop">Level 4 only. The lead hand strike and the takedown connection are two separate win conditions; either one ends the exchange.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
@@ -97,6 +100,7 @@ Develop the lead hand as a weapon. The attacker may *only* use the lead hand, ja
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Defense only</b>Defender can't counter.<span class="emma-pop emma-pop--l">Pure offensive development, lead hand only against a defender who can't counter. Build timing and variety with zero counter-threat.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add counter threat</b>Counters after good defense.<span class="emma-pop emma-pop--l">The defender can fire counters once they defend successfully. You land the lead hand while managing the counter risk.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Full MMA expression</b>Counters plus shot / clinch.<span class="emma-pop emma-pop--l">The defender can counter-strike, shoot, or clinch. Land the lead hand under realistic MMA pressure with all threats live. See <a href="../../concepts/full-mma-expression/">Full MMA Expression</a>.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Takedown alternate win</b>Land the lead hand, or connect a leg / double-under.<span class="emma-pop emma-pop--l">Class-derived (2026-07-03). The attacker still throws lead hand only, but now wins by landing it <b>or</b> by connecting to a leg or securing a double-under, whichever comes first. Grabbing and hand-fighting to set up that connection is always legal here, the same way it's always available in a real fight, unless a drill specifically says otherwise.</span></div>
 </div>
 
 <p class="emma-glabel">Recall Check</p>

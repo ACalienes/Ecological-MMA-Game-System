@@ -1,56 +1,35 @@
-# Pick Up Here — written 2026-06-20 (shutdown)
+# NEXT SESSION — pick up here (last touched 2026-07-19)
 
-**Branch state:** `ground-wave-guard-2026-06-06`, committed through `45db7e6`, **3 ahead of origin (NOT pushed).** Holds the 6 guard games (PR #4), the 6/15 top-side grid, AND today's 2026-06-20 build wave. Working tree clean except untracked root strays (`body-lock-check.jpeg`, `mount-maintenance-check.jpeg`, `knowledge-claude-code-audit-2026-04-28.md` — Alex owes keep/toss).
+**Branch:** `main`, in sync with origin BUT ~38 files uncommitted/untracked (the entire 2026-07-05 session: 2 new games, library 57→59, UX wave 1, Codex-reviewed nav v2, sources page). **Nothing deployed — the live site still shows 57 games.** Full log: `memory/session-2026-07-05.md`. **Unrelated to this note, 2026-07-19 added one new untracked file, `docs/_drafts/class-mining-2026-07-19.md`** (a staged mining report from today's class audio, 7 open questions for Alex, no library edits made yet — full log: `memory/session-2026-07-19.md`).
 
-**First decision next session:** push this branch and sort the PR strategy. It has drifted well past PR #4's original scope (6 guard games → +6 grid games → +today's 3 games + 1 refine + concept). Options: push as-is and update PR #4's description, or split. PRs #3 (prescription engine) and #4 (guard games) still await Alex's review.
+## First moves (in order)
 
-## Verify state (don't trust claims, run these)
+0. **New:** get Alex's read on `docs/_drafts/class-mining-2026-07-19.md` (7 open questions: kick-catch-and-dump win condition, back-control submission-menu restriction, an escape/"demotion" ruling that isn't written down anywhere, whether a standing no-grip back-take game is a new sibling or a Turtle Breakout variant, two coaching-cue backport candidates, a rules-glossary check). Build whichever enrichments he blesses; this is independent of the nav v2 item below and much smaller.
 
+1. **Get Alex's verdict on nav v2.** He asked "did you actually implement the changes?" at session end — likely a stale browser tab or he was looking at the deployed site (which has none of this). Have him hard-refresh `127.0.0.1:8800` (start server: `./.venv/bin/mkdocs serve -a 127.0.0.1:8800`) and look at any game page: band cards w/ ghost numerals, live progress counts, sticky YOU-ARE-HERE panel. If still not good enough → escalate to the Pitch Deck Engine art-direction queue (`docs/shared/inbox-pitch.json`), don't keep CSS-iterating solo.
+2. **Commit + deploy** once blessed (standing rule: deploy every session): logical commits (games/mining · UX wave 1 · nav v2 · sources), then `./.venv/bin/mkdocs gh-deploy`. NEVER `git add` the repo-root strays (`body-lock-check.jpeg`, `mount-maintenance-check.jpeg`, `knowledge-claude-code-audit-2026-04-28.md`).
+3. **Alex's open picks:** UX design direction A/B/C (mat-side game card ← my recommendation / student-coach two-door split / one-recommender consolidation) — full cards in `explainers/status-review-2026-07-05-ux.html`.
+
+## Verify state (run these)
 ```bash
 cd "/Users/alex/Desktop/Code/Ecological MMA System"
-git status --short && git log --oneline -5
-git status -sb | head -1                             # expect "ahead 3"
-uvx --with mkdocs-material --with mkdocs-glightbox mkdocs build --strict   # PASSES as of shutdown (~85s)
-python3 scripts/eco-check.py                         # 56/57 (only turtle-breakout perimeter flag, known)
-python3 scripts/consistency-check.py                 # clean except home-links (standing known failure)
-python3 -c "import json;print(len(json.load(open('docs/assets/data/games.json'))['games']))"   # 57
+git status -sb | head -5
+./.venv/bin/mkdocs build --strict --site-dir /tmp/x   # must pass (passed at shutdown)
+python3 scripts/consistency-check.py                   # 59 games, only the known home-links warning
+python3 scripts/eco-check.py | tail -3                 # 56/59 clean; known E1 flags: turtle-breakout, turtle-pin, leg-entanglement-escape
 ```
 
-## What's live/done this session (class 2026-06-20 "eco omakase", device + system date 2026-06-20)
+## Parked / open
+- **North-south: placeholder concept per Alex (2026-07-05).** 3 framings drafted (own escape page / shared past-the-legs escape / knee-on-belly sibling) — wait for him to speak on it, don't build.
+- UX findings not yet built: glossary auto-links, game-page section-jump (absorbed by direction A if picked), field-tested-first sort on browse pages.
+- Academic sourcing round 2: 8 verified-but-unadded candidates + 2 flagged (possible thesis; brand-new Frontiers RCT) — details were chat-only, re-research if wanted.
+- WIP backlog: 23 wip/format pages awaiting Alex's blessing pass.
+- `docs/_drafts/` staleness: coverage-map (5/26) + gaps-atlas (5/31) predate the 59-game library — superseded by `game-gaps-draft-2026-07-05.pdf`; consider retiring.
 
-Library **54 → 57.** Closed the 3 biggest zero-coverage gaps in one pass. Mining + workshop + eco-audit in `docs/_drafts/class-workshop-2026-06-20.md`.
-- **New (WIP, need mat re-run):** `mount-submission-hunt` (first submission-offense game; finish layer of the mount ladder), `fifty-fifty-clinch` (first typed center-clinch game), `kick-defense` (first kick-defense isolation game).
-- **Refined (R5 mat re-validation):** `body-lock-to-ground` — defender resets to the 50/50 clinch, wall-proximity start, pummel-incentive note.
-- **New concept:** `finishing-sequence` (eco-rewritten doctrine, credits John McCarthy). Bull/Soldier/Matador already in `winning-the-circle`.
-- Build review: `explainers/status-review-2026-06-20.html`.
-
-## Candidate next moves
-
-1. **Push + PR strategy** (the gating decision above).
-2. **Submission-offense wave** (continues what Mount Submission Hunt started): RNC from back, triangle/armbar from guard, kimura from side/north-south, guillotine/front-headlock. Use the ladder model and the same observable-entry-not-cranked-finish pattern + the `finishing-sequence` concept. **Leglocks need Alex's safety review first.**
-3. **Formalize the "shown strike / legitimate threat without violence" rule** — load-bearing in 3+ games; make it a named glossary entry + house rule, plus the finger-curl safety note. Re-express, link everywhere.
-4. **Mat-test Game 5 (Wall Dirty-Boxing)** — fills the integration gap (wall control → strike ↔ takedown double threat) but was only coached in sparring; needs a run before building. Spec sketched in the workshop doc.
-5. **Bless WIP tags** as games get mat time (Alex's call) — `body-lock-to-ground` is the first candidate (R5 done 6/20).
-6. Trivial: fix `turtle-breakout` eco-check E1 (add a live perimeter constraint).
-
-## Standing rules (locked)
-- WIP until Alex blesses on the platform; needs R5 (mat) validation.
-- Always name the clinch TYPE; 50/50 grips are **diagonally matched**, never "mirror".
-- Hand connection counts above the knee (waist or leg above the knee).
-- Threshold house rule: no "as long as possible"; observable proof (a 1-2s/3s hold, a count, a concrete event).
-- Ground games are GnP-first; GnP/strike realism = real strikes with space, not pitter-patter; "shown strike" = legitimate threat, no damage, arc between strikes, no elbows/knees without pads.
-- No em dashes; distilled instructions; visual-first (.emma-* components, never raw text/tables).
-- Credit sources (SMGC / Greg Souders et al.); re-express mechanics under our names.
-- Merge-not-multiply: ~80% similar → variant block, not a new page (today: body-lock refined, not duplicated).
-- Student names stay out of built `docs/` (mining/workshop in `_drafts/` + repo memory only).
-- Build + verify empirically + show work (html) BEFORE committing; commit only when asked, push only when asked.
-
-## Post-build checklist (every game add/edit) — DON'T SKIP build-game-index
-1. `python3 scripts/build-game-index.py`  (refreshes games.json — easy to forget, caught at 6/20 shutdown)
-2. `python3 scripts/eco-check.py`         (expect ~0 new failures; watch false positives like "in the air" tripping E7)
-3. `uvx --with mkdocs-material --with mkdocs-glightbox mkdocs build --strict`
-4. `python3 scripts/consistency-check.py` (bump counts in system/map.md + games/index.md; add nav in mkdocs.yml; home-links failure is known/standing)
-5. Hero: claude.ai Higgsfield `nano_banana_pro`, 16:9, ember-silhouette prompt (near-black fighter silhouettes, warm orange rim light, floating embers, haze on a dark floor). Local `higgsfield` MCP broken ('min' error) — use the claude.ai server. NEW games still need heroes: fifty-fifty-clinch, mount-submission-hunt, kick-defense, finishing-sequence.
-
-## Transcription pipeline (corrected 2026-06-20)
-Copy DJI files to local /tmp → concat in order → `ffmpeg -af "loudnorm=I=-16:TP=-1.5:LRA=11,aresample=16000" -ac 1` → **chunk to ≤16 min** (`-f segment -segment_time 1000 -c copy`) → `mlx_whisper chunk_NN.wav --model mlx-community/whisper-large-v3-mlx --condition-on-previous-text False --hallucination-silence-threshold 2 --output-format all` **IN THE FOREGROUND** (background gets killed; big single files OOM silently with exit 0) → `cat chunk_*.txt`. Verify word counts at each step. Audio + transcript gitignored. Full detail in `reference_transcription_pipeline.md`.
+## Standing rules (unchanged unless noted)
+- **games.json is generated**: `python3 scripts/build-game-index.py` after any game frontmatter change. Count references live in map.md / games/index.md / prerequisites.md / changelog.md / `overrides/home.html` (home stats now 59/19/6); `consistency-check.py` catches drift.
+- **mkdocs serve does NOT hot-reload `overrides/`** — restart the server after editing templates there.
+- Transcription: copy WAVs off the stick first → concat + loudnorm + 16k mono → 15-min chunks → mlx_whisper large-v3 FOREGROUND one chunk at a time, game vocab in `--initial-prompt`.
+- **Same structure + different goals = different games** (sibling pages, cross-linked), not levels — Alex, 2026-07-05 (turtle-breakout vs turtle-pin).
+- Class-derived edits get the `class-derived` tag; new games stay WIP until Alex blesses.
+- Live site: https://acalienes.github.io/Ecological-MMA-Game-System/ · deploy from `main` with `./.venv/bin/mkdocs gh-deploy`.

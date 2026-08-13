@@ -19,6 +19,7 @@ tags:
   - reaction
   - beginner-friendly
   - skill-isolation
+  - class-derived
 ---
 
 <div class="emma-phero">
@@ -101,6 +102,7 @@ Deflect straight punches with the hands. The defender may *only* parry, no block
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Add feints</b>Real vs. fake.<span class="emma-pop emma-pop--l">The attacker can feint before throwing. Parrying a feint is wasted movement, the defender must distinguish real from fake.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Two-punch combinations</b>Jab-cross, jab-body.<span class="emma-pop emma-pop--l">Two-punch combos, still straights only, chain parries together while holding structure.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Counter after parry</b>One counter allowed.<span class="emma-pop emma-pop--l">After a successful parry the defender may throw one counter, teaching the parry as a setup, not just survival.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5b</span><b>Counter required (variant)</b>A bare parry no longer wins.<span class="emma-pop emma-pop--l">Class-derived (2026-07-03). Stricter than Level 5: the defender must parry <b>and</b> land a counter to win the exchange, any target, any limb. A clean parry with no follow-up is no longer enough.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, parry while denying the grappling entry, staying aware of all threats.</span></div>
 </div>
 
@@ -142,6 +144,7 @@ Deflect straight punches with the hands. The defender may *only* parry, no block
     <div class="emma-cards">
       <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">See center mass</div><p>Don't track the gloves or the eyes. Center mass keeps shoulder &amp; hip motion in view, "the little X", and shows the straight before it fires. The eyes lie.</p></div>
       <div class="emma-card"><div class="emma-card__i">🎯</div><div class="emma-card__t">Read before redirect</div><p>You don't need to parry everything. Recognize the pattern first, then commit, one good parry beats ten bad ones. Timing over volume.</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">The environment is always a factor</div><p>Class-derived. If the attacker is retreating or ducking, use your own footwork to herd them toward the wall. It's an inherent defensive advantage, not just something to notice, something to use.</p></div>
     </div>
 
 ??? abstract "Constraints-Led analysis"

@@ -1,6 +1,6 @@
 # Prerequisite Map
 
-<div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>57-Game System</span></div>
+<div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>60-Game System</span></div>
 
 <p class="emma-hl"><b>How games connect.</b> Every game has an entry point and a path forward, this map shows the prerequisites, the chains they form, and the concepts each game leans on.</p>
 
@@ -22,13 +22,15 @@ Start here. These games ask nothing before you play them.
 
 <p class="emma-glabel">Prerequisite Chains by Environment</p>
 
-=== "Skill Isolation (9)"
+=== "Skill Isolation (10)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/parry-the-straight/">Parry the Straight</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/tight-block/">Tight Block</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/slip-the-straight/">Slip the Straight</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/evade-the-punch/">Evade the Punch</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/evade-the-punch/">Evade the Punch</a> <small>(needs Slip)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/slip-the-straight/">Slip the Straight</a> <small>(bridge)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/counter-the-straight/">Counter the Straight (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/counter-the-straight/">Counter the Straight (WIP)</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/counter-striking/">Counter-Striking</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/lead-hand-offense/">Lead Hand</a> · <a href="../../games/rear-hand-offense/">Rear Hand</a> · <a href="../../games/lead-leg-offense/">Lead Leg</a> · <a href="../../games/rear-leg-offense/">Rear Leg</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/close-range-defense/">Close-Range Defense</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/kick-defense/">Kick Defense Isolation (WIP)</a></span></div>
     </div>
@@ -76,7 +78,7 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/standup-loop/">Stand-Up Loop</a> <small>(needs Wall to Ground)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to">Ground games</span></div>
     </div>
 
-=== "Ground (25)"
+=== "Ground (27)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-access/">Ground Access</a> <small>(needs Open Space Takedown / Wall to Ground)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/ground-control/">Ground Control</a></span></div>
@@ -104,6 +106,8 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-escape/">Ground Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/side-control-escape/">Side-Control Escape</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-control/">Ground Control</a> · <a href="../../games/side-control-escape/">Side-Control Escape</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/side-control-ride/">Side-Control Ride (WIP)</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-to-standing/">Ground to Standing</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/turtle-breakout/">Turtle Breakout (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-to-standing/">Ground to Standing</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/turtle-pin/">Turtle Pin (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/ground-to-standing/">Ground to Standing</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/leg-entanglement-escape/">Leg Entanglement Escape (WIP)</a></span></div>
     </div>
 
 <p class="emma-glabel">The Macro Progression</p>
@@ -210,4 +214,4 @@ Some games require understanding a specific concept first.
     </ul>
 
 ??? abstract "System evolution notice"
-    This map reflects the current 57-game system and will update as games are added.
+    This map reflects the current 60-game system and will update as games are added.

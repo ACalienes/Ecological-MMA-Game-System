@@ -16,6 +16,7 @@ tags:
   - hook
   - beginner-friendly
   - skill-isolation
+  - class-derived
 ---
 
 <div class="emma-phero">
@@ -80,6 +81,7 @@ Absorb strikes behind a tight shell, block only, no parry, no head movement.
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> No continuous backing up<span class="emma-chip__detail">The defender can't keep retreating out of range to avoid exchanges, they must stay and solve the problem in the pocket.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape (square, circle, taped lines). If both feet leave it, you lose instantly.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⏱️</span> Reset between strikes<span class="emma-chip__detail">At early levels the attacker pauses between strikes so the defender can reorganize the guard. Pressure becomes continuous as the levels rise.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🚫</span> Miss the combo, lose the exchange<span class="emma-chip__detail">Class-derived (2026-07-03). If the attacker throws a full combination and lands nothing, the attacker loses the exchange outright, regardless of how good the defense was. No flinging and hoping, commit to shots that can actually land.</span></span>
 </div>
 
 <p class="emma-glabel">How to Win</p>
@@ -88,6 +90,7 @@ Absorb strikes behind a tight shell, block only, no parry, no head movement.
   <div class="emma-outcome emma-outcome--win emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Switch</span> Survive clean → switch roles.<span class="emma-pop">The defender blocked a full attacking sequence with no clean shot landing, and earns the attacking role.</span></div>
   <div class="emma-outcome emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Reset</span> Attacker lands clean → reset, same roles.<span class="emma-pop">The required clean shots land (1, then 2 for stronger partners), a clean, significant shot inside a ≤3-punch combo. Then begin again from a neutral stance.</span></div>
   <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss</span> Both feet leave the perimeter → loss.<span class="emma-pop">Crossing the marked perimeter loses the game instantly, regardless of the exchange, training the cage-edge awareness a fighter needs.</span></div>
+  <div class="emma-outcome emma-outcome--lose emma-has-pop" tabindex="0"><span class="emma-outcome__tag">Loss (attacker)</span> Full combination thrown, nothing lands → attacker loses.<span class="emma-pop">Class-derived. Whiffing a whole combination costs the exchange even if the defense wasn't sharp, the standard is landing, not just out-voluming a weak guard.</span></div>
 </div>
 
 <p class="emma-glabel">The Levels</p>
@@ -98,6 +101,7 @@ Absorb strikes behind a tight shell, block only, no parry, no head movement.
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Variable tempo</b>No fixed reset, stay ready.<span class="emma-pop emma-pop--l">Timing becomes unpredictable with no guaranteed reset, the defender has to read rhythm and stay switched on.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Combinations</b>2–4 punches on the guard.<span class="emma-pop emma-pop--l">Full 2–4 punch combinations, hold structure and composure through sustained fire.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full MMA</b>Add shot / clinch threat.<span class="emma-pop emma-pop--l">The attacker can now shoot or clinch too, block while denying the grappling entry. Shelling up without posture invites takedowns.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">6</span><b>Small perimeter (variant)</b>Shrink the space, push-out wins too.<span class="emma-pop emma-pop--l">Class-derived (2026-07-03). Shrink the perimeter to a small square (roughly two mats). Both feet leaving it is still an automatic loss for either player, and now either player can also actively win by walking or pushing the other out. Used specifically when players are substituting footwork and movement for real defensive shape.</span></div>
 </div>
 
 <p class="emma-glabel">Recall Check</p>
@@ -138,6 +142,7 @@ Absorb strikes behind a tight shell, block only, no parry, no head movement.
     <div class="emma-cards">
       <div class="emma-card"><div class="emma-card__i">👁️</div><div class="emma-card__t">See center mass</div><p>Don't bury your head behind the gloves. Center mass keeps shoulder &amp; hip motion in view, "the little X." The eyes lie.</p></div>
       <div class="emma-card"><div class="emma-card__i">⚓</div><div class="emma-card__t">Base under fire</div><p>Strikes knock you off balance, that's what breaks the guard. Bend the knees, create suspension "like an ATV over bumps."</p></div>
+      <div class="emma-card"><div class="emma-card__i">🧱</div><div class="emma-card__t">Hyper-movement is counterproductive</div><p>Class-derived. The Level 6 small perimeter exists because players were substituting footwork for real defensive shape. Shrinking the space forces the shell to actually solve the problem instead of just being somewhere else.</p></div>
     </div>
 
 ??? abstract "Constraints-Led analysis"

@@ -26,6 +26,7 @@ tags:
   - center-clinch
   - top
   - positional-sparring
+  - class-derived
   - wip
 ---
 
@@ -223,3 +224,25 @@ Win a dominant connection from a neutral 50/50 clinch, double-unders, a leg, or 
       <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../body-lock-to-ground/">Body Lock to Ground</a> · <a href="../back-maintenance/">Back Maintenance</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-wall/">Pressure to Wall</a> · <a href="../../concepts/winning-the-circle/">Winning the Circle</a></span></div>
     </div>
+
+<p class="emma-glabel">Variant: One-Sided Escape <span style="font-size:.7em;opacity:.7">(WIP, class 2026-07-05)</span></p>
+
+The base game is a symmetric race, both fighters share the same goal. This variant reframes the same neutral 50/50 start into an asymmetric attacker-vs-escaper problem: one player is the clincher, trying to progress the tie; the other is trying to separate completely and get out.
+
+<div class="emma-matchup">
+  <div class="emma-fighter emma-fighter--atk emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🤼</div>
+    <div class="emma-fighter__role">Clincher</div>
+    <p class="emma-fighter__obj">Trying to progress the 50/50: hips to the ground, past 50/50 into a double-under, or a connection on the leg.</p>
+    <span class="emma-pop">Any of the three counts as a win. Sweeps are live, use one to force the progression if the tie is stuck.</span>
+  </div>
+  <div class="emma-matchup__vs">VS</div>
+  <div class="emma-fighter emma-fighter--def emma-has-pop" tabindex="0">
+    <div class="emma-fighter__icon">🏃</div>
+    <div class="emma-fighter__role">Non-Clincher</div>
+    <p class="emma-fighter__obj">Trying to separate completely, however you can get it.</p>
+    <span class="emma-pop">Sweeps are live for you too, use one to escape rather than to progress. Strikes are live from the tie throughout, same as the base game.</span>
+  </div>
+</div>
+
+<p class="emma-hl">Same wall and strikes rules as the base game, start a step off the wall and it's live, strikes are live from the tie. The only change is the asymmetry: one player's whole job is separation, not out-connecting the other.</p>

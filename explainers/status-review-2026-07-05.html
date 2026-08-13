@@ -1,0 +1,235 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cockpit: One Day, Three Open Threads · 2026-07-05</title>
+<meta property="og:title" content="Cockpit: One Day, Three Open Threads">
+<meta property="og:description" content="Library 57→59 today. 4 of 6 class-mining decisions shipped. 3 threads still open: north-south design, academic sourcing, site UX.">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#0a0d14; --panel:#121826; --panel2:#0e1420; --line:#212c40;
+  --ink:#eaf0fb; --dim:#93a2bd; --faint:#5e6f8c;
+  --accent:#7aa2ff; --accent2:#b98bff;
+  --done:#4ade80; --now:#ffd24d; --next:#7aa2ff; --later:#5e6f8c; --stop:#f87171;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  background:radial-gradient(1200px 700px at 70% -10%,#16203a 0%,var(--bg) 55%) fixed,var(--bg);
+  color:var(--ink); font:14.5px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased; overflow:hidden;
+}
+code{background:#0b1322;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:12px;color:#cfe0ff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,210,77,.55)}70%{box-shadow:0 0 0 11px rgba(255,210,77,0)}100%{box-shadow:0 0 0 0 rgba(255,210,77,0)}}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes drawline{to{stroke-dashoffset:0}}
+
+.mc{height:100vh;display:grid;gap:12px;padding:16px;
+  grid-template-columns:1fr 340px;grid-template-rows:auto 1fr auto;
+  grid-template-areas:"top top" "hero side" "ticker ticker"}
+.mc-top{grid-area:top;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.mc-top .star{font-size:13px;font-weight:800;color:var(--accent);letter-spacing:.02em}
+.mc-top .star b{color:#fff}
+.mc-top .clk{color:var(--faint);font-size:12px}
+
+.mc-hero{grid-area:hero;background:var(--panel2);border:1px solid var(--line);border-radius:16px;padding:22px;overflow-y:auto}
+.mc-hero h2{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:14px;font-weight:700}
+
+.daypipe{position:relative;padding-left:6px}
+.dstep{position:relative;display:flex;gap:14px;padding:8px 0}
+.dstep:not(:last-child)::before{content:"";position:absolute;left:11px;top:25px;bottom:-6px;width:2px;background:var(--line)}
+.dnode{flex:0 0 24px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:800;border:2px solid;z-index:1;background:var(--bg)}
+.dstep.done .dnode{border-color:var(--done);color:var(--done)}
+.dstep.now .dnode{border-color:var(--now);color:var(--now);animation:pulse 1.8s infinite}
+.dstep .t{font-weight:700;font-size:13.5px}.dstep .d{color:var(--dim);font-size:12px;margin-top:1px}
+
+.mc-side{grid-area:side;display:grid;gap:10px;align-content:start;overflow-y:auto}
+.tile{appearance:none;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:14px 15px;cursor:pointer;transition:.18s;color:var(--ink);width:100%}
+.tile:hover{border-color:var(--accent);transform:translateY(-2px)}
+.tile.hot{border-left:3px solid var(--now)}
+.tile .th{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.tile .tt{font-weight:800;font-size:13.5px}
+.tile .badge{font-size:9.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.tile.hot .badge{background:rgba(255,210,77,.15);color:var(--now)}
+.tile .td{color:var(--dim);font-size:12px;margin-top:5px}
+.metric-row{display:flex;gap:8px}
+.metric-row .m{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 8px;text-align:center}
+.metric-row .m .n{font-size:20px;font-weight:800;color:var(--done)}
+.metric-row .m .l{font-size:9.5px;color:var(--dim);margin-top:3px}
+
+.mc-ticker{grid-area:ticker;overflow:hidden;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 0}
+.mc-ticker .rail{display:flex;gap:32px;white-space:nowrap;animation:marq 26s linear infinite;padding-left:20px}
+.tick{color:var(--dim);font-size:12.5px;display:flex;align-items:center;gap:8px}
+.tick b{color:var(--done)}
+.tick::before{content:"✓";color:var(--done);font-weight:800}
+
+dialog{border:none;border-radius:16px;padding:0;background:transparent;max-width:640px;width:92vw;max-height:80vh}
+dialog::backdrop{background:rgba(5,8,14,.75)}
+.dbody{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:16px;padding:24px;max-height:80vh;overflow-y:auto}
+.dbody h3{font-size:18px;margin-bottom:10px;color:#fff}
+.dbody h4{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:16px 0 8px;font-weight:700}
+.dbody p{color:#c3d0ea;font-size:13.5px;margin-bottom:6px}
+.opt{background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:11px 14px;margin:8px 0}
+.opt .oh{font-weight:700;font-size:13.5px;color:#fff;margin-bottom:4px}
+.opt.lean{border-color:#2c5e44;border-left:3px solid var(--done)}
+.opt .oh .lean-tag{font-size:9.5px;font-weight:800;color:var(--done);background:rgba(74,222,128,.15);border-radius:999px;padding:1px 7px;margin-left:6px}
+.finding{display:flex;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+.finding:first-child{border-top:none}
+.fn{flex:0 0 20px;height:20px;border-radius:50%;background:var(--panel2);border:1px solid var(--line);color:var(--dim);font-size:10px;font-weight:800;display:grid;place-items:center}
+.fn.fixed{background:var(--done);color:#0a1f10;border-color:var(--done)}
+.fn.moot{background:var(--later);color:#0a0d14;border-color:var(--later)}
+.finding .fb{flex:1}
+.finding .ft{font-weight:700;font-size:13px;color:#fff}
+.finding .fd{color:var(--dim);font-size:12px;margin-top:2px}
+.tag-fixed{font-size:9px;font-weight:800;color:var(--done);background:rgba(74,222,128,.15);border-radius:999px;padding:1px 6px;margin-left:6px}
+.tag-moot{font-size:9px;font-weight:800;color:var(--later);background:rgba(94,111,140,.2);border-radius:999px;padding:1px 6px;margin-left:6px}
+.cite{background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;padding:9px 13px;margin:7px 0;font-size:12.5px}
+.cite b{color:#fff}
+dialog button.close{margin-top:16px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);padding:8px 16px;border-radius:9px;cursor:pointer;font-size:13px}
+dialog button.close:hover{border-color:var(--accent)}
+
+@media(max-width:760px){
+  body{overflow:auto}
+  .mc{height:auto;grid-template-columns:1fr;grid-template-areas:"top" "hero" "side" "ticker"}
+  .mc-hero{min-height:40vh}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none !important}
+  .mc-ticker .rail{flex-wrap:wrap;white-space:normal}
+}
+</style>
+</head>
+<body>
+
+<div class="mc">
+  <header class="mc-top">
+    <span class="star">★ <b>100+ game library</b>, grown from real classes · Ecological MMA System</span>
+    <span class="clk" id="clock"></span>
+  </header>
+
+  <main class="mc-hero">
+    <h2>Today's arc, in order</h2>
+    <div class="daypipe">
+      <div class="dstep done"><div class="dnode">✓</div><div class="body"><div class="t">Mined Friday's class (2026-07-03)</div><div class="d">6 drills found, 2 needed new pages</div></div></div>
+      <div class="dstep done"><div class="dnode">✓</div><div class="body"><div class="t">You decided, built: library 57 → 58</div><div class="d"><code>turtle-pin.md</code>, <code>lead-hand-offense.md</code> Level 4, 4 smaller edits</div></div></div>
+      <div class="dstep done"><div class="dnode">✓</div><div class="body"><div class="t">Shipped the gap-check PDF</div><div class="d">5 gaps found, 4 draft games ready to test cold</div></div></div>
+      <div class="dstep done"><div class="dnode">✓</div><div class="body"><div class="t">You taught, tested 2 of 4 drafts live</div><div class="d">Corrected 2 of my 5 gap findings with real coaching context</div></div></div>
+      <div class="dstep done"><div class="dnode">✓</div><div class="body"><div class="t">Mined today's class, you answered same-day</div><div class="d">Built: library 58 → 59</div></div></div>
+      <div class="dstep done"><div class="dnode">✓</div><div class="body"><div class="t">4 of 6 decisions shipped</div><div class="d"><code>leg-entanglement-escape.md</code> (new), <code>pressure-to-clinch.md</code> L4, <code>fifty-fifty-clinch.md</code> variant, legs-only sparring correctly NOT built</div></div></div>
+      <div class="dstep now"><div class="dnode">▶</div><div class="body"><div class="t">3 threads open, awaiting you →</div><div class="d">North-south design, academic sourcing go-ahead, site UX priority</div></div></div>
+    </div>
+
+    <h2 style="margin-top:26px">Also shipped today, unprompted fixes</h2>
+    <div class="daypipe">
+      <div class="dstep done"><div class="dnode">✓</div><div class="body"><div class="t">Homepage stats were stale</div><div class="d">Hardcoded "33 Games / 15 Subcategories / 3 Paths", real site has grown to 59. Fixed to 59 / 19 / 6.</div></div></div>
+      <div class="dstep done"><div class="dnode">✓</div><div class="body"><div class="t">Checked a claimed "name mismatch," it wasn't one</div><div class="d">A UX-audit finding turned out to be an intentionally shortened display name vs. a longer real title, not an error. Left alone.</div></div></div>
+    </div>
+  </main>
+
+  <aside class="mc-side">
+    <div class="metric-row">
+      <div class="m"><div class="n">59</div><div class="l">games total</div></div>
+      <div class="m"><div class="n">2</div><div class="l">new pages today</div></div>
+      <div class="m"><div class="n">3</div><div class="l">threads open</div></div>
+    </div>
+
+    <button class="tile hot" data-drill="d-northsouth">
+      <div class="th"><span class="tt">North-South</span><span class="badge">YOUR CALL</span></div>
+      <div class="td">3 design framings, one lean. You said "I can speak on it," this is the fastest way to react.</div>
+    </button>
+
+    <button class="tile hot" data-drill="d-sourcing">
+      <div class="th"><span class="tt">Academic Sourcing</span><span class="badge">YOUR CALL</span></div>
+      <div class="td">13 candidates researched, 5 solidly verified. Nothing added to <code>sources.md</code> yet, per your own "who's the expert" concern.</div>
+    </button>
+
+    <button class="tile hot" data-drill="d-ux">
+      <div class="th"><span class="tt">Site UX</span><span class="badge">YOUR CALL</span></div>
+      <div class="td">7 ranked findings. 1 already fixed, 1 debunked as a non-issue. 5 left to prioritize.</div>
+    </button>
+
+    <div class="tile" style="cursor:default" onmouseover="" >
+      <div class="th"><span class="tt">Nothing committed yet</span></div>
+      <div class="td">30 files changed or new, all still uncommitted on <code>main</code>. Say the word when you want it shipped.</div>
+    </div>
+  </aside>
+
+  <footer class="mc-ticker"><div class="rail" id="ticker">
+    <span class="tick">Library <b>57 → 59</b> in one day</span>
+    <span class="tick">2 new game pages, <b>turtle-pin</b> + <b>leg-entanglement-escape</b></span>
+    <span class="tick">2 of your 5 gap-check findings <b>corrected live in class</b></span>
+    <span class="tick">Homepage stat bug <b>found and fixed</b></span>
+    <span class="tick">5 real academic sources <b>verified</b>, none added without your review</span>
+    <span class="tick">7 UX findings <b>ranked</b>, awaiting priority</span>
+    <span class="tick">Library <b>57 → 59</b> in one day</span>
+    <span class="tick">2 new game pages, <b>turtle-pin</b> + <b>leg-entanglement-escape</b></span>
+    <span class="tick">2 of your 5 gap-check findings <b>corrected live in class</b></span>
+    <span class="tick">Homepage stat bug <b>found and fixed</b></span>
+    <span class="tick">5 real academic sources <b>verified</b>, none added without your review</span>
+    <span class="tick">7 UX findings <b>ranked</b>, awaiting priority</span>
+  </div></footer>
+</div>
+
+<dialog id="drill"><div class="dbody" id="dbody"></div></dialog>
+
+<template id="d-northsouth">
+  <h3>North-South: 3 ways to frame it</h3>
+  <p>Your own instinct: "it's just an extreme side mount." The real question is whether north-south has a genuinely distinct escape mechanic, the way mount (bridge-and-roll), side control (frame-and-shrimp), and back (defend-the-neck-turn-to-face) each do.</p>
+  <div class="opt lean">
+    <div class="oh">1. Its own page <span class="lean-tag">MY LEAN</span></div>
+    <p>Mirrors mount/side/back's pattern. The case: your hands naturally land near the top's hips in north-south, not their shoulders, so the escape plausibly runs through a knee-wedge into the far hip rather than shoulder-frame-and-shrimp. If that's mechanically real on the mat, it earns the page the same way the other three did.</p>
+  </div>
+  <div class="opt">
+    <div class="oh">2. Fold into a shared "past-the-legs escape"</div>
+    <p>Start position (knee-on-belly, north-south, side) varies, bottom's job stays the same. Matches your own "worked in with other games" instinct directly.</p>
+  </div>
+  <div class="opt">
+    <div class="oh">3. Pair with knee-on-belly as siblings</div>
+    <p>Both are "top hasn't fully committed, still mobile" positions, distinct from mount/side/back's heavier pins, the same way turtle-breakout/turtle-pin/leg-entanglement-escape are becoming their own family.</p>
+  </div>
+  <p style="margin-top:12px;color:var(--faint);font-size:12px">You're the one who knows whether the knee-wedge distinction actually feels different on the mat. Your call either way.</p>
+  <button class="close" onclick="document.getElementById('drill').close()">close</button>
+</template>
+
+<template id="d-sourcing">
+  <h3>Academic Sourcing: 5 verified picks</h3>
+  <p>13 candidates researched, checked against publisher pages or PubMed. Nothing added to <code>docs/reference/sources.md</code> yet, given your own concern about who counts as an expert in this field.</p>
+  <div class="cite"><b>Krabben, Orth &amp; van der Kamp (2019), Sports Medicine</b> — fighters form one coupled system, skilled performance means deliberately working at the edge of instability. Closest published match to this whole system's thesis.</div>
+  <div class="cite"><b>Yearby, Myszka, Grahn et al. (2024), Sports Coaching Review</b> — applies ecological dynamics directly to MMA coaching, co-authored by Keith Davids (already cited). Reads like a mission statement for what you're building.</div>
+  <div class="cite"><b>Okumura, Kijima &amp; Yamamoto (2017), Ecological Psychology</b> — the real primary-source paper behind the "Kendo's Two Distances" study you currently only cite secondhand through Blau &amp; Wagman.</div>
+  <div class="cite"><b>Piekarski et al. (2026), Sports Health</b> — real injury data: legal heel hooks in competition, knee injuries jumped ~12x. Direct empirical backing for your existing leg-lock safety claim.</div>
+  <div class="cite"><b>Lystad, Gregory &amp; Wilson (2014), Orthopaedic Journal of Sports Medicine</b> — systematic review, MMA injury rates run higher than most combat sports.</div>
+  <p style="margin-top:10px">8 more solid candidates beyond these 5 (boxing distance biomechanics, judo grip-fighting perception, cross-style kick biomechanics, BJJ injury patterns). 2 flagged for your own scrutiny before citing, one may be an unpublished thesis, one is a brand-new 2026 Frontiers RCT with suspiciously clean results.</p>
+  <button class="close" onclick="document.getElementById('drill').close()">close</button>
+</template>
+
+<template id="d-ux">
+  <h3>Site UX: 7 findings, ranked</h3>
+  <div class="finding"><div class="fn fixed">✓</div><div class="fb"><div class="ft">Homepage hardcoded stale stats <span class="tag-fixed">FIXED</span></div><div class="fd">"33 Games / 15 Subcategories / 3 Paths" while the real site had grown to 59. Fixed live today.</div></div></div>
+  <div class="finding"><div class="fn">1</div><div class="fb"><div class="ft">No breadcrumbs anywhere</div><div class="fd">The theme supports them, they're just not turned on. A student landing via search has no way to see what section they're in.</div></div></div>
+  <div class="finding"><div class="fn">2</div><div class="fb"><div class="ft">Ground section nav is 3-4 levels deep</div><div class="fd">Your biggest branch (27 games), hardest to see siblings from any one game page.</div></div></div>
+  <div class="finding"><div class="fn">3</div><div class="fb"><div class="ft">3 overlapping "what do I play next" tools</div><div class="fd">Get Your Plan, Learning Paths, and Game Finder, at inconsistent nav depth, no signal they overlap.</div></div></div>
+  <div class="finding"><div class="fn">4</div><div class="fb"><div class="ft">Theory sits equal to practice in the nav</div><div class="fd">~19 pages of academic principles as co-equal top-level tabs next to Games, no "this is optional" signpost.</div></div></div>
+  <div class="finding"><div class="fn">5</div><div class="fb"><div class="ft">Hidden hover/tap content, unexplained</div><div class="fd">A lot of real content on game pages only reveals on hover/tap a small "+", nothing tells a first-timer the convention.</div></div></div>
+  <div class="finding"><div class="fn">6</div><div class="fb"><div class="ft">Grappling jargon unglossed and unlinked</div><div class="fd">Terms your glossary defines well (shrimp, underhook, frame) aren't linked from where they're used.</div></div></div>
+  <div class="finding"><div class="fn moot">✕</div><div class="fb"><div class="ft">Game-name "inconsistency" <span class="tag-moot">NOT A BUG</span></div><div class="fd">Checked directly, it's an intentionally shortened display name vs. a longer real title, not an error. Left alone.</div></div></div>
+  <button class="close" onclick="document.getElementById('drill').close()">close</button>
+</template>
+
+<script>
+(function(){
+  var clk=document.getElementById('clock');
+  function tick(){var d=new Date();clk.textContent=d.toLocaleString(undefined,{weekday:'short',hour:'2-digit',minute:'2-digit'})+' · live status';}
+  tick(); setInterval(tick,30000);
+
+  document.querySelectorAll('.tile[data-drill]').forEach(function(t){
+    t.addEventListener('click', function(){
+      var tpl = document.getElementById(t.dataset.drill);
+      var d = document.getElementById('drill');
+      document.getElementById('dbody').innerHTML = tpl.innerHTML;
+      d.showModal();
+    });
+  });
+})();
+</script>
+</body></html>
