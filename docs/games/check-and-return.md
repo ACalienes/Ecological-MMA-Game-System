@@ -30,7 +30,8 @@ tags:
   - class-derived
 ---
 
-<div class="emma-phero emma-phero--noart">
+<div class="emma-phero">
+  <img src="../../assets/img/heroes/check-and-return.png" alt="Check and Return">
   <div class="emma-phero__cap"><span class="k">Skill Isolation · Striking</span><span class="h">Check and Return</span></div>
 </div>
 

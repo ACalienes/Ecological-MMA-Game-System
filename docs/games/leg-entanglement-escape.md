@@ -63,6 +63,7 @@ Jiu-jitsu players who cross over into MMA often reach for a leg entanglement wit
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, one on the ground entangling a leg, one standing.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Bottom</span>Any control on the top's lower leg and hip, over-under or scooped, whatever's comfortable. Standard mechanic: one foot to the top's hip, the other controlling their ankle, a lever from the top of the leg to the bottom.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Top</span>Standing, entangled at the leg, hands free to post and control.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, and the wall is live. The standing player may post on it for base, which is also how the bottom player traps them: pinned against the wall, there is nowhere to hop away to.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Trigger</span>Coach or bottom player calls go.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>If the entanglement fully breaks apart with no result, re-entangle and start again. Switch roles on a bottom win.</div>
 </div>

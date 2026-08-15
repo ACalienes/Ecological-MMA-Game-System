@@ -61,6 +61,7 @@ See also [Turtle Pin](../turtle-pin/): same turtle start, a different goal. That
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, one attacker, one defender.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Defender</span>Turtle. How you build it is yours: nobody said elbows on the ground.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Attacker</span>Standing, freestyle/Greco posture, palms on the small of the back, arms fully extended, no bent-arm loading.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, and the wall is live. Where the turtle sits inside it changes the problem: open mat gives the defender every direction to break toward, the wall takes one away but offers something to climb.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Trigger</span>The defender starts the interaction: they say go.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Reset to the same start after every decision. Switch roles on attacker win.</div>
 </div>

@@ -59,6 +59,7 @@ A sibling of [Turtle Breakout](../turtle-breakout/), same family, different goal
   <div class="emma-setup__item"><span class="emma-setup__k">Players</span>Two, one on top, one defending from turtle.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Defender</span>Turtle, referee's position.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Top</span>Hip-and-shoulder control already established, hooks in. Hands may not be locked together, no full body-lock.</div>
+  <div class="emma-setup__item"><span class="emma-setup__k">Boundary</span>A marked perimeter, and the wall is live. Start the turtle at different distances from it: near the wall the defender can scaffold upright, and the top player can cut off the side they would turn toward.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Trigger</span>The defender starts the interaction: they say go.</div>
   <div class="emma-setup__item"><span class="emma-setup__k">Start &amp; reset</span>Reset to the same start after every decision. Switch roles on either win.</div>
 </div>
