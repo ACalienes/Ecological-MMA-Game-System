@@ -1096,3 +1096,225 @@ body, .md-typeset {
   .md-typeset .emma-plan__chips { grid-template-columns: repeat(2, 1fr); }
   .md-typeset .emma-plan__games { grid-template-columns: 1fr; }
 }
+
+/* ---- UX wave 1 (2026-07-05): de-noise game-page header stack ---- */
+/* The pre-title tag wall: keep for search/SEO, stop letting it own the first screen */
+.md-typeset .md-tags {
+  margin: 0 0 0.4rem; opacity: 0.55; transition: opacity var(--t-fast);
+}
+.md-typeset .md-tags:hover { opacity: 1; }
+.md-typeset .md-tags .md-tag {
+  font-size: 0.55rem; padding: 0.1rem 0.5rem; line-height: 1.4;
+}
+
+/* Make the hover/tap reveal discoverable: a real badge, not a ghost glyph */
+.emma-has-pop::after {
+  content: "+"; display: grid; place-items: center;
+  width: 1.05rem; height: 1.05rem; border-radius: 50%;
+  border: 1px solid var(--steel); background: var(--ink);
+  font-size: 0.72rem; color: var(--fog-dim);
+}
+.emma-has-pop:hover::after, .emma-has-pop:focus::after, .emma-has-pop:focus-within::after {
+  color: var(--ink); background: var(--orange); border-color: var(--orange); transform: rotate(45deg);
+}
+
+/* Let long-form game pages breathe on wide screens */
+.md-grid { max-width: 66rem; }
+
+/* one-time hint toast for the + reveal convention (pop-hint.js) */
+.emma-pop-hint {
+  position: fixed; bottom: 1.2rem; left: 50%; transform: translateX(-50%);
+  width: max-content;
+  z-index: 100; display: flex; align-items: center; gap: 0.7rem;
+  background: var(--ink); border: 1px solid var(--orange);
+  border-radius: 14px; padding: 0.5rem 1rem; font-size: 0.72rem;
+  color: var(--fog); box-shadow: 0 12px 40px -12px rgba(0,0,0,.8);
+  max-width: min(92vw, 26rem); opacity: 1; transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.emma-pop-hint span { flex: 1; min-width: 0; }
+.emma-pop-hint button { flex: 0 0 auto; white-space: nowrap; }
+.emma-pop-hint b { color: var(--orange-bright); }
+.emma-pop-hint button {
+  background: var(--orange); color: var(--ink); border: none; cursor: pointer;
+  border-radius: 999px; padding: 0.25rem 0.7rem; font-size: 0.66rem;
+  font-family: var(--font-head); font-weight: 700; letter-spacing: 0.04em;
+}
+.emma-pop-hint--out { opacity: 0; transform: translateX(-50%) translateY(8px); }
+@media (prefers-reduced-motion: reduce) { .emma-pop-hint { transition: none; } }
+
+/* ==== Nav system v2 (2026-07-05, post-Codex): the fight map ====
+   Desktop sidebar = section bands with ghost numerals + live progress rails.
+   Mobile drawer   = clean 44px drill-down, no desktop chrome.
+   All sidebar chrome is scoped to .md-sidebar--primary so the TOC nav
+   and drawer never inherit it by accident. */
+
+/* -- top tabs: ember underline on the CORRECT active selector -- */
+.md-tabs__link {
+  letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.68rem;
+  position: relative; padding-bottom: 0.55rem;
+}
+.md-tabs__link::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0.3rem; height: 2px;
+  background: linear-gradient(90deg, var(--orange), var(--orange-bright));
+  transform: scaleX(0); transform-origin: left; transition: transform var(--t-fast);
+}
+.md-tabs__link:hover::after,
+.md-tabs__link:focus-visible::after,
+.md-tabs__item--active .md-tabs__link::after { transform: scaleX(1); }
+
+/* -- desktop sidebar: the fight map -- */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary .md-nav { font-size: 0.68rem; }
+
+  /* the tab-wrapper section label becomes a quiet sidebar header */
+  .md-sidebar--primary .emma-nav-root > .md-nav__link {
+    font-family: var(--font-head); font-weight: 600; font-size: 0.6rem;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--fog-dim);
+    padding-bottom: 0.45rem; margin-bottom: 0.35rem;
+    border-bottom: 1px solid var(--steel);
+  }
+
+  /* depth-1 section bands: the cards */
+  .md-sidebar--primary .emma-nav-band > .md-nav__link,
+  .md-sidebar--primary .emma-nav-band > .md-nav__container {
+    position: relative; display: block; overflow: hidden;
+    margin: 0.9rem 0 0.35rem; padding: 0.62rem 0.75rem 0.58rem;
+    border-left: 3px solid var(--orange);
+    border-radius: var(--radius-sm);
+    background:
+      radial-gradient(120% 160% at 100% 0%, var(--orange-glow), transparent 55%),
+      var(--charcoal, #16181F);
+  }
+  .md-sidebar--primary .emma-nav-band > .md-nav__link > .md-ellipsis,
+  .md-sidebar--primary .emma-nav-band .md-nav__container .md-nav__link {
+    font-family: var(--font-head); font-weight: 600; font-size: 0.7rem;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--fog);
+    position: relative; z-index: 1;
+  }
+  /* ghost numeral, homepage-style */
+  .md-sidebar--primary .emma-nav-band > .md-nav__link::before,
+  .md-sidebar--primary .emma-nav-band > .md-nav__container::before {
+    content: attr(data-num); position: absolute; right: 0.4rem; top: -0.55rem;
+    font-family: var(--font-head); font-weight: 700; font-size: 1.7rem;
+    color: rgba(236, 234, 228, 0.07); letter-spacing: 0; z-index: 0;
+    pointer-events: none;
+  }
+  /* live progress: count + ember rail injected by nav-flair.js */
+  .md-sidebar--primary .emma-band-count {
+    display: block; margin-top: 0.18rem;
+    font-family: var(--font-head); font-weight: 500; font-size: 0.55rem;
+    letter-spacing: 0.08em; color: var(--fog-dim); text-transform: none;
+    position: relative; z-index: 1;
+  }
+  .md-sidebar--primary .emma-band-rail {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 2px;
+    background: var(--steel); z-index: 1;
+  }
+  .md-sidebar--primary .emma-band-rail > i {
+    display: block; height: 100%;
+    background: linear-gradient(90deg, var(--orange-deep), var(--orange-bright));
+    transition: width 0.6s ease;
+  }
+
+  /* depth-2 sub-group labels: modest eyebrows, readable contrast */
+  .md-sidebar--primary .emma-nav-sub > .md-nav__link,
+  .md-sidebar--primary .emma-nav-sub > .md-nav__container .md-nav__link {
+    font-family: var(--font-head); font-weight: 600; font-size: 0.62rem;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--fog-dim);
+    margin-top: 0.55rem;
+  }
+
+  /* plain page links: rail + nudge (anchors and toggles only, never wrappers) */
+  .md-sidebar--primary .md-nav__item:not(.emma-nav-band):not(.emma-nav-sub):not(.emma-nav-root) > a.md-nav__link,
+  .md-sidebar--primary .md-nav__item:not(.emma-nav-band):not(.emma-nav-sub):not(.emma-nav-root) > label.md-nav__link,
+  .md-sidebar--primary .md-nav__container > a.md-nav__link {
+    border-left: 2px solid transparent; padding-left: 0.45rem;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+  }
+  .md-sidebar--primary a.md-nav__link:hover,
+  .md-sidebar--primary label.md-nav__link:hover {
+    border-left-color: var(--steel-2); color: var(--orange-bright);
+  }
+  .md-sidebar--primary a.md-nav__link:focus-visible {
+    border-left-color: var(--orange); outline: 1px solid var(--orange-deep); outline-offset: 2px;
+  }
+  .md-sidebar--primary a.md-nav__link--active,
+  .md-sidebar--primary a.md-nav__link[aria-current="page"] {
+    border-left-color: var(--orange) !important;
+    background: linear-gradient(90deg, var(--orange-glow), transparent 70%);
+    color: var(--orange-bright) !important; font-weight: 600;
+  }
+
+  /* nested tree spine */
+  .md-sidebar--primary .md-nav--primary .md-nav .md-nav__list {
+    border-left: 1px solid var(--steel); margin-left: 0.15rem; padding-left: 0.35rem;
+  }
+
+  /* slim ember scrollbar */
+  .md-sidebar--primary .md-sidebar__scrollwrap::-webkit-scrollbar { width: 4px; }
+  .md-sidebar--primary .md-sidebar__scrollwrap::-webkit-scrollbar-thumb { background: var(--steel); border-radius: 4px; }
+  .md-sidebar--primary .md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb { background: var(--orange-deep); }
+
+  /* context panel: "you are here" card injected on game pages */
+  .emma-nav-context {
+    position: sticky; top: 0; z-index: 5;
+    margin: 0 0 0.9rem; border: 1px solid var(--steel); border-radius: var(--radius-md);
+    overflow: hidden; background: var(--charcoal, #16181F);
+    box-shadow: 0 10px 24px -14px rgba(0, 0, 0, 0.9);
+  }
+  .emma-nav-context img { display: block; width: 100%; height: 64px; object-fit: cover; }
+  .emma-nav-context .cx-body { padding: 0.5rem 0.65rem 0.6rem; }
+  .emma-nav-context .cx-eyebrow {
+    font-family: var(--font-head); font-size: 0.52rem; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--orange-bright);
+  }
+  .emma-nav-context .cx-title {
+    font-family: var(--font-head); font-size: 0.8rem; font-weight: 600; color: var(--fog);
+    line-height: 1.25; margin: 0.1rem 0 0.25rem;
+  }
+  .emma-nav-context .cx-state {
+    display: inline-block; font-family: var(--font-head); font-size: 0.52rem; font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 0.1rem 0.45rem; border-radius: 999px;
+  }
+  .emma-nav-context .cx-state.is-done { background: var(--orange-glow); color: var(--orange-bright); border: 1px solid var(--orange-deep); }
+  .emma-nav-context .cx-state.is-open { background: transparent; color: var(--fog-dim); border: 1px solid var(--steel); }
+  .emma-nav-context .cx-next {
+    display: block; margin-top: 0.45rem; padding-top: 0.4rem; border-top: 1px solid var(--steel);
+    font-size: 0.6rem; color: var(--fog-dim); text-decoration: none;
+  }
+  .emma-nav-context .cx-next b { color: var(--orange-bright); font-weight: 600; }
+  .emma-nav-context .cx-next:hover b { text-decoration: underline; }
+}
+
+/* -- mobile drawer: clean drill-down, tap-safe, zero desktop chrome -- */
+@media screen and (max-width: 76.1875em) {
+  .md-sidebar--primary .md-nav__link { min-height: 44px; align-items: center; }
+  .md-sidebar--primary a.md-nav__link--active,
+  .md-sidebar--primary a.md-nav__link[aria-current="page"] { color: var(--orange-bright) !important; font-weight: 600; }
+  .emma-nav-context { display: none; }
+}
+
+/* -- flair chips (both layouts) -- */
+.emma-nav-tick {
+  display: inline-grid; place-items: center; width: 0.9rem; height: 0.9rem;
+  margin-left: 0.35rem; border-radius: 50%; flex: 0 0 auto;
+  background: var(--orange-glow); color: var(--orange-bright);
+  border: 1px solid var(--orange-deep);
+  font-size: 0.55rem; font-weight: 800; vertical-align: middle;
+}
+.emma-nav-wip {
+  display: inline-block; margin-left: 0.35rem; padding: 0 0.34rem;
+  border-radius: 999px; border: 1px solid rgba(232, 189, 74, 0.45);
+  color: #eec96a; font-family: var(--font-head); font-size: 0.52rem;
+  font-weight: 600; letter-spacing: 0.08em; vertical-align: middle; line-height: 1.6;
+}
+.emma-visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-tabs__link::after, .md-nav__link, .emma-band-rail > i { transition: none; }
+}

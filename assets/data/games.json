@@ -99,6 +99,40 @@
       "hero": "assets/img/heroes/body-lock-to-ground.png"
     },
     {
+      "slug": "check-and-return",
+      "title": "Check and Return",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves",
+        "shin-guards"
+      ],
+      "prereq_games": [
+        "kick-defense",
+        "rear-leg-offense"
+      ],
+      "tags": [
+        "wip",
+        "kick",
+        "leg-kick",
+        "check",
+        "return-fire",
+        "counter",
+        "feint",
+        "disincentive",
+        "ladder",
+        "skill-isolation",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "One game whose bar keeps rising. The defender starts by winning with a check, then has to check **or** return fire, then has to check **and** return fire. By the top rung a check buys you nothing on its own, and the last clean kick in the exchange is the only thing that wins.",
+      "hero": null
+    },
+    {
       "slug": "clinch-denial",
       "title": "Clinch Denial",
       "environment": "transition",
@@ -155,7 +189,8 @@
         "roll",
         "clinch",
         "reaction",
-        "high-intensity"
+        "high-intensity",
+        "class-derived"
       ],
       "status": "live",
       "is_format": false,
@@ -253,6 +288,36 @@
       "is_format": false,
       "description": "Offense as defense, wait, read the lead, punish it with a timed counter.",
       "hero": "assets/img/heroes/counter-striking.png"
+    },
+    {
+      "slug": "counter-the-straight",
+      "title": "Counter the Straight",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "short",
+      "equipment": [
+        "gloves"
+      ],
+      "prereq_games": [
+        "slip-the-straight"
+      ],
+      "tags": [
+        "wip",
+        "slip",
+        "counter",
+        "jab",
+        "cross",
+        "single-hand",
+        "timing",
+        "skill-isolation",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Slipping alone survives an exchange, it doesn't end one. This game removes the safety net of \"miss and reset\": a clean evasion only counts once it's followed by a real answer, forcing a single rep to chain two skills that [Slip the Straight](../slip-the-straight/) and [Counter-Striking](../counter-striking/) normally train apart.",
+      "hero": "assets/img/heroes/counter-the-straight.png"
     },
     {
       "slug": "counter-wrestling",
@@ -373,6 +438,7 @@
         "center-clinch",
         "top",
         "positional-sparring",
+        "class-derived",
         "wip"
       ],
       "status": "wip",
@@ -660,6 +726,38 @@
       "hero": null
     },
     {
+      "slug": "kick-the-puncher",
+      "title": "Kick the Puncher",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "short",
+      "equipment": [
+        "gloves",
+        "shin-guards"
+      ],
+      "prereq_games": [
+        "check-and-return"
+      ],
+      "tags": [
+        "wip",
+        "kick",
+        "leg-kick",
+        "counter",
+        "check",
+        "jab",
+        "cross",
+        "timing",
+        "skill-isolation",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "The mirror image. Here the hands are the thing being defended and the leg kick is the counter, so the fighter with no punches is the dangerous one, and the check belongs to the boxer.",
+      "hero": null
+    },
+    {
       "slug": "knee-on-belly-control",
       "title": "Knee-on-Belly Control",
       "environment": "ground",
@@ -738,7 +836,8 @@
         "timing",
         "distance",
         "beginner-friendly",
-        "skill-isolation"
+        "skill-isolation",
+        "class-derived"
       ],
       "status": "live",
       "is_format": false,
@@ -768,6 +867,37 @@
       "is_format": false,
       "description": "Develop the lead leg as a weapon. The attacker may *only* use the lead leg, teep, lead round kick, lead side kick, forcing range management and variety with the fastest kicking tool while the defender resists without countering.",
       "hero": "assets/img/heroes/lead-leg-offense.png"
+    },
+    {
+      "slug": "leg-entanglement-escape",
+      "title": "Leg Entanglement Escape",
+      "environment": "ground",
+      "domain": "mixed",
+      "focus": "defensive",
+      "difficulty": "intermediate",
+      "duration": "short",
+      "equipment": [
+        "gloves",
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-to-standing"
+      ],
+      "tags": [
+        "wip",
+        "wrestling",
+        "leg-lock",
+        "entanglement",
+        "scramble",
+        "ground-and-pound",
+        "hand-fighting",
+        "mma",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "Jiu-jitsu players who cross over into MMA often reach for a leg entanglement without registering what it costs: a standing opponent who can't be swept off is a standing opponent who can still hit you. This game builds that respect into both roles. Bottom is entangled and grounded, working to reverse the position or separate. Top has **no win condition at all**, their whole job is to stay on their feet and make the entanglement expensive.",
+      "hero": "assets/img/heroes/leg-entanglement-escape.png"
     },
     {
       "slug": "leg-reclaim",
@@ -1034,7 +1164,8 @@
         "timing",
         "reaction",
         "beginner-friendly",
-        "skill-isolation"
+        "skill-isolation",
+        "class-derived"
       ],
       "status": "live",
       "is_format": false,
@@ -1093,7 +1224,8 @@
         "underhook",
         "collar-tie",
         "clinch",
-        "angle"
+        "angle",
+        "class-derived"
       ],
       "status": "live",
       "is_format": false,
@@ -1470,7 +1602,8 @@
         "block",
         "hook",
         "beginner-friendly",
-        "skill-isolation"
+        "skill-isolation",
+        "class-derived"
       ],
       "status": "live",
       "is_format": false,
@@ -1533,6 +1666,34 @@
       "is_format": false,
       "description": "A pure attachment race. The defender starts in turtle, the attacker starts standing with palms on the small of the back, arms fully extended. The defender says go: stand, turn, face. The attacker wins by one thing only, connecting the hands around the waist or a leg above the knee.",
       "hero": "assets/img/heroes/turtle-breakout.png"
+    },
+    {
+      "slug": "turtle-pin",
+      "title": "Turtle Pin",
+      "environment": "ground",
+      "domain": "wrestling",
+      "focus": "defensive",
+      "difficulty": "beginner",
+      "duration": "short",
+      "equipment": [
+        "mats"
+      ],
+      "prereq_games": [
+        "ground-to-standing"
+      ],
+      "tags": [
+        "wip",
+        "wrestling",
+        "turtle",
+        "pin",
+        "scramble",
+        "hand-fighting",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "A sibling of [Turtle Breakout](../turtle-breakout/), same family, different goal. Both start with the defender in turtle. Turtle Breakout is a bare-hands attachment race, connect and you're done. Turtle Pin starts from control already established, hip-and-shoulder with hooks in, and the top player has to earn something harder: break the defender flat to the mat and hold them there.",
+      "hero": "assets/img/heroes/turtle-pin.png"
     },
     {
       "slug": "wall-control",
