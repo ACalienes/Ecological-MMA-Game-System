@@ -99,6 +99,40 @@
       "hero": "assets/img/heroes/body-lock-to-ground.png"
     },
     {
+      "slug": "check-and-return",
+      "title": "Check and Return",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves",
+        "shin-guards"
+      ],
+      "prereq_games": [
+        "kick-defense",
+        "rear-leg-offense"
+      ],
+      "tags": [
+        "wip",
+        "kick",
+        "leg-kick",
+        "check",
+        "return-fire",
+        "counter",
+        "feint",
+        "disincentive",
+        "ladder",
+        "skill-isolation",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "One game whose bar keeps rising. The defender starts by winning with a check, then has to check **or** return fire, then has to check **and** return fire. By the top rung a check buys you nothing on its own, and the last clean kick in the exchange is the only thing that wins.",
+      "hero": null
+    },
+    {
       "slug": "clinch-denial",
       "title": "Clinch Denial",
       "environment": "transition",
@@ -689,6 +723,38 @@
       "status": "wip",
       "is_format": false,
       "description": "Read the kick and kill it, check, block, or catch, before it lands, one kick at a time.",
+      "hero": null
+    },
+    {
+      "slug": "kick-the-puncher",
+      "title": "Kick the Puncher",
+      "environment": "skill-isolation",
+      "domain": "striking",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "short",
+      "equipment": [
+        "gloves",
+        "shin-guards"
+      ],
+      "prereq_games": [
+        "check-and-return"
+      ],
+      "tags": [
+        "wip",
+        "kick",
+        "leg-kick",
+        "counter",
+        "check",
+        "jab",
+        "cross",
+        "timing",
+        "skill-isolation",
+        "class-derived"
+      ],
+      "status": "wip",
+      "is_format": false,
+      "description": "The mirror image. Here the hands are the thing being defended and the leg kick is the counter, so the fighter with no punches is the dangerous one, and the check belongs to the boxer.",
       "hero": null
     },
     {

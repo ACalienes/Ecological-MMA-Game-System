@@ -6,11 +6,11 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "60 Games Across 5 Environments"
+!!! tip "62 Games Across 5 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|
-    | Skill Isolation | 10 | Single-skill development |
+    | Skill Isolation | 12 | Single-skill development |
     | Open Space - Striking | 8 | Striking engagement |
     | Transition Zone | 2 | Domain change moments |
     | Open Space - Wrestling | 7 | Takedowns and pressure |
@@ -33,7 +33,10 @@ Constrained games that develop single skills in isolation.
 | [Tight Block](tight-block.md) | Beginner | Absorb strikes using tight guard |
 | [Slip the Straight](slip-the-straight.md) | Beginner | Evade straight punches with head movement |
 | [Evade the Punch](evade-the-punch.md) | Intermediate | Match evasion type to punch type |
+| [Counter the Straight (WIP)](counter-the-straight.md) | Intermediate | Evade clean, then land the answer in the same rep |
 | [Kick Defense Isolation (WIP)](kick-defense.md) | Intermediate | Read τ and check, block, or catch the roundhouse |
+| [Check and Return (WIP)](check-and-return.md) | Intermediate | Check the leg kick and send one straight back |
+| [Kick the Puncher (WIP)](kick-the-puncher.md) | Intermediate | Time the leg kick to a committed hand |
 
 #### Offensive (Weapon Isolation)
 

@@ -1,6 +1,6 @@
 # Prerequisite Map
 
-<div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>60-Game System</span></div>
+<div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>62-Game System</span></div>
 
 <p class="emma-hl"><b>How games connect.</b> Every game has an entry point and a path forward, this map shows the prerequisites, the chains they form, and the concepts each game leans on.</p>
 
@@ -22,7 +22,7 @@ Start here. These games ask nothing before you play them.
 
 <p class="emma-glabel">Prerequisite Chains by Environment</p>
 
-=== "Skill Isolation (10)"
+=== "Skill Isolation (12)"
 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/parry-the-straight/">Parry the Straight</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/close-range-defense/">Close-Range Defense</a></span></div>
@@ -33,6 +33,8 @@ Start here. These games ask nothing before you play them.
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/counter-the-straight/">Counter the Straight (WIP)</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/counter-striking/">Counter-Striking</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/lead-hand-offense/">Lead Hand</a> · <a href="../../games/rear-hand-offense/">Rear Hand</a> · <a href="../../games/lead-leg-offense/">Lead Leg</a> · <a href="../../games/rear-leg-offense/">Rear Leg</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/land-the-target/">Land the Target</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/close-range-defense/">Close-Range Defense</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/kick-defense/">Kick Defense Isolation (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/kick-defense/">Kick Defense Isolation (WIP)</a> · <a href="../../games/rear-leg-offense/">Rear Leg</a></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/check-and-return/">Check and Return (WIP)</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from"><a href="../../games/check-and-return/">Check and Return (WIP)</a> <small>(inversion)</small></span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../../games/kick-the-puncher/">Kick the Puncher (WIP)</a></span></div>
     </div>
 
 === "Open Space, Striking (8)"
@@ -214,4 +216,4 @@ Some games require understanding a specific concept first.
     </ul>
 
 ??? abstract "System evolution notice"
-    This map reflects the current 60-game system and will update as games are added.
+    This map reflects the current 62-game system and will update as games are added.
