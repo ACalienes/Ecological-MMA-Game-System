@@ -7,6 +7,7 @@ difficulty: intermediate
 duration: short
 min_players: 2
 equipment: none
+status: live
 prerequisites:
   concepts:
     - hand-controls

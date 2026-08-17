@@ -7,6 +7,8 @@ difficulty: intermediate
 duration: medium
 min_players: 2
 equipment: mats
+type: format
+status: live
 prerequisites:
   concepts:
     - decision-states

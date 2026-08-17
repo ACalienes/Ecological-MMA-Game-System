@@ -7,6 +7,7 @@ difficulty: intermediate
 duration: medium
 min_players: 2
 equipment: gloves
+status: live
 prerequisites:
   concepts:
     - defensive-solutions

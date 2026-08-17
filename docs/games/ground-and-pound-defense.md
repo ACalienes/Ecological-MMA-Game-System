@@ -9,6 +9,7 @@ min_players: 2
 equipment:
   - mats
   - gloves
+status: live
 prerequisites:
   concepts:
     - decision-states

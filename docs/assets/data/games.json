@@ -27,6 +27,7 @@
         "positional-sparring"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Turn to face before the choking arm finds your neck.",
       "hero": "assets/img/heroes/back-escape.png"
@@ -60,6 +61,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Keep the back and slide the choking arm under the chin before the bottom turns to face.",
       "hero": "assets/img/heroes/back-maintenance.png"
@@ -94,6 +96,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Put a standing opponent's hips on the ground from the body lock or the back, before they break the grip and turn.",
       "hero": "assets/img/heroes/body-lock-to-ground.png"
@@ -128,9 +131,10 @@
         "class-derived"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "One game whose bar keeps rising. The defender starts by winning with a check, then has to check **or** return fire, then has to check **and** return fire. By the top rung a check buys you nothing on its own, and the last clean kick in the exchange is the only thing that wins.",
-      "hero": null
+      "hero": "assets/img/heroes/check-and-return.png"
     },
     {
       "slug": "clinch-denial",
@@ -160,6 +164,7 @@
         "pressure"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Deny the clinch before it forms, frames, hand fighting, and movement keep open space.",
       "hero": "assets/img/heroes/clinch-denial.png"
@@ -193,6 +198,7 @@
         "class-derived"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Layer block, parry, and dodge in the pocket, learning *when* to use *which*.",
       "hero": "assets/img/heroes/close-range-defense.png"
@@ -225,6 +231,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Break their posture, then take the back, the sweep, or the top.",
       "hero": "assets/img/heroes/closed-guard-bottom.png"
@@ -254,6 +261,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Win your posture, open the legs, pass to chest-to-chest.",
       "hero": "assets/img/heroes/closed-guard-pass.png"
@@ -285,6 +293,7 @@
         "pressure"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Offense as defense, wait, read the lead, punish it with a timed counter.",
       "hero": "assets/img/heroes/counter-striking.png"
@@ -315,6 +324,7 @@
         "class-derived"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Slipping alone survives an exchange, it doesn't end one. This game removes the safety net of \"miss and reset\": a clean evasion only counts once it's followed by a real answer, forcing a single rep to chain two skills that [Slip the Straight](../slip-the-straight/) and [Counter-Striking](../counter-striking/) normally train apart.",
       "hero": "assets/img/heroes/counter-the-straight.png"
@@ -348,6 +358,7 @@
         "reaction"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Change the domain to defend, time reactive clinch entries and level changes that turn the striker's offense into wrestling.",
       "hero": "assets/img/heroes/counter-wrestling.png"
@@ -375,6 +386,7 @@
         "skill-isolation"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Match the evasion to the punch, slip straights, roll under hooks. Head movement only.",
       "hero": "assets/img/heroes/evade-the-punch.png"
@@ -407,6 +419,7 @@
         "pressure"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Prevent engagement entirely through footwork and ring generalship, \"getting on your bike.\"",
       "hero": "assets/img/heroes/evasive-movement.png"
@@ -442,9 +455,10 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Win a dominant connection from a neutral 50/50 clinch, double-unders, a leg, or the back, or put them down, before they get theirs.",
-      "hero": null
+      "hero": "assets/img/heroes/fifty-fifty-clinch.png"
     },
     {
       "slug": "ground-access",
@@ -475,6 +489,7 @@
         "positional-sparring"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Pass the guard to a dominant position against an active bottom.",
       "hero": "assets/img/heroes/ground-access.png"
@@ -506,6 +521,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Escape the open-camped top before the damage stacks up.",
       "hero": "assets/img/heroes/ground-and-pound-defense.png"
@@ -537,6 +553,7 @@
         "positional-sparring"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Hold a dominant ground position against live escape attempts.",
       "hero": "assets/img/heroes/ground-control.png"
@@ -568,6 +585,7 @@
         "counter"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Turn the bottom into a threat, submit, escape, or deter the top from a disadvantaged position.",
       "hero": "assets/img/heroes/ground-defensive-submission.png"
@@ -598,6 +616,7 @@
         "positional-sparring"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Escape from under a dominant position before damage accumulates.",
       "hero": "assets/img/heroes/ground-escape.png"
@@ -629,6 +648,7 @@
         "transition"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Get back to your feet from the bottom before they drag you down.",
       "hero": "assets/img/heroes/ground-to-standing.png"
@@ -659,6 +679,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Hold the shield, break their base, take something better.",
       "hero": "assets/img/heroes/half-guard-bottom.png"
@@ -689,6 +710,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Win the underhook, flatten them, free the trapped leg.",
       "hero": "assets/img/heroes/half-guard-pass.png"
@@ -721,9 +743,10 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Read the kick and kill it, check, block, or catch, before it lands, one kick at a time.",
-      "hero": null
+      "hero": "assets/img/heroes/kick-defense.png"
     },
     {
       "slug": "kick-the-puncher",
@@ -753,9 +776,10 @@
         "class-derived"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "The mirror image. Here the hands are the thing being defended and the leg kick is the counter, so the fighter with no punches is the dangerous one, and the check belongs to the boxer.",
-      "hero": null
+      "hero": "assets/img/heroes/kick-the-puncher.png"
     },
     {
       "slug": "knee-on-belly-control",
@@ -784,6 +808,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Keep the knee-on-belly alive through the frames, then attack an arm or step to mount.",
       "hero": "assets/img/heroes/knee-on-belly-control.png"
@@ -814,6 +839,7 @@
         "angle"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Land one declared target by reading the defense and opening it with setup and misdirection, while the defender resists without countering.",
       "hero": "assets/img/heroes/land-the-target.png"
@@ -840,6 +866,7 @@
         "class-derived"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Develop the lead hand as a weapon. The attacker may *only* use the lead hand, jab, lead hook, lead uppercut, forcing variety and timing within the constraint while the defender resists without countering.",
       "hero": "assets/img/heroes/lead-hand-offense.png"
@@ -864,6 +891,7 @@
         "skill-isolation"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Develop the lead leg as a weapon. The attacker may *only* use the lead leg, teep, lead round kick, lead side kick, forcing range management and variety with the fastest kicking tool while the defender resists without countering.",
       "hero": "assets/img/heroes/lead-leg-offense.png"
@@ -895,6 +923,7 @@
         "class-derived"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Jiu-jitsu players who cross over into MMA often reach for a leg entanglement without registering what it costs: a standing opponent who can't be swept off is a standing opponent who can still hit you. This game builds that respect into both roles. Bottom is entangled and grounded, working to reverse the position or separate. Top has **no win condition at all**, their whole job is to stay on their feet and make the entanglement expensive.",
       "hero": "assets/img/heroes/leg-entanglement-escape.png"
@@ -924,6 +953,7 @@
         "positional-sparring"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Get your legs back between you and the opponent, one level at a time.",
       "hero": "assets/img/heroes/leg-reclaim.png"
@@ -955,6 +985,7 @@
         "positional-sparring"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Get out from under mount before the top isolates an arm.",
       "hero": "assets/img/heroes/mount-escape.png"
@@ -987,6 +1018,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Keep the mount and turn control into damage before the bottom gets an elbow back in.",
       "hero": "assets/img/heroes/mount-maintenance.png"
@@ -1021,9 +1053,10 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Isolate the finish from mount, one arm over the head or the back sealed, before they frame, recover a leg, and get out.",
-      "hero": null
+      "hero": "assets/img/heroes/mount-submission-hunt.png"
     },
     {
       "slug": "north-south-control",
@@ -1052,6 +1085,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Pin from north-south, then transition to a side or trap an arm before the bottom brings the knees in.",
       "hero": "assets/img/heroes/north-south-control.png"
@@ -1082,6 +1116,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Discover where you can land your first shot with different tools, in a perimeter that won't let you run.",
       "hero": "assets/img/heroes/one-shot-discovery.png"
@@ -1111,6 +1146,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Clear the feet, beat the knee line, get chest-to-chest.",
       "hero": "assets/img/heroes/open-guard-pass.png"
@@ -1141,6 +1177,7 @@
         "timing"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Takedowns from a connected position with no wall, more escape routes, and DNS threats at their most dangerous in the system.",
       "hero": "assets/img/heroes/open-space-takedown.png"
@@ -1168,6 +1205,7 @@
         "class-derived"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Deflect straight punches with the hands. The defender may *only* parry, no blocking, no head movement, no backing up, which forces the parry to develop on its own.",
       "hero": "assets/img/heroes/parry-the-straight.png"
@@ -1197,6 +1235,7 @@
         "live"
       ],
       "status": "live",
+      "type": "format",
       "is_format": true,
       "description": "??? note \"Why this is a format, not a game\"",
       "hero": "assets/img/heroes/positional-battle.png"
@@ -1228,6 +1267,7 @@
         "class-derived"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Manage distance through movement and pressure, then convert pressure into the clinch and wall pin.",
       "hero": "assets/img/heroes/pressure-to-clinch.png"
@@ -1260,6 +1300,7 @@
         "timing"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "A full-sequence offensive game: chain strikes, distance closure, and takedowns into one flow while the defender manages all three threats at once.",
       "hero": "assets/img/heroes/pressure-to-takedown.png"
@@ -1292,6 +1333,7 @@
         "cage-cut"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Chain strikes to wall control, the destination is the wall itself, for dirty boxing and grinding, not the ground.",
       "hero": "assets/img/heroes/pressure-to-wall.png"
@@ -1316,6 +1358,7 @@
         "skill-isolation"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Land the rear hand alone, cross, rear hook, rear uppercut, forcing you to build your own entries.",
       "hero": "assets/img/heroes/rear-hand-offense.png"
@@ -1340,6 +1383,7 @@
         "skill-isolation"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Land the rear leg alone, round kick, teep, side kick, forcing you to build your own setups.",
       "hero": "assets/img/heroes/rear-leg-offense.png"
@@ -1370,6 +1414,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Keep your structure, make them post, punish the post.",
       "hero": "assets/img/heroes/seated-guard-retention.png"
@@ -1402,6 +1447,7 @@
         "positional-sparring"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Recover a guard or get to your knees before side control advances.",
       "hero": "assets/img/heroes/side-control-escape.png"
@@ -1435,6 +1481,7 @@
         "wip"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "Hold side control and turn it into an arm or a better position before the bottom frames a knee back in.",
       "hero": "assets/img/heroes/side-control-ride.png"
@@ -1461,6 +1508,7 @@
         "skill-isolation"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Make straight punches miss with head movement, slip only, no block, no duck, no backing up.",
       "hero": "assets/img/heroes/slip-the-straight.png"
@@ -1492,6 +1540,7 @@
         "high-intensity"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Wall positions cycle rather than resolve, the defender stands and disengages while the attacker re-pins or flattens, and the skill is staying in the part of the loop that favors you.",
       "hero": "assets/img/heroes/standup-loop.png"
@@ -1523,6 +1572,7 @@
         "high-intensity"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Keep striking through the defender's counters, escapes, and clinches, continue, never reset to one-and-done.",
       "hero": "assets/img/heroes/sustained-offense.png"
@@ -1553,6 +1603,7 @@
         "reaction"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Stop the shot and get back to neutral, denial, not ground escape.",
       "hero": "assets/img/heroes/takedown-defense.png"
@@ -1582,6 +1633,7 @@
         "class-derived"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "A single constraint set, layered live one variable at a time, that grows from close-range blocking defense into a full striking-to-takedown game. It is the in-class bridge between isolated striking defense and the clinch and takedown games, survival first, then the right to counter, clinch off-balance, and finish.",
       "hero": "assets/img/heroes/the-square.png"
@@ -1606,6 +1658,7 @@
         "class-derived"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Absorb strikes behind a tight shell, block only, no parry, no head movement.",
       "hero": "assets/img/heroes/tight-block.png"
@@ -1635,6 +1688,7 @@
         "low-intensity"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "The foundational engagement game, touch, don't get touched, and answer back the instant contact lands.",
       "hero": "assets/img/heroes/touch-game.png"
@@ -1663,6 +1717,7 @@
         "class-derived"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "A pure attachment race. The defender starts in turtle, the attacker starts standing with palms on the small of the back, arms fully extended. The defender says go: stand, turn, face. The attacker wins by one thing only, connecting the hands around the waist or a leg above the knee.",
       "hero": "assets/img/heroes/turtle-breakout.png"
@@ -1691,6 +1746,7 @@
         "class-derived"
       ],
       "status": "wip",
+      "type": "game",
       "is_format": false,
       "description": "A sibling of [Turtle Breakout](../turtle-breakout/), same family, different goal. Both start with the defender in turtle. Turtle Breakout is a bare-hands attachment race, connect and you're done. Turtle Pin starts from control already established, hip-and-shoulder with hooks in, and the top player has to earn something harder: break the defender flat to the mat and hold them there.",
       "hero": "assets/img/heroes/turtle-pin.png"
@@ -1722,6 +1778,7 @@
         "positional-sparring"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Teach vertical control, the wall becomes the dominant constraint that organizes the pin.",
       "hero": "assets/img/heroes/wall-control.png"
@@ -1753,6 +1810,7 @@
         "counter"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Turn a defensive wall position into a threat, submission as weapon and escape tool.",
       "hero": "assets/img/heroes/wall-defensive-submission.png"
@@ -1785,6 +1843,7 @@
         "positional-sparring"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Start pinned, shoulders flat to the wall, break free by actively escaping or reversing, never by waiting it out.",
       "hero": "assets/img/heroes/wall-escape.png"
@@ -1816,6 +1875,7 @@
         "high-intensity"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Deal damage from wall control without losing the control, dirty boxing, knees and grinding while the pin holds.",
       "hero": "assets/img/heroes/wall-grinding.png"
@@ -1846,6 +1906,7 @@
         "level-change"
       ],
       "status": "live",
+      "type": "game",
       "is_format": false,
       "description": "Convert vertical control into horizontal, bring the opponent down from the wall pin and land in hip-and-shoulder control.",
       "hero": "assets/img/heroes/wall-to-ground.png"
@@ -1876,6 +1937,7 @@
         "class-derived"
       ],
       "status": "wip",
+      "type": "format",
       "is_format": true,
       "description": "??? note \"Why this is a format, not a game\"",
       "hero": "assets/img/heroes/win-ladder.png"

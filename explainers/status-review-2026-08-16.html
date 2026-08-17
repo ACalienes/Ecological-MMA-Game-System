@@ -1,0 +1,472 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Three outside reviews, one answer · 2026-08-16</title>
+<meta property="og:title" content="Three outside reviews, one answer">
+<meta property="og:description" content="What the Code Architect, Kai and Codex said about the system, and the one decision waiting on you.">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#0a0d14;--panel:#121826;--panel2:#0e1420;--line:#212c40;
+  --ink:#eaf0fb;--dim:#93a2bd;--faint:#5e6f8c;
+  --accent:#7aa2ff;--accent2:#b98bff;
+  --done:#4ade80;--now:#ffd24d;--next:#7aa2ff;--later:#5e6f8c;--stop:#f87171;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:radial-gradient(1200px 700px at 70% -10%,#16203a 0%,var(--bg) 55%) fixed,var(--bg);
+  color:var(--ink);
+  font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased;padding:0 0 90px;
+}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+
+/* ---------- cinematic title scene ---------- */
+.title-scene{min-height:100vh;display:grid;align-content:center;padding:64px 22px;position:relative;overflow:hidden;max-width:1000px;margin:0 auto}
+@supports(min-height:100dvh){.title-scene{min-height:100dvh}}
+.title-scene::before{content:"01";position:absolute;right:1vw;bottom:-6vh;font-size:40vh;font-weight:900;color:#0f1626;z-index:0;line-height:1}
+.title-scene>*{position:relative;z-index:1}
+.display{font-size:clamp(32px,6.2vw,68px);line-height:1.05;font-weight:800;letter-spacing:-.5px}
+.display .hl{color:var(--accent)}
+.sub{color:var(--dim);font-size:clamp(15px,2vw,19px);margin-top:22px;max-width:640px}
+.r{opacity:0;transform:translateY(30px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.title-scene.active .r{opacity:1;transform:none}
+.title-scene.active .d2{transition-delay:.16s}.title-scene.active .d3{transition-delay:.32s}.title-scene.active .d4{transition-delay:.48s}
+.scrollcue{margin-top:44px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.scrollcue span{display:inline-block;animation:bob 2s infinite}
+@keyframes bob{50%{transform:translateY(5px)}}
+
+/* header chrome */
+.kicker{color:var(--accent);font-weight:700;font-size:12px;letter-spacing:.16em;
+  text-transform:uppercase;margin-bottom:9px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.kicker .meta{font-size:10.5px;border:1px solid var(--line);border-radius:999px;
+  padding:2px 9px;color:var(--dim);letter-spacing:.06em;text-transform:none}
+h1{font-size:30px;line-height:1.15;letter-spacing:-.4px;margin:.2em 0 .1em;font-weight:800}
+.clock{color:var(--faint);font-size:13px;margin-bottom:14px}
+
+section{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+section.in{opacity:1;transform:none}
+h2{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);
+  margin:44px 0 12px;font-weight:700;display:flex;align-items:center;gap:10px}
+h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+  border-radius:14px;padding:18px 20px;margin:12px 0;box-shadow:0 12px 44px -24px #000}
+.lead{color:var(--dim);font-size:14.5px;margin:2px 0 14px;max-width:760px}
+.foot{color:var(--faint);font-size:12px;margin-top:44px;text-align:center}
+code{background:#0b1322;border:1px solid var(--line);border-radius:5px;padding:1px 6px;
+  font-size:12.5px;color:#cfe0ff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+
+/* A2 goal */
+.goal{border-left:3px solid var(--accent);position:relative}
+.goal-star{font-size:11px;letter-spacing:.14em;color:var(--accent);font-weight:800}
+.goal p{font-size:16px;color:#c3d0ea;margin-top:8px}.goal p b{color:#fff}
+.goal-tier{font-size:11px;color:var(--accent);font-weight:700;margin-top:14px;text-transform:uppercase;letter-spacing:.1em}
+
+/* reviewer panel */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.rev{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--later);border-radius:13px;padding:15px 16px;transition:transform .18s ease,border-color .18s ease}
+.rev:hover{transform:translateY(-3px)}
+.rev.a{border-top-color:var(--accent)}.rev.b{border-top-color:var(--accent2)}.rev.c{border-top-color:var(--now)}
+.rev .who{font-weight:800;font-size:15px}
+.rev .role{font-size:11.5px;color:var(--faint);margin-top:2px}
+.rev .verdict{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.06em;padding:2px 9px;border-radius:999px;margin-top:10px}
+.rev .verdict.rev-flag{color:var(--now);border:1px solid #5c4a1e;background:#2a210b}
+.rev .verdict.rev-ok{color:var(--done);border:1px solid #2c5e44;background:#0e2a1e}
+.rev .said{font-size:13.5px;color:#c3d0ea;margin-top:11px}
+.rev .said b{color:#fff}
+
+/* NEW TOUCH: convergence-fork */
+.conv{position:relative;background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:20px 18px 22px;margin:14px 0}
+.conv-top{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.conv-side{text-align:center}
+.conv-eyebrow{font-size:10.5px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:var(--faint)}
+.conv-who{font-weight:800;font-size:15px;margin-top:4px}
+.conv-from{font-size:13px;color:var(--dim);margin-top:6px;min-height:42px}
+.conv-svg{width:100%;height:96px;display:block}
+.conv-svg path{fill:none;stroke:var(--line);stroke-width:2;stroke-dasharray:1000;stroke-dashoffset:1000;transition:stroke-dashoffset 1.5s ease .25s}
+.conv-svg path.lit{stroke:var(--accent)}
+.conv-meet{background:var(--panel);border:1px solid #2c4d36;border-radius:12px;padding:16px 18px;text-align:center}
+.conv-meet .cm-lab{font-size:10.5px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:var(--done)}
+.conv-meet .cm-body{font-size:16px;color:#fff;font-weight:700;margin-top:7px;line-height:1.4}
+.conv-meet .cm-note{font-size:13px;color:var(--dim);margin-top:8px}
+@media(max-width:600px){
+  .conv-top{grid-template-columns:1fr;gap:10px}
+  .conv-svg{height:52px}
+  .conv-from{min-height:0}
+}
+
+/* teach */
+.teach{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);
+  border-radius:12px;padding:16px 18px;margin:10px 0}
+.teach h3{font-size:15.5px;color:#dce7ff;margin-bottom:8px}.teach p{color:#c3d0ea;font-size:14px}
+.teach p+p{margin-top:9px}
+.analogy{border-left:3px solid var(--accent2);background:#0e1420;border:1px dashed #2b3c63;
+  border-radius:9px;padding:11px 14px;color:#9fd0b0;font-size:14px;margin:12px 0}
+
+/* infer vs declare list */
+.infer{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.irow{display:grid;grid-template-columns:1fr 26px 1fr;align-items:center;gap:10px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:11px 14px}
+.irow .q{font-size:13.5px;color:#c3d0ea}
+.irow .a{text-align:center;color:var(--faint)}
+.irow .v{font-size:13.5px;color:var(--stop);font-weight:600}
+.irow.ok .v{color:var(--done)}
+@media(max-width:600px){.irow{grid-template-columns:1fr;gap:3px}.irow .a{display:none}}
+
+/* fix ledger */
+.fixrow{display:flex;gap:14px;padding:14px 0;border-top:1px solid var(--line)}
+.fixrow:first-child{border-top:none}
+.fx-n{flex:0 0 26px;width:26px;height:26px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;font-weight:800;font-size:13px;color:var(--dim)}
+.fx-b{flex:1;min-width:0}
+.fx-t{font-weight:700;font-size:14.5px;color:#fff}
+.fx-risk{font-size:13.5px;color:#d9b3ad;margin-top:4px}.fx-risk b{color:var(--stop)}
+.fx-cure{font-size:13.5px;color:#bcd9c0;margin-top:5px}.fx-cure b{color:var(--done)}
+.ev{border-top:1px solid var(--line);background:var(--panel2);border-radius:8px;margin-top:9px}
+.ev summary{cursor:pointer;list-style:none;padding:8px 13px;font-size:11.5px;color:var(--accent);font-weight:700}
+.ev summary::-webkit-details-marker{display:none}
+.ev summary::before{content:"▸ "}.ev[open] summary::before{content:"▾ "}
+.evbody{padding:0 13px 12px;font-size:12.5px;color:#9fb0cc;font-family:ui-monospace,Menlo,monospace;line-height:1.55}
+
+/* myth buster */
+.myth{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:11px 0}
+.myth .row{display:grid;grid-template-columns:1fr 28px 1fr}
+@media(max-width:600px){.myth .row{grid-template-columns:1fr}}
+.myth .claim,.myth .real{padding:15px 17px}
+.myth .claim{background:rgba(248,113,113,.05);border-right:1px solid var(--line)}
+.myth .arr{display:grid;place-items:center;color:var(--faint);background:var(--panel2)}
+.myth .lbl{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.myth .claim .lbl{color:var(--stop)}.myth .real .lbl{color:var(--done)}
+.myth p{font-size:13.5px;color:#c3d0ea}.myth p b{color:#fff}
+.verdict-chip{display:inline-block;font-size:10px;font-weight:800;padding:2px 8px;border-radius:20px;margin-bottom:7px}
+.v-false{color:var(--stop);border:1px solid #5a2f33}.v-true{color:var(--done);border:1px solid #2c4d36}
+
+/* metrics */
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.metric{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:15px 14px;text-align:center}
+.metric .num{font-size:28px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.metric .num.g{color:var(--done)}.metric .num.a{color:var(--now)}.metric .num.r{color:var(--stop)}
+.metric .lab{font-size:11.5px;color:var(--dim);margin-top:7px}
+
+/* honesty list */
+.hli{position:relative;padding:5px 0 5px 22px;font-size:13.5px;color:#c3d0ea}
+.hli::before{position:absolute;left:0;font-weight:800}
+.hli.done::before{content:"✓";color:var(--done)}
+.hli.wait::before{content:"●";color:var(--now)}
+.hli.stop::before{content:"✕";color:var(--stop)}
+
+/* decisions */
+.decide{border-left:3px solid var(--now)}
+.paths{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:600px){.paths{grid-template-columns:1fr}}
+.path{background:var(--panel2);border:1px solid var(--line);border-radius:13px;padding:16px 18px;
+  transition:transform .18s ease,border-color .18s ease}
+.path:hover{transform:translateY(-3px);border-color:var(--now)}
+.path.rec{border-color:#2c4d36}.path.dec{border-color:#5a4d22}.path.blk{border-color:#5a2f33}
+.path .h{display:flex;align-items:center;gap:8px;font-weight:800;font-size:15px;color:#fff;margin-bottom:6px;flex-wrap:wrap}
+.path .tag{font-size:10px;font-weight:800;letter-spacing:.07em;padding:2px 8px;border-radius:20px;color:#0a0d14}
+.path.rec .tag{background:var(--done)}.path.dec .tag{background:var(--now)}.path.blk .tag{background:var(--stop)}
+.path p{color:#c3d0ea;font-size:13.5px}
+.path .you{margin-top:10px;font-size:13px;color:#dce7ff;border-top:1px solid var(--line);padding-top:9px}
+.path .you b{color:#fff}
+
+/* roadmap */
+.road{display:flex;flex-direction:column;gap:9px}
+.rstep{display:flex;gap:12px;background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:11px 14px}
+.rstep .w{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);min-width:56px;padding-top:2px}
+.rstep .x{color:#c3d0ea;font-size:13.5px}.rstep .x b{color:var(--ink)}
+
+/* shipped strip */
+.ship{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.shipc{background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--done);border-radius:10px;padding:11px 13px}
+.shipc .st{font-weight:700;font-size:13.5px}
+.shipc .sd{font-size:12px;color:var(--dim);margin-top:3px}
+
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,210,77,.55)}70%{box-shadow:0 0 0 11px rgba(255,210,77,0)}100%{box-shadow:0 0 0 0 rgba(255,210,77,0)}}
+
+@media(max-width:768px){
+  .wrap{padding:0 16px}h1{font-size:25px}
+  .revs,.metrics,.ship{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .revs,.metrics,.ship{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+  section,.r{opacity:1;transform:none}
+  .conv-svg path{stroke-dashoffset:0 !important}
+}
+</style>
+</head><body>
+
+<div class="title-scene" id="titleScene">
+  <div class="kicker r">Ecological MMA System · outside review <span class="meta">2026-08-16</span></div>
+  <div class="display r d2">You asked three outsiders the same question.<br><span class="hl">Two of them gave the same answer.</span></div>
+  <p class="sub r d3">The Code Architect came at it from the data. Kai came at it from the business. Neither saw the other's work. They landed on the same fix for the thing you were worried about.</p>
+  <div class="scrollcue r d4"><span>↓</span> scroll</div>
+</div>
+
+<div class="wrap">
+
+<section>
+  <div class="card goal">
+    <span class="goal-star">★ WHAT YOU ASKED</span>
+    <p>Games are nuanced. There are variations, and progressions, and offshoots. Your fear: that we get locked into forever arguing <b>"is this a new game or a version of an old one"</b>, instead of treating the library as samples a person can customize for what they are trying to learn.</p>
+    <div class="goal-tier">↳ the short answer</div>
+    <p>Your instinct was right, the fix is smaller than you think, and <b>the thing you want and the cleanup we needed are the same job</b>.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Who I asked</h2>
+  <p class="lead">Three outside reviewers, none of whom know anything about MMA. I told all three that on purpose. The question was about how information is organised, not about fighting.</p>
+  <div class="revs">
+    <div class="rev a">
+      <div class="who">Code Architect</div>
+      <div class="role">Structure and data</div>
+      <div class="verdict rev-flag">RESTRUCTURE</div>
+      <div class="said">A game is really <b>a point in a space of choices</b>. Variants, levels and progressions are just small differences on those choices. Give each game a permanent name tag and a pointer to its parent.</div>
+    </div>
+    <div class="rev b">
+      <div class="who">Kai</div>
+      <div class="role">Product and business</div>
+      <div class="verdict rev-flag">REFRAME</div>
+      <div class="said">Cookbooks solved this already. Is it a different chili or the same chili? They decided not to care. <b>One page, named variations on it.</b> And do not sell the customizer, sell the curriculum.</div>
+    </div>
+    <div class="rev c">
+      <div class="who">Codex</div>
+      <div class="role">Adversarial code review</div>
+      <div class="verdict rev-flag">REVISE</div>
+      <div class="said">Six findings on the recommender. <b>Three are real problems</b> that would show up for a paying customer. I verified every one against the actual data before repeating it here.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The part worth your attention</h2>
+  <p class="lead">Two reviewers, opposite starting points, same destination. This is the closest thing to proof that the answer is right.</p>
+
+  <div class="conv">
+    <div class="conv-top">
+      <div class="conv-side">
+        <div class="conv-eyebrow">Started from</div>
+        <div class="conv-who">The data model</div>
+        <div class="conv-from">"Identify a game by a permanent tag, not by its rules. Otherwise every small rule tweak creates a brand new thing to argue about."</div>
+      </div>
+      <div class="conv-side">
+        <div class="conv-eyebrow">Started from</div>
+        <div class="conv-who">How cookbooks work</div>
+        <div class="conv-from">"Publishers stopped asking whether it is the same recipe. Canonical page, named variations living on it."</div>
+      </div>
+    </div>
+
+    <svg class="conv-svg" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true">
+      <path class="draw lit" data-pct="100" d="M18,2 C18,22 50,18 50,38"/>
+      <path class="draw lit" data-pct="100" d="M82,2 C82,22 50,18 50,38"/>
+    </svg>
+
+    <div class="conv-meet">
+      <div class="cm-lab">Both arrived here</div>
+      <div class="cm-body">A game is one canonical page. Variations live on that page, named, with the change stated plainly.</div>
+      <div class="cm-note">Your 62 games probably do not want to become 200. They likely want to become roughly 40 canonical games carrying 160 named variations. A smaller library that reads as a deeper one.</div>
+    </div>
+  </div>
+
+  <div class="analogy">Think of it the way a cookbook does. There is one chili recipe. Underneath it: "make it vegetarian", "make it for a crowd", "make it hotter". Nobody argues about whether those are four recipes or one. <b>The argument disappears because the relationship is written down instead of remembered.</b></div>
+</section>
+
+<section>
+  <h2>Your fear, diagnosed</h2>
+  <div class="teach">
+    <h3>The system guesses instead of asking. That is the whole problem.</h3>
+    <p>Every reviewer found a version of the same thing, and it is the root of your classification worry too. Almost nothing in the library ever states plainly what it is. The software infers it from soft signals, and the guesses are sometimes wrong.</p>
+    <p>Your worry about endless arguing is the human-facing version of a system that never asks anyone to write anything down. Which is why the fix works: <b>declare it, do not infer it.</b></p>
+  </div>
+
+  <div class="infer">
+    <div class="irow"><div class="q">Is this game a real game, or a format overlay?</div><div class="a">→</div><div class="v">Guessed from whether the word "format" appears in a tag list</div></div>
+    <div class="irow"><div class="q">Is this game finished and safe to recommend?</div><div class="a">→</div><div class="v">Guessed from a missing field. Zero of your 62 games say they are finished</div></div>
+    <div class="irow"><div class="q">What are this game's levels?</div><div class="a">→</div><div class="v">Never captured at all, even though 61 of 62 pages have them</div></div>
+    <div class="irow"><div class="q">Is this a variant or a separate game?</div><div class="a">→</div><div class="v">Decided by feel, in your head, every single time</div></div>
+    <div class="irow ok"><div class="q">What environment, difficulty and gear is it?</div><div class="a">→</div><div class="v">Actually declared. And these are the only fields that work properly</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>The three things that are actually broken</h2>
+  <p class="lead">Found by Codex, verified by me against the real data before I repeated any of it. Ordered by how much they hurt a paying customer.</p>
+  <div class="card">
+    <div class="fixrow">
+      <div class="fx-n">1</div>
+      <div class="fx-b">
+        <div class="fx-t">Plans tell people to run a game while hiding its foundation</div>
+        <div class="fx-risk"><b>What happens:</b> Get Your Game Plan builds an ordered plan, then quietly drops games that did not fit the filter, even when a game it kept depends on one it dropped. So the plan says "run Ground Access" without ever mentioning the two games Ground Access is built on.</div>
+        <div class="fx-cure"><b>Why it matters:</b> the order of the games is the expertise you are selling. This is the one that makes the product look like it does not know what it is doing.</div>
+        <details class="ev"><summary>the scale of it</summary><div class="evbody">42 of your 62 games have a prerequisite that is intermediate or harder. The rescue pass in the code only pulls back beginner-level prerequisites, so most of the library can hit this.</div></details>
+      </div>
+    </div>
+    <div class="fixrow">
+      <div class="fx-n">2</div>
+      <div class="fx-b">
+        <div class="fx-t">One finished game is invisible, right now, on the live site</div>
+        <div class="fx-risk"><b>What happens:</b> Positional Sparring is finished and published. It carries the tag "format". The software reads that word and removes the game from every single recommendation, and skips almost all quality checks on it.</div>
+        <div class="fx-cure"><b>Why it matters:</b> a word in a list is silently deciding what customers are allowed to be shown. Any game tagged that way vanishes the same way.</div>
+        <details class="ev"><summary>where it lives</summary><div class="evbody">build-game-index.py line 189 sets is_format from the tag text. your-plan.js line 163 excludes those from all plans. eco-check.py line 66 skips quality checks on them.</div></details>
+      </div>
+    </div>
+    <div class="fixrow">
+      <div class="fx-n">3</div>
+      <div class="fx-b">
+        <div class="fx-t">Nothing in the library ever says it is finished</div>
+        <div class="fx-risk"><b>What happens:</b> not one of your 62 games declares itself finished. 39 have no status at all, and the software treats "no status" as "finished, go ahead and recommend this to paying customers."</div>
+        <div class="fx-cure"><b>Why it matters:</b> being ready for customers is decided by a field being absent. That is a coin flip dressed as a rule.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Did I just take their word for it</h2>
+  <p class="lead">No. I checked every claim against the real files. Here is the one that mattered, because it is a reminder to not trust confident summaries, including mine.</p>
+  <div class="myth">
+    <div class="row">
+      <div class="claim">
+        <div class="lbl">The Code Architect said</div>
+        <span class="verdict-chip v-false">WRONG</span>
+        <p>"Zero games have prerequisites. You are worried about a chain that does not exist." It used this to argue the whole prerequisite question was a non-issue.</p>
+      </div>
+      <div class="arr">→</div>
+      <div class="real">
+        <div class="lbl">The files say</div>
+        <span class="verdict-chip v-true">52 OF 62</span>
+        <p>52 games have prerequisites, 69 connections in total, no loops, 10 clean starting points. <b>The chain is real and it is healthy, which is exactly why Codex's finding about hiding it matters.</b></p>
+      </div>
+    </div>
+    <details class="ev"><summary>the full scorecard</summary><div class="evbody">The Code Architect made four corrections to my summary. Three were wrong: the prerequisite claim above, a claim that equipment is never written as a list (14 games write it as a list), and a claim that 15 pages have variants (9 do). The fourth was right and important, and became finding 2 above. Its overall reasoning is sound and I acted on it. Its numbers needed checking.</div></details>
+  </div>
+  <div class="analogy">The irony is useful. Its whole argument was "you cannot easily look things up, so you answer from memory, and memory drifts." Then its own memory drifted. <b>That does not make it wrong. It makes it right.</b></div>
+</section>
+
+<section>
+  <h2>Where the system actually stands</h2>
+  <div class="metrics">
+    <div class="metric"><div class="num" data-to="62">0</div><div class="lab">games, live on the site</div></div>
+    <div class="metric"><div class="num g" data-to="62" data-suf="/62">0</div><div class="lab">passing quality checks</div></div>
+    <div class="metric"><div class="num a" data-to="25">0</div><div class="lab">still marked unfinished</div></div>
+    <div class="metric"><div class="num r" data-to="3">0</div><div class="lab">real bugs found</div></div>
+  </div>
+  <div class="card" style="margin-top:14px">
+    <div class="hli done">Site deployed and current. It was two months stale, showing 57 games. It now shows all 62.</div>
+    <div class="hli done">The two new games from Thursday's class are live, with images, and the July work that was stranded off the main line is recovered.</div>
+    <div class="hli done">Quality checks went from 59 of 62 passing to all 62, the first clean sweep.</div>
+    <div class="hli wait">The recommender only suggests finished games, so the guided path is clean. Browsing still shows the 25 unfinished ones.</div>
+    <div class="hli wait">7 candidate rules and 8 questions from Thursday's class are sitting with nobody assigned to them.</div>
+    <div class="hli stop">The three bugs above are unfixed. I have changed no code, only reported.</div>
+  </div>
+</section>
+
+<section>
+  <h2>What Kai wants you to hear</h2>
+  <div class="teach">
+    <h3>Do not sell the customizer. Sell the curriculum.</h3>
+    <p>The classification problem is <b>your</b> pain as the author. It hurts every time you add content. Handing customers a game builder makes your pain go away by moving the work onto them, and calling it a feature.</p>
+    <p>A coach with 45 minutes, twelve students and a 7pm start does not want a generator. They want to know what to run tonight. They are paying for <b>the removal of a decision</b>, and a customizer sells the decision back to them with extra steps.</p>
+    <p>So: the catalog is the product, the generator is the engine. Build the engine. Do not put it on the box.</p>
+  </div>
+  <div class="teach">
+    <h3>Authority is not knowing everything. It is knowing what must not change.</h3>
+    <p>You worried that letting people customize gives away the reason they paid. Kai's answer flips it: an open-ended form reads as "we do not know either, you figure it out." But saying <b>"these three things you may change, these two are load-bearing and here is why"</b> reads as more expert than a fixed page, not less.</p>
+  </div>
+  <div class="analogy">One warning worth taking seriously. Kai flagged the idea of letting customers record their own classes and get games back. Not because it is hard, but because it means audio of other people's gyms, possibly including minors, being processed into a product. <b>You already handle this correctly, since class audio never leaves your machine.</b> Extending it to other people's gyms is a different question, and the safer version is a private report on what a coach actually drilled, not a public product.</div>
+</section>
+
+<section class="card decide">
+  <h2>⬤ What needs you</h2>
+  <div class="paths">
+    <div class="path blk">
+      <div class="h"><span class="tag">DECIDE FIRST</span> The beginner question</div>
+      <p>A brand new fighter picks ground, wall or takedowns. You have no beginner games in those areas. Right now the software quietly hands them intermediate games. Your coach-facing path does the opposite and refuses to go above the level asked for.</p>
+      <div class="you">What you are deciding: <b>give a beginner harder games, or tell them honestly we have no beginner content there yet.</b> This is a coaching call, not a code call, and fixing bug 1 depends on it.</div>
+    </div>
+    <div class="path rec">
+      <div class="h"><span class="tag">RECOMMEND</span> Let me fix the three bugs</div>
+      <p>Make games declare what they are and whether they are finished, stop the recommender hiding foundation games, and restore Positional Sparring to the recommendations it is currently excluded from.</p>
+      <div class="you">What you are deciding: <b>yes or no to me doing this now.</b> Recommend: yes. It is small, and item 1 is the customer-facing one.</div>
+    </div>
+    <div class="path dec">
+      <div class="h"><span class="tag">A DECISION</span> The 8 class questions</div>
+      <p>Still open from Thursday, unchanged. The heaviest one: two live pages currently tell students to reset after every landed kick, which is the exact habit you spent an hour coaching out of them.</p>
+      <div class="you">What you are deciding: <b>answer them, or park them deliberately.</b> Kai's warning is that an unowned pile stops looking like a queue and starts looking like a graveyard.</div>
+    </div>
+    <div class="path dec">
+      <div class="h"><span class="tag">A DECISION</span> Before any paid launch</div>
+      <p>25 of 62 games are marked unfinished. The recommender already hides them, so the guided path is safe, but anyone browsing hits them.</p>
+      <div class="you">What you are deciding: <b>hide the unfinished ones at launch, or present them deliberately as a live lab people are getting early access to.</b></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The order I would do it in</h2>
+  <div class="road">
+    <div class="rstep"><span class="w">Now</span><span class="x"><b>Fix the three bugs.</b> Small, and one of them is already costing you a game on the live site.</span></div>
+    <div class="rstep"><span class="w">Next</span><span class="x"><b>Add the canonical and variation relationship.</b> This is the answer to your original question. It is a naming convention plus one field, not a rebuild.</span></div>
+    <div class="rstep"><span class="w">Then</span><span class="x"><b>Capture the levels.</b> 61 of 62 pages already have them written by hand and the software throws them away. This is what would let a plan say "start at level 2".</span></div>
+    <div class="rstep"><span class="w">Later</span><span class="x"><b>Clean the 174 tags.</b> Half are used exactly once and nothing reads them, so this is free to do whenever.</span></div>
+    <div class="rstep"><span class="w">Goal</span><span class="x"><b>Ship the paid catalog.</b> Both reviewers said do not rebuild for a feature nobody has paid for yet. Build the engine underneath, sell the curriculum on top.</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>What shipped since Thursday</h2>
+  <div class="ship">
+    <div class="shipc"><div class="st">Class mined</div><div class="sd">93 minutes of audio into a full report</div></div>
+    <div class="shipc"><div class="st">2 games built</div><div class="sd">Check and Return, Kick the Puncher</div></div>
+    <div class="shipc"><div class="st">July work recovered</div><div class="sd">Stranded off the main line, now safe</div></div>
+    <div class="shipc"><div class="st">Site deployed</div><div class="sd">Two months stale, now current</div></div>
+  </div>
+</section>
+
+<div class="foot">
+  Built from the live repo, the three review transcripts, and direct checks against the data.<br>
+  Every number here was measured, not recalled. Three claims from the reviews were wrong and are marked as such.
+</div>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+  function countUp(el){
+    var to=+el.dataset.to, suf=el.dataset.suf||'';
+    if(reduce){el.textContent=to+suf;return;}
+    var t0=performance.now();
+    (function s(t){var p=Math.min(1,(t-t0)/750);
+      el.textContent=Math.round(to*(1-Math.pow(1-p,3)))+(p===1?suf:'');
+      if(p<1)requestAnimationFrame(s);})(performance.now());
+  }
+  function setDraw(el){
+    var pct=+el.dataset.pct;
+    var len=el.getTotalLength?el.getTotalLength():0;
+    el.style.strokeDasharray=len; el.style.strokeDashoffset=len*(1-pct/100);
+  }
+  function activate(el){
+    el.classList.add('in');
+    el.querySelectorAll('[data-to]').forEach(countUp);
+    el.querySelectorAll('[data-w]').forEach(function(b){b.style.width=b.dataset.w});
+    el.querySelectorAll('.draw[data-pct]').forEach(setDraw);
+  }
+
+  var ts=document.getElementById('titleScene');
+  if(reduce){
+    if(ts) ts.classList.add('active');
+    document.querySelectorAll('section').forEach(activate);
+  } else {
+    if(ts) requestAnimationFrame(function(){ts.classList.add('active');});
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ activate(e.target); io.unobserve(e.target); } });
+    },{threshold:.15});
+    document.querySelectorAll('section').forEach(function(s){io.observe(s);});
+  }
+})();
+</script>
+</body></html>

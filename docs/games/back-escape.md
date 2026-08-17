@@ -7,6 +7,7 @@ difficulty: advanced
 duration: medium
 min_players: 2
 equipment: mats
+status: live
 prerequisites:
   concepts:
     - decision-states

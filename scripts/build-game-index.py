@@ -42,6 +42,7 @@ ALLOWED_VALUES = {
     "difficulty": {"beginner", "intermediate", "advanced"},
     "duration": {"short", "medium", "long"},
     "status": {"live", "wip"},
+    "type": {"game", "format"},
     "focus": {"defensive", "offensive", "combined"},
     "domain": {"striking", "wrestling", "grappling", "mixed"},
     "environment": {"ground", "open-space", "transition", "skill-isolation", "wall"},
@@ -166,12 +167,33 @@ def main():
         # game out of the recommendable pool even if frontmatter says status:
         # live, so the "never recommend WIP" invariant can't be lost to a stale
         # or conflicting status field.
+        # Status must be DECLARED. It used to default to "live" when the field
+        # was missing, which meant "ready to sell to a paying customer" was
+        # decided by the absence of a field: 39 games were recommendable purely
+        # because nobody had written anything. Recommendability is now something
+        # a page states about itself, never something we infer.
         status = (fm.get("status") or "").lower() or None
         is_wip = "wip" in tags_lc or "(wip)" in title.lower()
+        if status is None:
+            problems.append(f"{path.name}: no status declared "
+                            f"(add 'status: live' or 'status: wip'; never inferred)")
         if is_wip:
+            # WIP markers stay authoritative: a "(WIP)" title or wip tag forces
+            # the game out of the recommendable pool even against a stale
+            # status: live, so the "never recommend WIP" invariant can't be lost.
             status = "wip"
-        elif status is None:
-            status = "live"
+
+        # Type must be DECLARED too. This was previously derived from whether the
+        # free-text tag "format" appeared, so a word in the uncontrolled tag
+        # vocabulary silently removed a finished game from every recommendation
+        # (Positional Sparring was live and invisible for exactly this reason).
+        # Absent type means "game": hiding a page now takes an explicit
+        # declaration, so the failure mode is a visible extra, not a silent hole.
+        gtype = (fm.get("type") or "game").lower()
+        if "format" in tags_lc and gtype != "format":
+            problems.append(f"{path.name}: carries the 'format' tag but does not declare "
+                            f"'type: format'. The tag no longer classifies anything; "
+                            f"declare the type or drop the tag.")
         equipment = normalize_equipment(fm.get("equipment", []))
         hero = HEROES_DIR / f"{slug}.png"
         game = {
@@ -186,7 +208,8 @@ def main():
             "prereq_games": coerce_list(prereqs.get("games")),
             "tags": tags,
             "status": status,
-            "is_format": "format" in tags_lc,
+            "type": gtype,
+            "is_format": gtype == "format",
             "description": extract_description(text),
             "hero": f"assets/img/heroes/{slug}.png" if hero.exists() else None,
         }
@@ -205,6 +228,35 @@ def main():
             problems.append(f"{path.name}: unknown equipment {unknown} "
                             f"(not in any gear set; game would never be recommended)")
         games.append(game)
+
+    # ---- prerequisite graph integrity -------------------------------------
+    # The plan generator orders games by this graph, so a dangling reference or
+    # a loop would produce a confidently wrong training order rather than an
+    # error. Nothing forbade either until now.
+    by_slug = {g["slug"]: g for g in games}
+    for g in games:
+        for p in g["prereq_games"]:
+            if p not in by_slug:
+                problems.append(f"{g['slug']}.md: prerequisite '{p}' does not exist")
+
+    WHITE, GREY, BLACK = 0, 1, 2
+    colour = {s: WHITE for s in by_slug}
+
+    def find_cycle(node, trail):
+        colour[node] = GREY
+        for nxt in by_slug[node]["prereq_games"]:
+            if nxt not in by_slug:
+                continue
+            if colour[nxt] == GREY:
+                loop = trail[trail.index(nxt):] if nxt in trail else [nxt]
+                problems.append("prerequisite loop: " + " -> ".join(loop + [nxt]))
+            elif colour[nxt] == WHITE:
+                find_cycle(nxt, trail + [nxt])
+        colour[node] = BLACK
+
+    for slug in by_slug:
+        if colour[slug] == WHITE:
+            find_cycle(slug, [slug])
 
     live = sum(1 for g in games if g["status"] == "live" and not g["is_format"])
     # Validate BEFORE writing so a bad page can never leave a partial or stale

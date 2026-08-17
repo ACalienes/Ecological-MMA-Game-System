@@ -170,6 +170,20 @@ Non-curriculum: a fight-camp and smoker logistics conversation (83:50 - 86:22). 
 
 ---
 
+## Answered by Alex, 2026-08-16
+
+**Q1, Q2 (structure and home): ANSWERED.** Games 1-5 are one game with the escalation ladder, Game 6 is a separate sibling, and both are leg-kick-specific games rather than levels folded into `kick-defense.md`. Built and shipped as `check-and-return.md` and `kick-the-puncher.md`.
+
+**Q3, Q4 (the reset contradiction, and promoting no-reset to a house rule): ANSWERED, and the report was wrong to frame it as a contradiction.** Alex's ruling: *"Some games are gonna have student resets, and games are gonna require continuation, so we can classify them, but neither one is wrong. It just depends contextually on what the focus of the game is."*
+
+So `rear-leg-offense.md` and `lead-leg-offense.md` are **not** broken. They are reset-type games, which is a legitimate design, and no-reset must **not** become a universal house rule. What this actually calls for is a declared field, `exchange: reset` or `exchange: continuous`, so the choice is stated on each page rather than argued about. That is the same declare-do-not-infer principle as the `type` and `status` work, and it belongs with the canonical/variation field rather than as a rule change. **No edits were made to those two pages.**
+
+**A related ruling that changes how difficulty works across the whole library:** *"An intermediate game essentially has more variables than what a beginner game would have. Any game can be simplified down to make it easier for somebody to focus on fewer things... Games can go from being as binary all the way up to the infinitely nuanced live experience that is a live sparring session or a real fight."*
+
+Difficulty is therefore **a dial, not a fixed property**. This resolved the recommender's beginner problem directly: when a goal has no beginner content, the plan now still offers the easiest tier and explicitly tells the athlete to strip it back (fewer weapons, one win condition, slower pace, add a variable back each round) instead of either dead-ending them or silently pretending an intermediate game is a beginner one. It also reframes the existing per-page Levels steppers as points on that dial rather than separate difficulty tiers.
+
+**Q10 (WIP games at launch): ANSWERED.** Not hide, not present with a caveat. *"We just need to finish the unfinished games."* The 25 WIP pages are a work item, not a presentation decision.
+
 ## Open questions for Alex
 
 1. **Structure.** Is this one game with five escalating layers, or a family? My read is that Games 1-4 are one game with a real escalation ladder (the win condition tightens), Game 5 is that game plus the shot, and **Game 6 is a separate sibling** by [[feedback_games_defined_by_goals]], since the goals invert. Confirm before I build.

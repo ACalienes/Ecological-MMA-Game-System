@@ -63,7 +63,11 @@ def check_game(path):
     text = path.read_text()
     findings = []  # (level, code, message)
 
-    is_format = bool(re.search(r"^\s*- format\s*$", text, re.M)) or "format)" in text[:600].lower()
+    # Read the DECLARED type. This used to sniff for a "- format" tag or the
+    # string "format)" in the opening prose, which meant a page could exempt
+    # itself from almost every quality check by accident, just by mentioning the
+    # word. Skipping QA is now something a page has to declare on purpose.
+    is_format = bool(re.search(r"^type:\s*format\s*$", text, re.M))
     if is_format:
         # format overlays are meta-pages; only the house threshold rule applies
         if BANNED in text.lower() and not BANNED_NEGATED.search(text):

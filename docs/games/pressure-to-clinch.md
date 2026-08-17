@@ -7,6 +7,7 @@ difficulty: beginner
 duration: short
 min_players: 2
 equipment: boundary-markers
+status: live
 prerequisites:
   concepts:
     - winning-the-circle

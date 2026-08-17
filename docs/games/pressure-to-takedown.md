@@ -10,6 +10,7 @@ equipment:
   - gloves
   - shin-guards
   - mats
+status: live
 prerequisites:
   concepts:
     - tko-pin

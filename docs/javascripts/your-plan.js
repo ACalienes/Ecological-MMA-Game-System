@@ -173,13 +173,20 @@
   function topoSort(pool) {
     var inPool = {};
     pool.forEach(function (g) { inPool[g.slug] = true; });
-    var sorted = [], seen = {};
+    var sorted = [], seen = {}, active = {};
     function visit(g) {
       if (seen[g.slug]) return;
-      seen[g.slug] = true;
+      // `active` breaks a prerequisite loop deterministically instead of
+      // emitting a silently wrong order. build-game-index.py now refuses to
+      // build a graph containing a loop, so this is the second line of defence.
+      if (active[g.slug]) return;
+      active[g.slug] = true;
       (g.prereq_games || []).forEach(function (p) {
         if (inPool[p]) visit(bySlug[p]);
       });
+      active[g.slug] = false;
+      if (seen[g.slug]) return;
+      seen[g.slug] = true;
       sorted.push(g);
     }
     pool
@@ -187,6 +194,107 @@
       .sort(function (a, b) { return DIFF_RANK[a.difficulty] - DIFF_RANK[b.difficulty]; })
       .forEach(visit);
     return sorted;
+  }
+
+  // Pull every prerequisite a plan leans on INTO the plan, all the way down.
+  // The old code rescued only beginner-rank prerequisites, so a plan could tell
+  // an athlete to run a game while silently omitting the foundation it is built
+  // on. 42 of 62 games have a prerequisite that is intermediate or harder, so
+  // that was most of the library. Any game can be scaled down for the person in
+  // front of you, which makes including a harder foundation honest. Hiding it
+  // is not.
+  function closePrereqs(pool, gearId) {
+    var have = {}, out = [];
+    pool.forEach(function (g) { have[g.slug] = true; out.push(g); });
+    var queue = out.slice();
+    while (queue.length) {
+      var g = queue.shift();
+      (g.prereq_games || []).forEach(function (p) {
+        if (have[p]) return;
+        var pg = bySlug[p];
+        if (!pg || !playable(pg) || !gearOk(pg, gearId)) return;
+        have[p] = true; out.push(pg); queue.push(pg);
+      });
+    }
+    // A game whose foundation still cannot be included (unfinished, or needs
+    // gear they do not have) is dropped rather than shipped with a hole in it.
+    var changed = true;
+    while (changed) {
+      changed = false;
+      out = out.filter(function (g) {
+        var ok = (g.prereq_games || []).every(function (p) { return have[p]; });
+        if (!ok) { delete have[g.slug]; changed = true; }
+        return ok;
+      });
+    }
+    return out;
+  }
+
+  // A game must never sit in an earlier phase than something it depends on.
+  // Three games in the library have a prerequisite HARDER than themselves, so
+  // phasing on difficulty alone would print the foundation after the game that
+  // needs it. Start from the difficulty-derived phase, then push a game later if
+  // any of its prerequisites landed later.
+  function phaseFor(g) {
+    var r = DIFF_RANK[g.difficulty];
+    if (r === 0) return 0;
+    if (r === 1 && g.focus !== "combined") return 1;
+    return 2;
+  }
+  function assignPhases(ordered) {
+    var phase = {};
+    ordered.forEach(function (g) {
+      var p = phaseFor(g);
+      (g.prereq_games || []).forEach(function (q) {
+        if (phase[q] !== undefined && phase[q] > p) p = phase[q];
+      });
+      phase[g.slug] = p;
+    });
+    return phase;
+  }
+
+  // Trimming a phase to fit the layout can cut a foundation while keeping the
+  // game built on it, which would reintroduce the same hole one step later.
+  // Drop dependents to a fixpoint after trimming.
+  function pruneToSelection(phases) {
+    var kept = {};
+    phases.forEach(function (p) { p.games.forEach(function (g) { kept[g.slug] = true; }); });
+    var changed = true;
+    while (changed) {
+      changed = false;
+      phases.forEach(function (p) {
+        p.games = p.games.filter(function (g) {
+          var ok = (g.prereq_games || []).every(function (q) { return kept[q] || !bySlug[q]; });
+          if (!ok) { delete kept[g.slug]; changed = true; }
+          return ok;
+        });
+      });
+    }
+    return phases;
+  }
+
+  // Stable topological re-order: keeps the given order everywhere it can, and
+  // only moves a game earlier when something ahead of it depends on it. Used for
+  // the coach session, where beats are chosen by ROLE (warm-up, defensive,
+  // offensive, integration) and that selection can otherwise pick a foundation
+  // after the game built on it.
+  function stableTopo(list) {
+    var inList = {};
+    list.forEach(function (g) { inList[g.slug] = true; });
+    var out = [], placed = {};
+    function place(g, guard) {
+      if (placed[g.slug] || guard[g.slug]) return;
+      guard[g.slug] = true;
+      (g.prereq_games || []).forEach(function (p) {
+        if (inList[p]) place(bySlug[p], guard);
+      });
+      guard[g.slug] = false;
+      if (placed[g.slug]) return;
+      placed[g.slug] = true;
+      out.push(g);
+    }
+    list.forEach(function (g) { place(g, {}); });
+    return out;
   }
 
   function buildFighterPlan(s) {
@@ -200,37 +308,30 @@
     // Some goals (wall, ground, takedowns) have no beginner content. Rather than
     // dead-end a new fighter, give them the easiest tier that goal offers
     // (still never harder than necessary) instead of nothing.
+    // Difficulty is not a fixed property of a game. A harder game is one
+    // carrying more variables, and any game can be scaled down so the athlete
+    // tracks fewer things at once. So a new fighter still gets the easiest tier
+    // the goal offers rather than a dead end, but the plan SAYS it needs
+    // simplifying instead of pretending it was built for them.
+    var simplify = false;
     if (!pool.length && gearPool.length) {
       var easiest = Math.min.apply(null, gearPool.map(function (g) { return DIFF_RANK[g.difficulty]; }));
       pool = gearPool.filter(function (g) { return DIFF_RANK[g.difficulty] <= easiest; });
+      simplify = easiest > maxRank;
     }
 
-    // pull in out-of-pool prerequisites as foundation material
-    var poolSlugs = {};
-    pool.forEach(function (g) { poolSlugs[g.slug] = true; });
-    var extra = [];
-    pool.forEach(function (g) {
-      (g.prereq_games || []).forEach(function (p) {
-        var pg = bySlug[p];
-        if (pg && !poolSlugs[p] && playable(pg) && gearOk(pg, s.gear) &&
-            DIFF_RANK[pg.difficulty] === 0 && extra.indexOf(pg) < 0) {
-          extra.push(pg);
-        }
-      });
-    });
-
+    pool = closePrereqs(pool, s.gear);
     var ordered = topoSort(pool);
-    var start = extra.concat(ordered.filter(function (g) { return DIFF_RANK[g.difficulty] === 0; }));
-    var build = ordered.filter(function (g) { return DIFF_RANK[g.difficulty] === 1 && g.focus !== "combined"; });
-    var integrate = ordered.filter(function (g) {
-      return DIFF_RANK[g.difficulty] === 2 || (DIFF_RANK[g.difficulty] === 1 && g.focus === "combined");
-    });
+    var phase = assignPhases(ordered);
+    function inPhase(n) {
+      return ordered.filter(function (g) { return phase[g.slug] === n; });
+    }
 
-    var phases = [
-      { t: "Start here", d: "Groove the reads with tight constraints.", games: start.slice(0, 3) },
-      { t: "Build", d: "The core of your focus. Earn each game before the next.", games: build.slice(0, 4) },
-      { t: "Put it together", d: "Fewer rules, live resistance, full expression.", games: integrate.slice(0, 3) }
-    ].filter(function (p) { return p.games.length; });
+    var phases = pruneToSelection([
+      { t: "Start here", d: "Groove the reads with tight constraints.", games: inPhase(0).slice(0, 3) },
+      { t: "Build", d: "The core of your focus. Earn each game before the next.", games: inPhase(1).slice(0, 4) },
+      { t: "Put it together", d: "Fewer rules, live resistance, full expression.", games: inPhase(2).slice(0, 3) }
+    ]).filter(function (p) { return p.games.length; });
 
     // A valid set of answers can still match no games (e.g. the ground game
     // with no mats). Explain why instead of rendering an empty plan.
@@ -245,7 +346,8 @@
       }
     }
 
-    return { phases: phases, path: GOAL_PATHS[s.goal], note: TIME_NOTES[s.time], empty: empty };
+    return { phases: phases, path: GOAL_PATHS[s.goal], note: TIME_NOTES[s.time],
+             empty: empty, simplify: simplify };
   }
 
   function buildCoachPlan(s) {
@@ -273,17 +375,32 @@
     beats.push(take(function (g) { return g.focus === "offensive"; }) || take());
     beats.push(take(function (g) { return g.focus === "combined"; }) || take());
     beats.push(take(function (g) { return g.focus === "combined"; }) || take());
-    beats = beats.filter(Boolean);
+    beats = stableTopo(beats.filter(Boolean));
 
     if (!beats.length) {
       return { beats: [], empty: "No field-tested games match that theme and level yet. Browse the full library while we build it out." };
     }
+    // A single session cannot carry every foundation the way a development plan
+    // can, so instead of dropping beats we name what the session assumes the
+    // room has already played. Silence here reads as "these five stand alone",
+    // which is not true for most of the library.
+    var inBeats = {};
+    beats.forEach(function (g) { inBeats[g.slug] = true; });
+    var assumed = [];
+    beats.forEach(function (g) {
+      (g.prereq_games || []).forEach(function (p) {
+        var pg = bySlug[p];
+        if (pg && !inBeats[p] && assumed.indexOf(pg) < 0) assumed.push(pg);
+      });
+    });
+
     var MINUTES = { s45: [6, 8, 10, 10, 11], s60: [8, 10, 12, 14, 16], s90: [12, 15, 18, 20, 25] };
     var roles = ["Warm-up", "Skill builder", "Skill builder", "Integration", "Live application"];
     return {
       beats: beats.map(function (g, i) {
         return { game: g, min: MINUTES[s.length][i], role: roles[i] };
-      })
+      }),
+      assumed: assumed
     };
   }
 
@@ -336,6 +453,9 @@
       return html + '<p class="emma-plan__note">' + plan.empty +
         ' Browse the <a href="../games/">full library</a>.</p></div>';
     }
+    if (plan.simplify) {
+      html += '<p class="emma-plan__note">We have no beginner games for this focus yet, so these sit a tier above where you said you are. That is workable rather than a blocker: a harder game is simply one carrying more variables. Strip it back to start, fewer weapons, one win condition, slower pace, then add a variable back each round as it gets comfortable.</p>';
+    }
     if (plan.note) html += '<p class="emma-plan__note">' + plan.note + "</p>";
     plan.phases.forEach(function (p, i) {
       html += '<div class="emma-plan__phase" style="animation-delay:' + i * 0.12 + 's">' +
@@ -371,6 +491,13 @@
         "<span>" + esc(g.description) + "</span></span></div>";
     });
     html += "</div>";
+    if (plan.assumed && plan.assumed.length) {
+      html += '<p class="emma-plan__note">This session assumes the room has already played ' +
+        plan.assumed.map(function (g) {
+          return '<a href="../games/' + g.slug + '/">' + esc(g.title) + "</a>";
+        }).join(", ") +
+        '. If they have not, run the foundation first or simplify the beat that needs it.</p>';
+    }
     html += '<p class="emma-plan__note">Between rounds, run the <a href="../principles/cla/session-design/">30-second game plan ritual</a>: each player names one thing to try next round. ' +
       'Want pre-built days instead? See the <a href="../tools/lesson-generator/">Lesson Plan Generator</a>.</p>';
     html += "</div>";

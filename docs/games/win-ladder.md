@@ -7,6 +7,7 @@ difficulty: intermediate
 duration: medium
 min_players: 2
 equipment: mats, wall
+type: format
 status: wip
 prerequisites:
   games:

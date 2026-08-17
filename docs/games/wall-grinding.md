@@ -9,6 +9,7 @@ min_players: 2
 equipment:
   - wall
   - gloves
+status: live
 prerequisites:
   concepts:
     - tko-pin

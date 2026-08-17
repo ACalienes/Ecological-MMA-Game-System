@@ -9,6 +9,7 @@ min_players: 2
 equipment:
   - gloves
   - wall
+status: live
 prerequisites:
   concepts:
     - hand-controls
