@@ -209,6 +209,7 @@ Turn a defensive wall position into a threat, submission as weapon and escape to
 ??? note "Safety &amp; related games"
 
     <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🧠</span> Head up when you drive. Dropping the head while your partner comes off the wall is how necks get compressed. If you are going to disappear, disappear into the wall, not into the floor</span>
       <span class="emma-chip"><span class="emma-chip__i">🤝</span> Controlled submissions, tap early</span>
       <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on cranking submissions or slamming</span>
       <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if stalling without progress</span>

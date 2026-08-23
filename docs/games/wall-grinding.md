@@ -209,6 +209,7 @@ Deal damage from wall control without losing the control, dirty boxing, knees an
 ??? note "Safety &amp; related games"
 
     <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🧠</span> Head up when you drive. Dropping the head while your partner comes off the wall is how necks get compressed. If you are going to disappear, disappear into the wall, not into the floor</span>
       <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact, knees especially controlled</span>
       <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on excessive force or lost composure</span>
       <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if grinding becomes stalling</span>

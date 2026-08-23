@@ -218,6 +218,7 @@ Teach vertical control, the wall becomes the dominant constraint that organizes 
 ??? note "Safety &amp; related games"
 
     <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🧠</span> Head up when you drive. Dropping the head while your partner comes off the wall is how necks get compressed. If you are going to disappear, disappear into the wall, not into the floor</span>
       <span class="emma-chip"><span class="emma-chip__i">🧱</span> Use mats and a controlled wall surface</span>
       <span class="emma-chip"><span class="emma-chip__i">🤐</span> DNS threats stay controlled, no cranking</span>
       <span class="emma-chip"><span class="emma-chip__i">🔄</span> Reset on significant space or disengage</span>

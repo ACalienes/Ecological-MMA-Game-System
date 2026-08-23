@@ -210,6 +210,7 @@ Start pinned, shoulders flat to the wall, break free by actively escaping or rev
 ??? note "Safety &amp; related games"
 
     <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🧠</span> Head up when you drive. Dropping the head while your partner comes off the wall is how necks get compressed. If you are going to disappear, disappear into the wall, not into the floor</span>
       <span class="emma-chip"><span class="emma-chip__i">🤝</span> Light-to-moderate contact</span>
       <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on lost composure or unsafe scramble</span>
       <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the defender only survives passively</span>

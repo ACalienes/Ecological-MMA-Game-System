@@ -209,6 +209,7 @@ Convert vertical control into horizontal, bring the opponent down from the wall 
 ??? note "Safety &amp; related games"
 
     <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🧠</span> Head up when you drive. Dropping the head while your partner comes off the wall is how necks get compressed. If you are going to disappear, disappear into the wall, not into the floor</span>
       <span class="emma-chip"><span class="emma-chip__i">🤝</span> Controlled landings, no dumping bodyweight</span>
       <span class="emma-chip"><span class="emma-chip__i">🛑</span> Stop on uncontrolled descent or slam</span>
       <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset if the attacker forces through strength</span>
