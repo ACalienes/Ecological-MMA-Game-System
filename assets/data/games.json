@@ -170,6 +170,42 @@
       "hero": "assets/img/heroes/clinch-denial.png"
     },
     {
+      "slug": "clinch-holder",
+      "title": "Clinch Holder",
+      "environment": "transition",
+      "domain": "wrestling",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "gloves",
+        "mats"
+      ],
+      "prereq_games": [
+        "fifty-fifty-clinch",
+        "closing-the-distance"
+      ],
+      "tags": [
+        "wip",
+        "clinch",
+        "fifty-fifty-clinch",
+        "wall",
+        "pin",
+        "dirty-boxing",
+        "knees",
+        "escape",
+        "level-change",
+        "anti-stall",
+        "forehead-pressure",
+        "class-derived"
+      ],
+      "status": "wip",
+      "type": "game",
+      "is_format": false,
+      "description": "The sibling of 50/50 Clinch: same start, opposite goals. One man has to keep you and hurt you at the same time. The other has to leave, or get under you.",
+      "hero": null
+    },
+    {
       "slug": "close-range-defense",
       "title": "Close-Range Defense",
       "environment": "open-space",
@@ -265,6 +301,42 @@
       "is_format": false,
       "description": "Win your posture, open the legs, pass to chest-to-chest.",
       "hero": "assets/img/heroes/closed-guard-pass.png"
+    },
+    {
+      "slug": "closing-the-distance",
+      "title": "Closing the Distance",
+      "environment": "open-space",
+      "domain": "wrestling",
+      "focus": "combined",
+      "difficulty": "intermediate",
+      "duration": "medium",
+      "equipment": [
+        "boundary-markers",
+        "gloves"
+      ],
+      "prereq_games": [
+        "clinch-denial",
+        "pressure-to-clinch"
+      ],
+      "tags": [
+        "wip",
+        "clinch",
+        "clinch-entry",
+        "distance",
+        "jab",
+        "hand-fighting",
+        "underhook",
+        "level-change",
+        "takedown",
+        "disincentive",
+        "open-space",
+        "class-derived"
+      ],
+      "status": "wip",
+      "type": "game",
+      "is_format": false,
+      "description": "The man who wants to grab you has almost nothing. The man who wants to stay free has almost everything, including the takedown. Close that gap anyway.",
+      "hero": null
     },
     {
       "slug": "counter-striking",
