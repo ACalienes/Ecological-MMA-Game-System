@@ -1,6 +1,6 @@
 # System Map
 
-<div class="emma-meta"><span>Visual Navigation</span><span>All 62 Games</span><span>Environment → Finish</span></div>
+<div class="emma-meta"><span>Visual Navigation</span><span>All 64 Games</span><span>Environment → Finish</span></div>
 
 <p class="emma-hl"><b>The fight is cyclical.</b> You move between environments until someone finishes, and every path has a reverse. This map routes you from foundation skills through every game to a finish.</p>
 
@@ -253,7 +253,7 @@ Every position has a way IN and a way OUT.
   <div class="emma-stat"><span class="emma-stat__num">2</span><span class="emma-stat__label">Transition</span></div>
   <div class="emma-stat"><span class="emma-stat__num">6</span><span class="emma-stat__label">Wall</span></div>
   <div class="emma-stat"><span class="emma-stat__num">27</span><span class="emma-stat__label">Ground</span></div>
-  <div class="emma-stat"><span class="emma-stat__num">62</span><span class="emma-stat__label">Total Games</span></div>
+  <div class="emma-stat"><span class="emma-stat__num">64</span><span class="emma-stat__label">Total Games</span></div>
 </div>
 
 <p class="emma-glabel">Concept Integration</p>

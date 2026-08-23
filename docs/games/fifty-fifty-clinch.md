@@ -48,7 +48,7 @@ Win a dominant connection from a neutral 50/50 clinch, double-unders, a leg, or 
   <div class="emma-arc__sep">→</div>
   <div class="emma-arc__node"><span class="emma-arc__k">The Goal</span><b>Beat your partner to a dominant connection: double-unders locked, a hand to a leg above the knee, or the back, or off-balance them down while you stay standing.</b></div>
   <div class="emma-arc__sep">→</div>
-  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Any clean connection or grounding → reset to 50/50. Strikes are live to tax the player who only defends.</b></div>
+  <div class="emma-arc__node emma-arc__node--finish"><span class="emma-arc__k">Finish</span><b>Any clean connection or grounding, used and not merely touched → reset to 50/50. Strikes are live so neutral never means waiting.</b></div>
 </div>
 
 <div class="emma-band">
@@ -95,7 +95,7 @@ Win a dominant connection from a neutral 50/50 clinch, double-unders, a leg, or 
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🦵</span> A hand to a leg above the knee is a win<span class="emma-chip__detail">Hands connected around a leg above the knee. A grab below the knee is an exposed low single, not a connection, it does not count. This is the hand-connection law.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🔄</span> The back is the gold-star win<span class="emma-chip__detail">Get chest-to-back behind your partner. It is the best connection and the hardest to reach, score it whenever it is there.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬇️</span> Off-balance only scores if you stay standing<span class="emma-chip__detail">Put your partner's hips to the ground while you stay on your feet or end on top. If you both fall, it does not count, the game rewards staying over the grounded opponent.</span></span>
-  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> Strikes are the stalling tax<span class="emma-chip__detail">Blunted Thai knees off the inside of the thigh and shown punches to antagonize. No elbows. The player who only defends gets antagonized, the strikes punish passivity so neutral never means waiting.</span></span>
+  <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🥊</span> A connection you do not use is not a win<span class="emma-chip__detail">The house anti-stall standard: the win has to include doing something with the position, not merely reaching it. Lock the double-unders and convert or hold them through a real escape attempt. Blunted Thai knees off the inside of the thigh and shown punches are live from level 3, no elbows, so a player who only defends pays for it. See <a href="../clinch-holder/">Clinch Holder</a>, where the same rule is the entire game.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">🤝</span> Reset on connection<span class="emma-chip__detail">Any clean connection or grounding resets both fighters to the neutral 50/50. A simultaneous connection is a reset with no score.</span></span>
   <span class="emma-chip emma-chip--info" tabindex="0"><span class="emma-chip__i">⬛</span> Stay inside the perimeter<span class="emma-chip__detail">Play happens inside a marked perimeter, any shape. If a player leaves it, that player loses the round.</span></span>
 </div>
@@ -113,7 +113,7 @@ Win a dominant connection from a neutral 50/50 clinch, double-unders, a leg, or 
 <div class="emma-stepper">
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">1</span><b>Grips only</b>No strikes, find the weak post.<span class="emma-pop emma-pop--l">Start in the 50/50, no strikes. Pummel for the under and drag to the unloaded side. Connections only, no grounding yet. Finds the felt-load read.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">2</span><b>Add the ground</b>Off-balance is now live.<span class="emma-pop emma-pop--l">The off-balance to the ground becomes a win, but only if you stay standing or end on top. Feet-to-feet contact and side-to-side drags, not slams.</span></div>
-  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Strikes on</b>The anti-stall tax.<span class="emma-pop emma-pop--l">Blunted knees off the thigh and shown punches come on. The player who only defends now pays for it. Neutral becomes urgent.</span></div>
+  <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">3</span><b>Strikes on</b>Holding stops being enough.<span class="emma-pop emma-pop--l">Blunted knees off the thigh and shown punches come on, and the connection wins now require you to use them rather than just arrive at them. The player who only defends pays for it. Neutral becomes urgent.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">4</span><b>Wall live</b>Start a step off the wall.<span class="emma-pop emma-pop--l">Begin one body-length off the wall. Drag your partner onto it to pin and connect, or get dragged onto it yourself. The wall helps or hurts.</span></div>
   <div class="emma-step emma-has-pop" tabindex="0"><span class="emma-step__n">5</span><b>Full expression</b>All wins live, short rounds.<span class="emma-pop emma-pop--l">Neutral 50/50, every win path live, strikes on, the wall available. Lock in even, then move first, connect, reset, go again.</span></div>
 </div>
@@ -213,6 +213,7 @@ Win a dominant connection from a neutral 50/50 clinch, double-unders, a leg, or 
 ??? note "Safety &amp; related games"
 
     <div class="emma-chips">
+      <span class="emma-chip"><span class="emma-chip__i">🧠</span> Head up when you drive. Dropping the head while your partner comes off the wall is how necks get compressed. If you are going to disappear, disappear into the wall, not into the floor</span>
       <span class="emma-chip"><span class="emma-chip__i">🤝</span> Controlled grappling, no falling body weight</span>
       <span class="emma-chip"><span class="emma-chip__i">🦵</span> Blunted knees off the thigh only, no elbows</span>
       <span class="emma-chip"><span class="emma-chip__i">🔁</span> Reset on any connection or grounding</span>
@@ -223,7 +224,8 @@ Win a dominant connection from a neutral 50/50 clinch, double-unders, a leg, or 
     <div class="emma-flow">
       <div class="emma-flow__row"><span class="emma-flow__from">Prerequisite</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-clinch/">Pressure to Clinch</a></span></div>
       <div class="emma-flow__row"><span class="emma-flow__from">Follow-on</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../body-lock-to-ground/">Body Lock to Ground</a> · <a href="../back-maintenance/">Back Maintenance</a></span></div>
-      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-wall/">Pressure to Wall</a> · <a href="../../concepts/winning-the-circle/">Winning the Circle</a></span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Sibling</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../clinch-holder/">Clinch Holder</a>, the same 50/50 start with opposite goals, one holds and damages while the other leaves</span></div>
+      <div class="emma-flow__row"><span class="emma-flow__from">Related</span><span class="emma-flow__arr">→</span><span class="emma-flow__to"><a href="../pressure-to-wall/">Pressure to Wall</a> · <a href="../closing-the-distance/">Closing the Distance</a> · <a href="../../concepts/three-points-of-pressure/">Three Points of Pressure</a> · <a href="../../concepts/winning-the-circle/">Winning the Circle</a></span></div>
     </div>
 
 <p class="emma-glabel">Variant: One-Sided Escape <span style="font-size:.7em;opacity:.7">(WIP, class 2026-07-05)</span></p>

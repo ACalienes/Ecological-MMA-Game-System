@@ -1,6 +1,6 @@
 # Prerequisite Map
 
-<div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>62-Game System</span></div>
+<div class="emma-meta"><span>Reference</span><span>Progression Map</span><span>64-Game System</span></div>
 
 <p class="emma-hl"><b>How games connect.</b> Every game has an entry point and a path forward, this map shows the prerequisites, the chains they form, and the concepts each game leans on.</p>
 
@@ -216,4 +216,4 @@ Some games require understanding a specific concept first.
     </ul>
 
 ??? abstract "System evolution notice"
-    This map reflects the current 62-game system and will update as games are added.
+    This map reflects the current 64-game system and will update as games are added.

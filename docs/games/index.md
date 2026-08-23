@@ -6,7 +6,7 @@ The complete catalog of training games in the Ecological MMA System.
 
 ## Quick Reference
 
-!!! tip "62 Games Across 5 Environments"
+!!! tip "64 Games Across 5 Environments"
 
     | Environment | Games | Focus |
     |-------------|-------|-------|
@@ -73,6 +73,7 @@ Games at the seam between striking and wrestling, handling domain changes.
 | Game | Focus | Difficulty | Core Problem |
 |------|-------|------------|--------------|
 | [Clinch Denial](clinch-denial.md) | Defensive | Intermediate | Prevent clinch establishment |
+| [Closing the Distance (WIP)](closing-the-distance.md) | Combined | Intermediate | Cross a striker's range to a clinch, with almost no weapons |
 | [Counter-Wrestling](counter-wrestling.md) | Defensive | Intermediate | Use wrestling to stop striking pressure |
 
 ---
@@ -88,6 +89,7 @@ Standing games focused on takedowns and pressure.
 | [Pressure to Wall](pressure-to-wall.md) | Offensive | Advanced | Chain strikes to wall control for grinding |
 | [Open Space Takedown](open-space-takedown.md) | Combined | Intermediate | Execute takedowns without wall assistance |
 | [50/50 Clinch (WIP)](fifty-fifty-clinch.md) | Combined | Intermediate | Win the first dominant connection from a neutral over-under clinch |
+| [Clinch Holder (WIP)](clinch-holder.md) | Combined | Intermediate | Keep the clinch and damage from it, while he escapes or shoots |
 | [Body Lock to Ground (WIP)](body-lock-to-ground.md) | Offensive | Intermediate | Ground the hips from the body lock or back, before they break and turn |
 | [The Square (WIP)](the-square.md) | Defensive | Intermediate | Close defense layered live into a takedown progression |
 

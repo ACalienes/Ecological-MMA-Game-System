@@ -113,8 +113,10 @@ nav:
         - Clinch Denial: games/clinch-denial.md
       - Center Clinch:
         - 50/50 Clinch (WIP): games/fifty-fifty-clinch.md
+        - Clinch Holder (WIP): games/clinch-holder.md
       - Initiate:
         - Pressure to Clinch: games/pressure-to-clinch.md
+        - Closing the Distance (WIP): games/closing-the-distance.md
         - Pressure to Wall: games/pressure-to-wall.md
     - Open Space → Ground:
       - Prevent:
@@ -178,6 +180,7 @@ nav:
     - TKO Pin: concepts/tko-pin.md
     - Defensive Solutions: concepts/defensive-solutions.md
     - Hand Controls: concepts/hand-controls.md
+    - Three Points of Pressure: concepts/three-points-of-pressure.md
     - Winning the Circle: concepts/winning-the-circle.md
     - The Finishing Sequence: concepts/finishing-sequence.md
     - Guard Recovery: concepts/guard-recovery.md
